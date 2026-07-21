@@ -1,118 +1,668 @@
 {
   "run_date": "2026-07-21",
-  "collection_method": "WebSearch snippets only (direct API/WebFetch to eutils.ncbi.nlm.nih.gov and sciencedirect.com returned HTTP 403 due to organizational network policy)",
+  "collection_method": "PubMed E-utilities (eutils.ncbi.nlm.nih.gov) ESearch+ESummary direct API access; journal filter Carbohydr Polym[ta], Journal Article type, Review type excluded; supplemented with a targeted ESearch for soybean protein isolate / paper coating keywords to ensure focus-keyword coverage.",
   "journal": "Carbohydrate Polymers (ISSN 0144-8617, Elsevier)",
-  "lookback_note": "First run - no prior seen_articles baseline. Articles limited to those found via WebSearch, PII-confirmed as Carbohydrate Polymers (S0144861X... prefix), published within the last ~2 years.",
+  "target_count": 20,
+  "final_count": 94,
+  "exclusions_applied": "Review articles, retraction notices, and microbe-biology-centric articles (e.g., E. coli strain engineering for chondroitin sulfate production, fungal spore inactivation mechanism studies) were excluded.",
   "articles": [
     {
-      "id": "pii:S0144861725001845",
-      "title": "Preparation and properties of chitosan/cellulose nanofiber dual-network composite by in-situ catalysis of recombinant enzyme",
-      "authors": "Not confirmed via snippet",
-      "date": "2025 (approx.)",
-      "doi_or_pii": "PII S0144861725001845",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861725001845",
-      "keywords": ["cellulose", "chitosan"],
-      "source": "WebSearch snippet"
+      "pmid": "42285680",
+      "title": "Tuning the degree of substitution of octenyl succinic anhydride-modified highly branched cyclodextrin: Impacts on structure, physicochemical properties and emulsifying performance",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125509",
+      "authors": "Wang L, et al. (Yuan C, corr.)"
     },
     {
-      "id": "pii:S0144861725001481",
-      "title": "Impact of pectin structural diversity on gut microbiota: A mechanistic exploration through in vitro fermentation",
-      "authors": "Not confirmed via snippet",
-      "date": "2025 (approx.)",
-      "doi_or_pii": "PII S0144861725001481",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0144861725001481",
-      "keywords": ["pectin"],
-      "source": "WebSearch snippet"
+      "pmid": "42285679",
+      "title": "Tailoring cellulose nanofibril separator networks with lignin for sustainable energy storage",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125499",
+      "authors": "Bas Y, et al. (Oksman K, corr.)"
     },
     {
-      "id": "pii:S0144861725003534",
-      "title": "Enhancing the OPLS-AA force field for cellulose Iβ: structural stability and surface functionalization capability with the CM5 charge model",
-      "authors": "Not confirmed via snippet",
-      "date": "2025 (approx.)",
-      "doi_or_pii": "PII S0144861725003534",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0144861725003534",
-      "keywords": ["cellulose", "molecular simulation"],
-      "source": "WebSearch snippet"
+      "pmid": "42285678",
+      "title": "Dual-functional synergistic modification of cellulose with phosphate and amidoxime for high-efficiency uranium capture in acidic wastewater",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125495",
+      "authors": "Zhao X, et al. (Hu R, corr.)"
     },
     {
-      "id": "pii:S0144861725003777",
-      "title": "Deciphering the interplay between pectin structural variability, intestinal bioavailability and gut microbiota metabolism: A review",
-      "authors": "Not confirmed via snippet",
-      "date": "2025-04-09",
-      "doi_or_pii": "PII S0144861725003777",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861725003777",
-      "keywords": ["pectin"],
-      "source": "WebSearch snippet"
+      "pmid": "42285677",
+      "title": "Hierarchical construction of a superhydrophobic and superior intrinsically flame-retardant phosphorylated microcrystalline cellulose bio-based composite aerogel",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125493",
+      "authors": "Lang W, et al. (Wu N, corr.)"
     },
     {
-      "id": "pii:S0144861725011464",
-      "title": "Living sand: Microbial nanocellulose and chitin-rich mycelia enhance granular material properties",
-      "authors": "Vakeri, S.M.; Sinha, A.; Greca, L.G. (et al.)",
-      "date": "2025, Vol 370, article 124361",
-      "doi_or_pii": "PII S0144861725011464",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0144861725011464",
-      "keywords": ["cellulose", "biomass"],
-      "source": "WebSearch snippet"
+      "pmid": "42285676",
+      "title": "Structural characterization, in vitro anticoagulant, and antiplatelet activities of a Distolasterias nipon dermatan sulfate-like polymer with a distinctive sulfation pattern",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125492",
+      "authors": "Filshtein AP, et al. (Kokoulin MS, corr.)"
     },
     {
-      "id": "pii:S0144861725012469",
-      "title": "Polysaccharides in cryopreservation: multidimensional systematic review of extremophilic traits and the role of selective pressure in structure-function relationships",
-      "authors": "Not confirmed via snippet",
-      "date": "2025 (approx.)",
-      "doi_or_pii": "PII S0144861725012469",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0144861725012469",
-      "keywords": ["polysaccharide"],
-      "source": "WebSearch snippet"
+      "pmid": "42285675",
+      "title": "Charge-density-dependent selective radical suppression in carboxymethyl cellulose",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125491",
+      "authors": "Kono H, et al. (Ogata M, corr.)"
     },
     {
-      "id": "pii:S0144861725015905",
-      "title": "Recent developments in all-polysaccharide hydrogels: Synthesis, properties, and biomedical applications",
-      "authors": "Not confirmed via snippet",
-      "date": "2025 (approx.)",
-      "doi_or_pii": "PII S0144861725015905",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861725015905",
-      "keywords": ["hydrogel", "polysaccharide"],
-      "source": "WebSearch snippet"
+      "pmid": "42285674",
+      "title": "A combined mechanical grinding-deep eutectic solvent strategy for the deconstruction of carbohydrates-rich fruit by-products",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125489",
+      "authors": "Perret L, et al. (Mayer-Laigle C, corr.)"
     },
     {
-      "id": "pii:S0144861725016005",
-      "title": "High-performance fully bio-based cellulose plastics through dual cross-linking with epoxidized linseed oil",
-      "authors": "Heyi Pan, Zhihan Liu, Yuting Zhou, Wenkang Zhong, Xiaomin Wang, Chaoqun Zhang, Yang Wang",
-      "date": "2025 (approx.)",
-      "doi_or_pii": "PII S0144861725016005",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861725016005",
-      "keywords": ["cellulose", "biomass"],
-      "source": "WebSearch snippet"
+      "pmid": "42285673",
+      "title": "Unlocking complete sugarcane residue valorisation for sequential fractionation of cellulose, hemicellulose and lignin through a one-pot, two-step deep eutectic solvent strategy",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125488",
+      "authors": "Mao Y, et al. (Binner ER, corr.)"
     },
     {
-      "id": "pii:S0144861726002614",
-      "title": "High-molecular weight hyaluronic acid protects against colitis by remodeling microbiota and restoring barrier function",
-      "authors": "Not confirmed via snippet",
-      "date": "2026-06-01, Vol 381, article 125145",
-      "doi_or_pii": "PII S0144861726002614",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861726002614",
-      "keywords": ["hyaluronic acid"],
-      "source": "WebSearch snippet"
+      "pmid": "42285672",
+      "title": "Integrated design of epigallocatechin gallate nanoparticles and tannic acid to reinforce the porous structure of kappa-carrageenan/pullulan absorbent pads for extending beef shelf life",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125487",
+      "authors": "Wang X, et al. (Gao Z, corr.)"
     },
     {
-      "id": "pii:S0144861726006624",
-      "title": "Additive manufacturing of chitosan and its derivatives: Advancing safe and sustainable by design (SSbD) materials",
-      "authors": "Not confirmed via snippet",
-      "date": "2026-09-15, Vol 388, article 125545",
-      "doi_or_pii": "PII S0144861726006624",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861726006624",
-      "keywords": ["chitosan", "additive manufacturing"],
-      "source": "WebSearch snippet"
+      "pmid": "42285671",
+      "title": "Correlating polymer solution and membrane fabrication with morphological and permeation properties of cellulose acetate ultrafiltration membranes",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125485",
+      "authors": "Pires RF, et al. (Faria M, corr.)"
     },
     {
-      "id": "pii:S014486172600679X",
-      "title": "Polysaccharide structure of Mannoproteins influences the colloidal outcome of their interactions with grape seed tannins",
-      "authors": "Not confirmed via snippet",
-      "date": "2026-09-15, Vol 388, article 125562",
-      "doi_or_pii": "PII S014486172600679X",
-      "url": "https://www.sciencedirect.com/science/article/pii/S014486172600679X",
-      "keywords": ["polysaccharide", "mannoprotein"],
-      "source": "WebSearch snippet"
+      "pmid": "42285670",
+      "title": "Mechanical role of disordered cellulose in macrofibrils of softwood secondary cell walls",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125484",
+      "authors": "Yu Z, et al. (Zhang Y, corr.)"
+    },
+    {
+      "pmid": "42285669",
+      "title": "Carbohydrate polymer-stabilized Pickering emulsion gel coordinates antimicrobial and pro-regenerative cues for scar-minimized wound healing",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125483",
+      "authors": "Bello MG, et al. (Chen L, corr.)"
+    },
+    {
+      "pmid": "42285668",
+      "title": "Ultrasound treatment of maize starches with varying amylose and gelatinisation state",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125482",
+      "authors": "Zhu M, et al. (Dhital S, corr.)"
+    },
+    {
+      "pmid": "42285667",
+      "title": "Multi-stimuli responsive cellulose nanocrystal-based microcapsules with enhanced insecticidal efficacy and environmental safety",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125481",
+      "authors": "Zhou EM, et al. (Li J, corr.)"
+    },
+    {
+      "pmid": "42285666",
+      "title": "Preparation of bovine serum albumin-gamma-cyclodextrin conjugate and its solubilization and delivery performance for paclitaxel",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125480",
+      "authors": "He W, et al. (Zhang H, corr.)"
+    },
+    {
+      "pmid": "42285665",
+      "title": "High-strength PVA-based carboxymethyl cellulose hydrogel enabling adaptive plugging of cracks of varying widths",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125479",
+      "authors": "Li L, et al. (Feng C, corr.)"
+    },
+    {
+      "pmid": "42285664",
+      "title": "Molecular engineering of cellulose-rich Caragana fiber with phytic acid construct high-energy phosphate sites for efficient rare earth capture",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125477",
+      "authors": "Wang X, et al. (Guo F, corr.)"
+    },
+    {
+      "pmid": "42285663",
+      "title": "From crude extracts to purified fractions: Tracking sulfate preservation, antioxidant loss, and nanostructures by X-ray scattering of Hokkaido brown algae fucoidans",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125476",
+      "authors": "Kumagai Y, et al. (Lang W, corr.)"
+    },
+    {
+      "pmid": "42285657",
+      "title": "Oxidative deboronation of boronic acids by hydrogen peroxide in planta generates borate for cross-linking of rhamnogalacturonan II",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125464",
+      "authors": "Sharma D, et al. (Urbanowicz B, corr.)"
+    },
+    {
+      "pmid": "42285649",
+      "title": "Multifunctional oxidized arabinogalactan/N-methylacrylamide chitosan-based elastic gel designed by dual crosslinking for sensing and energy harvesting applications",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125513",
+      "authors": "Zhang H, et al. (Fang G, corr.)"
+    },
+    {
+      "pmid": "42285658",
+      "title": "Designing soy protein amyloid fibrils-high methoxyl pectin composite gel as a potential dysphagia food: Focus on interaction exploration and delivery properties",
+      "date": "2026-09-01",
+      "doi": "10.1016/j.carbpol.2026.125470",
+      "authors": "Feng J, et al. (Jiang L, corr.)"
+    },
+    {
+      "pmid": "42097782",
+      "title": "Physiological regulatory mechanisms of super hybrid indica rice on starch synthesis in response to different nitrogen fertilizer levels",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125353",
+      "authors": "Yang X, et al. (Zhao Q, corr.)"
+    },
+    {
+      "pmid": "42097781",
+      "title": "Effect of degree of substitution on the structural degradation and butyric acid production of butyrylated starch during in vitro fermentation",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125352",
+      "authors": "Zhang Y, et al. (Li L, corr.)"
+    },
+    {
+      "pmid": "42097779",
+      "title": "Alginate-based composite hydrogel derived from Azotobacter vinelandii Av1: Preparation, properties, and wound-healing efficacy",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125350",
+      "authors": "Yang P, et al. (Mou H, corr.)"
+    },
+    {
+      "pmid": "42097778",
+      "title": "A composite conductive hydrogel loaded with alginate/gelatin microspheres with micro-environmentally induced smart temporal regulation for acute myocardial infarction treatment",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125346",
+      "authors": "Mu L, et al. (Guo B, corr.)"
+    },
+    {
+      "pmid": "42097777",
+      "title": "Exosome-camouflaged chitosan/zinc oxide/carbon quantum dot nanocarriers for pH-responsive doxorubicin delivery in breast cancer treatment",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125345",
+      "authors": "Pourmasoumi P, et al. (Pourmadadi M, corr.)"
+    },
+    {
+      "pmid": "42097776",
+      "title": "Construction dual-temperature responsive hydrogel of hydroxypropyl methylcellulose and kappa-carrageenan via formation of dynamic semi-interpenetrating physical structure",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125344",
+      "authors": "Sun M, et al. (Pang Z, corr.)"
+    },
+    {
+      "pmid": "42097775",
+      "title": "Gum arabic-coated urolithin A liposome nanoparticles: Fabrication, characterization, bioavailability and improved alleviation on NAFLD activity in vivo",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125343",
+      "authors": "Zhang L, et al. (Chen M, corr.)"
+    },
+    {
+      "pmid": "42097774",
+      "title": "Bioactive cellulose foams produced by mussel-inspired polydopamine coating as a matrix for phenolic acid functionalization",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125339",
+      "authors": "Senthil A, et al. (Antonopoulou I, corr.)"
+    },
+    {
+      "pmid": "42097773",
+      "title": "Dynamic injectable and multifunctional hydrogel incorporating dihydroquercetin (DHQ)-loaded chitosan nanoparticles for sustained DHQ release and accelerated burn wound healing",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125334",
+      "authors": "Huo DY, et al. (Li W, corr.)"
+    },
+    {
+      "pmid": "42097772",
+      "title": "Self-assembling gardenia pectin gel for cholestatic liver injury: Dual mechanisms of hepatoprotection via PPARalpha activation and gut microbial modulation",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125332",
+      "authors": "Ao L, et al. (Wu JL, corr.)"
+    },
+    {
+      "pmid": "42097771",
+      "title": "High transparent, high strength and high energy storage capability of cellulose triacetate films via incorporating cellulose nanocrystal",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125274",
+      "authors": "Xiao XR, et al. (Wang Y, corr.)"
+    },
+    {
+      "pmid": "42097769",
+      "title": "Chito-oligosaccharide-reinforced thermally cross-linked fish skin gelatin films with silver nanoparticles: Enhanced properties and accelerated wound healing",
+      "date": "2026-07-15",
+      "doi": "10.1016/j.carbpol.2026.125356",
+      "authors": "Zhen Q, et al. (Chen X, corr.)"
+    },
+    {
+      "pmid": "42067361",
+      "title": "Chitosan-TiO2-curcumin composite coatings: Toward nature-inspired, protective and sustainable silk materials",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125341",
+      "authors": "Tomsic B, et al. (Simoncic B, corr.)"
+    },
+    {
+      "pmid": "42067360",
+      "title": "Encapsulation of gold nanoparticles in a chitosan nanoparticle framework via emulsion system: A key step for antigen strip tests",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125340",
+      "authors": "Kertsomboon T, et al. (Chirachanchai S, corr.)"
+    },
+    {
+      "pmid": "42067358",
+      "title": "A bilayer carbohydrate hydrogel spatiotemporally modulates the leucine-mTORC1 axis in macrophages to orchestrate wound immunity and regeneration",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125336",
+      "authors": "Niu Z, et al. (Qi H, corr.)"
+    },
+    {
+      "pmid": "42067356",
+      "title": "Pharmaceutical optimization of chitosan tablets is associated with reduced circulating bile acids and fibrosis-related molecular signatures in non-alcoholic steatohepatitis rats",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125333",
+      "authors": "Adachi T, et al. (Anraku M, corr.)"
+    },
+    {
+      "pmid": "42067354",
+      "title": "Characterization of a polysaccharide from Rhodobryum giganteum and its activation effects on TLR4/PI3K-Akt/IkappaBalpha pathway",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125319",
+      "authors": "Geng JM, et al. (Liu L, corr.)"
+    },
+    {
+      "pmid": "42067353",
+      "title": "Morphology-engineered nickel-iminodiacetic acid functionalized agarose magnetic microspheres for enhanced polyhistidine-tagged protein purification",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125318",
+      "authors": "Yin Q, et al. (Xiao Q, corr.)"
+    },
+    {
+      "pmid": "42067352",
+      "title": "Structural elucidation and distribution pattern of glucuronic acid in beta-glucan from Hypsizygus marmoreus using glycosidase hydrolysis",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125317",
+      "authors": "Qu Y, et al. (Zhou Y, corr.)"
+    },
+    {
+      "pmid": "42067351",
+      "title": "Structure and hepatoprotective activity of autophagy-related Butyriboletus roseoflavus polysaccharide",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125316",
+      "authors": "Sun Z, et al. (Li L, corr.)"
+    },
+    {
+      "pmid": "42067350",
+      "title": "epsilon-poly-l-lysine-grafted nanocellulose prepared by enzymatic oxidation for high-internal-phase Pickering emulsions and nutraceutical delivery",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125315",
+      "authors": "Chen H, et al. (Fan Y, corr.)"
+    },
+    {
+      "pmid": "42067349",
+      "title": "Assessing the side chain architecture of dextrans by quantifying enzymatically liberated oligosaccharides",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125314",
+      "authors": "Muller O, et al. (Wefers D, corr.)"
+    },
+    {
+      "pmid": "42067348",
+      "title": "Hyaluronic acid-engineered infection-responsive liposomes achieve biofilm penetration and synergistic photothermal-photodynamic antibacterial therapy",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125313",
+      "authors": "Cao S, et al. (Yin H, corr.)"
+    },
+    {
+      "pmid": "42067347",
+      "title": "A multiscale strategy to fabricate tough and highly flame-retardant bamboo-based cellulose bioplastics",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125312",
+      "authors": "Shen R, et al. (Chu F, corr.)"
+    },
+    {
+      "pmid": "42067346",
+      "title": "Enhanced biodistribution and efficacy of nicomenthyl encapsulated in emulsions stabilized by methacrylated hyaluronic acid for the prevention and treatment of skin photoaging",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125311",
+      "authors": "Zamora P, et al. (Dupin D, corr.)"
+    },
+    {
+      "pmid": "42067343",
+      "title": "An acid-resistant polyethyleneimine-phosphate co-modified chitosan-SiO2 hybrid aerogels: Ultra-high capacity for uranium(VI) adsorption",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125308",
+      "authors": "Liao J, et al. (Zheng T, corr.)"
+    },
+    {
+      "pmid": "42067342",
+      "title": "Biomimetic multifunctional material: Bidirectional-freezing-mediated hierarchically ordered nanocellulose material with synergistic desalination and hydropower generation",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125307",
+      "authors": "Tang N, et al. (Yue Y, corr.)"
+    },
+    {
+      "pmid": "42067341",
+      "title": "In-situ heterojunction on high-aspect-ratio cellulose nanocrystals for long-range charge transport in e-skin",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125305",
+      "authors": "Shen C, et al. (Huang J, corr.)"
+    },
+    {
+      "pmid": "42067340",
+      "title": "Biomimetic pangolin-scale sustainable cellulose-based composite paper serves as a multifunctional platform for portable radiative cooling",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125304",
+      "authors": "Jiang F, et al. (Lin B, corr.)"
+    },
+    {
+      "pmid": "42067339",
+      "title": "Enhanced utilization of okara through microbial fermentation: Isolation and immunostimulatory potential of a beta-galactan",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125303",
+      "authors": "Xu Y, et al. (Cheng J, corr.)"
+    },
+    {
+      "pmid": "42067338",
+      "title": "A multi-glycomic tool for characterization of resistant starch",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125301",
+      "authors": "Jiang S, et al. (Lebrilla CB, corr.)"
+    },
+    {
+      "pmid": "42067337",
+      "title": "Multi-level design of a chitosan-based membrane: from sisal fiber reinforcement to surface micropatterning and hybrid HAp for enhanced bone regeneration",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125300",
+      "authors": "Tang S, et al. (Jiang L, corr.)"
+    },
+    {
+      "pmid": "42067336",
+      "title": "Chilled beef preservation by quaternized areca-husk cellulose nanocrystals and oregano essential oil encapsulated in a zeolitic imidazolate framework-8 in synthesized composite films",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125299",
+      "authors": "Xin K, et al. (Liu X, corr.)"
+    },
+    {
+      "pmid": "42067334",
+      "title": "Esters of alpha-1,3-glucan: designed enzymatic polysaccharides as new matrices for sustainable packaging and membrane applications",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125296",
+      "authors": "Papchenko K, et al. (De Angelis MG, corr.)"
+    },
+    {
+      "pmid": "42067331",
+      "title": "A pH/heating-driven curdlan-based complementary hydrogel for promoting full-thickness skin wound healing",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125293",
+      "authors": "Cui Q, et al. (Wu X, corr.)"
+    },
+    {
+      "pmid": "42067330",
+      "title": "Partial debranching and microwave treatment stabilize amylopectin-flavor interactions for better tsampa processing outcomes",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125288",
+      "authors": "Chen X, et al. (Zhao Y, corr.)"
+    },
+    {
+      "pmid": "42067329",
+      "title": "Tracking transformations of polymeric carbohydrates from green coffee beans to spent coffee grounds: Mannan-dominant structures and valorization implications",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125285",
+      "authors": "Eder M, et al. (Potthast A, corr.)"
+    },
+    {
+      "pmid": "42067328",
+      "title": "Architecture-governed dissolution-free conversion of lignocellulosic biomass into cellulose I beads by chemomechanical consolidation",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125284",
+      "authors": "El Allaoui B, et al. (Pang CH, corr.)"
+    },
+    {
+      "pmid": "42067327",
+      "title": "A chitosan-based multifunctional hydrogel patch improves cardiac health and function by repairing the post-myocardial infarction microenvironment",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125281",
+      "authors": "Wang Q, et al. (Liu J, corr.)"
+    },
+    {
+      "pmid": "42067325",
+      "title": "Phytic acid-engineered TiO2/cellulose composite hydrogels featuring multidentate phosphate sites for efficient Cu(II)/La(III) adsorption",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125279",
+      "authors": "Han S, et al. (Fan G, corr.)"
+    },
+    {
+      "pmid": "42067322",
+      "title": "Solvent-free, one-pot mechanochemical synthesis of high-DS cellulose esters with tunable thermoplasticity",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125258",
+      "authors": "Xu Z, et al. (Luo SZ, corr.)"
+    },
+    {
+      "pmid": "42067321",
+      "title": "Polygalacturonic acid-functionalized pH/enzyme dual-responsive zeolitic imidazolate framework-8 nanopesticide system for prevention and control of rapeseed sclerotinia stem rot",
+      "date": "2026-07-01",
+      "doi": "10.1016/j.carbpol.2026.125342",
+      "authors": "Wu W, et al. (Wang P, corr.)"
+    },
+    {
+      "pmid": "42002358",
+      "title": "Plasma-activated nanocellulose for sustainable Pickering emulsions: Enhanced stability and antibacterial performance",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125214",
+      "authors": "Li Z, et al. (Liu D, corr.)"
+    },
+    {
+      "pmid": "42002357",
+      "title": "A novel Curcuma wenyujin-derived fructan modulates gut microbiota and metabolic pathways to ameliorate DSS-induced colitis",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125292",
+      "authors": "Li Z, et al. (Wang Z, corr.)"
+    },
+    {
+      "pmid": "42002356",
+      "title": "Lightweight and flame-retardant nanocellulose porous materials with robust mechanical properties fabricated via microwave-assisted DES pretreatment",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125291",
+      "authors": "Zhang X, et al. (Liu W, corr.)"
+    },
+    {
+      "pmid": "42002355",
+      "title": "Recalcitrant hemicellulose oligosaccharides from corn fiber: Structural insights and enzymatic strategies",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125290",
+      "authors": "Zhang J, et al. (Zhao J, corr.)"
+    },
+    {
+      "pmid": "42002354",
+      "title": "Double-Zigzag dislocation design of porous 3D-printed carbon nanotube/sodium alginate/strontium ferrite skeletons toward absorption-dominant electromagnetic interference shielding",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125289",
+      "authors": "Liang L, et al. (Xue B, corr.)"
+    },
+    {
+      "pmid": "42002352",
+      "title": "Epigallocatechin gallate-loaded alginate-peanut protein hydrogel beads: Influence of pectin-based crosslinking and chitosan-based coating strategies",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125286",
+      "authors": "Wang Y, et al. (Li W, corr.)"
+    },
+    {
+      "pmid": "42002351",
+      "title": "Single-molecule insight into a classic phenomenon: Water is the hidden switch for the V-amylose formation and starch-iodine color response",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125283",
+      "authors": "Qian L, et al. (Cui S, corr.)"
+    },
+    {
+      "pmid": "42002350",
+      "title": "Molecularly-thin cellulose nanoribbons (CR) as superior reinforcing agents for PVA composites: A comparative study with CNF and CNC",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125282",
+      "authors": "Zhu J, et al. (Song J, corr.)"
+    },
+    {
+      "pmid": "42002349",
+      "title": "Structural characterization of a fructan from Kalimeris indica and its efficacy in accelerating wound healing",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125271",
+      "authors": "Zhu L, et al. (Wang G, corr.)"
+    },
+    {
+      "pmid": "42002348",
+      "title": "A novel branched galactomannoglucan from Acorus tatarinowii alleviates liver fibrosis via dual suppression of the transport of collagen and TGF-beta/Smad signaling",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125270",
+      "authors": "Yuan H, et al. (Liao W, corr.)"
+    },
+    {
+      "pmid": "42002347",
+      "title": "Superior performance of chitosan microspheres loaded with hyperbranched polylysine for endotoxin adsorption: From molecular interactions to hemoperfusion applications",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125269",
+      "authors": "Feng Y, et al. (Zhao C, corr.)"
+    },
+    {
+      "pmid": "42002346",
+      "title": "Distribution of acetyl groups alters the properties of acetylated starch",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125262",
+      "authors": "Zhang X, et al. (Corke H, corr.)"
+    },
+    {
+      "pmid": "42002345",
+      "title": "Hybrid gels based on zein nanoparticles, pectin and hydroxypropyl guar gum co-stabilized MLCT-rich Pickering emulsion gels and beeswax oleogels for functional fat substitutes",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125261",
+      "authors": "Sun Z, et al. (Zheng M, corr.)"
+    },
+    {
+      "pmid": "42002344",
+      "title": "Structural characterization and antitumor activity via immune modulation of an alpha-glucan from Grifola frondosa",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125254",
+      "authors": "Tian HX, et al. (Wu QP, corr.)"
+    },
+    {
+      "pmid": "42002343",
+      "title": "Crafting cellulose hollow microspheres with cellulose nanosheets",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125260",
+      "authors": "Lei W, et al. (Lu A, corr.)"
+    },
+    {
+      "pmid": "42002342",
+      "title": "A bio-based intelligent konjac glucomannan/carboxymethyl chitosan film with ZIF-67@carmine-enhanced freshness monitoring for seafood preservation",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125259",
+      "authors": "Fan L, et al. (Li G, corr.)"
+    },
+    {
+      "pmid": "42002341",
+      "title": "Repurposing tumor-derived extracellular vesicles with an adhesive carboxymethyl chitosan-based hydrogel for spinal cord injury repair",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125257",
+      "authors": "Wang KL, et al. (Lin YJ, corr.)"
+    },
+    {
+      "pmid": "42002340",
+      "title": "Artificial intelligence-enabled flexible surface-enhanced Raman scattering substrate based on silver nanoparticles/polypyrrole/chitosan film for sensitive uric acid detection in saliva, serum and urine",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125256",
+      "authors": "Barveen NR, et al. (Cheng YW, corr.)"
+    },
+    {
+      "pmid": "42002339",
+      "title": "Exploring molecular-level rolling friction based on cyclodextrins for lubrication",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125255",
+      "authors": "Wang J, et al. (Huang F, corr.)"
+    },
+    {
+      "pmid": "42002338",
+      "title": "Cellulose-based MXene composite foams with enhanced oxidation stability and Janus wettability for high-performance solar evaporation and electricity generation",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125252",
+      "authors": "Yan X, et al. (Liu Y, corr.)"
+    },
+    {
+      "pmid": "42002337",
+      "title": "High-fly ash-loaded cellulose foam enabling stable lightweight porosity for efficient beta-FeOOH photo-Fenton catalysis in water remediation",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125251",
+      "authors": "Qian Y, et al. (Guo S, corr.)"
+    },
+    {
+      "pmid": "42002336",
+      "title": "Immune responses to glycoconjugate vaccines rely on a balance between polysaccharide length and glycosylation density",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125250",
+      "authors": "Carboni F, et al. (Adamo R, corr.)"
+    },
+    {
+      "pmid": "42002333",
+      "title": "Tailoring texture for dysphagia diets: Unraveling the synergistic role of protein and blended vegetable oil in softening starch gels",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125246",
+      "authors": "Cai M, et al. (Guan X, corr.)"
+    },
+    {
+      "pmid": "42002332",
+      "title": "Chitosan/Fe3O4/graphene nanoplatelets composites-modified glassy carbon electrode for highly sensitive electrochemical detection of dopamine, uric acid, and ascorbic acid",
+      "date": "2026-06-15",
+      "doi": "10.1016/j.carbpol.2026.125245",
+      "authors": "Hardiansyah A, et al. (Liu TY, corr.)"
+    },
+    {
+      "pmid": "41831984",
+      "title": "Exploring the physical phase behavior of Ulva polysaccharide and soybean isolate protein complexes: the effects of pH and ionic strength on gel properties",
+      "date": "2026-05-15",
+      "doi": "10.1016/j.carbpol.2026.125067",
+      "authors": "Bu K, et al. (Wang P, corr.)"
+    },
+    {
+      "pmid": "41475731",
+      "title": "Interpenetrating network hydrogels based on soy protein isolate and sanxan: Structure, mechanical properties, and freeze-thaw stability",
+      "date": "2026-03-01",
+      "doi": "10.1016/j.carbpol.2025.124759",
+      "authors": "Zhao Y, et al. (Xu X, corr.)"
+    },
+    {
+      "pmid": "41371847",
+      "title": "Mechanisms of heat-activated soy protein isolate-chitosan oligosaccharide complexation: Synergistic interactions for enhanced gelation",
+      "date": "2026-02-15",
+      "doi": "10.1016/j.carbpol.2025.124703",
+      "authors": "Wan W, et al. (Wu C, corr.)"
+    },
+    {
+      "pmid": "41198295",
+      "title": "Formation and characterization of soy protein isolate-chitosan-epigallocatechin gallate ternary complexes: Molecular interactions and functional properties",
+      "date": "2026-01-01",
+      "doi": "10.1016/j.carbpol.2025.124474",
+      "authors": "Bourouis I, et al. (Liu X, corr.)"
+    },
+    {
+      "pmid": "40947263",
+      "title": "Protein-polysaccharide complexes from soy protein and carrageenan obtained by electrosynthesis",
+      "date": "2025-11-15",
+      "doi": "10.1016/j.carbpol.2025.124188",
+      "authors": "Maciejaszek I, et al. (Surowka K, corr.)"
+    },
+    {
+      "pmid": "40733794",
+      "title": "Effect of various natural cross-linking agents on the properties of corn starch/soy protein isolate composite films",
+      "date": "2025-10-15",
+      "doi": "10.1016/j.carbpol.2025.123850",
+      "authors": "Cheng H, et al. (Chen L, corr.)"
+    },
+    {
+      "pmid": "40368558",
+      "title": "Impact of varying chain-length fatty acids on the retrogradation of mung bean starch-soybean protein isolate gels: Induced changes in morphology, rheology, and water distribution",
+      "date": "2025-08-01",
+      "doi": "10.1016/j.carbpol.2025.123631",
+      "authors": "Zhao W, et al. (Li W, corr.)"
     }
   ]
 }
