@@ -1,0 +1,118 @@
+{
+  "run_date": "2026-07-21",
+  "collection_method": "WebSearch snippets only (direct API/WebFetch to eutils.ncbi.nlm.nih.gov and sciencedirect.com returned HTTP 403 due to organizational network policy)",
+  "journal": "Carbohydrate Polymers (ISSN 0144-8617, Elsevier)",
+  "lookback_note": "First run - no prior seen_articles baseline. Articles limited to those found via WebSearch, PII-confirmed as Carbohydrate Polymers (S0144861X... prefix), published within the last ~2 years.",
+  "articles": [
+    {
+      "id": "pii:S0144861725001845",
+      "title": "Preparation and properties of chitosan/cellulose nanofiber dual-network composite by in-situ catalysis of recombinant enzyme",
+      "authors": "Not confirmed via snippet",
+      "date": "2025 (approx.)",
+      "doi_or_pii": "PII S0144861725001845",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861725001845",
+      "keywords": ["cellulose", "chitosan"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S0144861725001481",
+      "title": "Impact of pectin structural diversity on gut microbiota: A mechanistic exploration through in vitro fermentation",
+      "authors": "Not confirmed via snippet",
+      "date": "2025 (approx.)",
+      "doi_or_pii": "PII S0144861725001481",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0144861725001481",
+      "keywords": ["pectin"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S0144861725003534",
+      "title": "Enhancing the OPLS-AA force field for cellulose Iβ: structural stability and surface functionalization capability with the CM5 charge model",
+      "authors": "Not confirmed via snippet",
+      "date": "2025 (approx.)",
+      "doi_or_pii": "PII S0144861725003534",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0144861725003534",
+      "keywords": ["cellulose", "molecular simulation"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S0144861725003777",
+      "title": "Deciphering the interplay between pectin structural variability, intestinal bioavailability and gut microbiota metabolism: A review",
+      "authors": "Not confirmed via snippet",
+      "date": "2025-04-09",
+      "doi_or_pii": "PII S0144861725003777",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861725003777",
+      "keywords": ["pectin"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S0144861725011464",
+      "title": "Living sand: Microbial nanocellulose and chitin-rich mycelia enhance granular material properties",
+      "authors": "Vakeri, S.M.; Sinha, A.; Greca, L.G. (et al.)",
+      "date": "2025, Vol 370, article 124361",
+      "doi_or_pii": "PII S0144861725011464",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0144861725011464",
+      "keywords": ["cellulose", "biomass"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S0144861725012469",
+      "title": "Polysaccharides in cryopreservation: multidimensional systematic review of extremophilic traits and the role of selective pressure in structure-function relationships",
+      "authors": "Not confirmed via snippet",
+      "date": "2025 (approx.)",
+      "doi_or_pii": "PII S0144861725012469",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0144861725012469",
+      "keywords": ["polysaccharide"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S0144861725015905",
+      "title": "Recent developments in all-polysaccharide hydrogels: Synthesis, properties, and biomedical applications",
+      "authors": "Not confirmed via snippet",
+      "date": "2025 (approx.)",
+      "doi_or_pii": "PII S0144861725015905",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861725015905",
+      "keywords": ["hydrogel", "polysaccharide"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S0144861725016005",
+      "title": "High-performance fully bio-based cellulose plastics through dual cross-linking with epoxidized linseed oil",
+      "authors": "Heyi Pan, Zhihan Liu, Yuting Zhou, Wenkang Zhong, Xiaomin Wang, Chaoqun Zhang, Yang Wang",
+      "date": "2025 (approx.)",
+      "doi_or_pii": "PII S0144861725016005",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861725016005",
+      "keywords": ["cellulose", "biomass"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S0144861726002614",
+      "title": "High-molecular weight hyaluronic acid protects against colitis by remodeling microbiota and restoring barrier function",
+      "authors": "Not confirmed via snippet",
+      "date": "2026-06-01, Vol 381, article 125145",
+      "doi_or_pii": "PII S0144861726002614",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861726002614",
+      "keywords": ["hyaluronic acid"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S0144861726006624",
+      "title": "Additive manufacturing of chitosan and its derivatives: Advancing safe and sustainable by design (SSbD) materials",
+      "authors": "Not confirmed via snippet",
+      "date": "2026-09-15, Vol 388, article 125545",
+      "doi_or_pii": "PII S0144861726006624",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0144861726006624",
+      "keywords": ["chitosan", "additive manufacturing"],
+      "source": "WebSearch snippet"
+    },
+    {
+      "id": "pii:S014486172600679X",
+      "title": "Polysaccharide structure of Mannoproteins influences the colloidal outcome of their interactions with grape seed tannins",
+      "authors": "Not confirmed via snippet",
+      "date": "2026-09-15, Vol 388, article 125562",
+      "doi_or_pii": "PII S014486172600679X",
+      "url": "https://www.sciencedirect.com/science/article/pii/S014486172600679X",
+      "keywords": ["polysaccharide", "mannoprotein"],
+      "source": "WebSearch snippet"
+    }
+  ]
+}
