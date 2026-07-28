@@ -1,0 +1,467 @@
+{
+  "run_datetime_utc": "2026-07-28 21:59",
+  "journal": "Carbohydrate Polymers",
+  "issn": "0144-8617",
+  "collection_methods": {
+    "primary": "Elsevier Scopus Search API (X-ELS-APIKey) - ISSN(0144-8617), sort=-coverDate, 8 pages x 25 = 200 entries scanned",
+    "deprecated_endpoints": "content/search/scidir returns HTTP 410 Gone (retired); content/search/sciencedirect and Abstract/Article Retrieval full-text return 401/403 (no entitlement for abstract text / full text with this API key)",
+    "dedup_crosscheck": "PubMed ESearch (Publisher ID / [AID] field) used to map Scopus DOIs to PMIDs, preventing double-counting of the same article under different identifier namespaces (pii: vs pmid:) already present in seen_articles.json",
+    "pubmed_supplement": "PubMed E-utilities ESearch/EFetch (Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt], reldate=90) - 440 results, 0 new (all already in seen_articles.json) - contributed 0 new articles this run",
+    "author_and_date_enrichment": "CrossRef API (api.crossref.org/works/{doi}) for full author lists and online publication ('created') date",
+    "abstract_supplement": "WebSearch used for the 12 keyword-focused articles (cellulose/pectin/hydrogel) to verify author-matched public preprints (e.g. SSRN) or related work where possible, since no abstract text was accessible via Elsevier/PubMed/CrossRef/Semantic Scholar for these very recent (not-yet-PubMed-indexed) articles"
+  },
+  "target_count": 20,
+  "collected_count": 23,
+  "eligibility_filters_applied": [
+    "Excluded review/systematic review/mini-review articles (subtypeDescription and title keyword check)",
+    "Excluded Corrigendum/Erratum/Comment/Retraction publication types",
+    "Excluded articles already present in state/seen_articles.json (checked via both pii: and pmid: identifiers, cross-mapped via DOI)",
+    "Excluded microbe-biology-centric articles (strain development/culture optimization); polysaccharide structural characterization papers whose source organism is microbial were retained since the carbohydrate polymer itself is the core subject",
+    "All 23 retained articles published online 2026-07-02 to 2026-07-21 (within 2-year window)"
+  ],
+  "focus_keyword_piis": [
+    "S0144861726007678",
+    "S014486172600768X",
+    "S0144861726007654",
+    "S0144861726007721",
+    "S0144861726007691",
+    "S0144861726007861",
+    "S014486172600785X",
+    "S0144861726007873",
+    "S0144861726007824",
+    "S0144861726007836",
+    "S0144861726007666",
+    "S0144861726007848"
+  ],
+  "articles": [
+    {
+      "pii": "S0144861726007319",
+      "doi": "10.1016/j.carbpol.2026.125614",
+      "title": "A heparan-like glycosaminoglycan from the white jade snail: Precise structural elucidation, alkaline-induced artificial changes, and non-anticoagulant heparanase inhibition",
+      "authors": [
+        "Pin Wang",
+        "Na Gao",
+        "Qijiang Mao",
+        "Lutan Zhou",
+        "Yu Wang",
+        "Ying Pan",
+        "Fengyun Wu",
+        "Penghao Kang",
+        "Zanyang Min",
+        "Yujun Ma",
+        "Huifang Sun",
+        "Xiang Shi",
+        "Mingzhu Yang",
+        "Fuchuan Li",
+        "Yiyin Zhang",
+        "Jinhua Zhao"
+      ],
+      "online_date": "2026-07-02",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007678",
+      "doi": "10.1016/j.carbpol.2026.125650",
+      "title": "Cellulose based microcapsules with binary phase change core for dual-functional thermal buffering and responsive antimicrobial food packaging",
+      "authors": [
+        "Liying Yang",
+        "Long Chen",
+        "Jinming Chen",
+        "Douxin Xiao",
+        "Alideertu Dong"
+      ],
+      "online_date": "2026-07-15",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S014486172600768X",
+      "doi": "10.1016/j.carbpol.2026.125651",
+      "title": "Knoevenagel condensation for malonate-grafted dialdehyde cellulose: Tuning mechanical and swelling properties of poly(acrylic acid-co-itaconic acid) bio-SAPs",
+      "authors": [
+        "Mohammed Bezbiz",
+        "Ahmed Yassine Boussif",
+        "Hicham Aitbella",
+        "Samir Errahali",
+        "Larbi Belachemi",
+        "Celine Moreau",
+        "Catherine Garnier",
+        "Camille Jonchere",
+        "Hicham Benyoucef",
+        "Bernard Cathala",
+        "Hamid Kaddami"
+      ],
+      "online_date": "2026-07-15",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007654",
+      "doi": "10.1016/j.carbpol.2026.125648",
+      "title": "Sterically stabilized cellulose nanocrystals by polyetheramine grafting: preparation, characterization and colloidal stability in the presence of salts",
+      "authors": [
+        "Vladimir Grachev",
+        "Tetyana Koso",
+        "Samuel Eyley",
+        "Tom De Frene",
+        "Olivier Deschaume",
+        "Alistair W.T. King",
+        "Carmen Bartic",
+        "Wim Thielemans"
+      ],
+      "online_date": "2026-07-14",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007721",
+      "doi": "10.1016/j.carbpol.2026.125655",
+      "title": "Stretchable, self-adhesive conductive hydrogels based on gelatin and oxidized hydroxyethyl starch as flexible sensors and bioelectrodes",
+      "authors": [
+        "Jiashen Lu",
+        "Yingying Meng",
+        "Yao Shu",
+        "Minghui Yang",
+        "Hongmei Ding",
+        "Junjie Li",
+        "Yuping Wei"
+      ],
+      "online_date": "2026-07-17",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007691",
+      "doi": "10.1016/j.carbpol.2026.125652",
+      "title": "Dual-type dynamic covalent chitosan/whey protein/Sr-doped bioactive glass carriers for hydrophobic compounds: injectable hydrogels and porous scaffolds",
+      "authors": [
+        "Szymon Salagierski",
+        "Weronika Gura",
+        "Patrycja Domalik-Pyzik",
+        "Elżbieta Menaszek",
+        "Timothy E.L. Douglas",
+        "Katarzyna Cholewa-Kowalska",
+        "Michał Dziadek"
+      ],
+      "online_date": "2026-07-15",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007745",
+      "doi": "10.1016/j.carbpol.2026.125657",
+      "title": "Structural characterization of the O-antigen polysaccharide from E. coli strain SC-UY1 supports a fully functional galF-gnd locus in the O20 serogroup",
+      "authors": [
+        "Sylvia Cuchman",
+        "María José Benítez-Galeano",
+        "Edgardo Gianneechini",
+        "Rodolfo Rivero",
+        "Nélida Rodríguez-Osorio",
+        "Ileana Corvo",
+        "Carolina Fontana"
+      ],
+      "online_date": "2026-07-18",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007861",
+      "doi": "10.1016/j.carbpol.2026.125669",
+      "title": "Pectin/hyaluronic acid-based berry-bionic injectable Janus bilayer hydrogel with in-situ sequential crosslinking for tendon anti-adhesion",
+      "authors": [
+        "Tian Tian",
+        "Siyu Li",
+        "Li Wang",
+        "Weifeng Zhao",
+        "Changsheng Zhao"
+      ],
+      "online_date": "2026-07-21",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S014486172600785X",
+      "doi": "10.1016/j.carbpol.2026.125668",
+      "title": "Bioinspired selective cell lumen densification for high-loading transparent cellulosic fiber composites with controlled light scattering",
+      "authors": [
+        "Yue Li",
+        "Jiawei Fu",
+        "Min Wang",
+        "Qiliang Fu",
+        "Liping Cai",
+        "Changlei Xia",
+        "Quanliang Wang"
+      ],
+      "online_date": "2026-07-21",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007873",
+      "doi": "10.1016/j.carbpol.2026.125670",
+      "title": "Carboxymethyl cellulose-based intelligent modified atmosphere film with humidity monitoring and selective gas permeation for strawberry preservation",
+      "authors": [
+        "Donghong Xie",
+        "Guojing Zhao",
+        "Xiaoju Wang",
+        "Ya Huang",
+        "Liyuan Zhang",
+        "Yaohui You",
+        "Shunmin Yi",
+        "Guohuan Huang"
+      ],
+      "online_date": "2026-07-21",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007629",
+      "doi": "10.1016/j.carbpol.2026.125645",
+      "title": "Mild alternate wetting and drying modulates cooking and eating quality of rice under low to normal nitrogen dose",
+      "authors": [
+        "Zhilin Xiao",
+        "Ying Zhang",
+        "Yu Yan",
+        "Xinping Lv",
+        "Chaorui Wang",
+        "Ya Wen",
+        "Weiyang Zhang",
+        "Junfei Gu",
+        "Lijun Liu",
+        "Enpeng Li",
+        "Jianhua Zhang",
+        "Hao Zhang"
+      ],
+      "online_date": "2026-07-14",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007642",
+      "doi": "10.1016/j.carbpol.2026.125647",
+      "title": "Preparation of magnetic agarose microspheres by spray-chilling method and their application in IgG purification",
+      "authors": [
+        "Yuanling Huang",
+        "Bianbian Guo",
+        "Qiong Xiao",
+        "Huifen Weng",
+        "Yonghui Zhang",
+        "Qiuming Yang",
+        "Siyuan Wang",
+        "Qian Zhang",
+        "Anfeng Xiao"
+      ],
+      "online_date": "2026-07-20",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007617",
+      "doi": "10.1016/j.carbpol.2026.125644",
+      "title": "An inulin from Asparagus cochinchinensis relieves slow transit constipation associated with Akkermansia muciniphila enrichment, kynurenic acid restoration, and NLRP3 attenuation",
+      "authors": [
+        "Fangxu Yin",
+        "ZiYing Jiang",
+        "Chong Hou",
+        "Jie Gao",
+        "Wenqiang Li",
+        "Wei Sun",
+        "Yikui Tian",
+        "Dina Xie",
+        "Mingyue Wang",
+        "Bo Wang",
+        "Wenyue Ma",
+        "Xiaohui Dou",
+        "Caixia Dong",
+        "Daqing Sun"
+      ],
+      "online_date": "2026-07-14",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007769",
+      "doi": "10.1016/j.carbpol.2026.125659",
+      "title": "Alkali-heat treatment synergistic gelation of yeast protein and konjac glucomannan/xanthan gum: Molecular mechanism and its application in 3D-printed meat analogs",
+      "authors": [
+        "Hongmin Dai",
+        "Luming Wen",
+        "Hanmeng Zhou",
+        "Hongshan Liang",
+        "Bin Li",
+        "Jing Li"
+      ],
+      "online_date": "2026-07-21",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007824",
+      "doi": "10.1016/j.carbpol.2026.125665",
+      "title": "Ultralight, multifunctional and recyclable bacterial cellulose/coir fiber composite foam for oil-water separation and thermal insulation",
+      "authors": [
+        "Ting Teng",
+        "Yitong Zhao",
+        "Haolin Yang",
+        "Yuan Gao",
+        "Xinghai Zhou",
+        "Gang Wang",
+        "Peirong Guo",
+        "Huimin Zhang"
+      ],
+      "online_date": "2026-07-20",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007812",
+      "doi": "10.1016/j.carbpol.2026.125664",
+      "title": "Structurally coupled polysaccharide-lignin tri-domain phyto-cryogel for microenvironment buffering of oxidative and microbial stress in diabetic wounds",
+      "authors": [
+        "Waha Ismail Yahia Abdelmula",
+        "Babbiker Mohammed Taher Gorish",
+        "Bin Liu",
+        "Wenqian Dang",
+        "Yue Bai",
+        "Daochen Zhu"
+      ],
+      "online_date": "2026-07-21",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007770",
+      "doi": "10.1016/j.carbpol.2026.125660",
+      "title": "Elucidating the dual detection mechanisms of functionalized gold nanocluster-based biosensor for quantitative detection of heparin in human plasma",
+      "authors": [
+        "Aakanksha Pathak",
+        "Nishchay Verma",
+        "Krishna Mohan Poluri"
+      ],
+      "online_date": "2026-07-20",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007538",
+      "doi": "10.1016/j.carbpol.2026.125636",
+      "title": "Thermodynamic parameters and molecular interactions governing chlorpropamide inclusion within cyclodextrins",
+      "authors": [
+        "Jeovani González-Barbosa",
+        "Emir A. Galván-García",
+        "Norma Rodríguez-Laguna",
+        "Adrián Ricardo Hipólito-Nájera",
+        "Rodolfo Gómez-Balderas",
+        "María del Rosario Moya-Hernández"
+      ],
+      "online_date": "2026-07-09",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007320",
+      "doi": "10.1016/j.carbpol.2026.125615",
+      "title": "Isomeric effect of coumaric acid on the structure, digestion, and gut microbiota regulation of starch-based V-type complexes",
+      "authors": [
+        "Yongxing Li",
+        "Shuang Yang",
+        "Haiyu Ji",
+        "Wenhao Cao",
+        "Jiarong Zou",
+        "Zhangliang Zhu",
+        "Jinfang Zhang",
+        "Mei Li"
+      ],
+      "online_date": "2026-07-02",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007836",
+      "doi": "10.1016/j.carbpol.2026.125666",
+      "title": "Hierarchical pore structure evolution of cellulose fibers and its impact on molecular diffusion behavior",
+      "authors": [
+        "Yunduo Ban",
+        "Yanjun Liu",
+        "Wenjing Lu",
+        "Xianglei Bai",
+        "Xia Dong"
+      ],
+      "online_date": "2026-07-20",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007666",
+      "doi": "10.1016/j.carbpol.2026.125649",
+      "title": "Hyaluronic acid-based pagoda-shaped hydrogel microneedle loaded with antioxidant nanozyme for machine learning-assisted real-time inflammation monitoring and diabetic wound healing",
+      "authors": [
+        "Jingyi Shi",
+        "Weizhong Yuan"
+      ],
+      "online_date": "2026-07-15",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007848",
+      "doi": "10.1016/j.carbpol.2026.125667",
+      "title": "PNIPAM-functionalized LDH-La alginate hydrogel beads as a high-capacity and recyclable adsorbent for phosphate capture",
+      "authors": [
+        "Jiawei Huang",
+        "Feng Chen",
+        "Sijing Qi",
+        "Congyan Xie",
+        "Huajun Liu",
+        "Xiaoshuang Yin",
+        "Wenzhong Yang",
+        "Hui Xu"
+      ],
+      "online_date": "2026-07-20",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    },
+    {
+      "pii": "S0144861726007423",
+      "doi": "10.1016/j.carbpol.2026.125625",
+      "title": "CO2 bubble-regulated porous architecture of CS@ZIF-8 microspheres for enhanced alcalase immobilization with improved walnut protein hydrolysis",
+      "authors": [
+        "Jiangjuan Yuan",
+        "Xueying Liu",
+        "Mingyao Li",
+        "Feng Jin",
+        "Baokai Cui",
+        "Jingzhen Chen",
+        "Changzhu Li",
+        "Fengjun Wang"
+      ],
+      "online_date": "2026-07-06",
+      "coverDate_issue": "2026-10-01",
+      "volume": "389",
+      "subtypeDescription": "Article"
+    }
+  ]
+}
