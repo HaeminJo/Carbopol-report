@@ -1,0 +1,1832 @@
+{
+  "run_datetime_utc": "2026-07-29 22:05",
+  "journal": "Carbohydrate Polymers",
+  "issn": "0144-8617",
+  "collection_methods": {
+    "primary": "Elsevier Scopus Search API (X-ELS-APIKey) - query=ISSN(0144-8617), sort=-coverDate, 10 pages x 25 = 250 entries scanned (start=0..225)",
+    "deprecated_endpoints": "content/search/scidir returns HTTP 410 Gone (retired). Abstract Retrieval API (content/abstract/pii, view=META/META_ABS/FULL/STANDARD) returns no dc:description / 401 for FULL & META_ABS / 400 for STANDARD - this API key has metadata-only entitlement, no abstract or full-text access.",
+    "pubmed_supplement": "PubMed E-utilities ESearch (Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt], reldate=90) - 435 results, 0 new (all already indexed & already in seen_articles.json) - contributed 0 new articles; PubMed indexing lags ScienceDirect Articles-in-Press by several months for this journal",
+    "eligibility_filtering": "Scopus subtypeDescription==Article kept (Review/Erratum excluded at source: 35 Review + 9 Erratum removed from 275 scanned). Additional title-pattern screen removed 5 further review-style titles that Scopus mis-tagged as Article (patterns: recent advances / strategies, mechanisms / bridging...strategies / emerging applications / future perspectives) and 1 more review-style title (Nature's blueprint: ...) caught on manual read. No microbe-strain-biology-centric papers were found among the qualifying candidates by title screen (papers about microbially-sourced or LPS/O-antigen polysaccharides were kept when the polysaccharide structure itself, not the organism's biology/strain development/culture optimization, was the stated focus, consistent with the eligibility rule).",
+    "dedup_crosscheck": "DOI/PII cross-checked against state/seen_articles.json (745 prior entries) to exclude already-covered articles.",
+    "author_and_date_enrichment": "CrossRef API (api.crossref.org/works/{doi}) for full author lists and online publication (created) date for all 91 qualifying articles.",
+    "note_on_batch_size": "This run surfaced a much larger new-article batch (91) than prior daily runs (~20-25/day). Online publication dates of the qualifying articles span 2026-03-25 to 2026-06-27, indicating this batch was not fully captured by the narrower search windows used in some prior runs; all 91 were confirmed absent from seen_articles.json via DOI/PII cross-check before inclusion."
+  },
+  "target_count": 20,
+  "collected_count": 91,
+  "eligibility_filters_applied": "Review/systematic review/mini-review excluded; Erratum/Corrigendum excluded; microbe-strain-biology-centric papers excluded (structure/materials-focused polysaccharide papers from microbial sources retained); online publication within ~2 years",
+  "focus_keyword_piis": [
+    "S0144861726006971",
+    "S0144861726006909",
+    "S0144861726007010",
+    "S0144861726007022",
+    "S0144861726007009",
+    "S0144861726007046",
+    "S0144861726007034",
+    "S0144861726006831",
+    "S014486172600696X",
+    "S0144861726006934",
+    "S014486172600682X",
+    "S0144861726006806",
+    "S0144861726006715",
+    "S0144861726006673",
+    "S0144861726006569",
+    "S0144861726006600",
+    "S0144861726006612",
+    "S0144861726006557",
+    "S0144861726006326",
+    "S0144861726006296",
+    "S0144861726006417",
+    "S0144861726006077",
+    "S0144861726006338",
+    "S0144861726006259",
+    "S0144861726006314",
+    "S014486172600603X",
+    "S0144861726006168",
+    "S0144861726005953",
+    "S0144861726006107",
+    "S0144861726006120",
+    "S0144861726006089",
+    "S0144861726006016",
+    "S0144861726006053",
+    "S0144861726006028",
+    "S0144861726005989",
+    "S0144861726005965",
+    "S0144861726005941",
+    "S0144861726005874",
+    "S0144861726005370",
+    "S0144861726005539",
+    "S0144861726004236"
+  ],
+  "articles": [
+    {
+      "pii": "S0144861726007113",
+      "doi": "10.1016/j.carbpol.2026.125594",
+      "title": "Extraction-driven structural modulation dictates the anti-diabetic potency of Notopterygium franchetii polysaccharides",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Yabin Zhao",
+        "Shuang Huang",
+        "Yongxiang Luo",
+        "Huaiju Gong",
+        "Yukun Mei",
+        "Xin Tang",
+        "Renlin Zheng",
+        "Renjun Tian",
+        "De Zhou",
+        "Liangchun Li"
+      ],
+      "online_date": "2026-06-27",
+      "korean_description": "강활(Notopterygium franchetii) 다당류의 추출 조건에 따라 구조가 달라지고, 이 구조 차이가 항당뇨 활성의 강도를 결정한다는 것을 규명한 연구입니다."
+    },
+    {
+      "pii": "S0144861726007125",
+      "doi": "10.1016/j.carbpol.2026.125595",
+      "title": "Structural elucidation and α-amylase/α-glucosidase inhibition properties of xyloglucan and RG-I types polysaccharides from tamarind (Tamarindus indica L.) pulp",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Xiaojun Li",
+        "Zhixin Yang",
+        "Jiang Chen",
+        "Xue Zhang"
+      ],
+      "online_date": "2026-06-26",
+      "korean_description": "타마린드 과육에서 자일로글루칸과 RG-I형 다당류를 분리해 구조를 규명하고, α-아밀라아제 및 α-글루코시다아제 억제 활성을 통한 혈당 조절 가능성을 평가한 연구입니다."
+    },
+    {
+      "pii": "S0144861726007095",
+      "doi": "10.1016/j.carbpol.2026.125592",
+      "title": "Multifunctional Janus bamboo-derived aerogel with asymmetric surface wettability for efficient oil-water separation and heavy metal ion removal",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Yingying Lu",
+        "Xinmeng Luo",
+        "Xinru Dai",
+        "Zhiyong Qin",
+        "Youming Dong",
+        "Liuting Mo"
+      ],
+      "online_date": "2026-06-25",
+      "korean_description": "대나무 유래 원료로 비대칭적 표면 젖음성을 가진 야누스 에어로젤을 제작하여, 유수분리와 중금속 이온 제거를 동시에 수행하는 다기능 환경정화 소재로 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726007083",
+      "doi": "10.1016/j.carbpol.2026.125591",
+      "title": "Structure characterization and multi-target inhibitory activities of fucosylated chondroitin sulfate from sea cucumber Thelenota anax",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Ying Hong",
+        "Ying Pan",
+        "Guangyu Zhu",
+        "Jing Wen",
+        "Rou Chen",
+        "Lige Cui",
+        "Huilin Chen",
+        "Tong Wu",
+        "Ronghua Yin",
+        "Jinhua Zhao"
+      ],
+      "online_date": "2026-06-25",
+      "korean_description": "해삼(Thelenota anax) 유래 푸코실화 콘드로이친황산의 화학구조를 규명하고, 다중 표적에 대한 생리활성 억제 효과를 평가한 해양 다당류 연구입니다."
+    },
+    {
+      "pii": "S0144861726006971",
+      "doi": "10.1016/j.carbpol.2026.125580",
+      "title": "Probing the moisture-induced drug recrystallization in hydroxypropyl methylcellulose-based amorphous solid dispersions",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Arvindh Seshadri Suresh",
+        "Famke Van Brempt",
+        "Susanna Abrahmsén-Alami",
+        "Anette Larsson"
+      ],
+      "online_date": "2026-06-23",
+      "korean_description": "하이드록시프로필메틸셀룰로오스(HPMC)를 매트릭스로 사용한 비정질 고체분산체(ASD)에서 수분에 의해 유발되는 약물의 재결정화 거동을 규명한 연구입니다. 습도 조건에 따른 셀룰로오스 매트릭스의 흡습과 약물 결정화 사이의 상관관계를 분석하여 제형 안정성 확보 전략을 제시했습니다."
+    },
+    {
+      "pii": "S0144861726006909",
+      "doi": "10.1016/j.carbpol.2026.125573",
+      "title": "Gum arabic modulates mechanical properties and microstructural transition in whey protein isolate hydrogels",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "hydrogel"
+      ],
+      "authors": [
+        "Edward Buckser",
+        "Rachael A. Floreani"
+      ],
+      "online_date": "2026-06-23",
+      "korean_description": "아라비아검(gum arabic)을 유청단백질분리물(WPI) 하이드로겔에 첨가하여 기계적 물성과 미세구조 전이를 조절한 연구입니다. 다당류-단백질 상호작용이 겔 네트워크의 강도와 구조 변화에 미치는 영향을 규명했습니다."
+    },
+    {
+      "pii": "S014486172600706X",
+      "doi": "10.1016/j.carbpol.2026.125589",
+      "title": "Helical-cavity-preserving starch engineering enables root-inspired multilevel wet bioadhesion for corneal repair",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Baolei Huang",
+        "Wenjing Song",
+        "Wenfang Liu",
+        "Zhuhao Tan",
+        "Hailin Zhang",
+        "Anmin Wang",
+        "Wei Zhai",
+        "Xingqiang Zhu",
+        "Lianghong Peng",
+        "Li Ren"
+      ],
+      "online_date": "2026-06-23",
+      "korean_description": "전분의 나선형 공동(helical cavity) 구조를 보존하는 방식으로 개질하여, 식물 뿌리의 습윤 접착 원리를 모사한 다단계 습윤 생체접착 전분 소재를 개발하고 각막 수복에 응용한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006879",
+      "doi": "10.1016/j.carbpol.2026.125570",
+      "title": "Panoramic characterization and structure–activity relationship of astragalus polysaccharides: Modulating M2-to-M1 repolarization via the TLR4–NF-κB pathway",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Mingyue Wang",
+        "Wen Sun",
+        "Yingying Ma",
+        "Xilian Chen",
+        "Kangyun Zhang",
+        "Jie Gao",
+        "Changcai Bai",
+        "Junqiang Lv",
+        "Caixia Dong"
+      ],
+      "online_date": "2026-06-23",
+      "korean_description": "황기(astragalus) 다당류의 구조를 전반적으로 규명하고, TLR4-NF-κB 신호전달경로를 통해 대식세포를 M2에서 M1형으로 재분극시키는 면역조절 기전을 밝힌 구조-활성 관계 연구입니다."
+    },
+    {
+      "pii": "S0144861726007010",
+      "doi": "10.1016/j.carbpol.2026.125584",
+      "title": "Water-resistant electroluminescent devices with temperature tolerance and mechanical cyclic stability based on hydrophobic nanocellulose",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Fang Deng",
+        "Ya Lu",
+        "Haoyu Sun",
+        "Huining Xiao",
+        "Jingquan Han"
+      ],
+      "online_date": "2026-06-22",
+      "korean_description": "소수성으로 개질한 나노셀룰로오스를 기반으로 내수성·내온성과 기계적 반복 안정성을 갖춘 전계발광(EL) 소자를 제작한 연구입니다. 습윤 환경에서도 안정적으로 작동하는 유연 발광소자 응용 가능성을 제시했습니다."
+    },
+    {
+      "pii": "S0144861726007022",
+      "doi": "10.1016/j.carbpol.2026.125585",
+      "title": "Type II cellulose nanocrystal photonic films enabling high-dissymmetry left-handed circularly polarized luminescence through photonic bandgap effects",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Dan Zhang",
+        "Qinan Qin",
+        "Jiaqi Li",
+        "Xiao Yu",
+        "Yan Xu"
+      ],
+      "online_date": "2026-06-21",
+      "korean_description": "Type II 셀룰로오스 나노결정(CNC)의 카이랄 네마틱 자기조립을 이용해 포토닉 밴드갭 효과 기반의 좌원편광 발광 필름을 구현한 연구입니다. 셀룰로오스 결정형에 따른 편광 발광 비대칭도 향상 전략을 제시했습니다."
+    },
+    {
+      "pii": "S0144861726007009",
+      "doi": "10.1016/j.carbpol.2026.125583",
+      "title": "Janus bilayer fibrous membrane of polyethylene oxide-chitosan@cellulose acetate with directional water transport for efficient pork and cherry preservation",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Li Xia",
+        "Guangxin Ren",
+        "Mingjuan Zhang",
+        "Yue Wang",
+        "Wenya Wei",
+        "Zurong Shi",
+        "Yun Wang"
+      ],
+      "online_date": "2026-06-21",
+      "korean_description": "폴리에틸렌옥사이드-키토산과 셀룰로오스아세테이트를 이중층으로 전기방사하여 한쪽 방향으로만 수분이 이동하는 야누스(Janus) 구조의 섬유막을 제작한 연구입니다. 돼지고기와 체리 포장에 적용해 표면 삼출수 제거를 통한 신선도 유지 효과를 검증했습니다."
+    },
+    {
+      "pii": "S0144861726007046",
+      "doi": "10.1016/j.carbpol.2026.125587",
+      "title": "Antibacterial, hydrophobic, and dyeable homogeneous flame-retardant regenerated cellulose fiber",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Guangming Sun",
+        "Shuai He",
+        "Tian Li",
+        "Fayu Sun",
+        "Hui Xu",
+        "Hejun Li",
+        "Jieyu Wei",
+        "Guangxian Zhang"
+      ],
+      "online_date": "2026-06-21",
+      "korean_description": "균질화 공정을 통해 항균성·소수성·염색성·난연성을 동시에 갖춘 재생 셀룰로오스 섬유를 제조한 연구입니다. 다기능성을 하나의 섬유 소재에 통합함으로써 섬유·텍스타일 산업에서의 활용 가능성을 넓혔습니다."
+    },
+    {
+      "pii": "S0144861726007034",
+      "doi": "10.1016/j.carbpol.2026.125586",
+      "title": "Janus cryogels of cellulose nanofibers and PET microfibers with a tunable pore architecture for PM2.5 cascade filtration",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Chao Lyu",
+        "Mian Zhu",
+        "Ossi Laitinen",
+        "Chenming Liu",
+        "Xinjiao Tian",
+        "Xinliang Mei",
+        "Xieding Sun",
+        "Huafeng Fan",
+        "Ying Zhu",
+        "Jiangang Yu",
+        "Shihang Li",
+        "Jingxian Liu",
+        "Henrikki Liimatainen"
+      ],
+      "online_date": "2026-06-21",
+      "korean_description": "셀룰로오스 나노섬유와 폴리에틸렌테레프탈레이트(PET) 마이크로섬유를 결합한 야누스 구조 크라이오젤을 제작하고, 기공 구조를 단계적으로 조절해 초미세먼지(PM2.5)를 다단계로 여과하는 필터 소재를 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006831",
+      "doi": "10.1016/j.carbpol.2026.125566",
+      "title": "X-ray scattering study of network structure of κ-carrageenan hydrogels with high concentrations",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "hydrogel"
+      ],
+      "authors": [
+        "Jun-ichi Horinaka",
+        "Koshiro Hara",
+        "Yohei Nakanishi"
+      ],
+      "online_date": "2026-06-18",
+      "korean_description": "X선 산란 기법을 이용해 고농도 카파-카라기난 하이드로겔의 3차원 네트워크 구조를 규명한 연구입니다. 농도 변화에 따른 겔 네트워크의 계층적 구조 변화를 정량적으로 분석했습니다."
+    },
+    {
+      "pii": "S014486172600696X",
+      "doi": "10.1016/j.carbpol.2026.125579",
+      "title": "Injectable, retrievable nanocellulose-polymer composite cryogel microfibers for resolving the dual clinical challenge of residual silicone oil and emulsification in eye surgery",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Ying Chen",
+        "Leyun Lai",
+        "Xiangyu Gao",
+        "Liangyu Zhou",
+        "Yi Deng",
+        "Kenneth Kai Wang Li",
+        "David H. Steel",
+        "Yau Kei Chan"
+      ],
+      "online_date": "2026-06-18",
+      "korean_description": "나노셀룰로오스-고분자 복합 크라이오젤 마이크로섬유를 주사형이면서 회수 가능한 형태로 설계하여, 안과 수술 후 잔류 실리콘 오일 및 유화(emulsification) 문제를 동시에 해결하고자 한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006934",
+      "doi": "10.1016/j.carbpol.2026.125576",
+      "title": "Janus cellulose nanofiber foam-based flexible triboelectric nanogenerator for wearables",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Jingqiu Wang",
+        "Xiaojun Li",
+        "Peiyao He",
+        "Dong Lv",
+        "Min Wang",
+        "Linjun Zou",
+        "Hong Wang",
+        "Jian Li",
+        "Likun Gao"
+      ],
+      "online_date": "2026-06-18",
+      "korean_description": "야누스 구조의 셀룰로오스 나노섬유 폼을 이용해 유연한 마찰전기 나노발전기(TENG)를 제작한 연구입니다. 웨어러블 자가발전 에너지 하베스팅 소자로서의 성능을 평가했습니다."
+    },
+    {
+      "pii": "S0144861726006958",
+      "doi": "10.1016/j.carbpol.2026.125578",
+      "title": "Chitosan-ibuprofen conjugate-based short-fiber reinforced scaffold with sustained immunomodulation for meniscus regeneration",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Yangfan Ding",
+        "Chunchun Li",
+        "Pengfei Cai",
+        "Binbin Sun",
+        "Liang Song",
+        "Jinglei Wu"
+      ],
+      "online_date": "2026-06-18",
+      "korean_description": "키토산에 이부프로펜을 결합한 접합체를 단섬유로 보강한 지지체를 제작하여, 지속적인 면역조절 기능을 통해 반월판(meniscus) 재생을 촉진하는 조직공학 소재로 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006910",
+      "doi": "10.1016/j.carbpol.2026.125574",
+      "title": "Sustainable polysaccharide-poly(2-oxazoline) gene-delivery platforms enhanced by free polyethyleneimine chains",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Fernando A. de Oliveira",
+        "George N. Pappas",
+        "Maria Psarrou",
+        "Evangelia Vasilaki",
+        "Karine Panico",
+        "Caroline A.S. Ribeiro",
+        "Maria Vamvakaki",
+        "Fernando C. Giacomelli"
+      ],
+      "online_date": "2026-06-18",
+      "korean_description": "다당류와 폴리(2-옥사졸린)을 결합한 유전자 전달 플랫폼에 유리 폴리에틸렌이민(PEI) 사슬을 추가해 전달 효율을 높인, 지속가능한 비바이러스성 유전자 전달체 연구입니다."
+    },
+    {
+      "pii": "S014486172600682X",
+      "doi": "10.1016/j.carbpol.2026.125565",
+      "title": "An injectable thiolated alginate/oxidized dextran hydrogel with curcumin-copper nanoparticles for corneal neovascularization after alkali burn",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "hydrogel"
+      ],
+      "authors": [
+        "Zhongwu Bei",
+        "Lin Ye",
+        "Shiyu Liang",
+        "Qi Tong",
+        "Xicheng Li",
+        "Jianan Li",
+        "Xiaorui Yu",
+        "Yujia Wei",
+        "Xuyue Liang",
+        "Tingyu Yang",
+        "Yun Yang",
+        "Longqian Liu",
+        "Zhiyong Qian"
+      ],
+      "online_date": "2026-06-17",
+      "korean_description": "티올화 알진산과 산화 덱스트란을 가교한 주사형 하이드로겔에 커큐민-구리 나노입자를 담지하여, 알칼리 화상 이후 발생하는 각막 신생혈관을 억제하는 안과용 소재로 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006843",
+      "doi": "10.1016/j.carbpol.2026.125567",
+      "title": "Harnessing β-chitin acetyl-amide chemistry for the fabrication of robust, lightweight, and sustainable aqueous zinc-ion battery separators via centrifugal jet spinning",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Jeong-Ho Park",
+        "Jin-Hyuk Lee",
+        "Hyeon Min Cho",
+        "Ilgyu Kim",
+        "Ho-Jin Lee",
+        "Subin Lee",
+        "Dae-Kwon Boo",
+        "Jae-Hyuk Cho",
+        "Su Yeon Bae",
+        "Daehyun Kim",
+        "Haesun Park",
+        "Jun Young Cheong",
+        "Byungil Hwang",
+        "Ki-Ro Yoon",
+        "Jungho Jin",
+        "Ji-Won Jung"
+      ],
+      "online_date": "2026-06-17",
+      "korean_description": "베타-키틴의 아세트아마이드 화학적 특성을 활용하고 원심 제트방사(centrifugal jet spinning) 공정으로, 견고하고 경량인 수계 아연이온전지용 분리막을 제조한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006855",
+      "doi": "10.1016/j.carbpol.2026.125568",
+      "title": "A thorough synthesis and structural investigation of a new generation of halide inclusion complexes of sodium β-cyclodextrin-based metal organic frameworks",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Amine Ez-zoubi",
+        "Samia Benmansour",
+        "Carlos J. Gómez-García",
+        "Abdellah Farah",
+        "Safaa Elidrissi Moubtassim",
+        "Salah-Eddine Stiriba"
+      ],
+      "online_date": "2026-06-17",
+      "korean_description": "소듐 베타-사이클로덱스트린 기반 금속유기골격체(MOF)를 새롭게 합성하고, 할라이드 이온을 포접한 신규 포접복합체의 구조를 정밀 규명한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006788",
+      "doi": "10.1016/j.carbpol.2026.125561",
+      "title": "Structural characterization and enzymatic hydrolysis of lignin-carbohydrate complex in corn bran: Pretreatment-induced variations in structure and recalcitrance",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Peiyu Zhang",
+        "Jiayu Zhai",
+        "Liangkun Long",
+        "Shaojun Ding"
+      ],
+      "online_date": "2026-06-17",
+      "korean_description": "옥수수 겨(corn bran)에 존재하는 리그닌-탄수화물 복합체(LCC)의 구조를 규명하고, 전처리 조건에 따른 구조 변화가 효소 가수분해에 대한 난분해성에 미치는 영향을 분석한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006764",
+      "doi": "10.1016/j.carbpol.2026.125559",
+      "title": "Chemical functionalization of polysaccharides with aromatic molecules: A 1H NMR spectrum is not always enough for confirming the derivatization",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Fabiana Esposito",
+        "Simona Bruno",
+        "Alfonso Iadonisi",
+        "Serena Traboni",
+        "Emiliano Bedini"
+      ],
+      "online_date": "2026-06-17",
+      "korean_description": "다당류에 방향족 분자를 화학적으로 결합시키는 유도체화 반응을 다룬 방법론 연구로, 1H NMR 분석만으로는 유도체화 여부를 완전히 확인하기 어려움을 지적하고 보완적 분석법의 필요성을 제시했습니다."
+    },
+    {
+      "pii": "S0144861726006806",
+      "doi": "10.1016/j.carbpol.2026.125563",
+      "title": "Multi-modular responsive hydroxypropyl chitosan-based hydrogel microspheres for stage-specific therapy in infected wounds",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "hydrogel"
+      ],
+      "authors": [
+        "Wenhao Liu",
+        "Xinyi Li",
+        "Chunsheng Pang",
+        "Shanshan Li",
+        "Xiaoying Wang"
+      ],
+      "online_date": "2026-06-16",
+      "korean_description": "하이드록시프로필키토산 기반의 다중 자극반응형 하이드로겔 마이크로스피어를 설계하여, 감염 창상의 치유 단계별로 서로 다른 치료 기능을 순차적으로 제공하도록 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006752",
+      "doi": "10.1016/j.carbpol.2026.125558",
+      "title": "An enhanced and humidity-adaptive chitosan foam triboelectric nanogenerator: Multi-component synergistic design for energy harvesting and sensing applications",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Jie Tao",
+        "Qiangli Zhao",
+        "Jiahao Kang",
+        "Min Mao",
+        "Qiang Mu",
+        "Tao Jiang",
+        "Lanjin Wang",
+        "Panxu Wang",
+        "Xiao Han",
+        "Xinhai He",
+        "Jianwei Li"
+      ],
+      "online_date": "2026-06-16",
+      "korean_description": "습도 변화에 적응하는 키토산 폼 기반 마찰전기 나노발전기(TENG)를 다성분 시너지 설계로 개발하여, 에너지 하베스팅과 센싱에 동시 활용 가능함을 보인 연구입니다."
+    },
+    {
+      "pii": "S0144861726006740",
+      "doi": "10.1016/j.carbpol.2026.125557",
+      "title": "A glycosaminoglycan-binding LecA-like lectin from Xenorhabdus nematophila: structural and biophysical characterization",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Marek Korsák",
+        "Jan Komárek",
+        "Josef Houser",
+        "Imlirenla Pongener",
+        "Gavin J. Miller",
+        "Michaela Wimmerová"
+      ],
+      "online_date": "2026-06-15",
+      "korean_description": "곤충병원성 세균 Xenorhabdus nematophila가 생산하는, 글리코사미노글리칸(GAG)에 결합하는 LecA 유사 렉틴 단백질의 구조와 생물물리학적 특성을 규명한 연구입니다. 다당류-단백질 상호작용의 분자적 기반을 다뤘습니다."
+    },
+    {
+      "pii": "S0144861726006697",
+      "doi": "10.1016/j.carbpol.2026.125552",
+      "title": "Carboxymethylation-induced changes in Sesbania Gum: From microstructure to shear, tribological, and extensional rheology",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Xiaojia Bian",
+        "Ning Tang",
+        "Yan Wang",
+        "Chen Wang",
+        "Kuaitian Wang",
+        "Leonard M.C. Sagis",
+        "Yongqiang Cheng",
+        "Jasper Landman"
+      ],
+      "online_date": "2026-06-14",
+      "korean_description": "세스바니아검(Sesbania gum)을 카복시메틸화 개질하여 미세구조부터 전단·트라이볼로지·신장 유변물성까지 다각도로 변화를 분석한 다당류 유변학 연구입니다."
+    },
+    {
+      "pii": "S0144861726006715",
+      "doi": "10.1016/j.carbpol.2026.125554",
+      "title": "Preparation of amine-grafted spherical silica/cellulose aerogels and investigation of their carbon dioxide adsorption performance",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Jingguo Cao",
+        "Tengfei He",
+        "Xinyu Zhang",
+        "Guozheng Sun",
+        "Kai Liao",
+        "Chengqian Wang",
+        "Ke Li",
+        "Qun Liu",
+        "Yu Zhang"
+      ],
+      "online_date": "2026-06-12",
+      "korean_description": "아민기를 그래프팅한 구형 실리카/셀룰로오스 에어로젤을 제조하고 이산화탄소 흡착 성능을 평가한 연구입니다. 아민 작용기 도입을 통한 CO2 포집 효율 향상 전략을 제시했습니다."
+    },
+    {
+      "pii": "S0144861726006727",
+      "doi": "10.1016/j.carbpol.2026.125555",
+      "title": "Deciphering the distribution of starch granule-associated proteins within maize and potato starch granules by α-amylase hydrolysis",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Mengting Ma",
+        "Yuting Fan",
+        "Xinyu Zhang",
+        "Shuang-Kui Du",
+        "Zhongquan Sui",
+        "Harold Corke"
+      ],
+      "online_date": "2026-06-12",
+      "korean_description": "α-아밀라아제 가수분해 기법을 이용해 옥수수와 감자 전분 과립 내부에 결합된 과립결합단백질의 분포를 규명한 전분 구조화학 연구입니다."
+    },
+    {
+      "pii": "S0144861726006739",
+      "doi": "10.1016/j.carbpol.2026.125556",
+      "title": "Smart pH-responsive starch granules as a protective platform for gastrointestinal targeted delivery of ellagic acid: Structural stabilization and controlled release",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Chin-Fong Su",
+        "Hsi-Mei Lai"
+      ],
+      "online_date": "2026-06-12",
+      "korean_description": "pH 반응성을 가진 전분 과립을 이용해 엘라그산(ellagic acid)을 위장관 표적 부위까지 안정적으로 전달하고 방출을 제어하는 경구 전달 플랫폼을 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006673",
+      "doi": "10.1016/j.carbpol.2026.125550",
+      "title": "Carboxy group-rich cellulose fibers and nanofibrils from wood cellulose by aqueous catalytic oxidation with sodium dichloroisocyanurate",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Runqing Hou",
+        "Korawit Chitbanyong",
+        "Pavitra Thevi Arnandan",
+        "Izumi Shibata",
+        "Miyuki Takeuchi",
+        "Masato Saito",
+        "Hiroyuki Fukasawa",
+        "Akira Isogai"
+      ],
+      "online_date": "2026-06-10",
+      "korean_description": "목재 유래 셀룰로오스를 소듐 디클로로이소시아누레이트로 수계 촉매 산화 처리하여, 카복실기가 풍부한 셀룰로오스 섬유 및 나노피브릴을 제조한 연구입니다. 기존 TEMPO 산화법을 대체할 수 있는 새로운 산화 경로를 제시했습니다."
+    },
+    {
+      "pii": "S0144861726006648",
+      "doi": "10.1016/j.carbpol.2026.125547",
+      "title": "Abequose-containing O-antigen polysaccharide from Aeromonas sobria K221 (serogroup PGO1): structure, O-antigen gene cluster correlation, and Abe-transferase prediction",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Anna Turska-Szewczuk",
+        "Katarzyna Dworaczek",
+        "Arkadiusz Bomba",
+        "Maria Kubaczyńska",
+        "Dominika Drzewiecka",
+        "Ewelina Iwan",
+        "Ewelina Kamińska",
+        "Agnieszka Pękala-Safińska"
+      ],
+      "online_date": "2026-06-09",
+      "korean_description": "아에로모나스 소브리아(Aeromonas sobria) K221 균주가 생산하는 O-항원 다당류의 화학구조를 규명하고, 이를 유전자 클러스터 및 효소(Abe-transferase) 예측 정보와 연계 분석한 다당류 구조화학 연구입니다."
+    },
+    {
+      "pii": "S0144861726006661",
+      "doi": "10.1016/j.carbpol.2026.125549",
+      "title": "A new method for the quantification of polysaccharide structural domain: Rapid quantification of type II arabinogalactan based on Yariv reagent",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Shicheng Jiang",
+        "Weihao Chen",
+        "Yupeng Liu",
+        "Mingkuan Yang",
+        "Yongbin Xu",
+        "Baoyu Qiu",
+        "Yue Yu",
+        "Songshan Shi",
+        "Guan Ye",
+        "Jie Chen",
+        "Shunchun Wang",
+        "Huijun Wang"
+      ],
+      "online_date": "2026-06-09",
+      "korean_description": "야리브 시약(Yariv reagent)을 이용해 type II 아라비노갈락탄의 구조적 도메인을 신속하게 정량하는 새로운 분석법을 개발한 다당류 분석화학 연구입니다."
+    },
+    {
+      "pii": "S0144861726006569",
+      "doi": "10.1016/j.carbpol.2026.125539",
+      "title": "Dynamically reconfigurable conductive hydrogels based on the spatial confinement and backbone reinforcement of bacterial cellulose: Signal recognition and human-computer interaction",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose",
+        "hydrogel"
+      ],
+      "authors": [
+        "Xinhui Wang",
+        "Mengchen Li",
+        "Yonggui Wang",
+        "Siqi Huan",
+        "Haiying Yang",
+        "Dong Wang",
+        "Ming He"
+      ],
+      "online_date": "2026-06-08",
+      "korean_description": "박테리아 셀룰로오스의 공간적 구속 효과와 백본 보강 전략을 이용해 동적으로 재구성 가능한 전도성 하이드로겔을 개발한 연구입니다. 인간-기계 인터페이스용 신호 인식 소자로서의 응용 가능성을 검증했습니다."
+    },
+    {
+      "pii": "S0144861726006636",
+      "doi": "10.1016/j.carbpol.2026.125546",
+      "title": "Dialdehyde pineapple starch as a reactive carbohydrate platform for pyridyl–acylhydrazone crosslinked networks in Au and Pd recovery",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Bunyaporn Todee",
+        "Nattaya Srirattanaprasit",
+        "Jiratchaya Prombandachok",
+        "Pataraporn Kammoon",
+        "Araya Ruengsuk",
+        "Phitawat Namnouad",
+        "Manopat Depijan",
+        "Tanagorn Sangtawesin",
+        "Nuntaporn Kamonsutthipaijit",
+        "Jonggol Tantirungrotechai",
+        "Taweechai Amornsakchai",
+        "Siwaporn Meejoo Smith",
+        "Thanthapatra Bunchuay"
+      ],
+      "online_date": "2026-06-08",
+      "korean_description": "파인애플 유래 디알데하이드 전분을 반응성 플랫폼으로 활용해 피리딜-아실하이드라존 가교 네트워크를 형성하고, 금(Au)과 팔라듐(Pd) 회수용 흡착소재로 응용한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006600",
+      "doi": "10.1016/j.carbpol.2026.125543",
+      "title": "Bioengineering toughened, stretchable bacterial cellulose-based films inspired by spider silk",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Cristina Campano",
+        "Benjamin Schmuck",
+        "Maria-Tsampika Manoli",
+        "Ana M. Hernández-Arriaga",
+        "Anna Rising",
+        "M. Auxiliadora Prieto"
+      ],
+      "online_date": "2026-06-07",
+      "korean_description": "거미줄(spider silk)의 구조를 모사하여 박테리아 셀룰로오스 필름의 인성과 신축성을 동시에 향상시킨 생체모방 소재 개발 연구입니다."
+    },
+    {
+      "pii": "S0144861726006612",
+      "doi": "10.1016/j.carbpol.2026.125544",
+      "title": "Thermoresponsive therapeutic alginate hydrogel with bilirubin-loaded polydopamine nanoparticles for enhanced diabetic wound healing",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "hydrogel"
+      ],
+      "authors": [
+        "Eonjin Lee",
+        "Daun Jeong",
+        "U Sun Nam",
+        "Eun Rim Jung",
+        "Kyung Kwan Lee",
+        "Chang Yeol Lee",
+        "Dae Gwin Jeong",
+        "Chang-Soo Lee"
+      ],
+      "online_date": "2026-06-07",
+      "korean_description": "온도반응성 알진산 하이드로겔에 빌리루빈을 담지한 폴리도파민 나노입자를 결합하여, 당뇨병성 창상 치유를 촉진하는 치료 소재를 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006533",
+      "doi": "10.1016/j.carbpol.2026.125536",
+      "title": "Partially replacing polyurethane resins with chitosan in cork agglomerates: Toward biobased, lower-impact and antimicrobial thermosets",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Vasco Valente",
+        "Ana C.Q. Silva",
+        "Allison Vercasson",
+        "Ana C. Barros",
+        "Cátia Vieira",
+        "Adelaide Almeida",
+        "Armando J.D. Silvestre",
+        "Carla Vilela",
+        "Carmen S.R. Freire"
+      ],
+      "online_date": "2026-06-06",
+      "korean_description": "코르크 응집체 제조에 사용되는 폴리우레탄 수지 일부를 키토산으로 대체하여, 바이오 기반이면서 환경영향이 낮고 항균성을 갖춘 열경화성 복합재를 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006594",
+      "doi": "10.1016/j.carbpol.2026.125542",
+      "title": "Comprehensive insights into how glycoside hydrolases combinations tailor arabinoxylo-oligosaccharides (AXOS)",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Kai P. Leschonski",
+        "Kristian B.R.M. Krogh",
+        "Martin F. Laursen",
+        "Mirjam A. Kabel"
+      ],
+      "online_date": "2026-06-06",
+      "korean_description": "여러 종류의 글리코사이드 가수분해효소 조합이 아라비노자일로올리고당(AXOS)의 구조를 어떻게 조절하는지 종합적으로 분석한 효소공학 연구입니다."
+    },
+    {
+      "pii": "S0144861726006557",
+      "doi": "10.1016/j.carbpol.2026.125538",
+      "title": "Photothermal and immunomodulatory chitosan composite hydrogel remodels the pathological microenvironment to accelerate infected diabetic wound healing",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "hydrogel"
+      ],
+      "authors": [
+        "Helang Li",
+        "Zhenzhen Dong",
+        "Lei Chen",
+        "Tengyang Cao",
+        "Zinan Jiang",
+        "Jiawen Li",
+        "Helei Wang",
+        "Kun Tian",
+        "Yinlong Zhang",
+        "Caiqi Wang"
+      ],
+      "online_date": "2026-06-05",
+      "korean_description": "광열 효과와 면역조절 기능을 겸비한 키토산 복합 하이드로겔을 개발하여, 감염된 당뇨병성 창상의 병리학적 미세환경을 개선하고 치유를 촉진한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006442",
+      "doi": "10.1016/j.carbpol.2026.125527",
+      "title": "Structural characterization and properties of a novel acetylated extracellular polysaccharide from Rhodotorula graminis",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Dana Byrtusová",
+        "Gordon Jacob Boehlich",
+        "Lucia Dzuricka",
+        "Ruth Montero",
+        "Ahmad Tsjokajev",
+        "Sven Andreas Högfeldt",
+        "Svein Jarle Horn",
+        "Boris Zimmermann",
+        "Ivana Marova",
+        "Margareth Øverland",
+        "Gustav Vaaje-Kolstad",
+        "Bjørge Westereng",
+        "Volha Shapaval"
+      ],
+      "online_date": "2026-06-05",
+      "korean_description": "효모 Rhodotorula graminis가 생산하는 신규 아세틸화 세포외다당류(EPS)의 화학구조와 물성을 규명한 연구입니다. 미생물 균주 자체보다 다당류 소재의 구조·물성 규명에 중점을 두었습니다."
+    },
+    {
+      "pii": "S0144861726006326",
+      "doi": "10.1016/j.carbpol.2026.125515",
+      "title": "Multilayer cellulose hybrid films with tunable UV selectivity and mechanical performance",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Andrea Brattelli",
+        "Luigi Gentile"
+      ],
+      "online_date": "2026-06-04",
+      "korean_description": "다층 구조의 셀룰로오스 하이브리드 필름을 제작하여 자외선(UV) 파장 선택적 차단 특성과 기계적 물성을 동시에 조절할 수 있음을 보인 연구입니다."
+    },
+    {
+      "pii": "S0144861726006296",
+      "doi": "10.1016/j.carbpol.2026.125512",
+      "title": "Sustainable ambient-dried cellulose xerogels enabled by bio-based ammonium phytate as a dual-functional crosslinker and flame retardant",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Yu Chen",
+        "Yi Hu",
+        "Hang Yao",
+        "Bin Ye",
+        "Xin Zhao",
+        "Yi Lu",
+        "Guangping Han",
+        "Wanli Cheng"
+      ],
+      "online_date": "2026-06-04",
+      "korean_description": "바이오 기반 피트산암모늄을 이중기능성 가교제 겸 난연제로 활용하여, 상온 건조만으로 제조 가능한 지속가능 셀룰로오스 제로겔(xerogel)을 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006521",
+      "doi": "10.1016/j.carbpol.2026.125535",
+      "title": "Effects of starch degradation and starch-lipid complexes recombination on starch digestion under cold plasma regulation",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Yuan Jiang",
+        "Xingrong Pan",
+        "Yuanfang Sun",
+        "Jingru He",
+        "Sihan Cheng",
+        "Zonnglin Guo",
+        "Kun Hu",
+        "Xiangzhen Ge"
+      ],
+      "online_date": "2026-06-04",
+      "korean_description": "저온 플라즈마 처리가 전분의 분해 및 전분-지질 복합체 재조합에 미치는 영향을 분석하고, 이것이 전분 소화율에 미치는 영향을 평가한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006284",
+      "doi": "10.1016/j.carbpol.2026.125511",
+      "title": "A self-crosslinking powder based on carboxymethyl chitosan and guar gum with free radical scavenging for rapid hemostasis and promotion of wound healing",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Zheng Chen",
+        "Jiawei Shen",
+        "Bin Zuo",
+        "Shuohua Gu",
+        "Kaiyue Xu",
+        "Yingping Li",
+        "Qun Wang",
+        "Yilin Wang",
+        "Jiulong Zhao",
+        "Shige Wang"
+      ],
+      "online_date": "2026-06-04",
+      "korean_description": "카복시메틸키토산과 구아검을 이용한 자가가교형 분말 지혈제를 개발하여, 라디칼 소거능을 통해 신속한 지혈과 창상 치유 촉진 효과를 확인한 연구입니다."
+    },
+    {
+      "pii": "S014486172600634X",
+      "doi": "10.1016/j.carbpol.2026.125517",
+      "title": "Short-chain amylopectin and long-chain amylose drive distinct wheat starch gel networks with similar low digestibility",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Jing Wang",
+        "Xiangqi Fan",
+        "Jiaying Shang",
+        "Zipeng Liu",
+        "Limin Li",
+        "Jing Hong",
+        "Mei Liu",
+        "Erqi Guan",
+        "Xueling Zheng",
+        "Chong Liu"
+      ],
+      "online_date": "2026-06-04",
+      "korean_description": "밀 전분 내 단쇄 아밀로펙틴과 장쇄 아밀로오스의 비율에 따라 서로 다른 겔 네트워크 구조가 형성되지만, 소화율은 유사하게 낮게 유지됨을 규명한 전분 구조-기능 연구입니다."
+    },
+    {
+      "pii": "S0144861726006417",
+      "doi": "10.1016/j.carbpol.2026.125524",
+      "title": "Janus cellulose-based fabric with rapid heat conduction and intelligent water management capabilities",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Yan Yu",
+        "Tong Xue",
+        "Jiasong Jiang",
+        "Yuanhang Zhang",
+        "Chaoxia Wang",
+        "Haonan Cheng",
+        "Yunjie Yin"
+      ],
+      "online_date": "2026-06-03",
+      "korean_description": "야누스 구조의 셀룰로오스 기반 직물을 개발하여, 빠른 열전도와 함께 방향성 수분 관리(땀 배출) 기능을 동시에 구현한 스마트 텍스타일 연구입니다."
+    },
+    {
+      "pii": "S0144861726006387",
+      "doi": "10.1016/j.carbpol.2026.125521",
+      "title": "Plasma-engineered chitosan couples red-light bioenergetics to diabetic wound regeneration through programmable microenvironments",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Lekshmi Rethi",
+        "Hoa Duc Chau",
+        "Erlina Febriani",
+        "Yan-Ting Chen",
+        "Szu-Yu Tung",
+        "Pei-Ru Jheng",
+        "Yu-Wen Tseng",
+        "Rou Li",
+        "Min-Lang Tsai",
+        "Chun-Chi Chang",
+        "Van Khiet Pham",
+        "Hieu Trung Nguyen",
+        "Andrew E.-Y. Chuang"
+      ],
+      "online_date": "2026-06-03",
+      "korean_description": "플라즈마 처리로 개질한 키토산 소재를 적색광 생체에너지 반응과 결합시켜, 프로그램 가능한 미세환경을 통해 당뇨병성 창상 재생을 촉진한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006363",
+      "doi": "10.1016/j.carbpol.2026.125519",
+      "title": "Fabrication of oxidized starch/whey protein isolate complexes for fluidized powder coating of starch: A novel preparation strategy of resistant starch granules",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Zhongchao He",
+        "Xinyu Wang",
+        "Xiaoxi Li"
+      ],
+      "online_date": "2026-06-03",
+      "korean_description": "산화전분과 유청단백질분리물(WPI)의 복합체를 이용한 유동층 분말 코팅 공정으로, 저항전분(resistant starch) 과립을 제조하는 새로운 전략을 제시한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006429",
+      "doi": "10.1016/j.carbpol.2026.125525",
+      "title": "A novel phosphorylated chitin-hydroxyapatite composite promotes angiogenesis and osteogenesis for bone defect repair",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Zhen Jiang",
+        "Siheng Niu",
+        "Wei Zhang",
+        "Zhiwen Jiang",
+        "Jinhua Chi",
+        "Shouriu Liu",
+        "Wanshun Liu",
+        "Shuo Wang",
+        "Baoqin Han"
+      ],
+      "online_date": "2026-06-03",
+      "korean_description": "인산화 처리한 키틴과 수산화인회석(하이드록시아파타이트)을 복합화하여, 혈관신생과 골형성을 동시에 촉진하는 골결손 수복용 소재를 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006399",
+      "doi": "10.1016/j.carbpol.2026.125522",
+      "title": "A chitosan-based cinnamaldehyde–raspberry ketone integrated carrier architecture for oral delivery toward mild metabolic regulation",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Yu-Chi Wang",
+        "Sin-Huei Chuang",
+        "Chien-Fu Lin",
+        "Yan-Ting Lin",
+        "You-Song Cheng",
+        "Chih-Chen Lin",
+        "Chi-Chen Ting",
+        "Wei-Han Chen",
+        "Ting-Yu Chen",
+        "Shen-Ho Kuo",
+        "Fu-I Tung",
+        "Tse-Ying Liu"
+      ],
+      "online_date": "2026-06-03",
+      "korean_description": "키토산을 기반으로 신남알데하이드와 라즈베리케톤을 함께 담지하는 경구 전달 담체를 설계하여, 경도의 대사 조절 효과를 유도하고자 한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006077",
+      "doi": "10.1016/j.carbpol.2026.125490",
+      "title": "Mango peel pectin as a high-ester emulsifier for carotenoid delivery: Structural characterization and application in low-fat ice cream",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "pectin"
+      ],
+      "authors": [
+        "Teng-Gen Hu",
+        "Huan Zhang",
+        "Lu Li",
+        "Yu-Qing Hu",
+        "Jing Wen",
+        "Bo Zou",
+        "Jian Peng",
+        "Li-Na Cheng",
+        "Ji-Jun Wu",
+        "Geng-Sheng Xiao",
+        "Yu-Juan Xu",
+        "Yuan-Shan Yu"
+      ],
+      "online_date": "2026-06-02",
+      "korean_description": "망고 껍질에서 추출한 고에스터화 펙틴을 카로티노이드 전달용 유화제로 활용한 연구입니다. 구조적 특성을 규명하고 저지방 아이스크림 제형에 적용해 실제 식품 응용 가능성을 검증했습니다."
+    },
+    {
+      "pii": "S0144861726006338",
+      "doi": "10.1016/j.carbpol.2026.125516",
+      "title": "Structural elucidation of an active pectin against inflammatory bowel disease from the roots of Sanguisorba officinalis and its protection effect",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "pectin"
+      ],
+      "authors": [
+        "Saijuan Li",
+        "Longzhen Wu",
+        "Tingting Wang",
+        "Can Jin",
+        "Xia Chen",
+        "Chengxin Sun",
+        "Kan Ding",
+        "Fei He"
+      ],
+      "online_date": "2026-06-02",
+      "korean_description": "오이풀(Sanguisorba officinalis) 뿌리에서 분리한 생리활성 펙틴의 화학구조를 규명하고, 염증성 장질환(IBD)에 대한 보호 효과를 평가한 천연물 다당류 연구입니다."
+    },
+    {
+      "pii": "S0144861726006375",
+      "doi": "10.1016/j.carbpol.2026.125520",
+      "title": "Construction and expression of a transglucosidase-hexose fusion enzyme for oxidating starch: The intrinsic correlation between molecular structure and oxidation degree",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Yi Yu",
+        "Dengyue Sun",
+        "Jixun Xie",
+        "Feixue Zou",
+        "Li Guo",
+        "Bo Cui"
+      ],
+      "online_date": "2026-06-02",
+      "korean_description": "트랜스글루코시데이스와 헥소스 산화효소를 융합한 재조합 효소를 제작·발현시켜 전분을 산화시키고, 효소의 분자구조와 전분 산화도 사이의 상관관계를 규명한 효소공학 연구입니다."
+    },
+    {
+      "pii": "S0144861726006405",
+      "doi": "10.1016/j.carbpol.2026.125523",
+      "title": "Short dextran–solanesol block copolymer as a bio-based platform for multifunctional wormlike micelles",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Weeranuch Lang",
+        "Takayuki Kurokawa",
+        "Sho Fukushima",
+        "Tomohisa Watanabe",
+        "Minami Ebe",
+        "Redouane Borsali",
+        "Feng Li",
+        "Takuya Yamamoto",
+        "Kenji Tajima",
+        "Kenji Takahashi",
+        "Toshifumi Satoh",
+        "Takuya Isono"
+      ],
+      "online_date": "2026-06-02",
+      "korean_description": "짧은 사슬의 덱스트란과 솔라네솔을 블록공중합체로 결합하여, 웜형(wormlike) 마이셀을 형성하는 다기능 바이오 기반 플랫폼을 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006351",
+      "doi": "10.1016/j.carbpol.2026.125518",
+      "title": "Protein fibril–mediated inhibition of lotus seed starch retrogradation",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Huifang Liu",
+        "Yuxin Zeng",
+        "Hongliang Zeng",
+        "Baodong Zheng",
+        "Yi Zhang",
+        "Yixin Zheng"
+      ],
+      "online_date": "2026-06-02",
+      "korean_description": "단백질 피브릴을 이용해 연밥(lotus seed) 전분의 노화(retrogradation) 현상을 억제하는 메커니즘을 규명한 전분 저장안정성 연구입니다."
+    },
+    {
+      "pii": "S0144861726006259",
+      "doi": "10.1016/j.carbpol.2026.125508",
+      "title": "High-performance all-cellulose composites bulks enabled by a surface dissolution-intense shear plasticization strategy",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Menghuan Zu",
+        "Ziwen Jia",
+        "Qing Chen",
+        "Huang Zhang",
+        "Chenglang Yang",
+        "Yuyuan Jing",
+        "Haiyu Qiao"
+      ],
+      "online_date": "2026-06-01",
+      "korean_description": "표면 용해 및 강한 전단 가소화 전략을 적용해, 첨가제 없이 셀룰로오스만으로 구성된 고성능 올-셀룰로오스 벌크 복합재를 제조한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006314",
+      "doi": "10.1016/j.carbpol.2026.125514",
+      "title": "Chiral nematic cellulose nanocrystalline-based composites: Construction, regulation and application toward environmental intelligent detection",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Hao Gu",
+        "Zhaolin Li",
+        "Guomin Zhao",
+        "Bingqun Lin",
+        "Mingzhu Pan"
+      ],
+      "online_date": "2026-06-01",
+      "korean_description": "카이랄 네마틱 구조를 갖는 셀룰로오스 나노결정 복합소재를 구축하고 구조를 조절하여, 환경 오염물질에 대한 지능형 색변화 검출 소재로 응용한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006119",
+      "doi": "10.1016/j.carbpol.2026.125494",
+      "title": "Antibody reactivity to bacterial lipopolysaccharide in rheumatoid arthritis: insights from Proteus mirabilis O3",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Katarzyna Durlik-Popińska",
+        "Aneta Węgierek-Ciuk",
+        "Dominika Drzazga",
+        "Paulina Żarnowiec",
+        "Sylwia Nawrot",
+        "Przemysław Bornicki",
+        "Wiesław Kaca"
+      ],
+      "online_date": "2026-06-01",
+      "korean_description": "류마티스 관절염 환자에서 세균 지질다당류(LPS)에 대한 항체 반응성을 프로테우스 미라빌리스(Proteus mirabilis) O3 혈청형을 중심으로 분석한 면역학·다당류 구조 연계 연구입니다."
+    },
+    {
+      "pii": "S0144861726006272",
+      "doi": "10.1016/j.carbpol.2026.125510",
+      "title": "Structural characterization of the pectic polysaccharide from corn silk and its protective mechanism against MASLD via regulation of the gut-liver axis",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Haichao Wang",
+        "Jiajing Yan",
+        "Haolin Jia",
+        "Xiaoyan Li",
+        "Bingxuan Li",
+        "Xuefang Zhang",
+        "Shujun Wang",
+        "Zheng Li",
+        "Yuhong Liu",
+        "Yifei Bian"
+      ],
+      "online_date": "2026-06-01",
+      "korean_description": "옥수수수염(corn silk) 유래 펙틴계 다당류의 구조를 규명하고, 장-간 축(gut-liver axis) 조절을 통해 대사이상 관련 지방간질환(MASLD)을 억제하는 보호 기전을 밝힌 연구입니다."
+    },
+    {
+      "pii": "S0144861726006260",
+      "doi": "10.1016/j.carbpol.2026.125509",
+      "title": "Tuning the degree of substitution of octenyl succinic anhydride-modified highly branched cyclodextrin: Impacts on structure, physicochemical properties and emulsifying performance",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Longyu Wang",
+        "Pengfei Liu",
+        "Chao Yuan"
+      ],
+      "online_date": "2026-06-01",
+      "korean_description": "옥테닐숙신산무수물(OSA)로 개질한 고분지형 사이클로덱스트린의 치환도를 조절하여, 구조·이화학적 특성·유화 성능에 미치는 영향을 체계적으로 분석한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006302",
+      "doi": "10.1016/j.carbpol.2026.125513",
+      "title": "Multifunctional oxidized arabinogalactan/N-methylacrylamide chitosan-based elastic gel designed by dual crosslinking for sensing and energy harvesting applications",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Hongzhuang Zhang",
+        "Zhulan Liu",
+        "Ren'ai Li",
+        "Ting Wu",
+        "Yunfeng Cao",
+        "Guigan Fang"
+      ],
+      "online_date": "2026-06-01",
+      "korean_description": "산화 아라비노갈락탄과 N-메틸아크릴아마이드 키토산을 이중 가교하여 다기능 탄성겔을 설계하고, 센싱과 에너지 하베스팅 응용에 적용한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006247",
+      "doi": "10.1016/j.carbpol.2026.125507",
+      "title": "Multifunctional bupivacaine-loaded electrospun PVA-TCN-polydopamine membranes for enhanced wound healing and analgesia",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Yue Zhang",
+        "Tianqi Feng",
+        "Jing Luo",
+        "Shuiping Ouyang",
+        "Jingyi Yang",
+        "Xin Zhou",
+        "Kankan Jiang"
+      ],
+      "online_date": "2026-05-30",
+      "korean_description": "부피바카인을 담지한 PVA-탄닌산-폴리도파민 전기방사 나노섬유막을 제작하여, 창상 치유 촉진과 진통 효과를 동시에 구현한 연구입니다."
+    },
+    {
+      "pii": "S014486172600603X",
+      "doi": "10.1016/j.carbpol.2026.125486",
+      "title": "Real-time determination of the induced optical anisotropy in dry-jet wet spun cellulose",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Javier Paez",
+        "Suciati Krisnadewi",
+        "Inge Schlapp-Hackl",
+        "Michael Hummel",
+        "Pablo B. Sánchez"
+      ],
+      "online_date": "2026-05-29",
+      "korean_description": "건식-습식 방사(dry-jet wet spinning) 공정으로 제조되는 셀룰로오스 섬유에서 유발되는 광학적 이방성을 실시간으로 측정·분석한 연구입니다. 방사 공정 조건이 섬유의 분자 배향에 미치는 영향을 규명했습니다."
+    },
+    {
+      "pii": "S0144861726006168",
+      "doi": "10.1016/j.carbpol.2026.125499",
+      "title": "Tailoring cellulose nanofibril separator networks with lignin for sustainable energy storage",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Yagmur Bas",
+        "Mandeep Singh",
+        "Luísa Rosenstock Völtz",
+        "Linn Berglund",
+        "Kristiina Oksman"
+      ],
+      "online_date": "2026-05-28",
+      "korean_description": "셀룰로오스 나노피브릴 분리막(세퍼레이터) 네트워크에 리그닌을 결합해 구조를 조절함으로써, 지속가능한 에너지 저장 소자(배터리)용 분리막 성능을 향상시킨 연구입니다."
+    },
+    {
+      "pii": "S0144861726006132",
+      "doi": "10.1016/j.carbpol.2026.125496",
+      "title": "Development of a high-performance anion-exchange chromatography with pulsed amperometric detection based profiling approach to analyze (hetero)mannans",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Lisa Johanna Wagner",
+        "Mirko Bunzel"
+      ],
+      "online_date": "2026-05-28",
+      "korean_description": "펄스 전류측정 검출기를 결합한 고성능 음이온교환 크로마토그래피(HPAEC-PAD) 분석법을 개발하여, (헤테로)만난류 다당류의 구조 프로파일링에 적용한 분석화학 연구입니다."
+    },
+    {
+      "pii": "S0144861726006144",
+      "doi": "10.1016/j.carbpol.2026.125497",
+      "title": "Glycosidic linkage-dependent fermentation of polysaccharide mixtures by human gut microbiota in vitro",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Soraia P. Silva",
+        "Abigail González",
+        "Dalila Roupar",
+        "Marta S. Dias",
+        "Andreia F. Salvador",
+        "José A. Teixeira",
+        "Ramiro D. Almeida",
+        "Clarisse Nobre",
+        "Manuel A. Coimbra",
+        "Elisabete Coelho"
+      ],
+      "online_date": "2026-05-28",
+      "korean_description": "다당류 혼합물의 글리코시드 결합 유형에 따라 인체 장내미생물총에 의한 시험관 내 발효 양상이 달라짐을 규명한 프리바이오틱 다당류 연구입니다."
+    },
+    {
+      "pii": "S0144861726005953",
+      "doi": "10.1016/j.carbpol.2026.125478",
+      "title": "Multifunctional bacterial cellulose derived g-C3N4/C composite aerogel with hyperelasticity, flame retardancy and antibacterial activity for oil-water separation",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Bocan Yang",
+        "Linwan Ji",
+        "Shujuan Liu",
+        "Jiaqi Wang",
+        "Jinghuai Zhang",
+        "Liangcan He",
+        "Shaoqin Liu"
+      ],
+      "online_date": "2026-05-27",
+      "korean_description": "박테리아 셀룰로오스를 전구체로 g-C3N4/탄소 복합 에어로젤을 제조하여, 초탄성·난연성·항균성을 겸비한 다기능 유수분리 소재로 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006107",
+      "doi": "10.1016/j.carbpol.2026.125493",
+      "title": "Hierarchical construction of a superhydrophobic and superior intrinsically flame-retardant phosphorylated microcrystalline cellulose bio-based composite aerogel",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Wenchao Lang",
+        "Haoyi Jia",
+        "Zhe Wang",
+        "Ningjing Wu"
+      ],
+      "online_date": "2026-05-27",
+      "korean_description": "인산화 처리한 미세결정 셀룰로오스를 계층적으로 구축하여, 초소수성과 우수한 내재적 난연성을 동시에 갖춘 바이오 기반 복합 에어로젤을 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006120",
+      "doi": "10.1016/j.carbpol.2026.125495",
+      "title": "Dual-functional synergistic modification of cellulose with phosphate and amidoxime for high-efficiency uranium capture in acidic wastewater",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Xiuxian Zhao",
+        "Junhua Sun",
+        "Chuanke Chong",
+        "Riming Hu"
+      ],
+      "online_date": "2026-05-27",
+      "korean_description": "셀룰로오스에 인산기와 아미독심기를 동시 도입하는 이중 개질 전략을 적용하여, 산성 폐수 중 우라늄을 고효율로 포집할 수 있는 흡착 소재를 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006089",
+      "doi": "10.1016/j.carbpol.2026.125491",
+      "title": "Charge-density-dependent selective radical suppression in carboxymethyl cellulose",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Hiroyuki Kono",
+        "Kotaro Nishimaki",
+        "Koharu Sasa",
+        "Yuki Tanaka",
+        "Makoto Ogata"
+      ],
+      "online_date": "2026-05-26",
+      "korean_description": "카복시메틸셀룰로오스(CMC)의 전하 밀도(치환도)에 따라 라디칼 반응이 선택적으로 억제되는 현상을 규명한 기초 화학 연구입니다. 치환도 조절을 통한 산화 안정성 제어 가능성을 제시했습니다."
+    },
+    {
+      "pii": "S0144861726006090",
+      "doi": "10.1016/j.carbpol.2026.125492",
+      "title": "Structural characterization, in vitro anticoagulant, and antiplatelet activities of a Distolasterias nipon dermatan sulfate-like polymer with a distinctive sulfation pattern",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Alina P. Filshtein",
+        "Vlada S. Belova",
+        "Ilya V. Taran",
+        "Maxim S. Kokoulin"
+      ],
+      "online_date": "2026-05-26",
+      "korean_description": "불가사리(Distolasterias nipon) 유래의 독특한 황산화 패턴을 가진 더마탄황산 유사 고분자의 구조를 규명하고, 시험관 내 항응고 및 항혈소판 활성을 평가한 해양 다당류 연구입니다."
+    },
+    {
+      "pii": "S0144861726006016",
+      "doi": "10.1016/j.carbpol.2026.125484",
+      "title": "Mechanical role of disordered cellulose in macrofibrils of softwood secondary cell walls",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Zhuozheng Yu",
+        "Xiangrui Zheng",
+        "Haoming Yang",
+        "Wenqiong Tu",
+        "Yao Zhang"
+      ],
+      "online_date": "2026-05-25",
+      "korean_description": "연질목재 2차 세포벽 마크로피브릴 내에 존재하는 비결정성(무질서) 셀룰로오스가 세포벽의 기계적 물성에 미치는 역할을 규명한 목재과학 기초 연구입니다."
+    },
+    {
+      "pii": "S0144861726006053",
+      "doi": "10.1016/j.carbpol.2026.125488",
+      "title": "Unlocking complete sugarcane residue valorisation for sequential fractionation of cellulose, hemicellulose and lignin through a one-pot, two-step deep eutectic solvent strategy",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Yujie Mao",
+        "Dwi Ajias Pramasari",
+        "Bridget Tang",
+        "Matthew J. Derry",
+        "Eleanor R. Binner"
+      ],
+      "online_date": "2026-05-25",
+      "korean_description": "원팟 2단계 심공융용매(DES) 공정을 적용해 사탕수수 부산물로부터 셀룰로오스, 헤미셀룰로오스, 리그닌을 순차적으로 완전 분리·회수하는 바이오매스 전량 자원화 공정을 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006004",
+      "doi": "10.1016/j.carbpol.2026.125483",
+      "title": "Carbohydrate polymer-stabilized Pickering emulsion gel coordinates antimicrobial and pro-regenerative cues for scar-minimized wound healing",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Mubarak G. Bello",
+        "Zifang Qiao",
+        "Lihua Chen"
+      ],
+      "online_date": "2026-05-25",
+      "korean_description": "탄수화물 고분자로 안정화한 피커링 에멀젼 겔을 이용해 항균 및 조직재생 촉진 신호를 함께 전달함으로써, 흉터를 최소화하는 창상 치유 소재를 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006041",
+      "doi": "10.1016/j.carbpol.2026.125487",
+      "title": "Integrated design of epigallocatechin gallate nanoparticles and tannic acid to reinforce the porous structure of κ-carrageenan/pullulan absorbent pads for extending beef shelf life",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Xingnan Wang",
+        "Yike Han",
+        "Wenzhi Lei",
+        "Hongcai Li",
+        "Shiqi Li",
+        "Zhenpeng Gao"
+      ],
+      "online_date": "2026-05-25",
+      "korean_description": "에피갈로카테킨갈레이트(EGCG) 나노입자와 탄닌산을 결합해 카파-카라기난/풀루란 흡수패드의 다공성 구조를 보강하고, 소고기 저장기간 연장 효과를 검증한 식품포장 연구입니다."
+    },
+    {
+      "pii": "S0144861726005813",
+      "doi": "10.1016/j.carbpol.2026.125464",
+      "title": "Oxidative deboronation of boronic acids by hydrogen peroxide in planta generates borate for cross-linking of rhamnogalacturonan II",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Deepak Sharma",
+        "Kristen Thorne",
+        "Vivek S. Bharadwaj",
+        "Michaela S. Matthes",
+        "Malcolm O'Neill",
+        "Breeanna Urbanowicz"
+      ],
+      "online_date": "2026-05-25",
+      "korean_description": "식물체 내에서 과산화수소에 의한 붕소산의 산화적 탈붕산화 반응이 붕산염을 생성하여 람노갈락투로난 II(RG-II)의 가교결합에 관여함을 규명한 식물세포벽 기초화학 연구입니다."
+    },
+    {
+      "pii": "S0144861726005977",
+      "doi": "10.1016/j.carbpol.2026.125480",
+      "title": "Preparation of bovine serum albumin-γ-cyclodextrin conjugate and its solubilization and delivery performance for paclitaxel",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Wenxin He",
+        "Qijun Song",
+        "Qingyuan Liu",
+        "Xingyue Chen",
+        "Shuyin Tan",
+        "Hongtao Zhang"
+      ],
+      "online_date": "2026-05-25",
+      "korean_description": "소혈청알부민(BSA)과 감마-사이클로덱스트린의 접합체를 제조하여, 난용성 항암제 파클리탁셀의 용해도 개선 및 전달 성능을 평가한 연구입니다."
+    },
+    {
+      "pii": "S0144861726006065",
+      "doi": "10.1016/j.carbpol.2026.125489",
+      "title": "A combined mechanical grinding-deep eutectic solvent strategy for the deconstruction of carbohydrates-rich fruit by-products",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Lucie Perret",
+        "Carole Antoine-Assor",
+        "Johnny Beaugrand",
+        "Komlanvi Lampoh",
+        "Lèna Brionne",
+        "Luc Saulnier",
+        "Suênia De Paiva Lacerda",
+        "Marie-Joo Le Guen",
+        "Claire Mayer-Laigle"
+      ],
+      "online_date": "2026-05-25",
+      "korean_description": "기계적 분쇄와 심공융용매(DES) 처리를 결합한 전략을 적용하여, 탄수화물이 풍부한 과일 부산물을 효율적으로 분해·회수하는 공정을 개발한 바이오매스 자원화 연구입니다."
+    },
+    {
+      "pii": "S0144861726005990",
+      "doi": "10.1016/j.carbpol.2026.125482",
+      "title": "Ultrasound treatment of maize starches with varying amylose and gelatinisation state",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Minqian Zhu",
+        "Weiyan Xiong",
+        "Gaurav Kumar",
+        "Xingxun Liu",
+        "Enpeng Li",
+        "Bernadine Flanagan",
+        "Sushil Dhital"
+      ],
+      "online_date": "2026-05-25",
+      "korean_description": "아밀로오스 함량과 호화(gelatinization) 상태가 서로 다른 옥수수 전분에 초음파 처리를 적용해 그 영향을 비교 분석한 전분 가공 연구입니다."
+    },
+    {
+      "pii": "S0144861726006028",
+      "doi": "10.1016/j.carbpol.2026.125485",
+      "title": "Correlating polymer solution and membrane fabrication with morphological and permeation properties of cellulose acetate ultrafiltration membranes",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Rita F. Pires",
+        "Margarida P. Valente",
+        "Flávia S.C. Rodrigues",
+        "Ana Charas",
+        "Mónica Faria"
+      ],
+      "online_date": "2026-05-24",
+      "korean_description": "셀룰로오스아세테이트 고분자 용액의 특성 및 제막 조건이 한외여과(UF) 분리막의 형태학적 구조와 투과 성능에 미치는 영향을 상관관계로 규명한 연구입니다."
+    },
+    {
+      "pii": "S0144861726005989",
+      "doi": "10.1016/j.carbpol.2026.125481",
+      "title": "Multi-stimuli responsive cellulose nanocrystal-based microcapsules with enhanced insecticidal efficacy and environmental safety",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Er-min Zhou",
+        "Jia-wei Ding",
+        "Dao-bing Kang",
+        "Yi-lin Tan",
+        "Yong-jiang Li",
+        "De-qiang Li",
+        "Jun Li"
+      ],
+      "online_date": "2026-05-23",
+      "korean_description": "다중 자극반응형 셀룰로오스 나노결정 기반 마이크로캡슐을 개발하여, 살충 효능은 높이면서도 환경 안전성을 개선한 농업용 방출제어 소재 연구입니다."
+    },
+    {
+      "pii": "S014486172600593X",
+      "doi": "10.1016/j.carbpol.2026.125476",
+      "title": "From crude extracts to purified fractions: Tracking sulfate preservation, antioxidant loss, and nanostructures by X-ray scattering of Hokkaido brown algae fucoidans",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "authors": [
+        "Yuya Kumagai",
+        "Martin Alain Mune Mune",
+        "Shingo Akita",
+        "Shilja Sajeevan",
+        "Toshifumi Satoh",
+        "Takuya Isono",
+        "Chikara Kawagoe",
+        "Takayoshi Tagami",
+        "Yoshiaki Yuguchi",
+        "Weeranuch Lang"
+      ],
+      "online_date": "2026-05-23",
+      "korean_description": "홋카이도산 갈조류 유래 후코이단을 조추출물에서 정제 분획까지 단계별로 추적하여, 황산기 보존율·항산화 활성 손실·나노구조 변화를 X선 산란으로 분석한 연구입니다."
+    },
+    {
+      "pii": "S0144861726005965",
+      "doi": "10.1016/j.carbpol.2026.125479",
+      "title": "High-strength PVA-based carboxymethyl cellulose hydrogel enabling adaptive plugging of cracks of varying widths",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose",
+        "hydrogel"
+      ],
+      "authors": [
+        "Linxun Li",
+        "Houbin Liu",
+        "Yuanpeng Wu",
+        "Li Wang",
+        "Xi Yang",
+        "Chunyu Feng"
+      ],
+      "online_date": "2026-05-22",
+      "korean_description": "폴리비닐알코올(PVA)과 카복시메틸셀룰로오스를 결합한 고강도 하이드로겔을 개발하여, 폭이 다양한 균열에 적응적으로 대응해 막을 수 있는 지반·구조물 보수용 소재로 제시한 연구입니다."
+    },
+    {
+      "pii": "S0144861726005941",
+      "doi": "10.1016/j.carbpol.2026.125477",
+      "title": "Molecular engineering of cellulose-rich Caragana fiber with phytic acid construct high-energy phosphate sites for efficient rare earth capture",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Xiaoxia Wang",
+        "Huan Zhang",
+        "Xiangyu Liu",
+        "Qile Zhao",
+        "Junjie Ding",
+        "Hao Yu",
+        "Wenbo Wang",
+        "Fang Guo"
+      ],
+      "online_date": "2026-05-22",
+      "korean_description": "캐러가나(Caragana) 식물 유래 셀룰로오스 섬유를 피트산으로 분자 수준에서 개질해 고에너지 인산 자리를 도입함으로써, 희토류 원소를 효율적으로 포집하는 흡착소재를 개발한 연구입니다."
+    },
+    {
+      "pii": "S0144861726005928",
+      "doi": "10.1016/j.carbpol.2026.125475",
+      "title": "The O antigen of Klebsiella pasteurii 0.067 lipopolysaccharide: structure, serology and genetic loci organization",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Agata Palusiak",
+        "Anna Maciejewska",
+        "Daria Artyszuk",
+        "Jolanta Lukasiewicz"
+      ],
+      "online_date": "2026-05-21",
+      "korean_description": "클렙시엘라 파스퇴리(Klebsiella pasteurii) 0.067 균주가 생산하는 지질다당류 O-항원의 화학구조를 규명하고, 혈청학적 특성 및 관련 유전자좌 구성을 분석한 다당류 구조화학 연구입니다."
+    },
+    {
+      "pii": "S0144861726005874",
+      "doi": "10.1016/j.carbpol.2026.125470",
+      "title": "Designing soy protein amyloid fibrils-high methoxyl pectin composite gel as a potential dysphagia food: Focus on interaction exploration and delivery properties",
+      "coverDate": "2026-09-01",
+      "volume": "387",
+      "focus_keywords": [
+        "pectin"
+      ],
+      "authors": [
+        "Jianling Feng",
+        "Bowen Yang",
+        "Xu Han",
+        "Xiaohong Tong",
+        "Dianyu Yu",
+        "Huan Wang",
+        "Lianzhou Jiang"
+      ],
+      "online_date": "2026-05-20",
+      "korean_description": "대두단백질 아밀로이드 피브릴과 고메톡실 펙틴을 복합화한 겔을 설계하여, 연하곤란(삼킴장애) 환자용 식품 소재로서의 가능성을 평가한 연구입니다. 두 성분 간 상호작용과 전달 특성을 분석했습니다."
+    },
+    {
+      "pii": "S0144861726005370",
+      "doi": "10.1016/j.carbpol.2026.125420",
+      "title": "Tailoring non-wood cellulose for regenerated fibres: How opposing fractionation routes govern polysaccharide macromolecular structure and performance",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Max E. Winkler",
+        "Maximilian Brosche",
+        "Birgit Kosan",
+        "Katrin Römhild",
+        "Katrin Thümmler",
+        "Steffen Fischer"
+      ],
+      "online_date": "2026-05-15",
+      "korean_description": "비목재계 셀룰로오스를 재생섬유 원료로 활용하기 위해 서로 다른 분별(fractionation) 경로가 다당류의 거대분자 구조와 최종 섬유 물성에 미치는 영향을 비교 분석한 연구입니다."
+    },
+    {
+      "pii": "S0144861726005539",
+      "doi": "10.1016/j.carbpol.2026.125436",
+      "title": "Three-dimensional (3D) printing of cellulose/metal-organic frameworks (CelloMOFs)-based materials",
+      "coverDate": "2026-08-15",
+      "volume": "386",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "authors": [
+        "Hani Nasser Abdelhamid"
+      ],
+      "online_date": "2026-05-12",
+      "korean_description": "셀룰로오스 나노섬유와 금속유기골격체(MOF)를 결합한 잉크를 이용해 바인더 없이 3D 프린팅이 가능한 CelloMOF 복합소재를 제작한 연구입니다."
+    },
+    {
+      "pii": "S0144861726004236",
+      "doi": "10.1016/j.carbpol.2026.125306",
+      "title": "Mechanism-guided biomimetic calcium phosphate mineralization on agro-derived nanocellulose, chitosan, and pectin: Interfacial design rules for translation",
+      "coverDate": "2026-08-01",
+      "volume": "385",
+      "focus_keywords": [
+        "cellulose",
+        "pectin"
+      ],
+      "authors": [
+        "José Roberto Vega-Baudrit",
+        "Mary Lopretti"
+      ],
+      "online_date": "2026-04-08",
+      "korean_description": "농업 부산물 유래 나노셀룰로오스, 키토산, 펙틴 표면에 인산칼슘을 생체모방 방식으로 광물화시키는 메커니즘을 규명하고, 이를 바탕으로 실용화를 위한 계면 설계 원칙을 제시한 연구입니다."
+    },
+    {
+      "pii": "S0144861726003644",
+      "doi": "10.1016/j.carbpol.2026.125247",
+      "title": "An AI-informed framework for flavor design: How κ-carrageenan sculpts low-sodium myofibrillar protein architecture for aldehyde capture and bitterness masking",
+      "coverDate": "2026-09-15",
+      "volume": "388",
+      "authors": [
+        "Rong Huang",
+        "Yapeng Fang",
+        "Hao Yin",
+        "Yu Zhong",
+        "Wei Lu",
+        "Linnan Yang",
+        "Yun Deng"
+      ],
+      "online_date": "2026-03-25",
+      "korean_description": "인공지능(AI) 기반 프레임워크를 활용해, 카파-카라기난이 저나트륨 근원섬유단백질의 구조를 조절함으로써 알데하이드류를 포집하고 쓴맛을 마스킹하는 원리를 규명한 향미설계 연구입니다."
+    }
+  ]
+}
