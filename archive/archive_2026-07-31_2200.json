@@ -1,0 +1,516 @@
+{
+  "run_datetime_utc": "2026-07-31 22:00",
+  "journal": "Carbohydrate Polymers",
+  "issn": "0144-8617",
+  "collection_methods": {
+    "primary": "Elsevier Scopus Search API (X-ELS-APIKey) - query=ISSN(0144-8617), sort=-coverDate, 33 pages x 25 = 825 entries scanned (start=0..824). content/search/scidir endpoint confirmed HTTP 410 Gone (retired) as in prior runs; content/search/scopus used instead. API key has metadata-only entitlement (no abstract/full-text access via content/abstract/pii).",
+    "abstract_supplement": "WebSearch was used per-article for all 25 qualifying articles (not just the focus-keyword subset) to gather context on methodology/results from ScienceDirect/ResearchGate/PubMed/Google Scholar snippets. ScienceDirect direct WebFetch returned HTTP 403 (bot-blocked) as expected; WebSearch used as fallback per task instructions. Korean descriptions in the report were newly composed from this gathered context, not copied or translated verbatim from English abstracts.",
+    "author_enrichment": "CrossRef API (api.crossref.org/works/{doi}) used for full author lists for all 25 qualifying articles.",
+    "eligibility_filtering": "Scopus subtypeDescription=='Article' kept (Review/Erratum/Editorial excluded at source). Additional title-pattern screen removed further review-style titles (patterns: review, recent advances, future perspectives, bridging, strategies mechanisms, design principles, comprehensive review, progress on/in, overview). 8 microbe-strain-biology-centric papers excluded where the core topic was microbial genetics/strain engineering/biosynthesis-pathway elucidation rather than the polysaccharide material itself (genetic/bioprocess engineering for microbial alginate production; halophile fungal cell wall biology via solid-state NMR; metabolic network and biosynthesis of exopolysaccharide in Bacillus smithii; PilZ domain mutations in bacterial glucan synthases; E. coli strain engineering for O-polysaccharide vaccine biosynthesis; polysaccharide-localization switching mechanism in lactobacilli; Corynebacterium glutamicum strain engineering for chondroitin production; bacterial cellulose biosynthesis/regulation mechanism review-style article). Polysaccharide-structure/material-focused papers involving microbial sources were retained when the material itself, not organism biology, was the stated focus (e.g., Lactiplantibacillus-derived galactoglucan structural characterization was NOT included in this batch but would qualify under this rule; none of the 25 selected are microbially-sourced in this run).",
+    "dedup_crosscheck": "PII/DOI cross-checked against state/seen_articles.json (1009 prior entries) to exclude already-covered articles.",
+    "note_on_search_dynamics": "The most recent coverDate window (2026-08-01 to 2026-10-01) was dominated almost entirely by Review-type and Erratum entries (special review-focused upcoming issues); after excluding those, only a handful of qualifying new Articles remained in that window. Paging further back into the 2026-02-15 to 2026-06-01 coverDate range (previously scanned less exhaustively) surfaced 257 qualifying candidates after basic filtering, from which 25 were selected prioritizing recency and coverage of the focus keywords."
+  },
+  "target_count": 20,
+  "collected_count": 25,
+  "eligibility_filters_applied": "Review/systematic review/mini-review excluded; Erratum/Editorial excluded; microbe-strain-biology-centric papers excluded (structure/materials-focused polysaccharide papers from microbial sources would be retained per rule but none qualified in this run); coverDate within ~2 years",
+  "focus_keyword_piis": [
+    "S0144861726007988",
+    "S0144861726002365",
+    "S014486172600189X",
+    "S0144861726000111",
+    "S0144861726001931",
+    "S0144861726002286",
+    "S014486172600233X",
+    "S0144861726001761",
+    "S0144861726002468",
+    "S0144861726001839"
+  ],
+  "articles": [
+    {
+      "pii": "S0144861726007988",
+      "doi": "10.1016/j.carbpol.2026.125681",
+      "title": "Biomass-based multifunctional hydrogel fabricated using lignin–Li+ self-catalytic system with high mechanical strength and ionic conductivity for flexible sensor",
+      "coverDate": "2026-10-01",
+      "volume": null,
+      "authors": [
+        "Chaofan He",
+        "Ze Kang",
+        "Kai Kang",
+        "Jiayue Huo",
+        "Rui Zhao",
+        "Yong Guo",
+        "Jie Wei",
+        "Yuxia Chen",
+        "Chao Ma"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "biomass",
+        "hydrogel"
+      ]
+    },
+    {
+      "pii": "S0144861726003267",
+      "doi": "10.1016/j.carbpol.2026.125209",
+      "title": "Sustainable polysaccharide-based adsorbents for PFAS removal: Mechanisms, functional engineering, and future directions",
+      "coverDate": "2026-06-01",
+      "volume": null,
+      "authors": [
+        "Shahabaldin Rezania",
+        "Amirreza Talaie",
+        "Saeed Rajabi",
+        "Hesam Kamyab",
+        "Amir Hossein Behroozi"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726002365",
+      "doi": "10.1016/j.carbpol.2026.125120",
+      "title": "Synergistic effect of tetrapropylammonium hydroxide and urea on hemicellulose fractionation with high-purity and high molecular weight",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Rui Tian",
+        "Yi Ding",
+        "Bolang Zhu",
+        "Zhenhua Su",
+        "Baozhong Lü",
+        "Jing Bian",
+        "Mingfei Li",
+        "Zhengjun Shi",
+        "Pai Peng",
+        "Yuetong Kang",
+        "Feng Peng"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "cellulose"
+      ]
+    },
+    {
+      "pii": "S0144861726001992",
+      "doi": "10.1016/j.carbpol.2026.125083",
+      "title": "Imidazolium salt chitosan based on bacterial capture: Antimicrobial mechanisms, biosafety, and methicillin-resistant Staphylococcus aureus-infected wound healing",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Yongsheng Ma",
+        "Li Xu",
+        "Ruixuan Wang",
+        "Zhongshan Lu",
+        "Jian You",
+        "Hankun Cao",
+        "Xiangdong Feng",
+        "Jinping Zhou",
+        "Shuangquan Wu",
+        "Qifa Ye"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726002067",
+      "doi": "10.1016/j.carbpol.2026.125090",
+      "title": "Chitosan and γ-polyglutamic acid interfacial polyelectrolyte complexation fibers for tendon biomimicry and regeneration",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Hao-Xuan Chen",
+        "Shih-Heng Chen",
+        "Shih-Hsien Chen",
+        "Yu-Chung Liu",
+        "Chen-Te Wu",
+        "Jian-Xun Chen",
+        "Tzu-Wei Wang"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726002407",
+      "doi": "10.1016/j.carbpol.2026.125124",
+      "title": "Development of a cationic bionanocomplex from N-aryl-chitosan derivatives for controlled drug release",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Samir E. Esquivel",
+        "Matías Rebolledo",
+        "Elizabeth R. Gilles",
+        "Carolina Gomez-Gaete",
+        "Víctor H. Campos -Requena",
+        "Jorge R. Toledo Alonso",
+        "Manuel F. Meléndrez",
+        "Daniel A. Palacio"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S014486172600189X",
+      "doi": "10.1016/j.carbpol.2026.125073",
+      "title": "Nanoscale insights into cellulose–imidazolium ionic liquid interactions via atomic force microscopy",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Ruimei Cao",
+        "Hongshuai Gao",
+        "Wanxue Lv",
+        "Yuting Song",
+        "Yan Long",
+        "Min Yu",
+        "Baozeng Ren",
+        "Yi Nie",
+        "Suojiang Zhang"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "cellulose"
+      ]
+    },
+    {
+      "pii": "S0144861726002031",
+      "doi": "10.1016/j.carbpol.2026.125087",
+      "title": "Xanthan gum-walnut protein interactions: The influence of pyruvate groups on xanthan gum side chains",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Zinuo An",
+        "Wensheng Liang",
+        "Zhenbin Liu",
+        "Hongbo Li",
+        "Jiayi Zhang",
+        "Lishan Yao",
+        "Lu Tian",
+        "Xiaolin Zhu",
+        "Haizhen Mo",
+        "Liangbin Hu"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726002055",
+      "doi": "10.1016/j.carbpol.2026.125089",
+      "title": "Extrusion-formed starch-phenolic acid complexes: Physico-chemical properties and in vitro digestibility",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Zixi Wang",
+        "Xi Peng",
+        "Guodong Zhang",
+        "Linfeng Zhu",
+        "Pei Zhao",
+        "Jinrong Wang",
+        "Zijian Wu"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726001335",
+      "doi": "10.1016/j.carbpol.2026.125017",
+      "title": "Studies on starch-water interactions by NMR relaxation, thermogravimetric analysis, and their relationship with the viscoelastic properties of rice pasta dough enriched with egg preparations",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Magdalena Witek",
+        "Matthew Krzystyniak",
+        "Ireneusz Maciejaszek",
+        "Joanna Banaś"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726000111",
+      "doi": "10.1016/j.carbpol.2026.124895",
+      "title": "Solvent-directed regeneration of nanocellulose with tunable morphology and interfacial properties",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Guitao Du",
+        "Wang Zhao",
+        "Jianbo Shuai",
+        "Zepeng Lei",
+        "Xiaohui Wang"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "cellulose"
+      ]
+    },
+    {
+      "pii": "S0144861726000871",
+      "doi": "10.1016/j.carbpol.2026.124971",
+      "title": "β-Cyclodextrin-functionalized Zr-sulfonamide MOF novel pH-responsive nano platform for breast and lung cancer",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Sedigheh Alavinia",
+        "Ramin Ghorbani-Vaghei",
+        "Katayoun Derakhshandeh",
+        "Nafiseh Emami",
+        "Seyed Sepehr Uroomiye",
+        "Milad Babaei"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726001359",
+      "doi": "10.1016/j.carbpol.2026.125019",
+      "title": "Starch as a designable platform for oral drug delivery: From structural modulation to application in inflammatory bowel disease",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Mengyuan Qin",
+        "Feng Jiang",
+        "Yan Hong",
+        "Lingjin Li",
+        "Yongmin Cui",
+        "Canran Jin",
+        "Zhengbiao Gu",
+        "Li Cheng",
+        "Zhaofeng Li",
+        "Caiming Li",
+        "Xiaofeng Ban"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726001931",
+      "doi": "10.1016/j.carbpol.2026.125077",
+      "title": "Understanding the formation of hemicellulose-polyphenol assemblies: case study of the xyloglucan-tannic acid system",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Sarah Mamdouh",
+        "Isabelle Capron",
+        "Hugo Voisin"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "cellulose"
+      ]
+    },
+    {
+      "pii": "S0144861726002286",
+      "doi": "10.1016/j.carbpol.2026.125112",
+      "title": "Emulsion gel designed based on rice bran protein-pectin conjugated microgel particles: Interface characteristics, rheological properties and water migration",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Xiaoyu Han",
+        "Yu Nie",
+        "Tong Wang",
+        "Weining Wang",
+        "Dianyu Yu"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "pectin"
+      ]
+    },
+    {
+      "pii": "S014486172600233X",
+      "doi": "10.1016/j.carbpol.2026.125117",
+      "title": "Magnetically oriented chitin/C-Fe-MOF composite hydrogel with high toughness and conductivity for advanced soft electronics",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Liqin Cai",
+        "Xiang Shao",
+        "Xinghuai Mao",
+        "Yaming Fu",
+        "Yuxi Wu",
+        "Xiaoli Zhang",
+        "Lan Hu",
+        "Shujun Zhou",
+        "Yangjian Cheng",
+        "Huaqiang Sun",
+        "Yuying Zheng"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "hydrogel"
+      ]
+    },
+    {
+      "pii": "S0144861726001803",
+      "doi": "10.1016/j.carbpol.2026.125064",
+      "title": "A pullulan-based bilayer film for buccal delivery of a GLP-1 peptide analogue",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Sandeep Karki",
+        "Sahil Malhotra",
+        "Muhammad Ijaz",
+        "Nicolas Rollet",
+        "Eoin D. O'Cearbhaill",
+        "Estela Bini",
+        "David J. Brayden"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726002262",
+      "doi": "10.1016/j.carbpol.2026.125110",
+      "title": "HAMS-fatty acid complexes with B + V composite crystal structure demonstrate significantly enhanced resistance to digestion",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Rongrong Ma",
+        "Chang Liu",
+        "Hao Chen",
+        "Xiaohua Pan",
+        "Chang Liu",
+        "Yaoqi Tian"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726002079",
+      "doi": "10.1016/j.carbpol.2026.125091",
+      "title": "Impact of drying temperature-induced protein conformational changes on the regulation of intermolecular interactions and gelation in pea starch-Spirulina composite gel",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Kerui Su",
+        "Bingyu Shi",
+        "Anqi Zhao",
+        "Beixiao Zhang",
+        "Zhihao Fan",
+        "Muhammad Usman",
+        "Qi Wang",
+        "Xuejing Duan",
+        "Hanyu Dong",
+        "Ayesha Shahid",
+        "Jingliang Xu"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726001761",
+      "doi": "10.1016/j.carbpol.2026.125060",
+      "title": "Chitin hybrid hydrogels for salt efflorescence removal from historic brick masonry",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Madalen Azpitarte Aretxabaleta",
+        "Erlantz Lizundia"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "hydrogel"
+      ]
+    },
+    {
+      "pii": "S0144861726002195",
+      "doi": "10.1016/j.carbpol.2026.125103",
+      "title": "Structure–function relationship of Konjac glucomannan with varying acetylation degrees in modulating gut microbiota and alleviating prediabetes",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Hongchao Wang",
+        "Yurong Zhao",
+        "Danting Dang",
+        "Liming Huang",
+        "Zhangming Pei",
+        "Jianxin Zhao",
+        "Hao Zhang",
+        "Wei Chen",
+        "Wenjun Wu",
+        "Wenwei Lu"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726001694",
+      "doi": "10.1016/j.carbpol.2026.125053",
+      "title": "An arabinogalactan from Bupleurum chinense DC. attenuates LPS-induced inflammation in RAW264.7 macrophages",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Bowen Zheng",
+        "Chenxu Jiang",
+        "Zheng Wang",
+        "Qiuhong Zhang",
+        "Hang Du",
+        "Nana Huang",
+        "Jin Wang",
+        "Jinhua Du",
+        "Daizhou Zhang",
+        "Rong Sun",
+        "Daijie Wang"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726002468",
+      "doi": "10.1016/j.carbpol.2026.125130",
+      "title": "Fabrication and characterization of antibacterial and adhesive hydrogel composites based on carboxymethyl cellulose, acrylamide, and gold nanoparticles",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Onome Ejeromedoghene",
+        "Moses Kumi",
+        "Huanhuan Wang",
+        "Samson Olusegun Afolabi",
+        "Ahmed Olalekan Omoniyi",
+        "Huaguang Wang",
+        "Jiangna Guo",
+        "Zexin Zhang"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "cellulose",
+        "hydrogel"
+      ]
+    },
+    {
+      "pii": "S014486172600202X",
+      "doi": "10.1016/j.carbpol.2026.125086",
+      "title": "Increases in cell-wall homogalacturonan but decreases in xylogalacturonan accompany transition from dormant to vegetative stages in Chrysolaena obovata rhizophores",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Marina Câmara Mattos Martins",
+        "Fernanda dos Santos Kretzschmar",
+        "Nicholas C. Carpita",
+        "Adriana Hissae Hayashi",
+        "Maria Angela Machado de Carvalho",
+        "Breno Leite",
+        "Marcia Regina Braga"
+      ],
+      "is_focus_keyword_article": false,
+      "focus_matches": []
+    },
+    {
+      "pii": "S0144861726001839",
+      "doi": "10.1016/j.carbpol.2026.125067",
+      "title": "Exploring the physical phase behavior of Ulva polysaccharide and soybean isolate protein complexes: the effects of pH and ionic strength on gel properties",
+      "coverDate": "2026-05-15",
+      "volume": null,
+      "authors": [
+        "Kaixuan Bu",
+        "Wenqin Chu",
+        "Xianyu Li",
+        "Ziye Shen",
+        "Xinting Duan",
+        "Peng Wang"
+      ],
+      "is_focus_keyword_article": true,
+      "focus_matches": [
+        "soybean isolate protein"
+      ]
+    }
+  ]
+}
