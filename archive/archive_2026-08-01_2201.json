@@ -1,0 +1,565 @@
+{
+  "run_datetime_utc": "2026-08-01 22:01",
+  "journal": "Carbohydrate Polymers",
+  "issn": "0144-8617",
+  "collection_methods": {
+    "primary": "Elsevier Scopus Search API (X-ELS-APIKey) - query=ISSN(0144-8617) AND PUBYEAR>2024 AND DOCTYPE(ar), sort=-coverDate, 21 pages x 25 = 525 entries scanned (start=0..500). content/search/sciencedirect endpoint returned HTTP 401 (authorization error, insufficient entitlement); content/search/scidir endpoint returned HTTP 410 Gone (retired). content/search/scopus used successfully instead.",
+    "review_crosscheck": "PubMed E-utilities ESearch (db=pubmed, term=Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt], datetype=pdat, reldate=730, retmax=500) returned 500 confirmed non-review PMIDs; EFetch (POST, rettype=abstract, retmode=xml) retrieved full records (title, abstract, authors, DOI, publication types) for all 500. Candidate DOIs were cross-matched against this confirmed non-review set. 4 candidates with review-style subtitles (e.g. 'Strategies, Mechanisms and Therapeutic Applications', 'Design principles and emerging applications', 'Chemistry, mechanisms, and emerging applications', 'Lessons from successfully marketed polysaccharide drugs') were absent from the confirmed set; individual PubMed ESearch/EFetch by PMID confirmed all 4 carry PublicationType=Review despite Scopus tagging them subtypeDescription='Article'.",
+    "abstract_source": "Full English abstracts for all 25 selected articles obtained via PubMed EFetch (XML AbstractText elements). Korean descriptions in the report (Section 3) were newly composed by the agent summarizing methodology/results, not translated or copied from the English abstracts.",
+    "unresolved_newest_batch": "6 Articles-in-Press with coverDate 2026-10-01 (most recent Scopus entries, subtypeDescription='Article', titles not review-like) could not be confirmed via PubMed (not yet indexed; individual DOI-based ESearch returned zero hits) and were excluded from this run's selection due to lack of an available abstract without copying from Elsevier metadata-only entitlement. They may be indexed and eligible in a future run."
+  },
+  "target_count": 20,
+  "collected_count": 25,
+  "eligibility_filters_applied": "Review/systematic review/mini-review excluded (title-pattern screen + PubMed PublicationType cross-check); microbe-strain-biology-centric papers excluded where core topic was microbial genetics/strain engineering/metabolic-pathway biosynthesis rather than the polysaccharide material itself; coverDate within ~2 years (PUBYEAR>2024).",
+  "microbe_centric_excluded_titles": [
+    "Genetic and bioprocess engineering strategies for microbial alginate production",
+    "Chaotropic ions reshape the cell wall of the obligate halophile aspergillus atacamensis: Insights from solid-state NMR",
+    "Elucidating the metabolic network and pH-dependent biosynthesis of bioactive exopolysaccharides XY1-EPS in Bacillus sp.",
+    "Mutations in PilZ domains of newly discovered bacterial β-(1,3;1,4)-mixed linkage glucan synthases modulate polymer production",
+    "Engineering Escherichia coli to biosynthesize O-polysaccharide-derived recombinant Glycoconjugate vaccines",
+    "Switching cell wall-bound polysaccharides to secreted polysaccharides in lactobacilli",
+    "Biochemical characterisation of the 4-α-glucanotransferase from the hyperthermophilic archaeon Pyrobaculum arsenaticum"
+  ],
+  "review_excluded_titles_confirmed_via_pubmed": [
+    "Seaweed-Derived Polysaccharide Hydrogels for Diabetic Wound Healing: Strategies, Mechanisms and Therapeutic Applications",
+    "Cyclodextrin and its derivatives for the structural regulation of epoxy resins: Chemistry, mechanisms, and emerging applications",
+    "Gum Arabic–based Pickering emulsions: Design principles and emerging applications",
+    "From nature to clinic: Lessons from successfully marketed polysaccharide drugs"
+  ],
+  "dedup_crosscheck": "PII/DOI cross-checked against state/seen_articles.json (1034 prior entries) to exclude already-covered articles; 25 new keys appended (1034 -> 1059).",
+  "focus_keyword_articles": 11,
+  "focus_keywords": [
+    "paper",
+    "cellulose",
+    "pectin",
+    "hydrogel",
+    "okara",
+    "paper coating",
+    "biomass",
+    "soybean protein isolate"
+  ],
+  "articles": [
+    {
+      "title": "Sodium hyaluronate based multifunctional hydrogels delivering SiRNA for sustained silencing of SMAD3: A novel strategy to treat intrauterine adhesions",
+      "doi": "10.1016/j.carbpol.2026.125123",
+      "pii": "S0144861726002390",
+      "eid": "2-s2.0-105030843626",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41832026",
+      "authors_pubmed": [
+        "Chen Kai",
+        "Wang Jiawei",
+        "Liu Qian",
+        "Wang Huiru",
+        "Ning Xueqing",
+        "Wang Jingxin",
+        "Hu Xiaojia",
+        "Zong Lu",
+        "Wu Limin",
+        "Luo Tianzhi",
+        "Huang Jialyu",
+        "Zheng Shengxia"
+      ],
+      "abstract": "Intrauterine adhesion (IUA) plays a significant role in female infertility, primarily due to endometrial fibrosis resulting from abnormal activation of the endometrial TGF-β/SMAD3 signaling pathway. However, effectively preventing the high recurrence rate after IUA surgery remains a major challenge that needs to be addressed. To address this challenge, Herein, a novel in situ injectable QOHP@siRNA hydrogel is introduced for the prevention of IUA by silencing SMAD3. This hydrogel addresses the challenges of poor uptake, short half-life, and rapid degradation of siRNA in the treatment of IUA. Additionally, it has demonstrated strong antibacterial activity against gram-negative bacilli and gram-positive cocci, as well as favorable endometrial adhesion and Internal hemostatic properties. The in vitro and in vivo experimental results demonstrate that QOHP@siRNA sustained SMAD3 silencing, anti-fibrotic effects, and microenvironment protection properties. Furthermore, it promotes endometrial angiogenesis and cellular proliferation, and ultimately restores fertility. This therapeutic strategy demonstrates significant potential for the treatment of IUA, while also providing novel insights into gene delivery vector-based therapies for other diseases.",
+      "key": "pii:S0144861726002390"
+    },
+    {
+      "title": "HATU Coupling for Fast, Efficient, and Selective N-acylation of chitosan: DoE-optimized synthesis of cationic antibacterial derivatives",
+      "doi": "10.1016/j.carbpol.2026.125012",
+      "pii": "S0144861726001281",
+      "eid": "2-s2.0-105029344928",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831958",
+      "authors_pubmed": [
+        "Protti Luca",
+        "Nagy Vivien",
+        "Amani Daniel",
+        "Rathinam Sankar",
+        "Viktorsson Elvar Örn",
+        "Másson Már"
+      ],
+      "abstract": "Chitosan is a cationic polysaccharide valued in biomedicine for its biodegradability, biocompatibility, non-toxicity, and antimicrobial activity. However, its poor solubility and aggregation tendency limit its applications. These issues can be addressed through chemical modification, which also enhances biological properties. Common acylation and alkylation methods often lack efficiency and control over the degree of substitution (DS). Here, a new N-acylation procedure using hexafluorophosphate azabenzotriazole tetramethyl uronium (HATU) as coupling agent in dimethyl sulfoxide (DMSO) is reported. The study focused on synthesizing a cationic betaine N-acyl chitosan derivative, N-(2-(N,N,N-trimethylammoniumyl)acetyl) chitosan (TAC), optimized through a Design of Experiments (DoE) approach to achieve full DS control. Two 12-experiment full factorial DoE optimizations were conducted, varying equivalent ratios of betaine, HATU, 1-hydroxybenzotriazole (HOBt), and triethylamine (TEA). The DS of the TAC products was determined by NMR. The optimized procedure allowed for the quantitative conjugation of betaine, using a slight excess of HATU, requiring only 3 h to complete the synthesis of the TAC derivative from chitosan starting material. The procedure was successfully used for the synthesis of mixed phenylpropionyl-, cinnamoyl- and feruloyl-TAC chitosan derivatives, but further development may be needed for more general applicability. Antibacterial assay confirmed of TAC antibacterial activity, tested against Staphylococcus aureus.",
+      "key": "pii:S0144861726001281"
+    },
+    {
+      "title": "Structural validation and immunogenic characterization of Streptococcus pneumoniae serotype 22A capsular polysaccharide relative to serotype 22F",
+      "doi": "10.1016/j.carbpol.2026.125022",
+      "pii": "S0144861726001384",
+      "eid": "2-s2.0-105029349993",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831961",
+      "authors_pubmed": [
+        "Meng Xiongyan",
+        "Yang Huimin",
+        "Xue Yannan",
+        "Zhong Yingjie",
+        "Wang Siqi",
+        "Li Chen",
+        "Liu Xiao",
+        "Meng Shuai",
+        "Li Jianping",
+        "Sun Tiantian",
+        "Zong Chengli"
+      ],
+      "abstract": "Streptococcus pneumoniae serotype 22A is a significant contributor to invasive pneumococcal disease (IPD) in selected regions and is closely related to the vaccine-included serotype 22F. The repeating unit (RU) structure of serotype 22A capsular polysaccharide (CPS) was reported in a patent. In this study, we performed a comprehensive structural validation combining chemical derivatization, high-resolution MS, and NMR spectroscopy to confirm the RU structure, O-acetylation pattern, as well as its immunological characterization relative to 22F. The RU of 22A CPS was confirmed as: [→3)-β-D-Galf-(1 → 2)-α-L-Rhap-(1 → 4)-β-D-GlcAp-(1 → 4)-(α-D-Galp-(1 → 3))-β-L-Rhap-(2-OAc)(1 → 4)-β-D-Glcp-(1→]n. It is highly similar to that of 22F, with the key difference being a side chain α-d-galactopyranose in 22A versus α-d-glucopyranose in 22F. O-acetylation was also identified as an important structural feature. Immunogenicity was assessed using 22A and 22F CPS-CRM197 conjugates in rabbits. Both vaccines elicited robust antibody responses. Glycan microarray analysis revealed cross-reactive binding between 22A and 22F, while also demonstrating that O-acetyl group is a key contributing factor for antibody recognition. These findings provide the detailed structural characterization of 22A CPS, establish its distinction from 22F, and highlight the roles of side chain sugar and O-acetylation in immunogenicity, offering guidance for pneumococcal vaccine design.",
+      "key": "pii:S0144861726001384"
+    },
+    {
+      "title": "Structural determinants of gelation kinetics in rambutan seed starches: Implications for enhanced precision in 3D food printing",
+      "doi": "10.1016/j.carbpol.2026.125024",
+      "pii": "S0144861726001402",
+      "eid": "2-s2.0-105029459272",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831963",
+      "authors_pubmed": [
+        "He Rui",
+        "Li Yuxuan",
+        "Lin Xiaoyu",
+        "Xu Bo",
+        "Huo Xiang",
+        "Zhang Weiming",
+        "Yang Tao",
+        "Zhong Geng",
+        "Xie Fengwei",
+        "Chen Ying"
+      ],
+      "abstract": "Precise modulation of starch gelation kinetics is essential for achieving high-fidelity 3D printing of functional foods; however, the narrow processing window of conventional starches remains a primary bottleneck. Since native starch molecular structures are source-dependent and difficult to tailor through modification, the discovery of novel starch sources is pivotal for developing high-performance starch-based inks. This study posits that structurally-diverse starches from underutilized sources offer a fundamental strategy to address this challenge. We characterized three rambutan seed starch varieties (BR-4, BR-5, and BR-7) across multiple structural scales and assessed their 3D food printing performance. The extracted starches featured small, monodisperse spherical granules (7.28-8.26 μm), high molecular weight (9.99 × 104-1.29 × 105 kDa), moderate amylose content (21.59-25.70%), rapid room-temperature gelation (2-10 min), and high slowly digestible starch content (69.71-73.45%). All resulting gels satisfied the IDDSI Level 5 (minced & moist) criteria. Remarkably, BR-7, with its higher amylose content and abundant short-chain amylopectin, formed a dense gel network. This unique structural configuration conferred excellent properties including gelation rate (2 min, 11× faster than pea starch), gel strength, printing accuracy (99.14%), and digestion resistance. This study offers insights into the valorization of tropical fruit processing by-products for precision 3D food printing applications.",
+      "key": "pii:S0144861726001402"
+    },
+    {
+      "title": "A novel Pickering emulsion stabilized solely by n-butyric acid-modified high-amylose corn starch for resveratrol delivery",
+      "doi": "10.1016/j.carbpol.2026.125095",
+      "pii": "S0144861726002110",
+      "eid": "2-s2.0-105030090373",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41832010",
+      "authors_pubmed": [
+        "Fu Liling",
+        "Ren Yanan",
+        "Zhang Conghe",
+        "Yang Wei",
+        "Tian Qisheng",
+        "Zhou Guixiang",
+        "Xu Tian",
+        "Liu Changhong",
+        "Zheng Lei"
+      ],
+      "abstract": "In this study, n-butyric acid-modified high-amylose corn starch (NBA-HACS) with varying degrees of substitution (DS ≈ 0.1, 0.2, 0.3) was synthesized via carbodiimide-mediated esterification and employed to fabricate Pickering emulsions for resveratrol encapsulation and delivery. Structural characterization confirmed successful grafting of n-butyric acid onto the C-6 hydroxyl groups of native high-amylose corn starch (NA-HACS), enhancing particle hydrophobicity. The contact angle increased from 24.6° (NA-HACS) to 86.3° (NBA-HACS), indicating a pronounced enhancement in particle dual wettability. NBA-HACS3 formed stable Pickering emulsions at 10% (w/v) concentration and oil-to-water ratios of 4:6 and 5:5, maintaining structural integrity across pH 1-11 and remaining stable after 90 days of storage. NBA-HACS3 achieved high resveratrol encapsulation efficiency (90.3%) and exhibited excellent retention under thermal (37 °C, 35 days) and UV conditions (11h). In vitro digestion studies revealed that NBA-HACS3 emulsions enhanced resveratrol bioaccessibility to 38%, five times higher than the control. This resulted from efficient interfacial encapsulation enabled by increased hydrophobicity, enhanced acid resistance preserving droplet integrity under gastric conditions, and improved micellar solubilization during intestinal digestion. This establishes an effective modification strategy for enhancing starch-based particle emulsifying performance, offering a promising food-grade delivery system for hydrophobic bioactives in functional food applications.",
+      "key": "pii:S0144861726002110"
+    },
+    {
+      "title": "All-biomass tunable CPL films based on cellulose nanocrystals and Taxus carbon dots for multimodal anti-counterfeiting and encryption",
+      "doi": "10.1016/j.carbpol.2026.124956",
+      "pii": "S014486172600072X",
+      "eid": "2-s2.0-105029672505",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831950",
+      "authors_pubmed": [
+        "Li Shenghui",
+        "Li Wenbo",
+        "Cheng Qian",
+        "Tang Qizheng",
+        "Sun Guangshi",
+        "Zhang Kexin",
+        "Liu Shouxin",
+        "Wang Lijuan"
+      ],
+      "abstract": "Cellulose-based fluorescence carbon dots (CDs) hybrid materials exhibiting multiple optical states hold significant promise for advanced information encryption and anti-counterfeiting applications. However, constructing all-biomass circularly polarized luminescence (CPL) with tunable optical states to substantially enhance anti-counterfeiting performance remains a challenge. Herein, a doping-free, one-pot hydrothermal method was developed to simultaneously synthesize blue-and red-emitting biomass carbon dots (B-BCDs and R-BCDs) using natural Taxus leaves as carbon sources. Subsequently, all-biomass CPL films with tunable emission were fabricated through an evaporation-induced self-assembly (EISA) strategy, incorporating B/R-BCDs into eco-friendly chiral cellulose nanocrystals (CNC) matrices. The obtained all-biomass CPL films simultaneously displayed vivid structural colors with a blue-to-yellow transition and tunable multicolor fluorescence under UV irradiation. Ultrasonication treatment modulated the photonic bandgap (PBG) of CPL films, enabling tunable CPL emissions at 450 nm and 670 nm. Importantly, dual regulation of both the fluorescence from the BCDs and the structural color form the CNCs was achieved by leveraging the spectral overlap between the modulated PBG and the emission wavelengths of the BCDs. Furthermore, advanced information encryption and anti-counterfeiting applications were demonstrated based on the multimodal luminescence properties of these films.",
+      "key": "pii:S014486172600072X"
+    },
+    {
+      "title": "A chitosan-based composite scaffold as a bioactive strontium-delivery system mediating accelerated bone regeneration",
+      "doi": "10.1016/j.carbpol.2026.125082",
+      "pii": "S0144861726001980",
+      "eid": "2-s2.0-105029680508",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831998",
+      "authors_pubmed": [
+        "Zeng Jiyang",
+        "Li Wei",
+        "Li Yawei",
+        "Tu Zhiming",
+        "Ma Hong",
+        "Dai Yuliang",
+        "Wang Bing",
+        "Deng Hongbing"
+      ],
+      "abstract": "Bone defects caused by trauma, tumor resection, or infection represent significant clinical challenges in orthopaedic practice. Current bone graft materials are often limited by suboptimal osteogenic capacity, donor site morbidity, and insufficient mechanical properties. In this study, we developed a composite bone regeneration scaffold composed of chitosan, silk fibroin fibers, and strontium alginate microspheres (CS/SF@SrAlg) via microfluidic electrospray coupled with fiber fragmentation-recombination techniques. This chitosan-based composite scaffold combines excellent biocompatibility, wide availability, and enhanced mechanical properties. Chemical cross-linking and physical interactions among the components facilitated the formation of a composite system for controlled Sr2+ release. The scaffold exhibits a hierarchically porous architecture that promotes cellular infiltration, while the silk fibroin fibers improve mechanical integrity and help maintain an optimal microenvironment. In vitro experiments demonstrated that the scaffold significantly enhanced cell proliferation, migration, and osteogenic mineralization, with a cell proliferation rate of more than 120%. In a rat calvarial defect model, the scaffold markedly promoted angiogenesis and osteogenesis, with 81.8% ± 1.48% bone regeneration coverage observed at 8 weeks post-implantation. Mechanistically, RNA transcriptomics revealed that it promoted osteogenesis through modulation of the key PI3K-Akt signaling pathway. Collectively, the CS/SF@SrAlg scaffold represents a promising biomaterial strategy for bone defect repair with substantial potential for clinical application.",
+      "key": "pii:S0144861726001980"
+    },
+    {
+      "title": "Oral absorption, cellular uptake and transport mechanisms of a novel glucuronogalactomannan from Tetrastigma hemsleyanum Diels et Gilg in the intestinal epithelium",
+      "doi": "10.1016/j.carbpol.2026.125023",
+      "pii": "S0144861726001396",
+      "eid": "2-s2.0-105029646228",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831962",
+      "authors_pubmed": [
+        "Shen Chenjun",
+        "Zhou Fangmei",
+        "Chen Yuchi",
+        "Zhu Bingqi",
+        "Li Yafei",
+        "Mao Zian",
+        "Wang Yuexia",
+        "Li Xiaoyan",
+        "Zhou Mingyuan",
+        "Wu Jianjun",
+        "Ding Zhishan"
+      ],
+      "abstract": "Understanding the oral absorption mechanisms of natural polysaccharides is critical for their further study and application. This study focused on a novel glucuronogalactomannan (STHP5) isolated from Tetrastigma hemsleyanum Diels et Gilg and systematically investigated its intestinal absorption and transcellular transport. STHP5 was fluorescently labeled with Cyanine5.5 amine (CSTHP5) and 5-(4,6-dichlorotriazinyl) aminofluorescein (FSTHP5) for in vivo and in vitro tracking. Fluorescence spectroscopy, fourier-transform infrared spectroscopy, and nuclear magnetic resonance analyses confirm successful fluorescent labeling of STHP5. Near-infrared imaging demonstrated that CSTHP5 was absorbed in the small intestine and predominantly accumulated in the liver and kidney. Single-pass intestinal perfusion confirmed preferential absorption of FSTHP5 in the ileum. In vitro, FSTHP5 uptake occurred through macropinocytosis, clathrin-mediated, and caveolae-mediated endocytosis; its intracellular trafficking was governed by the endoplasmic reticulum (ER)-Golgi and endosome-lysosome pathways with microtubule participation; and its exocytosis was predominantly mediated by the ER-Golgi pathway and microtubules. In Caco-2 cell monolayers, transcellular transport was dose- and time-dependent and likely receptor-mediated. Together, STHP5 achieves efficient oral absorption across the intestinal epithelium via an integrated transport mode involving multi-pathway endocytosis, directed intracellular trafficking, and exocytosis, providing new insights into the absorption mechanisms of hydrophilic, high-molecular-weight polysaccharides and informing delivery system design.",
+      "key": "pii:S0144861726001396"
+    },
+    {
+      "title": "5-HMF-driven microporous N, O-dual doped carbon materials based on chitosan for syngas purification and CO2 capture",
+      "doi": "10.1016/j.carbpol.2026.125072",
+      "pii": "S0144861726001888",
+      "eid": "2-s2.0-105029628469",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831989",
+      "authors_pubmed": [
+        "Zhai Jinpeng",
+        "Liu Chao",
+        "Sun Lijuan",
+        "Xue Beichen",
+        "Wu Yongxin",
+        "Xiao Rui"
+      ],
+      "abstract": "Biomass-derived carbohydrates, as abundant and renewable feedstocks, hold great promise for producing porous carbon materials (PCMs) applicable in CO2 capture and syngas purification. This study presents a novel strategy for synthesizing N, O-dual doped carbon (NOC) materials through co-pyrolysis using 5-hydroxymethylfurfural (5-HMF) and chitosan (CTS) as precursors, wherein 5-HMF acts as a structural modulator. Combining experimental characterization with density functional theory (DFT) calculations, this work systematically investigated the synergistic mechanism between functional group evolution and carbon framework construction during co-pyrolysis, and elucidated the influence of N, O doping configurations on CO2 adsorption selectivity. The results indicate that the incorporation of 5-HMF promotes a three-step reaction pathway introducing N, O-containing functional groups such as imine group (C=N) and carbonyl (C=O). The NOC prepared at 800 °C exhibited a CO2/H2 selectivity of 43.4 and a CO2/(CO + H2) multicomponent selectivity of 24.4 in a continuous flow (CO2/CO/H2, 25 °C, 1 bar). Theoretical calculations further revealed that the synergistic coupling of pyridinic N and carbonyl groups on the carbon surface significantly enhances surface polarity and Lewis basicity, thereby strengthening the selective adsorption of polar CO2 molecules via Lewis acid-base interactions and electrostatic induction.",
+      "key": "pii:S0144861726001888"
+    },
+    {
+      "title": "Self-expanding sodium alginate sulfate drug-loaded microspheres for stabilized arterial embolization",
+      "doi": "10.1016/j.carbpol.2026.125119",
+      "pii": "S0144861726002353",
+      "eid": "2-s2.0-105030848962",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41832022",
+      "authors_pubmed": [
+        "Pan Haitao",
+        "Pan Xue",
+        "Cao Zhenzhen",
+        "Liu Aoying",
+        "Li Chunxia",
+        "Guan Lijuan",
+        "Xing Yan",
+        "Zhang Peng",
+        "Wang Shixin",
+        "Lu Qian"
+      ],
+      "abstract": "Transarterial chemoembolisation (TACE) is an important treatment method for solid tumors, such as liver cancer. Its main advantages are precise treatment and reduced trauma. However, limitations including inadequate drug loading, burst release and ectopic embolization still exist in clinical practice. In this study, we developed sodium alginate sulfate microspheres (AM) with multiple types of drug-loading groups and self-expanding behavior, achieving superior drug loading capacity and embolization stability. The framework material sodium alginate sulfate (SAS) contains various drug-loading groups, resulting in fast drug loading (30 min, Doxorubicin hydrochloride), high loading capacity (68.0 mg/g, Irinotecan hydrochloride), sustained release (>30 days, Doxorubicin hydrochloride) and compatibility with multi-drug loading types (including gemcitabine hydrochloride and procaine hydrochloride). The fatty acid/sodium fatty acid buffer system formed at the aqueous-oil phase interface facilitated the formation of a gradient cross-linked structure, which conferred self-expansion behavior to the microspheres. In pig renal artery embolization (n = 9), the AM stabilizes the embolized artery, resulting in tissue necrosis without vascular recanalization or ectopic embolization (**p = 0.002 on 90 days). Therefore, AM with high drug-loading capacity and self-expansion has great potential to enhance the safety and efficacy of TACE treatment.",
+      "key": "pii:S0144861726002353"
+    },
+    {
+      "title": "Next-generation chitosan biodegradable films reinforced with bioactive acid-DES: A sustainable solution for improved mechanical, antibacterial, and anti-browning properties",
+      "doi": "10.1016/j.carbpol.2026.125006",
+      "pii": "S0144861726001220",
+      "eid": "2-s2.0-105029236928",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831954",
+      "authors_pubmed": [
+        "Lu Dehong",
+        "Yao Huimin",
+        "Shah Nouman Ali",
+        "Ali Sajid",
+        "Zeng Li-Yan",
+        "Shi Ping",
+        "Liu Yuan-Sen",
+        "Dai Ziru",
+        "Javed Hafiz Umer"
+      ],
+      "abstract": "The growing demand for sustainable and active food-packaging materials has increased interest in biodegradable biopolymers with improved functional performance. This study developed multifunctional chitosan (CS) films incorporating deep eutectic solvents (DESs) as green bioactive plasticizers to improve antioxidant, antibacterial, and mechanical properties. DESs were prepared using choline chloride with five organic acids, including citric (CA), malic (MA), oxalic (OA), lactic (LA), and ascorbic acids (AA), and the resulting DESs were evaluated for antioxidant and antibacterial activities. AA-DES and OA-DES showed the highest activities and were incorporated into CS films individually and combined (CS-AA-OA) at 1% concentration. Structural characterization (FTIR, XRD, SEM, TGA) and functional assessments were conducted to evaluate mechanical, thermal, and bioactive performance. The CS-OA film exhibited superior mechanical strength (56.42 MPa; 9.10% EB), while CS-AA-OA achieved the highest radical-scavenging activity (DPPH 88.15%, ABTS 98.44%) and strong antibacterial efficacy against E. coli (24.7 ± 0.34 mm) and S. aureus (22.8 ± 0.52 mm). The soil burial test confirmed excellent biodegradability, and coating applications on mushrooms and bananas effectively reduced browning, weight loss, and firmness degradation. The combined incorporation of AA-DES and OA-DES enhanced CS film structure and bioactivity, providing a sustainable, high-performance material for active food packaging.",
+      "key": "pii:S0144861726001220"
+    },
+    {
+      "title": "Precise structural characterization and therapeutic potential of a glucomannan polysaccharide from dried rhizome of plant Bletilla striata against ulcerative colitis",
+      "doi": "10.1016/j.carbpol.2026.125038",
+      "pii": "S0144861726001542",
+      "eid": "2-s2.0-105029271079",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831968",
+      "authors_pubmed": [
+        "Hou Huidan",
+        "Li Lifeng",
+        "Islam Tahidul",
+        "Shi Jingchun",
+        "Hou Mengyang",
+        "Jiang Siliang",
+        "Zhao Xiaohan",
+        "Lin Chengyuan",
+        "Han Quanbin",
+        "Zhu Lin",
+        "Bian Zhaoxiang"
+      ],
+      "abstract": "Bletillae Rhizoma (Baiji), the dried tuber of Bletilla striata (Thunb.) Reichb.f. (BS), a traditional medicinal plant widely used in Chinese medicine. While polysaccharides from BS tuber (BSP) have attracted attention for their broad industrial applications, their detailed structural features and biological functions remain limited. In this study, a neutral polysaccharide (BSPN, 178 kDa), constituting about 80% of BSP, was extracted and purified. Structural analysis elucidated BSPN as a glucomannan (mannose: glucose = 4: 1), featuring a backbone of →4)-β-D-Manp-(1 → and →4)-β-D-Glcp-(1 → linkages with branching at →4, 6)-β-D-Manp-(1 → positions. Targeted enzymatic hydrolysis, with specific endoglycosidases to cleave characteristic glycosidic bonds, not only verified the purity of BSPN, but also generated diagnostic oligosaccharide fragments that revealed the native glycosidic linkage patterns as well as the precise position of acetyl substitution. Furthermore, BSPN significantly alleviated ulcerative colitis in mice in a dose-dependent manner, improving colon histology, enriching beneficial gut microbiota (Faecalibaculum spp., Bacteroides spp., and Bifidobacterium spp.), restoration of short-chain fatty acids levels (including a 69% increase in valeric acid), and upregulating glycoside hydrolase genes (GH1/GH2). Together, our findings provide the first comprehensive structural characterization and anti-colitis evaluation of BSPN, highlighting its potential as a therapeutic agent for ulcerative colitis.",
+      "key": "pii:S0144861726001542"
+    },
+    {
+      "title": "Injectable gelatin/hyaluronic acid hydrogels incorporating oxidized alginate microparticles for controlled delivery of platelet-derived factors in cartilage regeneration",
+      "doi": "10.1016/j.carbpol.2026.125081",
+      "pii": "S0144861726001979",
+      "eid": "2-s2.0-105030257887",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831997",
+      "authors_pubmed": [
+        "Atwal Arjan",
+        "Mahnavi Ali",
+        "Snow Martyn",
+        "Forsyth Nicholas R",
+        "Davoodi Pooya"
+      ],
+      "abstract": "Osteoarthritis affects millions worldwide, yet current intra-articular treatments provide limited durability due to rapid therapeutics clearance and poor intrinsic cartilage repair capacity. We present an injectable, pore-forming hydrogel platform designed for controlled delivery of platelet-derived bioactive factors while promoting cell infiltration for cartilage regeneration. The system integrates functionalized gelatin and hyaluronic acid networks with oxidized alginate microparticles that act simultaneously as porogens and platelet lysate (PL) carriers, generating a dynamic microenvironment favorable for tissue repair. Microparticles produced via emulsification/internal gelation show tunable degradation governed by alginate oxidation, enabling programmable release kinetics. Hydrogels containing 10% (w/v) microparticles exhibited a compressive modulus of 37.7 kPa and photocrosslinked in under 60 s, supporting minimally invasive arthroscopic use. Release studies confirmed sustained protein delivery for up to 31 days, with oxidized microparticles (5% oxidation) releasing over 95% of encapsulated PL in correlation with their degradation, while blending with unmodified alginate offered further tunability. In chondrocyte-loaded constructs, PL-releasing hydrogels significantly enhanced proliferation and extracellular matrix deposition. Immunofluorescence showed increased aggrecan and collagen type-II, indicating preservation of chondrocyte phenotype and hyaline-like matrix formation. This dual-function injectable system couples localized trophic factor release with porosity-driven cell migration, offering a promising polysaccharide-centred strategy for clinically translatable cartilage repair.",
+      "key": "pii:S0144861726001979"
+    },
+    {
+      "title": "Stress decomposition and multimeric assembly evolution of ionotropic alginate hydrogels in large amplitude oscillatory shear flow",
+      "doi": "10.1016/j.carbpol.2026.125043",
+      "pii": "S0144861726001591",
+      "eid": "2-s2.0-105029407536",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831970",
+      "authors_pubmed": [
+        "Liu Changyao",
+        "Yu Wei",
+        "Liu Sijun"
+      ],
+      "abstract": "Sodium alginate (SA) hydrogels show complex rheological behaviors, which is related to the existence of multiple junctions, trapped entanglements, and network defects. Understanding the evolution of various structural components of SA networks in large amplitude oscillatory shear (LAOS) flow remains challenging. Herein, we develop a shear cessation method on Lissajous curves and propose a double stretch-exponential (DSE) model for analyzing multiple relaxations of SA networks. The results indicate that the response of SA networks in LAOS flow is able to be decomposed into strain rate-related network defects and the strain-related surviving network. Furthermore, a strain hardening (SH) model is developed to elucidate the strain hardening behavior of surviving network. As a result, the combination of the stress decomposition with the SH model allows us to explore the evolution of various structural components of SA networks with varying association strengths and strain amplitudes. A high association strength produces a low network defect content and a dense surviving network, while an increase in strain amplitude promotes the dissociation of multimeric assembly and the liberation of trapped entanglement. This study provides us with valuable insights to understand the microstructural origin of nonlinear mechanics, which will merit the design of high-performance polysaccharide biomaterials.",
+      "key": "pii:S0144861726001591"
+    },
+    {
+      "title": "Lignin-reinforced dual-porous cellulose fibers via gas-foaming assisted wet spinning for thermal management",
+      "doi": "10.1016/j.carbpol.2026.125079",
+      "pii": "S0144861726001955",
+      "eid": "2-s2.0-105030036920",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831995",
+      "authors_pubmed": [
+        "Zhao Hui",
+        "Gao Zijun",
+        "Wang Meixin",
+        "Fan Yingchun",
+        "Li Xin",
+        "Li Deqiang",
+        "Xu Feng"
+      ],
+      "abstract": "The development of lightweight, high-performance textile materials with exceptional thermal insulation, mechanical robustness, and breathability is critical to addressing thermal accumulation and wear safety challenges. This study introduces a novel lignin-reinforced dual-porous cellulose fiber (L-DCF) engineered through a simple wet spinning process coupled gas foaming and a two-stage coagulation bath. By uniformly integrating lignosulfonate (LS) into the regenerated cellulose matrix, the interfacial hydrogen bonding network is significantly strengthened, yielding fibers with superior mechanical and ultraviolet (UV) protection (94% of UV absorption rate). Optimal performance is achieved at 10 wt% foaming agent and LS concentrations, with a primary coagulation bath of dilute acid followed by methanol. The resulting L-DCF achieves a specific surface area of 19.02 m2/g, high tensile strength of 66.4 MPa, and excellent hygroscopicity (moisture absorption rate of 11.2%). Due to the unique dual-porous structure of intimal hollow cavity and external nanopores, L-DCF exhibits excellent thermal insulation with a surface temperature difference of 69 °C, while maintaining high thermal stability and durability. This work paves the way for designing sustainable cellulose fiber and multifunctional textiles with promising applications in personal thermal management.",
+      "key": "pii:S0144861726001955"
+    },
+    {
+      "title": "Electroactive dopamine-functionalized reduced graphene oxide/alginate hydrogel containing thymol/chitosan nanoparticles for advanced antibacterial and bioadhesive wound dressings",
+      "doi": "10.1016/j.carbpol.2026.124960",
+      "pii": "S0144861726000767",
+      "eid": "2-s2.0-105030875586",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831951",
+      "authors_pubmed": [
+        "Nezhad-Mokhtari Parinaz",
+        "Kashani Elmira",
+        "Mazloomi MirAhmad",
+        "Ghahremani-Nasab Maryam",
+        "Ahadzadeh Iraj",
+        "Del Bakhshayesh Azizeh Rahmani",
+        "Hamishehkar Hamed"
+      ],
+      "abstract": "Engineering conductive multifunctional hydrogels, as novel and promising biomaterials, has attracted growing attention in skin tissue engineering and for promoting wound healing. In this study, inspired by recent advances in mussel-inspired chemistry and nanoreinforcement, dopamine-grafted reduced graphene oxide (PDA-rGO) was employed as the main conductive bioadhesive component. Thymol and chitosan nanoparticles were then loaded into the PDA-rGO/alginate hydrogel (Ty/CsNPs@PDA-rGO/Alg), which was synthesized via a simple, Ca2+-mediated radial diffusion crosslinking method to further enhance the antimicrobial activity of the hydrogel. In vitro analysis showed excellent hemocompatibility (hemolysis rates <0.2%), high biocompatibility (>90% cell viability), strong adhesion (∼8.26 kPa), and the highest cell migration rate (∼71.41%) in 3T3 fibroblasts. The hydrogel exhibited valuable mechanical properties, including a compressive strength of 1.03 MPa and a 3.5-fold increase in storage modulus (G') compared to the pristine matrix. The incorporation of Ty/CsNPs into the hydrogel endowed superior antibacterial activity, with inhibition zones of ∼20 mm (S. aureus) and ∼23 mm (E. coli), along with strong antioxidant activity (>80%). Importantly, the developed hydrogel achieved a conductivity of 3.95 mS·cm-1, comparable to that of human skin. Overall, the engineered multifunctional hydrogel demonstrates great potential as a wound dressing, wound monitoring, electrostimulation-assisted therapy, and integration with wearable biosensors.",
+      "key": "pii:S0144861726000767"
+    },
+    {
+      "title": "NaBr-free TEMPO-catalyzed oxidation of cellulose with sodium dichloroisocyanurate in water at pH 9",
+      "doi": "10.1016/j.carbpol.2026.125080",
+      "pii": "S0144861726001967",
+      "eid": "2-s2.0-105029689212",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831996",
+      "authors_pubmed": [
+        "Isogai Akira",
+        "Chitbanyong Korawit",
+        "Arnandan Pavitra Thevi",
+        "Hou Runqing",
+        "Shibata Izumi",
+        "Takeuchi Miyuki",
+        "Saito Masato",
+        "Fukasawa Hiroyuki"
+      ],
+      "abstract": "The conventional TEMPO/NaBr/NaOCl oxidation of cellulose in water at pH ~10 is an established method for preparing TEMPO-oxidized cellulose nanofibrils (TEMPO: 2,2,6,6-tetramethylpiperidine-1-oxyl radical). However, significant depolymerization, the formation of sodium polyglucuronate homopolymers, and other side reactions are unavoidable, resulting in the formation of oxidation products with heterogeneous chemical structures or low mass-recovery ratios. In this study, NaBr-free TEMPO/sodium dichloroisocyanurate (NaDCC) oxidation of cellulose in water at pH 9 was developed, which is advantageous in terms of process controls, mass recovery ratios, constant carboxy group contents, and maintenance of the original fiber morphologies, even under harsh oxidation conditions. This is probably because the oxidation of C6-OH groups into sodium C6-carboxylate groups occurred selectively on the cellulose microfibril surfaces, with less depolymerization or side reactions. TEMPO/NaDCC-oxidized microcrystalline cellulose and cotton linters cellulose were converted into cellulose nanocrystals and microfibrillated cellulose, respectively, by mechanical disintegration in water. In water at pH 9, the new TEMPO/NaDCC oxidation system can be used to oxidize various cellulose, pulp, and plant samples, or to produce TEMPO-oxidized cellulose fibers and nanomaterials with the benefits of lower cost, ease of handling, less depolymerization or fewer side reactions, higher mass recoveries, and lower environmental impact.",
+      "key": "pii:S0144861726001967"
+    },
+    {
+      "title": "Precision assembly of ethyl cellulose–zein Janus nanoparticles with lock-and-key structures for controlled release of quercetin and curcumin",
+      "doi": "10.1016/j.carbpol.2026.125047",
+      "pii": "S0144861726001633",
+      "eid": "2-s2.0-105029269453",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831974",
+      "authors_pubmed": [
+        "Cao Tianqi",
+        "Xue Changhu",
+        "Wei Zihao"
+      ],
+      "abstract": "Janus nanoparticles have attracted widespread attention in co-delivery and controlled release of nutraceuticals due to their anisotropic composition and properties. This study reported a novel method for preparing ethyl cellulose-zein Janus nanoparticles loaded with quercetin and curcumin. Morphological observations indicated that the Maillard reaction-mediated nanoprecipitation method successfully prepared Janus nanoparticles with lock-and-key structures. Multispectral technology and three-phase interfacial tension principle further confirmed the formation of Janus nanoparticles. Notably, the glycosylated bridge generated in the Maillard reaction played a crucial role in the formation of Janus nanoparticles. It enhanced the interface coupling between ethyl cellulose and zein, thus promoting the formation of Janus nanoparticles. Compared with single nanoparticles, Janus nanoparticles exhibited better thermal, storage, and physical stability, which was beneficial for their application in the food industry. It was found that Janus NPs could regionally encapsulate quercetin and curcumin in the EC hemisphere and zein sphere. In vitro digestion experiments indicated that Que/Cur-loaded Janus NPs could achieve the controlled release of quercetin and curcumin in the small intestine and colon, respectively. This study not only offers an idea for synthesizing food-grade Janus nanoparticles but also provides new insights into co-delivery and controlled release of nutraceuticals.",
+      "key": "pii:S0144861726001633"
+    },
+    {
+      "title": "Injectable nanocellulose-based polylipoic acid hydrogels with tunable rheology, strong adhesion and multifunctional bioactivity",
+      "doi": "10.1016/j.carbpol.2026.125084",
+      "pii": "S0144861726002006",
+      "eid": "2-s2.0-105029698114",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41832000",
+      "authors_pubmed": [
+        "Zhang Yuting",
+        "Sun Mingyue",
+        "Sun Penghao",
+        "Liu He",
+        "Song Zhanqian",
+        "Xu Xu",
+        "Zhai Zhaolan",
+        "Dong Fuhao"
+      ],
+      "abstract": "The development of injectable hydrogels that combine strong tissue adhesion, suitable rheological properties and effective antibacterial/antioxidant activities remains a major challenge for biomedical applications. Herein, we design nanocellulose-based dynamic hydrogels by integrating dopamine-grafted cellulose nanofibers (DCNF) with polylipoic acid (PTA). The DCNF not only constructs a percolated nanofibrous network that precisely regulates viscosity, shear-thinning behavior and structural recovery after injection, but also stabilizes PTA by quenching terminal sulfur radicals, thereby suppressing depolymerization. As a result, the obtained hydrogels exhibit excellent injectability, robust and repeatable adhesion on various substrates, and rapid network recovery, together with effective antibacterial activity against S. aureus and E. coli and pronounced antioxidant capacity. In vitro hemolysis and cytocompatibility assays confirm the good biocompatibility of the DCNF/PTA hydrogels. This work provided a simple nanocellulose-centered strategy to construct injectable, adhesive and bioactive hydrogels as promising handling performance in vitro for transdermal drug delivery and other biomedical applications.",
+      "key": "pii:S0144861726002006"
+    },
+    {
+      "title": "Fabrication of egg white peptides/konjac glucomannan co-assembly stabilized high internal phase Pickering emulsions: Application for co-delivery of vitamin D3 and riboflavin",
+      "doi": "10.1016/j.carbpol.2026.125068",
+      "pii": "S0144861726001840",
+      "eid": "2-s2.0-105029418483",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831985",
+      "authors_pubmed": [
+        "Li Shanglin",
+        "Zhang Leiyi",
+        "Wu Yulun",
+        "Guo Jiale",
+        "Yang Chengbo",
+        "Chen Kun",
+        "Li Yajuan",
+        "Tian Longjiang",
+        "Liu Jingbo",
+        "Zhang Ting",
+        "Du Zhiyang"
+      ],
+      "abstract": "With the increasing demand for the co-encapsulation and controlled delivery of bioactive compounds, the design of liquid-based carriers has garnered considerable attention. Vitamin D3 and riboflavin sodium phosphate (RP) suffer from poor stability and low bioavailability; nevertheless, high internal phase Pickering emulsions (HIPPEs) feature a tunable microstructure that allows for effective compartmentalization of multiple components. In this study, HIPPEs stabilized by egg white peptide (EWP)-konjac glucomannan (KGM) co-assemblies were constructed as a versatile vehicle for the co-delivery of vitamin D3 and RP. EWP-KGM co-assemblies were comprehensively characterized using multispectral techniques and structural analyses. The EWP@KGM co-assembly (mass ratio 10:5) exhibited enhanced emulsifying activity index (EAI: 15.12 m2/g, 3.74-fold higher than EWP) and emulsifying stability index (ESI: 736.60 min, 53-fold higher than EWP), attributed to increased interfacial thickness and steric hindrance. All HIPPEs demonstrated shear-thinning behavior, gel-like viscoelasticity (G' > G″), and long-term storage stability. Under simulated gastrointestinal digestion, EWP-KGM-HIPPEs protected RP integrity and improved vitamin D3 bioaccessibility. FFA release kinetics followed Korsmeyer-Peppas model, indicating anomalous transport driven by diffusion and matrix relaxation. This study presents a promising platform for the dual encapsulation of bioactives with contrasting polarities, paving the way for applications in nutraceuticals.",
+      "key": "pii:S0144861726001840"
+    },
+    {
+      "title": "Tailoring cellulose hydrogel electrolyte using deep eutectic solvent for stable zinc-ion hybrid supercapacitors with enhanced ionic transport",
+      "doi": "10.1016/j.carbpol.2026.125026",
+      "pii": "S0144861726001426",
+      "eid": "2-s2.0-105029521807",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831964",
+      "authors_pubmed": [
+        "Bai Yunhua",
+        "Zhang Xiong-Fei",
+        "Liu Hu",
+        "Li Yafen",
+        "Gu Xiaoli",
+        "Yao Jianfeng"
+      ],
+      "abstract": "Zinc-ion hybrid supercapacitors (ZHSs) are considered promising candidates for large-scale energy storage because of their low cost, high safety, and excellent power density. However, in practical applications, the capacity and cycling stability of zinc-ion capacitors are hindered by issues such as dendrite growth and parasitic side reactions. This inherently requires the gel electrolyte to possess excellent mechanical strength and tunable interfacial properties to effectively regulate the electrochemical deposition of zinc. We developed a cellulose-based hydrogel (DES-gel-2) electrolyte prepared via NaOH-urea treatment followed by immersion in a ZnCl2/urea deep eutectic solvent (DES). The experimental results indicate that urea molecules in DES-gel-2 coordinate with Zn2+ and water molecules, leading to a more uniform Zn2+ electric field distribution and effectively suppressing Zn dendrite growth. Meanwhile, residual Na+ ions in the hydrogel electrolyte enhance ionic conductivity and facilitate fast interfacial charge transport, thereby improving electrochemical kinetics. The ZHS based on DES-gel-2 retained over 86.7% of its capacity after 10,000 cycles at a high current density of 10 A·g-1, demonstrating excellent cycling stability. This study presents a novel and effective strategy for regulating Zn deposition behavior through DES-cellulose hydrogel electrolytes, offering new opportunities for the development of high-performance zinc-based energy storage systems.",
+      "key": "pii:S0144861726001426"
+    },
+    {
+      "title": "Bio-interface properties of guanidinylated chitosans: Effects of degree of acetylation, degree of guanidinylation, and molecular weight",
+      "doi": "10.1016/j.carbpol.2026.125106",
+      "pii": "S0144861726002225",
+      "eid": "2-s2.0-105030819138",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41832014",
+      "authors_pubmed": [
+        "Araki Miho",
+        "Matsumoto Jin",
+        "Kuroda Kohei",
+        "Izawa Hironori"
+      ],
+      "abstract": "We previously reported a low molecular weight water-soluble guanidinylated chitosan (GCS) with a controlled degree of acetylation (DA). However, the effects of DA, degree of guanidinylation (DG), and molecular weight on the solubility, functions, and biocompatibility of GCS remain unclear, even though water-soluble GCSs with varying parameters would contribute to the development of novel biomaterials. Here we show the bio-interface properties of acetylated chitosans (CSs) and GCSs with systematically varied DA, DG, and molecular weight, including their solubility, antibacterial activity, and cytotoxic effects. Solubility tests revealed that guanidinylation generally reduced solubility, particularly in DA-uncontrolled samples and at higher molecular weights, whereas GCSs with DA values of 32-37% specifically exhibited improved solubility. In other words, we revealed that the control of DA represents the critical factor for enhancing the solubility of GCS. The minimum inhibitory concentration assays of representative acetylated CSs and GCSs against Escherichia coli and Staphylococcus epidermidis revealed that reduced acetyl content is more critical for antibacterial activity than positive charge, and that guanidinylation induces antibacterial activity under neutral conditions. The cytotoxicity and cell proliferation results suggest that water-soluble GCSs show low cytotoxicity, comparable to acetylated CSs, while strongly inhibiting cell proliferation, supporting their potential as anticancer agents.",
+      "key": "pii:S0144861726002225"
+    },
+    {
+      "title": "Photo-induced in-situ synthesized nanocellulose-based SERS substrate integrated with molecularly imprinted polymer for selective detection of pesticide residues",
+      "doi": "10.1016/j.carbpol.2026.125050",
+      "pii": "S0144861726001669",
+      "eid": "2-s2.0-105029548775",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831976",
+      "authors_pubmed": [
+        "Liu Xingyue",
+        "Meng Liucheng",
+        "Deng Wen",
+        "Yang Yuzhou",
+        "Lou Yanling",
+        "Xi Jianfeng",
+        "Li Peng",
+        "Zhang Lei",
+        "Wu Weibing"
+      ],
+      "abstract": "Surface-enhanced Raman scattering (SERS) is a highly sensitive technology to detect target analytes. Herein, we propose a novel nanocellulose-based SERS platform integrating SERS with molecular imprinting technology (MIP) for ultrasensitive and selective detection of pesticide residues. A uniform, dense, and surface-clean \"hot spots\" nanostructure was eco-friendly constructed based on cellulose nanofiber (CNF) films. The CNF film serves as a substrate for the photo-induced in-situ growth of silver nanoparticles without additional reducing agents and surfactants. By regulating pre-polymer viscosity (8.7 mPa·s at 2-hour pre-polymerization), a thin and uniform MIP layer was precisely coated on the \"hot spots\" via dip-coating, ensuring optimal balance between selectivity and SERS activity. The resulting SERS-MIP architecture increases the likelihood that target molecules penetrate MIP-covered \"hot spots\", yielding high sensitivity, reproducibility, and specificity toward parathion-methyl. The SERS substrate exhibited excellent sensitivity, reproducibility and selectivity for parathion-methyl, with a limit of detection of 3.97 × 10-11 g/L and relative standard deviation of 7.60%. Moreover, it demonstrated remarkable capability in detecting pesticide residues on irregular surfaces of real samples, using a wiping sampling method that fully leverages the flexibility of the CNF film. This approach successfully integrates MIP with SERS technology, offering a flexible SERS substrate for on-site food safety monitoring.",
+      "key": "pii:S0144861726001669"
+    },
+    {
+      "title": "Dual-crosslinked polysaccharide microspheres via glycated collagen and sodium alginate/chitosan for intestine targeted delivery of curcumin in ulcerative colitis treatment",
+      "doi": "10.1016/j.carbpol.2026.125122",
+      "pii": "S0144861726002389",
+      "eid": "2-s2.0-105030855893",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41832025",
+      "authors_pubmed": [
+        "Fu Jing-Jing",
+        "Mei Si-Yi",
+        "Chen Yong-Qiang",
+        "Fu Xiang-Yu",
+        "Long Yong-Jie",
+        "Wu Jun-Xin",
+        "Cai Wen-Qiang",
+        "Chen Yue-Wen"
+      ],
+      "abstract": "Polysaccharide-based hydrogel microspheres have demonstrated considerable potential for functional factors intestinal-targeted delivery and ulcerative colitis (UC) treatment. However, single-polysaccharide systems often struggle to achieve both stable loading and controlled release of functional factors. In this study, protein-polysaccharide composite microspheres were developed using a dual-crosslinking strategy. Initially, curcumin (Cur) was encapsulated within Andrias davidianus collagen (ADC) or its xylose glycated form (ADCXy) to form ADC/ADCXy-Cur complexes. These complexes were then crosslinked with sodium alginate (SA) and chelated with Ca2+ ions to construct a primary hydrogel network (ADC/ADCXy-Cur-SA). Finally, the cationic polysaccharide chitosan (CS) with colon enzymolysis targeting, mucosal adhesion and pH responsive controlled release characteristics was incorporated with ADC/ADCXy-Cur-SA to form a double cross-linked multifunctional hydrogel microsphere (ADC/ADCXy-Cur-SA-CS). Compared with ADC-Cur-SA-CS, the ADCXy-Cur-SA-CS exhibited enhanced cellular antioxidant and anti-inflammatory activity, maintained high stability in simulated gastric conditions, and enabled controlled Cur release in colonic pH environment. In vivo experiments have shown that ADCXy-Cur-SA-CS alleviated UC based on the \"one stone, four birds\" strategy of antioxidant, anti-inflammatory, repairing the colon mucosal barrier, and regulating the gut microbiota. This study provides an important technical and theoretical foundation for the development of multifunctional polysaccharide-based hydrogel delivery systems.",
+      "key": "pii:S0144861726002389"
+    },
+    {
+      "title": "Construction of bilayer asymmetric humidity-regulating packaging using 2-hydroxypropyl trimethyl ammonium chloride chitosan for enhanced strawberry preservation",
+      "doi": "10.1016/j.carbpol.2026.124973",
+      "pii": "S0144861726000895",
+      "eid": "2-s2.0-105029273362",
+      "coverDate": "2026-05-15",
+      "volume": "380",
+      "pmid": "41831953",
+      "authors_pubmed": [
+        "Dong Hao",
+        "Xu Xing",
+        "Mi Keqin",
+        "Peng Xin",
+        "Ratego Frank",
+        "Tong Liping",
+        "Hou Shifeng"
+      ],
+      "abstract": "To ensure high-quality harvested fruits and vegetables, maintaining a stable, high relative humidity is crucial. This study concentrated on the development of an asymmetric double-layer film designed to address the limitations inherent in single-layer films. The film incorporates 2-hydroxypropyl trimethyl ammonium chloride chitosan (HACC) as an autonomous humidity control material. HACC has a water adsorption energy of -2.03 eV, higher than polyvinyl alcohol (PVA), indicating better water absorption. The PVA/HACC film evenly distributes water molecules and has a higher adsorption capacity. HACC enhances adsorption kinetics and equilibrium through a synergistic \"hydrogen bond-electrostatic\" mechanism and increased free volume. Increasing the HACC concentration to 1.0% elevates the active layer's water absorption capacity to 0.43 g/g. The double-layer film exhibits a remarkably low water vapor permeability of (1.66 ± 0.03) × 10-11 g·m/(m2·s·Pa), effectively minimizing moisture exchange. When used for fresh strawberries, compared with the control group, it increased internal relative humidity by 126.54% and reduced the relative humidity variation to 1.62 × 10-2, effectively extending freshness to 7 days at room temperature. This innovative packaging solution actively regulates humidity, prolonging the freshness of fruits and vegetables. To encourage practical use, it's essential to assess the main challenges of large-scale promotion.",
+      "key": "pii:S0144861726000895"
+    }
+  ]
+}
