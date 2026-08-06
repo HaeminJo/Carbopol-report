@@ -1,0 +1,137 @@
+{
+  "run_timestamp_utc": "2026-08-06T21:50:00Z",
+  "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, coverDate desc paging up to ~700 entries, metadata-only screening; abstract retrieval API lacked full abstract entitlement) + PubMed E-utilities (ESearch/ESummary, journal Carbohydr Polym[ta], reldate=730, used to build a DOI->PMID map of 2,893 records over 2 years) cross-referenced against state/seen_articles.json to catch duplicates recorded under pmid rather than pii keys, and to authoritatively determine PubMed publication type (Review vs Journal Article) since Scopus subtype tags were unreliable for several review-style titles. Crossref REST API used to retrieve full author lists (Elsevier metadata-only key returned only first author).",
+  "target_count": 20,
+  "final_new_count": 7,
+  "note": "Only 7 of 20 target reached. ~700 Scopus entries screened; 94 were duplicates already recorded under pmid identifiers from prior runs; 10 were Scopus subtype='ar' but PubMed pubtype='Review' (excluded); 9 were microbe-strain/bioprocess-centric (excluded); 7 were genuinely new Articles-in-Press (coverDate 2026-10-15) not yet indexed in PubMed.",
+  "articles": [
+    {
+      "pii": "S0144861726008003",
+      "doi": "10.1016/j.carbpol.2026.125683",
+      "title": "Hot spring-inspired zinc-crosslinked Mesona chinensis polysaccharide hydrogel microspheres for MRSA-infected chronic wound healing",
+      "coverDate": "2026-10-15",
+      "creator": "Tian Y.",
+      "eid": "2-s2.0-105045936186",
+      "authors": [
+        "Ya Tian",
+        "Pengkun Lei",
+        "Siwei Xiong",
+        "Wen Shi",
+        "Qiaolin Yang",
+        "Peng Guo",
+        "Qin Yang",
+        "Xiaoli Yi",
+        "Wenbi Tuo",
+        "Jun Zhao",
+        "Zhencheng Liao",
+        "Chen Zhang",
+        "Yan Qu"
+      ]
+    },
+    {
+      "pii": "S0144861726008155",
+      "doi": "10.1016/j.carbpol.2026.125698",
+      "title": "Chitosan spatial positioning dictates thermal reconstruction pathways and performance in myofibrillar protein emulsions: Expansion-interstitial filling versus molecular extension",
+      "coverDate": "2026-10-15",
+      "creator": "Zhao Y.",
+      "eid": "2-s2.0-105046010318",
+      "authors": [
+        "Yuhui Zhao",
+        "Xinglian Xu",
+        "Xue Zhao"
+      ]
+    },
+    {
+      "pii": "S0144861726008076",
+      "doi": "10.1016/j.carbpol.2026.125690",
+      "title": "Triboelectric performance of cellulose–carbon allotrope nanocomposites: Effects of morphology, surface chemistry, and electrical properties",
+      "coverDate": "2026-10-15",
+      "creator": "Jafarpour E.",
+      "eid": "2-s2.0-105045971785",
+      "authors": [
+        "Erfan Jafarpour",
+        "Alireza Eivazi",
+        "Renyun Zhang",
+        "Jesper Edberg",
+        "Ioannis Petsagkourakis",
+        "Robert Brooke",
+        "Göran Thungström",
+        "Christina Dahlström",
+        "Magnus Norgren"
+      ]
+    },
+    {
+      "pii": "S0144861726008167",
+      "doi": "10.1016/j.carbpol.2026.125699",
+      "title": "Hydrogen bond accessibility engineering enables water-rich and mechanically robust chitosan hydrogels",
+      "coverDate": "2026-10-15",
+      "creator": "Wang X.",
+      "eid": "2-s2.0-105046003654",
+      "authors": [
+        "Xiaoye Wang",
+        "Min Liu",
+        "Furui Qu",
+        "Siyi Ma",
+        "Xiguang Chen",
+        "Jiahao Liu",
+        "Chao Feng"
+      ]
+    },
+    {
+      "pii": "S0144861726008222",
+      "doi": "10.1016/j.carbpol.2026.125705",
+      "title": "Supramolecular reconstruction of rice straw lignocellulosic microfibrils into high-performance food packaging films",
+      "coverDate": "2026-10-15",
+      "creator": "Huang H.",
+      "eid": "2-s2.0-105046007538",
+      "authors": [
+        "Haibo Huang",
+        "Zhen Zhang",
+        "Runhan Zhao",
+        "Yan Qing",
+        "Zhuozheng Yu",
+        "Yao Zhang",
+        "Zhanjiang Yu",
+        "Ming Li",
+        "Guangsheng Zeng",
+        "Zhihan Li",
+        "Yiqiang Wu"
+      ]
+    },
+    {
+      "pii": "S014486172600826X",
+      "doi": "10.1016/j.carbpol.2026.125709",
+      "title": "Supramolecular co-assembly of cellulose acetate networks via interfacial hydrogen-bonding engineering for super-strong, high-barrier and multi-emissive intelligent packaging",
+      "coverDate": "2026-10-15",
+      "creator": "Nawaz H.",
+      "eid": "2-s2.0-105045990407",
+      "authors": [
+        "Haq Nawaz",
+        "Yuhan Wang",
+        "Zongqing Sheng",
+        "Irfan Shabbir",
+        "Aiyong He",
+        "Zhen Wu",
+        "Xu Ning",
+        "Jiaxing Xu",
+        "Sheng Chen"
+      ]
+    },
+    {
+      "pii": "S0144861726008192",
+      "doi": "10.1016/j.carbpol.2026.125702",
+      "title": "Modulation mechanism of Mesona chinensis polysaccharide on structural evolution of corn starch cryogel during gelatinization",
+      "coverDate": "2026-10-15",
+      "creator": "Rong L.",
+      "eid": "2-s2.0-105045940531",
+      "authors": [
+        "Liyuan Rong",
+        "Jieyan Li",
+        "Jieqiong Lin",
+        "Jia Kong",
+        "Mingyue Shen",
+        "Jianhua Xie"
+      ]
+    }
+  ]
+}
