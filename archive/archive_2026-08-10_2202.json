@@ -1,0 +1,278 @@
+{
+  "run_timestamp_utc": "2026-08-10 22:02 UTC",
+  "collection_method": "Elsevier Scopus Search API(api.elsevier.com/content/search/scopus, ISSN 0144-8617, -coverDate 정렬, 625건 페이징 조회)를 1차 소스로, PubMed E-utilities(ESearch/EFetch, reldate 14~730일 다단계 확장)를 보완 소스로, Semantic Scholar Graph API 및 WebSearch를 저자·구조 정보 보강용으로 사용하여 신규 연구논문을 수집함. Elsevier ScienceDirect Search API(scidir)는 HTTP 410(서비스 종료)로 응답하여 Scopus Search API로 대체함.",
+  "target_count": 20,
+  "collected_count": 13,
+  "eligibility_filters": [
+    "리뷰 논문(subtypeDescription=Review, 제목 내 review 계열 표현) 제외",
+    "Erratum/Corrigendum/Letter/Editorial 제외",
+    "미생물 자체의 생물학적 특성·균주 개발·배양 최적화가 핵심 주제인 논문 제외 (다당류/고분자가 핵심주제이고 미생물은 다당류 생산원이거나 항균테스트 대상인 경우는 유지)",
+    "2년 이내 게재분",
+    "state/seen_articles.json 에 이미 기록된 DOI/PII/PMID 제외"
+  ],
+  "sources_used": [
+    "Elsevier Scopus Search API (api.elsevier.com/content/search/scopus) - primary, 625 entries paged",
+    "Elsevier ScienceDirect Search API (scidir) - returned HTTP 410 Gone, deprecated, not usable",
+    "Elsevier Abstract Retrieval API - accessible but no dc:description under current key entitlement",
+    "PubMed E-utilities ESearch/EFetch - reldate 14/30/60/90/180/365/730d, 0 new items (all already in seen_articles.json)",
+    "Semantic Scholar Graph API - author metadata enrichment; abstract null for all target DOIs (too recent, not yet indexed)",
+    "WebSearch - supplementary keyword search (paper, cellulose, pectin, hydrogel, okara, paper coating, biomass, soybean protein isolate) and per-title context lookup; no additional new articles found"
+  ],
+  "notes": "확보된 13편은 모두 2026-10-15자 예정 이슈(Articles in Press)로, 수집 시점 기준 공개 초록 색인 DB에 초록이 등재되지 않아 초록 원문을 확보하지 못함. 리포트 내 논문별 설명은 제목/저자/소속 및 공개 보조자료를 근거로 작성.",
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125684",
+      "pii": "S0144861726008015",
+      "title": "A konjac glucomannan-based hydrogel delivery system induces trained immunity via enhanced oxidative phosphorylation for improved vaccine protection",
+      "authors": [
+        "Zheng Jia",
+        "Yadong Gao",
+        "Husile Han",
+        "Chaonan Wang",
+        "Jiaqing Wang",
+        "Junjie Guo",
+        "Shuhe Zhang",
+        "Yifan Li",
+        "Junwei Ge",
+        "Fang Wang",
+        "Mingchun Gao"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "Northeast Agricultural University",
+      "affil_country": "China",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125717",
+      "pii": "S0144861726008349",
+      "title": "Gelphyman, a cryptic and novel thermoreversible gelling polysaccharide activated by c-di-GMP in Paraburkholderia phymatum STM815",
+      "authors": [
+        "Juan Antonio Marchante",
+        "J. Sanjuan",
+        "Socorro Muñoz",
+        "V. Souza-Egipsy",
+        "Javier Ramos",
+        "Araceli Flores",
+        "J. F. Vega",
+        "M. Rodríguez-Carvajal",
+        "Daniel Pérez-Mendoza"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "CSIC - Estación Experimental del Zaidín (EEZ)",
+      "affil_country": "Spain",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125704",
+      "pii": "S0144861726008210",
+      "title": "Self-assembly of a hydrophobically modified dextran and controlled drug release in aqueous solution",
+      "authors": [
+        "Wenze Li",
+        "Changxuan Li",
+        "Takahiro Sato",
+        "Jia Yang",
+        "Baoyi Ren"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "Shenyang University of Chemical Technology",
+      "affil_country": "China",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125708",
+      "pii": "S0144861726008258",
+      "title": "Starch thickening through structure and attractive electrostatics: patchy charged colloidosomes",
+      "authors": [
+        "Zoe Atkins",
+        "Peilong Li",
+        "L. Khazdooz",
+        "Amin Zarei",
+        "Alireza Abbaspourrad"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "Cornell University College of Agriculture and Life Sciences",
+      "affil_country": "United States",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125697",
+      "pii": "S0144861726008143",
+      "title": "Crosslinking density-programmed poly(acrylamide)/sodium alginate-based emergency hydrogel with asymmetric 3D mass transfer network: spatially vector-targeted release of nitric-oxide for potentiating antibacterial efficacy and wound monitoring and sensing",
+      "authors": [
+        "Bo Zhang",
+        "Fei Liang",
+        "Yani Sun",
+        "Lei Chen",
+        "Caiyun Chen",
+        "Yuming Zhang",
+        "Xiaofan Hu",
+        "Kang Zhao",
+        "Zixiang Wu",
+        "Yufei Tang"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "Xi'an University of Technology",
+      "affil_country": "China",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125710",
+      "pii": "S0144861726008271",
+      "title": "Caught in the net: A quaternized wood fiber/chitin nanofibril hydrogel trap for polystyrene nanoplastics",
+      "authors": [
+        "S. Jung",
+        "Jungkyu Kim",
+        "Jun-Sun Bang",
+        "Sangwoo Park",
+        "In-Gyu Choi",
+        "Bonwook Koo",
+        "H. Kwak"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "College of Agriculture and Life Sciences",
+      "affil_country": "South Korea",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125672",
+      "pii": "S0144861726007897",
+      "title": "Structural characterization and systemic hypoglycemic effects of a new high-molecular-weight α-glucan from Grifola frondosa",
+      "authors": [
+        "Wei Zhong",
+        "Juan Wang",
+        "Yu Ding",
+        "Long-hua Huang",
+        "Huixiang Tian",
+        "Qinzhao Ruan",
+        "Xiangmin Li",
+        "Yuanchao Liu",
+        "T. Yong",
+        "Shaodan Chen",
+        "Nan Miao",
+        "Huiyang Guo",
+        "Tingting Liang",
+        "Huiping Hu",
+        "Chun Xiao",
+        "Qingping Wu"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "South China University of Technology",
+      "affil_country": "China",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125725",
+      "pii": "S0144861726008428",
+      "title": "Preparation of reactive oxygen species-responsive chitosan oligosaccharide nanoparticles and their therapeutic effects on diabetic nephropathy",
+      "authors": [
+        "Weibin Shao",
+        "Yiming Zhang",
+        "Changyu Yao",
+        "Jiaqi Kan",
+        "Chi Zhang",
+        "Rupei Tang"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "School of Life Sciences and Medical Engineering, Anhui University",
+      "affil_country": "China",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125711",
+      "pii": "S0144861726008283",
+      "title": "Illicium verum polysaccharide targets fimbriae and flagella to disrupt biofilm and inhibit multidrug-resistant Escherichia coli proliferation",
+      "authors": [
+        "Yifei Xiang",
+        "Erqiang Wang",
+        "XueLian Mo",
+        "Zhifei Wei",
+        "Zhiran Xu",
+        "Wenjing Li",
+        "Changhua Lin",
+        "Yanwen Zhang",
+        "Chunxia Ma",
+        "Bin Zheng",
+        "Ziyang Li",
+        "Chengzhi Liu",
+        "Ruihan Deng",
+        "Tiangang Xu",
+        "Zhengmin Liang",
+        "Yuchen He",
+        "Jiakang He"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "Guangxi University",
+      "affil_country": "China",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125707",
+      "pii": "S0144861726008246",
+      "title": "Hyaluronic acid-based core-shell microneedles for staged local delivery of psoralen toward anti-inflammatory and cartilage-protective therapy of rheumatoid arthritis",
+      "authors": [
+        "Qihui Lin",
+        "Zijian Yan",
+        "Qiang Chen",
+        "Yongan Lin",
+        "Dang Ying",
+        "Zhuhao Tan",
+        "Zheng Liu",
+        "Mengxing Lu",
+        "Wenjing Song",
+        "Li Ren"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "South China University of Technology",
+      "affil_country": "China",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125643",
+      "pii": "S0144861726007605",
+      "title": "The galactoglucan from Lactiplantibacillus plantarum DSA_B is assembled from two phosphodiester-bound moieties with distinct antimicrobial and antioxidant profiles",
+      "authors": [
+        "Andrea Iovine",
+        "Giulia Bisson",
+        "I. Speciale",
+        "A. Notaro",
+        "Clara Comuzzi",
+        "Marilena Marino",
+        "C. de Castro"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "Università degli Studi di Napoli Federico II",
+      "affil_country": "Italy",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125715",
+      "pii": "S0144861726008325",
+      "title": "Mechanistic insights into freezing behavior in sucrose–pectin systems through experiment and simulation",
+      "authors": [
+        "Yitong Xie",
+        "Xin Jin",
+        "Jinfeng Bi"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "Ministry of Agriculture of the People's Republic of China",
+      "affil_country": "China",
+      "subtypeDescription": "Article"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125700",
+      "pii": "S0144861726008179",
+      "title": "Bacterial cellulose–Morchella sextelata mycelium composite disks as scalable, bioactive scaffolds: A promising platform for cultured meat",
+      "authors": [
+        "Yunan Tang",
+        "Yue Li",
+        "Shu-Xia Liu",
+        "Shaoqing Cui",
+        "Ximing Zhang"
+      ],
+      "coverDate": "2026-10-15",
+      "affil": "College of Biosystems Engineering and Food Science",
+      "affil_country": "China",
+      "subtypeDescription": "Article"
+    }
+  ]
+}
