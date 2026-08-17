@@ -1,0 +1,157 @@
+{
+  "run_datetime_utc": "2026-08-17 22:05 UTC",
+  "collection_method_summary": "Elsevier Scopus Search API(X-ELS-APIKey, ISSN 0144-8617, DOCTYPE(ar), coverDate 역순 300건=12페이지)로 214건의 신규 DOI 후보를 식별했으나, 이번 회차에도 Abstract Retrieval API가 이 API 키 권한상 초록 필드(dc:description)를 반환하지 않아(view=META/META_ABS/FULL/REF 각각 200/401/401/401) 실제 초록 확보에는 쓰지 못하고 후보 식별용으로만 사용했다. PubMed E-utilities를 ESearch(datetype=pdat, reldate=730일, sort=date, retmax=300)와 ESearch(datetype=edat, reldate=7일, retmax=300→69건)의 두 방식으로 조회하고 EFetch(rettype=abstract, retmode=xml)로 전체 초록을 확보했다. state/seen_articles.json(기존 1,884건, doi:/pmid: 키 모두 대조)과 비교한 결과 PubMed 경로 신규 후보 2건, Elsevier 전용(PubMed 조회 범위 밖) 신규 후보 19건, 총 21건을 확보했다. 자격 기준 재적용 결과 PubMed 신규 2건은 모두 제외했다(1건: E. coli 균주 SC-UY1의 O-antigen 혈청형·galF-gnd 유전자좌 규명이 핵심 주제인 미생물 중심 논문, 1건: 초록이 스스로를 'This review'/'This treatise'로 규정한 자기 서술형 리뷰 논문 'How to dissolve cellulose in water'). Elsevier 전용 19건은 abstract가 전혀 색인되지 않아 별도 조사 에이전트를 통해 CrossRef API(type 필드)와 Semantic Scholar Graph API(publicationTypes 필드, 일부는 verbatim abstract 확보)로 리뷰 여부를 교차 검증하여 9건을 리뷰 논문으로 제외하고(제목에 'Recent advances', 'Strategies, Mechanisms and Therapeutic Applications', 'Bridging...with clinical translation' 등 총설형 표현 다수 포함), 나머지 10건을 최종 신규 연구논문으로 확정했다. PubMed edat 기준 최근 7일 재조회로 게재일 범위를 넓혀 재시도했으나 동일한 2건(둘 다 제외 대상) 외 추가 신규 후보는 발견되지 않았다. 목표 20편 중 10편만 확보(미달). Elsevier API로 식별된 214개 신규-후보 DOI 중 195개는 PubMed 조회 결과와 중복되었고(이미 seen 처리됨), 19개만 Elsevier 전용 신규 후보였다. 이번 회차는 WebSearch를 보완적으로 사용했다(19건의 리뷰/연구논문 판별 및 가능한 초록 확보 목적으로 조사 에이전트가 CrossRef/Semantic Scholar/Europe PMC API와 WebSearch를 병행).",
+  "target_count": 20,
+  "collected_count": 10,
+  "sources": {
+    "elsevier_scopus_search_api": {
+      "used": true,
+      "note": "ISSN(0144-8617) AND DOCTYPE(ar) via /content/search/scopus, sort=-coverDate, 300 entries fetched (12 pages of 25, count param capped at 25 by this API tier). Abstract Retrieval API (view=META/META_ABS/FULL/REF) did not return dc:description for this API key's entitlement (200/401/401/401), so used for candidate DOI identification and article-type classification support only.",
+      "new_doi_candidates_found": 214,
+      "overlap_with_pubmed_fetch": 195,
+      "elsevier_only_new_candidates": 19,
+      "used_in_report": 10
+    },
+    "pubmed_eutilities": {
+      "used": true,
+      "note": "Two ESearch queries: (a) datetype=pdat, reldate=730, sort=date, retmax=300; (b) datetype=edat, reldate=7, retmax=300 (69 returned). EFetch (XML, rettype=abstract) used for all. Only 2 new PMIDs (not already in seen_articles.json by pmid: or doi: key) identified across both queries; both excluded (1 microbe-centric serology/genetics paper, 1 self-described review).",
+      "new_candidates_after_filtering": 0,
+      "used_in_report": 0
+    },
+    "websearch_and_secondary_apis": {
+      "used": true,
+      "note": "For the 19 Elsevier-only candidates lacking any indexed abstract, a research subagent used CrossRef API, Semantic Scholar Graph API (publicationTypes field + occasional verbatim abstract), Europe PMC REST API, and WebSearch to determine review-vs-research status and recover any available abstract text. 9 excluded as reviews; 10 confirmed as original research (9 of which still lack any publicly indexed abstract as of this run — Articles in Press).",
+      "new_candidates_confirmed_eligible": 10,
+      "used_in_report": 10
+    }
+  },
+  "eligibility_filters_applied": [
+    "제목에 'review/systematic review/mini-review' 포함 또는 PubMed PublicationType/Semantic Scholar publicationTypes에 Review 포함된 논문 제외",
+    "초록 본문이 스스로를 review/treatise로 규정하는 논문 제외",
+    "게재 후 2년 이내 논문만 포함",
+    "미생물 자체의 생물학적 특성/균주 개발/배양 최적화/혈청형·유전자좌 규명이 핵심 주제인 논문 제외 (다당류/고분자가 핵심 주제이고 항균성 테스트가 부가적인 경우는 유지)",
+    "Expression of Concern·Retraction Notice·Corrigendum 등 연구논문이 아닌 공지성 게재물 제외",
+    "state/seen_articles.json에 이미 기록된 DOI 또는 PMID 제외"
+  ],
+  "focus_keyword_papers_count": 4,
+  "focus_keyword_papers_dois": [
+    "10.1016/j.carbpol.2026.125706",
+    "10.1016/j.carbpol.2026.125723",
+    "10.1016/j.carbpol.2026.125729",
+    "10.1016/j.carbpol.2026.125735"
+  ],
+  "report_file": "reports/carbpoly_report_2026-08-17_2205.pdf",
+  "papers": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125706",
+      "title": "Cellulose nanofibril/polyvinyl alcohol hydrogel achieves efficient desalination of seawater and power generation based on Donnan effect",
+      "authors": "Wang Kun, Li Chong, Du Saifei, Zhu Zhangyu, Xu Jiajie, Wang Wei 외",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": false,
+      "is_focus": true,
+      "focus_keywords": [
+        "cellulose",
+        "hydrogel"
+      ],
+      "korean_summary": "셀룰로오스 나노섬유(CNF)와 폴리비닐알코올(PVA)을 결합한 하이드로겔을 제작하여, 이온 선택적 투과 특성(도난 효과)을 이용해 해수 담수화와 동시에 전력을 생산하는 다기능 소재로 활용한 연구로 보인다. 다만 이 논문은 2026년 10월 게재 예정(Articles in Press)으로 초록 본문이 아직 PubMed·Europe PMC·CrossRef·Semantic Scholar 어디에도 색인되지 않아, 위 설명은 논문 제목에서 유추한 연구 방향이며 구체적 실험 방법이나 정량적 결과는 확인하지 못했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125736",
+      "title": "Valency-regulated interfacial selectivity by metal-crosslinked chitosan cryogels for capturing trace-level perchlorate: Adsorption performance and mechanism",
+      "authors": "Hu Zhihui, Wu Yuan, Wei Jiangang, Jia Yan, Dai Xinning, Huang Jiali 외",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": false,
+      "is_focus": false,
+      "focus_keywords": [],
+      "korean_summary": "금속 이온으로 가교한 키토산 크라이오겔의 계면 원자가(valency)를 조절해 미량 과염소산염(perchlorate) 이온에 대한 흡착 선택성과 흡착 기구를 분석한 연구로 추정된다. 초록 원문을 어떤 데이터베이스에서도 찾지 못해(Articles in Press) 제목 기반의 추정이며, 세부 실험 조건과 흡착 성능 수치는 확인할 수 없었다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125723",
+      "title": "Topology-engineered hydrogel with cellulose nanosheets for robust and high-capacity zinc-ion batteries",
+      "authors": "Lei Wenxuan, Huang Heng, Liu Wenyu, Zhou Lingfeng, Li Guoping, Chen Pan 외",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": false,
+      "is_focus": true,
+      "focus_keywords": [
+        "cellulose",
+        "hydrogel"
+      ],
+      "korean_summary": "셀룰로오스 나노시트를 포함한 하이드로겔의 네트워크 위상구조(topology)를 설계하여 아연이온전지용 전해질/분리막으로서 내구성과 고용량 특성을 구현하려 한 연구로 보인다. 이 논문 역시 아직 초록이 공개 색인되지 않은 게재 예정 논문으로, 위 설명은 제목에서 유추한 연구 개요이며 구체적 전기화학적 성능 수치는 확인하지 못했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125729",
+      "title": "Dynamic covalent network-functionalized holocellulose composite: A photocurable strategy toward transparent and reprocessable composites",
+      "authors": "Tan Yi, Li Bei, Wang Kaili, Dong Youming, Gong Shanshan, Jiang Weikun 외",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": false,
+      "is_focus": true,
+      "focus_keywords": [
+        "cellulose",
+        "biomass"
+      ],
+      "korean_summary": "바이오매스에서 유래한 홀로셀룰로오스(hemicellulose를 포함한 셀룰로오스 복합 성분)에 동적 공유결합 네트워크를 도입하고 광경화 방식을 적용해, 투명하면서도 재가공이 가능한 복합소재를 만들고자 한 연구로 추정된다. 초록이 아직 색인되지 않아 제목만으로 추정한 내용이며, 정확한 기계적·광학적 물성 데이터는 확인하지 못했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125694",
+      "title": "Surfactant-assisted hierarchical assembly of debranched starch nanoparticles: Insights into desolvation-driven molecular and crystalline ordering",
+      "authors": "Kim Da-Hui, Zhou Xing, Kim Jong-Yea",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": false,
+      "is_focus": false,
+      "focus_keywords": [],
+      "korean_summary": "가지제거(탈분지)된 전분을 계면활성제 존재 하에서 계층적으로 재조립시켜, 탈용매화(desolvation) 과정이 분자 수준 정렬과 결정 구조 형성에 미치는 영향을 규명하려 한 연구로 보인다. 초록이 아직 공개되지 않아 제목 기반 추정이며, 구체적인 나노입자 크기나 결정화도 수치는 확인하지 못했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125728",
+      "title": "Three-dimensional alignment of mannan I microcrystals under a strong magnetic field",
+      "authors": "Sun Zhiyi, Maeda Asahi, Okawa Ichiro, Kobayashi Kayoko, Hirota Noriyuki, Wada Masahisa",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": false,
+      "is_focus": false,
+      "focus_keywords": [],
+      "korean_summary": "강한 정자기장을 이용해 만난 I형(mannan I) 미세결정의 3차원 배향을 유도하고, 그 이방적 정렬 거동을 규명하려 한 기초 물성 연구로 추정된다. 초록을 확인할 수 있는 어떤 데이터베이스에도 아직 반영되지 않아 제목만으로 추정했으며, 정렬 기구나 정량적 결과는 확인하지 못했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125679",
+      "title": "Electrospun rutin/methyl-β-Cyclodextrin/pullulan nanofibers for neuroprotection in a zebrafish model of intracerebral hemorrhage",
+      "authors": "Thakur Navneet, Kumar Amit, Ruchika, Singh Damanpreet, Saneja Ankit",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": true,
+      "is_focus": false,
+      "focus_keywords": [],
+      "korean_summary": "난용성 플라보노이드인 루틴을 메틸-베타-사이클로덱스트린과 포접 복합체로 만들어 수용해도를 약 46배 높인 뒤, 이를 풀루란 나노섬유에 전기방사로 담지하여 약 3초 내 빠르게 붕해되는 제형을 제조했다. 제브라피시 뇌출혈(ICH) 모델에 적용한 결과, 이 나노섬유 제형이 출혈 중증도와 산화 스트레스·세포자멸사·염증 반응을 낮추고 신경세포 구조를 보존하여, 난용성 플라보노이드의 신경보호용 전달체로서 가능성을 보였다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125718",
+      "title": "Monomer sequence governs the anti-inflammatory activity of chitooligosaccharides",
+      "authors": "Zhu Siqi, Hu Minmin, Li Anbang, Hao Wentong, Ge Xiangyun, Yang Haoyue 외",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": false,
+      "is_focus": false,
+      "focus_keywords": [],
+      "korean_summary": "키토올리고당의 단순한 중합도나 아세틸화도가 아니라 단당류 배열 순서(monomer sequence) 자체가 항염증 활성을 좌우한다는 구조-활성 관계를 규명하려 한 연구로 추정된다. 초록 원문이 아직 색인되지 않아 제목에 근거한 추정이며, 구체적 서열 패턴이나 활성 데이터는 확인하지 못했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125735",
+      "title": "Design and adhesion mechanism of multi-component natural polysaccharide-based adhesives for paper fracture repair",
+      "authors": "Liu Aocheng, Chen Xiaoli, Ding Liping, Hu Kaixin, Li Jing",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": false,
+      "is_focus": true,
+      "focus_keywords": [
+        "paper"
+      ],
+      "korean_summary": "여러 천연 다당류를 조합해 종이(고문서·기록물 등) 파손 부위의 복원·접합에 쓸 수 있는 접착제를 설계하고, 그 접착 기구를 분석하려 한 연구로 추정된다. 종이 문화재 보존 분야에 다당류 기반 소재를 적용한 사례로 보이나, 초록이 아직 색인되지 않아 제목 기반 추정이며 접착강도 등 정량 데이터는 확인하지 못했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125713",
+      "title": "Chitosan and its subunits enhance adrenergic vasoconstriction and impair endothelium-dependent relaxation in rat aorta",
+      "authors": "Pouri Saeedeh, Sanz-Gómez Marta, Fernández-Alfonso María S., Caballero Ángeles María Heras, Aranaz Inmaculada",
+      "pub_date": "2026-10-15",
+      "has_real_abstract": false,
+      "is_focus": false,
+      "focus_keywords": [],
+      "korean_summary": "키토산 및 그 저분자 분해 산물(subunit)이 흰쥐 대동맥 고리 조직에서 아드레날린성 혈관수축 반응을 강화하고 내피 의존성 이완 반응은 저해한다는 것을 보여주려 한 약리학적 연구로 추정된다. 이는 키토산 기반 소재의 안전성/생체적합성 평가와 관련된 결과일 가능성이 있으나, 초록이 아직 색인되지 않아 제목 기반 추정이며 구체적 수치 결과는 확인하지 못했다."
+    }
+  ]
+}
