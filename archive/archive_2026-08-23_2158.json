@@ -1,0 +1,241 @@
+{
+  "generated_at_utc": "2026-08-23T21:58:00Z",
+  "journal": "Carbohydrate Polymers",
+  "issn": "0144-8617",
+  "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, PUBYEAR>2024, sort=-coverDate, paged start=0..300, X-ELS-APIKey auth) for discovery; Crossref API (api.crossref.org/works) for author/volume/article-number/date metadata (Elsevier Abstract Retrieval / Article Retrieval APIs returned AUTHORIZATION_ERROR/AUTHENTICATION_ERROR for abstract/full-text under this key's entitlement). PubMed E-utilities ESearch/ESummary cross-checked with datetype=pdat reldate=60 and datetype=edat reldate=14 (both returned 0 items not already in state/seen_articles.json). WebSearch used as supplementary check for focus keywords (okara, soybean protein isolate, paper coating) - no additional unseen eligible articles found. No abstract text was obtainable for any of the 13 collected articles via Elsevier, PubMed, Crossref, Semantic Scholar, or Unpaywall (all are very recent Articles in Press, formal issue date 2026-10, not yet indexed with abstracts anywhere accessible).",
+  "eligibility_filters_applied": [
+    "excluded: subtypeDescription == Review (Scopus) / pubtype contains Review (PubMed)",
+    "excluded: title contains 'review'",
+    "excluded: microorganism-biology-centric articles (strain development, fermentation optimization as core topic)",
+    "excluded: already present in state/seen_articles.json prior to this run"
+  ],
+  "target_count": 20,
+  "collected_count": 13,
+  "shortfall_reason": "All PubMed/Scopus-indexed Carbohydrate Polymers articles from roughly the last 2 years are already present in state/seen_articles.json from prior daily runs (2291 entries before this run). The only remaining unseen pool consists of Articles in Press assigned within the last 1-2 days, ahead of PubMed/Crossref/Semantic Scholar indexing; 13 such articles passed the review/microbial eligibility filters.",
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125720",
+      "title": "Novel cellulose acetate grafted poly(NHC complex) as an efficient and robust catalyst for CuAAC and ketone reduction",
+      "authors": [
+        "Mustapha El Kadiri",
+        "Elmehdi Moutaoukil",
+        "Rachid Benhida",
+        "Hicham Ben Youcef",
+        "Dmitry A. Valyaev",
+        "Yves Canac",
+        "Mohammed Lahcini"
+      ],
+      "volume": "390",
+      "article_number": "125720",
+      "date": "2026-10",
+      "focus_keyword_match": true,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125720"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125721",
+      "title": "A new strategy for steady-state butyric acid encapsulation: Mechanism of starch-lauric acid-protein-butyric acid complex formation, release characteristics and prebiotic properties",
+      "authors": [
+        "Yan Wang",
+        "Ruonan Fu",
+        "Kaiwen Wang",
+        "Tianyu Han",
+        "Lirui Sun",
+        "Xiushan Zhang",
+        "Zhenxing Wang",
+        "Jiaying Xin",
+        "Siew Young Quek",
+        "Na Zhang"
+      ],
+      "volume": "390",
+      "article_number": "125721",
+      "date": "2026-10",
+      "focus_keyword_match": false,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125721"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125727",
+      "title": "Cyclodextrin-engineered bioinspired nanozyme microneedle for adaptive theranostic regulation of hyperuricemia and gout",
+      "authors": [
+        "Xu-Wei Qi",
+        "Hua-Zhou Niu",
+        "Ya-Hui Chen",
+        "Ye-Tao Zhang",
+        "Jing Li",
+        "Zu-E Hu",
+        "Jia-Xin Wang",
+        "Yi-Qi Liu",
+        "Bang-Jing Li",
+        "Sheng Zhang"
+      ],
+      "volume": "390",
+      "article_number": "125727",
+      "date": "2026-10",
+      "focus_keyword_match": false,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125727"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125730",
+      "title": "Internal plasticization and in-situ siloxane crosslinking synergistic strategy for enhancing wet-state strength and flexibility of regenerated cellulose films",
+      "authors": [
+        "Han Gao",
+        "Ao Zhai",
+        "Ajoy Kanti Mondal",
+        "Jinwen Hu",
+        "Yehan Tao",
+        "Yanna Lv",
+        "Jian Du",
+        "Chenglong Fu",
+        "Haisong Wang"
+      ],
+      "volume": "390",
+      "article_number": "125730",
+      "date": "2026-10",
+      "focus_keyword_match": true,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125730"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125731",
+      "title": "Geometry-driven control of drug release kinetics in 3D printed chitosan scaffolds via an oxygen-self-supplying crosslinking strategy",
+      "authors": [
+        "Hsien-Tsung Lu",
+        "Yu-Han Wu",
+        "Fwu-Long Mi",
+        "Doan Van Hong Thien",
+        "Ming-Hua Ho"
+      ],
+      "volume": "390",
+      "article_number": "125731",
+      "date": "2026-10",
+      "focus_keyword_match": false,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125731"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125734",
+      "title": "Transparent, bio-based dielectric films with ultrahigh breakdown strength fabricated from hydrogen-bonded cellulose acetate and tannic acid for energy storage",
+      "authors": [
+        "Rui Luo",
+        "Xin-rui Xiao",
+        "Zhe-hao Kang",
+        "Chao-qun Wu",
+        "Ting Huang",
+        "Nan Zhang",
+        "Yong Wang"
+      ],
+      "volume": "390",
+      "article_number": "125734",
+      "date": "2026-10",
+      "focus_keyword_match": true,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125734"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125747",
+      "title": "Photocrosslinkable injectable glycol chitosan/gelatin biohybrid thermogel as a localized delivery platform for bone regeneration",
+      "authors": [
+        "Seong Eun Kim",
+        "Eunjin Lee",
+        "Tae Hoon Kang",
+        "Hee Sang Ro",
+        "Young Ju Lee",
+        "Nathaniel S. Hwang",
+        "Hwan D. Kim",
+        "Heungsoo Shin",
+        "Kang Moo Huh"
+      ],
+      "volume": "390",
+      "article_number": "125747",
+      "date": "2026-10",
+      "focus_keyword_match": false,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125747"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125749",
+      "title": "Cellulose nanopaper-supported Ti3C2Tx/polyaniline hybrid films for flexible carbon monoxide sensing and breath monitoring",
+      "authors": [
+        "Guodong Wu",
+        "Ningning Tan",
+        "Aleesha Nabhai",
+        "Zhengbai Li",
+        "Jinghao Li",
+        "Haishun Du"
+      ],
+      "volume": "390",
+      "article_number": "125749",
+      "date": "2026-10",
+      "focus_keyword_match": true,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125749"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125754",
+      "title": "Enhancing bread storage stability with chitosan oligosaccharides of different molecular weights: inhibiting spoilage microorganisms and retarding starch retrogradation",
+      "authors": [
+        "Li-Hong Du",
+        "Xiao-Na Guo",
+        "Xiao-Hong Sun",
+        "Ke-Xue Zhu"
+      ],
+      "volume": "390",
+      "article_number": "125754",
+      "date": "2026-10",
+      "focus_keyword_match": false,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125754"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125756",
+      "title": "Cellulose-based nanohybrids enabling flame retardancy with mechanical reinforcement in poly(lactide) composites",
+      "authors": [
+        "Muhammad Ali",
+        "Jung-Woo Park",
+        "Jae-Woo Kim",
+        "Young-Soo Seo"
+      ],
+      "volume": "390",
+      "article_number": "125756",
+      "date": "2026-10",
+      "focus_keyword_match": true,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125756"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125759",
+      "title": "Multiscale microstructure of physical cellulose hydrogels by SAXS, WAXD, AFM and X-ray μCT",
+      "authors": [
+        "Soline Quilliard",
+        "Arnaud Prigent",
+        "Benoit Duchemin"
+      ],
+      "volume": "390",
+      "article_number": "125759",
+      "date": "2026-10",
+      "focus_keyword_match": true,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125759"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125761",
+      "title": "Structural modification of raisin pectin fractions by electron beam irradiation",
+      "authors": [
+        "Jiahui Li",
+        "Xuan Li",
+        "Youlin Xue",
+        "Jinfeng Bi"
+      ],
+      "volume": "390",
+      "article_number": "125761",
+      "date": "2026-10",
+      "focus_keyword_match": true,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125761"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125765",
+      "title": "Rational design of poly-cyclodextrin nanofibers through crosslinker chemistry and cavity size for selective micropollutant removal",
+      "authors": [
+        "Mahmoud Aboelkheir",
+        "Miriam Lourie",
+        "Tamer Uyar"
+      ],
+      "volume": "390",
+      "article_number": "125765",
+      "date": "2026-10",
+      "focus_keyword_match": false,
+      "doi_key": "doi:10.1016/j.carbpol.2026.125765"
+    }
+  ]
+}
