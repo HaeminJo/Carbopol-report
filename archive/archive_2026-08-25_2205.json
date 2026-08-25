@@ -1,0 +1,562 @@
+{
+ "run_metadata": {
+  "generated_at_utc": "2026-08-25 22:05 UTC",
+  "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE=ar) primary; PubMed E-utilities (ESearch/EFetch) for abstract/publication-type cross-check; review articles and microbe-centric articles excluded",
+  "target_count": 20,
+  "collected_count": 31
+ },
+ "articles": [
+  {
+   "doi": "10.1016/j.carbpol.2025.124255",
+   "pmid": "40973280",
+   "title": "Low-molecular-weight dextran sulfate sodium as novel heparanase inhibitor preventing breast cancer metastasis in mice by inhibiting migration and angiogenesis.",
+   "authors": [
+    "Mo Yidian",
+    "Song Guohao",
+    "Fu Linbo",
+    "Wang Yuchao",
+    "Geng Tongtong",
+    "Sun Ao",
+    "Gou Baodi",
+    "Meng Xiangbao",
+    "Zhang Liangren",
+    "Wang Heng",
+    "Li Zhongjun",
+    "Li Zhongtang"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "The invasion and metastasis of aggressive breast malignancies are the main reasons of poor prognosis due to the lack of effective treatment. Heparanase (HPSE) can promote the migration and angiogenesis of breast cancer by degrading heparan sulfate (HS), indicating HPSE as an attractive target for anti-metastasis. Herein, we developed low-molecular-weight dextran sulfate sodium (LMW-DSS), a sulfated polysaccharide semi-synthesized from dextran, serving as an HS mimic thereby acting as a potent HPSE inhibitor. In vitro study showed that LMW-DSS exerted its effects through direct binding to HPSE, leading to both significant inhibition of HPSE activity and down-regulation of its expression. Moreover, the inhibition of HPSE reduced the migration and invasion of 4 T1 mammary carcinoma cells while suppressing the associated epithelial-mesenchymal transition (EMT). LMW-DSS also suppressed angiogenesis of human umbilical vein endothelial cells (HUVECs) with inhibitory effects on proangiogenic factors. Importantly, we confirmed the therapeutic anti-metastatic efficacy of LMW-DSS in suppressing pulmonary metastasis within 4 T1-Luc metastatic mouse model, alongside its in vivo safety profile. Given its minimal bleeding risk, LMW-DSS presents a promising and reliable therapeutic approach for combating aggressive breast malignancies.",
+   "summary_ko": "덱스트란에서 반합성한 저분자 황산화 덱스트란(LMW-DSS)을 헤파라나제(HPSE) 억제제로 개발하여, 유방암 세포의 이동·침윤과 혈관신생을 억제하고 마우스 폐전이 모델에서 항전이 효능과 낮은 출혈 위험을 확인하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124206",
+   "pmid": "40973274",
+   "title": "Structure-function insights into galactans of Endocladia muricata: Physicochemical properties and immunomodulatory activity.",
+   "authors": [
+    "Humayun Sanjida",
+    "Rjabovs Vitalijs",
+    "Darko Clarisa Naa Shormeh",
+    "Dziubinska-Kuehn Katarzyna",
+    "Haavasalu Erki",
+    "Reile Indrek",
+    "Kim Yeon-Ju",
+    "Tuvikene Rando"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "A structurally diverse galactan was extracted from Endocladia muricata through sequential cold-hot alkaline buffer extraction, followed by ethanol and saline precipitation, yielding four distinct fractions. Chemical analyses (HP-SEC, HPICE, HPAEC) and structural characterization (FTIR, NMR) revealed significant differences in molecular weight, monosaccharide composition, sulfation, and polymer structure between ethanol- and salt-precipitated fractions. NMR confirmed the coexistence of major quantities of carrageenan and minor amounts of agaran domains. Enzymatic degradation using κ-carrageenase revealed a block-wise arrangement of κ- and β-carrabiose units, with β-rich domains showing higher resistance. Diverse agaran structures, including agarose, methoxylated agarose, and funoran, were identified. Rheological studies indicated moderate gelation influenced by K+/Ca2+ synergy. Immunological assays showed that the saline-alcohol precipitated EM-2B fraction strongly activated RAW264.7 macrophages, increasing iNOS and COX-2 expression, NO/ROS production, and pro-inflammatory cytokine release via TLR4 signaling, as shown by TAK-242 inhibition. EM-2B also enhanced acid phosphatase and phagocytic activity, surpassing LPS in efficacy (114% vs. 100%). Microscopy confirmed increased E. coli uptake. These results underscore the immunomodulatory potential of E. muricata galactans, with sulfation, methoxylation, and domain architecture playing key roles. Their block-wise structural organization and gelling properties highlight their promise as biofunctional hydrocolloids for food and biomedical applications.",
+   "summary_ko": "홍조류 Endocladia muricata에서 냉·온 알칼리 추출 및 침전법으로 갈락탄 4개 분획을 얻어 FTIR·NMR·효소분해로 카라기난-아가란 혼성 구조를 규명하고, 분획별 유변학적 겔화 특성과 면역조절 활성의 구조-기능 상관관계를 제시하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124284",
+   "pmid": "40973295",
+   "title": "Complexation mechanism of high-amylose corn starch and myristic acid in CaCl2 aqueous solution: The role of Ca2+ coordination structure.",
+   "authors": [
+    "Lv Xinxin",
+    "Hong Yan",
+    "Gu Zhengbiao",
+    "Cheng Li",
+    "Li Zhaofeng",
+    "Li Caiming",
+    "Ban Xiaofeng"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Starch-lipid complexes have potential applications in functional foods, food additives, and food packaging materials. High-amylose corn starch (HACS) is a promising raw material for starch-lipid complexation. To overcome the poor gelatinization of HACS under atmospheric pressure, we leveraged the capacity of a CaCl2 aqueous solution to dissolve HACS, thereby streamlining the preparation of HACS-lipid complexes. Taking myristic acid (MA) as example, the HACS-MA (H-MA) complex prepared in deionized water exhibited a complexing index (CI) of 36.15 %, whereas that prepared in CaCl2 aqueous solution achieved a significantly higher CI of 89.03 %. Chemical group analysis and thermal characterization indicated that Ca2+ ions not only enhanced HACS dissolution through metal-dipole interactions but also bound to the hydroxyl oxygen atoms of starch, forming a coordination structure that promoted a single helical arrangement. This study clarifies the mechanism of starch-lipid complexation in CaCl2 aqueous solution and defines the role of Ca2+ ions in the complexes.",
+   "summary_ko": "고아밀로스 옥수수전분과 미리스트산의 복합체 형성 메커니즘을 CaCl2 수용액 조건에서 규명하여, 칼슘 이온이 상압 호화를 돕고 전분-지질 복합체 형성을 촉진하는 역할을 분석하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124259",
+   "pmid": "40973282",
+   "title": "Prey-mimetic alginate microspheres for targeted control of red imported fire ants.",
+   "authors": [
+    "Yang Rongjie",
+    "Zheng Qun",
+    "Qiu Jingjing",
+    "Zhao Shiji",
+    "Salam Abdul",
+    "Wu Peiqi",
+    "Wu Jian",
+    "Zhao Chen",
+    "Zhang Zhixiang"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "The invasive red imported fire ant (Solenopsis invicta) poses a serious threat to ecology, agriculture, and public health. Existing baits are limited in their effectiveness due to behavioral resistance. To address this issue, we developed a biomimetic calcium alginate@indoxacarb microsphere bait (CA@IDC MBt) based on sodium alginate (SA) polysaccharides. SA polysaccharides form a matrix with specific mechanical properties and surface characteristics due to their unique β-D-mannuronic acid and α-L-guluronic acid block copolymer structure. The carboxyl cross-linked network not only provides structural stability (diameter 3.5 mm) but also enables precise loading of indoxacarb (loading rate 0.045 %, encapsulation efficiency 88.6 %). The CA@IDC MBt system effectively deceives ants by precisely mimicking both the chemical (epidermal alkanes) and physical (surface morphology) characteristics of natural insect larvae prey. Compared to commercial IDC MBt, CA@IDC MBt significantly improves bait recognition rates and group attack intensity. The sustained-release properties of SA polysaccharides (>80 h) effectively bypass the ants' vigilance mechanisms, achieving 100 % field efficacy without new nest formation. Behavioral experiments indicate that CA@IDC MBt can deplete 35-48 % of venom alkaloids within 21 days and completely eliminate ant colonies. This study reveals SA polysaccharide's key biomimetic role, advancing eco-friendly pest control with carbohydrate polymers.",
+   "summary_ko": "알긴산나트륨 기반 생체모방 미소구체(칼슘 알지네이트@인독사카브)를 개발해 붉은불개미 유충의 표피 알칸 성분과 표면 형태를 모사함으로써, 미끼 인식률과 공격 유발률을 높이고 서방출 특성으로 현장 방제 효율 100%를 달성하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124327",
+   "pmid": "40973267",
+   "title": "Plasma-assisted extraction of high-purity chitin from crab shells: Eliminating the need for chemical decolorization.",
+   "authors": [
+    "Cai Zhicheng",
+    "Lu Jianfeng",
+    "Dong Ziqi",
+    "Wang Hong",
+    "Li Qiang",
+    "Lin Lin",
+    "Wang Chenghui",
+    "Zheng Bin",
+    "Mao Xiangzhao",
+    "Xue Changhu"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Chitin, a high-value biopolymer derived from crustacean shells, generally requires harsh chemical decolorization to achieve acceptable purity and appearance. Herein, we developed a green extraction method for chitin using atmospheric pressure plasma jet pretreatment combined with acid-base processing. Chinese mitten crab shells were subjected to different sequences and concentrations of hydrochloric acid (HCl) and sodium hydroxide (NaOH) treatments, with and without plasma pretreatment. Structural and physicochemical characterizations were performed via FTIR, SEM-EDS, AFM, XPS, NMR, XRD, TGA, and molecular weight analysis. The results indicated that when the acid-base concentrations were ≥2-M HCl and ≥1-M NaOH, plasma pretreatment (PJ-HN) enabled the release of high-purity chitin without the need for chemical decolorization. The chitin obtained exhibited comparable crystallinity (64.58 %), thermal stability (DTG max = 402.9 °C), and molecular weight (6.89 × 105 g/mol) to commercial chitin. Moreover, the PJ-HN samples retained high acetylation degrees and showed enhanced surface roughness, indicating improved functional potential. The antibacterial test confirmed that it possesses broad-spectrum antibacterial activity. The present study demonstrates that plasma-assisted extraction can serve as an eco-friendly and efficient alternative to conventional chemical methods in crustacean chitin processing.",
+   "summary_ko": "대기압 플라즈마 전처리와 산-염기 처리를 결합해 꽃게 껍데기에서 화학적 탈색 공정 없이 고순도 키틴을 추출하는 친환경 공정을 개발하고, FTIR·SEM-EDS·XRD·TGA 분석으로 결정성과 열안정성이 기존 화학적 탈색 공정과 동등함을 확인하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124302",
+   "pmid": "40973305",
+   "title": "In situ fabrication of bacterial cellulose-based CB@Poly(ionic liquid) membranes via surfactant-free ionic liquid microemulsion: Enhanced conductivity and mechanical flexibility.",
+   "authors": [
+    "Gao Na",
+    "Zhang Caiyang",
+    "Song Minxin",
+    "Fan Jiaxing",
+    "Li Jinyue",
+    "Li Shunjie",
+    "Lou Nan",
+    "Wu Guangshun",
+    "Liu Yuyang",
+    "Xue Jian",
+    "Wang Aili"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Poly(ionic liquids)s have emerged as promising candidates for various flexible sensing applications due to their tunable structures and inherent ionic conductivity. Herein, bacterial cellulose with nanofibrous crystalline structure was introduced into a surfactant-free ionic liquid microemulsion system, after which the bacterial cellulose‑carbon black-poly(ionic liquid) composites (bacterial cellulose-based CB@PILs) were successfully synthesized in situ via thiol-ene click chemistry. The results of comprehensive characterization, which included FTIR, XRD, XPS, SEM, thermal analysis, tensile testing, and conductivity measurements, revealed that the composite with 4.5 wt% carbon black and 25 % excess i-PA exhibited the best performance. Furthermore, this optimized sample showed good thermal stability, high elongation at break, and superior strain sensitivity, with a reversible resistance response under mechanical deformation. These findings provide a new strategy for designing flexible, conductive, and sensitive poly(ionic liquid)-based composites, as well as highlight the potential of bacterial cellulose-based CB@PILs materials for use in wearable and deformable electronic sensors.",
+   "summary_ko": "계면활성제 없는 이온성 액체 마이크로에멀전 내에서 박테리아 셀룰로오스-카본블랙-폴리(이온성 액체) 복합체를 티올-엔 클릭화학으로 제조하여, 웨어러블 변형 센서에 적합한 전기전도성과 기계적 유연성을 동시에 확보하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124300",
+   "pmid": "40973304",
+   "title": "Rheology of cellulose nanocrystals dispersed in dimethyl sulfoxide.",
+   "authors": [
+    "Xu Jiatong",
+    "Dong Qirong",
+    "Liu Pengfei",
+    "Cai Zhixiang",
+    "Liu Donghong"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Cellulose nanocrystals (CNCs)/H2O suspensions have attracted significant attention for their diverse applications, yet research on the physicochemical and rheological properties of CNCs in organic solvents is scarce. This work explored the dispersion behavior of CNCs in dimethyl sulfoxide (DMSO) through ultrasonication, and the physical state of the suspensions along with the viscosity, viscoelasticity, thixotropy, and yield stress were analyzed as a function of concentration. The results revealed that the CNC/DMSO suspension transitioned from isotropic to anisotropic at a concentration of 4.0 wt%. Both the viscosity and viscoelasticity exhibited a three-stage power-law relationship with concentration. The liquid-solid transition point of the CNC/DMSO suspensions, determined from rheology, was near the gel crowding factor of 14. The suspensions behaved as thixotropic yield stress fluids, with both thixotropy and yield stresses demonstrating a power-law dependence on concentration. The power-law exponent changed at a concentration of 6.0 wt%. Various perspectives on the yield stress of CNC suspensions were explored, with algebraic stress bifurcation providing a clearer representation of the yield process. This study provides a theoretical foundation for understanding the physical state of CNCs in organic solvents and for advancing the development of cellulose-based nanocomposites.",
+   "summary_ko": "셀룰로오스 나노결정(CNC)을 물이 아닌 디메틸설폭사이드(DMSO)에 분산시켰을 때의 유변학적 거동을 규명하여, 비수계 CNC 응용을 위한 기초 물성 데이터를 확보하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124251",
+   "pmid": "40973249",
+   "title": "Biomimetic chitosan derivatives inspired by cell-penetrating peptides for enhanced octreotide absorption following lung delivery.",
+   "authors": [
+    "Qin Lu",
+    "Cui Zhixiang",
+    "Zhang Ziwei",
+    "Zhai Qiyao",
+    "Wu Yu",
+    "Guan Jian",
+    "Xu Enyu",
+    "Zhang Xin",
+    "Mao Shirui"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Inspired by the structural and functional attributes of Cell-penetrating peptides (CPPs), in this study, diverse cationic and hydrophobic amino acids (AAs), which are regarded as the essential sequence of CPPs, were adopted to functionally modify chitosan (CS) to further enhance drug absorption across lung epithelial cells, and explore the absorption enhancing mechanism of different AA categories. Here, taking octreotide as a drug model, multifarious amino acids decorated chitosan copolymers (AA-CSs) were synthesized to investigate the influence of biomimetic AA-CSs structure on drug transmembrane absorption utilizing both 3D Transwell cell models and Sprague Dawley rats. It was demonstrated that indeed the absorption enhancing action of AA-CSs was AA categories-dependent. In comparison to native CS, hydrophobic AA-CSs induced no obvious enhancement in transmembrane permeation, while cationic AA-CSs improved drug absorption across pulmonary epithelium to varying degrees, with the highest enhancement ratio observed for arginine-CS (Arg-CS) group. Mechanism studies indicated paracellular pathway-mediated drug transport of AA-CSs. The in vivo pharmacokinetic data from microparticle groups revealed the AA categories-dependent absorption enhancing effect. In conclusion, the absorption enhancing activity of AA-CS copolymers depends on their AA categories, the enhancement extent of cationic AAs, particularly arginine, is preferable than that of hydrophobic AAs.",
+   "summary_ko": "세포투과펩타이드의 아미노산 서열 특성을 응용해 다양한 양이온성·소수성 아미노산으로 키토산을 개질하고, 3D 트랜스웰 모델과 랫드 실험을 통해 옥트레오타이드의 폐 흡수를 증진하는 메커니즘을 규명하였으며, 아르기닌 개질 키토산이 가장 우수한 흡수 증진 효과를 보였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124318",
+   "pmid": "40973312",
+   "title": "Treatment and reuse of hypo-salinity wastewater using a novel starch-based flocculant with ultra salt-sensitive characteristics.",
+   "authors": [
+    "Wang Shengxin",
+    "Zhao Wei",
+    "Guo Heling",
+    "Wang Rongjie",
+    "Zhang Qi",
+    "Gu Meng",
+    "Wei Tingting",
+    "Ran Tingmin",
+    "Zhou Ruichao",
+    "Shi Yulin"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Chemical residues in reclaimed wastewater after water treatment hinder the reutilization of saline wastewater and achievement of net-zero emissions. The development of water treatment chemicals with self-cleaning abilities is envisioned as a viable strategy for the sustainable use of saline wastewater. Herein, a novel ultra salt-sensitive starch-based flocculant (USSF) is synthesized by grafting allyl glycidyl ether and 2-chloro-4,6-amino-[1,3,5]-triazine onto starch skeleton through simple etherification reaction. USSF can detect ultra-low salinity (0.5 g/L Na2SO4) and respond with salting-out sedimentation, with flocculant residuals as low as 7.9 %. Inorganic salt can promote the salting out of USSF to improve the anti-restabilization ability. Even when the dosage exceeds four times the optimal dose, USSF still maintains excellent color removal effect. Most importantly, USSF demonstrates excellent self-cleaning properties, maintaining a flocculant residual as low as 7.9 % in hypo-salinity wastewater. In addition, the dyeing experiment showed that color fixation rate (73.7 %) and color strength (9.1) of reuse water are comparable to the value of fresh water. This work develops a new starch-based ultra salt-responsive flocculant with enhanced efficacy in dye wastewater remediation, in this way, reuse of salinity wastewater can be implemented in exhaust dyeing with reactive dye.",
+   "summary_ko": "알릴글리시딜에테르와 아미노트리아진 유도체를 전분 골격에 그래프트한 초염분 민감형 전분계 응집제(USSF)를 합성하여, 저염도 축산·산업 폐수 처리에서 미량의 염분 변화에도 반응해 자가세정이 가능한 신소재를 제시하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124297",
+   "pmid": "40973303",
+   "title": "Structural and physicochemical characterization of plant-derived galactomannans: revealing promising substrates for mannooligosaccharides production.",
+   "authors": [
+    "Hou Shujun",
+    "Zhang Yijin",
+    "Yang Rui",
+    "Xu Wei",
+    "Wang Huanli",
+    "Zhang Zhijin",
+    "Liu Botao",
+    "Dai Guiyao",
+    "Wang Ting",
+    "Li Pengfei",
+    "He Liang",
+    "Wu Ke",
+    "Zhang Weiwei",
+    "Han Fu",
+    "Jiang Jianxin",
+    "Ji Yongjun"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "A structurally distinct galactomannan (SJ-GM) isolated from the seeds of the economically dominant Sophora japonica Linn., was characterized and comparatively evaluated with galactomannans (GMs) derived from guar gum (GG-GM) and Gleditsia sinensis (GS-GM). Monosaccharide composition analysis and nuclear magnetic resonance (NMR) spectroscopy revealed that SJ-GM had the highest mannose to galactose (M/G) ratio, indicating fewer galactose side chains and a more linear molecular structure. Rheological analysis demonstrated that SJ-GM exhibited moderate viscosity, which is beneficial for establishing controlled-hydrolysis conditions. X-ray diffraction (XRD) patterns displayed broad halos without distinct Bragg reflections, confirming the predominantly amorphous nature of all three GMs. Furthermore, SJ-GM exhibited a relatively narrow molecular-weight distribution and a lower polydispersity index, both of which facilitated improved hydrolysis efficiency. The effects of autohydrolysis on the conversion of the three GMs into mannooligosaccharides (MOS) were comparatively evaluated. At 180 °C for 100 min, crude SJ-GM (C-SJ-GM, purity 64.45 %) achieved the highest MOS yield (44.3 %), exceeding those of GS-GM (40.1 %) and GG-GM (37.9 %). Despite its lower purity compared with refined GM, C-SJ-GM maintained comparable structural characteristics and delivered high MOS yields without the need for a dedicated pre-purification step before autohydrolysis, highlighting its economic potential as a cost-effective substrate for industrial-scale MOS production.",
+   "summary_ko": "회화나무(Sophora japonica) 등 3종 식물 유래 갈락토만난의 구조와 물성을 비교 분석하고, 만노스/갈락토스 비율이 높아 선형성이 큰 회화나무 갈락토만난이 자기가수분해를 통한 만노올리고당(MOS) 생산에 가장 높은 수율(44.3%)을 보이는 저비용 원료임을 입증하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124314",
+   "pmid": "40973310",
+   "title": "Improving stability and UV protection properties of phycocyanin nanoparticle-based Pickering emulgels via amorphous cationic starch complexation.",
+   "authors": [
+    "Hao Yacheng",
+    "Mei Jiahao",
+    "Ling Dongfang",
+    "Zhang Zhe",
+    "Li Sai",
+    "Gong Zhiyong",
+    "Liu Xin",
+    "Xu Mingfeng",
+    "Lin Yilin",
+    "Yu Rongrong"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "This study developed a novel phycocyanin nanoparticle (PCN) stabilized Pickering emulgel through the incorporation of amorphous cationic cassava starch (CCS), aiming to enhance stability and UV protection performance. The PCN/CCS complexes were fabricated by adjusting the PCN/CCS mass ratio (4:1-1:3), with optimal wettability (θ = 90.8°) achieved through precise surface properties modulation. Further analysis revealed that electrostatic and hydrophobic interactions dominated the PCN/CCS formation. Systematic investigation of oil phase content, particle concentration, and PCN/CCS ratio showed that the emulgel exhibited superior colloidal stability at an oil fraction of 70 %, an emulsifier concentration of 1 %, and a PCN/CCS ratio of 3:1. Notably, the CCS demonstrated bifunctional characteristics, serving as both co-stabilizer and gelling agent. Its long molecular chains construct a dense and cohesive gel network, conferring exceptional resistance to thermal (25-90 °C), pH (3-11), ionic (0-500 mM), centrifugation (4000 rpm, 10 min), and freeze-thaw stress. The emulgel exhibited markedly enhanced UV shielding, retaining 49.7 % of β-carotene and 23.8 % of astaxanthin after 72 h of exposure. These findings provide insights for designing innovative emulsification systems and the photoprotection of light-sensitive compounds for applications in cosmetics, food, and pharmaceuticals.",
+   "summary_ko": "피코시아닌 나노입자와 양이온성 무정형 카사바전분을 정전기적·소수성 상호작용으로 복합화하여 피커링 에멀젤을 제조하고, 열·pH·이온강도·동결해동에 대한 안정성과 자외선 차단 성능(72시간 후 베타카로틴 49.7% 잔존)이 크게 향상됨을 확인하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124337",
+   "pmid": "40973270",
+   "title": "Structural characterization and immunomodulatory activity of a novel pectin polysaccharide extracted from Gardenia jasminoides fruit.",
+   "authors": [
+    "Guo Yue",
+    "Cheng Yanan",
+    "Zheng Bing",
+    "Xie Jianhua",
+    "Chen Yi",
+    "Lin Huasi",
+    "Liu Hui",
+    "Hu Xiaobo",
+    "Yu Qiang"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Gardenia jasminoides Ellis is an important medicinal and edible resource. However, the structure-activity relationships underlying the immunomodulatory activity of its polysaccharides remain incompletely understood. Herein, we aimed to characterize the structure of a novel pectin from Gardenia fruit and clarify its immunomodulatory mechanism. A homogeneous polysaccharide, GJP70-0.2 (Mw = 54.5 kDa), was isolated and purified from gardenia fruit. Structural analysis confirmed that it was a pectic polysaccharide characterized by a notably homogalacturonan (HG)-dominant architecture with minor rhamnogalacturonan-I (RG-I) domains. The main chain structure contains α-D-GalpA-(1→[4)-α-GalpA-6R-(1]a→[3,4)-α-GalpA-(1]b→[2,4)-α-Rhap-(1→4)-α-GalpA(1→]c, and the RG-I region harbors arabinan and type II arabinogalactan side chains. In vitro assays showed that GJP70-0.2 significantly enhanced RAW264.7 macrophage proliferation and phagocytic activity, and induced M1 polarization, as evidenced by increased nitric oxide (NO) and reactive oxygen species (ROS) secretion, as well as upregulated inducible nitric oxide synthase (iNOS) and cyclooxygenase-2 (COX-2) expression. Mechanistically, GJP70-0.2 promoted M1 polarization by activating the NF-κB, JAK/STAT, and MAPK signaling pathways. Thus, the HG domain-dominant gardenia pectin polysaccharides exhibit potent immunomodulatory activities, supporting the potential of gardenia pectin polysaccharides as natural immunomodulators.",
+   "summary_ko": "치자나무(Gardenia jasminoides) 열매에서 신규 균질 펙틴 다당류(GJP70-0.2)를 분리해 구조를 규명하고, 그 면역조절 활성 메커니즘을 세포실험으로 분석하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124263",
+   "pmid": "40973252",
+   "title": "Carboxymethylated curdlan as a promising candidate for 3D printing bioink: Its structural characterization, printability and biocompatibility.",
+   "authors": [
+    "Ding Ling",
+    "Chen Lele",
+    "Xu Yaqian",
+    "Li Changjiang",
+    "Ding Xu",
+    "Fan Xue",
+    "Liu Zhiqin",
+    "Shi Jipeng",
+    "Zhang Ji"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Curdlan (CD), as a typical β-glucan, is becoming popular as a candidate for intelligent functional materials in the food industry and biomedicine. However, the water insolubility of CD limits its widespread application. Carboxymethylated derivatives of CD with different degrees of substitution (DSs) were fabricated. The structures were accurately characterized using Fourier transform infrared (FT-IR) spectroscopy, X-ray diffraction (XRD), nuclear magnetic resonance (NMR), atomic force microscopy (AFM), and solution conformation analysis to explore the rheological properties and printability of carboxymethylated curdlan (CMCD). The cytotoxicity in vitro and biocompatibility in vivo for 3D printing scaffolds were systematically evaluated. This indicated that carboxymethylation significantly altered the crystal structure of CD, the CMCD with the DS greater than 0.49 showed calcium ion crosslinking properties and was in a state suitable for printing, making its rheological behavior more appropriate for specific applications, which may serve as a rapid prototyping of material for hydrogels in 3D printing bioinks. The printability of CMCD was not only related to the DS but also depended on its concentration. CMCD scaffolds exhibited excellent biocompatibility and low immunogenicity. These results provide new insights and approaches for the application of CD-based biomaterials in tissue engineering and related disciplines.",
+   "summary_ko": "커들란(curdlan)을 카르복시메틸화하여 치환도(DS)별 유도체를 제조하고 FTIR·XRD·NMR·AFM으로 구조를 규명한 뒤, DS 0.49 이상에서 칼슘 가교 및 프린팅 적합 유변물성을 확보해 조직공학용 3D 프린팅 바이오잉크로서 우수한 생체적합성을 입증하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124276",
+   "pmid": "40973288",
+   "title": "Modulation of physicochemical properties and cooking stability in plant-based spherical egg yolk encapsulated in sodium alginate-gellan gum-chitosan composite films.",
+   "authors": [
+    "Hu Xiangfang",
+    "Dou Jiaqi",
+    "Min Rui",
+    "Liu Lianliang",
+    "Meng Zong"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "This study developed core-shell structured spherical egg yolks with a composite shell encapsulating plant-based egg yolk liquid, using sodium alginate (SA), low-acyl gellan gum (GG), and chitosan (CS). By modulating the SA/GG ratios (2:1, 1:1, 1:2) and CS concentrations (0-0.3 %), the physicochemical properties of composite films and their effects on the morphology, texture, and cooking adaptability of plant-based spherical egg yolks were investigated. In summary, the sustained release of Ca2+ from plant-based yolk liquid induced the gelation of SA and GG, forming an entangled three-dimensional gel network that serves as the foundational structure of the interfacial film. Meanwhile, CS enhanced the interfacial film performance by forming entangled insoluble polymer complexes through electrostatic interactions with SA and GG. However, excessive CS (>0.3 %) can cause electrostatic polymer aggregation, resulting in a rough membrane surface. The mixing of SA and GG showed differentiating effects: SA-dominated systems (SA:GG = 2:1) showed enhanced water retention and cooking stability, whereas GG-rich formulations (SA:GG = 1:2) maintained better structural sphericity while improving light barrier properties. Consequently, the synergistic SA-GG-CS system effectively regulates the structure of simulated yolk membranes, enhancing the performance of plant-based spherical yolks, thereby offering a potential solution for developing spherical egg yolk products with a film-like structure.",
+   "summary_ko": "알긴산나트륨·젤란검·키토산 복합 필름으로 식물성 계란 노른자를 구형으로 캡슐화하고, 조성비(SA/GG, 키토산 농도)에 따른 필름 물성과 조리 안정성 변화를 분석하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124226",
+   "pmid": "40973275",
+   "title": "Bilayer-modified mesoporous silica nanoplatform by chitosan and succinylated casein for delayed release and enhanced antibacterial and anti-inflammatory activity of essential oil.",
+   "authors": [
+    "Chen Hongxin",
+    "Su Xiaoyu",
+    "Huang Junfeng",
+    "Zhang Xiaowen",
+    "Wang Fengxia",
+    "Chen Fangwen",
+    "Chen Yingchong",
+    "Yue Pengfei"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "To address the issues of volatilization or oxidation of essential oil extracted from Mosla chinensis Jiangxiangru (MJO), polysaccharides chitosan (CS) and succinylated casein (SCN) bilayer-modified mesoporous silica nanoparticles (SCN-CS-MSN) were employed to encapsulate MJO to prolong the release in intestine. The results showed that a concentration of 0.38 mg·mL-1 of MJO/CS-MSN could effectively inhibit the growth of both E. coli and S. aureus. The grafting of CS onto the surface of MSN significantly enhanced the antibacterial activity. Furthermore, the SCN layer, acting as an \"umbrella\" for CS-MSN, could prevent the premature release of MJO in the gastric juice, as SCN can only be specifically degraded by trypsin in the intestine, thereby facilitating the sustained release of MJO in the intestinal environment. The cumulative release rate of MJO from SCN-CS-MSN was less than 20 % within the first 120 min in simulated gastric fluid. However, when the release medium was switched to simulated intestinal fluid, a significant increase in MJO release was observed within only 30 min, with the cumulative release rate reaching 58.48 ± 2.31 % after 1440 min. Therefore, the SCN-CS-MSN can be a promising nanoplatform to improve the stability of essential oils and enhance the antibacterial activities of MJO.",
+   "summary_ko": "키토산과 숙신화 카제인으로 이중층 코팅된 메조다공성 실리카 나노플랫폼을 제조하여 정유(Mosla chinensis 에센셜오일)의 장내 방출을 지연시키고 항균·항염 효능을 향상시켰다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124303",
+   "pmid": "40973306",
+   "title": "Role of O-acetyl galactoglucomannan in softwood lignification.",
+   "authors": [
+    "Sato Shoichi",
+    "Watanabe Rikuto",
+    "Shigetomi Kengo",
+    "Tamai Yutaka",
+    "Tsutsumi Yuji",
+    "Uraki Yasumitsu"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Glucuronoxylan and (galacto)glucomannan are the major hemicelluloses in hardwoods and softwoods, respectively, and are acetylated in their native states. The important role of partially acetylated xylan in hardwood lignification has previously been elucidated using a quartz crystal microbalance with dissipation. This study aims to investigate the role of O-acetyl galactoglucomannan (Ac-GGM) in the lignification of softwoods. The acetyl groups were found to decrease the adsorption of GGM onto cellulose. In addition, these acetyl groups also reduced the formation of dehydrogenation polymer (DHP). These findings suggest that the acetyl groups in Ac-GGM inhibit both GGM adsorption on cellulose and DHP formation. The amount of DHP formed on the cellulose/Ac-GGM/xylan (XY) matrix was comparable to that on the cellulose/XY matrix, despite the XY content being significantly lower in the former than that in the latter. This observation suggests that XY provides polymerization sites for monolignol coupling, while Ac-GGM facilitates the deposition of XY on the surface of the polysaccharide matrix.",
+   "summary_ko": "침엽수 리그닌화 과정에서 O-아세틸 갈락토글루코만난(Ac-GGM)의 아세틸기가 셀룰로오스 표면 흡착과 탈수소중합체(DHP) 형성을 억제하는 역할을 규명하여, 목질세포벽 리그닌 침적 메커니즘에 대한 이해를 확장하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124304",
+   "pmid": "40973307",
+   "title": "Waste biomass based sodium lignosulfonate/chitosan/polyvinyl alcohol/polyacrylic acid hydrogel for the synergistic adsorption of Levofloxacin and Cu2+ with copper recovery.",
+   "authors": [
+    "Tang Boyu",
+    "Xu Tao",
+    "Li Qingyun",
+    "Tu Jiayu",
+    "Liu Kang",
+    "Xu Haiyin",
+    "Wang Xiaoling",
+    "Zhou Yihui",
+    "Yu Gang",
+    "Yin Shuang-Feng"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Antibiotic and heavy metal contamination in livestock wastewater poses escalating environmental challenges, while conventional adsorption methods are hindered by low efficiency, poor reusability, and potential secondary pollution. In this study, a sustainable sodium lignosulfonate/chitosan/polyvinyl alcohol/poly(acrylic acid) (SLS/CS/PVA/PAA) hydrogel was synthesized by free-radical polymerization using chitosan that had been functionally enhanced with sodium lignosulfonate. The experimental results showed that the hydrogel exhibited high adsorption capacities for levofloxacin (LEV) and Cu2+, reaching 1146.73 mg·g-1 and 70.6 mg·g-1, respectively. The adsorption mechanisms were elucidated through kinetic and isothermal models, fourier transform infrared spectroscopy (FTIR), X-ray photoelectron spectroscopy (XPS). The density functional theory (DFT) calculations reveal that the key binding sites involve -OH and -NH2 groups of CS and -COOH and -SO3H groups. Synergistic interactions between LEV and Cu2+, including ion bridging and complexation, significantly enhanced LEV removal. The molecular dynamics simulation confirm that Cu2+ modulates surface charge via -SO3- binding and enhances LEV adsorption through ionic bridging. Moreover, copper recovery was achieved by combustion with a recovery rate of 77.31 ± 1.3 %. This study offers a green and cost-effective strategy for pollutant removal and metal recovery, highlighting the potential of SLS-functionalized chitosan hydrogels in environmental remediation.",
+   "summary_ko": "폐바이오매스 유래 리그노설포네이트에 키토산·PVA·폴리아크릴산을 결합한 하이드로겔을 라디칼 중합으로 합성하여, 축산폐수 내 항생제(레보플록사신)와 구리 이온을 동시에 흡착 제거하는 성능을 입증하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124295",
+   "pmid": "40973302",
+   "title": "Novel core-shell pullulan-gelatin-zein nanofiber films loaded with nanochitin-nisin complexes for antibacterial food packaging: Custom development and physicochemical properties.",
+   "authors": [
+    "Yuan Yi",
+    "Jiang Haixin",
+    "Liu Wenhao",
+    "Duan Mengxia",
+    "Pang Jie",
+    "Wu Chunhua"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Antimicrobial packaging is important for preventing food spoilage and extending shelf life. Herein, antimicrobial core-shell nanofiber films were fabricated via coaxial electrospinning with pullulan/nanochitin-nisin complexes as the core and gelatin-zein as the shell. Particle size and zeta potential analyses confirmed the successful formation of nanochitin-nisin complexes. Fourier-transform infrared spectrometry (FTIR) revealed binding via electrostatic interactions and hydrogen bonding. The suitable viscosity, conductivity, and surface tension of the spinning solutions ensured good spinnability, yielding uniform nanofibers, as observed using scanning electron microscopy. FTIR and X-ray diffraction analyses indicated that hydrogen bonding stabilized the core-shell structure without altering the crystallinity of biopolymers. The resulting films exhibited enhanced thermal stability, mechanical strength, reduced water vapor permeability (by ~40 %), and improved hydrophobicity. The antibacterial activities against Staphylococcus aureus ATCC 25923 and Escherichia coli ATCC 25922 were comparable to those of uniaxial nanofiber films. After 15 days of refrigerated storage at 4 °C, sea bass fillets wrapped in the films showed reductions in total volatile basic nitrogen, total viable counts, and thiobarbituric acid reactive substances by approximately 50 %, 90 %, and 75 %, respectively, compared to those wrapped in uniaxial nanofiber films. These findings indicate the potential of the core-shell nanofiber films for antimicrobial food packaging applications.",
+   "summary_ko": "동축 전기방사로 풀루란/나노키틴-니신 복합체를 코어, 젤라틴-제인을 쉘로 하는 코어-쉘 항균 나노섬유 필름을 제조하여, 수증기 차단성과 항균력을 통해 냉장 보관된 농어 필렛의 부패 지표(휘발성염기질소, 생균수 등)를 단일축 필름 대비 약 50~90% 낮추었다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124329",
+   "pmid": "40973315",
+   "title": "Degree of acetylation of chitosans determined by size exclusion chromatography coupled to UV and refractive index detection.",
+   "authors": [
+    "Cord-Landwehr Stefan",
+    "Hellmann Margareta J",
+    "Moerschbacher Bruno M"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Chitin is one of the most common biopolymers whose partial deacetylation leads to chitosans consisting of the two β-1-4-linked units N-acetyl-d-glucosamine and glucosamine. These vary in their relative occurrence defined by the degree of acetylation (DA) which has a huge impact on the physico-chemical properties and bioactivities of chitosans. Hence, simple but robust approaches for DA determination are essential. In this study, we aimed to develop a fast and easy method for DA analysis by combining ultra high pressure size exclusion chromatography separation with UV and refractive index detection (UHPSEC-UV-RI). The UV signal is used to quantify the amount of acetyl groups as a measure of DA, and the RI signal serves to assess the total amount of chitosan analyzed. Using commercial and in-house produced chitosan polymers of different molecular weight (60-650 kDa), DA (0-55 %), and production methods (heterogenous deacetylation, homogenous deacetylation, and chemical N-acetylation), we confirmed that UHPSEC-UV-RI gives reproducible DA values on par with those obtained using 1H NMR or enzymatic mass spectrometric fingerprinting. In contrast to the latter two, UHPSEC-UV-RI requires no special sample preparation and only microgram amounts of sample, allowing fast routine analyses of chitosan samples with high accuracy even for limited amounts of material.",
+   "summary_ko": "초고압 크기배제크로마토그래피에 UV·굴절률 검출기를 결합한 신속 분석법(UHPSEC-UV-RI)을 개발하여, 다양한 분자량·탈아세틸화 방식으로 제조된 키토산 시료의 탈아세틸화도(DA)를 재현성 있게 정량하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124291",
+   "pmid": "40973300",
+   "title": "Carboxymethyl cellulose-reinforced sandwich-structured carbon nanotube composite hydrogels for strain sensing and joule heating.",
+   "authors": [
+    "Ren Jie",
+    "Yang Xia",
+    "Xiang Xu"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Conductive hydrogels hold significant promise for wearable electronics, yet achieving a balance between excellent stretchability and high electrical conductivity remains challenging. To address this, we developed a sandwich-structured hydrogel using carboxymethyl cellulose (CMC)-reinforced polyacrylamide (PAM) as the matrix hydrogel, with surface-deposited carbon nanotubes (CNTs). CMC plays a dual role in the composite hydrogels. Its functional groups form hydrogen bonds with PAM, significantly enhancing mechanical properties (106.38 kPa stress, 637.25 % strain). Additionally, pre-crosslinking with hydroxylated CNTs ensures uniform dispersion while strengthening interfacial adhesion to the hydrogel surface. Subsequent dehydration densifies the CNT layer, improving both tensile properties and electrical conductivity. The hydrogel exhibits 806.94 % strain at a 150 % water-solid ratio and a 31.9 S/m electrical conductivity at a 100 % water-solid ratio. The resulting CPam-CNT hydrogel demonstrates exceptional performance as a high-sensitivity strain sensor (GF = 19.662 under 0-60 % strain), with rapid response/recovery times (20/40 ms) and outstanding stability for real-time human motion monitoring. Concurrently, the conductive CNT layer enables efficient Joule heating, achieving rapid temperature elevation (100 °C from room temperature within 2 min) with stable thermal cycling. This work introduces an integrated strategy for multifunctional hydrogels combining sensitive strain sensing and controllable Joule heating, advancing their potential in wearable applications.",
+   "summary_ko": "카르복시메틸셀룰로오스로 보강한 폴리아크릴아마이드 매트릭스 표면에 탄소나노튜브를 적층한 샌드위치 구조 전도성 하이드로겔을 개발하여, 806.94%의 높은 신축률과 31.9 S/m 전도도, 우수한 변형 센서 감도(GF 19.662) 및 줄 발열 성능을 동시에 구현하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124258",
+   "pmid": "40973281",
+   "title": "Synthesis, characterization, and applications of chitosan-isatin Schiff base tethered N-(4-methoxyphenyl)acetamide: Adsorption, docking, antioxidant, and antibacterial properties.",
+   "authors": [
+    "Elgamal Ahmed M",
+    "Salem Mostafa E",
+    "Hamed Amira A",
+    "Abdelhamid Ismail A",
+    "Abdallah Tayseer A",
+    "Ali Hossameldin A",
+    "Raza Nadeem",
+    "Ragheb Mohamed A"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "This work synthesized a new chitosan-isatin Schiff base derivative (CH-IS-M) for tackling water pollution. CH-IS-M was characterized using 1H/13C NMR, FTIR, XRD, TGA, SEM, EDX, BET, and XPS. Batch adsorption studies revealed that at pH 2.5, CH-IS-M removed 98.74 % of EBT-D within 70 min (20 mg/25 mL) and 92.33 % of Cr(VI) within 100 min (25 mg/25 mL). FTIR, XPS, and SEM-EDX-MAP analyses investigated the physisorption of EBT-D removal, but chemisorption for Cr(VI) uptake via electrostatic attraction, reduction, and complexation was also investigated. CH-IS-M exhibited maximum adsorption capacities of 819.7 mg g-1 for EBT-D and 188.7 mg g-1 for Cr(VI), as determined by isotherm studies that best fit Langmuir model. The adsorbent demonstrated high reusability over five adsorption-desorption cycles, with EBT-D removal efficiency above 92.56 % and Cr(VI) removal at 77.27 % after five cycles. Additionally, CH-IS-M demonstrated potent antibacterial activity with inhibition zones of 18.5 ± 3.8 mm (B. subtilis) and 17.3 ± 2.5 mm (E. coli), low cytotoxicity against normal human cells, and strong antioxidant potential (74.69 % free radical scavenging), culminating in promising therapeutic potential. Furthermore, docking investigations against bacterial targets and MurE enzyme inhibition assay demonstrated its antibacterial potential, boosting its promising applications in water treatment and drug design.",
+   "summary_ko": "키토산-이사틴 쉬프염기에 N-(4-메톡시페닐)아세트아마이드를 결합한 신규 유도체(CH-IS-M)를 합성하여 수질오염물 흡착능과 분자도킹, 항산화·항균 활성을 종합적으로 평가하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124338",
+   "pmid": "40973316",
+   "title": "Multifunctional conductive and antifreeze cellulose acetate-based zwitterionic hydrogel electrolytes for flexible foldable solid-state capacitors under extreme conditions.",
+   "authors": [
+    "Pang Yanjun",
+    "Zhu Baolong",
+    "Xie Gentan",
+    "Shen Wei",
+    "Wang Lixin",
+    "Luan Xinxin",
+    "Xie Dong",
+    "Pang Jinhui"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "This study proposes a multifunctional hydrogel electrolyte (EGZn-WSCA/PSA) with wide operating temperature, excellent stretching ability, self-healing and adhesive properties. This hydrogel electrolyte is formed by using H2O and ethylene glycol (EG) as solvents, water-soluble cellulose acetate (WSCA) as a reinforcing agent and PSA (PAA (polyacrylic acid) and PSBMA ([2-(methacryloyloxy) ethyl] dimethyl-(3-sulfopropyl))) as the network structure, which provides excellent electrical conductivity and anti-freezing ability while maintaining good mechanical properties. The introduction of an organic solvent (ethylene glycol (EG)) largely enhances the antifreeze properties of the hydrogel electrolyte, and zinc chloride (ZnCl2) can also improve the electrical conductivity of the hydrogel electrolyte. The incorporation of WSCA enhanced the mechanical properties of the hydrogel with increased tensile and compressive strength. Zwitterions can provide migration channels for ZnCl2, favoring ion transport. The EGZn-WSCA/PSA hydrogel electrolyte-assembled supercapacitor has excellent electrochemical performance. It can operate stably for a long time, with a capacitance of 154.17 F/g at room temperature and 53.63 F/g even at -40 °C, which opens up a new way of thinking about the application of energy storage devices under extreme conditions.",
+   "summary_ko": "셀룰로오스아세테이트 기반 쯔비터이온성 하이드로겔 전해질(EGZn-WSCA/PSA)을 개발하여, 광범위 저온에서도 신축성·자가치유·접착성을 유지하며 유연 접이식 고체상태 커패시터에 적용 가능함을 입증하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124285",
+   "pmid": "40973296",
+   "title": "Gellan gum and carboxymethyl chitosan-based acid-responsive hydrogels modulate the ROS-macrophage axis to expedite burn wound healing.",
+   "authors": [
+    "Xiao Qiuqun",
+    "Peng Ruyi",
+    "Fang Tao",
+    "Zhou Manzhen",
+    "Liu Kailan",
+    "Qiu Weihao",
+    "Cen Yanshi",
+    "Dai Luyang",
+    "Zhou Dongfang",
+    "Wu Jun",
+    "Hu Yunrui"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Severe burn infections and impaired healing remain significant clinical challenges, with high mortality rates linked to immune microenvironment imbalances. While macrophages and reactive oxygen species (ROS) play crucial roles in inflammatory regulation, unilateral ROS modulation proves insufficient for optimal wound repair. This study develops an acid-responsive carboxymethyl chitosan-oxidized gellan gum-gentamicin sulfate (COGS) hydrogel that dynamically regulates the ROS-macrophage axis for enhanced burn treatment. Synthesized through oxidized gellan gum preparation and subsequent cross-linked with carboxymethyl chitosan/gentamicin sulfate via dynamic imine bonds and Ca2+-mediated ionic bridges, COGS demonstrates exceptional mechanical strength, self-healing capacity, and acid-responsive antibiotic release. In vitro evaluations reveal superior hemostatic performance and controlled drug release kinetics. In vivo studies demonstrate dual-phase therapeutic action: rapid gentamicin release eliminates pathogens during early infection while elevating ROS to activate M1 macrophages, followed by ROS reduction to promote M2 polarization during tissue regeneration. This dynamic immunomodulation balances inflammatory responses, accelerates tissue repair, and reduces gentamicin-related organ toxicity. By establishing temporal control over ROS levels and macrophage phenotypes, COGS hydrogel contributes to microenvironment remodeling for infectious burn healing. The COGS hydrogel synergistically addresses infection eradication and microenvironment remodeling through dynamic ROS-macrophage crosstalk regulation. This biomaterial-driven strategy advances precision immunotherapy paradigms for severe burn rehabilitation.",
+   "summary_ko": "산 반응성 카르복시메틸키토산-산화젤란검-젠타마이신 하이드로겔(COGS)을 이민 결합과 칼슘 가교로 합성하여, 화상 상처의 ROS-대식세포 축을 동적으로 조절함으로써 염증 완화와 치유 촉진 효과를 나타냈다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124287",
+   "pmid": "40973298",
+   "title": "Structural characterization of a pectin polysaccharide from Phyllanthus emblica fruits and their antitumor effect via macrophage polarization in the cold immune microenvironment.",
+   "authors": [
+    "Zong Wei",
+    "Liu Zijing",
+    "Lan Haiyan",
+    "Yang Jianwei",
+    "Xia Yuxuan",
+    "Xu Zhongsheng",
+    "Mai Li",
+    "Wang Jie",
+    "Bao Yixi"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "The polarization of tumor-associated macrophages (TAMs) from M2 to M1 phenotype is an effective strategy for tumor immunotherapy. In this study, a pectic polysaccharide (PEP-1) was isolated from Phyllanthus emblica fruits via hot water extraction, ethanol precipitation, and purified by anion exchange and gel permeation chromatography. PEP-1 was identified as a homogalacturonan (molecular weight, 156.8 kDa) via characterization analysis. The structural attributes of PEP-1 were elucidated through GC-MS and NMR analyses, confirming that its repeating sugar units consist of GalA connected by α-1,4-glycosidic linkage. Functional assays demonstrated that PEP-1, at concentrations of 50, 100, and 200 μg/mL could strongly induce the transformation of M2 macrophages into M1 phenotype in vitro, and the conditioned medium (CM) of M2 pretreated with PEP-1 significantly promoted apoptosis of Hepa1-6 cells. At the cellular level, PEP-1 shifted tumor-promoting M2 macrophages to a tumor-inhibiting M1 phenotype by increasing the phosphorylation of NF-κB and MAPK. Additionally, PEP-1 (200 mg/kg) was capable of reaching the tumor microenvironment (TME), directly binding to TAMs, promoting their polarization towards M1 phenotype, and significantly inhibiting the tumor growth in Hepa1-6 tumor-bearing mice. These findings reveal the structural characteristics of PEP-1 and its potential to treat hepatocellular carcinoma immunotherapy via regulating TAMs.",
+   "summary_ko": "인도구스베리(Phyllanthus emblica) 열매에서 균질한 호모갈락투로난계 펙틴다당류(PEP-1)를 분리·구조 규명하고, 종양미세환경 내 대식세포를 M2에서 M1 표현형으로 전환시켜 간암세포 사멸을 유도하는 항종양 면역조절 기전을 규명하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124268",
+   "pmid": "40973284",
+   "title": "Stretching a single sugar chain.",
+   "authors": [
+    "Chen Yun-Long",
+    "Zheng Chen-Chen",
+    "Tian Fu-Jia",
+    "Yin Tai-Lang",
+    "Zhang Xing-Hua"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Single molecule-stretching experiments have been extensively performed to evaluate the mechanical properties of biomacromolecules including nucleic acids and proteins but very few on polysaccharides. Polygalacturonic acid (PGA), a major pectin component in plant cell walls, plays key roles in plant physiology. In this study, an assay was developed to stretch PGA molecules by single-molecule experiments. The aldehyde of the reduced end of PGA was attached to an aminosilane-coated glass while the other end was biotin-functionalized and attached to a streptavidin-coated microbead. The elasticity of PGA was investigated under wide solution conditions. The persistence length (P) of PGA decreased from 5.8 to 2.8 nm as the concentration of monovalent cations was increased to 4 M. Notably, increasing the concentration of divalent cations first decreased P from 5.8 to 0.97 nm then increased P to 2.1 nm, with a reversal around 200 mM, matching zeta-potential evidence of charge neutralization then charge reversal. Simulations results revealed that Ca2+ formed bidentate coordination and induced significant cross-linking of PGA, whereas Mg2+, due to its strong hydration shell, bound in a monodentate manner and induced softening but not cross-linking of PGA.",
+   "summary_ko": "단일분자 신장 실험을 통해 펙틴 구성 성분인 폴리갈락투론산(PGA) 한 가닥의 탄성(지속길이)을 다양한 이온 조건에서 측정하여, 2가 양이온 농도 증가에 따른 전하 중화-재역전 현상이 사슬 강직성에 미치는 영향을 규명하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124298",
+   "pmid": "40973259",
+   "title": "Effects of gum incorporation on the properties of sodium alginate-based composite hydrogel beads for encapsulating lactic acid bacteria.",
+   "authors": [
+    "Jing Ying-Ying",
+    "Li Yun-Cheng",
+    "Luo Yong-Qi",
+    "Zou Long-Hua",
+    "Tang Yuan-Mou",
+    "Lin Yu-Xi",
+    "Meng Fan-Bing"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "To investigate the effects of gum incorporation on the performance of sodium alginate (SA)-based composite hydrogel beads (CHBs) in protecting Limosilactobacillus fermentum, gum arabic, κ-carrageenan, low methoxyl pectin, konjac glucomannan (KGM), low acyl gellan gum, and xanthan gum were compounded with SA to prepare CHBs of A-A, C-A, P-A, K-A, G-A and X-A, respectively. The encapsulation efficiency of CHBs for L. fermentum ranged from 80 % to 100 %, with P-A and X-A showing the greatest encapsulation efficiencies of 94.6 % and 99.3 %, respectively. P-A had the highest L. fermentum survival rate of 8.1 log CFU/g, and the leakage rates of A-A, C-A, P-A, and K-A compared to SA hydrogel beads were 85.74 %, 70.06 %, 87.49 %, and 87.66 %, respectively. Gum incorporation improved the water retention capacity and reducing hardness. Rheological analysis revealed that the addition of gum arabica, κ-carrageenan, and gellan gum increased the critical strain of hydrogel, xanthan gum and KGM reduced the γC, whereas low methoxyl pectin had no effect on γC. The introduction of L. fermentum changed the hydrogel properties and increased elasticity, suggesting probiotics might positively influence the hydrogel network. The comprehensive analysis revealed that the CHBs incorporated low methoxyl pectin with SA provided the best protection for L. fermentum.",
+   "summary_ko": "알긴산나트륨에 구아검·카라기난·저메톡실펙틴·곤약글루코만난·젤란검·잔탄검을 각각 혼합한 복합 하이드로겔 비드를 제조하여, 유산균(Limosilactobacillus fermentum)의 캡슐화 효율(80~100%)과 생존율, 방출 특성에 미치는 검 종류별 영향을 비교 평가하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124315",
+   "pmid": "40973311",
+   "title": "Structural characterization of polysaccharides from lactobacillus helveticus MB2-1 fermented milk and their interaction mechanisms with casein in modulating gel stability.",
+   "authors": [
+    "Ge Zhiwen",
+    "Wang Dan",
+    "Azi Fidelis",
+    "Qin Peiyou",
+    "Zhao Wenting",
+    "Wang Pan",
+    "Zhao Xiaoyan",
+    "Liu Ye"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "The poor stability of single casein (CAS) gel limits its widespread industrial application, the addition of polysaccharides usually can be helpful to improve its property. In this study, the effect and mechanism of three purified polysaccharides obtained from Lactobacillus helveticus MB2-1 fermented milk (LHP1, LHP2, LHP3) on the gel properties of CAS were investigated. The results showed that LHP1, LHP2, and LHP3 exhibited distinct structural and charge characteristics, corresponding to neutral, weakly negative, and strongly negative, respectively. The addition of LHP1, LHP2 and LHP3 (0.5-2.0 %, w/v) all improved the particle size, water-holding capacity, rheological properties, and microstructure of CAS gels in a concentration-dependent manner. Through multispectral analysis, surface hydrophobicity, free sulfhydryl content, and protein solubility analysis, it was concluded that the molecular weight and charge characteristics of polysaccharides played a critical role in the formation of the CAS/LHP1, CAS/LHP2, CAS/LHP3 gel composites. Molecular simulations revealed high stability in CAS/LHP1, CAS/LHP2, and CAS/LHP3 composites. CAS-LHP1 interacted mainly via hydrogen bonding, CAS-LHP2 through weak electrostatic interactions, and hydrogen bonding at high concentrations, while CAS-LHP3 involved strong electrostatic interactions and hydrogen bonding. These findings provided a theoretical basis for regulating the stability of CAS gel systems by L. helveticus MB2-1 polysaccharides addition.",
+   "summary_ko": "락토바실러스 헬베티쿠스 MB2-1 발효유에서 얻은 전하 특성이 다른 3종 다당류(LHP1~3)가 카제인 젤의 입자크기·보수력·유변물성에 미치는 영향과 상호작용 메커니즘을 다분광 분석 및 분자시뮬레이션으로 규명하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124273",
+   "pmid": "40973287",
+   "title": "Controlled construction of ellipsoidal microcapsules via tannic acid/cellulose nanocrystal interfacial engineering.",
+   "authors": [
+    "Kou Xingran",
+    "Yang Yuxin",
+    "Lu Qinyu",
+    "Ke Qinfei",
+    "Zhang Yunchong"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Non-spherical microcapsules have recently attracted significant research attention due to their remarkable advantages, including a high specific surface area, improved adhesion efficiency, enhanced targeted delivery capability, and distinctive hydrodynamic behavior. However, effective strategies for precisely controlling microcapsule morphology remain limited. Herein, we developed an interfacial assembly strategy to fabricate ellipsoidal microcapsules by orchestrating the co-assembly of cellulose nanocrystal (CNC) and NH₂-PDMS-NH₂ at the oil-water interface using tannic acid (TA). The spherical morphology of emulsion droplets, quantified by roundness values ranging from 0 to 1.5, could be precisely controlled by modulating both the shear rate and processing time during emulsion formation. TA was found to participate and accelerate interfacial assembly, enhance the storage modulus and viscosity of emulsions, and enhance the thickness of interfacial films by interfacial tension, rheology, and atomic force microscopy. Molecular dynamics simulations further confirmed that NH₂-PDMS-NH₂ assembles at the interface with CNC and TA via electrostatic interactions. Additionally, quartz crystal microbalance with dissipation (QCM-D) measurements revealed superior adhesion properties of ellipsoidal microcapsules compared to their spherical counterparts. This work establishes a novel strategy for fabricating morphology-controlled microcapsules, offering a promising pathway for industrial-scale production and broad applications of non-spherical microcapsules.",
+   "summary_ko": "타닌산을 매개로 셀룰로오스나노결정과 아민-실록산을 유·수 계면에서 자기조립시켜 타원형(비구형) 마이크로캡슐을 정밀 제작하는 전략을 제시하고, QCM-D 측정으로 구형 대비 우수한 접착 특성을 입증하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124340",
+   "pmid": "40973271",
+   "title": "Hydrophobic surface modified calcium alginate fibers for preparing flame retardant and comfortable Janus fabrics.",
+   "authors": [
+    "Ma Yue",
+    "Wu Zihan",
+    "Qu Meijie",
+    "Chen Ru",
+    "Guo Jing",
+    "Bin Yuezhen"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "With the increasing violent fluctuations in temperature and humidity, alongside rising fire risks triggered by global climate change, the development of multifunctional textile materials that integrate both humidity regulation and flame-retardant protection has become crucial for ensuring human health and safety. In this paper, the hydrophobic modification of calcium alginate (CA) fibers was successfully carried out by wet spinning technology combined with an impregnation modification process. After surface modification with fluorocarbon (FC) resin, the WCA of CA-FC fibers was increased from 32 ± 0.5° to 120.5 ± 1°, achieving a successful transition of natural polysaccharide fibers from hydrophilicity to hydrophobicity. Furthermore, the inherent flame-retardant properties of FC resin synergistically enhanced the flame-retardant performance of CA fibers. Leveraging the wettability gradient, a multifunctional protective fabric with both unidirectional water conductivity and flame retardancy was developed by compounding hydrophobically modified CA-FC fibers with unmodified CA fibers. The wettability gradient between the hydrophilic CA side and hydrophobic FC side provided a robust driving force for moisture transport, enabling the Janus-CA-FC (JCF) fabrics to achieve rapid unidirectional water transport while maintaining excellent flame-retardant performance. This study lays the foundation for the development of multifunctional protective fabrics with flame retardancy and humidity management based on natural polysaccharide materials.",
+   "summary_ko": "습식방사로 제조한 칼슘알지네이트 섬유 표면을 플루오로카본 수지로 소수성 개질하여(접촉각 32도→120도), 친수성-소수성 야누스 구조의 일방향 수분전달 및 방염 기능성 직물을 개발하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124313",
+   "pmid": "40973265",
+   "title": "Sustainable fabrication and evaluation of jackfruit peel-based pectin nanofibers for biomedical applications.",
+   "authors": [
+    "Kumar Kurappalli Rohil",
+    "Singh Piyush",
+    "Uppuluri Kiran Babu"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "This study presents a sustainable approach for extracting pectin from Jackfruit peel and its application in fabricating electrospun nanofibers for biomedical use. Pectin was extracted using 0.05 N oxalic acid, yielding 15.80 ± 0.02 % with a molecular weight of 209.27 kDa. Structural characterization by FTIR, NMR, and XRD confirmed oxygen-rich functional groups and partial crystallinity. To improve electrospinning performance, extracted pectin (JFPP) was blended with polyvinyl alcohol (PVA), yielding uniform nanofibers with an optimal PVA: JFPP ratio of 7:3. The resulting fibers had an average diameter of 187.32 ± 53.77 nm and a tensile strength of 2.21 MPa. Water contact angle measurements showed strong hydrophilicity (as low as 25.8°), favorable for cell attachment. Antibacterial studies revealed inhibition zones exceeding 16 mm against both E. coli and S. aureus. Cytocompatibility assessed using MTS assay and AO/EtBr staining confirmed excellent cell viability and proliferation of human dermal fibroblasts over 7 days. SEM analysis confirmed that the nanofibers promote cell adhesion, spreading, and alignment, which are essential for effective skin regeneration and wound healing. These results demonstrate that Jackfruit peel-derived pectin nanofibers are biocompatible, antimicrobial, and eco-friendly, highlighting their potential for wound healing and other biomedical applications while promoting the valorization of agro-industrial waste.",
+   "summary_ko": "잭프루트 껍질에서 옥살산으로 펙틴을 추출(수율 15.8%)하고 PVA와 7:3 비율로 블렌딩해 전기방사 나노섬유를 제조, 대장균·황색포도상구균에 대한 우수한 항균성과 섬유아세포 부착·증식성을 확인하여 창상피복재 등 생체의료 소재 가능성을 제시하였다."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124326",
+   "pmid": "40973313",
+   "title": "Re-investigation of the relevant factors affecting quantitative precipitation of wine polysaccharides: A GC-MS and HRSEC-RI characterization study using central composite design and response surface methodology.",
+   "authors": [
+    "Savastano Riccardo",
+    "de Gaulejac Nathalie Vivas",
+    "Picard Magali",
+    "Francesca Nicola",
+    "Fouquet Eric",
+    "Vivas Nicolas"
+   ],
+   "cover_date": "2025-12-01",
+   "abstract_en": "Wine polysaccharides are abundant and complex macromolecules that influence wine's colloidal stability and quality. Although several precipitation methods have been proposed for their quantification, optimal conditions for quantitative recovery have not yet been systematically evaluated using central composite design and response surface methodology. In this study, six constitutional monosaccharides were quantified by gas chromatography-mass spectrometry to assess the effects of sample concentration, precipitation time, precipitation agent composition and their interactions on wine polysaccharide recovery, while high-resolution size-exclusion chromatography with refractive index detection complemented this assessment by providing polymer distribution data. All quadratic models were highly significant (p < 0.0001) and showed good predictive performance. Precipitation time had no significant effect, whereas moderate sample concentration coupled with mildly acidified ethanol enhanced the recovery and analysis of rhamnogalacturonans and polysaccharides rich in arabinose and galactose. Mannoproteins precipitated efficiently even in highly acidified non-concentrated samples, whereas galacturonic acid exhibited an opposite trend, indicating that homogalacturonans may require specific and less common conditions for full recovery. This work allowed a partial optimisation, highlighting the potential need for multi-step protocols to recover the full spectrum of wine polysaccharides.",
+   "summary_ko": "중심합성설계 기반 반응표면분석법으로 와인 다당류의 정량적 침전 조건(시료농도, 침전시간, 침전제 조성)을 재평가하고, GC-MS 및 HRSEC-RI 분석을 통해 다당류 종류별로 최적 회수 조건이 상이함을 확인하였다."
+  }
+ ]
+}
