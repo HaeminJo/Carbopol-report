@@ -1,0 +1,395 @@
+{
+  "run_datetime_utc": "2026-08-29 22:03",
+  "method": "Elsevier Scopus Search API (ISSN 0144-8617) for metadata paging; PubMed E-utilities (ESearch/EFetch) for review-type cross-check and abstracts.",
+  "target_count": 20,
+  "collected_count": 25,
+  "eligibility_criteria": [
+    "exclude review/systematic review/mini-review",
+    "exclude papers whose core topic is microbial biology/strain development/culture optimization",
+    "published within last 2 years"
+  ],
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125763",
+      "title": "Interfacial engineering of starch-based ternary gels under nutritional constraints: Linking structure, rheology, and 3D printability",
+      "coverDate": "2026-10-15",
+      "creator": "Luo W.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125777",
+      "title": "An alginate-based biomimetic nanozyme metabolic immunomodulator for sensitizing photothermal-immunotherapy in postoperative breast cancer",
+      "coverDate": "2026-10-15",
+      "creator": "Sun S.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125774",
+      "title": "A phycocyanin–resveratrol-containing extrusion system modulates starch reassociation toward V-type ordering with reduced retrogradation and digestibility",
+      "coverDate": "2026-10-15",
+      "creator": "Zheng B.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125779",
+      "title": "Homogeneous covalent internal plasticization of high-amylose starch via post-gelatinization hydroxypropylation: Critical substitution threshold for ductility and anti-retrogradation",
+      "coverDate": "2026-10-15",
+      "creator": "Fu J.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125788",
+      "title": "Alkanolamine-enhanced hydrothermal stability of xanthan gum in calcium chloride brine: Rheological behavior and molecular mechanisms",
+      "coverDate": "2026-10-15",
+      "creator": "Wu Y.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125757",
+      "title": "Structure–property relationships of all-cellulose composites engineered via tunable partial dissolution and impregnation",
+      "coverDate": "2026-10-15",
+      "creator": "Wang R.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125768",
+      "title": "Bacillus subtilis exopolysaccharide enhances Lactobacillus johnsonii-kynurenic acid to restore intestinal T helper 17/regulatory T cell balance via aryl hydrocarbon receptor",
+      "coverDate": "2026-10-15",
+      "creator": "Zhang G.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125758",
+      "title": "Effects of a ternary deep eutectic solvent on the enrichment, structure, and functional properties of okara cellulose: Insights into the underlying molecular mechanisms",
+      "coverDate": "2026-10-15",
+      "creator": "Zhang B.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125781",
+      "title": "Flexible coral-like pores porous multiphase scattering cellulose membrane for daytime radiative cooling and UV resistance",
+      "coverDate": "2026-10-15",
+      "creator": "Zhou X.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125775",
+      "title": "A starch-bridging strategy for achieving multi-performance synergy of solid-state ionic elastomers toward multimodal sensing",
+      "coverDate": "2026-10-15",
+      "creator": "Liu H.",
+      "abstract": null,
+      "pub_types": null,
+      "authors": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.124892",
+      "title": "Anti-dyspeptic effects and comparative structural analysis of polysaccharides from hulled and hulless barley-based Hordei Fructus Germinatus",
+      "coverDate": "2026-04-01",
+      "creator": "Wu Z.",
+      "abstract": "Pan-roasted Hordei Fructus Germinatus (RHFG), traditionally prepared from germinated and dried barley grains, is widely used for its digestion-promoting properties. This study aimed to isolate and characterize polysaccharides from RHFG derived from hulless (LBP) and hulled barley (DBP) and to evaluate their protective effects against functional dyspepsia. Two major neutral polysaccharide fractions, named pLBP and pDBP, were purified and structurally elucidated. Both were primarily composed of arabinose, glucose, and xylose units, but differed in the backbone linkages and branching architectures. Specifically, pLBP was a neutral heteropolysaccharide with a backbone consisting of →3)-β-d-Glcp-(1→, →4)-β-d-Glcp-(1→, →4)-β-d-Xylp-(1→, and →2,3,5)-α-l-Araf-(1 → residues, featuring branching points at O-2 and O-3 of Araf units and O-3 of Xylp residues. pDBP possessed a backbone of →3)-β-d-Glcp-(1 → and →4)-β-d-Glcp-(1 → residues with branching at O-3/O-4 positions. The side chains were primarily composed of →4)-β-d-Xylp-(1→, →3,4)-β-d-Xylp-(1→, and α-d-Glcp-(1 → residues. LBP and DBP significantly increased small intestinal propulsion and gastric emptying rates in functional dyspepsia mice and enhanced serum levels of excitatory neuropeptides. LBP showed a stronger digestive-promoting profile, with increased gastric acid and pepsin secretion at 84 and 168 mg/kg/d in rats. The higher branching density and distinct Araf-associated branching pattern of pLBP, compared with pDBP, potentially contributing to its enhanced gastric secretory response. Collectively, these findings indicate that polysaccharides from RHFG alleviate functional dyspepsia by promoting gastrointestinal motility and digestive secretion, providing mechanistic insight into the traditional use of RHFG as a digestion-enhancing agent.",
+      "pub_types": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "authors": [
+        "Wu Z",
+        "Liang S",
+        "Zhang X",
+        "Ma M",
+        "Sui Z",
+        "Corke H"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124871",
+      "title": "Development of a chitosan-based acid-responsive mucoadhesive mRNA vaccine for eliciting mucosal and systemic immunity",
+      "coverDate": "2026-04-01",
+      "creator": "Zhou Y.",
+      "abstract": "Mucosal mRNA vaccines are promising for establishing immune barriers at pathogen entry points to prevent its infection and transmission. Nevertheless, these vaccines encounter challenges including rapid clearance, low reactivity to antigens, and suboptimal mRNA transfection efficiency. Addressing these limitations, we engineered an acid-responsive mRNA vaccine (PQOm) based on the Schiff-base polymers composed of quaternized chitosan (QCS), low molecular weight polyethyleneimine, and aldehyde functionalized polyethylene glycol, to stimulate potent mucosal and systemic immune responses. During the construction of PQOm, we not only revealed the significant impact of steric hindrance on mRNA transfection efficiency, but also demonstrated its ability to realize acid-responsive mRNA release and efficient mRNA transfection. Owing to the synergistic effect of its components, PQOm provided continuous stimulation to the nasal-associated lymphoid tissue (NALT) by adhering to the nasal mucosa for extended periods of up to 6 days. The continuous NALT stimulation, efficient transfection, and adjuvant effect of QCS collectively allowed PQOm to address the low reactivity of NALT to antigen, triggering robust mucosal and systemic immune responses without significant toxicity. In conclusion, PQOm represents a promising mucosal mRNA vaccine with high clinical potential for preventing viral infections.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Zhou Y",
+        "Jiang Y",
+        "Wu Y",
+        "Hong S",
+        "Ding F",
+        "Cai H"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.124898",
+      "title": "Complementary NMR analyses of cellulose-based assembly reveal how multi-scale structure governs saccharification efficiency in steam-exploded wood",
+      "coverDate": "2026-04-01",
+      "creator": "Audibert E.",
+      "abstract": "Lignocellulosic biomass is a promising alternative to fossil resources to produce biobased products. However, this biomass is highly recalcitrant to enzymatic processes and requires a pretreatment step to overcome it. To understand the role of lignocellulose polymers organization on recalcitrance, characterization at different scales is critical, preferentially by employing non-degradative techniques which maintain sample physical integrity. This requires to combine several techniques thus limiting their application. In this study, structural and morphological modifications caused by steam explosion pretreatment on oak, poplar and spruce wood were enlightened using a combination of advanced 13C solid-state NMR and time-domain NMR techniques. Over increasing pretreatment severity, hemicelluloses content was decreased and amorphous cellulose was partially depolymerized, leading to higher cellulose crystallinity: a swelling of the overall polymer matrix was thus observed. A relatively constant water mobility associated to a reduction in pore size were observed, revealing that only a specific pore range of 5-15 nm generated at middle severity pretreatment is favorable to enzyme diffusion and hydrolysis reaction. Interestingly, β-O-4 bonds content and enzymatic hydrolysis yields were highly correlated, confirming the peculiar role of lignin in recalcitrance. Overall, this work demonstrates that structural information based on NMR approaches can reveal biomass species-dependent features explaining the variable saccharification efficiency over steam explosion pretreatment severity.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Audibert E",
+        "Falourd X",
+        "Quintero A",
+        "Martel F",
+        "Paës G",
+        "Rémond C"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124815",
+      "title": "Enhanced stability and bioavailability of astaxanthin via piperine co-encapsulation in whey protein fibril- sodium alginate complexes",
+      "coverDate": "2026-03-15",
+      "creator": "Cheng J.",
+      "abstract": "This study developed a dual-delivery system for astaxanthin (AST) and piperine (Pip) by complexing sodium alginate (SA) with whey protein fibrils (WPF) to enhance AST stability and bioavailability. Hydrophobic Pip was first loaded onto WPF followed by electrostatic complexation with SA at pH 5.0 to form soluble composites for AST encapsulation. Using a solvent extraction method, the results demonstrated that the optimized WPF/SA (1: 2) system achieved an exceptional AST encapsulation efficiency of 99.39 % and outstanding storage stability, with only a 7.5 % increase in particle size after 28 days. SA addition markedly increased emulsion viscosity (W(P)/SA(1:2)-E: 4.913 Pa∙s), forming a dense network. The system effectively resisted bile salt displacement (5 mg/mL) and minimal change in zeta-potential (Δζ = 0.60 mV), representing an 83.56 % reduction versus unmodified emulsions. During in vitro digestion, it achieved a free fatty acid release rate of 91.85 % ± 2.67 % and an AST bioaccessibility of 72.17 % ± 1.03 %, which was 11.5-fold that of free AST in oil. With Pip's bioenhancing effect, the Caco-2 cellular absorption of AST reached 37.47 % ± 1.54 %, a 2.78-fold increase over the non-Pip loaded group. This study provided a strategy to improve the stability and bioavailability of lipophilic bioactives.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Cheng J",
+        "Zheng J",
+        "Liu X",
+        "Yang H",
+        "Wang X",
+        "Lin Y",
+        "Zhu M",
+        "Tang D"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124807",
+      "title": "One-pot synthesis of strongly adhesive 3D printable gelatin/carrageenan conductive hydrogels for flexible sensors and supercapacitors",
+      "coverDate": "2026-03-15",
+      "creator": "Hu Y.",
+      "abstract": "Polymer hydrogels have been widely studied for their conductivity, adhesiveness, and 3D printing properties, but preparing hydrogels with both adhesion and printing capabilities remains a challenge. This study reports the one-pot synthesis of a Gelatin/Agar/κ-carrageenan (Gel/Agar/κ-CA) ternary network hydrogel with simultaneous printability, adhesiveness. By leveraging metal-ligand bonds, it overcomes the compatibility challenge of multi-functional components, offering a new paradigm for 3D-printed flexible devices. Enabled by metal-ligand interactions, the hydrogel adheres to diverse substrates, withstands 20 kg ferrous materials at 1.4-25 °C, and supports both planar and 3D printing. A hydrogel-based supercapacitor exhibits stable cycling performance after 38,000 charge/discharge cycles. This work not only develops a strongly adhesive hydrogel but also provides new pathways for 3D-printed flexible sensors and energy storage devices. As a thermoreversible gel, agar maintains fluidity at 60 °C during printing and rapidly gels upon cooling, ensuring high-fidelity fabrication. Amino groups in gelatin form hydrogen bonds with hydroxyl and sulfate groups of κ-carrageenan, enabling multi-substrate adhesion. Sulfate groups in κ-carrageenan immobilize cations to form conductive pathways, while protonated amino groups in gelatin form ion pairs with chloride ions to enhance ion mobility, collectively supporting sensing and energy storage applications.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Hu Y",
+        "Bao W",
+        "Zhang H",
+        "Liu C",
+        "Wang F",
+        "Maimaitiyiming X"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124827",
+      "title": "Mechanically robust and flame-resistant cellulose nanofiber aerogels for efficient smoke pollutant adsorption",
+      "coverDate": "2026-03-15",
+      "creator": "Li Y.",
+      "abstract": "Smoke generated from incomplete combustion in the chemical industry contains a complex mixture of hazardous compounds that pose serious threats to both the environment and human health. In this study, a cellulose-based aerogel was developed for efficient smoke adsorption by integrating surface-functionalized multi-walled carbon nanotubes (MWCNT-P) with TEMPO-oxidized cellulose nanofibers (CNF) via ultrasonic dispersion and freeze-drying. The resulting composite aerogel exhibits exceptional adsorption performance, achieving removal efficiencies of 91.67 % for tar and 84.76 % for nicotine, significantly outperforming conventional adsorbents. The material also demonstrates excellent mechanical robustness, sustaining a compressive strength of 150 kPa at 80 % strain, together with a limiting oxygen index (LOI) of 24.52 % indicating self-extinguishing capability. Furthermore, the aerogel retains 83 % of its initial adsorption capacity after 15 smoke adsorption-desorption cycles, demonstrating outstanding reusability. These multifunctional properties, combined with the renewable and lightweight nature of the material, position the aerogel as a promising candidate for sustainable smoke filtration and industrial air purification applications.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Li Y",
+        "Xia W",
+        "Zhuang C",
+        "Hu H",
+        "Kang M",
+        "Wang H",
+        "Zhu L",
+        "Wang H",
+        "Sun Q"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124831",
+      "title": "A galactoglucan from calcium chloride-stimulated Lactiplantibacillus plantarum ZGS521: Structural characterization, antioxidant and anti-inflammatory properties",
+      "coverDate": "2026-03-15",
+      "creator": "Xia W.",
+      "abstract": "A homogeneous galactoglucan (C-LPE3), an exopolysaccharide produced by CaCl2-stimulated Lactiplantibacillus plantarum ZGS521, was purified. The structural features, antioxidant and anti-inflammatory capacities of C-LPE3 were evaluated. The molecular weight of C-LPE3 was determined as 20.48 kDa. The main chain of C-LPE3 was composed of →6)-α-d-Glcp-(1 → 6)-α-d-Galp-(1 → residues, with side chains including α-d-Glcp-(1 → at the O-3 position of →3,6)-α-d-Glcp-(1 → and α-d-Galp-(1 → 4)-α-d-Galp-(1 → at the O-4 position of →4,6)-α-d-Galp-(1→. SEM analysis indicated that C-LPE3 exhibited an amorphous structure and flaky morphology. C-LPE3 demonstrated potent free radical scavenging property. In H2O2-treated RAW264.7 macrophages, it exerted protective effects by decreasing MDA and ROS contents while enhancing SOD and CAT activities. In LPS-treated macrophages, C-LPE3 suppressed phagocytosis and NO production, modulated cytokine secretion, and activated the AMPK pathway while inhibiting mTOR and NF-κB pathways. The inhibitory effects on mTOR and NF-κB signaling were likely mediated by AMPK activation. These findings deepen understanding of the structure-bioactivity relationship of EPS from L. plantarum and suggest the potential of C-LPE3 as a natural antioxidant and anti-inflammatory agent, deserving further investigation on its application in foods and pharmaceuticals.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Xia W",
+        "Chen B",
+        "Li X",
+        "Wang K",
+        "Shen C",
+        "Zhou T"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124840",
+      "title": "3D-printable docosahexaenoic acid-rich algal oil emulsion gels functionalized by multi-shaped starch nanorods",
+      "coverDate": "2026-03-15",
+      "creator": "Zhong Y.",
+      "abstract": "The poor stability and low bioavailability of docosahexaenoic acid (DHA) from algal oil restrict its application in functional foods, particularly in three-dimensional (3D) printing systems where both printing performance and lipid protection are required. Here, starch nanorods (SNRs) with prismatic, ellipsoidal, and spindle-shaped morphologies were prepared and employed to stabilize DHA-rich algal oil emulsion gels. The influences of SNR shape and concentration on emulsion stability, gel structure, rheology, and printability were evaluated. At 4 % (w/v), spindle-shaped SNRs from normal corn starch (labeled as N20) achieved nearly complete oil encapsulation, significantly suppressed water mobility and reinforced gel elasticity, resulting in pronounced shear-thinning and excellent self-supporting capacity. The N20-stabilized gel exhibited superior printing fidelity, forming stable 3D constructs without oil leakage. When incorporated into plant-based tuna analogues, the emulsion gel yielded products closely resembling real tuna in texture and color, while enriching DHA content in fatty acids to 43.54 %, far exceeding that of commercial tuna. These findings highlight the critical role of particle shape in modulating interfacial stabilization and multiscale gel properties, providing a practical route for designing functional inks in food 3D printing for developing plant-based seafood with both structural and nutritional enhancements.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Zhong Y",
+        "Chen M",
+        "Yao S",
+        "Zhu Q",
+        "Kong X",
+        "Zhang H",
+        "Liu D",
+        "Xu E"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124820",
+      "title": "ROS-responsive oligochitosan-derived nanovesicles with synergistic oxidative stress and autophagy inhibition for potent tumor therapy",
+      "coverDate": "2026-03-15",
+      "creator": "Shao M.",
+      "abstract": "Oxidative stress-mediated tumor therapy leverages reactive oxygen species (ROS) for cancer treatment, but protective autophagy, a major survival pathway for tumor cells, causes therapy resistance. Herein, a self-amplifying ROS-responsive nanovesicle system (CQ/Cu@CT) is designed to enhance oxidative stress while blocking autophagy. Firstly, amphiphilic oligochitosan derivative COS-PEG2KTA-UB is synthesized, where ROS-responsive thioketal acetal (TA) is introduced in form of cinnamaldehyde (CA) prodrug. This polymer self-assembles into nanovesicles, integrating chloroquine (CQ) and supplemental TA to immobilize Cu2+ via carboxylic coordination. Intracellular ROS triggers nanovesicle dissociation to release CA, Cu2+, and CQ. CA induces mitochondrial dysfunction and ROS burst, while Cu2+ depletes glutathione and generates Cu+ for Fenton-like reactions to produce hydroxyl radicals. Meanwhile, due to the inhibition effect of CQ on protective autophagy, CQ/Cu@CT produces significantly high ROS level. The amplified ROS not only aggravates oxidative stress but also accelerates drug release from nanovesicles, which facilitates the drug action against tumors. CQ/Cu@CT also induces immunogenic cell death (ICD) to stimulate dendritic cell maturation and enhance cytotoxic T lymphocyte infiltration. Consequently, CQ/Cu@CT inhibits tumor growth by 67.8 % in a subcutaneous 4 T1 tumor model. This study provides a potent strategy to enhance oxidative stress-based cancer therapy.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Shao M",
+        "Peng Y",
+        "Qiu L"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124811",
+      "title": "Effect of periodate oxidation and borohydride reduction on the chemical structure and chain conformation of arabinoxylan",
+      "coverDate": "2026-03-15",
+      "creator": "Janewithayapun R.",
+      "abstract": "The effect of periodate oxidation and borohydride reduction on arabinoxylan (AX) in aqueous solution was investigated using 13C NMR spectroscopy and small-angle X-ray scattering (SAXS). AX consists of a xylose backbone, which is mono- or di-substituted with arabinose. We show that at a ring-opening modification degree of 21%, periodate oxidation occurs predominantly on arabinose, and shows a preference for arabinose linked to di-substituted xylose units over the mono-substituted. With a higher degree of modification of 33%, arabinose at the mono-substituted position and unsubstituted xylose units are also modified. At 33% a large portion of oxidizable AX residues have been ring-opened, yet SAXS reveals no significant changes in chain conformation and only a minor reduction (10%) in persistence length for the oxidized-reduced dialcohol AX. With increasing degree of oxidation, dialdehyde AX instead show an increasing tendency for aggregation, attributed to chain cross-linking. Upon reduction of the dialdehyde and cross-linked groups to dialcohol AX, the chains revert back to having repulsive interactions, acting as chains in a good solvent environment.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Janewithayapun R",
+        "Karlsson H",
+        "Herranz-Trillo F",
+        "Terry A",
+        "Evenäs L",
+        "Cousin F",
+        "Ström A"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124832",
+      "title": "Unraveling the structural evolution of lignin-carbohydrate complexes in poplar during autohydrolysis",
+      "coverDate": "2026-03-15",
+      "creator": "Zheng B.",
+      "abstract": "Lignin-carbohydrate complexes (LCCs) are key determinants of biomass recalcitrance, and elucidating their structural evolution during pretreatment is essential for efficient deconstruction. In this study, the structural changes of poplar LCCs during autohydrolysis were systematically investigated by isolating and characterizing LCCs from both pretreated residues (B-LCCs) and autohydrolysates (H-LCCs). Cleavage of LCC linkages caused their redistribution between solid and liquid phases. Native LCCs were dominated by lignin-xylan complexes with minor lignin-mannan complexes. After autohydrolysis, H-LCCs showed higher carbohydrate content, lower molecular weight and were enriched in lignin-mannose linkages compared with B-LCCs. Elevated temperatures markedly promoted linkage cleavage in B-LCCs, with β-O-4' content decreasing from 72.6/100Ar to 44.0/100Ar, γ-ester content from 15.6/100Ar to 10.9/100Ar, and benzyl ether from 6.2/100Ar to 1.9/100Ar, and led to complete degradation of phenyl glycoside. H-LCCs underwent more extensive degradation, exhibiting markedly lower levels of these linkages, while γ-ester bonds proved comparatively more resistant. By integrating spatial distribution with structural analysis, the overall redistribution and structural evolution of LCCs within the cell wall was revealed. Additionally, thermal stability analysis further highlighted distinct decomposition behaviors between B-LCCs and H-LCCs. This work provides new insights into structural evolution of LCCs during autohydrolysis and offers valuable guidance for enhancing biomass utilization.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Zheng B",
+        "Yang Z",
+        "Liu P",
+        "Zhao X",
+        "Huang C",
+        "Lai C",
+        "Yong Q"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124821",
+      "title": "Surface charge behavior of mezalazine-loaded chitosan–alginate nanoparticles in a 3D multi-layered intestinal in vitro model",
+      "coverDate": "2026-03-15",
+      "creator": "Silvestre A.L.P.",
+      "abstract": "Inflammatory bowel diseases (IBD) are chronic conditions characterized by inflammation in the gastrointestinal tract (GIT), primarily the colon, requiring targeted and effective drug delivery systems to address the limitations of traditional therapies. Mesalazine (MLZ), although commonly used, has low solubility and permeability, limiting its accumulation at sites of inflammation. This study demonstrates that the polymer composition and surface charge of nanoparticles (NPs) can influence transport, mucoadhesion, and cellular interaction in a physiologically relevant environment. MLZ-loaded cationic and anionic NPs were prepared using chitosan (CS) and sodium alginate (SA), then characterized by particle size, zeta potential (ZP), morphology, and thermal properties. MLZ-loaded NPs were tested in a 3D multilayer in vitro model of intestinal inflammation, including epithelial, stromal, and endothelial cells. The NPs exhibited size of 277 to 410 nm, PdI lower than 0.5, ZP of +38 mV to -30 mV, colloidal stability, and spherical morphology. NPs rich in SA 1:4:1.25 (CS:SA:MLZ) exhibited higher permeability and faster diffusion, as well as weaker cellular interactions with mucin compared to NPs rich in CS 4:1:1.25 (CS:SA:MLZ), which exhibited greater mucoadhesion, stronger cell-surface interactions, and longer apical retention, suggesting potential for the treatment of localized conditions such as IBD. Both formulations significantly reduced proinflammatory cytokine levels, indicating their promise for improved management of inflammation. These nanotechnological strategies highlight how surface charge characteristics and polymer concentration affect nanoparticle transport and biointeraction in complex in vitro platforms, providing valuable insights for the development of nanosystems for possible rectal administration.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Silvestre A",
+        "Viegas J",
+        "Carvalho A",
+        "Almeida H",
+        "Carvalho S",
+        "Dos Santos A",
+        "Tavares Júnior A",
+        "Chorilli M",
+        "Sarmento B"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124790",
+      "title": "Repairing osteoporotic bone defects under iron overload: A chitosan-hyaluronic acid hydrogel via synergistic iron chelation and ROS responsiveness",
+      "coverDate": "2026-03-15",
+      "creator": "Lin T.",
+      "abstract": "Iron overload in the bone microenvironment elevates reactive oxygen species (ROS) and triggers osteoblast ferroptosis, exacerbating osteoporosis. We developed a genipin-crosslinked hydrogel composed of 3-aminophenylboronic acid-grafted hyaluronic acid and hydrocaffeic acid (DHCA)-grafted chitosan (CS-DHCA/HA-3-APBA) and loaded with chromium picolinate (CrPic). In the environment of osteoporosis, Fe3+ coordination compacted the network and increased compressive modulus by approximately twofold, while elevated ROS accelerated network degradation, supporting ROS-responsive CrPic release, whereas under physiological buffer conditions the release remained slow and stable. In vitro, in iron-overloaded rat bone marrow mesenchymal stem cells (rBMSCs), the CS-DHCA/HA-3-APBA/CrPic hydrogel lowered ROS, preserved mitochondrial membrane potential, blocked ferroptosis, and restored migration and osteogenic differentiation. Treated cells showed alkaline phosphatase activity and mineral deposition near control levels despite iron overload. In vivo, in rabbits with iron overload-induced osteoporosis, defects treated with the Fe3+-chelating, CrPic-loaded hydrogel (F-Gel@CrPic) formed robust new bone. At 4 weeks, BV/TV in this group was about 30 %, roughly threefold higher than in untreated defects, and it nearly doubled again by 8 weeks, approaching healthy levels. New bone showed higher mineral density and markedly reduced iron deposition. This work highlights the unique ability of engineered hyaluronic acid/chitosan hydrogels to actively correct a pathological microenvironment and achieve functional tissue repair, showcasing the promise of natural polysaccharide-based engineering for advanced therapy.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Lin T",
+        "He Z",
+        "Zhao T",
+        "Fan Q",
+        "Hu R",
+        "Jiang J",
+        "Dang J",
+        "Zhang M",
+        "Sun D"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124822",
+      "title": "Structure characteristics of a pectic polysaccharide from the leaves of Cornus officinalis Sieb. et Zucc. (Shanzhuyu) and its inhibition on hepatocellular carcinoma",
+      "coverDate": "2026-03-15",
+      "creator": "Gao Y.X.",
+      "abstract": "Hepatocellular carcinoma (HCC) represents a highly aggressive malignancy with limited treatment options. While the traditional herb Cornus officinalis Sieb. et Zucc. (C. officinalis, commonly called Asiatic dogwood or \"Shanzhuyu\" in Chinese) is known for its hepatoprotective properties, the structural features and anti-HCC potential of polysaccharides from its leaves remain largely unexplored. Therefore, we hypothesized that the leaf-derived polysaccharides with uncharacterized structure may exhibit anti-HCC activity. In this study, a homogeneous anti-HCC polysaccharide, designated PCL-2I (Mw = 67.0 kDa), was isolated from C. officinalis leaves, and its structure was characterized by monosaccharide composition, methylation analysis, partial acid hydrolysis, and NMR spectra. PCL-2I is a pectic polysaccharide with a backbone repeating unit: →[6,3)-β-Glcp-(1 → 6)-α-Galp-(1 → 6)-α-Galp-(1]x → [4)-α-GalpA-(1 → 4)-β-GalpA-OMe-(1]y → [4)-α-GalpA-(1 → 2,4)-α-Rhap-(1 → 4)-α-GalpA-(1 → 2)-α-Rhap-(1]z→. Its branched side chains include →6)-α-Galp-(1→, →3)-α-Araf-(1→, →3,5)-α-Araf-(1→, and →2)-α-Rhap-(1→, with substitutions at C-3 of the Glc residue and C-4 of Rha residue, respectively. PCL-2I suppressed HCC growth in vivo and induced apoptosis in vitro by targeting pyruvate kinase M2 (PKM2), thereby attenuating glycolysis and disrupting hypoxia-inducible factor-1α oncogenic signaling. These effects may be attributed to PCL-2I's high content of arabinose and galactose. This study provides a theoretical foundation for utilizing PCL2I, a pectic polysaccharide from C. officinalis leaves, as a potential therapeutic agent against HCC by targeting PKM2.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Gao Y",
+        "Hu S",
+        "Wang N",
+        "Wang S",
+        "Liu N",
+        "Li X",
+        "Duan Q",
+        "Qi Y",
+        "Cao W"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124828",
+      "title": "Multifunctional pomelo peel cellulose/lysine/ZIF-8 porous foam with honeycomb structure: Adsorption performance and mechanism",
+      "coverDate": "2026-03-15",
+      "creator": "Su H.",
+      "abstract": "Addressing the need for sustainable wastewater treatment, a novel ZIF-8-modified pomelo peel cellulose/lysine (P/L@ZIF-8) porous foam with honeycomb-like porous structure was synthesized through covalent cross-linking and in situ growth. This hierarchical design enabled mechanical robustness (compressive stress of 368.02 KPa at 80 % strain), enhanced surface area (SBET: 28 m2/g) and complete biodegradation within 10 weeks. Furthermore, superior adsorption capacity for Congo red (CR), Cu(II), and nanoplastics polystyrene (PS) was achieved, with theoretical maximum adsorption capacities being 1467.50 mg/g, 293.82 mg/g, and 255.06 mg/g, respectively. Importantly, the foam maintained robust performance across diverse pH and practical water conditions, and the removal efficiencies for CR, Cu(II), and PS were slightly reduced from 99.60 %, 71.09 %, and 99.39 % to 93.31 %, 61.11 %, and 83.92 %, respectively, after 10 reuse cycles. Mechanistic studies combining XPS, FTIR, and density functional theory (DFT) calculations revealed the distinct adsorption mechanisms towards CR, PS and Cu(II). Component analysis identified ZIF-8 as the primary contributor to the contaminant removal. Additionally, the foam exhibited remarkable non-photocatalytic degradation capability, converting malachite green (MG) to H2O and CO2 with 97.18 % efficiency at 100 mg/L initial concentration. These outstanding properties position the P/L@ZIF-8 porous foam as a promising, sustainable solution for complex wastewater treatment applications.",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "authors": [
+        "Su H",
+        "Qiu W",
+        "Hu T",
+        "Luo S",
+        "Wu J",
+        "Zhong X",
+        "Li N",
+        "Su H",
+        "Ling Z",
+        "Xu Z",
+        "Wang H",
+        "Wen P"
+      ]
+    }
+  ]
+}
