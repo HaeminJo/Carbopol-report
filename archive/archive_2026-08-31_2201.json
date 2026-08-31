@@ -1,0 +1,724 @@
+{
+  "run_timestamp_utc": "2026-08-31 22:01",
+  "collection_methods": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, PUBYEAR>2024, sort=-coverDate) - discovery/paging",
+    "PubMed E-utilities ESearch/EFetch (journal=Carbohydr Polym[ta], Journal Article[pt], NOT Review[pt], reldate=730) - abstracts/authors/pubdate, primary source for final selection"
+  ],
+  "target_count": 20,
+  "found_count": 28,
+  "exclusion_criteria": [
+    "Review/systematic review/mini-review articles excluded",
+    "Papers whose core topic is microorganism strain development, genetic/metabolic engineering, or culture/production optimization excluded",
+    "Papers where polysaccharide/polymer material is the core topic and antimicrobial testing is only incidental were kept"
+  ],
+  "articles": [
+    {
+      "pmid": "41475719",
+      "title": "Starch-unsaturated fatty acid complexes with antioxidant protection and slow-digesting properties: Effects of complexing time.",
+      "abstract": "Starch-unsaturated fatty acid (UFA) complexes have been shown to present additional functionalities compared to starch-saturated FA complexes. However, little information is available regarding the effects of complexing time on the formation of starch-UFA complexes and their functionalities. The aim of the present study was to understand the effects of complexing time (0.5 h, 3 h and 6 h) on the formation of starch-UFA complexes and their potentially antioxidant protection towards the encapsulated UFAs and slow-digesting properties. Our results showed that 3 h of complexing time was more favorable for the formation of starch-UFA complexes than 0.5 h and 6 h. Moreover, the complexes formed with a complexing time of 3 h presented higher degree of long- and short-range order. All the complexes, especially those prepared with 3 h of complexing time, showed the promising antioxidant protective effects on the encapsulated UFAs and slow-digesting properties. The antioxidant protection and slow digestion of complexes followed by slow release of UFAs were largely related to their crystalline structure. Our study showed clearly that the complexing time had great effect on the formation of starch-UFA complexes with desirable functional properties.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Mar",
+      "day": "01",
+      "medline_date": null,
+      "authors": [
+        "Zhang Yiming",
+        "Shao Changhui",
+        "Yu Jinglin",
+        "Yang Yuedong",
+        "Wang Shujun"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124743",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-03-01"
+    },
+    {
+      "pmid": "41475718",
+      "title": "Gellan gum electrohydrodynamic microencapsulation of probiotics for intestine-targeted delivery.",
+      "abstract": "Microencapsulation is a promising strategy to improve time-stability, viability and targeted delivery of probiotics, thus enhancing their beneficial roles in the intestine. However, areas of improvement persist, including optimal viability protection during storage and gastrointestinal (GI) transit, control over encapsulation and targeted release. Due to pH-responsiveness, gellan gum (GG) could be ideal to face some of these criticalities. In this study, we set-up a robust electrohydrodynamic (EHD) microdripping process to produce GG microparticles (GGMs) encapsulating Limolactobacillus fermentum. By varying GG concentration, flow rate and applied voltage, the optimized EHD parameters led to highly monodisperse microbeads with controlled morphology. Successful encapsulation of L. fermentum in GGMs was obtained at concentrations of 106 CFU/mL and 109 CFU/mL, leading to 300 ± 40 μm and 450 ± 100 μm particle sizes, with encapsulation efficiency of 94 ± 6 % and 99 ± 1 %, respectively. GGMs demonstrated post-encapsulation probiotic viability with lactic acid production. Freeze-dried formulations were lasting under storage until 3 months and resulted stable under GI-simulated conditions. Their bioactive properties were demonstrated by antimicrobial efficacy against Escherichia coli and enhanced defensin expression in Caco-2 intestinal cells. Overall, EHD microdripping was a versatile and robust platform useful in functional foods and gut microbiome engineering.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Mar",
+      "day": "01",
+      "medline_date": null,
+      "authors": [
+        "Zavagna Lorenzo",
+        "Alfano Alberto",
+        "Bianchi Marta",
+        "Di Meo Celeste",
+        "Fusco Alessandra",
+        "Esin Semih",
+        "Batoni Giovanna",
+        "Donnarumma Giovanna",
+        "Schiraldi Chiara",
+        "Danti Serena"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124742",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-03-01"
+    },
+    {
+      "pmid": "41475711",
+      "title": "Eco-friendly nanocellulose composites for stabilizing nanoemulsion insecticides: Enhancing efficacy and weather resistance.",
+      "abstract": "In modern agriculture, insecticides are essential for effective pest control, but traditional formulations often suffer from low utilization due to accidental spatter, rebound, and rain erosion. To address these challenges, we developed a green oil-in-water nanoemulsion stabilized by amyloid protein/cellulose nanocrystal (PTB/CNC) composites. The conformational transformation of bovine serum albumin (BSA) to form phase change amyloid protein (PTB) was induced by tri (2-carboxyethyl) phosphine (TCEP), and its excessive self-aggregation was inhibited by cellulose nanocrystals (CNC), successfully constructing PTB/CNC nanocomposites. The resulting PTB/CNC nanocomposites exhibit excellent interfacial activity, biocompatibility, and long-term stability. The PTB/CNC nanoemulsion showed exceptional deposition on superhydrophobic leaves, with a contact angle of 85.5° on lotus leaves and complete suppression of rebound. It retained 84 % of the formulation after simulated heavy rainfall (150 mm), a six-fold improvement over conventional emulsifiable concentrate (EC). Field experiments have proved that the harvest yield of crops has increased by more than 15 %. The system is compatible with various vegetable oils, and residues are readily removable. This eco-friendly delivery system offers a sustainable solution for reducing pesticide usage and environmental impact.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Mar",
+      "day": "01",
+      "medline_date": null,
+      "authors": [
+        "Yu Kai",
+        "Wang Qianxi",
+        "Tian Jiameng",
+        "Lu Huiling",
+        "Zhao Peng",
+        "Pan Jianming"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124693",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-03-01"
+    },
+    {
+      "pmid": "41371867",
+      "title": "Mechanisms by which cooking processing and protein distribution synergistically affect the structural, physicochemical and digestive properties of black rice starch.",
+      "abstract": "This work investigated the impact of steaming and microwave processing on protein-starch interactions in black rice (RS), focusing on their effects on starch structure, physicochemical properties, and digestibility. Thermal treatment led to protein denaturation, reducing the α-helix/β-turn ratio and forming a protein barrier around starch granules, which increased their size. Both methods disrupted the ordered structures of starch and significantly decreased relative crystallinity. X-ray diffraction (XRD) showed that microwave processing preserved the A-type crystal pattern, while steaming transformed it into a V-type complex. Microwave treated samples formed weakly viscoelastic gels and demonstrated improved water binding capacity, unlike steamed samples. Additionally, microwave processing significantly reduced rapidly digestible starch (RDS) content and increased slowly digestible (SDS) and resistant (RS) starch fractions, whereas steaming encouraged RDS formation. Pearson correlation analysis revealed that changes in protein structure primarily influenced thermal and pasting properties, while starch structural disintegration predominantly reduced digestibility. These findings offer theoretical insights for the targeted regulation of black rice's functional properties through thermal processing.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Song Jiaqi",
+        "Ma Chunmin",
+        "Xu Yue",
+        "Wang Bing",
+        "Xu Xinyu",
+        "Zhang Guang",
+        "Yang Yang",
+        "Zhang Na"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124739",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371866",
+      "title": "High-transparent and mechanically robust self-polishing coatings reinforced by hyperbranched nanocellulose for marine biofouling resistance.",
+      "abstract": "Marine optical windows are highly susceptible to biofouling caused by marine organisms, leading to reduced transparency. The most effective method against biofouling is to use self-polishing antifouling coatings (SPCs). However, balancing transparency, mechanical performance, and antifouling effectiveness in SPCs remains a considerable challenge. In this study, hyperbranched epoxidized oligosiloxane nanoclusters-modified nanocellulose (HPCNFs) was synthesized using 3-glycidoxypropyltrimethoxysilane, methyltrimethoxysilane, and phosphorylated cellulose nanofibrils. Subsequently, HPCNFs were incorporated into a eugenol methacrylate (EM)-based self-polishing polymer matrix, producing a coating with outstanding mechanical stability. The resulting coating exhibited exceptional transparency (>97 %). The hydrolysis of phenolic ester groups enabled the transition of the resin segments from hydrophobic to hydrophilic states, thereby enhancing self-polishing performance. During the self-polishing process, natural and non-toxic eugenol was released, significantly improving the antifouling performance of the coating. In field tests conducted for 360 days in natural seawater, the coating showed remarkable biofouling resistance, with only 11.49 % of fouling coverage. The developed coating demonstrated significantly enhanced integrity compared to commercially available Jotun marine coatings. In particular, the incorporation of HPCNFs and EM into SPCs markedly improved their corrosion resistance. This study proposes a novel strategy for the development of marine antifouling coatings featuring high transparency, mechanical stability, and long-term durability.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Gao Zhongshuai",
+        "Ma Linfei",
+        "Che Mingda",
+        "Lin Cunguo",
+        "Cui Mei",
+        "Su Rongxin",
+        "Huang Renliang"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124728",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371865",
+      "title": "Solvent-annealed triple-helix reconstituted schizophyllan hydrogels with mechanically tunable and injectable properties.",
+      "abstract": "Schizophyllan (SPG) is a natural polysaccharide with excellent biocompatibility, yet its use in hydrogels is often hampered by the need for cytotoxic chemical cross-linkers and a lack of injectability. To overcome these limitations, we introduce a solvent-exchange-assisted wet-annealing method that facilitates the reversible dissociation and reconstitution of SPG's triple-helical structure, yielding a purely physical, injectable hydrogel. By tuning annealing temperature and time, the elastic modulus and fracture strength can be varied over an order of magnitude. Gelation proceeds via DMF-mediated helix dissociation followed by temperature-driven re-assembly, where long SPG chains entangle and bridge adjacent triple helices to create load-bearing yet reversible physical junctions. The resulting semi-flexible network resists small strains but shows shear-thinning behavior for facile syringe injection. In vitro studies show >95 % NIH/3 T3 viability, and in vivo subcutaneous implantation in mice elicits only transient inflammation that resolves within 28 days. These findings establish SPG hydrogels as a safe, mechanically tunable over a wide range platform for minimally invasive biomedical applications.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Chen Liyong",
+        "Lu Mengze",
+        "Guo Chaowan",
+        "Sun Huaiqin",
+        "Zhang Yun",
+        "Wang Xiaohua",
+        "Zhang Yajing",
+        "Wang Zeyu",
+        "Jiang Chuanxia",
+        "Wu Jiating",
+        "Fan Zhiwei",
+        "Sun Taolin"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124727",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371863",
+      "title": "The O-acetylation on phage tail-spike protein digested penta-saccharide from Acinetobacter baumannii SK44 plays a critical role in triggering pro-inflammatory immune response.",
+      "abstract": "Acinetobacter baumannii is a worldwide health-threaten pathogen bacteria due to antibiotic resistant and the bacterial exopolysaccharide is an attractive to develop therapeutic alternative. A. baumannii strain SK44 (Ab-SK44) is a minor antibiotic resistant clinical isolate and its exopolysaccharide (EPS) can be digested by phage tail-spike protein (TSP) into a penta-saccharide-repeat unit, which is comprised of trisaccharide {→3)Gal(β1 → 6)Glc(β1 → 3)GalNAc(α1→} as main chain with two branched GlcNAc3NAcA4OAc and GlcNAc attached to Gal. Notably, TSP digested penta-saccharide could stimulate murine macrophage Raw264.7 cells to release interleukin-6 (IL-6) and tumor necrosis factor-α (TNF-α), similar to the effect observed with Ab-SK44 EPS. Knocked-down the Toll-like receptor 4 (TLR4) on Raw264.7 diminished cytokine release, indicating that TLR4 is a critical receptor of Ab-SK44 EPS/TSP-digested penta-saccharide. O-acetyl group on TSP-digested penta-saccharide probably interacts with F126 in TLR4/Myeloid differentiation factor-2 (MD2) complex to form π-π stacking with Y131, which activate immune response. Here, we explored the mechanism of bacterial oligosaccharide-immune stimulation and shed the light on the vaccination or immune based therapy against pathogenic bacteria infection.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Huang Tzu-Yin",
+        "Yang Yen-Ju",
+        "Tay Boh-Woon",
+        "Lin Chun-Ting",
+        "Wu Shih-Hsiung",
+        "Lee I-Ming"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124725",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371861",
+      "title": "The in vitro digestive mechanism of Tartary buckwheat starch-flavonoid complexes treated with different methods.",
+      "abstract": "The complexation of starch with flavonoids facilitates the formation of resistant starch. However, the dynamic structural evolution and molecular interactions with digestive enzymes remain to be systematically elucidated. This study employed in vitro simulated digestion coupled with multiscale structural analysis to investigate the effects of physical mixing (MIX), hydrothermal treatment (HT), and high hydrostatic pressure (HHP) treatment on the digestion behavior and mechanisms of Tartary buckwheat starch-flavonoid complexes. Results indicated that HHP treatment (200 and 400 MPa) significantly increased the complexation rate to over 90 %, which was more than 43 % higher than that of the MIX group. Moreover, HHP effectively delayed glucose release, with the 400 MPa group showing 17.9 % and 8.3 % lower cumulative glucose release compared to the MIX and HT group, respectively. Structural analyses revealed that HHP treatment strengthened hydrogen bonding and formed a unique crystalline structure, while scanning electron microscopy revealed intact granular morphology after digestion. Molecular dynamics simulations revealed that HHP complexes had a higher binding free energy with α-amylase and more stable intramolecular hydrogen-bond networks, thereby inhibiting enzymatic hydrolysis. Thus, HHP treatment modulates digestibility by optimizing the multi-level structure of complexes, providing a novel strategy for developing low glycemic-index foods.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Zhou Yiming",
+        "Chen Ziyan",
+        "Li Shunyu",
+        "Huang Yi",
+        "Wang Minglong",
+        "Li Yunlong",
+        "Zhang Lan"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124722",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371860",
+      "title": "Nitrogen management regulates grain quality of rice ratoon crop by altering starch structure and protein composition.",
+      "abstract": "Ratoon rice system, which permits two harvests from a single planting, is expanding rapidly. This study investigated how nitrogen (N) management (N0: no N input; Nbud: N for bud initiation; Ntiller: N for regenerated tillers; Nbud + Ntiller: combined application) modulates starch fine structure, protein accumulation, and their relationships with grain quality of rice ratoon crop. Compared to N0, N application significantly altered grain quality through modifications in apparent amylose content, starch structure and physicochemical properties, and protein composition. The Nbud + Ntiller reduced the honeycomb-like structure, number (ND) and volume (VD) weighted mean diameters, median (D (50 %)) and 90th percentile (D (90 %)) of volume, and relative crystallinity, which contributed to superior milling and appearance qualities. However, it concurrently impaired Cooking and eating quality (CEQ), as evidenced by increased setback viscosity, pasting temperature, ΔH, and hardness, alongside decreased breakdown viscosity, balance, taste, exterior and overall score. These detrimental effects were attributed to the significant increases in grain protein (4.8 %-14.8 %) and glutelin (6.1 %-17.7 %) content induced by Nbud + Ntiller, an effect that outweighed the modifications in starch structure. These findings underscore the critical need to optimize Nbud + Ntiller to balance starch structure and protein composition, thereby achieving synergistic improvements in milling, appearance, and CEQ of rice ratoon crop.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Tu Debao",
+        "Yang Linsheng",
+        "Liang Shuang",
+        "Li Zhong",
+        "Xu Youzun",
+        "Zhou Yongjin",
+        "Sun Xueyuan",
+        "Xi Min"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124721",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371859",
+      "title": "Disentangling starch polymer topology: A multimethod approach integrating SEC-DRI-MALS, FACE, and HPAEC.",
+      "abstract": "This study employed an integrated multimethod approach to investigate how size-exclusion chromatography (SEC) operational parameters influence the starch hydrodynamic and topological characterization. The effects of two column configuration (GRAM 10000/100 vs. 3000/100) and sample concentration on starches with varying amylose contents were systematically evaluated using SEC coupled with differential refractive index and multi-angle light scattering (SEC-DRI-MALS). Results demonstrated that column pore size critically affected the resolution of large amylopectin molecules (hydrodynamic radius, Rh ≥ 100 nm), while amylose-rich fractions (Rh < 100 nm) were less sensitive. Increasing concentration from 1 mg/mL to 4 mg/mL induced amylopectin aggregation, elevating apparent density (ρ). A strong positive ρ-Rh correlation in amylopectin topology indicated that large amylopectin molecules achieve their size through numerous short branches rather than fewer long chains. This topological model was unequivocally supported by chain length distribution (CLD) analysis. A comparative evaluation of fluorophore-assisted carbohydrate electrophoresis (FACE) and high-performance anion-exchange chromatography (HPAEC) revealed that FACE provides superior resolution for short and long branches, while HPAEC was limited by co-elution, peak broadening, and a restricted dynamic range (DP ∼ 70). Our findings establish an optimized analytical framework for starch topology analysis, highlight critical SEC methodological considerations for reliable structure-function correlations.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Zhou Xianglong",
+        "Yu Shiyao",
+        "Liu Yunfei",
+        "Yu Wenwen"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124720",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371858",
+      "title": "Preparation and digestive behavior of ferulic acid-bacterial cellulose/arabinoxylan complex with strong antioxidant activity.",
+      "abstract": "Bacterial cellulose/arabinoxylan composite (BA) is widely used as plant cell wall analog for binding polyphenols to form antioxidant dietary fiber (ADF), which is a potential functional ingredient. This study aimed to utilize ferulic acid (FA) to prepare ADF (FA-BA complex) and investigate its functional properties and digestive behavior. Results showed that the FA-BA complex was successfully prepared, with FA content of 20.44 μg/mg and the crystallinity index of 87.56 %. The complex exhibited stronger DPPH and ABTS antioxidant activities than the FA-BA mixture. The in vitro digestion assay indicated that the complex underwent swelling, and 66.78 % of FA was released from the complex to become bioaccessible. The pH changes (oral-gastro-intestinal digestion), the presence of digestive enzymes, and the complex swelling did not significantly promote the release of FA, while the FA-BA interaction was the primary factor affecting FA release. The binding of FA and BA was mainly driven by hydrogen bonding. Moreover, the hydrogen bonding energy between FA and BA was weakened as digestion proceeded. The post-digestion complex retained a portion of FA and antioxidant activities. The study elucidates that the digestive behavior of the complex was influenced by the FA-BA interaction, which is crucial for its application in functional foods.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Wang Xueqing",
+        "Purcaro Giorgia",
+        "Li Yang",
+        "Yang Jingjing",
+        "Jia Lang",
+        "Li Jingfeng",
+        "Fan Bei",
+        "Huang Yatao",
+        "Wang Fengzhong",
+        "Wang Lili"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124719",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371856",
+      "title": "Pectic polysaccharides from Mongolian medicinal Hypecoum leptocarpum: Structure and ulcerative colitis amelioration via gut microbiota and intestinal inflammation regulation.",
+      "abstract": "Ulcerative colitis (UC) poses a global health burden due to its refractoriness. Our previous study demonstrated that Hypecoum leptocarpum (H. leptocarpum) crude polysaccharides mitigate UC-related intestinal inflammation. In this study, we extracted, purified, and characterized a pectic polysaccharide (HLP-4-2, 19.7 kDa) from H. leptocarpum, which contained homogalacturonan (HG) and rhamnogalacturonan-I (RG-I). Specifically, RG-I comprises a repeating disaccharide unit of 1,4-α-GalpA and 1,2-α-Rhap (with arabinogalactan branches), whereas HG has partially methyl-esterified GalA residues. In DSS-induced UC mice, HLP-4-2 alleviated disease symptoms in a dose-dependent manner, as evidenced by a reduced disease activity index (DAI), restored colon length, and decreased spleen index. Mechanistically, HLP-4-2 modulated gut microbiota by promoting growth of short-chain fatty acid (SCFA)-producing bacteria (e.g., Prevotella) and reducing abundance of pathogenic bacteria (e.g., Klebsiella). This microbial shift elevated SCFA levels (particularly propionic and isobutyric acids) and reduced isocaproic acid levels. These changes may, in turn, strengthen the intestinal barrier by enhancing mucin secretion, preserving goblet cells, and reducing inflammation via downregulating proinflammatory cytokines. Fecal microbiota transplantation (FMT) experiments confirmed that these microbial changes contributed to HLP-4-2's therapeutic effects. These findings endorse the traditional use of H. leptocarpum for inflammation and indicate HLP-4-2 as a potential treatment for ulcerative colitis.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Na Cunwuliji",
+        "Shi Xiang",
+        "Fu Jicheng",
+        "Li Jiahao",
+        "Jiang Hongyu",
+        "Guo Zhiwei",
+        "Lai Hongyan",
+        "Zhang Zhipeng",
+        "Zhao Longyan",
+        "Yuan Qingxia",
+        "Zhang Baoshun"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124717",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371855",
+      "title": "A triple-helix white tea polysaccharide alleviates ulcerative colitis via the gut microbiota-metabolites-inflammation regulatory axis.",
+      "abstract": "Ulcerative colitis (UC), a chronic inflammatory bowel disease, remains incurable with limited therapies. White tea, a traditional Chinese beverage, is known for anti-inflammatory effects, yet its active components in UC are poorly defined. Here, we identified a homogeneous pectic polysaccharide (WTP-2, 150.79 kDa) as the key anti-colitic constituent. WTP-2 contains homogalacturonan domains with →4)-α-D-GalpA-(1 → backbones, 42.47 % methyl esterification, and 14.8 % acetylation of GalpA residues. Conformation analyses revealed a triple-helix structure underlying its activity. In vitro, WTP-2 (400 μg/mL) suppressed LPS-induced TNF-α and IL-6 secretion in RAW264.7 macrophages by 57.6 % and 72.4 %, respectively, whereas helix-disrupted derivatives were ineffective. In vivo, WTP-2 (160 mg/kg) alleviated dextran sulfate sodium-induced colitis, reducing disease activity index scores by 54.5 %, preserving barrier integrity, and modulating gut microbiota and metabolites. Transcriptomic and protein analyses revealed downregulation of immune genes and inhibition of the IL-17-JNK-AP-1 pathway, with marked decreases in p-JNK, p-c-Jun, and COX-2 expression. Collectively, these results demonstrate that a triple-helix white tea polysaccharide protects against UC via a microbiota-metabolites-inflammation regulatory axis, with its in vitro anti-inflammatory activity dependent on the triple-helix structure. This study provides new insights into white tea polysaccharide structure-function relationships and highlights its therapeutic potential in UC management.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Chen Xuemin",
+        "Dai Pengfei",
+        "Zhu Yuanmin",
+        "Jin Wenwen",
+        "Xie Yanxia",
+        "Yang Zixi",
+        "Wang Zeyou",
+        "Jin Xiaodi",
+        "Lei Mengjie",
+        "Shi Lijuan",
+        "Chen Yulin",
+        "Yu Longjiang"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124716",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371854",
+      "title": "Water-induced self-assembly of agar with NaCl sacrificial crystalline support toward heterostructure carbon aerogels for lightweight and broadband electromagnetic wave absorption.",
+      "abstract": "Carbon-based materials, owing to their abundance, highly tunable dielectric constants, and easily controllable microstructures, are among the most important electromagnetic wave (EMW) absorbing materials. However, they still suffer from the limitation of a narrow effective absorption bandwidth (EAB). In this work, we propose a water-induced self-assembly strategy of agar with NaCl sacrificial crystalline support to construct agar aerogel-derived porous carbon (AAPC) featuring hierarchical porosity, heteroatom doping, and conductive networks for lightweight and broadband electromagnetic wave absorption. Under conditions of low density (11.08 mg/cm3) and a low filling ratio (2 %), AAPC4-700 achieves an EAB of 7.68 GHz at a thickness of 2.55 mm, with a minimum reflection loss (RLmin) of -50.0 dB. In addition, AAPC exhibits excellent thermal insulation and flame-retardant properties, enabling its potential application in extreme environments. This study elucidates the EMW dissipation mechanism of AAPC and opens a new pathway for the design of lightweight EMW absorbers with broad EAB.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Xu Hao",
+        "Zheng Yanan",
+        "He Guangling",
+        "Jiang Xiaohui",
+        "Yan Xuefeng",
+        "Yu Liangmin"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124713",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371853",
+      "title": "Ultraviolet-induced Glycyrrhiza polysaccharide hydrogels with different mechanical strength for wound management.",
+      "abstract": "Glycyrrhiza polysaccharides possess excellent anti-inflammatory and antioxidant activities. Hydrogel dressing garnered remarkable efficacy in rejuvenating damaged skin, however, the impact of their mechanical strength on wound healing is still unclear. Herein, we reported Glycyrrhiza polysaccharides (GP)-dipotassium glycyrrhizinate (DG) (GPDG) hydrogels with different mechanical properties for tackling infected wounds. Neutral GP was extracted and purified from Glycyrrhiza inflata Bat., and its structural characteristics were exclusively confirmed. Next, GPDG hydrogels with low and high mechanical strength (low-GPDG and high-GPDG) were induced by UV crosslinking using Irgacure 2959 as photosensitizer. GPDG-based hydrogels could sustain DG release in the wound microenvironment. Furthermore, biocompatible GPDG hydrogels possessed robust antibacterial and cell proliferation-promotion bioactivities. When RAW264.7 cells were cultured on hydrogel scaffolds, the hard property of high-GPDG triggered excessive pro-inflammatory responses. On S. aureus-infected full-thickness skin wound test, low-GPDG demonstrated remarkable capacities in mitigating inflammatory infiltration, enhancing cell migration, facilitating macrophages M2 polarization and epithelialization, suppressing excessive collagen accumulation, which predominantly facilitated wound regeneration. In contrast, high-GPDG caused excessive inflammation and fibrosis in the wound, which was not beneficial for wound closure, ultimately resulting in apparent scars. Collectively, the study highlighted the significant role of soft GPDG hydrogels for the regenerative healing of infected wounds.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Wang Zhuxian",
+        "Luo Ming",
+        "Ni Lehuan",
+        "Li Yimeng",
+        "Liu Dan",
+        "Zhu Hongxia",
+        "Xia Bijun",
+        "Liu Yuanyuan",
+        "Liu Qiang",
+        "Yang Bin"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124712",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371852",
+      "title": "Neuroprotective effects of yeast β-glucan with different degrees of oxidation against Pb-induced toxicity in PC12 cells and cognitive impairment in mice.",
+      "abstract": "In this study, yeast β-glucans with different degrees of oxidation (OYG1 and OYG2) were prepared, and their neuroprotective effects were investigated at the levels of neural cells, synapses, and the blood-brain barrier (BBB). 13C NMR analyses confirmed the successful conversion of primary hydroxyl groups to carboxyl groups via TEMPO-mediated oxidation, and titration experiments showed that OYG2 had a higher oxidation degree (69 %) than OYG1 (36 %). Both OYGs mitigated the Pb-induced reduction in cell viability in PC12 cells and preserved the structural integrity of neurons in the brain of Pb-exposed mice. However, OYG2 exhibited better neuroprotective efficacy than OYG1, and only OYG2 significantly improved spatial memory in mice. In PC12 cells, OYGs enhanced mitochondrial membrane potential (MMP) by reducing intracellular oxidative stress, thereby maintaining calcium homeostasis and promoting CaMKII and CREB phosphorylation. In mice, OYGs protected the integrity of the BBB by upregulating the expression of tight junction (TJ) proteins. Furthermore, OYGs improved the stability of neural signal transmission by increasing synaptic protein expression and nitric oxide (NO) levels. These findings provide novel insights into the underlying mechanism of oxidized polysaccharides in mitigating Pb-induced neuronal damage and cognitive impairment.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Zhu Xinyi",
+        "Chen Shuai",
+        "Hao Gengxin",
+        "Huang Qilin"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124711",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371850",
+      "title": "Decoding the pharmacokinetics of intravenous lentinan: A multiscale journey from the blood to hepatic Kupffer cells' lysosomes.",
+      "abstract": "Lentinan (LNT), a natural polysaccharide, has been widely used as an immunomodulator in clinical therapy for decades. However, due to the difficulty of detection, its pharmacokinetics after intravenous injection have been less studied, limiting its further application. The aim of this study was to investigate the complete fate of intravenous LNT and the related mechanisms. Utilizing the latest radioisotope detection method, we quantified the blood concentration of intravenous LNT and confirmed the biphasic elimination characteristic of LNT. We obtained the relevant pharmacokinetic parameters, with T1/2α and T1/2β values of 0.304 and 5.934 h, respectively. Subsequent in vivo distribution studies demonstrated that Kupffer cells (KCs) were associated with the hepatic distribution and metabolism of LNT. In vitro experiments showed that LNT was transported to lysosomes for metabolism after it entered KCs. Mechanistic studies revealed that complement receptor 3 (CR3) recognizes and binds to LNT. In addition, the CR3/Src/Syk/FAK signaling pathway mediated the uptake of LNT by KCs and influenced the subsequent metabolism by regulating lysosomal acidification. In conclusion, this study revealed the in vivo fate and the related mechanisms of LNT from the macroscopic to microscopic levels, which will facilitate further explorations and studies of LNT and other β-glucans.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Mu Xu",
+        "Wang Jinglin",
+        "Wan Shuai",
+        "Wang Jingyi",
+        "Huang Lei",
+        "Wu Nire",
+        "Zhan Yuxue",
+        "Liu Yuxuan",
+        "Zhang Yu",
+        "Zheng Ziming",
+        "Ding Kan",
+        "Wang Kaiping"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124706",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371849",
+      "title": "β-glucan nanotubes improve oral doxorubicin delivery for colorectal cancer by microbiota-mediated colon targeting and reduced toxicity.",
+      "abstract": "Traditional chemotherapy against colorectal cancer (CRC) is limited by systemic toxicity and side effects, highlighting the need for safe and effective drug delivery systems. In this study, β-glucan self-assembled nanotubes (β-gluSNTs) were developed as colon-targeted delivery platforms, which enable microbiota-triggered drug release in the colon. By encapsulating the typical chemotherapeutic agent doxorubicin (DOX) within these nanotubes, the obtained β-gluSNTs-DOX complex was oral administrated to against CRC in an orthotopic mouse model, with a tumor suppression rate reaching 42.55 ± 0.18 %. β-gluSNTs-DOX exhibited high drug-loading capacity (30.5 ± 0.16 %) and protected DOX from premature release in the upper gastrointestinal tract, resulting in enhanced drug accumulation at the colonic tumor site. Notably, due to encapsulation of DOX inside the β-gluSNTs, the β-glucan shell helps alleviate oral DOX-induced systemic toxicity, inflammation, and gut microbiota dysbiosis, while promoting M1 macrophage polarization and antitumor immunity, thereby synergistically enhancing the oral therapeutic efficacy of DOX. In summary, these findings suggest that β-glucan-based nanotubes represent a promising, low-toxicity, colon-targeted delivery system for CRC therapy with additional benefits in regulating the gut microbiota and tumor immune microenvironment.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Gao Ziwei",
+        "Hou Xiaoying",
+        "Tang Jun",
+        "Qin Yi",
+        "Hu Junjie",
+        "Qiu Zhenpeng",
+        "Wang Qi",
+        "Chang Cong",
+        "Chen Xinyan",
+        "Shi Zhaohua",
+        "Zheng Guohua",
+        "Du Hongzhi",
+        "Song Guisheng",
+        "Meng Yan"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124705",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371848",
+      "title": "Inhibited hydration of xanthan gum under synergistic high-pH/Ca2+ conditions: Rheological behavior and molecular dynamics simulations.",
+      "abstract": "Investigating the hydration behavior of xanthan gum (XG) under strongly alkaline and salt-containing conditions is essential for its reliable application in water-based drilling fluids and enhanced oil recovery (EOR) systems. In particular, the molecular mechanisms governing its hydration and rheological behavior under the coexistence of high-pH and Ca2+ conditions remain poorly understood. In this work, XG systems with varying pH and Ca2+ concentrations were examined through rheological measurements, structural characterizations, and molecular dynamics (MD) simulations. The results revealed that varying either pH or Ca2+ concentration alone exerted only limited effects on hydration and viscosity, whereas their coexistence above critical thresholds (pH > 12.0 and [Ca2+] ≥ 14 mM) led to a sharp viscosity loss and the formation of insoluble deposits. Remarkably, hydration and viscosity could be restored by chelating Ca2+ or lowering pH, indicating a reversible coordination-driven inhibition process rather than irreversible degradation of the XG backbone. Structural and MD simulation analyses jointly demonstrated that Ca2+ interacts with deprotonated carboxy groups on XG chains via electrostatic bridging and coordination, thereby restricting molecular extension and water accessibility. These findings provide molecular-level insights into the behavior of XG in complex ionic environments and hold important implications for its engineering applications.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Wu Yu",
+        "You Fuchang",
+        "Zheng Yancheng"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124704",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371847",
+      "title": "Mechanisms of heat-activated soy protein isolate-chitosan oligosaccharide complexation: Synergistic interactions for enhanced gelation.",
+      "abstract": "The strategic utilization of natural polysaccharides presents a critical approach for enhancing the gelation properties of soy protein isolate (SPI), which is a key factor in developing superior plant-based food textures. This study demonstrates a strategic technique to enhance SPI gel properties via preheating treatment and electrostatic complexation with chitosan oligosaccharide (COS). Structural analyses revealed that preheating and electrostatic complexation induced SPI unfolding, facilitating conformational transitions toward β-sheet (increased from 53.00 % to 65.35 %) and β-turn (increased from 5.10 % to 7.60 %) configurations while exposing buried tryptophan residues. Fourier-transform infrared spectroscopy, surface hydrophobicity, measurement of interaction force, and molecular docking confirmed that SPI-COS complexation was driven by synergistic electrostatic attractions, hydrogen bonds, van der Waals forces, and hydrophobic interactions. Increasing COS concentration (0-0.16 %, w/v) progressively enlarged complex particle size (100-350 nm) but reduced colloidal stability, as evidenced by turbidity, ζ-potential, and cryo-scanning electron microscopy. Critically, COS incorporation at 0.08-0.16 % (w/v) significantly elevated storage modulus (increased by 275 %) and viscosity while optimizing the regulation of bound and immobilized water in a concentration-dependent manner. These findings establish that COS-mediated electrostatic complexation restructures SPI networks into mechanically robust gels, providing a green strategy for next-generation plant-based foods.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Wan Wei",
+        "Zhang Rui",
+        "Gao Lingyi",
+        "Jian Aijun",
+        "Xu Xianbing",
+        "Na Xiaokang",
+        "Du Ming",
+        "Zhu Jianyu",
+        "Zhu Beiwei",
+        "Wu Chao"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124703",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371845",
+      "title": "Cellulose nanofibrils-based emulgels: Impact on surface film formation and performance as slow-release fertilizers.",
+      "abstract": "Conventional slow-release fertilizers often suffer from poor structural control and inefficient nutrient release, leading to environmental pollution and resource waste. To address this challenge, we developed a biphasic emulgel system that combines chloroform (CHCl₃)/poly(lactic acid) (PLA) droplets stabilized by cellulose nanofibrils (CNF)/nanochitin (NCh) as the oil phase with a CNF/poly(acrylic acid) (PAA) gel matrix containing hydrophilic particles. During 3D printing through low-surface-energy nozzles, shear forces trigger spontaneous phase separation, driving PLA to form a continuous surface film that encapsulates the printed microstructure-a design that enables precise control over nutrient release. Unlike conventional systems, this surface film forms independently of the hydrophilic fillers in the gel phase, ensuring structural robustness. As a proof-of-concept, urea-loaded scaffolds exhibited sustained release, with only 69 % cumulative release after 31 days in soil column tests. Release kinetics followed the Korsmeyer-Peppas model (n > 0.5), indicating an anomalous transport mechanism governed by both diffusion and matrix relaxation. This platform not only overcomes the limitations of traditional fertilizers but also opens new avenues for designing hierarchically structured, programmable release systems for agriculture and beyond.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Cheng Yanpeng",
+        "Yang Zhaolin",
+        "Guo Rao",
+        "Zhu Mengqi",
+        "Xia Yuchao",
+        "Yu Liwen",
+        "Li Zhiguo",
+        "Wang Chengyu",
+        "Huan Siqi"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124692",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371844",
+      "title": "Zn2+-DTPMPA chelated cellulose nanocrystal hybrid: synergistic flame-retardant, antibacterial and mechanical reinforcement mechanisms for PA66 composites.",
+      "abstract": "The inherent flammability, lack of antibacterial function, and \"performance-sustainability trade-off\" caused by traditional additives of polyamide 66 (PA66) severely restrict its application in safety-critical fields like aerospace and medical devices. Thus, this study prepared a green bio-nanohybrid (DCZ) by constructing interfacial chelation between Zn2+ and diethylene triamine penta(methylene phosphonic acid) (DTPMPA) on the surface of cellulose nanocrystals (CNC). When compounded with PA66, DCZ exhibits excellent properties: limiting oxygen index (LOI) reaches 31.3 %, peak heat release rate (pHRR) decreases by 65.3 %, total heat release (THR) decreases by 26.8 %, and no melt dripping as well as good antibacterial performance. Notably, the chelation-induced cross-linked interphase also improves the material's tensile strength by 61.9 %. After 30 days of UV irradiation or immersion in pH 3-11 solutions, the LOI loss remains less than 4 %, breaking the bottleneck of poor weather resistance of traditional flame-retardant PA66 under harsh environments. This strategy upgrades PA66 into a multifunctional \"safety material\" platform, which can be processed into films, fibers and complex profiles. It provides a green and feasible technical path for the development of high-end safety materials for aerospace interiors, medical devices and other fields.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Long Gang",
+        "Ma Xue",
+        "Yu HouYong",
+        "Jin Meijin",
+        "Chen Xuefei",
+        "Wang Xiaohua",
+        "Yao Zengwen",
+        "Ge Dengteng",
+        "Zeng Cheng",
+        "Wang Shengjian",
+        "Zang Haojie",
+        "Jiang Yi"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124691",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371843",
+      "title": "Effects of rice starch esterified with citric acid and malic acid: Functional properties and structural characteristics.",
+      "abstract": "Rice starch faces limitations in healthy food applications due to its rapid digestibility, which leads to high glycemic responses. To regulate its digestion properties, this study employed citric acid (CA) and malic acid (MA) for esterification modification of rice starch, systematically comparing their differences in degree of substitution (DS), structure, and functional properties. Results demonstrated that, owing to its structural advantage of three carboxyl groups, CA exhibited significantly higher modification efficiency than MA. Under 40 % acid concentration, the DS of CA-modified starch (0.650) was more than twice that of the MA-modified product (0.320). Structural analyses revealed that esterification disrupted the crystalline regions and hydrogen bonding network of starch, resulting in reduced gelatinization enthalpy, while forming a more homogeneous amorphous structure. Most importantly, in vitro digestion experiments confirmed that modification significantly increased the resistant starch content, particularly in CA-modified starch (CRS), which achieved an RS content as high as 62.0 % and an estimated glycemic index (GI) of 54.8. This study elucidates an effective method for regulating the digestibility of rice starch through organic acid esterification, providing a theoretical foundation for its high-value application in the development of low-GI healthy staple foods.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Zheng Huixin",
+        "Ma Chunmin",
+        "Bian Xin",
+        "Wang Bing",
+        "Xu Yue",
+        "Zhang Guang",
+        "Liu Xiaofei",
+        "Wang Yan",
+        "Yang Yang",
+        "Zhang Na"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124690",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371842",
+      "title": "Physicochemical and physiological characteristics of resistant starch type 5 derived from rice starch beta-limit dextrin.",
+      "abstract": "In this study, resistant starch (RS) type 5 was prepared via complexation of beta-limit dextrin (BLD) from rice starch and lauric acid (LA), and its physicochemical and physiological properties were characterized. The production of BLD was confirmed by reductions in molecular weight and the α-1,4/α-1,6 linkage ratio (41.32 to 6.42) compared to native starch. The BLD exhibited great complex-forming ability with LA, as indicated by high complex melting enthalpy and a pronounced V-type crystalline structure. The RS content of the BLD complex with LA (BLD × LA) determined by in vitro assay was 27.5 %. Consumption of BLD × LA in a mouse model resulted in a tendency toward a lower blood glucose response after ingestion. After five weeks of dietary supplementation, the BLD × LA group showed no significant changes in an oral glucose tolerance test or insulin resistance but exhibited a positive effect in the food efficiency ratio. Additionally, hepatic fat accumulation was suppressed in mice fed the BLD × LA diet, likely through regulation of hepatic lipogenesis and cholesterol homeostasis. Overall, this study demonstrated the excellent lipid inclusion complex-forming ability of BLD and suggested its potential as a source of RS type 5 based on the verified effects in both in vitro and in vivo models.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Kim Ha Ram",
+        "Park Hye-Ryung",
+        "Kang Yu-Ra",
+        "Choi Hee-Don",
+        "Shin Kwang-Soon",
+        "Hong Jung Sun"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124686",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371841",
+      "title": "Moderate drought stress followed by re-watering enhances wheat starch biosynthesis, improving granule size distribution and physicochemical properties.",
+      "abstract": "Wheat growth is often restricted by drought, but crops have a water compensation effect. This study explored the effects of rewatering after different degrees of drought stress in the early stage of grain-filling (1-10 days post anthesis) on starch synthesis, yield, starch particle size distribution and physicochemical properties of two wheat varieties with different drought tolerance. Compared to the well-watered control (CK; soil relative moisture 70-75 %), mild drought followed by re-watering (MR; soil relative moisture 50-55 %) enhanced the activity and gene expression level of XN836 and XN979 starch synthases, increased the content of starch and sucrose, accelerated the conversion of sucrose to starch and thereby raised the wheat yield. Concurrently, MR increased starch granule size, swelling power, and water solubility, while decreasing relative crystallinity, short-range molecular degree of order, gelatinization temperature, and gelatinization enthalpy, ultimately improving starch quality. Dynamic rheology further revealed enhanced elastic behavior in starch under MR treatment. In contrast, severe drought followed by re-watering (SR; soil relative moisture 35-40 %) exhibited the opposite trends in both cultivars. Furthermore, XN836 demonstrated superior recovery capacity following drought and re-watering compared to XN979. These findings provide a theoretical basis for adaptive wheat management strategies under future climate change scenarios.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Wen Jialu",
+        "Feng Jingyi",
+        "Yao Jianfeng",
+        "Xiao Jianke",
+        "Nangia Vinay",
+        "Li Juan",
+        "Liu Yang"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124685",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371840",
+      "title": "Fine-tuning the mechanical and degradation properties of chemically crosslinked hyaluronic acid hydrogels through salt treatment.",
+      "abstract": "This study proposes a novel method to fine-tune hyaluronic acid (HA) hydrogel properties by incorporating salt into the HA solution prior to crosslinking. The salt is hypothesized to influence HA chain conformation and HA-HA interactions mainly through the Hofmeister effect and electrostatic interactions, thereby affecting HA degree of modification (DoM), degree of crosslinking (DoCr), and chain arrangement within the hydrogel network. These changes become fixed upon crosslinking, resulting in stable modifications persisting after salt removal. To verify this, HA solutions (5 % w/v) were crosslinked with 1,4-butanediol diglycidal ether (BDDE) after adding a sodium salt from the Hofmeister series (sodium citrate, sodium sulfate, or sodium chloride; 0-0.67 M). Following crosslinking and salt removal, the hydrogels were characterized using NMR, swelling, rheological, and degradation tests. Results demonstrated that salt treatment influenced swelling ratio, mechanical properties, and degradation rates, with changes depending on salt type and concentration. NMR analysis confirmed that salts did not directly participate in crosslinking but affected DoM and DoCr. Changes in hydrogel properties were primarily driven by DoM alterations, with potential contributions from non-covalent interactions and modified HA chain arrangement. This salt treatment technique may enable designing hydrogels with unique properties not achievable by simple changes in crosslinker concentration.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Moeini Mohammad",
+        "Hidjir Tesnime",
+        "Mafeld Sebastian",
+        "Matsuura Naomi"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124682",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371839",
+      "title": "A water-soluble β-cyclodextrin polymer reduces cholesterol accumulation and autophagy dysfunction in vitro and in Niemann-Pick type C disease model mice.",
+      "abstract": "Niemann-Pick disease type C (NPC) and Alzheimer's disease (AD) are characterised by cognitive dysfunction and neurological impairment. In both diseases, the abnormal accumulation and disruption of cholesterol homeostasis in the brain may contribute to the pathogenesis and exacerbation of symptoms. Cyclodextrins (CDs) are attracting attention as therapeutic agents that can reduce free cholesterol in the brain. A water-soluble β-CD polymer (β-CDP) consisting of multiple β-CDs cross-linked by epichlorohydrin was recently developed and reportedly has improved safety and higher circulation time in the bloodstream. In this study, we evaluated the potential of β-CDP as a promising therapeutic agent for NPC and AD. β-CDP lowered free cholesterol levels and reversed autophagy dysfunction in cholesterol-accumulated human neuroblastoma cells. Longer circulation time in the bloodstream and reduced cholesterol accumulation in NPC mice were also observed after its subcutaneous administration. These results suggest that β-CDP may be a safe therapeutic agent in the treatment of NPC and AD.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Kubohira Yuto",
+        "Okano Nanami",
+        "Taharabaru Toru",
+        "Ishimatsu Arina",
+        "Era Takumi",
+        "Yanagihara Kazunori",
+        "Ishikura Kandai",
+        "Nakagawa Yoshinori",
+        "Higashi Taishi",
+        "Motoyama Keiichi"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124676",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    },
+    {
+      "pmid": "41371836",
+      "title": "Physicochemical properties and fine structural characterization of starch during wheat milling: A comparison of milling methods.",
+      "abstract": "Starch is a key component in determining wheat flour quality, yet the effects of different milling methods on its structure and physicochemical properties remain underexplored. This study focuses on comparing the effects of mechanical forces from three representative milling methods, shear, compression, and impact, on the physicochemical properties and fine structure of wheat starch. Unlike previous studies milling purified starch, this research shows that shear milling causes the least damage to starch granules, keeping them mostly intact. The starch solubility (∼14.7 %) and swelling power (∼9.7 g/g) are the lowest with this method. In contrast, compression milling significantly damages the starch granules, reducing crystallinity and increasing solubility to ∼26.5 %. Additionally, starch from compression milling shows the highest pasting viscosity and the lowest pasting enthalpy, indicating increased water absorption but decreased thermal stability. Impact milling affects the starch properties to a degree between shear and compression milling. Fine structural analysis reveals that compression milling causes more branching in starch molecules, converting them into free short chains and increasing amorphous content, while shear milling largely preserves the starch's natural structure. These findings provide guidance for selecting appropriate milling strategies in grain processing and customizing flour functionality.",
+      "journal": "Carbohydrate polymers",
+      "year": "2026",
+      "month": "Feb",
+      "day": "15",
+      "medline_date": null,
+      "authors": [
+        "Zhou Yurong",
+        "Zhang Jing",
+        "Chen Chao",
+        "Yao Yijun",
+        "Xiong Wenfei",
+        "Jiang Donglei",
+        "Ma Yan",
+        "Zhang Na",
+        "Wang Lifeng"
+      ],
+      "doi": "10.1016/j.carbpol.2025.124608",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "sortdate": "2026-02-15"
+    }
+  ]
+}
