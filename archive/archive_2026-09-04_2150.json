@@ -1,0 +1,416 @@
+{
+ "run_timestamp_utc": "2026-09-04_2150",
+ "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE=ar) paged search (query 'ISSN(0144-8617) AND DOCTYPE(ar)', date=2024-2026, up to 1200 most-recent entries scanned) + PubMed E-utilities (ESearch by DOI[AID] / EFetch) cross-check for publication type (Journal Article, non-Review), abstract, and full author list; title-based heuristic filters applied first to exclude review-style titles and microbe-biology-centric titles, then verified against PubMed PublicationType field. 167 eligible unseen candidates identified after filtering out of 195 unseen DOIs found in the 1200-entry scan; 25 most recent, fully-verified research articles selected for this report (remaining ~142 eligible candidates left unprocessed for future runs).",
+ "target_count": 20,
+ "collected_count": 25,
+ "eligible_candidates_found": 167,
+ "articles": [
+  {
+   "doi": "10.1016/j.carbpol.2026.125795",
+   "title": "The ss3a/be2b double mutant yields high resistant starch through cooperative regulation of starch fine structure in indica rice.",
+   "authors": [
+    "Yining Ying",
+    "Jiayuan Chang",
+    "Zhongwei Zhang",
+    "Lin Zhang",
+    "Xuexue Wang",
+    "Chengqi Yan",
+    "Jinsong Bao"
+   ],
+   "pubdate": "2026-10-15",
+   "abstract": "Rice starch biosynthesis is governed by multiple enzymes, among which soluble starch synthase IIIa (SSIIIa) and starch branching enzyme IIb (BEIIb) play critical but distinct roles in determining starch fine structure. However, their combined effects on starch fine structure and physicochemical properties are not fully understood. Herein, we generated a double mutant ss3a/be2b in the indica variety GLA4 by crossing a radiation-induced SSIIIa mutant with a CRISPR/Cas9-generated BEIIb knockout mutant. The double mutant displayed a floury endosperm with irregular starch granules, an amylose content of 50.8% (on starch basis) and a high resistant starch content of 5.92% (on flour basis), approximately 2.7-fold that of the wild type. Its amylopectin chain-length distribution resembling that of ss3a, characterized by increased A and B2 chains and decreased B1 and B3 chains, which resulted in a mixed B- and V-type crystalline pattern and markedly decreased relative crystallinity. The gelatinization temperatures of ss3a/be2b were comparable to those of the wild type, but it showed lower gelatinization enthalpy and extremely low pasting viscosities. These findings demonstrate that SSIIIa and BEIIb cooperatively but non-redundantly regulate starch fine structure and functionality. The double mutant provides a promising genetic resource for developing high resistant starch rice with potential health benefits.",
+   "pmid": "42692652"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2026.125786",
+   "title": "An injectable kappa-carrageenan/konjac-glucomannan microgel platform for localized and controlled release of doxorubicin-loaded biomimetic nanoparticles.",
+   "authors": [
+    "Oshrat Regev-Yehishalom",
+    "Ofri Vizenblit",
+    "Viktor Osmanov",
+    "Galia Hendel",
+    "Assaf Zinger",
+    "Havazelet Bianco-Peled"
+   ],
+   "pubdate": "2026-10-15",
+   "abstract": "Polysaccharide-based physical hydrogels are promising drug-delivery platforms due to their biocompatibility, tunable mechanical properties, and reversible crosslinking. However, bulk hydrogels may require in situ gelation for administration, while controlled release of nanoparticles larger than the hydrogel mesh remains challenging. This study aimed to develop an injectable konjac glucomannan (KGM)-kappa carrageenan (KCAR) microgels platform, based on a previously established bulk hydrogel system, for the sustained delivery of doxorubicin (Dox)-loaded liposomes and protein-containing biomimetic nanoparticles termed Tumorosomes (Tumoro). Microgels were fabricated using a mild-temperature water-in-oil batch-emulsion method compatible with protein-containing nanoparticles. Incorporation of liposomes or Tumoro did not significantly affect microgel size or rheological properties. All formulations exhibited solid-like behavior at low strain, shear-thinning, and rapid structural recovery after high strain, supporting injectability. The reversible KGM-KCAR network enabled complete nanoparticle release within 48 h under physiological conditions. Empty microgels did not reduce 4 T1 cell viability, whereas Dox-loaded nanoparticles released from the microgels retained cytotoxic activity. Tumoro-loaded microgels produced a greater reduction in cell viability than dispersed Tumoro after 24 h, consistent with sustained release and enhanced Tumoro-cell association. These findings establish KGM-KCAR microgels as a preformed injectable platform with potential for localized and sustained delivery of protein-containing biomimetic nanoparticles in cancer therapy.",
+   "pmid": "42692648"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2026.125753",
+   "title": "Structural tuning of galactomannan-poly(ε-caprolactone) nanocapsule hybrid hydrogels mediated by 1,2,3,4-butanetetracarboxylic acid.",
+   "authors": [
+    "Jóice M Scheibel",
+    "Laiane S da Silva",
+    "Daniela L T Schmitt",
+    "Lucca S de Avila",
+    "Lucimara M C Cordeiro",
+    "Melanie Gettinger",
+    "Martin Bick",
+    "Tim J Stank",
+    "André Conceição",
+    "Yvonne Hannappel",
+    "Thomas Hellweg",
+    "Karina Paese",
+    "Rosane M D Soares"
+   ],
+   "pubdate": "2026-10-15",
+   "abstract": "Hybrid hydrogel-nanocapsule systems are promising platforms for topical drug delivery; however, the impact of polymer structural modulation on nanocapsule organization and multiscale structure-property relationships remains insufficiently understood. Herein, galactomannan-poly(ε-caprolactone) (PCL) hybrid hydrogels containing α-bisabolol-loaded nanocapsules were prepared with different BTCA concentrations to investigate the effect of polymer chain modulation on nanocapsule organization and physicochemical properties. The resulting systems were characterized by a multiscale approach combining photon correlation spectroscopy (PCS), high-performance size exclusion chromatography (HPSEC), Fourier transform infrared spectroscopy (FTIR), cryogenic transmission electron microscopy (cryo-TEM), small- and wide-angle X-ray scattering (SAXS/WAXS), differential scanning calorimetry (DSC), and rheological analysis. α-Bisabolol-loaded poly(ε-caprolactone) nanocapsules (BNC) exhibited a hydrodynamic radius of 98 ± 1 nm. HPSEC demonstrated a concentration-dependent reduction in the weight-average molar mass of galactomannan from ~1.5 ∙ 106 g/mol, confirming chain modification, consistent with FTIR analysis. WAXS and DSC confirmed preservation of the semicrystalline PCL lamellar structure under hydrated conditions, whereas rheological analyses revealed reduced chain entanglement while maintaining shear-thinning behavior. These findings establish direct structure-property relationships, demonstrating the potential of BTCA-mediated galactomannan modulation to control nanocapsule organization and engineer hybrid hydrogels for topical drug delivery.",
+   "pmid": "42692625"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124277",
+   "title": "Terahertz spectroscopy on starches from various botanical sources: Identification of starch types with high absorption peaks.",
+   "authors": [
+    "Shusaku Nakajima",
+    "Chiko Otani",
+    "Ryutaro Morita"
+   ],
+   "pubdate": "2025-12-01",
+   "abstract": "Terahertz spectroscopy has the potential to serve as a new analytical method for starch in plant samples, with peak intensity being a significant index for quantification. However, the chemical and physical properties of natural starch vary depending on their botanical sources, and authors hypothesize that these factors influence the terahertz peak intensity. This study measured the terahertz spectra of natural starches from different botanical sources within the range of 4.0-15.0 THz and investigated the interactions between starch properties and peak intensities. Eight natural starches exhibited main absorption peaks above 9.0 THz, with the highest peaks observed in corn starch, which has high crystallinity and a particle size approximately 20 μm, corresponding to a minimum value of the incident terahertz wavelength. Additionally, A- and C-type starches exhibited higher peak intensities than B-type starches. This could be due to high crystallinity and the similarity between the particle size and the terahertz wavelength. Furthermore, the baseline was synchronized with peak intensities for all natural starches, demonstrating high correlations. These data suggest that the baseline could serve as an alternative index for starch measurement using terahertz spectroscopy, in place of peak intensities calculated from the second derivative signal.",
+   "pmid": "40973289"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124232",
+   "title": "Reversible and irreversible structural changes of cellulose microfibrils in single cotton fibers during the drying process.",
+   "authors": [
+    "Hiroki Murase",
+    "Kenichi Funaki",
+    "Hiroyasu Masunaga",
+    "Taizo Kabe"
+   ],
+   "pubdate": "2025-12-01",
+   "abstract": "This study investigates the structural evolution of cellulose microfibrils in single cotton fibers during the drying process using simultaneous small- and wide-angle X-ray scattering (SAXS/WAXS) with synchrotron radiation. To examine reversible and irreversible changes, we systematically compared never-dried cotton (NDC) and rewetted cotton (RWC). Scattering profiles across a broad q-range revealed that NDC possesses a significantly thicker amorphous shell surrounding the crystalline core of cellulose microfibrils than RWC. Upon drying, both the crystallite size and crystallinity decreased; however, these changes were largely recovered upon rewetting. In contrast, the amorphous shell underwent irreversible densification and shrinkage. Based on the SAXS profiles and structural parameters derived from a core-shell-cylinder model, the drying process was categorized into three distinct stages. These findings emphasize the critical role of hydration history in determining the nanoscale architecture of cellulose microfibrils and provide new insights into the dynamic structural behavior of cellulose-based fibers.",
+   "pmid": "40973276"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124299",
+   "title": "A versatile and efficient method to quantify purity and degree of substitution in alginate derivatives.",
+   "authors": [
+    "Mabel Barreiro Carpio",
+    "Peter M Thompson",
+    "Christopher Moody",
+    "Joshua G Pierce",
+    "Yevgeny Brudno"
+   ],
+   "pubdate": "2025-12-01",
+   "abstract": "Alginates, versatile polysaccharides extensively utilized in biomedical applications, require chemical modification to enhance their functionality for drug delivery, cell encapsulation, and tissue engineering. Despite their growing importance, the field has been hampered by inadequate analytical methods to assess product quality and accurately determine the degree of substitution (DS). While solution 1H NMR remains the gold standard for analyzing alginate composition, standardized methodologies for precise DS quantification are notably absent, compromising research reproducibility and clinical translation. We present a novel, rapid, high-temperature 1H NMR approach for DS quantification in alginate derivatives that eliminates hydrolysis and complex sample preparation. Combined with diffusion-ordered spectroscopy (DOSY) for rapid purity verification, the method confirms sample purity and detects unreacted materials, preventing DS overestimation caused by residual small molecules, ensuring measurement accuracy and product quality. When applied to quantify DS values up to 30 %, the developed 1H NMR method closely matched elemental analysis, demonstrating reproducibility, accuracy, and robustness. This methodology proved applicable to diverse alginate derivatives. This integrated analytical framework enables reliable characterization of chemically modified alginates, ensures reproducibility, and serves as a robust quality control tool for laboratory research and industrial production. It provides a much-needed platform to accelerate the development of functionalized alginates for advanced biomedical applications.",
+   "pmid": "40973260"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124271",
+   "title": "Structural elucidation and optimization of an immunomodulatory acidic polysaccharide from Amomum tsao-ko: Activity evaluation and degradation-analysis-modification paradigm.",
+   "authors": [
+    "Junran Shao",
+    "Ting Li",
+    "Xin Wang",
+    "Ziming Wang",
+    "Lingxian Liu",
+    "Huanxiang Liu",
+    "Haibo Li",
+    "Xinsheng Yao",
+    "Yang Yu"
+   ],
+   "pubdate": "2025-12-01",
+   "abstract": "A novel acidic polysaccharide, ATP-4, was isolated from Amomum tsao-ko and demonstrated immunomodulatory potential in the immunosuppressed mouse model and cellular assays. Structural characterization via monosaccharide analysis and gel permeation chromatography revealed ATP-4 as a heteropolysaccharide (4.23 × 104 Da), composed of Rha, GalA, Glc, Gal, Xyl, and Ara in a molar ratio of 9.03:52.37:7.89:12.34:6.47:11.89. Integrated analysis of conventional techniques (PMP-HPLC, GC-MS, and NMR) and UPLC-Orbitrap-MS/MS profiling of free radical-degraded components (AO-1/2/3) elucidated its unique repeating units, which are characteristic of a novel polysaccharide assembled through specific patterns between the HG regions and branched domains such as GRP, RGP, etc. In vitro and in vivo studies demonstrated ATP-4's dual mechanisms: direct immune cell activation and indirect gut microbiota modulation. Notably, active structural domains AO-2 (the nonlinear branched region of ATP-4) significantly induced cytokine production at a lower concentration, guiding activity-directed enzymatic modification of ATP-4. The optimized derivative, ATP-4e, maintained a nonlinear branching structure while demonstrating enhanced immunoregulatory capacity, improved conformational flexibility, and superior physicochemical properties compared to the native ATP-4. This study establishes an integrated degradation-analysis-modification paradigm for polysaccharide research and provides a methodological framework for elucidating structure-activity relationships of traditional Chinese medicine polysaccharides.",
+   "pmid": "40973286"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124261",
+   "title": "Structural characterization and oxidative stress modulation activity of an acidic Heteropolysaccharide from Microctis folium.",
+   "authors": [
+    "Xiao-Lu Liang",
+    "Yu-Wen Liang",
+    "Jing Tian",
+    "Fei-Fan Mo",
+    "Tian-Ming Pan",
+    "Yan-Feng Chen",
+    "Xiao-Qi Shao",
+    "Kun-Ping Li"
+   ],
+   "pubdate": "2025-12-01",
+   "abstract": "Microctis folium has served as a traditional edible and medicinal herb for centuries. While extensive studies have focused on its secondary metabolites, the structural and functional roles of its polysaccharides remain underexplored. Here, we isolated and characterized of MFP-I, an acidic heteropolysaccharide (8.38 kDa) from M. folium aqueous extract. MFP-I primarily comprises glucuronic acid (33.6 %), D-galactose (25.9 %), L-rhamnose (18.2 %), and galacturonic acid (11.3 %). Structural analysis (methylation, 1D/2D-NMR) revealed a backbone of →3,6)-β-D-Galp-(1 → 2,4)-α-L-Rhap-(1 → 4)-α-D-GalAp-(1 → 3)-α-L-Rhap-(1 → 3)-β-D-GlcAp-(1→, with a β-D-Galp-(1 → 6)-β-D-Galp-(1 side chain attached to the O-3 position of the →3,6)-β-D-Galp-(1 → residue, and another α-D-Glcp-(1 → 6)-α-D-Glcp-(1 → 4,6)-α-D-Glcp-(1 → linked to the O-2 position of the →2,4)-α-L-Rhap-(1 → residue. Additionally, an α-L-Araf-(1 → 5)-α-L-Araf-(1 → motif is linked to the O-4 position of →4,6)-α-D-Glcp-(1 → in the latter branched chain. MFP-I exhibited potent antioxidative activity via DPPH· and ·OH radical scavenging, and conferred neuroprotection in H2O2-stressed HT-22 cells and LPS-stimulated BV2 microglia. Mechanistically, its efficacy was linked to Keap1-Nrf2 pathway modulation and neuroinflammation attenuation. Furthermore, MFP-I significantly reduced tBHP-induced ROS levels (p < 0.01), and extended the mean lifespan of tBHP-challenged Caenorhabditis elegans by 11.12 % (200 μg/mL) and 19.15 % (400 μg/mL), as well as the whole lifespan curves (p < 0.05). This work bridges a critical knowledge gap in M. folium polysaccharides and highlights their therapeutic potential.",
+   "pmid": "40973250"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124262",
+   "title": "Deacetylation mediated non-covalent assembly for regulating sol-gel behavior of chitin-NaOH solution.",
+   "authors": [
+    "Xinghuan Lin",
+    "Zhiqiang Liu",
+    "Ming Lei",
+    "Jiaying Xie",
+    "Hanji Chen",
+    "Shanshan Li",
+    "Bo Duan"
+   ],
+   "pubdate": "2025-12-01",
+   "abstract": "The development of high-performance chitin-based materials regenerated from solutions is fundamentally constrained by the insufficient mechanistic understanding of how the degree of deacetylation (DD) governs molecular interactions, self-assembly pathways, and resultant hierarchical architectures. Herein, we systematically investigate the DD-dependent solution and gelation properties of chitin homogeneous systems, followed by unveiling the molecular interaction-induced self-assembly mechanisms that precisely regulate gels aggregation structures and mechanical properties. Competitive non-covalent interactions‑hydrogen bonding versus hydrophobic forces (modulated by DD)-orchestrate distinct molecular assembly modes, yielding tunable gels morphologies and properties. At low DD, hydrophobic dominance triggers rapid phase-separated gelation, forming mechanically weak gels with macroporous architectures. Intermediate DD establishes relative equilibria between hydrophilic/hydrophobic interactions, enabling a weak non-covalent network of solution with a low viscosity and a high gelation temperature, which result in relatively loose aggregated structures within gels and compromised mechanical properties. At high DD, hydrogen bonds-directed chains self-assembly prevails, fostering dense non-covalent networks and crystalline structures of gels that exhibit excellent mechanical properties. Deep insights of the gelation behavior of chitin solutions will fill in the gaps of chitin research, further revealing the self-assembly behavior of chains and aggregated structure of gels, which enable to manipulate the properties of chitin-based hydrogels accurately.",
+   "pmid": "40973251"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124278",
+   "title": "A Transformer-based framework with generative spectral augmentation for online monitoring of hyaluronic acid fermentation.",
+   "authors": [
+    "Weilu Tian",
+    "Lixuan Zang",
+    "Yunyi Li",
+    "Cheng Peng",
+    "Jinhua Zhang",
+    "Huarong Shao",
+    "Ruiqing Xian",
+    "Ru Sun",
+    "Fei Liu",
+    "Haining Tan",
+    "Peixue Ling"
+   ],
+   "pubdate": "2025-12-01",
+   "abstract": "Accurate and real-time monitoring of the molecular weight and concentration of hyaluronic acid (HA) during fermentation is critical for ensuring product quality control. Near-infrared (NIR) spectroscopy offers rapid, cost-effective, and non-destructive on-site analysis capabilities. However, the effectiveness of NIR relies on sufficient and reliable spectral data and reference values, which are difficult to obtain given the complexity and variability of the fermentation process. To address this challenge, this study proposes a novel online monitoring framework integrating data augmentation and deep learning. By employing Wasserstein GAN with gradient penalty (WGAN-GP) to generate high-fidelity synthetic spectra, the calibration dataset was significantly expanded, thereby enhancing model robustness. Concurrently, an improved Transformer model was developed to effectively capture the complex spectral features inherent in the fermentation process. Experimental results demonstrate that the proposed method surpasses traditional PLSR, as well as commonly used 1D-CNN and LSTM models, in prediction accuracy and generalization on independent test sets. This research highlights the promising potential of integrating advanced data augmentation with deep learning, offering a powerful and broadly applicable intelligent quality control solution for precise and real-time monitoring of complex biological processes based on NIR spectroscopy.",
+   "pmid": "40973290"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124265",
+   "title": "A single chitosan-based fluorescent sensor for the discriminant analysis and quantitative detection of bisulfite and oxytetracycline in real samples.",
+   "authors": [
+    "Chao Gao",
+    "Rui-Xue Li",
+    "Xiang Li",
+    "Zhenxing Zhong",
+    "Jia-Hui Wang",
+    "Wei Li"
+   ],
+   "pubdate": "2025-12-01",
+   "abstract": "The excessive use of bisulfite (HSO3-) and oxytetracycline (OTC) not only poses a significant threat to the environment, but also leads to a multitude of health issues in humans via the food chain. Consequently, there is a pressing need to develop an efficient method for the rapid, convenient, accurate, and real-time detection of HSO3- and OTC in food products and environmental water. In this study, we investigated a novel chitosan-based fluorescent sensor, CABA - CNF, which enabled a dual response to HSO3- and OTC through distinct emission channels. Moreover, due to the signal amplification effect, the polymeric sensor CABA - CNF exhibited low detection limits of 13 nM for HSO3- and 19 nM for OTC, along with rapid response times of 10 s and 6 s, respectively. Furthermore, by employing a smartphone-based sensing platform, the sensor CABA - CNF successfully quantified HSO3- and OTC in actual food and water samples with high accuracy and reliability.",
+   "pmid": "40973283"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124243",
+   "title": "Wood fiber reinforced oxidized starch-based composite foam: biobased, flame retardant and hydrophobic.",
+   "authors": [
+    "Jinxing Li",
+    "Tatjana Stevanovic",
+    "Denis Rodrigue",
+    "Shan Li",
+    "Rongrong Li",
+    "Xiaodong Alice Wang"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "In this study, a novel foaming method combining chemical modifications, mechanical stirring and solvent exchange was proposed for successful preparation of novel starch-based foams with high biomass content based on oxidized starch (OC). The method overcomes the limitations of traditional foaming means in the preparation of large-volume starch-based foams and provides a new path for their sustainable application as building insulation materials. By introducing birch wood fiber (WF), the biobased flame retardant (PC) and methyltrimethoxysilane solution (MTMS), the mechanical properties, flame retardancy and hydrophobicity of the foam have been significantly improved. Fourier transform infrared spectroscopy (FTIR) was applied to confirm the cross-linking reaction between the materials, and scanning electron microscopy (SEM) revealed that the foams and composite foams had homogeneous cellular structures. The samples produced through optimized procedures were determined to have excellent overall properties, including high bulk modulus, good thermal stability, self-extinguishing characteristics (no melt droplets, UL-94 HBF grade), low pulverization ratio and thermal conductivity, demonstrating their potential for replacing traditional polyurethane (PU) and polystyrene (EPS) foams.",
+   "pmid": "40947277"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124166",
+   "title": "Cellulose nanofiber-based aerogel with Janus wettability for superior evaporation performance and synergistic photocatalytic activities.",
+   "authors": [
+    "Bowen Hu",
+    "Dong Shu",
+    "Yangdong Zhou",
+    "Lingling Fan",
+    "Zibui Bai",
+    "Dezhan Ye",
+    "Jie Xu"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "Cellulose nanofiber (CNF)-based aerogels have received extensive attention in solar-driven interfacial evaporation for their high porosity and renewability. However, there are challenges of salt accumulation and limited evaporation efficiency caused by network collapse. This study presents a hierarchical CuS-coated CNF/polyvinyl alcohol (PVA) aerogel for solar evaporators. The Janus-structured aerogel features a localized CuS photothermal layer on a hierarchical, interconnected porous CNF/PVA aerogel. This design minimizes heat loss by isolating the photothermal layer from the water. The dendritic structure of CNFs, the inherent porosity and the Janus wettability of the aerogel could facilitate rapid water transport and prevent salt accumulation. The hydratable skeleton of CNFs and PVA could activate the water state. The CuS@CNF/PVA aerogel demonstrates a high evaporation rate of 3.20 kg m-2 h-1 with an evaporation efficiency of 98.4 % under 1 sun radiation in water. An evaporation rate of 2.51 kg m-2 h-1 is achieved in 20 wt% NaCl solution, positioning the aerogel as a promising material for sustainable desalination applications. Moreover, over 70 % of organic dyes in wastewater could be degraded by photocatalysis of the CuS coating. This work provides an effective approach for developing high-performance solar evaporators with synergistic function of interfacial evaporation and photocatalysis.",
+   "pmid": "40947254"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124079",
+   "title": "Cellulose nanocrystal composite films with bioinspired structural color for mechanically robust passive daytime radiative cooling.",
+   "authors": [
+    "Hao Hu",
+    "Jinlong Feng",
+    "Chuang Jiang",
+    "Qingxi Hou",
+    "Wei Liu",
+    "Dawei Zhao",
+    "Yixiang Wang"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "Passive daytime radiative cooling (PDRC) offers a sustainable solution to global energy challenges by dissipating heat without energy input. However, conventional PDRC materials face trade-offs between biodegradability, color integration, optical transparency, and mechanical robustness. Herein, a biomimetic, structurally colored PDRC film fabricated via evaporation-induced self-assembly of cellulose nanocrystals (CNCs), betaine, and polyvinyl alcohol was developed. By controlling the chiral nematic nanostructure of CNCs, simultaneous transparency and broadband reflectance (71 % across 0.2-2.5 μm) are realized, while maintaining >73 % thermal emittance in the 8-13 μm atmospheric window. The films exhibit exceptional mechanical properties (22 MPa strength, 35 % strain) and tunable structural color, addressing the brittleness and aesthetic limitations of existing PDRC systems. Notably, the resulting film exhibits remarkable passive cooling effects: a 5.9 °C reduction and a 20 °C drop on exposed surfaces compared to the ambient temperature. For the first time, the coordinated optimization of visible light transmittance, solar reflectance and mechanical properties has been achieved. This work not only demonstrates transparent and flexible CNC-based PDRC films with cooling functionality but also addresses a critical gap in sustainable cooling technologies, paving the way for next-generation sustainable cooling technologies in smart buildings and adaptive packaging.",
+   "pmid": "40912762"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124137",
+   "title": "Studying relaxation phenomena in fruit and vegetable pectin-containing cell wall material: a focus on methodology and composition.",
+   "authors": [
+    "J Van Audenhove",
+    "C N Ngong",
+    "A M Van Loey",
+    "M E Hendrickx"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "This study characterizes the relaxation phenomena, particularly the α-relaxation, in the semi-dry alcohol-insoluble residue (AIR) of apple, carrot, and tomato across a relevant moisture content (MC) range. It examines changes in thermal properties via differential scanning calorimetry (DSC), compressibility through thermal mechanical compression testing (TMCT), and viscoelastic properties using dynamic mechanical thermal analysis. Chemical characterization was conducted to link relaxation behavior to polymer composition. DSC showed minimal changes at the relaxation temperature (Tr), but significant differences in relaxation behavior, represented by the Tr-line, among botanical origins were observed. A higher ratio of amorphous polysaccharides to crystalline cellulose and greater pectin branching correlated with lower Tr-values. Mechanical techniques provided clearer signals than DSC due to their direct link to molecular mobility changes with increasing MC or temperature. Except for the carrot AIR Tr-line obtained by TMCT, the AIR Tr-lines were not significantly different among the matrices when assessed by mechanical techniques. This study highlights fundamental aspects and challenges in determining relaxation phenomena in AIR and identifies general trends related to composition. The methods and insights can be used in future studies on the role of cell wall material composition in relaxation phenomena and in predicting associated physical collapse phenomena.",
+   "pmid": "40947187"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124101",
+   "title": "Multifunctional cellulose-based aerogel with ultra-stable superhydrophobicity and thermal responsiveness for oil-water separation.",
+   "authors": [
+    "Zeyuan Lu",
+    "Kunquan Li",
+    "Tinglin Yang",
+    "Shengye Chen",
+    "Xiaojing Su",
+    "Huali Xie",
+    "Xiaojuan Ao",
+    "Wenjian Wu"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "Aerogels are widely used in environmental remediation, but their application is hindered by brittleness, limited oil absorption and poor separation of viscous crude oil. In this study, a multifunctional superhydrophobic aerogel with electrothermal and photothermal effects was prepared from bacterial cellulose (BC), methyltrimethoxysilane (MTMS), and hydroxylated carbon nanotubes (HCNT) by soft-hard synergistic and directed freezing. The prepared aerogel exhibited an oriented layered porous structure with excellent compressibility and oil retention capacity. The aerogel maintained 250 cycles of 25 % strain compression without structural degradation. Because of the presence of Si-CH3, the aerogel maintained a water contact angle above 153° across pH 1-13 and retained superhydrophobicity (WCA ≥ 150°) even after severe abrasion. The prepared aerogel exhibited excellent absorption capacities for various organic solvents and oils, ranging from 45 g/g for n-hexane to 112 g/g for dichloromethane, and retained 96 % of dichloromethane through capillary locking. The well-dispersed HCNT enabled efficient photothermal (117.7 °C) and electrothermal (126.7 °C) conversion, facilitating rapid and continuous separation of crude oil/water mixtures at high fluxes (4.47 × 104 kg·m-3·h-1 and 8.15 × 104 kg·m-3·h-1 under photothermal and electrothermal conditions, respectively). This material holds great potential for practical application in high efficiency oil-water separation, particularly in challenging conditions involving viscous crude oil.",
+   "pmid": "40912773"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124104",
+   "title": "Polyphenolic nanodots loaded multi-layer MXene for strong, tough and rapidly biodegradable polyvinyl alcohol/starch nanocomposites with self-healing ability and improved aging resistance.",
+   "authors": [
+    "Sha Yao",
+    "Jiaojiao Jiang",
+    "Qiaoyu He",
+    "Man Chen",
+    "Jingjing Luo",
+    "Bangchao Zhong",
+    "Zhixin Jia"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "Inspired by spider silk, polyphenolic nanodots (PTa) loaded multi-layer MXene (mMXene-PTa) through hydrogen and coordination bonds was prepared by self-polymerizing tannic acid on mMXene and used as a new crosslinker for polyvinyl alcohol (PVA). Together with starch (ST), mMXene-PTa was compounded with PVA and exfoliated to fabricate PVA/ST/mMXene-PTa nanocomposite. The phenolic hydroxyl groups in PTa formed high-density H-bonds with PVA and ST, creating an organic-inorganic dynamic crosslinking network with mMXene-PTa as nodes. PVA/ST/mMXene-PTa achieved dual effects of reinforcement and toughening owing to the dynamic deformation and reconstruction of this crosslinking network following cyclical breaking and reforming of H-bonds under external loads. For instance, 5 % mMXene-PTa simultaneously increased the tensile strength of PVA/ST blend by 75 % and toughness by 108 %. Even at a 40 % reduced dosage, mMXene-PTa demonstrated comparable enhancements to mMXene in improving PVA/ST blend's strength and toughness. Meanwhile, uniform loading of PTa on mMXene enhanced its migration resistance and thermal stability. This amplified the UV-absorbing and radical scavenging capabilities of PTa, thereby endowing PVA/ST/mMXene-PTa with significantly improved resistance to photo, thermal and oxidative degradation. Furthermore, PVA/ST/mMXene-PTa showed self-healing ability and remarkably increased biodegradation rate. Taken together, this work explores a possible paradigm for the design of advanced PVA/ST materials.",
+   "pmid": "40912774"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124092",
+   "title": "Nanocellulose-assisted construction of conductive gradient hydrogel for remote actuated and self-sensing soft actuator.",
+   "authors": [
+    "Ya Lu",
+    "Shengnan Li",
+    "Yuanyuan Ma",
+    "Fang Deng",
+    "Yiying Yue",
+    "Shaohua Jiang",
+    "Mingqiang Ye",
+    "Yihui Zhou",
+    "Huining Xiao",
+    "Jingquan Han"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "Hydrogel actuators show tremendous promise for applications in soft robots and artificial muscles. Nevertheless, developing a stretchable hydrogel actuator combining remote actuation and real-time signal feedback remains a challenge. Herein, a light-responsive hydrogel actuator with self-sensing function is fabricated by employing a localized immersion strategy to incorporate polyacrylamide (PAM) hydrogel network into semi-interpenetrating carbon nanotube/2,2,6,6-tetramethylpiperidine-1-oxyl (TEMPO)-oxidized cellulose nanofiber/poly(N-isopropylacrylamide) (CNT/TOCN/PNIPAM) hydrogel. CNTs impart photothermal response and electrical conductivity to the hydrogels. TOCNs facilitate the dispersion of CNTs and improve the mechanical properties of the hydrogel. The introduction of PAM further reinforces the mechanical strength and promotes the formation of gradient structure, which can prevent interlayer separation during the actuating process. The optimized CNT/TOCN/PNIPAM-PAM hydrogel actuator with enhanced tensile strength (53.0 kPa), stretchability (131.1 %), conductivity (2.5 S m-1) and reversible near-infrared (NIR) light responsiveness (bending velocity 6.25° s-1) enables a variety of precise and remote light-responsive deformations. The conductive hydrogel-based strain sensor with high sensitivity (gauge factor, 3.6) can rapidly and accurately identify various human movements. Notably, the hydrogel can perceive its actions driven by NIR light through real-time resistance changes, realizing closed-loop monitoring and sensing feedback, which provided new insights for novel soft biomimetic actuating materials and integrated multi-functional devices.",
+   "pmid": "40912797"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124186",
+   "title": "Alginate-assisted self-optimizing heterojunction photocatalyst for sustainable wastewater remediation.",
+   "authors": [
+    "Mohammed Rehan Katiyan",
+    "M D Furqaan Valiyathur",
+    "A Ahmed Raza",
+    "Z Ansar Ali",
+    "Anver Basha Kottur",
+    "S Zaheer Ahmed",
+    "Mohammed Safiullah Sakvai"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "The persistent challenge of organic dye pollution necessitates the development of innovative and sustainable photocatalytic solutions. This study presents a self-optimizing hydrogel bead photocatalyst, comprising of graphene oxide-copper oxide (GO-CuO) nanocomposite encapsulated within a calcium alginate (CaAlg) matrix leading to the formation of CaAlg/GO-CuO, for enhanced degradation of methylene blue (MB) under UV-Vis light irradiation. Notably, the system enables in-situ reduction of Graphene oxide (GO) to reduced graphene oxide (rGO), significantly enhancing photocatalytic efficiency while allowing for facile catalyst recovery. The composite was characterized using Fourier Transform Infrared (FT-IR) Spectroscopy, X-ray Diffraction (XRD), Raman spectroscopy, Scanning Electron Microscopy-Energy Dispersive X-ray Analysis (SEM-EDAX), and UV-Vis Diffuse Reflectance Spectroscopy (UV-Vis DRS) techniques. Photocatalytic tests demonstrated a remarkable 99 % degradation of MB within 120 min using CaAlg/GO-CuO, compared to 74 % with GO-CuO. Kinetic analysis revealed a 2.5-fold increase in the degradation rate constant, attributed to improved charge separation and enhanced mass transfer facilitated by the alginate matrix. Mechanistic investigation uncovered a dual-phase photocatalytic process: an initial type-II heterojunction-driven mechanism (0-60 min), followed by a Schottky junction-dominated pathway (60-120 min), triggered by in-situ photoreduction of GO to rGO. This transition improved electrical conductivity, suppressed charge recombination, and optimized electron transport pathways.",
+   "pmid": "40947204"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124112",
+   "title": "Oxidative cleavage of methyl-esterified pectic homogalacturonan by an AA17 lytic polysaccharide monooxygenase from Phytophthora infestans.",
+   "authors": [
+    "Peicheng Sun",
+    "Mao Peng",
+    "Florian Csarman",
+    "Astrid Müller",
+    "Nan Zhang",
+    "Willem J H van Berkel",
+    "Roland Ludwig",
+    "Ronald P de Vries",
+    "Mirjam A Kabel"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "Lytic polysaccharide monooxygenases (LPMOs) are mono‑copper-dependent enzymes that catalyze the oxidative breakdown of polysaccharides. The recently discovered AA17 family, exclusively found in oomycete genomes, plays a critical role in plant-pathogen interactions, with Phytophthora infestans AA17 (PiAA17) LPMOs shown to degrade homogalacturonan (HG). In plant cell walls, HG is methyl-esterified, but the influence of this modification on the mode-of-action of AA17 LPMOs is unknown. In this study, we established the phylogenetic distribution of the AA17 family, which diverged into six clades. Three AA17 enzymes from distinct clades were successfully heterologously produced. PiAA17C, the only one of three tested AA17 enzymes active on HG substrates, oxidatively cleaved HGs with degrees of methyl-esterification (DM) of 0, 20, and 60, but not highly methyl-esterified HG (DM92). Advanced liquid chromatographic and mass spectrometric analysis demonstrated that PiAA17C generated C4-oxidized and decarboxylated C4-oxidized oligogalacturonides. Among these products, those having internal methyl-esterified galacturonic acid (MeGalA) residues were more abundant than those with reducing end MeGalA residues. PiAA17C preferably cleaved HG between two non-methylated GalA residues, followed by cleavages involving one GalA and one MeGalA residue, with the lowest preference for cleavage between two MeGalA residues.",
+   "pmid": "40947185"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124144",
+   "title": "Enhancement of biopharmaceutical properties of oxytetracycline hydrochloride through β-cyclodextrin complexes and its photodegradation by metallic nanoparticles.",
+   "authors": [
+    "María Soledad Bueno",
+    "Consuelo Méndez Izares",
+    "Belén Alejandra Mezzano",
+    "M Jazmín Silvero C",
+    "María Cecilia Becerra",
+    "Virginia Aiassa",
+    "Marcela Raquel Longhi",
+    "Ana Karina Chattah",
+    "Claudia Garnero"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "Antibiotic resistance in common pathogens and emerging infections results in global health threat. Among the various antimicrobial strategies, β-cyclodextrin complexes and metallic nanoparticles are promising approaches. This study focused on improving biopharmaceutical profile and environmental safety of oxytetracycline hydrochloride by forming inclusion complexes with β-cyclodextrin and enhancing its photodegradation using gold nanoparticles. Solid binary complexes of oxytetracycline hydrochloride polymorphs (I, II, or III) were prepared by kneading. The complexes exhibited enhanced solubility in simulated intestinal fluid while preserving antibacterial activity. Characterization studies revealed stronger interactions for polymorphs I and III, as evidenced by powder X-ray diffraction patterns showing clear differences from their corresponding physical mixtures. These findings were supported by infrared spectroscopy and solid-state nuclear magnetic resonance data. The photocatalytic degradation of polymorphic forms I and III in aqueous solution was notably accelerated by novel starch-functionalized gold nanoparticles, resulting in a 7-fold increase in the degradation rate for uncomplexed form I and a 4.5-fold increase for form III. Wheras, the kneaded systems reaching 9-fold for form I and 5.3-fold for form III. These results demonstrating promising candidates for oxytetracycline hydrochloride delivery systems with maintained antimicrobial activity. Moreover, gold nanoparticles incorporate into the solutions represent an effective platform for environmental remediation.",
+   "pmid": "40947189"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124209",
+   "title": "Water-soluble hydroxypropyl curdlan derivatives with thermosensitive properties.",
+   "authors": [
+    "Gabriela L Ailiesei",
+    "Irina Popescu",
+    "Mihaela Avadanei",
+    "Maria Bercea",
+    "Dana M Suflet",
+    "Adina C Ferariu",
+    "Gheorghe Fundueanu"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "Curdlan is a relatively little investigated bacterial polysaccharide because it is insoluble in water and many organic solvents. Therefore, hydroxypropyl curdlan (HPCD) derivatives with different degrees of substitution were obtained by homogeneous etherification reaction with propylene oxide. The unwinding of the triple helix structure of curdlan ensures the water solubility of the samples when the substitution degree was situated above 1, while the hydrophilic-hydrophobic balance of the hydroxypropyl groups provides the thermo-responsive characteristics. HPCD samples with different degrees of substitution were characterized using 1H, 13C, DEPT135, and 2D HSQC NMR spectroscopy. The thermal behaviour of HPCD, studied by rheology and turbidimetry, was found to be nearly similar to that of cellulose derivatives containing hydroxypropyl substituents: a minimum in the viscoelastic moduli was observed and attributed to the phase separation of a polymer-rich phase in a polymer-depleted matrix. The thermal behaviour in solution was also studied by ATR-FTIR spectroscopy, that can brought information about the selective dehydration of the side chains in comparison with the main chain. The hydrophobic interactions between the hydroxypropyl side groups are the first to manifest during heating, and the dehydration of the main chain takes place much faster, but with a delay of 10-12 °C.",
+   "pmid": "40947270"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124148",
+   "title": "In vitro formation and growth of glycogen: experimental verification of theoretical predictions.",
+   "authors": [
+    "Xin Liu",
+    "Ziyi Wang",
+    "Xin Lin",
+    "Wang Xu",
+    "Robert G Gilbert"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "Glycogen is a complex branched glucose polymer that serves as energy reservoir in animals and some bacteria; it has also been synthesized in vitro. It comprises small β particles linked in large aggregates termed α particles. Theory, based on the evolutionary processes which cause these particles to be formed, suggests that if all ingredients for in vitro particle synthesis were added to a suspension of α particles, then these will grow to a steady-state size distribution, after which new particles will be formed. Here, this prediction is experimentally tested and found to be verified, using in vitro glycogen β particles as the starting point. The latter were made by the method of Ciric and Loos, Carbohydrate Polymers 2013, 93, 31; this was chosen because there are considerably less components than in an in vivo system, namely glycogen synthase, glycogen branching enzyme, glycogen debranching enzyme, glycogen phosphorylase and α-glucosidase. It was also found that new-particle formation was only found starting with β particles formed in vivo, but not with those synthesized in vitro; this implies that in vivo β particles contain one or more substances additional to those in the \"minimal\" in vitro particle synthesis used here. HYPOTHESIS: In glycogen, β particles already contain some buds on their surface, so they might have the potential to form α particles.",
+   "pmid": "40912811"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124228",
+   "title": "Release, digestion and fermentation properties of polyphenols bound to sea buckthorn polysaccharides: Mechanistic explorations from integrated in vitro and in vivo studies.",
+   "authors": [
+    "Xingnan Wang",
+    "Yanting Chen",
+    "Yike Han",
+    "Shiqi Li",
+    "Hongcai Li",
+    "Yuanye Liu",
+    "Wenzhi Lei",
+    "Guangquan Liu",
+    "Zhenpeng Gao"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "This study aimed to elucidate the impact of sea buckthorn polysaccharide (SBP)-polyphenol interactions on host health by investigating the release, digestion, and metabolism of polyphenols bound to SBP. A total of 38 phenolic compounds were identified, involving in gallic acid, kaempferol, quercetin, p-coumaric acid, and vanillic acid. During in vitro digestion, only 4.55 %, 12.05 %, and 9.98 % of bound phenolics (BPs) were released in simulated saliva, gastric, and intestinal fluids, respectively. Subsequently, the remaining BPs reached the colon, where they were gradually released during microbial fermentation, elevating their antioxidant capacity and aligning with the dynamic increase in total phenolic content. SBP modulated the gut microenvironment by lowering colonic luminal pH and stimulating short-chain fatty acid production, with acetate and butyrate increasing by 5.51 and 4.52 times. 16S rRNA sequencing demonstrated that the polyphenol-polysaccharide complex selectively inhibited pathogenic Helicobacter proliferation while enriching beneficial Lachnospiraceae and Alistipes (increased by 57.97 % and 59.13 %, respectivrely). Additionally, fecal metabolomics revealed that SBP intervention modulated purine, galactose, and histidine metabolism pathways through microbial restructuring. Correlation analysis showed that polyphenols synergistically enhanced polysaccharide catabolism by strengthening the microbial cross-feeding and microbial-metabolite interactions. These findings deepen the understanding of sea buckthorn polyphenol-polysaccharide interactions in regulating host gut microbial diversity.",
+   "pmid": "40947220"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.124225",
+   "title": "Hydrophobic associations and cellulose nanofibers reinforced PVA/PAM multi-network conductive hydrogel with high sensitivity, fast response, and excellent mechanical properties.",
+   "authors": [
+    "Mingyang Li",
+    "Yanen Wang",
+    "Qinghua Wei",
+    "Juan Zhang",
+    "Yalong An",
+    "Xiaohu Chen",
+    "Zongru Li",
+    "Dezao Jiao"
+   ],
+   "pubdate": "2025-11-15",
+   "abstract": "With the growing demand for green and biocompatible flexible sensors, hydrogels have drawn attention as a new material for flexible wearable devices. However, it remains a challenge to develop hydrogel flexible sensors with excellent mechanical properties, high toughness, high sensitivity and fast response through a simple approach. In this work, hydrophobic associations and cellulose nanofibers were introduced into a polyacrylamide/polyvinyl alcohol (PAM/PVA) dual-network hydrogel. The incorporation of a hydrophobic system strengthens the first polymer network, while cellulose nanofibers (CNF) enhance the second PVA freeze-thaw network. Notably, CNF tightly bridges the dual networks, forming extensive hydrogen bonds with the reinforced double-network structure. Under the synergistic effects of multiple networks and hydrogen bonding interactions, the composite hydrogel exhibits superior mechanical performance (1.82 MPa), outstanding toughness (5.41 MJ/m3), excellent fatigue resistance, and good recovery properties. Additionally, the composite hydrogel demonstrates superior electrical conductivity, high sensitivity (GF = 7.89), and stable electrical signal output. It performs exceptionally well in practical applications, such as monitoring motion at human joints and integrating with peripheral circuits to control robotic hands. In summary, this work presents a simple and cost-effective method for fabricating high-performance composite hydrogels, which show great potential in tissue engineering, flexible electronics, and human-computer interaction.",
+   "pmid": "40947218"
+  }
+ ]
+}
