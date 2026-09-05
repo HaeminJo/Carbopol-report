@@ -1,0 +1,411 @@
+{
+  "run_timestamp_utc": "2026-09-05_2200",
+  "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE=ar) paged search (query 'ISSN(0144-8617) AND DOCTYPE(ar)', sort=-coverDate, 1200 most-recent entries scanned) + PubMed E-utilities (EFetch by PMID from Scopus pubmed-id field) cross-check for PublicationType (Journal Article vs Review) and abstract/author retrieval; Elsevier Abstract Retrieval API used to supplement metadata for 9 PubMed-unindexed Articles-in-Press, but abstract text was unavailable via this API key's entitlement for those 9, so they were excluded from this run and left for a future run. Title-based heuristic filters applied first to exclude review-style titles and microbe-biology-centric titles (organism strain engineering/production optimization/cell-wall biology/serology), then verified against PubMed PublicationType and full abstract content (a broad first-pass keyword filter was found to over-exclude on generic terms like 'bacteri'(matches 'antibacterial'), 'strain'(matches mechanical strain/deformation), 'candida'(substring of 'candidate'); each flagged item was re-reviewed against full abstract text and reclassified based on whether the paper's core subject was the polysaccharide/material itself vs. the microorganism's biology). 136 eligible unseen candidates identified after filtering out of 170 unseen DOIs found in the 1200-entry scan; 25 most recent, fully-verified research articles with confirmed abstracts selected for this report (remaining ~111 eligible candidates plus 9 abstract-pending Articles-in-Press left unprocessed for future runs).",
+  "target_count": 20,
+  "collected_count": 25,
+  "eligible_candidates_found": 136,
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2025.124102",
+      "title": "Chitin nanocrystal/carboxymethyl cellulose bilayer emulsion with rigid inner layer and flexible outer shell for ultra-stable encapsulation of fish oil.",
+      "authors": [
+        "Sun Yufei",
+        "Deng Qianxi",
+        "Ji Simeng",
+        "Li Yuewen",
+        "Wu Kao",
+        "Kuang Ying",
+        "Jiang Fatang",
+        "Deng Pengpeng"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "The polyunsaturated fatty acids in fish oil are prone to oxidation and have poor dispersibility, which limits their use in the food sector. In this work, oil-in-water emulsions stabilized by chitin nanocrystals (ChNC) were prepared via high-speed homogenization. Anionic carboxymethyl cellulose (CMC) was assembled onto cationic ChNC-stabilized emulsion droplet surfaces via layer-by-layer self-assembly technology to construct ChNC/CMC (Ch-C) bilayer emulsions with rigid inner layer and flexible outer shell structures. The results of dynamic light scattering proved that the CMC could significantly reduce the emulsion droplet size. The root mean square roughness and arithmetic mean roughness of the emulsion droplets decreased from 10.5 and 8.4 nm to 5.6 and 4.4 nm with increasing CMC concentration, respectively. The droplet size distribution curve of the Ch-C emulsion with the CMC concentration of 1 % (Ch-C-4) after 30 days of storage changed little compared with the initial state, showing excellent storage stability. In addition, the Ch-C-4 emulsion was stable over the wide pH range (2-6), high temperature (90 °C), and high ionic strength (400 mM). Furthermore, compared with ChNC emulsion, the primary and secondary oxidation contents of Ch-C-4 decreased by 11.9 % and 23.7 %, respectively, suggesting that Ch-C bilayer emulsion can effectively delay the oxidation of fish oil. Therefore, this study proposes new research strategies for the design of polysaccharide-based bilayer emulsions and the protection of functional lipids.",
+      "pmid": "40912802"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124068",
+      "title": "NIR-responsive dextran / poly(lactide) hydrogels: Characterization of cleavable hydrogels and photoactivated release of proteins.",
+      "authors": [
+        "Guerreiro Mickael",
+        "Benkhedim Anissa",
+        "Voisin Doriane",
+        "Farine Clémence",
+        "Bethry Audrey",
+        "Paniagua Cédric",
+        "Van Den Berghe Hélène",
+        "Nottelet Benjamin"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Polysaccharide-based hydrogels often lack mechanical strength and, when used for protein delivery, are generally limited to diffusion-based release. In this work, we developed robust polysaccharide- and polyester-based near-infrared (NIR)-responsive hydrogels. Hydrogels are made from photo-crosslinked methacrylated dextran (DEX-MA), methacrylated polylactide containing oxygen reactive species (ROS) sensitive thioketal groups (PLA-TK-MA), and covalently bound protoporphyrin IX (PPIX) that generates ROS under NIR irradiation. We investigated the effects of DEX methacrylation degree (3, 12 and 45 %), PLA molecular weight (2500 vs. 5000 g.mol",
+      "pmid": "40912829"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124185",
+      "title": "Polydopamine-functionalized graphene for stabilizing starch-based 3D networks and synergistically enhancing film properties.",
+      "authors": [
+        "Xu Hao",
+        "McClements David Julian",
+        "Hu Yao",
+        "Cheng Hao",
+        "Wu Jinyi",
+        "Wang Xuan",
+        "Jin Zhengyu",
+        "Chen Long"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Functional filler materials are often incorporated into films assembled from natural polymers to enhance their optical, mechanical, barrier, and preservative properties. However, the efficacy of these fillers depends on their compatibility with the surrounding polymer matrix. The application of carbon-based fillers in films is often limited by their strongly hydrophobic nature, which restricts their dispersion and interaction within hydrophilic polymer matrices. Inspired by mussel adhesion, we employed in situ dopamine self-polymerization to modify the surfaces of graphene nanosheets, which significantly improved their compatibility with hydrophilic starch matrices. The interfacial interactions of the graphene nanosheets with the starch matrix were analyzed using density functional theory (DFT) simulations. In addition, rheology and low-field nuclear magnetic resonance (LF-NMR) analyses indicated the formation of a stable three-dimensional network structure between the modified graphene fillers and the starch matrix. The formation of this network enhanced the structural integrity of the films and impeded crack propagation. As a result, the tensile strength of the composite film increased from around 14.8 to 27.9 MPa, while the water vapor and oxygen permeability were reduced by around 30 % and 40 %, respectively. This novel strategy could be extended to other biopolymers, thereby enabling the design of multifunctional, high-performance green composites for next-generation packaging and other applications.",
+      "pmid": "40947203"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124214",
+      "title": "Injectable GelMA microsphere-integrated hyaluronic acid-polyphenol hydrogel system with multifunctional injury microenvironment modulation promotes peripheral nerve regeneration.",
+      "authors": [
+        "Ma Bo",
+        "Ma Hailin",
+        "Gu Baixin",
+        "Xu Kangling",
+        "Cao Pei",
+        "Wu Xiaotong",
+        "Qi Tiantian",
+        "Wen Rou",
+        "Sun Tianze",
+        "Su Junyu",
+        "Cheng Hanwen",
+        "Wang Yujie",
+        "Liu Shiyan",
+        "Liu Yiyang",
+        "Xiang Qiuan",
+        "Xu Zhongyu",
+        "Zhu Yuanchao",
+        "Weng Jian",
+        "Yu Fei"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Persistent reactive oxygen species (ROS) stress, excessive inflammation, insufficient angiogenesis, and inadequate neurogenesis severely hinder peripheral nerve repair and remain inadequately addressed by current biomaterials. To overcome these challenges, we developed a multifunctional conduit system with a facile and efficient assembly process. Specifically, 4-amino-3-fluorophenylboronic acid (AFBA) functionalized hyaluronic acid (HP) was crosslinked with tannic acid (TA) through boronate ester bonds to obtain a dynamic hydrogel (HT), during which VEGF was encapsulated. Subsequently, HT was physically blended with NGF-encapsulated Gelatin Methacryloyl (GelMA) microspheres (MS). In the early stage of nerve injury, the ROS-rich inflammatory microenvironment triggered the oxidative cleavage of boronate ester bonds, resulting in rapid degradation of the HT hydrogel and the corresponding release of TA and VEGF. Subsequently, the released TA, enriched with phenolic hydroxyl groups, effectively continued to scavenge excessive ROS and promoted macrophage polarization toward the M2 phenotype, while VEGF facilitated early neovascularization at the injury site. Additionally, the UV-crosslinked MS ensured the sustained release of encapsulated NGF, thereby providing long-term neurotrophic support that enhanced Schwann cell activity and promoted axonal elongation. The in vivo application of the HT/MS hydrogel with chitin conduits demonstrated effective nerve regeneration across a 10-mm defect in rats.",
+      "pmid": "40947271"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124077",
+      "title": "Synergistic impact of starch-tannic acid complex in regulating gut microbiota to produce propionate.",
+      "authors": [
+        "Duan Shuting",
+        "Hu Yiming",
+        "Zhang Xiaowei",
+        "Li Enpeng",
+        "Li Cheng"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Starch-tannic acid complex is a type of resistant starch, while the influence of these complexes with different starch chain-length distributions (CLDs) on gut microbiota is unclear. Therefore, starch-tannic acid complexes were prepared from five commercial starches with diverse CLDs, and their influence on the gut microbiota was explored using in vitro fermentation with human fecal microbiota. For the first time, results showed that wheat and corn starch-tannic acid complexes significantly promoted propionate production (p < 0.05) by up to 88 % compared to their retrograded starch counterparts. This was possibly related to the distinct microbiota composition induced by starch-tannic acid complexes, e.g., the amount of Segatella, Eubacterium_rectale_ATCC_33656, and CAG-352 was all significantly decreased (p < 0.05), while their abundances were negatively correlated with propionate production. Notably, starch-tannic acid complexes with a DP range of 12 < DP ≤ 24 were negatively correlated with the amount of Segatella, suggesting that the CLD of complexes is a crucial factor in determining SCFA production via regulating certain bacteria. Collectively, these results highlight the possibility of applying starch-tannic acid complex to target certain gut bacteria and SCFAs production, ultimately improving human health.",
+      "pmid": "40912760"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124085",
+      "title": "Fractionation and biological evaluation of passion fruit Pectins: HG and RG-I backbone ratios are associated with TLR2-1 interaction and signaling.",
+      "authors": [
+        "Pedrosa Lucas de Freitas",
+        "Ferraz Witor Ribeiro",
+        "Kouzounis Dimitrios",
+        "Desai Krishna",
+        "Trossini Gustavo Henrique Goulart",
+        "Schols Henk A",
+        "de Vos Paul",
+        "Fabi João Paulo"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Passion fruit mesocarp is rich in pectin, and high-temperature/pressure modification of this pectin has been shown to yield bioactive fragments with anticancer potential. To clarify the structure-function relationship of passion fruit pectins, we purified native and modified pectins using two fractionation methods. Comprehensive chemical characterization revealed molecular weight as the primary difference between fractions, along with varying proportions of homogalacturonan (HG) and rhamnogalacturonan-I (RG-I). All samples activated TLR2, such as specific agonists (Pam3CSK4, HKLM, FSL-1). Notably, only native and lower-molecular-weight fractions inhibited TLR2/1 activation by the specific agonist Pam3CSK4. Higher methyl esterification correlated with TLR2/1 inhibition at lower doses, whereas RG-I content showed a negative correlation; however, the galacturonic acid-to-rhamnose ratio positively influenced heterodimer inhibition. A highly methyl esterified galacturonic acid heptamer demonstrated a strong affinity for the TLR2/1 binding pocket, as evidenced by molecular dynamics simulations. This study elucidates how modified passion fruit pectin structures interact with TLR2, reinforcing the link between plant polysaccharides and human immune responses.",
+      "pmid": "40912767"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124210",
+      "title": "Cellulose I crystallinity estimation using a combination of infrared spectroscopy and machine learning approaches.",
+      "authors": [
+        "Lee Yong Ju",
+        "Lee Do Young",
+        "Lee Tai-Ju",
+        "Kim Hyoung Jin"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "This study presents a novel approach for estimating the crystallinity index (CrI) of cellulose I materials by integrating infrared (IR) spectroscopy with machine learning techniques. Microcrystalline cellulose (MCC) was used as a crystalline standard, while ball-milled MCC, xylan, and lignin powders served as amorphous references to prepare mixture samples covering a CrI range from 0.0 % to 82.2 %. IR spectra of these samples were collected and preprocessed with second-derivative transformation and vector normalization. Random forest (RF) models were employed for spectral variable selection based on mean decrease in impurity (MDI), identifying the 1400-900 cm",
+      "pmid": "40947211"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124274",
+      "title": "Passive radiation-modulated cellulose-based thermoelectric assemblies for efficient low-grade heat harvesting.",
+      "authors": [
+        "Zhang Hexi",
+        "Chen Yuxi",
+        "Chen Gengyang",
+        "Hong Gonghua",
+        "Li Lei",
+        "Qu Qing"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "The efficient conversion of low-grade waste heat into sustainable electricity is essential for advancing thermoelectric energy harvesting technologies. However, maintaining a stable temperature gradient and achieving scalable fabrication remain critical challenges. To address these challenges, this study proposes a self-assembled radiation-modulated thermoelectric strategy for constructing a biomass-based thermoelectric assembly. This system, based on cellulose nanofibril (CNF), integrates a thermoelectric gel with a passive radiation-cooling layer, enhancing thermoelectric performance by maintaining a temperature gradient of 9.9 K, leveraging radiative cooling at high solar irradiance. The prepared radiative cooling layer has 96.23 % solar reflectivity. The developed thermoelectric assembly achieves a high ionic thermovoltage of 41.01 mV K",
+      "pmid": "40947237"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123996",
+      "title": "Composition, structural features, and multifunctional properties of extracellular polysaccharides from the non-toxic green alga Parachlorella sp.",
+      "authors": [
+        "Uejima Yuuya",
+        "Yamane Reo",
+        "Ishida Reiya",
+        "Sasaki Daisaku",
+        "Igari Naoki",
+        "Nakamura Akihiro",
+        "Asayama Munehiko"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Microalgae are promising biorefineries because of their rapid growth and carbon fixation abilities. However, the functional applications of microalgal extracellular polysaccharides (EPS), particularly those from edible strains, remain underexplored, limiting their potential use in health-related and cosmetic industries. In this study, we investigated the EPS produced by the edible green alga Parachlorella sp. BX1.5 (bxEPS). The bxEPS was extracted from nitrogen-depleted BG11 (BG11-N) medium and identified as an acidic rhamnan (rhamnose: xylose: glucuronic acid = 55.1:35.4:9.5 mol%) without sulfate groups. The bxEPS solution exhibited high stability due to its low cation reactivity, suggesting its potential for cosmetic applications. Additionally, bxEPS showed antioxidant, angiotensin-converting enzyme-inhibitory (anti-hypertensive), and tyrosinase activity-enhancing (anti-gray hair) effects in vitro, indicating its potential as a functional ingredient in health foods and pharmaceuticals. Furthermore, a 0.2 % (w/v) bxEPS solution promoted hair growth in mice, accompanied by hair follicle enlargement. These findings demonstrate the safety and multifunctional properties of bxEPS and support its application as a novel biopolymer for sustainable microalgal biorefineries.",
+      "pmid": "40947181"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124086",
+      "title": "Marine organism-inspired tough and adhesive patch based on thermosensitive quaternized chitin for tissue sealing/repair and hemostasis.",
+      "authors": [
+        "Cai Mingzhen",
+        "Li Taotao",
+        "Shi Wenjie",
+        "Guo Xin",
+        "Liu Jia",
+        "Jiang Xulin"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Tissue adhesives have emerged as a promising alternative to conventional sutures and staplers in the management of hemostasis, tissue defect sealing, and wound repair. However, the efficacy of current bio-adhesives in clinical practice is compromised by the limitations, including poor wet adhesion, inadequate mechanical strength, vulnerability to gastrointestinal fluids, and insufficient hemostatic performance. Herein, a marine organism-inspired tough and adhesive patch (MOTAP) was developed to address these challenges. Inspired by the tough shell of crustacean chitin, the thermosensitive quaternized derivative was employed to engineer a film with exceptional mechanical strength. Subsequently, harnessing the adhesion mechanism of mussels, a catechol and aldehyde-modified hyaluronic acid was integrated to endow the film with adhesive properties, resulting in a tough and adhesive patch. This patch exhibits great mechanical property, excellent adhesive strength (175 kPa), and an ultrahigh burst pressure (92 kPa). MOTAP robustly seals various tissues, effectively prevents the leakage of corrosive gastrointestinal fluids, and rapidly induces coagulation. Compared to commercial and clinical materials, MOTAP demonstrates superior efficacy in sealing perforated stomachs, achieving hemostasis, and promoting wound healing. Therefore, MOTAP with good biocompatibility and biodegradability is a promising adhesive patch for managing hemorrhage, tissue damages, and wound closure.",
+      "pmid": "40912768"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124069",
+      "title": "Carboxymethyl chitosan/oxidized carboxymethyl starch Schiff base hydrogels containing fasudil for islet encapsulation and transplantation.",
+      "authors": [
+        "Chen Zuhan",
+        "Bi Huanjing",
+        "Wang Jingwen",
+        "Ma Ruiyang",
+        "Wang Ying",
+        "Dong Boqing",
+        "Lu Cuinan",
+        "Wang Jiale",
+        "Li Yang",
+        "Zheng Jin",
+        "Xie Fang",
+        "Ding Xiaoming"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Islet transplantation offers a promising therapeutic strategy for type 1 diabetes patients with inadequate glycemic control or severe complications. Islet encapsulation using biocompatible materials presents a potential solution to reduce immune rejection. This study fabricated and characterized Schiff base hydrogels (CMOCs) composed of varying ratios of carboxymethyl chitosan (CMCS) and oxidized carboxymethyl starch (OCMS). CMOCs exhibited desirable mechanical properties, injectability, self-healing properties, antibacterial properties, biocompatibility, and controlled-release capabilities. CMOC3, with the highest CMCS content, was selected for loading Fasudil and further islet encapsulation experiments. In vitro studies demonstrated that CMOC3 and CMOC3-Fasudil hydrogel (CMOC3-Fas) not only supported islet survival and insulin secretion but also increased insulin bioavailability through chelating the zinc ions from the insulin hexamers. CMOC3-Fas exhibited pro-angiogenic and anti-inflammatory properties, and effectively reduced islet cell death under hypoxic conditions. Finally, transplantation of islets encapsulated within CMOC3-Fas achieved prolonged normoglycemia and increased body weight in diabetic mice. This study demonstrates the synergistic protective effect of Schiff-base hydrogel co-delivering fasudil for islet encapsulation, potentially paving the way for improved islet transplantation therapy in type 1 diabetes.",
+      "pmid": "40912788"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124194",
+      "title": "Comprehensive study of compressive elasticity and functional properties of corn starch-integrated poly(hydroxypropyl methacrylate-co-2-(dimethylamino)ethyl methacrylate-co-glycidyl methacrylate) ternary hybrids.",
+      "authors": [
+        "Bozbay Rabia",
+        "Orakdogen Nermin"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Multifunctional ternary hybrid design was realized by cross-linking of hydroxypropyl methacrylate as neutral monomer, 2-(dimethylamino)ethyl methacrylate as cationic comonomer and glycidyl methacrylate as hydrophobic termonomer in presence of corn-starch (ST) by cryotropic gelation. The study focuses on tendency of starch to change the microstructure and deformation behavior of (alkyl)methacrylate-based hybrid gels. By analyzing the correlation between responsive behavior and large deformation, hybrid properties were evaluated in relation to both gelation temperature and polysaccharide content. Determining change in mechanical strength of corn-ST integrated hybrids with lower polymerization temperature was one of the main hypotheses. Hybrid cryogels formed at -18 °C showed higher compressive modulus in swollen state compared to hybrid hydrogels formed at 8 °C. Addition of corn-ST increased compressive modulus and structural stability of hybrids, while elastic response was achieved by lowering polymerization temperature below freezing point of solvent, further improving cryoconditions. By determining diffusion mechanism in hybrid matrix from pH-dependent dynamic swelling profile, it was investigated how the increase in amount of corn-ST changes diffusion coefficient and diffusion exponent. This study demonstrates possibility of designing hybrid gels with a wide range of material properties with both polymerization temperature and polysaccharide such as starch as an alternative to engineering materials.",
+      "pmid": "40947267"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124141",
+      "title": "Marine-derived sulfated glycans display a potent virostatic mechanism to block herpes simplex virus type-1 (HSV-1) entry and spread.",
+      "authors": [
+        "Elste James",
+        "Rabbitt Michele",
+        "Wang Chunyu",
+        "Dordick Jonathan S",
+        "Tiwari Vaibhav",
+        "Zhang Fuming"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "A naturally derived library of glycomimetic mimicking the structure-function of heparan sulfate (HS) remains an untapped reservoir for drug discovery against viral infections. In this work we screened a library of marine-derived sulfated glycans from seaweeds and sea cucumbers to investigate if they can compete for the ligand/receptor binding sites to prevent virus entry. Multiple promising candidates were identified, such as RPI-27 (IC",
+      "pmid": "40912779"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124067",
+      "title": "Premna microphylla Turcz pectin-modified diosmetin nanoparticles: A galectin-3 targeting strategy for precise colitis intervention.",
+      "authors": [
+        "Chen Yuanyuan",
+        "Zhou Qian",
+        "Zhou Yue",
+        "Huang Jinlan",
+        "Niu Renjie",
+        "Ming Jian",
+        "Wang Mingfu"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Oral delivery of natural antioxidants represents a promising therapeutic strategy for ulcerative colitis (UC), yet their therapeutic efficacy is hindered by instability and poor accumulation at inflamed sites. To address this, we developed Galectin-3 (Gal-3)-targeted nanoparticles (ZDP-NPs) by encapsulating diosmetin within zein complexes modified with a galactose- and rhamnogalacturonan-I (RG-I)-rich pectin (PMTP, Mw: 228.8 kDa, DM: 34.21 %, RG-I content: 43 %) extracted from Premna microphylla Turcz leaves. Surface plasmon resonance (SPR) analysis confirmed a strong binding affinity between PMTP and Gal-3 (KD = 2.83 μM). ZDP-NPs exhibited uniform spherical morphology (~170 nm), high drug loading (87.9 %) and colloidal stability. Under simulated gastrointestinal conditions, ZDP-NPs showed reduced Dio release (45.6 %) compared to PMTP-free nanoparticles (ZD-NPs, 75.6 %). In vitro studies showed that PMTP surface modification significantly enhanced nanoparticle uptake by LPS-induced macrophages via Gal-3-mediated endocytosis. In vivo colitis experiment of mice revealed that ZDP-NPs selectively accumulated in inflamed colons via Gal-3 targeting, prolonged retention, and significantly alleviated colonic damage by reducing oxidative stress, suppressing pro-inflammatory cytokines, and restoring epithelial barrier integrity. Biocompatibility assays confirmed minimal toxicity of ZDP-NPs. This study presented a food-derived pectin-based nanoplatform for precise colitis intervention through Gal-3 targeting, offering a multifaceted strategy to break the inflammation-oxidative stress cycle.",
+      "pmid": "40912828"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124157",
+      "title": "Fabrication of complex hydrogels based on pullulan, nanocellulose and carbon dots using photo-Fenton process to eliminate doxycycline contamination.",
+      "authors": [
+        "Liu Meng",
+        "Lv Wenzhuo",
+        "Zeng Fan",
+        "Wang Canhui",
+        "Guo Xin",
+        "Zhou Bo",
+        "Wu Yiqiang"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Overcoming the inherent activity-stability trade-off in photo-Fenton systems requires advanced material architectures that integrate multifunctional synergies. In this study, we developed a multifunctional hydrogel, termed PCCF, fabricated by confining Fe",
+      "pmid": "40947250"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124103",
+      "title": "Microstructural and crystallinity changes in starch-gluten model dough with varying palm oil solid fat content.",
+      "authors": [
+        "Zhang Yujin",
+        "Chai Xiuhang",
+        "Chen Rong",
+        "Liu Yuanfa"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "This study explored the changes in starch-protein-oil interactions during dough mixing and thermal-treated processes using palm oils with different melting points of 38 °C (PO38), 32 °C (PO32), and 24 °C (PO24), and their impact on roasted products quality. The solid fat content (SFC) of PO38, PO32, and PO24 were 29.35 %, 21.53 % and 4.61 % at 25 °C, respectively. Notably, the hardness of fresh dough decreased while its elasticity increased as SFC of fats rise. Higher shear strength was observed in the thermal-treated PO38 dough. Microstructural characterization revealed that PO38 was located at the interface between protein and starch in fresh dough, whereas PO24 appeared as small droplets. Moreover, the fresh PO24 dough exhibited a more continuous gluten network structure. In the thermal-treated PO38 dough, the average length of gluten network was shorter. The thermally treated PO38 dough was more crystalline than the thermal-treated PO32 and PO24 dough, by 27.38 % and 76.76 %, respectively. Furthermore, changes in the hydrophobic interactions of thermal-treated doughs are consistent with changes in protein β-sheet. The findings establish a relationship between the SFC of palm oils and the interaction between dough components during processing, providing important insights for using oils or fats in baked products.",
+      "pmid": "40912803"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124098",
+      "title": "A host/guest assembled hyaluronic acid-based supramolecular hydrogel with NIR-steered degradation capacity for enhanced tumor therapy through programmable drug release.",
+      "authors": [
+        "Xu Zejun",
+        "Liu Li",
+        "Duan Junkun",
+        "Guo Bei",
+        "Liu Jiayi",
+        "Liu Dongyan",
+        "Qin Fei",
+        "Guo Ruizhi",
+        "Bao Yingxia",
+        "Wang Jiansong",
+        "Wu Chuanbin",
+        "Zhang Yi"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Recently, a variety of stimulus-responsive hydrogel platforms have been developed, specifically designed to respond to changes in physiological signals within the disease microenvironment. However, due to the restricted regulation of drug release behavior in vivo by such hydrogel systems, the precise control of drug release kinetics has not been achieved. Therefore, developing precise drug delivery platforms that enable programmable and \"on-off\" delivery remains a challenge in this field. This study involved a supramolecular hydrogel platform (HACF) constructed with β-cyclodextrin-modified hyaluronic acid (HA-CD) and ferropentaene-modified hyaluronic acid (HA-Fc) for precise drug delivery and chemo-photothermal therapy by leveraging host-guest interactions between CD and Fc. The phthalocyanine green (ICG) and doxorubicin (DOX) were incorporated into the hydrogel network as photosensitizer and anticancer model drugs. Results demonstrated that ICG facilitated controlled disintegration of the hydrogel and led to responsive release of DOX in vitro under near-infrared (NIR) light stimulation. Furthermore, in vivo findings confirmed that NIR-steered programmed drug release from the hydrogel effectively enhanced anti-tumor efficacy and prevented tumor recurrence. In conclusion, this innovative NIR-driven supramolecular hydrogel platform not only presented a novel approach for remote and precise drug release but also provides a new platform for locally intelligent treatment across various clinical conditions.",
+      "pmid": "40912771"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124240",
+      "title": "Ultra-flexible and tough iridescent cellulose nanocrystal-hydrogel membrane towards sensing, actuating and thermal management.",
+      "authors": [
+        "Liu Ji-Dong",
+        "Du Chen",
+        "Song Yin-Jian",
+        "Du Xiang-Yun"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Cellulose nanocrystals (CNCs) exhibit iridescent structural colors benefitting from the cholesteric helical structure generated by evaporation-induced self-assembly (EISA), showing broad applications in fields such as sensors, anti-counterfeiting and actuators. However, CNC membranes suffer from brittleness due to excessive hydrogen bonding. Current strategies struggle to achieve a harmonious integration of mechanical properties and structural color of CNC membranes. Inspired by the color-regulating mechanism of chameleon skin, this study presents a novel bilayer Janus CNC-hydrogel membrane integrating high flexibility, extraordinary toughness, structural color, sensing capability, actuating performance and thermal management behavior via solution-casting. Benefitting from the strong interfacial interactions (hydrogen bonding and electrostatic forces) between the layers, the membrane shows exceptional flexibility (227 % elongation at break) and toughness (6.88 MJ m",
+      "pmid": "40947275"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124231",
+      "title": "Real-time analysis of the gelatinization behavior of a starch paste using Rheo-small angle light scattering (SALS) and Rheo-impedance measurements.",
+      "authors": [
+        "Yamagata Yoshifumi",
+        "Otobe Saki",
+        "Osafune Yoshitaka",
+        "Araida Moe"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Methods for the dynamic changes in the gelatinization process of starch in real-time include rheological measurements, thermal analyses, and microscopic observations. However, there are very few research reports that have combined these measurements to evaluate them simultaneously and in real-time. Therefore, we tried to evaluate the dynamic changes in the physical properties during the gelatinization process of starch paste in real-time by simultaneously measuring the rheology and small-angle light scattering (Rheo-SALS) or rheology and electrochemical measurements (Rheo-Impedance). As a result, we found that the temperature at which the morphological changes in the starch granules and changes in the internal resistance converge around 65 °C, which is almost identical to the temperature at which the elastic moduli sharply increase. Thus, we speculated that the components, such as the amylose, dissolves into the continuous phase with the morphological changes in the starch granules, and the macroscopic gelation (gelatinization) occurs only after a critical concentration necessary for percolation transition is exceeded. The approach such as the simultaneous measurements combining rheology and other technologies are extremely useful for real-time measurement and analysis not only of the gelatinization process but also of a series of dynamic processes such as gelation and phase transitions.",
+      "pmid": "40947223"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124183",
+      "title": "Bayesian-assisted mechanochemical synthesis of carboxylated cellulose nanocrystals and its application in Pickering emulsion.",
+      "authors": [
+        "Lin Xinyu",
+        "Su Weike",
+        "Zhang Qihong"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "The preparation of carboxylated cellulose nanocrystals (CNCs) by ammonium persulfate (APS) oxidation is a relatively common method, but the low reaction efficiency limits its application. In this study, carboxylated CNCs (CNCs-COOH) were efficiently synthesized by mechanochemistry and assisted by the Bayesian Optimization Algorithm (BOA). Under the optimal conditions: reaction temperature of 60 °C, oscillation frequency of 30 Hz, reaction time of 25 min, ball-to-material ratio of 31.8, liquid addition amount of 2 μL/mg, and APS concentration of 0.5 M, the maximum CNCs-COOH yield of 90.45 % was achieved. CNCs-COOH had crystallinity of 78.26 % and particle size of 196.15 ± 18.23 nm, which has better physicochemical property than the carboxylated CNCs (AOCNC) prepared by the conventional solution method. Furthermore, CNCs-COOH was used as suspension stabilizer for the preparation of oil-in-water vitamin A acetate Pickering emulsion, which showed excellent physical and thermal stability. Therefore, mechanochemical APS oxidation is a green and economical alternative to prepare CNCs-COOH, which has prospect in application as suspension stabilizer.",
+      "pmid": "40947201"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124187",
+      "title": "Multifunctional bio-based wearable ionogel with hierarchical dynamic covalent crosslinked double networks enabled by surface active xylan.",
+      "authors": [
+        "Jia Siyu",
+        "Feng Zixing",
+        "Yan Xueqing",
+        "Zhang Zhiguo",
+        "Rao Jun",
+        "Shi Zhengjun",
+        "Ren Junli",
+        "Peng Feng"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Ionogels have emerged as promising candidates for flexible electronics due to their unique properties. However, the development of bio-based ionogels that simultaneously satisfy the requirements of facile fabrication, multifunctionality, and recyclability remains a significant challenge. Herein, the design and preparation of a high-performance ionogel based on lipoic acid and alkenyl xylan (LA-XEA ionogel) is reported. The bio-based ionogel featuring hierarchical dynamic covalent cross-linked double networks (HBD-CAN) via melt processing. Xylan simultaneously inhibits the closed-loop depolymerization of polymeric LA chains while functioning as a cross-linking agent in the ionogel network, resulting in improved mechanical strength. The resulting LA-XEA ionogel demonstrates remarkable properties, including exceptional stretchability (1500 %), strong skin adhesion (33 kPa), high conductivity (6.20 mS/m), excellent optical transparency (>85 %), rapid self-healing capability, and full recyclability. Significantly, LA-XEA ionogel exhibits multi-response mode to both tensile and temperature stimuli, rendering it an ideal candidate for the development of highly sensitive strain and temperature sensors. Meanwhile, LA-XEA ionogel is suitable for wearable sensors to achieve high-quality electrophysiological signal acquisition. This work provides a promising strategy for designing xylan-based ionogels.",
+      "pmid": "40947205"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124155",
+      "title": "Enhancement of sulforaphene stability via hydroxypropyl methylcellulose-based solid dispersions: exploiting hydrophobic cavities and hydrogen bonding-mediated water sequestration.",
+      "authors": [
+        "Yu Purui",
+        "Tian Mintong",
+        "Shang Zhe",
+        "Zhou Meng",
+        "Li Zehua",
+        "Li Mingming",
+        "Gao Huan",
+        "Yuan Qipeng"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Sulforaphene (SFE) is a bioactive isothiocyanate, known for its cancer-preventive, anti-inflammatory, and antioxidant properties. However, the application of SFE is severely limited by its poor stability. Hydroxypropyl methylcellulose (HPMC), an amphiphilic carbohydrate polymer, has potentials to enhance the stability of SFE and the loading capacity. Herein, HPMC-based solid dispersions (SDs) of SFE were developed and characterized primarily using differential scanning calorimetry, Raman spectrum, and atomic force microscope. The decomposition dynamics exhibited improved stabilities of SFE through the incorporation of HPMC, and the shelf life (t",
+      "pmid": "40912782"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124158",
+      "title": "Lotus seed starch-chlorogenic acid complexes alleviated chronic colitis and linked cognitive dysfunction via gut microbiota regulation: gut-brain-axis interaction.",
+      "authors": [
+        "Wang Xiaoying",
+        "Wang Shiqi",
+        "Zheng Baodong",
+        "Guo Zebin"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "This study aims to reveal the protective mechanism of lotus seed starch-chlorogenic acid complexes (A-LS-CA) at different doses on chronic colitis and cognitive dysfunction induced by Dextran sulfate sodium. Here, A-LS-CA alleviated the pathological symptoms of mice chronic colitis in a dose-dependent manner, including improving the disease activity index, the colon length and tissue damage. It was remarkable that 2 g/kg A-LS-CA reduced the mRNA expressions and protein levels of TNF-α, IL-6, IL-1β, NF-κB and TLR4 of the colon tissue in DSS-induced chronic colitis mice. In addition, 2 g/kg A-LS-CA enhanced the level of ZO-1 and Claudin-1, which were 1.75 and 1.63 folds higher than that of the model group, respectively. In particular, A-LS-CA reshaped the gut microbiota of mice with chronic colitis and promoted the production of key metabolites, including short-chain fatty acids and tryptamine. Therefore, we speculated that A-LS-CA has a positive effect on gut microbiota and its metabolites, thereby alleviating behavioral disorders of mice with chronic colitis. In conclusion, these findings provide a research basis for starch-polyphenol complex to improve chronic colitis and cognitive dysfunction via gut-brain-axis balance.",
+      "pmid": "40947251"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124184",
+      "title": "Effect of pulsed magnetic field on the rheological properties, structure, quality attributes of rice starch gel.",
+      "authors": [
+        "Wang Jing",
+        "Li Yang",
+        "Shen Huilin",
+        "Li Jiaxin",
+        "Shan Yimeng",
+        "Nie Mengzi",
+        "Li Ning",
+        "Zhang Yue",
+        "Tong Li-Tao"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Starch retrogradation and freeze-thaw instability are two key factors leading to quality deterioration in fresh rice products. This study investigated the effects of pulsed magnetic fields (PMF, 0-10 mT) on the rheological properties, microstructure, water distribution, and textural characteristics of rice starch gels subjected to three temperature treatments (4 °C, -3 °C, and -18 °C). The results demonstrated that the PMF weakened the water molecule network, which formed spatial barriers, reduced intermolecular hydrogen bonding between starch molecules, and thereby inhibited starch retrogradation. Additionally, the magnetic field mitigated structural damage caused by ice crystals, suppressed starch molecular aggregation, and enhanced hydrogen bonding interactions between starch and water molecules, ultimately improving the freeze-thaw stability of rice starch gels. Compared to control groups (0 mT-4 °C, 0 mT--3 °C, 0 mT--18 °C), the application of the PMF intensity of 10 mT resulted in significant 22.98 % reduction, 18.97 % increase, and 81.91 % increase in hardness under corresponding temperature (p < 0.05), which further indicated that PMF could inhibit retrogradation at 4 °C and enhance freeze-thaw stability at -3 °C and -18 °C effectively. This work highlights the potential of PMF in suppressing starch retrogradation and improving the freeze-thaw stability of starch-based gel foods.",
+      "pmid": "40947202"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124222",
+      "title": "Preparation of fucoidan oligosaccharides from Sargassum fusiforme using the \"layer by layer\" degradation strategy and their binding study with HA proteins of influenza A viruses.",
+      "authors": [
+        "Xu Xiaojing",
+        "Wang Shukai",
+        "Zhang Yiqiong",
+        "Xie Hongxing",
+        "Hu Jiajun",
+        "Wang Zhongfu",
+        "Liu Yuxia",
+        "Huang Linjuan"
+      ],
+      "pubdate": "2025-11-15",
+      "abstract": "Influenza viruses significantly threaten human health, making it crucial to develop effective anti-influenza drugs. Viral hemagglutinin (HA) was found to bind specifically to glycan receptors. Here, we aim to investigate how the structure of different fucoidan oligosaccharide monomers affects binding to the influenza A virus. First, we employed a \"layer by layer\" degradation strategy to prepare structurally diverse oligosaccharides from Sargassum fusiforme. Using two-dimensional ion-pair reversed-phase high-performance liquid chromatography (2D-IPRP-HPLC), 46 fucoidan oligosaccharides were successfully isolated and purified. Subsequently, we investigated the interactions of these monomers with HA from four subtypes of influenza A viruses (H1N1, H3N2, H5N1, and H7N9) by \"shotgun\" glycan microarray approach. The structure of fucoidan oligosaccharides that exhibit specific binding was characterized through multistep chemical derivatization combined with electrospray ionization-tandem mass spectrometry (ESI-MS",
+      "pmid": "40947274"
+    }
+  ]
+}
