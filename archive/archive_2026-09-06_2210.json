@@ -1,0 +1,317 @@
+{
+  "run_timestamp_utc": "2026-09-06_2210",
+  "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE=ar) paged search (query 'ISSN(0144-8617) AND DOCTYPE(ar)', sort=-coverDate, 625 most-recent entries scanned) to find 32 unseen candidates; Elsevier Abstract Retrieval API used per-DOI but returned metadata only (no abstract text under this API key's entitlement); PubMed E-utilities (ESearch by pubmed-id from Scopus records, and by journal+date-range) used to cross-verify PublicationType (Review vs Journal Article) and to retrieve full abstract text. 14 Articles-in-Press (Vol. 391, cover date 2026-11-01) had no PubMed record yet and were excluded from this run rather than reported without verified abstracts. To reach the 20-article target, PubMed search window was widened progressively (reldate 30 -> 90 -> 730 days) which surfaced a large backlog (~900 unseen, non-review, non-retraction Carbohydrate Polymers records, mostly from Aug 2025 that prior daily runs had not yet processed); after excluding review-type and microbe-biology-centric titles/abstracts, the 20 most recent eligible records (spanning 2025-04 to 2026-08) were selected. A general-purpose research agent was also dispatched via WebSearch to attempt filling in abstracts for the 14 unindexed Articles-in-Press and to find supplementary keyword-based candidates; none of its keyword-based candidates were used directly without independent Elsevier-API verification of title/DOI/date match and seen-list status (2 of 6 agent-suggested DOIs were found to be mismatched on verification and were discarded).",
+  "target_count": 20,
+  "collected_count": 20,
+  "eligible_candidates_found_this_scan": "~900 (from widened PubMed backlog scan) + 14 abstract-pending Articles-in-Press left for a future run",
+  "exclusion_criteria_applied": "자격 기준에 따라 다음을 제외했습니다: ① 제목/PubMed PublicationType에 Review·Systematic Review가 포함된 논문(다수의 리뷰형 논문이 후보 풀에서 확인되어 제외), ② Retraction/Corrigendum 등 정정·철회 공지, ③ 핵심 주제가 세균·곰팡이·효모 등 미생물 자체의 생물학적 특성, 균주 개발, 배양·발효 공정 최적화인 논문(예: 특정 유전자 조작을 통한 미생물 균체외다당류 생산 균주 개량 연구, 세균 O-항원 혈청형 구조 분석 연구 등). 다당류/고분자 소재가 핵심 주제이고 항균성 시험이나 장내미생물 발효 특성 분석이 부가적 평가 항목으로만 포함된 논문(예: 펙틴의 장내세균 발효 특성 분석, 하이드로겔의 항균 시험)은 수집 대상으로 유지했습니다.",
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125751",
+      "title": "Recyclable cellulose-based paper from bleached eucalyptus pulp with high electromagnetic shielding and excellent processability.",
+      "authors": [
+        "Cheng Gaofeng",
+        "Liu Junjie",
+        "Li Daquan",
+        "Liu Wei",
+        "Li Weiyu",
+        "Sun Shaochao",
+        "Qain Guangfu",
+        "Lu Minsheng",
+        "Min Douyong",
+        "Chen Changzhou"
+      ],
+      "date": "2026-08-11"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125726",
+      "title": "Preferential solvation drives polysaccharide conformation and viscoelasticity.",
+      "authors": [
+        "Borah Pallab Kumar",
+        "Reid Joshua E S J",
+        "MacCalman Thomas",
+        "Irani Amir H",
+        "Russo Daniela",
+        "Smiatek Jens",
+        "Hunger Johannes",
+        "Sarter Mona",
+        "Dinu Vlad",
+        "Natali Francesca",
+        "Boehm Michael",
+        "Harding Stephen E",
+        "Williams Martin A K",
+        "Baier Stefan K",
+        "Yakubov Gleb E"
+      ],
+      "date": "2026-08-04"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125724",
+      "title": "FeCl3-catalyzed acetic acid pretreatment for surface-acetylated cellulose nanofibrils enabling Pickering emulsions and tunable optical composite films.",
+      "authors": [
+        "Liu Wei",
+        "Wang Xuan",
+        "Xu Rui",
+        "Pang Tairan",
+        "Chen Siyu",
+        "Liu Yuhan",
+        "Xu Ting",
+        "Pang Bo",
+        "Du Haishun",
+        "Si Chuanling"
+      ],
+      "date": "2026-08-05"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125722",
+      "title": "Structure and protection of Cichorium glandulosum polysaccharides against sarcopenic obesity through activating mitophagy via butyrate-GPR43-AMPK pathway.",
+      "authors": [
+        "Ma Chong",
+        "Geng Ruoyu",
+        "Hou Qiang",
+        "Zhao Yao",
+        "Yue Yanzhe",
+        "Xue Taotao",
+        "Wen Limei",
+        "Li Tian",
+        "Yang Jianhua",
+        "Hu Junping"
+      ],
+      "date": "2026-07-31"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123562",
+      "title": "Injectable glycyrrhizinate-pectin hydrogel wound dressing based on natural ingredients.",
+      "authors": [
+        "Lu Chunan",
+        "Sun Qili",
+        "Li Zimo",
+        "Wei Yushan",
+        "Yu Jialin",
+        "Li Shiman",
+        "Wang Yansong",
+        "Li Kai",
+        "Tang Chuqing",
+        "Cao Huicheng",
+        "Chen Jingle",
+        "Liu Qianqian",
+        "Liang Xiajun",
+        "Zhang Shujiang",
+        "Xie Chao",
+        "Tang Bin"
+      ],
+      "date": "2025-04-03"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123592",
+      "title": "Functional barrier and recyclable packaging materials through microfibrillated cellulose bilayer composite coatings.",
+      "authors": [
+        "Upadhyay Aakash",
+        "Lucia Lucian",
+        "Pal Lokendra"
+      ],
+      "date": "2025-04-08"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123850",
+      "title": "Effect of various natural cross-linking agents on the properties of corn starch/soy protein isolate composite films.",
+      "authors": [
+        "Cheng Hao",
+        "McClements David Julian",
+        "Xu Hao",
+        "Zhang Zipei",
+        "Zhang Ruojie",
+        "Jin Zhengyu",
+        "Chen Long"
+      ],
+      "date": "2025-06-03"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124237",
+      "title": "Cellulose nanofibers for grease and air barrier properties enhancement: A comparison on recycled and food contact paper samples.",
+      "authors": [
+        "De Santis Arianna",
+        "Nicastro Gloria",
+        "Riva Laura",
+        "Sacchetti Alessandro",
+        "Ghirardello Davide",
+        "Punta Carlo"
+      ],
+      "date": "2025-08-14"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124211",
+      "title": "Guanidinylated cluster-modified chitosan for wet-strength paper.",
+      "authors": [
+        "Gu Jiayang",
+        "Gu Zilong",
+        "Wu Bozhen",
+        "Xiao Shengwei",
+        "Zheng Sijia",
+        "Chen Nannan",
+        "Zhuang Jingshun",
+        "Liu Heyang",
+        "Jia Zhixin",
+        "Meng Yahui",
+        "Cui Xinfang",
+        "Huang Lingqi"
+      ],
+      "date": "2025-08-09"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124160",
+      "title": "Sustainable paper-based composite with beta-cyclodextrin and metallic nanoparticles for efficient nitroaromatic compound removal from water.",
+      "authors": [
+        "Sandoval Sebastián Salazar",
+        "Ortiz Tamara",
+        "Olivares Felipe",
+        "Araya-Hermosilla Rodrigo",
+        "Jara Paul",
+        "Silva Nataly"
+      ],
+      "date": "2025-07-31"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124165",
+      "title": "Paper-roll-pencils inspired self-assembled multilayer interwoven nanocellulose supercapacitor electrode enables cross-scale stress impedance coupled with electrochemical stability.",
+      "authors": [
+        "Li Qinglu",
+        "Zhang Sufeng",
+        "Jing Xiaokai",
+        "Li Nan",
+        "Wei Ning",
+        "Li Lei",
+        "Feng Yao",
+        "Li Jinrui",
+        "Liu Yali"
+      ],
+      "date": "2025-08-02"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124190",
+      "title": "Mixed-dimensional design for robust and knittable alginate/cellulose-based aerogel fibers for thermal insulation.",
+      "authors": [
+        "Zhu Yanbing",
+        "Zhang Yuanyuan",
+        "Yu Huanjian",
+        "Li Jingman",
+        "Jiang Wei",
+        "Zhang Yuanming",
+        "Wang Xiaojun"
+      ],
+      "date": "2025-08-06"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124266",
+      "title": "Gas-solid dual barrier strategy to efficiently enhance flame-retardancy and smoke-suppression of cellulose aerogel.",
+      "authors": [
+        "Luo Xiaolei",
+        "He Linyue",
+        "Sun Longfei",
+        "Chen Xinxin",
+        "Liu Lin",
+        "Yao Juming",
+        "Cai Yurong"
+      ],
+      "date": "2025-08-20"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124161",
+      "title": "The pectin puzzle: Decoding the fine structure of rhamnogalacturonan-I (RG-I) in Arabidopsis thaliana uncovers new pectin features.",
+      "authors": [
+        "Zhang Liang",
+        "Vlach Jiri",
+        "Black Ian M",
+        "Archer-Hartmann Stephanie",
+        "Heiss Christian",
+        "Azadi Parastoo",
+        "Urbanowicz Breeanna R"
+      ],
+      "date": "2025-08-02"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124162",
+      "title": "Preparation, characterization, fermentation properties of pectin with specific structures, and the analysis of microbial enzymes and genes involved in their degradation.",
+      "authors": [
+        "Cao Weichao",
+        "Liu Yaxian",
+        "Chen Nuo",
+        "Wang Yuhang",
+        "Nushrat Yiasmin Mst",
+        "Qiao Shouzheng",
+        "Tang Lisha",
+        "Sun Zhen",
+        "Lu Rongrong",
+        "Liu Cong",
+        "Hua Xiao"
+      ],
+      "date": "2025-08-05"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124249",
+      "title": "A highly branched RG-I pectin from zucchini and its effects on the intestinal microecology based on a honeybee model.",
+      "authors": [
+        "Jiang Yuanxue",
+        "Han Xunze",
+        "Zhang Yu",
+        "Wei Yunlu",
+        "Xiao Pengxinyi",
+        "Zhou Shengtong",
+        "Wen Xin",
+        "Wang Xiaofei",
+        "Zheng Hao",
+        "Li Quanhong",
+        "Zhao Jing"
+      ],
+      "date": "2025-08-15"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124213",
+      "title": "Development and evaluation of a dual-network crosslinked hydrogel comprising gelatin methacryloyl and zinc alginate for enhanced skin wound healing applications.",
+      "authors": [
+        "Yu Jialin",
+        "Ma Fenbo",
+        "Sun Qili",
+        "Deng Ke",
+        "Liu Zihang",
+        "Huang Xuan",
+        "Huang Kui",
+        "Tang Bin",
+        "Wu Guofeng"
+      ],
+      "date": "2025-08-12"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124223",
+      "title": "Konjac glucomannan-based nanofibrous aerogel for high-strength thermal superinsulation.",
+      "authors": [
+        "Liu Wenxiao",
+        "Zhou Yuxun",
+        "Liu Di",
+        "Wang Jinbin",
+        "Sun Zhifang"
+      ],
+      "date": "2025-08-10"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124156",
+      "title": "A sustainable synthesis of cellulose hydrogels for agriculture with repurpose of solvent as fertilizer.",
+      "authors": [
+        "Rebelo Rafael C",
+        "Fonseca Ana Clotilde",
+        "Coelho Jorge F J",
+        "Serra Arménio C"
+      ],
+      "date": "2025-07-30"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124188",
+      "title": "Protein-polysaccharide complexes from soy protein and carrageenan obtained by electrosynthesis.",
+      "authors": [
+        "Maciejaszek Ireneusz",
+        "Surówka Krzysztof"
+      ],
+      "date": "2025-08-07"
+    }
+  ]
+}
