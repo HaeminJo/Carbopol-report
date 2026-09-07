@@ -1,0 +1,276 @@
+{
+  "run_timestamp_utc": "2026-09-07T22:04:00Z",
+  "target_count": 20,
+  "collected_count": 25,
+  "methods_used": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, PUBYEAR>2024, sort=-coverDate, paged start/count)",
+    "Elsevier Scopus TITLE-ABS-KEY supplemental search for keywords: paper, cellulose, pectin, hydrogel, okara, paper coating, biomass, soybean protein isolate",
+    "PubMed E-utilities ESearch/ESummary/EFetch (abstract retrieval, publication-type verification, review filtering)",
+    "Crossref API (abstract field cross-check for newest Articles-in-Press)",
+    "WebSearch agent (attempted abstract retrieval for newest Articles-in-Press; unsuccessful - not yet indexed anywhere)"
+  ],
+  "notes": "Elsevier Abstract/Article Retrieval API access limited to METADATA view (AUTHORIZATION_ERROR on FULL view), so abstracts for 14 very recent Articles-in-Press (coverDate 2026-11-01) could not be retrieved from any source.",
+  "articles": {
+    "10.1016/j.carbpol.2026.125602": {
+      "authors": [
+        "Pio Viscusi"
+      ],
+      "title": "Selective aqueous hemicellulose extraction from hazelnut shells through planetary ball milling",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125602",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125796": {
+      "authors": [
+        "Wanting Li"
+      ],
+      "title": "Enhanced enzymatic hydrolysis of chitosan via MOF-mediated activation of chitosanase",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125796",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125801": {
+      "authors": [
+        "Yuqing Sun"
+      ],
+      "title": "The gut-liver axis mediates the hepatoprotective effect of mulberry polysaccharide MBPS-02A",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125801",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125806": {
+      "authors": [
+        "Huicong Jiang"
+      ],
+      "title": "Molecular engineering of interactions between 1,4-butanediol diglycidyl ether and cellulose in hydrated ionic solvents for sustainable packaging materials",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125806",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125755": {
+      "authors": [
+        "Chunwei Du"
+      ],
+      "title": "Oxidized cassava starch/polyvinyl alcohol-derived Ag-loaded carbon films with regulated structures for enhanced ethylene adsorption",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125755",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125810": {
+      "authors": [
+        "Matheus de Oliveira Barros"
+      ],
+      "title": "Programming structure and properties of bacterial cellulose via fermentation time and strain: a multivariate process–structure–property approach",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125810",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125769": {
+      "authors": [
+        "Shirong Wang"
+      ],
+      "title": "Structure-function modification of soluble dietary fiber polysaccharides from lignified bamboo shoots through microwave-assisted enzymatic disruption of lignocellulosic barrier",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125769",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125787": {
+      "authors": [
+        "Dawood Bin Fazal"
+      ],
+      "title": "Pilot-scale mechanical production of cellulose nanofibrils: Energy-structure trade-offs during disc refining",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125787",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125794": {
+      "authors": [
+        "Jingjing Li"
+      ],
+      "title": "Ultrahigh magnetic field pretreatment modulates starch-rich matrix remodeling and germination in oat seeds",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125794",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125809": {
+      "authors": [
+        "Yunpeng Ye"
+      ],
+      "title": "Multiscale design of TEMPO-oxidized cellulose nanofiber/biomass-derived porous composites for electromagnetic wave absorption and multifunctional protection",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125809",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125783": {
+      "authors": [
+        "Nan Jiang"
+      ],
+      "title": "Carboxymethyl chitosan-stabilized Cu2O nanocomposites integrated into biomimetic 3D nanofibrous scaffolds for infected wound microenvironment modulation",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125783",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125790": {
+      "authors": [
+        "Yixuan Huang"
+      ],
+      "title": "A bamboo-derived cellulose \"high-speed rail\" scaffold with gradient topology and temporal immunomodulation for tendon–bone interface regeneration",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125790",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125798": {
+      "authors": [
+        "Minghao Shi"
+      ],
+      "title": "Laminarin sulfate from Lessonia flavicans as a potential non-animal anticoagulant with minimal hemorrhagic risk: Structural characterization by NMR spectroscopy and activity analysis",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125798",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2026.125802": {
+      "authors": [
+        "Yanping Cai"
+      ],
+      "title": "A low-molecular-weight glucan from Lycium barbarum reprograms tumor-associated macrophages involving the Dectin-1/NOX2 axis to suppress hepatoma",
+      "coverDate": "2026-11-01",
+      "doi": "10.1016/j.carbpol.2026.125802",
+      "has_abstract": false,
+      "abstract": null
+    },
+    "10.1016/j.carbpol.2025.124078": {
+      "title": "Quaternary-ammonium chitosan/Sericin-modified carbon nanotubes Photothermal coatings: A reusable and sustainable chemical-free seed disinfection strategy",
+      "authors": [
+        "Chen X."
+      ],
+      "coverDate": "2025-11-15",
+      "doi": "10.1016/j.carbpol.2025.124078",
+      "has_abstract": true,
+      "abstract": "The increasing global demand for food and the adverse environmental impacts of excessive agrochemical use highlights the urgent need for sustainable and scalable seed treatment technologies. This paper reports a novel photothermal seed coating (QC@SCCNTs) with high biocompatibility, exceptional photothermal efficiency, and notable reusability, serving as an effective alternative to conventional chemical treatments. The coating consists of sericin-functionalized carboxylated carbon nanotubes (SCCNTs) electrostatically complexed with quaternary ammonium chitosan (QC), forming a composite film (QS film). Under 808 nm near-infrared (NIR) irradiation, QC@SCCNTs demonstrated antimicrobial efficacies exceeding 97 % against six pathogenic microorganisms, including prominent pathogens such as Aspergillus flavus and Fusarium solani. Applied to red kidney bean and pakchoi seeds, the coating effectively eliminated microbial contamination, increasing the germination rate of red kidney beans from 55.56 % to 91.67 %, and promoting seedling height from 14.48 cm to 41.01 cm. The QS film exhibited exceptionally gas barrier properties and mechanical strength, and completely degraded within just three days of soil burial. The coating retained antimicrobial performance over two reuse cycles after removal and washing. These findings demonstrate the potential of QC@SCCNTs as a biodegradable, reuseable, and scalable materials for safe seed protection and storage in sustainable agriculture.",
+      "pmid": "40912761"
+    },
+    "10.1016/j.carbpol.2025.123994": {
+      "title": "Optimizing multilevel interactions of paper straws using modified cellulose nanocrystal-based coatings to enhance PLA crystallization and microplastic capture efficiency",
+      "authors": [
+        "Xie Y."
+      ],
+      "coverDate": "2025-11-01",
+      "doi": "10.1016/j.carbpol.2025.123994",
+      "has_abstract": true,
+      "abstract": "Disposable plastics make up 80 % of marine waste, threatening aquatic ecosystems. Over time, these plastics decompose into harmful microplastics (MPs), which can potentially enter the human body. This study presents a novel PLA-CO",
+      "pmid": "40817536"
+    },
+    "10.1016/j.carbpol.2025.123493": {
+      "title": "Taro leaf inspired micro/nanocellulose-based hierarchical structural coating and its application on O/W separation and food preservation",
+      "authors": [
+        "Rahman M.M."
+      ],
+      "coverDate": "2025-06-15",
+      "doi": "10.1016/j.carbpol.2025.123493",
+      "has_abstract": true,
+      "abstract": "The water-repellent and antibacterial capabilities are essential criteria for textile and packaging materials. This research creates a non-fluorinated, superhydrophobic coating inspired by the hierarchical structure of the Taro leaf, utilizing an emulsion of alkyl ketene dimer (AKD, as secondary roughness) encapsulated within cellulose nanofibres (CNFs), assembling with cellulose microparticles (CMPs, as primary roughness) and TiO2 nanoparticles (as tertiary roughness). The post-recrystallization of AKD plays a vital role in the formation of multi-level surface roughness. Attributing to the driving force generated by water evaporation, the orientation of recrystallized AKD can be regulated either parallel or perpendicular to the substrate. The coated paper exhibited a water contact angle (WCA) of 166.7 ± 3.2° on unsized paper and up to 173 ± 2.0° on filter paper. Cooling temperature and cooling rate play a crucial role on the formation of uniform and stable platelet structures according to the morphology analysis of AKD's recrystallization. Due to the strong superhydrophobicity and the incorporation of TiO2 nanoparticles, the coating possesses self-cleaning and anti-fungal qualities, successfully preventing tomatoes from rotting. In short, this research presents a sustainable approach for the production of aqueous-phase coatings, with potential applications in waterproof surfaces and food packaging.",
+      "pmid": "40383561"
+    },
+    "10.1016/j.carbpol.2024.123111": {
+      "title": "A highly stretchable, self-healing, self-adhesive polyacrylic acid/chitosan multifunctional composite hydrogel for flexible strain sensors",
+      "authors": [
+        "Lv R."
+      ],
+      "coverDate": "2025-03-01",
+      "doi": "10.1016/j.carbpol.2024.123111",
+      "has_abstract": true,
+      "abstract": "Conductive hydrogels have emerged as excellent candidates for the design and construction of flexible wearable sensors and have attracted great attention in the field of wearable sensors. However, there are still serious challenges to integrating high stretchability, self-healing, self-adhesion, excellent sensing properties, and good biocompatibility into hydrogel wearable devices through easy and green strategies. In this paper, multifunctional conductive hydrogels (PCGB) with good biocompatibility, high tensile (1694 % strain), self-adhesive, and self-healing properties were fabricated by incorporating boric acid (BA) and glucose (Glu) simultaneously into polyacrylic acid (PAA) and chitosan (CS) polymer networks using a simple one-pot polymerization method. Furthermore, the hydrogel strain sensor constructed from the PCGB assembly had great sensing property including high sensitivity (GF = 5.7), durability and stability (5000 cycles). The hydrogel strain sensor was applied to the detection of human motion, which exhibited accurate detection behavior for both large-scale motions and small activities. A strategy to design and fabricate multifunctional conductive hydrogels integrating high stretchability, self-healing, self-adhesion and good biocompatibility was provided, and the multifunctional conductive hydrogels broadened the application of hydrogel-based wearable sensor.",
+      "pmid": "39779019"
+    },
+    "10.1016/j.carbpol.2025.124216": {
+      "title": "Effects of exogenous amyloid protein fibril aggregates on in vitro digestibility, structural properties and retrogradation of starch in extruded reconstituted rice",
+      "authors": [
+        "Liao Z."
+      ],
+      "coverDate": "2025-11-15",
+      "doi": "10.1016/j.carbpol.2025.124216",
+      "has_abstract": true,
+      "abstract": "In this paper, the effects of Soy protein isolate fibril aggregates (SPIF) on in vitro digestibility, structure and retrogradation of starch in reconstituted rice were systematically studied. Incorporation of 10 % SPIF significantly reduced the glycemic index (eGI) from 84.12 to 74.39 (p < 0.05). Microstructural and XRD analyses revealed that SPIF preserved starch granular integrity during extrusion, maintaining the highest relative crystallinity by mitigating gelatinization. SPIF further stabilized amylopectin by inhibiting the conversion of medium chains to short chains and reinforcing short-range molecular order, as evidenced by chain length distribution and FT-IR analysis. Notably, 10 % SPIF delayed short-term retrogradation (5 h at 4 °C), yielding minimal hardness (1312.26 g) and crystallinity (18.86 %) (p < 0.05), though long-term retrogradation (24 h at 4 °C) was accelerated due to enhanced amylopectin reorganization. These findings highlight dual role of SPIF as a hydrocolloid modifier in starch-based matrices, offering structural protection during processing while modulating digestibility and retrogradation patterns. The work shed light on the potential of SPIF for designing extruded foods with mitigated glycemic responses and improved functional attributes.",
+      "pmid": "40947215"
+    },
+    "10.1016/j.carbpol.2025.123631": {
+      "title": "Impact of varying chain-length fatty acids on the retrogradation of mung bean starch-soybean protein isolate gels: Induced changes in morphology, rheology, and water distribution",
+      "authors": [
+        "Zhao W."
+      ],
+      "coverDate": "2025-08-01",
+      "doi": "10.1016/j.carbpol.2025.123631",
+      "has_abstract": true,
+      "abstract": "This study systematically evaluated the impact of different fatty acids (LA, lauric acid; MA, myristic acid; PA, palmitic acid; SA, stearic acid; 5 % w/w) with soybean isolate protein (SPI, 10 % w/w) on the structural and anti-retrogradation properties of mung bean starch gels. The results showed that fatty acids and SPI interacted with starch during the pasting process, disrupted the integrity network, reduced the order and viscoelasticity of the system, and depended on the length of carbon chains. Notably, under the emulsification of SPI, long-chain fatty acids (e.g., palmitic acid 64.33 % and stearic acid 65.57 %) formed complexes with starch, significantly limiting their release. During 30 days of storage, SPI and fatty acids synergistically retained moisture (e.g., 18 % lower syneresis in ternary gels vs. control starch gels) and reduced chromatic aberration (ΔE < 5.7) and hardness (282.06 g-388.07 g). This was favorable for maintaining the quality of the gelled food during its shelf life and promoted the precise application of fatty acids in the gel system.",
+      "pmid": "40368558"
+    },
+    "10.1016/j.carbpol.2025.123417": {
+      "title": "Further understanding the unique structure derived from interaction of soy proteins with acylated starch of various chain-length short-chain fatty acids",
+      "authors": [
+        "Ke S."
+      ],
+      "coverDate": "2025-05-15",
+      "doi": "10.1016/j.carbpol.2025.123417",
+      "has_abstract": true,
+      "abstract": "Waxy maize starch was acylated via different chain-length of short-chain fatty acids (SCFAs) (referred to AS, PS and BS, respectively), followed by investigation of their structural characteristics of complexes formed between the acylated starch and soy protein isolate (SPI) via FTIR, NMR, XRD and CLSM, etc. This is the first time to reveal that ζ-potential value of the complexes between two polymers was proportional to chain length of SCFAs. The occurrence of new peak at 1580 cm",
+      "pmid": "40049984"
+    },
+    "10.1016/j.carbpol.2024.123117": {
+      "title": "Pickering high internal phase emulsions stabilized by soy protein isolate/κ-carrageenan complex for enhanced stability, bioavailability, and absorption mechanisms of nobiletin",
+      "authors": [
+        "Li H."
+      ],
+      "coverDate": "2025-03-01",
+      "doi": "10.1016/j.carbpol.2024.123117",
+      "has_abstract": true,
+      "abstract": "Nobiletin (NOB), a lipid-soluble polymethoxyflavone with potent antioxidant, antimicrobial, and anti-inflammatory properties, suffers from poor stability and pH sensitivity, limiting its bioavailability. In this study, Pickering high internal phase emulsions (HIPEs) stabilized by soy protein isolate (SPI) and κ-carrageenan (KC) were developed to encapsulate and protect NOB. The emulsions, containing a 75 % medium-chain triglyceride (MCT) volume fraction, were optimized by investigating the effects of pH and KC concentration on the key properties such as the creaming index, particle size, zeta potential, microstructure, and rheology. Results showed that under optimal conditions (pH 7 and 1.0 % KC), the SPI/KC HIPEs exhibited improved physicochemical properties. Furthermore, encapsulation of NOB in HIPEs significantly improved its stability against UV exposure, heat, and storage conditions. Additionally, simulated gastrointestinal digestion studies revealed that the SPI/KC HIPEs improved the digestion stability and bioaccessibility of NOB, with controlled release in the intestinal phase. Moreover, the SPI/KC HIPEs facilitated increased cellular uptake and bioavailability of NOB, with clathrin-mediated endocytosis and macropinocytosis as primary absorption pathways. The encapsulated NOB also showed enhanced inhibition of inflammatory markers, including NO, IL-6, and TNF-α. These findings suggested that SPI/KC HIPEs provided a promising delivery system for improving the bioavailability and bioactivity of hydrophobic compounds.",
+      "pmid": "39779025"
+    },
+    "10.1016/j.carbpol.2024.122953": {
+      "title": "Enhanced physicochemical properties and riboflavin delivery ability of soy isolate protein/sugar beet pectin composite freeze-dried gels prepared by double crosslinking strategy",
+      "authors": [
+        "Cao J."
+      ],
+      "coverDate": "2025-02-01",
+      "doi": "10.1016/j.carbpol.2024.122953",
+      "has_abstract": true,
+      "abstract": "Improving the mechanical strength of protein freeze-dried gels materials has become a research priority in the field of nutrient delivery system development in recent years. In this study, double crosslinking freeze-dried gels were prepared by integrating laccase catalyzed sugar beet pectin (SBP) as a highly active filler molecule into the soybean isolate protein (SPI) thermally induced gel network, followed by freeze-drying. The double crosslinking freeze-dried gels were a porous material and the addition of SBP resulted in the formation of amorphous forms of freeze-dried gels with lower binding energy. The freeze-dried gels with 2.0 % SBP addition had the densest microstructure with the highest density (19.00 mg/cm",
+      "pmid": "39638500"
+    },
+    "10.1016/j.carbpol.2024.123020": {
+      "title": "Effect of carrageenan on stability and 3D printing performance of high internal phase pickering emulsion stabilized by soy protein isolate aggregates under neutral condition",
+      "authors": [
+        "Li R."
+      ],
+      "coverDate": "2025-02-01",
+      "doi": "10.1016/j.carbpol.2024.123020",
+      "has_abstract": true,
+      "abstract": "High internal phase Pickering emulsion (HIPPE) stabilized by heat induced soy protein isolate aggregates (HSPI) alone had limited stability and poor 3D printing performance. While there is few research about HIPPE stabilized by HSPI and polysaccrides at neutral pH condition, where HSPI and ĸ-carrageenan (CG) were combined to fabricate HIPPE in this research. It was found that the incorporation of CG significantly decreased the droplet size and improved the storage stability of the resulting HIPPE. Moreover, the presence of CG improved the freeze-thaw stability of HIPPE after one freeze-thaw cycle. In addition, the addition of CG significantly improved the structural integrity of the 3D printed HIPPE and enhanced the printing precision. This was because the presence of CG decreased the interfacial tension, increased the zeta potential and viscosity of HSPI-CG, thus promoting the adsorption of particles to the oil-water interface more effectively. Moreover, the presence of CG significantly enhanced the viscoelasticity of the resulting HIPPE. These results can be further attributed to the strong hydrogen bonding and hydrophobic interaction between HSPI and CG at neutral pH condition, which can be confirmed from results of Fourier-transform infrared spectroscopy and Isothermal titration calorimeter. So the incorporation of CG endowed HIPPE with more excellent properties at a lower solid particle concentration.",
+      "pmid": "39638508"
+    },
+    "10.1016/j.carbpol.2024.122759": {
+      "title": "Effect of polysaccharide on structures and gel properties of microgel particle reconstructed soybean protein isolate/polysaccharide complex emulsion gels as solid fat mimetic",
+      "authors": [
+        "Wang Z."
+      ],
+      "coverDate": "2025-01-01",
+      "doi": "10.1016/j.carbpol.2024.122759",
+      "has_abstract": true,
+      "abstract": "In this work, a soybean protein isolate (SPI)/polysaccharide microgel particle reconstructed emulsion gels (MPEG) were fabricated through heat-induced gel (HG)-microgel particle-transglutaminase (TG) induced gel process in the presence of four polysaccharides (κ-carrageenan, κC; konjac glucomannan, KGM; high-acyl gellan, HA and xanthan gum, XG). HG exhibited a higher springiness than that of pig back fat (PBF) regardless of polysaccharide type and concentration. After forming MPEG, the springiness was significantly lowered at ≥0.6 % κC, which made MPEG exhibit similar springiness of PBF; while SPI/KGM, SPI/XG and SPI/HA systems failed to regulate the springiness property. Rheological behavior revealed the loss in elasticity, the increase in the plastic deformation of SPI/κC MPEG, while KGM, XG and HA systems still exhibited elasticity dominated rheological properties. Compared with KGM, XG, the presence of excess κC and HA disturbed the continuous protein network structure, resulting to the aggregation of microgel particles and oil droplets. Disulfide bonds and hydrophobic interactions mainly contributed to the formation of MPEG, while the addition of κC weakened the contribution of them, which was not conducive to the formation of gel network. This study provides a guidance on the development of solid fat mimetic based on the microgel particle emulsion gels.",
+      "pmid": "39486987"
+    }
+  }
+}
