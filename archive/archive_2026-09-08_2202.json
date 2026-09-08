@@ -1,0 +1,47 @@
+{
+  "run_timestamp_utc": "2026-09-08T22:02:00Z",
+  "target_count": 20,
+  "collected_count": 2,
+  "methods_used": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, PUBYEAR>2023, sort=-coverDate, paged start/count 0..675, 700 records scanned)",
+    "PubMed E-utilities ESearch/EFetch (Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt], datetype=pdat reldate=730, datetype=edat reldate=2/7)",
+    "PubMed EFetch pubtype/abstract verification for review and microbe-centric exclusion",
+    "WebSearch supplemental search for keywords: paper, cellulose, pectin, hydrogel, okara, paper coating, biomass, soybean protein isolate",
+    "WebSearch abstract-summary retrieval for the 2 final articles (Elsevier Abstract Retrieval API FULL view returned 401 AUTHORIZATION_ERROR; only METADATA view accessible)"
+  ],
+  "notes": "Elsevier Abstract/Article Retrieval API access limited to METADATA view (AUTHORIZATION_ERROR on FULL view), so full abstract text for the 2 confirmed new articles was reconstructed from WebSearch-indexed public summaries rather than the Elsevier API. Exclusion breakdown from the 20 not-yet-seen Scopus candidates: 11 Review/Editorial, 7 microbe-centric research articles, leaving 2 qualifying new research articles.",
+  "exclusion_summary": {
+    "review_or_editorial": 11,
+    "microbe_centric": 7,
+    "already_seen_duplicates_scopus_scan": 680,
+    "notes": "Scanned Scopus ISSN(0144-8617) AND PUBYEAR>2023, sorted -coverDate, start=0..675 (700 records). After removing already-seen DOIs, corrigenda/erratum/retraction, 20 unseen candidates remained. Of those, 11 were Review/Editorial pubtype and 7 were microbe-centric research (bacterial LPS serology, fungal cell wall biology, lactobacilli EPS secretion, E. coli glycoconjugate vaccine engineering, Bacillus smithii EPS biosynthesis), leaving 2 qualifying new research articles. PubMed ESearch (pdat reldate=730, edat reldate=2/7) cross-check found no additional new items."
+  },
+  "articles": {
+    "10.1016/j.carbpol.2026.125770": {
+      "doi": "10.1016/j.carbpol.2026.125770",
+      "title": "Alginate hydrogels as carriers of coumarin derivatives and a phosphonate analog: characterization by Raman and FT-IR and biocompatibility evaluation",
+      "authors": [
+        "Kalwasińska A.",
+        "et al."
+      ],
+      "coverDate": "2026-11-01",
+      "volume": "391",
+      "has_abstract": true,
+      "abstract_source": "WebSearch (ScienceDirect indexed summary)",
+      "focus_keyword": "hydrogel"
+    },
+    "10.1016/j.carbpol.2026.125750": {
+      "doi": "10.1016/j.carbpol.2026.125750",
+      "title": "Synthesis and properties of ethyl cellulose preferentially substituted at C6 position via metal-catalyzed reductive deoxygenation of commercial cellulose triacetate",
+      "authors": [
+        "Sato Y.",
+        "et al."
+      ],
+      "coverDate": "2026-11-01",
+      "volume": "391",
+      "has_abstract": true,
+      "abstract_source": "WebSearch (ScienceDirect indexed summary)",
+      "focus_keyword": "cellulose"
+    }
+  }
+}
