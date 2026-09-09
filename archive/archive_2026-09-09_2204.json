@@ -1,0 +1,382 @@
+{
+  "run_timestamp_utc": "2026-09-09T22:04:00Z",
+  "target_count": 20,
+  "collected_count": 20,
+  "methods_used": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, PUBYEAR>2023, sort=-coverDate, paged start/count 0..1700, 1725 records scanned)",
+    "PubMed E-utilities ESearch (Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt], datetype=pdat, reldate=730) paged via retstart to retrieve all 2489 matching PMIDs",
+    "PubMed E-utilities EFetch (full record incl. abstract, pubtype, ArticleDate) for all 2489 PMIDs, batched ~150 per request",
+    "Cross-referenced against state/seen_articles.json to isolate unseen DOIs, sorted by ArticleDate descending",
+    "Excluded Retraction Notice / Corrigendum / Expression of Concern / Retracted Publication pubtypes and titles",
+    "Manually verified top unseen candidates abstract-by-abstract to exclude microbe-centric research (strain engineering, biosynthesis pathways, serology, fermentation optimization)"
+  ],
+  "exclusion_summary": {
+    "notes": "Elsevier Scopus scan of the most recent ~1725 records (coverDate descending) showed the recent issues/Articles-in-Press are dominated by Review and Erratum/Corrigendum items; only 30 Article-subtype unseen candidates were found in that window, and abstract verification showed nearly all of those were either mislabeled reviews (per PubMed pubtype) or microbe-centric research articles (e.g. Bacillus smithii EPS biosynthesis, E. coli glycoconjugate vaccine engineering, Lactobacillus cell-wall/secreted polysaccharide switching, Corynebacterium glutamicum chondroitin production engineering, Proteus/Plesiomonas O-antigen serology, Aspergillus atacamensis cell wall biology, Sinorhizobium galactoglucan production, Streptococcus pneumoniae capsular polysaccharide vaccine purification). To find a genuine 20-article batch, a comprehensive PubMed ESearch/EFetch sweep of all 2489 non-review Journal Article records published in the last 2 years was performed and cross-checked against seen_articles.json; this surfaced a large backlog of materials-science articles from Aug 2025 that previous daily runs had not yet reached. From this backlog, mutansucrase/biofilm research (Streptococcus mutans virulence factor) was also excluded as microbe-centric, after which the next 20 unseen, non-review, non-retraction, non-microbe-centric articles (all dated 2025-08-08 to 2025-08-21) were selected.",
+    "total_pubmed_nonreview_2yr": 2489,
+    "scopus_recent_window_scanned": 1725,
+    "scopus_recent_window_article_subtype_unseen": 30,
+    "scopus_recent_window_qualifying_after_review_and_microbe_exclusion": 0,
+    "pubmed_full_sweep_unseen_nonreview_nonretraction": 1363,
+    "excluded_microbe_centric_examples": [
+      "Lipopolysaccharide of Plesiomonas shigelloides O68:H2 (O-antigen serology)",
+      "O-acetyl groups ... Proteus mirabilis O48 O-antigens (O-antigen serology)",
+      "Chaotropic ions reshape the cell wall of the obligate halophile aspergillus atacamensis (fungal cell wall biology)",
+      "Elucidating the metabolic network ... exopolysaccharides XY1-EPS in Bacillus smithii (bacterial biosynthesis pathway)",
+      "Mutations in PilZ domains of ... bacterial glucan synthases (bacterial enzyme/strain)",
+      "Switching cell wall-bound polysaccharides to secreted polysaccharides in lactobacilli (microbial strain biology)",
+      "Engineering Escherichia coli to biosynthesize O-polysaccharide-derived glycoconjugate vaccines (strain engineering)",
+      "Engineering compartmentalized utilization of glycerol ... chondroitin production in Corynebacterium glutamicum (strain/bioprocess engineering)",
+      "Production and functional characterization of ... galactoglucan G2 secreted by Sinorhizobium sp. ACT002 (strain isolation/production optimization)",
+      "Development ... capsular polysaccharide purification process from ... Streptococcus pneumoniae serotype 22F (vaccine antigen purification from pathogen)",
+      "Unraveling role of the glucan-binding domain in mutansucrase-mediated glucan synthesis and biofilm-related properties (bacterial virulence factor/biofilm)"
+    ],
+    "review_or_corrigendum_examples_count_in_recent_scopus_window": 330
+  },
+  "articles": {
+    "10.1016/j.carbpol.2025.124272": {
+      "title": "Propylene glycol alginate (PGA)-modulated interfacial assembly of dual-protein nanoparticles for stabilizing Pickering emulsions in ethanol-water system.",
+      "authors": [
+        "Wang Y.",
+        "Xie J.",
+        "Wang Y.",
+        "Liao W.",
+        "Gao Y."
+      ],
+      "coverDate": "2025-08-21",
+      "doi": "10.1016/j.carbpol.2025.124272",
+      "pmid": "40947236",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124227": {
+      "title": "Enhanced underwater adhesion of chitooligosaccharide-based pressure-sensitive adhesives and their potential in wound healing applications.",
+      "authors": [
+        "Hu X.",
+        "Zhang Z.",
+        "Chen G.",
+        "Hou P.",
+        "Zhang Q.",
+        "Zhang D.",
+        "Liu X.",
+        "Zhang L."
+      ],
+      "coverDate": "2025-08-19",
+      "doi": "10.1016/j.carbpol.2025.124227",
+      "pmid": "40947219",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124224": {
+      "title": "Porous chitosan beads integrated with sustainably synthesized nanosilver: A readily recyclable, ultra-efficient catalyst for the reduction of organic compounds.",
+      "authors": [
+        "Truong T.",
+        "Vo H.",
+        "Nguyen T.",
+        "Do B.",
+        "Phan H.",
+        "Ho T.",
+        "Nguyen T."
+      ],
+      "coverDate": "2025-08-19",
+      "doi": "10.1016/j.carbpol.2025.124224",
+      "pmid": "40947217",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124260": {
+      "title": "Amine-functionalized polysiloxane-engineered cellulose foam with Ag/MnO2 schottky interfaces for synergistic adsorption-photocatalytic formaldehyde elimination.",
+      "authors": [
+        "Yu W.",
+        "Luo S.",
+        "Liang Z.",
+        "Liu W.",
+        "Bi X.",
+        "Zhang S.",
+        "Jin T."
+      ],
+      "coverDate": "2025-08-19",
+      "doi": "10.1016/j.carbpol.2025.124260",
+      "pmid": "40947238",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124257": {
+      "title": "Rapid and nondestructive prediction of total starch and amylose contents in single sorghum kernel (SSK) based on near infrared (NIR) spectroscopy.",
+      "authors": [
+        "Zhou J.",
+        "Li Y.",
+        "Bean S.",
+        "Armstrong P.",
+        "Wu X."
+      ],
+      "coverDate": "2025-08-18",
+      "doi": "10.1016/j.carbpol.2025.124257",
+      "pmid": "40947234",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124252": {
+      "title": "Tunable mechanical properties of aroma microcapsules achieved via cellulose nanocrystals interfacial self-assembly strategies.",
+      "authors": [
+        "Ke Q.",
+        "Qin Z.",
+        "Zhang Y.",
+        "Yang Y.",
+        "Zhang Y.",
+        "Kou X."
+      ],
+      "coverDate": "2025-08-18",
+      "doi": "10.1016/j.carbpol.2025.124252",
+      "pmid": "40947232",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124248": {
+      "title": "Single nucleotide polymorphisms of the Waxy gene and their relationship with the physicochemical properties of Pueraria lobata (kudzu) starch.",
+      "authors": [
+        "Zha R.",
+        "Fan Y.",
+        "Fu Y.",
+        "Liu C.",
+        "Sun H.",
+        "Wan J.",
+        "Wei M.",
+        "Jin Z.",
+        "Li P.",
+        "Zhu Z.",
+        "Wei J.",
+        "Yin J.",
+        "Zhu J."
+      ],
+      "coverDate": "2025-08-16",
+      "doi": "10.1016/j.carbpol.2025.124248",
+      "pmid": "40947230",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124247": {
+      "title": "Antioxidant-sealed chitosan nanofibers loaded with erythromycin: Tissue regeneration biomaterials with immune-modulating effects in a rat model.",
+      "authors": [
+        "Platon V.",
+        "Andreica B.",
+        "Anisiei A.",
+        "Rosca I.",
+        "Sandu I.",
+        "Mititelu Tartau L.",
+        "Marin L."
+      ],
+      "coverDate": "2025-08-15",
+      "doi": "10.1016/j.carbpol.2025.124247",
+      "pmid": "40947229",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124241": {
+      "title": "Dynamic assembly endows flexible iridescent CNC-based photonic composite film with emergent nonreciprocal chiroptical capability.",
+      "authors": [
+        "Jia D.",
+        "Pu X.",
+        "Zhu D.",
+        "Wang X."
+      ],
+      "coverDate": "2025-08-15",
+      "doi": "10.1016/j.carbpol.2025.124241",
+      "pmid": "40947228",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124239": {
+      "title": "Enhanced electron microscopy imaging for a detailed structural study of alginate hydrogel containing the encapsulated cells.",
+      "authors": [
+        "Mrázová K.",
+        "Černayová D.",
+        "Havlíčková A.",
+        "Hrubanová K.",
+        "Obruča S.",
+        "Sedláček P.",
+        "Krzyžánek V."
+      ],
+      "coverDate": "2025-08-14",
+      "doi": "10.1016/j.carbpol.2025.124239",
+      "pmid": "40947227",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124238": {
+      "title": "Starch-integrated alginate-based ternary hydrogel beads-loaded with mace extract-arils of Myristica fragrans: Composition-dependent Hertzian elasticity, swelling and adsorptive properties.",
+      "authors": [
+        "Bozbay R.",
+        "Orakdogen N."
+      ],
+      "coverDate": "2025-08-14",
+      "doi": "10.1016/j.carbpol.2025.124238",
+      "pmid": "40947226",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124242": {
+      "title": "Bi-directional pH-responsive cellulose nanocrystals-based pesticide microcapsules for sustainable agriculture.",
+      "authors": [
+        "Ding J.",
+        "Guo L.",
+        "Li S.",
+        "Gao Q.",
+        "Wu W.",
+        "Li D.",
+        "Li J."
+      ],
+      "coverDate": "2025-08-14",
+      "doi": "10.1016/j.carbpol.2025.124242",
+      "pmid": "40947276",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124215": {
+      "title": "High performance multifunctional bio-gel sensor prepared with konjac glucomannan and κ-carrageenan.",
+      "authors": [
+        "Wang Y.",
+        "Huang Z.",
+        "Zhang D.",
+        "Li M.",
+        "Wen X.",
+        "Lei X.",
+        "Ye Z.",
+        "Pang J."
+      ],
+      "coverDate": "2025-08-14",
+      "doi": "10.1016/j.carbpol.2025.124215",
+      "pmid": "40947272",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124233": {
+      "title": "Amorphous cellulose nano-pesticide with hairball structure to overcome sudden release difficulty.",
+      "authors": [
+        "Zhang S.",
+        "Zhou Y.",
+        "Shi J.",
+        "Zhao W.",
+        "Xu X.",
+        "Jiang Y.",
+        "Jia S.",
+        "Su Z.",
+        "Qi J.",
+        "Shen F.",
+        "Jiang B.",
+        "Tian D.",
+        "Shen F."
+      ],
+      "coverDate": "2025-08-13",
+      "doi": "10.1016/j.carbpol.2025.124233",
+      "pmid": "40947224",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124221": {
+      "title": "A polysaccharide smart packaging materials: Anthocyanin microcapsules synergized with nanosilver co-filled gellan gum/sodium alginate film for monitoring chilled mutton freshness.",
+      "authors": [
+        "Song Z.",
+        "Ni W.",
+        "Zheng Y.",
+        "Ma Y.",
+        "Cao Y.",
+        "Han L.",
+        "Yu Q."
+      ],
+      "coverDate": "2025-08-11",
+      "doi": "10.1016/j.carbpol.2025.124221",
+      "pmid": "40947273",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124175": {
+      "title": "Non-iridescent modulation of chiral structure of cellulose nanocrystals under molecular constraints.",
+      "authors": [
+        "Duan C.",
+        "Tang F.",
+        "Chen J.",
+        "Wang B.",
+        "Guo D.",
+        "Sha L."
+      ],
+      "coverDate": "2025-08-11",
+      "doi": "10.1016/j.carbpol.2025.124175",
+      "pmid": "40947258",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124212": {
+      "title": "Preparation and characterization on a dual-layer slow-release urea fertilizer coated using ethyl cellulose and phosphoric acid-carbamate di-esterified starch-based chitosan hydrogel.",
+      "authors": [
+        "Gu S.",
+        "Zhang W.",
+        "Tan X.",
+        "Wang P.",
+        "Shi Z.",
+        "Lv J.",
+        "Zhao M.",
+        "Dong G."
+      ],
+      "coverDate": "2025-08-10",
+      "doi": "10.1016/j.carbpol.2025.124212",
+      "pmid": "40947213",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124197": {
+      "title": "Nitrogen-regulated amylose structure and complexation during post-ripening: A key to improving rice cooking and eating quality.",
+      "authors": [
+        "Chen Z.",
+        "Li X.",
+        "Yuan W.",
+        "Huang Y.",
+        "Wang J.",
+        "Xu X.",
+        "Shen X.",
+        "Guo X.",
+        "Yu Z.",
+        "Yang Z.",
+        "Sun Y.",
+        "Ma J.",
+        "Li X."
+      ],
+      "coverDate": "2025-08-10",
+      "doi": "10.1016/j.carbpol.2025.124197",
+      "pmid": "40947208",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124208": {
+      "title": "Konjac glucomannan/alginate polysaccharide hydrogel loaded with phosphatidylcholine nanoparticles for hormone-free cultured fat production from porcine fibroblasts.",
+      "authors": [
+        "Gu X.",
+        "Hua S.",
+        "Li C.",
+        "Shi X.",
+        "Zhou Y.",
+        "Zhou M.",
+        "Shan T."
+      ],
+      "coverDate": "2025-08-09",
+      "doi": "10.1016/j.carbpol.2025.124208",
+      "pmid": "40947210",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2025.124207": {
+      "title": "Customizing porosity and mechanical strength in chitosan-based scaffolds for enhanced bone tissue regeneration.",
+      "authors": [
+        "Gonçalves J.",
+        "Luzia Pinto M.",
+        "Ferreira P.",
+        "Nunes C."
+      ],
+      "coverDate": "2025-08-08",
+      "doi": "10.1016/j.carbpol.2025.124207",
+      "pmid": "40947209",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    }
+  },
+  "notes": "Elsevier Abstract/Article Retrieval API (api.elsevier.com/content/abstract/doi/...) returned only METADATA view (no abstract text, author list truncated); full abstracts, complete author lists, and PubMed Publication Type tags for review/retraction/pubtype classification were obtained via PubMed E-utilities EFetch instead. ArticleTitle text was extracted with itertext() to correctly capture titles containing <sub>/<sup> markup (e.g. Ag/MnO2)."
+}
