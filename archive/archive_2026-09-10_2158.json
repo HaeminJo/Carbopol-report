@@ -1,0 +1,474 @@
+{
+  "run_timestamp_utc": "2026-09-10T21:58:00Z",
+  "target_count": 20,
+  "collected_count": 26,
+  "methods_used": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, PUBYEAR>2023, sort=-coverDate, start=0/count=25, 3765 total records scanned via direct network access)",
+    "PubMed E-utilities ESearch (Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt], datetype=pdat, reldate=730) paged via retstart (0,500,1000,1500,2000) to retrieve all 2489 matching PMIDs",
+    "PubMed E-utilities EFetch (full record incl. abstract, pubtype, ArticleDate, AuthorList, ArticleIdList) for all 2489 PMIDs, batched 150 per request across 17 batches",
+    "Parsed XML with itertext() to correctly capture titles/abstracts containing markup (sub/sup tags)",
+    "Cross-referenced against state/seen_articles.json (2811 prior DOIs) to isolate unseen DOIs",
+    "Excluded Review/Retraction of Publication/Retracted Publication/Published Erratum/Corrigendum/Comment/Editorial/Letter/Expression of Concern PublicationType tags, plus a title-regex fallback for review/corrigendum/retraction/erratum/editorial keywords",
+    "Manually verified top unseen candidates (sorted by coverDate ascending, oldest-unprocessed-first) abstract-by-abstract to exclude microbe-centric research (strain engineering, enzyme cloning/expression in E. coli, biosynthesis pathway, fermentation optimization); one candidate (AcGH30A xylobiohydrolase cloned/expressed in E. coli BL21) was excluded on this basis"
+  ],
+  "exclusion_summary": {
+    "total_pubmed_nonreview_2yr": 2489,
+    "unseen_after_seen_articles_filter": 1342,
+    "excluded_review_or_retraction_by_pubtype_or_title": 43,
+    "excluded_microbe_centric_examples": [
+      "A novel thermophilic recombinant obligate xylobiohydrolase (AcGH30A) from Acetivibrio clariflavus orchestrates the deconstruction of xylan polysaccharides (gene cloned into pET28a(+), expressed/purified from E. coli BL21(DE3) - enzyme cloning/expression focus, not polysaccharide material characterization)"
+    ],
+    "notes": "The unseen backlog (1342 non-review, non-retraction candidates) spans coverDate 2024-04-25 through 2026-08-16, reflecting a large multi-month backlog behind the daily processing rate. Consistent with prior runs' methodology, candidates were sorted by coverDate ascending (oldest first) and verified sequentially until 26 qualifying (non-review, non-microbe-centric, previously-unseen) articles were confirmed, spanning coverDate 2024-04-25 to 2024-06-01."
+  },
+  "articles": {
+    "10.1016/j.carbpol.2024.122200": {
+      "title": "Ultra-small gold nanoparticles embedded cyclodextrin metal-organic framework composite membrane to achieve antibacterial and humidity-responsive functions.",
+      "authors": [
+        "Guo M",
+        "Shen M",
+        "Zhu Y",
+        "Sogore T",
+        "Ding T"
+      ],
+      "coverDate": "2024-04-25",
+      "doi": "10.1016/j.carbpol.2024.122200",
+      "pmid": "38857994",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122210": {
+      "title": "Oxidized reducing ends in celluloses: Quantitative profiling relative to molar mass distribution by fluorescence labeling.",
+      "authors": [
+        "Budischowsky D",
+        "Sulaeva I",
+        "Støpamo FG",
+        "Lehrhofer AF",
+        "Hettegger H",
+        "Várnai A",
+        "Eijsink VGH",
+        "Rosenau T",
+        "Potthast A"
+      ],
+      "coverDate": "2024-04-29",
+      "doi": "10.1016/j.carbpol.2024.122210",
+      "pmid": "38858031",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122217": {
+      "title": "Iodine/soluble starch cryogel: An iodine-based antiseptic with instant water-solubility, improved stability, and potent bactericidal activity.",
+      "authors": [
+        "Sun W",
+        "Wang ZX",
+        "Guo Y",
+        "Li C",
+        "Gao G",
+        "Wu FG"
+      ],
+      "coverDate": "2024-04-30",
+      "doi": "10.1016/j.carbpol.2024.122217",
+      "pmid": "38857997",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122215": {
+      "title": "Efficacy of melanin-loaded lipoic acid-modified chitosan hydrogel in diabetic wound healing.",
+      "authors": [
+        "Pang Z",
+        "Li Q",
+        "Liu K",
+        "Wu X",
+        "Xu H",
+        "Chen Z",
+        "Dai H"
+      ],
+      "coverDate": "2024-05-03",
+      "doi": "10.1016/j.carbpol.2024.122215",
+      "pmid": "38857996",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122234": {
+      "title": "Low density methacrylated pea, corn, and tapioca starch covalent cryogels with excellent elasticity and water/oil absorption capacity.",
+      "authors": [
+        "Liu Y",
+        "Zhong W",
+        "Xing M"
+      ],
+      "coverDate": "2024-05-04",
+      "doi": "10.1016/j.carbpol.2024.122234",
+      "pmid": "38858015",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122241": {
+      "title": "A short linear glucan nanocomposite hydrogel formed by in situ self-assembly with highly elastic, fatigue-resistant and self-recovery.",
+      "authors": [
+        "Zou J",
+        "Lin Z",
+        "Zhan L",
+        "Qin Y",
+        "Sun Q",
+        "Ji N",
+        "Xie F"
+      ],
+      "coverDate": "2024-05-08",
+      "doi": "10.1016/j.carbpol.2024.122241",
+      "pmid": "38858016",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122203": {
+      "title": "A novel red fluorescent and dynamic nanocomposite hydrogel based on chitosan and alginate doped with inclusion complex of carbon dots.",
+      "authors": [
+        "Tong YL",
+        "Yang K",
+        "Wei W",
+        "Gao LT",
+        "Li PC",
+        "Zhao XY",
+        "Chen YM",
+        "Li J",
+        "Li H",
+        "Miyatake H",
+        "Ito Y"
+      ],
+      "coverDate": "2024-05-09",
+      "doi": "10.1016/j.carbpol.2024.122203",
+      "pmid": "39048182",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122244": {
+      "title": "A versatile bilayer smart packaging based on konjac glucomannan/alginate for maintaining and monitoring seafood freshness.",
+      "authors": [
+        "Li S",
+        "Hu X",
+        "Zhang S",
+        "Zhao J",
+        "Wang R",
+        "Wang L",
+        "Wang X",
+        "Yuan Y",
+        "Yue T",
+        "Cai R",
+        "Wang Z"
+      ],
+      "coverDate": "2024-05-10",
+      "doi": "10.1016/j.carbpol.2024.122244",
+      "pmid": "38858017",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122249": {
+      "title": "Structural elucidation and functional characteristics of novel potential prebiotics produced from Limosilactobacillus reuteri N1 GtfB-treated maize starches.",
+      "authors": [
+        "Dong J",
+        "Wang Y",
+        "Chen Y",
+        "Wang Q",
+        "Zhang B",
+        "Li X",
+        "Jin Z",
+        "Bai Y"
+      ],
+      "coverDate": "2024-05-11",
+      "doi": "10.1016/j.carbpol.2024.122249",
+      "pmid": "38858018",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122270": {
+      "title": "Functional polymeric DNA nanostructure-decorated cellulose nanocrystals for targeted and stimuli-responsive drug delivery.",
+      "authors": [
+        "Lee Y",
+        "Nam K",
+        "Kim YM",
+        "Yang K",
+        "Kim Y",
+        "Oh JW",
+        "Roh YH"
+      ],
+      "coverDate": "2024-05-14",
+      "doi": "10.1016/j.carbpol.2024.122270",
+      "pmid": "38858000",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122271": {
+      "title": "Zwitterionic cellulose nanofibers-based hydrogels with high toughness, ionic conductivity, and healable capability in cryogenic environments.",
+      "authors": [
+        "Han R",
+        "Zeng F",
+        "Xia Q",
+        "Pang X",
+        "Wu X"
+      ],
+      "coverDate": "2024-05-14",
+      "doi": "10.1016/j.carbpol.2024.122271",
+      "pmid": "38858021",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122272": {
+      "title": "Incorporation of montmorillonite into microfluidics-generated chitosan microfibers enhances neuron-like PC12 cells for application in neural tissue engineering.",
+      "authors": [
+        "Katoli Z",
+        "Navaei-Nigjeh M",
+        "Mirzababaei S",
+        "Sabahi H",
+        "Baeeri M",
+        "Akrami M",
+        "Roshanbinfar K",
+        "Engel FB",
+        "Abdollahi M"
+      ],
+      "coverDate": "2024-05-14",
+      "doi": "10.1016/j.carbpol.2024.122272",
+      "pmid": "39048184",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122269": {
+      "title": "A new 3D printing strategy by enhancing shear-induced alignment of gelled nanomaterial inks resulting in stronger and ductile cellulose films.",
+      "authors": [
+        "Yang Y",
+        "Li D",
+        "Yan N",
+        "Guo F"
+      ],
+      "coverDate": "2024-05-16",
+      "doi": "10.1016/j.carbpol.2024.122269",
+      "pmid": "38858020",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122293": {
+      "title": "Agar-gelatin Maillard conjugates used for Pickering emulsion stabilization.",
+      "authors": [
+        "Du L",
+        "Ru Y",
+        "Weng H",
+        "Zhang Y",
+        "Chen J",
+        "Xiao A",
+        "Xiao Q"
+      ],
+      "coverDate": "2024-05-17",
+      "doi": "10.1016/j.carbpol.2024.122293",
+      "pmid": "38858005",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122259": {
+      "title": "Structural characteristics, immune-activating mechanisms in vitro, and immunomodulatory effects in vivo of the exopolysaccharide EPS53 from Streptococcus thermophilus XJ53.",
+      "authors": [
+        "Yue Y",
+        "Han J",
+        "Shen X",
+        "Zhu F",
+        "Liu Y",
+        "Zhang W",
+        "Xia W",
+        "Wu M"
+      ],
+      "coverDate": "2024-05-19",
+      "doi": "10.1016/j.carbpol.2024.122259",
+      "pmid": "38858019",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122286": {
+      "title": "Ultra-strong and tough cellulose-based conductive hydrogels via orientation inspired by noodles pre-stretching.",
+      "authors": [
+        "Jing X",
+        "Zhang S",
+        "Zhang F",
+        "Chi C",
+        "Cui S",
+        "Ding H",
+        "Li J"
+      ],
+      "coverDate": "2024-05-20",
+      "doi": "10.1016/j.carbpol.2024.122286",
+      "pmid": "38858003",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122299": {
+      "title": "Alternative proton exchange membrane based on a bicomponent anionic nanocellulose system.",
+      "authors": [
+        "Brito Dos Santos F",
+        "Kaschuk J",
+        "Banvillet G",
+        "Jalaee A",
+        "Rojas OJ",
+        "Foster EJ"
+      ],
+      "coverDate": "2024-05-20",
+      "doi": "10.1016/j.carbpol.2024.122299",
+      "pmid": "38858022",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122298": {
+      "title": "Targeting TGFβ receptor-mediated snail and twist: WSG, a polysaccharide from Ganoderma lucidum, and it-based dissolvable microneedle patch suppress melanoma cells.",
+      "authors": [
+        "Lo HC",
+        "Lin TE",
+        "Lin CY",
+        "Wang WH",
+        "Chen YC",
+        "Tsai PH",
+        "Su JC",
+        "Lu MK",
+        "Hsu WH",
+        "Lin TY"
+      ],
+      "coverDate": "2024-05-20",
+      "doi": "10.1016/j.carbpol.2024.122298",
+      "pmid": "38876710",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122297": {
+      "title": "Nanopore-regulated in situ polymerization for synthesis of homogeneous heparan sulfate with low dispersity.",
+      "authors": [
+        "Qiao M",
+        "Wang Z",
+        "Zhang J",
+        "Li Y",
+        "Chen LA",
+        "Zhang F",
+        "Dordick JS",
+        "Linhardt RJ",
+        "Cai C",
+        "Huang H",
+        "Zhang X"
+      ],
+      "coverDate": "2024-05-20",
+      "doi": "10.1016/j.carbpol.2024.122297",
+      "pmid": "38876729",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122258": {
+      "title": "Probing the ionic activation enthalpies in anionic polysaccharide xerogel-based single ion conductor for temperature sensing.",
+      "authors": [
+        "Kumar G",
+        "Panda S"
+      ],
+      "coverDate": "2024-05-21",
+      "doi": "10.1016/j.carbpol.2024.122258",
+      "pmid": "38857999",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122285": {
+      "title": "Effect of metal cation crosslinking on the mechanical properties and shrimp freshness monitoring sensitivity of pectin/carboxymethyl cellulose sodium/anthocyanin intelligent films.",
+      "authors": [
+        "Ji R",
+        "Zhang X",
+        "Chen Z",
+        "Song S",
+        "Li Y",
+        "Zhang X",
+        "Zhang W"
+      ],
+      "coverDate": "2024-05-21",
+      "doi": "10.1016/j.carbpol.2024.122285",
+      "pmid": "38858002",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122300": {
+      "title": "Esterification of dextran by octenyl succinic anhydride (OSA): Physicochemical characterization and functional properties assessment.",
+      "authors": [
+        "Ridella F",
+        "Carpintero M",
+        "Marcet I",
+        "Matos M",
+        "Gutiérrez G",
+        "Rendueles M",
+        "Díaz M"
+      ],
+      "coverDate": "2024-05-21",
+      "doi": "10.1016/j.carbpol.2024.122300",
+      "pmid": "38858007",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122289": {
+      "title": "Evaluation of the anti-atherosclerotic effect for Allium macrostemon Bge. Polysaccharides and structural characterization of its a newly active fructan.",
+      "authors": [
+        "Lin P",
+        "Wang Q",
+        "Wang Q",
+        "Chen J",
+        "He L",
+        "Qin Z",
+        "Li S",
+        "Han J",
+        "Yao X",
+        "Yu Y",
+        "Yao Z"
+      ],
+      "coverDate": "2024-05-22",
+      "doi": "10.1016/j.carbpol.2024.122289",
+      "pmid": "38858004",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122308": {
+      "title": "Gradient heating activated ammonium persulfate oxidation for efficient preparation of high-quality chitin nanofibers.",
+      "authors": [
+        "Huang S",
+        "Liu T",
+        "Liu Y",
+        "Duan Y",
+        "Zhang J"
+      ],
+      "coverDate": "2024-05-22",
+      "doi": "10.1016/j.carbpol.2024.122308",
+      "pmid": "38858009",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122310": {
+      "title": "Electrodeposition of cellulose nanofibers as an efficient dehydration method.",
+      "authors": [
+        "Kasuga T",
+        "Li C",
+        "Mizui A",
+        "Ishioka S",
+        "Koga H",
+        "Nogi M"
+      ],
+      "coverDate": "2024-05-22",
+      "doi": "10.1016/j.carbpol.2024.122310",
+      "pmid": "38858010",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    },
+    "10.1016/j.carbpol.2024.122354": {
+      "title": "Form-stable, crosslinked cellulose-based paper separators for charge storage applications.",
+      "authors": [
+        "Selinger J",
+        "Islam MT",
+        "Abbas Q",
+        "Schaubeder JB",
+        "Zoder J",
+        "Bakhshi A",
+        "Bauer W",
+        "Hummel M",
+        "Spirk S"
+      ],
+      "coverDate": "2024-06-01",
+      "doi": "10.1016/j.carbpol.2024.122354",
+      "pmid": "39174075",
+      "abstract_source": "PubMed EFetch (full abstract)",
+      "has_abstract": true
+    }
+  },
+  "notes": "Elsevier Scopus Search API (api.elsevier.com/content/search/scopus) was queried directly via curl (network access confirmed working, no WebFetch fallback needed) and used for cross-validation of the recent-issue window (3765 total ISSN 0144-8617 records since 2024); full abstracts, complete author lists, ArticleDate, and PubMed PublicationType tags used for review/retraction/pubtype classification were obtained via PubMed E-utilities EFetch. fonts-nanum (NanumGothic/NanumGothicBold TTF) was installed via apt and embedded directly into the PDF with reportlab TTFont for correct Korean rendering."
+}
