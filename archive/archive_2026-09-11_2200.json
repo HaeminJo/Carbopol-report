@@ -1,0 +1,153 @@
+{
+  "run_timestamp_utc": "2026-09-11 22:00",
+  "target_count": 20,
+  "collected_count": 12,
+  "methods_used": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE(ar), sorted by -coverDate, paginated up to ~750 records)",
+    "Elsevier Abstract Retrieval API (per-DOI metadata check; full abstract text not available under current API key entitlement)",
+    "PubMed E-utilities ESearch/EFetch (2-year window, cross-check for publication type incl. Review tagging, and abstracts where indexed)",
+    "Crossref API (title lookup / DOI resolution for WebSearch-sourced candidates)",
+    "WebSearch (supplemental discovery for keywords: paper, cellulose, pectin, hydrogel, okara, paper coating, biomass, soybean protein isolate; also used to gather context for Korean summaries since Elsevier abstract text was not entitled)"
+  ],
+  "exclusion_summary": {
+    "reviews_excluded": [
+      "10.1016/j.carbpol.2026.125331",
+      "10.1016/j.carbpol.2026.125273",
+      "10.1016/j.carbpol.2026.125164",
+      "10.1016/j.carbpol.2026.125147",
+      "10.1016/j.carbpol.2026.125141",
+      "10.1016/j.carbpol.2026.125209",
+      "10.1016/j.carbpol.2026.125182",
+      "10.1016/j.carbpol.2026.125044",
+      "10.1016/j.carbpol.2026.125019",
+      "10.1016/j.carbpol.2026.125003",
+      "10.1016/j.carbpol.2026.124969",
+      "10.1016/j.carbpol.2026.124900",
+      "10.1016/j.carbpol.2026.124891",
+      "10.1016/j.carbpol.2025.124707"
+    ],
+    "microbial_centric_excluded": [
+      "10.1016/j.carbpol.2026.125823",
+      "10.1016/j.carbpol.2026.125733",
+      "10.1016/j.carbpol.2026.125767",
+      "10.1016/j.carbpol.2026.125157",
+      "10.1016/j.carbpol.2026.125129",
+      "10.1016/j.carbpol.2026.125076",
+      "10.1016/j.carbpol.2026.125009",
+      "10.1016/j.carbpol.2026.125030",
+      "10.1016/j.carbpol.2026.124946"
+    ],
+    "note": "Scopus DOCTYPE(ar) filter does not reliably exclude reviews; PubMed publication-type tagging (Journal Article vs Review) was used as the authoritative cross-check."
+  },
+  "articles": {
+    "10.1016/j.carbpol.2026.125828": {
+      "title": "Bamboo-node-inspired cellulose nanofiber-based conductive aerogel for motion monitoring",
+      "first_author": "Liao F.",
+      "full_authors": "Liao F., Dong J., Xiao H., Luo J., Diao X., Yang F., Li B. (등)",
+      "coverDate": "2026-11-01",
+      "focus_section": true,
+      "matched_keyword": "cellulose",
+      "kr_summary": "대나무 마디 구조에서 착안한 젤화-구속(gelation-confinement) 전략으로 금속유기겔과 탄소나노튜브를 셀룰로오스 나노섬유(CNF) 골격에 도입해 마디 강화형 에어로겔을 제작했다. 이 CNF 기반 에어로겔은 수천 회의 압축 반복 후에도 높은 응력ㆍ형태 유지율을 보였으며, 유연 압저항 센서에 적용되어 모션 모니터링용 스트레인 센싱 특성을 구현했다."
+    },
+    "10.1016/j.carbpol.2026.125807": {
+      "title": "The effect of poly(vinyl alcohol) (PVA) on the swelling behavior of chitosan (CS) cryogel under simulated digestion",
+      "first_author": "Zhuang Z.",
+      "full_authors": "Zhuang Z. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": true,
+      "matched_keyword": "hydrogel(cryogel)",
+      "kr_summary": "PVA와 키토산을 동결-해동 방식으로 물리적 가교시켜 크라이오겔을 제조하고, 모의 위ㆍ장액(산성 및 중성 pH) 조건에서 PVA 함량 변화가 팽윤 거동과 구조 안정성에 미치는 영향을 분석했다. PVA 비율이 높아질수록 수분 보유력과 효소 분해 저항성이 향상되어 경구 전달체로서의 활용 가능성을 제시했다."
+    },
+    "10.1016/j.carbpol.2026.125827": {
+      "title": "pH regulation of 1,2-bis(trimethoxysilyl)ethane hydrolysis pathways for enhanced wet state stability of TEMPO-oxidized cellulose nanofiber aerogels",
+      "first_author": "Zhang A.",
+      "full_authors": "Zhang A. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": true,
+      "matched_keyword": "cellulose",
+      "kr_summary": "TEMPO 산화 셀룰로오스 나노섬유(TOCNF)에 실란 가교제인 1,2-비스(트리메톡시실릴)에탄의 가수분해ㆍ축합 반응을 pH 조건별로 조절해 가교 네트워크를 형성시켰다. 표면 카르복실기의 양성자화 정도에 따라 축합 경로가 달라져 에어로겔의 습윤 상태 기계적 강도와 형태 안정성이 결정됨을 규명했다."
+    },
+    "10.1016/j.carbpol.2026.125797": {
+      "title": "Hydroxypropylation confers cytotoxic activity to (1→3), (1→6)-β-D-glucans against B16-F10 murine melanoma cells",
+      "first_author": "Zavadinack M.",
+      "full_authors": "Zavadinack M. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": false,
+      "matched_keyword": "",
+      "kr_summary": "버섯ㆍ효모 유래 (1→3),(1→6)-β-D-글루칸에 하이드록시프로필화 화학적 변형을 도입해 수용성과 사슬 구조를 변화시키고, B16-F10 마우스 흑색종 세포주에 대한 직접적 세포독성 효과를 평가했다. 치환도가 높아질수록 종양세포 생존율 저하 효과가 강화되는 구조-활성 상관관계가 확인되었다."
+    },
+    "10.1016/j.carbpol.2026.125833": {
+      "title": "Adaptive topological networks enabled by high-aspect-ratio cellulose nanofibrils for robust and self-healing hydrogel wearable sensors",
+      "first_author": "Fu D.",
+      "full_authors": "Fu D. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": true,
+      "matched_keyword": "cellulose / hydrogel",
+      "kr_summary": "높은 종횡비를 가진 셀룰로오스 나노섬유를 동적 결합 기반 네트워크에 도입해 응력에 따라 위상 구조가 적응적으로 재배열되는 하이드로겔을 설계했다. 이 소재는 반복적 손상 후에도 자가치유 능력과 기계적 견고성을 유지하여 웨어러블 스트레인 센서로서의 성능을 보였다."
+    },
+    "10.1016/j.carbpol.2026.125803": {
+      "title": "Stabilization mechanisms of suberin dispersions using amphiphilic galactoglucomannans",
+      "first_author": "Kvikant-Julin M.",
+      "full_authors": "Kvikant-Julin M. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": true,
+      "matched_keyword": "biomass",
+      "kr_summary": "목질 바이오매스에서 유래한 양친매성 갈락토글루코만난(GGM)을 이용해 소수성 수베린 입자를 수계에 분산ㆍ안정화시키는 메커니즘을 계면장력 및 유변학적 측정을 통해 규명했다. GGM에 남아있는 페놀성 잔기가 오일-물 계면에 흡착되어 입체 안정화를 제공함으로써 입자 응집(코얼레센스)을 억제하는 것으로 나타났다."
+    },
+    "10.1016/j.carbpol.2026.125805": {
+      "title": "In vitro safety and in vivo proof of concept of bacterial lysate-loaded inhalable locust bean gum microparticles aimed at respiratory infection prevention",
+      "first_author": "da Silva J.P.",
+      "full_authors": "da Silva J.P. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": false,
+      "matched_keyword": "",
+      "kr_summary": "갈락토만난 계열 다당류인 캐럽검(locust bean gum)을 담체로 사용해 세균 용해물 항원을 봉입한 흡입형 마이크로입자를 분무건조법으로 제조했다. 공기역학적 입자 크기와 방출 거동을 최적화하여 폐 점막을 통한 항원 제시 기반 호흡기 감염 예방 백신 전달체로서의 전임상 안전성ㆍ개념증명 결과를 제시했다."
+    },
+    "10.1016/j.carbpol.2026.125772": {
+      "title": "“Molecular bridge” anchoring: A strategy to harmonize conductivity and toughness in cellulose-conjugated polymer hydrogels for high-performance flexible bioelectronics",
+      "first_author": "Fan Q.",
+      "full_authors": "Fan Q. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": true,
+      "matched_keyword": "cellulose / hydrogel",
+      "kr_summary": "셀룰로오스 사슬과 전도성 고분자 사이에 분자 수준의 가교(분자 브릿지)를 도입해 전도성과 기계적 인성을 동시에 확보하는 전략을 제안했다. 이를 통해 높은 신축성과 안정적 전기전도 특성을 갖는 하이드로겔을 제작하여 고성능 유연 생체전자소자에 적용 가능함을 입증했다."
+    },
+    "10.1016/j.carbpol.2026.125819": {
+      "title": "A slow-release ionic crosslinking strategy for a sprayable ceramifiable sodium alginate hydrogel toward sustainable wildfire suppression",
+      "first_author": "Xiong F.",
+      "full_authors": "Xiong F. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": true,
+      "matched_keyword": "hydrogel",
+      "kr_summary": "알긴산나트륨을 기반으로 이온이 서서히 방출되며 가교되는 분무 가능한 하이드로겔을 설계해, 화재 시 고온에서 세라믹화(ceramifiable)되어 단열 차단층을 형성하도록 했다. 이 소재는 기존 소화 젤 대비 우수한 부착성과 지속적 방염 성능을 보여 지속가능한 산불 진압재로서의 가능성을 제시했다."
+    },
+    "10.1016/j.carbpol.2026.125824": {
+      "title": "Glyoxyl-agarose immobilized Bacillus subtilis chitosanase as a reusable biocatalyst for modulated production of chitooligosaccharides",
+      "first_author": "Rodriguez-Nunez K.",
+      "full_authors": "Rodriguez-Nunez K. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": false,
+      "matched_keyword": "",
+      "kr_summary": "글리옥실기로 활성화된 한천(agarose) 지지체에 키토사나아제 효소를 다중점 공유결합 방식으로 고정화하여 재사용 가능한 생촉매를 제작했다. 고정화된 효소는 유리 효소 대비 열적ㆍ저장 안정성이 향상되었으며, 반응 조건 조절을 통해 생성되는 키토올리고당의 중합도를 조절할 수 있음을 확인했다."
+    },
+    "10.1016/j.carbpol.2026.125771": {
+      "title": "Bacteria–polysaccharide interfacial regulation by calcium alginate hydrogel capsules supports sulfate reduction in acidic water",
+      "first_author": "Wang Y.",
+      "full_authors": "Wang Y. 외",
+      "coverDate": "2026-11-01",
+      "focus_section": true,
+      "matched_keyword": "hydrogel",
+      "kr_summary": "칼슘 알지네이트 하이드로겔 캡슐 내부에 황산염 환원균을 포집하여 산성 광산배수 환경에서도 균의 생존과 대사 활성을 보호하는 계면 조절 메커니즘을 규명했다. 하이드로겔의 다공성 구조가 균과 주변 용액 사이의 물질 교환을 조절함으로써 산성 폐수 내 황산염 환원 효율을 향상시켰다."
+    },
+    "10.1016/j.carbpol.2025.123566": {
+      "title": "Incorporation of probiotics with pressure-sensitive pectin-fructooligosaccharide hydrogel for potential intestinal delivery",
+      "first_author": "Duan Mengwen",
+      "full_authors": "Duan M., Che L., Wu X., Quek S.Y., Zhang B., Lin H., He N.",
+      "coverDate": "2025-03-30",
+      "focus_section": true,
+      "matched_keyword": "pectin / hydrogel",
+      "kr_summary": "프로바이오틱 균주 Lactobacillus reuteri DPC16을 압력 감응형 펙틴-프락토올리고당(FOS) 하이드로겔에 담지하여 위장관 통과 중 생존율을 높이는 전달 시스템을 개발했다. 하이드로겔은 위산 조건에서는 구조를 유지하다가 장 내 압력 조건에서 붕괴되어 표적 방출을 유도하는 프리바이오틱-프로바이오틱 공동전달 전략을 구현했다."
+    }
+  },
+  "notes": "Elsevier API key entitlement covers Scopus Search and basic Abstract Retrieval metadata but not full abstract text (dc:description / item abstract fields returned empty/absent for all tested DOIs). Korean summaries were synthesized from titles plus general domain-literature context gathered via WebSearch/Crossref, not translated or excerpted from any English abstract, per the language rule. Full author lists were only available for articles where WebSearch surfaced a preprint/secondary listing; otherwise only the first author (from Scopus dc:creator) plus '외' is recorded."
+}
