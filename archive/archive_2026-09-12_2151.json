@@ -1,0 +1,375 @@
+{
+  "run_timestamp_utc": "2026-09-12 21:51",
+  "target_count": 20,
+  "collected_count": 32,
+  "methods_used": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE(ar), sorted by -coverDate, paginated to 1,500 records to overcome coverDate-tie ordering instability observed in prior runs)",
+    "PubMed E-utilities ESearch (DOI match) + EFetch (PublicationType, Abstract, AuthorList) for review-type cross-check, abstract sourcing for Korean summaries, and full author lists",
+    "Elsevier Abstract Retrieval API (per-DOI metadata check; confirmed current API key entitlement returns only first author in dc:creator and does not provide FULL-view abstract text)"
+  ],
+  "exclusion_summary": {
+    "reviews_excluded_sample": [
+      "10.1016/j.carbpol.2026.125331",
+      "10.1016/j.carbpol.2026.125273",
+      "10.1016/j.carbpol.2026.125209",
+      "10.1016/j.carbpol.2026.125141",
+      "10.1016/j.carbpol.2026.125164",
+      "10.1016/j.carbpol.2026.125147",
+      "10.1016/j.carbpol.2026.125182",
+      "10.1016/j.carbpol.2026.125044",
+      "10.1016/j.carbpol.2026.125019",
+      "10.1016/j.carbpol.2026.125003",
+      "10.1016/j.carbpol.2026.124969",
+      "10.1016/j.carbpol.2026.124900",
+      "10.1016/j.carbpol.2026.124891",
+      "10.1016/j.carbpol.2025.124707",
+      "10.1016/j.carbpol.2025.124648",
+      "10.1016/j.carbpol.2025.124655",
+      "10.1016/j.carbpol.2025.124576",
+      "10.1016/j.carbpol.2025.124658",
+      "10.1016/j.carbpol.2025.124621",
+      "10.1016/j.carbpol.2025.124491"
+    ],
+    "microbial_centric_excluded_sample": [
+      "10.1016/j.carbpol.2026.125733",
+      "10.1016/j.carbpol.2026.125767",
+      "10.1016/j.carbpol.2026.125157",
+      "10.1016/j.carbpol.2026.125129",
+      "10.1016/j.carbpol.2026.125076",
+      "10.1016/j.carbpol.2026.125009",
+      "10.1016/j.carbpol.2026.125030",
+      "10.1016/j.carbpol.2026.124946",
+      "10.1016/j.carbpol.2025.124718",
+      "10.1016/j.carbpol.2025.124270",
+      "10.1016/j.carbpol.2025.124088",
+      "10.1016/j.carbpol.2025.124170",
+      "10.1016/j.carbpol.2025.124058"
+    ],
+    "note": "Scopus DOCTYPE(ar) does not reliably exclude reviews; PubMed PublicationType (Journal Article vs Review) was used as the authoritative check. Microbial-centric exclusion was judged per-article from the PubMed abstract: excluded when the core subject was a microorganism's own genetics/metabolism/strain engineering/cell-wall biology; kept when a polysaccharide/polymer material was the core subject and the microorganism appeared only as a raw-material source, delivery cargo, or incidental bioassay."
+  },
+  "articles": {
+    "10.1016/j.carbpol.2025.124670": {
+      "title": "Development and characterization of an efficient, organic solvent-free capsular polysaccharide purification process from highly invasive Streptococcus pneumoniae serotype 22F.",
+      "first_author": "Jain SS",
+      "full_authors": "Jain SS, Singh VK, Kante RK, Paul GS, Bhaduri T, Rohit TK (등)",
+      "coverDate": "2026-02-01",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "유효성분인 협막다당체(CPS) 정제 시 유기용매를 전혀 사용하지 않는 다단계 공정을 새로 확립했다. 탈옥시콜산 처리, 뉴클레아제 소화, pH 침전, 소수성 상호작용 크로마토그래피(HIC)를 결합해 핵산, 단백질, 세포벽 다당류 등 불순물을 효과적으로 제거했으며, 분자량 840 kDa의 고순도 CPS를 약 65%의 회수율로 확보해 백신용 원료 정제 공정의 친환경적 대안을 제시했다."
+    },
+    "10.1016/j.carbpol.2025.124084": {
+      "title": "Foam dust suppressant based on synergistic coordination between oxidized starch-gelatin Schiff base reaction and multiple crosslinking.",
+      "first_author": "Zhang X",
+      "full_authors": "Zhang X, Wang R, Yu H, Wang J, Ma H",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "노천광산 분진 억제를 위해 산화전분과 젤라틴 간 시프 염기 반응과 다중 가교를 결합한 폼형 분진 억제제를 개발했다. 폴리비닐알코올과 염화칼슘을 함께 도입해 네트워크 구조를 강화함으로써 기존 억제제의 약점이던 내수성과 기계적 강도를 동시에 개선했다."
+    },
+    "10.1016/j.carbpol.2025.124106": {
+      "title": "An injectable nanosuspension based on orthoester and biomimetic carboxymethyl chitosan nanoparticles for chemo/thermo-synergistic tumor therapy.",
+      "first_author": "Wan Y",
+      "full_authors": "Wan Y, Liang Z, Lv Z, Yang Q, Zhang Z, Zhang Y (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "종양의 화학-열 병용 치료를 위해 오르토에스터 화합물과 카르복시메틸 키토산 나노입자를 기반으로 한 주사형 나노현탁액을 개발했다. 미톡산트론을 탑재한 나노입자를 종양세포막 유래 소포로 위장(생체모방)해 229.4 nm 입자크기와 높은 약물 탑재율을 달성했으며, 화학요법과 온열요법의 상승 효과를 확인했다."
+    },
+    "10.1016/j.carbpol.2025.124192": {
+      "title": "Bioinspired multifunctional conductive hydrogel based on hydroxypropyl methyl cellulose for flexible sensors.",
+      "first_author": "Yan H",
+      "full_authors": "Yan H, Gu H, Lu S, Meng F, Ma Q, Xing X (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose",
+        "hydrogel"
+      ],
+      "kr_summary": "히드록시프로필메틸셀룰로오스(HPMC)와 튜니케이트 셀룰로오스 나노결정을 아크릴아마이드, 스테아릴메타크릴레이트와 미셀 중합시켜 유연 센서용 다기능 전도성 하이드로겔을 제작했다. 저가, 생체적합성 소재를 사용하면서도 내구성, 항균성, 자가치유 특성을 동시에 구현해 웨어러블 센서로서의 활용 가능성을 보였다."
+    },
+    "10.1016/j.carbpol.2025.124094": {
+      "title": "Leveraging topological reactivity of cellulose nanocrystals with allomorph II (CNC-II) to create temperature-sensitive systems for ibuprofen delivery.",
+      "first_author": "Li J",
+      "full_authors": "Li J, Wang H, Liu T, Shakeel U, Guo J, Zhu W (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose"
+      ],
+      "kr_summary": "그동안 상대적으로 덜 연구된 셀룰로오스 나노결정 동질이상체 II(CNC-II)에 카르복실아민 축합 반응으로 폴리에틸렌글리콜(PEG)을 접합하는 2단계 전략을 제시했다. 수정결정미소저울(QCM-D) 분석으로 PEG 그라프팅 반응성이 CNC-I 대비 약 17% 향상됨을 확인했으며, 이를 온도감응형 이부프로펜 전달체 설계에 응용했다."
+    },
+    "10.1016/j.carbpol.2025.124149": {
+      "title": "Arabinogalactan polysaccharides derived from sacha inchi shells alleviate angiotensin II-induced endothelial cell dysfunction.",
+      "first_author": "Wang K",
+      "full_authors": "Wang K, He M, Tan Z, Tang X, Du B, Li P",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "사차인치(sacha inchi) 껍질에서 분자량 57.51 kDa의 신규 산성 아라비노갈락탄(SISP)을 분리하고 구조를 규명했다. 안지오텐신 II로 유도된 혈관내피세포 기능장애 모델에서 SISP가 내피세포를 보호하는 효과를 확인해 혈압 조절용 생리활성 다당류로서의 가능성을 제시했다."
+    },
+    "10.1016/j.carbpol.2025.124180": {
+      "title": "Cellulose nanofiber-stabilized Pickering foam drilling fluids for low-pressure coalbed methane development.",
+      "first_author": "Yang D",
+      "full_authors": "Yang D, Yan H, Dai L, Khan MA, Liu C, Lv K (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose",
+        "biomass"
+      ],
+      "kr_summary": "저압 석탄층 메탄(CBM) 시추 시 발생하는 유체 손실 문제를 해결하기 위해 알킬폴리글루코시드(APG)와 셀룰로오스 나노섬유를 이용한 피커링 폼 시추 유체를 개발했다. 셀룰로오스 나노섬유가 기포막을 안정화시켜 저밀도, 저정수압 특성을 유지하면서도 시추 유체 손실을 억제하는 고성능 폼 시스템을 구현했다."
+    },
+    "10.1016/j.carbpol.2025.124052": {
+      "title": "Unravelling the mechanism of enzymatic resistance in different high amylose starch granules.",
+      "first_author": "Tian Y",
+      "full_authors": "Tian Y, Wang Y, Liu X, Westh P, Møller MS, Hebelstrup KH (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "아밀로펙틴이 풍부한 전분과 달리 고아밀로스 전분(HAS) 과립이 보이는 높은 효소가수분해 저항성의 메커니즘을 분석했다. 다양한 HAS 과립을 비교한 결과, 글루코아밀레이스에 대한 결합 친화도와 표면 구조 질서도가 저항성을 좌우하는 핵심 요인임을 FTIR 분석으로 규명했으며, 아밀로스 함량이 97%에 달하는 보리 전분이 오히려 가장 낮은 저항성을 보이는 예외적 현상을 발견했다."
+    },
+    "10.1016/j.carbpol.2025.124142": {
+      "title": "Chemical structures and molar masses of water-soluble TEMPO-oxidized products prepared from 20 % NaOH-treated cellulose.",
+      "first_author": "Chitbanyong K",
+      "full_authors": "Chitbanyong K, Hou G, Arnandan PT, Hou R, Shibata I, Isogai A",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose"
+      ],
+      "kr_summary": "20% NaOH로 전처리한 세균셀룰로오스, 면린터, 라미셀룰로오스를 TEMPO 산화시켜 수용성 폴리글루쿠론산염을 제조하고 그 화학구조와 분자량을 비교했다. 원료 셀룰로오스의 결정구조 차이가 TEMPO 산화 생성물의 중합도와 회수율에 미치는 영향을 규명해 수용성 셀룰로오스 유도체 설계에 필요한 기초 자료를 제공했다."
+    },
+    "10.1016/j.carbpol.2025.124153": {
+      "title": "Alkali-induced Dendrobium officinale polysaccharide-hemp seed protein gels: Insight into structure, molecular interaction mechanisms, and potential as dysphagia food.",
+      "first_author": "Ding T",
+      "full_authors": "Ding T, Fan B, Xu X, Chen C, Lu C, Liu J (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "고령화 사회에서 증가하는 연하곤란(삼킴장애) 환자를 위해 석곡(Dendrobium officinale) 다당류와 헴프씨 단백질을 알칼리 처리로 결합한 신규 젤 시스템을 개발했다. 다당류 함량이 증가할수록 젤의 보수력과 기능적 물성이 향상됨을 확인해 연하보조식품 소재로서의 가능성을 제시했다."
+    },
+    "10.1016/j.carbpol.2025.124049": {
+      "title": "Novel antibacterial, antioxidant, and anti-inflammatory aminated chitosan hybrid quinoline Schiff base as multi-target agent: Design, molecular docking, and toxicity assessment.",
+      "first_author": "Abdel-Baky YM",
+      "full_authors": "Abdel-Baky YM, Ragab A, Abusaif MS, Ammar YA, Omer AM",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "퀴놀린 유도체를 아민화 키토산과 시프 염기 반응으로 결합한 다중표적 유도체(AMCH-MQ)를 새로 합성했다. 구조 규명과 분자 도킹 시뮬레이션을 통해 작용 메커니즘을 분석하고 독성 평가까지 수행함으로써 항균, 항산화, 항염 효과를 겸비한 키토산 기반 다기능 소재로서의 잠재력을 확인했다."
+    },
+    "10.1016/j.carbpol.2025.124064": {
+      "title": "Effects of Lactobacillus plantarum fermentation on the retrogradation behaviors, physicochemical properties and structure of rice starch.",
+      "first_author": "Luo J",
+      "full_authors": "Luo J, Khalid W, Wang L, Li Y, Fan M, Qian H",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "락토바실러스 플란타룸 발효가 자포니카, 인디카, 찰벼 등 쌀 전분의 노화(retrogradation)를 억제하는 효과를 규명했다. 48시간 발효 후 4°C에서 저장한 결과 품종에 따라 노화도가 최대 35.12%까지 감소함을 확인해, 발효를 쌀 전분 기반 식품의 저장안정성을 높이는 가공 전략으로 제안했다."
+    },
+    "10.1016/j.carbpol.2025.124171": {
+      "title": "Ternary eutectic solvents facilitate the production of well-dispersed chitin-glucan nanofibrils from shiitake mushrooms.",
+      "first_author": "Zhou R",
+      "full_authors": "Zhou R, Yi X, Qin Y, Wu R, Wang Y, Liu L (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "젖산, 프로판디온산, 염화콜린으로 구성된 3원 공융용매(DES)를 이용해 표고버섯에서 키틴-글루칸 나노섬유를 효율적으로 분리하는 방법을 개발했다. 최적 조성의 DES로 평균 섬유 길이 1.39 μm의 나노섬유를 얻었으며, 이를 고내상 피커링 에멀션 제조에 적용해 우수한 점탄성을 확인했다."
+    },
+    "10.1016/j.carbpol.2025.124087": {
+      "title": "Phytic acid and melamine-modified microcrystalline cellulose as effective flame retardants in polylactic acid composites.",
+      "first_author": "Pan R",
+      "full_authors": "Pan R, Yu E, Wang Y, Liu G, Wei Z",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose"
+      ],
+      "kr_summary": "식물성 난연제 개발을 위해 미세결정셀룰로오스를 피틴산과 멜라민으로 개질한 신소재(MCC-GMA-PA-MEL)를 합성해 폴리락트산(PLA) 복합체에 적용했다. 이 복합체는 PLA 결정화도를 35.9%까지 높이고 한계산소지수(LOI) 25.7%와 UL-94 V-0 등급을 달성해 우수한 난연 성능을 입증했다."
+    },
+    "10.1016/j.carbpol.2025.124082": {
+      "title": "Correlation between arabinose content and the conformation of arabinoxylan in water dispersions.",
+      "first_author": "Janewithayapun R",
+      "full_authors": "Janewithayapun R, Cousin F, de Moura Pereira PF, Herranz-Trillo F, Terry AE, Pedersen JS (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "밀기울에서 아라비노스/자일로스 비율이 다른 세 종류의 아라비노자일란을 추출해 소각 X선 산란(SAXS) 분석으로 수용액 내 사슬 형태를 비교했다. 아라비노스 치환도가 지속길이 등 사슬의 형태적 강직성에 미치는 영향을 정량적으로 규명해 헤미셀룰로오스 구조-물성 관계 이해에 기여했다."
+    },
+    "10.1016/j.carbpol.2025.124062": {
+      "title": "Tracking phase transitions of tactoids in sulfated cellulose nanocrystals using second harmonic generation microscopy.",
+      "first_author": "Legat T",
+      "full_authors": "Legat T, Deschaume O, Bartic C, de Coene Y, Thielemans W, Van Cleuvenbergen S",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose"
+      ],
+      "kr_summary": "황산화 셀룰로오스 나노결정이 콜레스테릭 액정을 형성하는 과정에서 나타나는 미세방울(택토이드)의 상전이를 2차 고조파 발생(SHG) 현미경으로 실시간 추적했다. 택토이드의 핵생성, 성장, 합체 메커니즘을 규명함으로써 광자 소재로 활용되는 셀룰로오스 나노결정 콜레스테릭 상의 품질 제어에 필요한 통찰을 제공했다."
+    },
+    "10.1016/j.carbpol.2025.124151": {
+      "title": "A fungal polysaccharide from Trametes orientalis: Structural elucidation and multifaceted antitumor mechanisms via metastasis, angiogenesis, and immunomodulation.",
+      "first_author": "He W",
+      "full_authors": "He W, Jiang H, Rong M, Li X, Xu J, Guo Y",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "구름버섯류 진균인 Trametes orientalis에서 분자량 약 1.122×10^5 Da의 신규 균질 다당류(TOP60-1)를 분리하고 구조를 규명했다. 전이, 혈관신생, 면역조절 등 다각적 항암 메커니즘을 검증해 진균 유래 다당류를 항암 후보물질로 개발할 근거를 제시했다."
+    },
+    "10.1016/j.carbpol.2025.124116": {
+      "title": "Carboxymethyl chitosan-induced modification of the structure and regulation of the thermal aggregation of Pleurotus eryngii protein fractions to improve gel properties.",
+      "first_author": "Qian Z",
+      "full_authors": "Qian Z, Zhang S, Dong S, Qiu Y, Zhao L",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "카르복시메틸키토산(CMCS)이 느타리버섯 단백질(PEP)의 서로 다른 분획(PEP1-1, PEP2-2, PEP5-1)에 미치는 열응집 조절 메커니즘을 규명했다. CMCS가 분획별로 탁도를 낮추고 분자 간 상호작용을 조절해 젤 형성능을 향상시키는 정도가 다름을 확인해 다당류-단백질 복합 젤 설계에 필요한 분획별 특성을 제시했다."
+    },
+    "10.1016/j.carbpol.2025.124191": {
+      "title": "Novel silk fibroin/chitosan microgel for enhanced probiotic delivery: Improved stability, viability, and targeted release in gastrointestinal conditions.",
+      "first_author": "Zeng Z",
+      "full_authors": "Zeng Z, Wang T, Yang Y, He Y, Deng S, Dai F (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "견섬유(실크 피브로인)와 키토산을 트랜스글루타미네이스로 가교시킨 마이크로겔에 프로바이오틱스(Lactobacillus paracasei, Pediococcus pentosaceus)를 캡슐화하는 전달체를 개발했다. FTIR 분석으로 실크피브로인-키토산 간 이소펩타이드, 수소결합 형성을 확인했으며, 이 구조가 위장관 환경에서 프로바이오틱스의 생존율과 표적 방출 성능을 향상시킴을 입증했다."
+    },
+    "10.1016/j.carbpol.2025.124081": {
+      "title": "Dopamine triacrylamide-crosslinked chitosan/polyacrylic acid cryogels for rapid and efficient adsorption of anionic dyes from wastewater.",
+      "first_author": "Jia W",
+      "full_authors": "Jia W, He G, Ji K, Zhang X, Yu L",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "도파민 유도체(도파민 트리아크릴아마이드)로 가교한 키토산/폴리아크릴산 크라이오젤을 개발해 폐수 중 음이온 염료를 신속하게 흡착 제거하는 소재를 제시했다. 프리델-크래프츠 알킬화 반응으로 도파민에 다중 이중결합을 도입해 3차원 다공성 네트워크를 형성함으로써 높은 흡착 용량과 우수한 가공성을 동시에 확보했다."
+    },
+    "10.1016/j.carbpol.2025.124181": {
+      "title": "Uniform lithium deposition and enhanced stability in lithium metal batteries enabled by a flexible, ultrathin, and lithophilic SnS2@nanocellulose interlayer.",
+      "first_author": "Feng Y",
+      "full_authors": "Feng Y, Zhang S, Zhang Y, Ding H, Deng J, Salami-Kalajahi M (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose"
+      ],
+      "kr_summary": "리튬금속전지의 덴드라이트 성장과 고체전해질계면 불안정성을 해결하기 위해 나노섬유형 셀룰로오스를 주형으로 한 초박형(약 1 μm) SnS2@나노셀룰로오스 계면층을 개발했다. 유연하고 리튬친화적인 이 계면층이 균일한 리튬 증착을 유도해 전지 안정성을 향상시키는 결과를 확인했다."
+    },
+    "10.1016/j.carbpol.2025.124051": {
+      "title": "Construction of chitin nanocrystal/poly(deep eutectic solvent) elastomers via glycidyl methacrylate associated modification, polymerization and crosslinking for artificial skin applications.",
+      "first_author": "Chen H",
+      "full_authors": "Chen H, Shi Z, Tang C, Liu X, Wang S, Liu L (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "글리시딜메타크릴레이트를 매개로 한 개질, 중합, 가교 반응을 통해 키틴 나노결정과 폴리(딥유텍틱용매)로 구성된 이중 네트워크 엘라스토머를 일단계 공정으로 제작했다. 젖산/염화콜린 공융용매 내에서 키틴을 전처리, 화학개질, 나노분산까지 통합 처리해 강인하고 신축성이 우수한 인공피부용 탄성소재를 구현했다."
+    },
+    "10.1016/j.carbpol.2025.124136": {
+      "title": "Short-cutting cationic fabric pre-treatments in reactive dyeing: addition of cationic starches into the dye bath.",
+      "first_author": "Wurm F",
+      "full_authors": "Wurm F, Mann KJ, Seidl B, Kozich M, Bechtold T, Pham T",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose"
+      ],
+      "kr_summary": "면직물의 반응성 염색 전처리 단계를 단축하기 위해 별도의 양이온화 공정 없이 염료욕에 양이온성 전분을 직접 첨가하는 방법을 검토했다. 세 가지 양이온성 전분과 PDADMAC를 비교한 결과 최대 30%의 염료 소진율 향상을 확인해 무염 반응성 염색 공정 단순화 가능성을 제시했다."
+    },
+    "10.1016/j.carbpol.2025.124107": {
+      "title": "Microwave-assisted subcritical water extraction of low methoxyl pectin from pistachio industry waste: Optimization, characterization, emulsification, and gelation mechanism.",
+      "first_author": "Benmebarek IE",
+      "full_authors": "Benmebarek IE, González-Serrano DJ, Bechtner JD, Galindo JM, Martinez MM, Sánchez-Verdú MP (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "pectin"
+      ],
+      "kr_summary": "피스타치오 산업 부산물에서 마이크로파 보조 아임계수 추출법으로 산 처리 없이 저메톡실 펙틴을 추출하는 공정을 최적화했다. 추출 압력, 온도, 조사시간에 따라 두 종류의 저메톡실 펙틴을 얻었으며, 갈락투론산 함량, 아세틸화도, 메톡실화도와 젤 강도, 유화 특성의 상관관계를 규명해 부산물 유래 펙틴의 고부가가치화 가능성을 확인했다."
+    },
+    "10.1016/j.carbpol.2025.124066": {
+      "title": "Heparin-loaded silk fibroin microparticles/bacterial nanocellulose (Hep@SFMPs/BNC) conduits for application as small-caliber artificial blood vessels.",
+      "first_author": "Li G",
+      "full_authors": "Li G, Bao L, Chen L, Zhou X, Hong FF",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose"
+      ],
+      "kr_summary": "헤파린을 탑재한 실크피브로인 마이크로입자와 세균 나노셀룰로오스를 결합해 소구경 인공혈관용 도관을 개발했다. 헤파린이 서방출되도록 설계함으로써 세균 나노셀룰로오스 도관의 항응고 성능과 세포 부착, 증식 특성을 동시에 개선했다."
+    },
+    "10.1016/j.carbpol.2025.124093": {
+      "title": "Enhancing the output of cellulose-based triboelectric nanogenerators via dual interfacial polarization effects.",
+      "first_author": "Wang F",
+      "full_authors": "Wang F, Wang S, Wang H, Liu Y, Ouyang S, Zhang S (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose"
+      ],
+      "kr_summary": "웨어러블 전자기기용 셀룰로오스 기반 마찰전기 나노발전기(TENG)의 출력을 높이기 위해 셀룰로오스 나노섬유(CNF) 표면에 술폰산기를 그래프팅해 계면 분극 효과를 이중으로 강화했다. 이를 통해 CNF 표면의 전하 트랩 밀도를 한 자릿수 높이고 전하 소실 속도를 낮춰 TENG 출력 성능을 크게 향상시켰다."
+    },
+    "10.1016/j.carbpol.2025.124004": {
+      "title": "The insight in wheat starch entanglement behavior and its effect on starch gel in aqueous solution.",
+      "first_author": "Li L",
+      "full_authors": "Li L, Ji H, Wang Y, Zheng Q, Qiu C, Jin Z",
+      "coverDate": "2025-11-15",
+      "focus_section": false,
+      "matched_keywords": [],
+      "kr_summary": "밀 전분의 사슬 얽힘(entanglement) 거동이 전분 젤화 과정에 미치는 영향을 다각도로 분석했다. 얽힘 농도에서 전분의 나선구조 질서도가 가장 높아짐을 확인했으며, 얽힘 정도에 따른 젤 물성 변화를 규명해 전분 젤화 메커니즘을 얽힘 이론 관점에서 새롭게 설명했다."
+    },
+    "10.1016/j.carbpol.2025.124090": {
+      "title": "A head-to-head comparison of soluble dietary fibers on microbiota composition and short-chain fatty acid production using the in vitro TIM-2 system.",
+      "first_author": "Zhang Y",
+      "full_authors": "Zhang Y, Belkassem N, Umanets A, de Santana-Filho AP, Venema K, Schols HA (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "pectin"
+      ],
+      "kr_summary": "가용성 저항전분, 이눌린, 구조가 다른 4종의 펙틴, 펙틴 유도체, 낙엽송 아라비노갈락탄 등 다양한 수용성 식이섬유를 시험관 내 TIM-2 대장 모델로 나란히 비교했다. 섬유의 구조적 특징이 장내 미생물 군집 구성과 단쇄지방산 생성에 미치는 영향을 정량적으로 비교함으로써 식이섬유 종류별 장 건강 기능성 차이를 체계적으로 규명했다."
+    },
+    "10.1016/j.carbpol.2025.124189": {
+      "title": "Chitosan-based adhesive patch with anti-inflammatory, pro-healing, and immunomodulatory properties for dural defect repair.",
+      "first_author": "Chen F",
+      "full_authors": "Chen F, Peng X, Chen K, Song J, Fan Y, Wang P (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "hydrogel"
+      ],
+      "kr_summary": "경막 결손 및 뇌척수액 누출 문제를 해결하기 위해 폴리락트산(PLLA) 섬유층 위에 카테콜기를 도입한 키토산-도파민 접착 하이드로겔층을 형성한 이중층 패치를 개발했다. 정전기적 가교를 이용한 접착 하이드로겔이 뇌척수액 존재 환경에서도 장기간 밀착과 항염, 조직재생 촉진 효과를 발휘함을 확인했다."
+    },
+    "10.1016/j.carbpol.2025.124108": {
+      "title": "Hyaluronic acid and polyvinyl alcohol-based radioresponsive hydrogel for combined radioimmunotherapy of breast cancer bone metastasis.",
+      "first_author": "Li L",
+      "full_authors": "Li L, Gu Z, Wu Y, Lin S, Cheng X, Zhang LW (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "hydrogel"
+      ],
+      "kr_summary": "히알루론산과 폴리비닐알코올을 활성산소(ROS) 반응성 링커로 가교한 방사선반응형 하이드로겔을 제작해 유방암 골전이의 방사면역치료 병용요법에 적용했다. 방사선치료로 종양미세환경에서 발생하는 ROS를 이용해 일산화질소와 TLR7/8 작용제를 국소적으로 방출시킴으로써 방사선-면역 병용치료 효율을 높이는 전략을 제시했다."
+    },
+    "10.1016/j.carbpol.2025.124070": {
+      "title": "Valorization of metabolite-enriched carbohydrates from Theobroma biomass via ultrasound-assisted alkaline extraction.",
+      "first_author": "Núñez-Ramírez JM",
+      "full_authors": "Núñez-Ramírez JM, Martelli A, Halliday T, Thomas B, Wills C, Cannillo V (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "biomass"
+      ],
+      "kr_summary": "카카오, 그란디플로럼, 바이컬러 등 테오브로마속 꼬투리 껍질 부산물에서 초음파 보조 알칼리 추출로 다당류 및 대사산물을 회수하는 공정을 비교했다. NaOH 추출은 갈락투론산 함량과 항산화 활성이 높은 소재를, KOH 추출은 람노스, 자일로스 함량과 프로안토시아니딘 등 대사산물 보존율이 높은 소재를 각각 제공함을 확인해 바이오매스 부산물의 용도별 최적 추출 조건을 제시했다."
+    },
+    "10.1016/j.carbpol.2025.124061": {
+      "title": "Cellulose-based aerogels modulate fragrance adsorption and controlled release by carbonization/in-situ aromatization.",
+      "first_author": "Zhao T",
+      "full_authors": "Zhao T, Zhang Q, Zhang K, Shi Q, Xiao M, Zhao M (등)",
+      "coverDate": "2025-11-15",
+      "focus_section": true,
+      "matched_keywords": [
+        "cellulose"
+      ],
+      "kr_summary": "셀룰로오스 나노섬유를 동결건조 및 고온 탄화 처리해 향료 흡착, 서방출용 에어로겔(CA, C-CA)을 제작했다. d-리모넨과 메틸디하이드로자스모네이트 두 모델 향료 분자를 이용해 흡착과 서방출 거동을 평가함으로써 식품, 화장품, 담배 등 소비재용 향료 안정화 소재로서의 활용 가능성을 보였다."
+    }
+  },
+  "notes": "Deep pagination (up to 1,500 Scopus records) was required this run because Carbohydrate Polymers records sharing an identical coverDate are not returned in a stable order across queries, causing shallower daily scans (as used in prior runs, ~500-750 records) to intermittently miss articles that later resurface as 'new'. This run scanned deeper and cleared a larger backlog than a typical single day. Korean summaries were synthesized from PubMed abstracts (not Elsevier, which does not return full abstract text under the current API key entitlement) and were newly written in Korean for each article, not translated or excerpted from the English abstract."
+}
