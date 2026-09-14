@@ -1,0 +1,694 @@
+{
+  "run_timestamp_utc": "2026-09-14T22:15:00Z",
+  "target_count": 20,
+  "collected_count": 60,
+  "final_eligible_count": 25,
+  "collection_method": {
+    "primary": "Elsevier Scopus Search API (api.elsevier.com/content/search/scopus), query=ISSN(0144-8617) AND DOCTYPE(ar) AND PUBYEAR > 2024, paged start/count, sort=-coverDate",
+    "total_scopus_hits_pubyear_gt_2024_doctype_ar": 2207,
+    "supplement": "PubMed E-utilities ESearch (DOI[aid] match) + EFetch (abstract, PublicationType, MeSH) for review/subject-matter screening, since Elsevier Abstract Retrieval API (content/abstract/doi/) returns only coredata (no abstract text) under current API key entitlement",
+    "exclusions": {
+      "pubmed_publicationtype_review": 20,
+      "microbe_strain_focused_excluded": 15
+    },
+    "deferred_not_yet_pubmed_indexed": 11,
+    "note": "deferred articles are NOT added to seen_articles.json so they can be reconsidered once PubMed indexes them"
+  },
+  "focus_keyword_matches": 13,
+  "focus_keyword_breakdown": {
+    "cellulose": 9,
+    "hydrogel": 4,
+    "pectin": 0,
+    "biomass_only": 0,
+    "paper": 0,
+    "okara": 0,
+    "paper_coating": 0,
+    "soybean_protein_isolate": 0
+  },
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2025.124032",
+      "pmid": "40817496",
+      "title": "Starch nanoparticle platform for oral delivery of sinigrin in colitis therapy",
+      "authors": [
+        "Adra Hazzel Joy",
+        "Cha Hanvit",
+        "Chang Moon Han",
+        "Kang Dong-Gook",
+        "Kwon Su-Min",
+        "You Sang-Mook",
+        "Jeong Yu Ri",
+        "Lee Chae Hwan",
+        "Park Ki Sung",
+        "Pack Seung Pil",
+        "Lee Jin Hyup",
+        "Kim Young-Rok"
+      ],
+      "abstract": "Sinigrin, a glucosinolate known for its potential therapeutic effects on ulcerative colitis (UC), suffers from rapid gastric clearance and low bioavailability when administered orally. To address these limitations, we developed a novel delivery system using starch nanoparticles (SNPs) to encapsulate sinigrin via a sinigrin-lecithin complex (SNG-L). This approach significantly improved sinigrin's encapsulation efficiency, stability against acidic degradation, and controlled release in simulated intestinal conditions. In vivo studies using a preclinical UC mouse model demonstrated that SNG-L@SNPs effectively targeted and released sinigrin into the intestine, where it was converted into the bioactive compound allyl isothiocyanate (AITC) through the intestinal microflora. This targeted delivery and controlled release system markedly alleviated the pathological manifestations of UC and preserved intestinal barrier integrity by mitigating tight junction disruption and apoptosis of intestinal epithelial cells (IECs) through reduction of oxidative stress. These findings highlight the potential of this precise and sustained drug delivery system as an effective therapeutic strategy for UC management.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123940",
+      "pmid": "40817466",
+      "title": "Starch-based biodegradable active intelligent packaging with color superimposition via emulsion electrospinning nanofiber for meat freshness monitoring and shelf-life extension",
+      "authors": [
+        "Lv Haowei",
+        "He Deyun",
+        "Xu Enbo",
+        "Jin Zhengyu",
+        "Zhao Haibo",
+        "Yuan Chao",
+        "Zhao Meng",
+        "Gao Wei",
+        "Li Jianpeng",
+        "Liu Yang",
+        "Wu Zhengzong",
+        "Liu Pengfei",
+        "Cui Bo"
+      ],
+      "abstract": "Developing sustainable and multifunctional intelligent packaging systems has emerged as a highly promising approach to reducing plastic pollution, minimizing food waste, and enhancing food safety. In this research, a biodegradable intelligent active packaging with a dual pH-responsive system was created by incorporating fat-soluble curcumin (CUR) and water-soluble roselle anthocyanins (RSA) into core and shell, respectively, of starch-based fibers using emulsion electrospinning. Octenyl succinic anhydride starch/polyvinyl alcohol complexes functioned as both fiber wall materials and emulsifiers, stabilizing double-loaded nano-emulsions (88.19 ± 8.33 nm) while conferring auto-degradability to fibers within 5 d without contamination risks. The core-shell structure construction and oil-phase loading improved mechanical strength of fiber around 4 times (8.74 ± 0.17 MPa), elevated the water contact angle to 75.32 ± 2.32°, and lowered the water vapor transmission rate to 4.94 × 10-10 g·cm/(cm2·s·Pa), while enhancing thermal stability and UV resistance. More crucially, the color response range and sensitivity (response process <130 s) of fiber were broadened under the superposition of internal-external color effects of CUR in core layer and RSA in shell layer, resolving accuracy limitations of single-indicator systems. When applied to shrimp and pork packaging, CUR's controlled release delayed spoilage while fiber color parameters demonstrated strong correlation with spoilage indicators such as TVB-N (R2 > 0.92). In summary, this eco-friendly strategy, leveraging emulsion electrospinning with internal-external co-loading of dual pH-responsive systems, offers a versatile design concept for replacing plastics and advancing intelligent food packaging, with significant potential for future applications in food commercialization.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124013",
+      "pmid": "40817488",
+      "title": "Rapid synthesis of mechanically robust and environmentally tolerant eutectogels reinforced by aligned cellulose fibers from wood",
+      "authors": [
+        "You Muqiu",
+        "Xu Jinhao",
+        "Zao Yamei",
+        "Zhou Jing",
+        "Jin Yongcan",
+        "Li Dagang",
+        "Xu Zhaoyang",
+        "Chen Chuchu"
+      ],
+      "abstract": "The development of high-performance biomass-derived soft materials is crucial for advancing sustainable alternatives to petroleum-based systems, and bio-based composite gel materials became a favorable choice with their biocompatibility and sustainability. However, it still remains a challenge to fabricate bio-based composite gels with favorable mechanical performance and environmental stability via a simple and energy-efficient approach. Herein, a wood-based composite gel (WCG) was fabricated by compositing cellulose fibers with polymerizable deep eutectic solvents (PDES), consisting of choline chloride (ChCl), acrylic acid (AA) and acrylamide (AM) under a fast process of UV radiation within 2 min. The naturally oriented structure of the aligned cellulose fibers reinforced WCG with a high mechanical strength of 62.51 ± 4.41 MPa, while the multiple hydrogen bond networks contribute to the great toughness (7.77 ± 0.34 MJ m-3), simultaneously exhibiting a high tensile strain of 19.91 ± 2.39 %. Additionally, WCGs exhibited environmental stability (-60-100 °C) to overcome the critical limitations of conventional gel materials in low mechanical properties due to loss of solvents. Integrated with sensing performance and thermal-insulation, flame retardant, WCGs enabled human motion detection in smart building systems, showing a promising future for the rapid preparation of high-performance, sustainable bio-based efficient smart materials.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123945",
+      "pmid": "40817511",
+      "title": "Chitin nanocrystal-stabilized Pickering emulsion for multimodal sensing",
+      "authors": [
+        "Chao Yuchen",
+        "Yu Sumin",
+        "Ding Xuexue",
+        "Yang Mengmeng",
+        "Wu Defeng"
+      ],
+      "abstract": "A Pickering emulsion-templating method is developed for preparing composite hydrogels with improved mechanical properties and ionic conductivity. First, an aqueous system with poly(trimethylolpropane triacrylate) microspheres coated with chitin nanocrystals (ChNCs) is prepared using an oil-in-water emulsion template by means of photo-cross-linking. Thereafter, the system is mixed with poly(vinyl alcohol) (PVA) and borax solutions, followed by freeze-thawing treatments. The as-prepared hydrogels exhibit two types of characteristic cross-links, physical cross-links caused by the crystallization of PVA, and chemical cross-links caused by the occurrence of boronic ester (B-O-C) bonding between PVA chains and ChNC-coated microspheres. Microspheres serve to simultaneously reinforce and plasticise the hydrogel system. The strength and elongation of the microsphere-containing hydrogel are 676 kPa and 600 %, respectively, considerably higher than those of the microsphere-free hydrogels (350 kPa and 350 %). The volume exclusion effect of microspheres also enhances ionic conductivity, resulting in improved strain and thermal resistances. Therefore, the emulsion-templated hydrogel sensor is deemed more suitable for probing deformation with large strain in comparison with the microsphere-free hydrogel sensor. This study proposes an effective way of using ChNC-stabilized Pickering emulsions to template mechanical properties and sensing abilities of hydrogel-based strain sensor.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124037",
+      "pmid": "40817558",
+      "title": "Effect of electron beam irradiation pretreatment on the structure, physicochemical properties, and digestibility of starch-tannic acid complexes",
+      "authors": [
+        "Zuo Youming",
+        "Zhu Fan",
+        "Jiang Shuo",
+        "Li Mei",
+        "Kong Xiangli"
+      ],
+      "abstract": "Electron beam irradiation (EBI) is a low-temperature, high-energy, non-thermal process that enables rapid, uniform treatment with minimal residual effects compared to conventional irradiation techniques, making it particularly suitable for modifying sensitive biopolymers like starch and its application in functional food. Our study explored EBI for modifying corn starch (CS) and enhancing its interaction with tannic acid (TA) to form starch-polyphenol complexes. CS was pretreated with EBI at varying doses, and subsequently complexed with TA. The resulting CS-TA complexes were characterized in terms of their multiscale structure, physicochemical properties, and digestibility. At 10 % TA loading, EBI pretreatment promoted CS-TA binding, leading to notable alterations in crystalline order and pasting behavior, particularly at 5 kGy and 20 kGy. While EBI did not visibly alter starch morphology, it significantly improved the thermal stability of CS-TA complexes. Additionally, the in vitro digestibility of the complexes was jointly influenced by the EBI dose and TA concentration. These findings highlight the unique potential of EBI technology for tuning starch-polyphenol interactions, offering a clean and effective approach for designing functional food ingredients with enhanced stability and nutritional properties.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124055",
+      "pmid": "40817562",
+      "title": "Solvent-polarity-engineered hyaluronic acid aerogels: Synthesis of transparent nanofiber network for thermal insulation",
+      "authors": [
+        "Lu Yufang",
+        "Sui Shanying",
+        "Cui Miao",
+        "Wang Jingxing",
+        "Yang Yufan",
+        "Sheng Yuhan",
+        "Zhang Yi",
+        "Sun Zhifang"
+      ],
+      "abstract": "Aerogels exhibit superior thermal management properties, while challenges in simple synthesis with mild reaction conditions, optical transparency, and flexibility limit their applications. This study presents a mild approach to produce transparent hyaluronic acid (HA) aerogels without the use of chemical cross-linkers. By regulating solvent polarity through methanol-isopropanol gradient exchange followed by supercritical drying, phase separation is induced, transforming HA molecular chains into a uniform nanofiber network. This structural evolution endows the aerogels with exceptional mechanical strength and flexibility while maintaining high transparency (90 % transmittance and 8.5 % haze at 600 nm). SEM analysis reveals the formation of a nanofiber network with an average diameter of 12.4 nm. Nitrogen adsorption measurements reveals a high surface area of 560.94 m2 g-1. The slender nanofiber network results outstanding thermal insulation, achieving an ultralow thermal conductivity of 0.0243 W m-1 K-1 at a low density of 0.074 g cm-3. This work highlights the critical role of solvent-induced nanofiber assembly in balancing optical and mechanical properties, positioning HA aerogels as sustainable candidates for optically transparent infrared stealth materials.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124029",
+      "pmid": "40817495",
+      "title": "Edible cellulose-based photonic crystals with low-temperature response for food sensing",
+      "authors": [
+        "Li Dong",
+        "Luo Qing",
+        "Liu Qilin",
+        "Chen Siyu",
+        "Zhang Xuezhong",
+        "Zhao Chunxia",
+        "Cheng Jinbo",
+        "Wu Yuanpeng",
+        "Song Fei"
+      ],
+      "abstract": "Responsive photonic crystals offer the advantages of zero energy consumption and easy recognition, making them ideal for food sensing applications. Temperature monitoring during food storage is crucial for ensuring food safety. However, non-toxic, safe, food-grade temperature sensors are still limited, and tuning the responsive range to accommodate extremely low temperatures remains a significant challenge. Here, we demonstrate edible photonic crystal materials with low-temperatures response for food sensing, fabricated through the co-assembly of hydroxypropyl cellulose (HPC) with edible ethanol. The ethanol effectively reduces freezing point of the HPC photonic crystals, allowing them to maintain the responsiveness at temperatures as low as -35 °C. Moreover, adjusting the ethanol concentration allows for modulation of the structural color and operational temperature range. The moldability of the photonic crystals facilitates the design of intricate patterns or informative labels, enabling the development of a colorimetric sensor capable of visually monitoring storage conditions at -20 °C. These green, safe, and responsive characteristics make cellulose-based photonic crystals promising candidates for applications such as displays, health monitoring, and smart sensing.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123998",
+      "pmid": "40817539",
+      "title": "Green valorization of sweet potato vines: Efficient cellulose extraction and γ-valerolactone recovery via biorefinery platform",
+      "authors": [
+        "Li Yuan",
+        "Sun Hongnan",
+        "Mu Taihua",
+        "Garcia-Vaquero Marco"
+      ],
+      "abstract": "Sweet potato vines, a common agricultural waste during sweet potato harvest, can be a valuable source of lignocellulose. The transformation of these vines into bio-based materials and platform chemicals through a biorefinery process is crucial for turning this promised potential into a practical industrial process. This research developed and optimized a NaCl-catalyzed γ-valerolactone (GVL) /H2O co-solvent pretreatment process for sweet potato vines. Using optimum conditions (solid-liquid ratio 1:15 (g/mL), 170 °C, 4 h, 20 % GVL/H2O, 15 % NaCl) cellulose retention rate was 90.5 % (90.0 % purity, 48.9 % crystallinity), with hemicellulose and lignin removal rates of 94.0 % and 90.0 %, respectively. The lignin (purity 87.5 %, dispersity of 1.05) was recovered by solvent exchange and centrifugation. Compared with commercial microcrystalline cellulose and lignin alkali, the recovered cellulose and lignin had good thermal stability, suitable for further downstream use. A control group experiment confirmed the synergistic effect of NaCl and GVL, with NaCl promoting lignocellulose decomposition. In addition, GVL showed excellent recovery performance with 94.8 % recovery rates and 94.6 % purity after 3 recovery cycles. To summarize, this work presents an ecologically sustainable and environmentally friendly biorefinery technique for effectively utilizing sweet potato vines and other agricultural wastes as source of platform chemicals.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124015",
+      "pmid": "40817490",
+      "title": "Design, synthesis, and bioactivity evaluation of PABA-based five- and six-membered heterocyclic Schiff base quaternary ammonium chitosan derivatives",
+      "authors": [
+        "Peng Yonggang",
+        "Yu Ying",
+        "Su Zhongwen",
+        "Zhong Yujing",
+        "Vijayakumar Sekar",
+        "Chen Yikai",
+        "Mao Yangfan",
+        "Xin Meihua",
+        "Li Mingchun"
+      ],
+      "abstract": "This study reports the green and efficient synthesis of two novel categories of quaternary ammonium chitosan derivatives via ion-exchange, aiming to enhance their biological activities and expand potential applications. Para-aminobenzoic acid (PABA) was reacted with five- and six-membered heteroaromatic aldehydes to form Schiff bases, which were ionized and introduced into two types of quaternary ammonium chitosan: N-(2-hydroxypropyl) trimethylammonium chloride chitosan (HACC) and N, N, N-trimethyl chitosan iodide (TMCI). by replacing chloride and iodide ions. The structures and physicochemical properties of the derivatives were characterized using FTIR, 1H NMR, TGA, and XRD. Their antioxidant and antibacterial activities were systematically evaluated. Results showed that the incorporation of PABA-based Schiff bases significantly improved both activities in the HACC and TMCI systems, suggesting a synergistic effect. Cytotoxicity (CCK-8 assay) and hemolysis tests demonstrated that the derivatives exhibited excellent biocompatibility and caused no red blood cell lysis within the tested concentration range. Overall, the introduction of PABA-based Schiff bases effectively enhanced the bioactivity and biosafety of quaternary ammonium chitosan, providing a promising foundation for their application in antibacterial, antioxidant, and biomedical materials.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124022",
+      "pmid": "40817493",
+      "title": "Innovative dual-functional, green and biodegradable dicarboxylated inulin as scale and corrosion inhibitors for sustainable oil and gas operations",
+      "authors": [
+        "Ganie Showkat Ali",
+        "Baig Mirza T",
+        "Mady Mohamed F"
+      ],
+      "abstract": "The oil and gas industry urgently needs greener, smarter solutions to combat the dual challenges of inorganic scale formation and corrosion of metallic infrastructure. In this work, we introduce a novel, dual-functional, phosphorus-free corrosion and scale inhibitor derived from the in situ dicarboxylation of inulin through an environmentally benign two-step oxidation strategy. Inulin was efficiently converted into a highly functionalized dicarboxylated biopolymer through a selective sodium periodate oxidation followed by Pinnick oxidation, while maintaining the integrity of its backbone structure, as confirmed by FT-IR and 1H NMR spectroscopy. The dicarboxylated inulin formed a resilient, protective film on carbon steel surfaces, as revealed by electrochemical impedance spectroscopy (EIS), with adsorption behavior fitting the Langmuir isotherm and a ΔG°ads of -39.32 kJ·mol-1, highlighting a strong chemisorption process supplemented by physisorption with corrosion inhibition efficiency of 94.5 % at 100 ppm. Interestingly, the resulting dicarboxylated inulin exhibited excellent inhibition performance against gypsum scale at low inhibitor concentrations, following the NACE Standard TM0374-2007 protocol. Additionally, it demonstrated a remarkable 90 % inhibition efficiency against calcite scaling, outperforming commercially available carboxymethyl inulin at the same tested concentration. The dicarboxylated inulin also showcased outstanding compatibility under high‑calcium brine conditions, maintaining performance even at inhibitor dosages up to 10,000 ppm.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123962",
+      "pmid": "40817475",
+      "title": "Effect of butyryl substitution degree in cellulose acetate butyrate (CAB) on A3 plasticizer migration: Mechanism analysis",
+      "authors": [
+        "Wang Peipei",
+        "Hu Jinning",
+        "Jin Shaohua",
+        "Chen Yu",
+        "Chen Kun",
+        "Shang Fengqin",
+        "Wang Na",
+        "Li Xiaoxia",
+        "Wang Junfeng"
+      ],
+      "abstract": "Plasticizer migration is a significant issue in the utilization of polymer materials. For cellulose derivatives substituted with two or more different groups, such as cellulose acetate butyrate (CAB), the varying proportions of acetyl and butyryl groups lead to different chemical structures, which influence the plasticizer migration properties. This paper investigates the effects of the butyryl substitution degree on plasticizer migration properties through experimental testing and molecular dynamics simulations. Results from experiments and simulations indicate that as the temperature increases, the plasticizer in the mixed system is more likely to migrate with the increase in CAB butyryl substitution. Microscopic and mesoscopic mechanism studies reveal that the strength of intermolecular forces between the plasticizer and CAB is not the primary reason for the differences in plasticizer migration. The main reasons could be attributed to the reduction in steric hindrance effect and plasticizer migration pathway as the degree of butyryl substitution increases.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123975",
+      "pmid": "40817523",
+      "title": "Modulating fiber morphology to achieve tunable optical and mechanical properties in bamboo cellulose film",
+      "authors": [
+        "Zhao Sishun",
+        "Fang Zhiqiang",
+        "Lin Xiaoqi",
+        "Hou Gaoyuan",
+        "Cui Xiaokang",
+        "Zhang Dejian",
+        "Yao Rihui",
+        "Qiu Xueqing"
+      ],
+      "abstract": "Transparent cellulose films exhibit tremendous potential for optoelectronic applications due to their exceptional optical/mechanical properties and environmental sustainability. However, the intricate relationship between fiber morphology and film performance remains insufficiently understood, which hampers the precise engineering of film performance for targeted applications. In this study, we present a novel strategy to fabricate transparent cellulose films with tunable optical/mechanical properties by precise morphological manipulation of bamboo fibers. A two-stage modification process was employed: initial structural alteration was achieved using a sulfate/deep eutectic solvent pulping method (choline chloride-lactic acid system), followed by molecular-level modification via carboxymethylation to promote fiber swelling. This approach produced two distinct fiber morphologies: non-uniformly swollen \"bulging\"/uniformly swollen fibers, each endowing resulting films with unique properties. Films made from \"bulging\" fibers displayed exceptional light scattering behavior, with an impressive haze exceeding 80 % at a transmittance of 85 %. In contrast, films fabricated from uniformly swollen fibers exhibited remarkable mechanical strength, with tensile strength reaching 137 MPa. These findings elucidate the mechanisms by which fiber morphology governs the optical and mechanical properties of cellulose films, advancing the fundamental understanding of structure-property relationships and providing a foundation for the rational design of transparent cellulose films for applications such as solar cells.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124023",
+      "pmid": "40817551",
+      "title": "Hybrid bioink of methyacrylated starch with minimal methacrylated chitosan enables high-precision 3D printing for complex tissue scaffolds",
+      "authors": [
+        "Zhou Xingping",
+        "Wu Silin",
+        "Liu Peng",
+        "Wang Liming",
+        "Xie Fengwei"
+      ],
+      "abstract": "Starch-based gels represent promising bioinks for 3D-printed cell scaffolds due to their biosafety, biocompatibility, and biodegradability. However, their widespread adoption has been hindered by inadequate formability and poor self-supporting properties. Here, we introduce an innovative starch-dominated hydrogel system achieved through dual methacrylation of normal corn starch and chitosan, enabling the fabrication of biodegradable cell scaffolds. While methacrylated starch alone (substitution degree: 0.013) exhibited insufficient printing accuracy even with UV assistance, the optimized 10:1 (starch/chitosan, w/w) blend of methacrylated chitosan (substitution degree: 0.27) demonstrated dramatically enhanced 3D printing formability and precision when combined with UV crosslinking. Rheological analysis demonstrated that blending methacrylated starch with methacrylated chitosan reduced flow stress (τf), improving printability while retaining shear-thinning behavior. Incorporation of 10 % glycerol enhanced biomacromolecular compatibility, as evidenced by rheological results and homogenous microstructures in SEM, enabling high-fidelity printing of intricate architectures. UV-cured scaffolds exhibited tunable compressive strength (150-200 kPa) and deformation rate (50-60 %), balancing mechanical compliance with tissue safety. The material's hydrophilic surface (contact angle: 30-60°) supported robust cell adhesion, while in vitro assays confirmed exceptional biocompatibility (96 % cell viability) and controlled biodegradation in α-amylase/lysozyme solutions. This work establishes starch as a primary matrix for bioinks, advancing sustainable, high-precision 3D printing in biomedicine.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123896",
+      "pmid": "40817460",
+      "title": "Elution revolution: Reversing chiral recognition by swapping d- for l-cellulose",
+      "authors": [
+        "Lehrhofer Anna F",
+        "Bacher Markus",
+        "Melikhov Ivan",
+        "Sulaeva Irina",
+        "Lindner Wolfgang",
+        "Kohout Michal",
+        "Kamitakahara Hiroshi",
+        "Potthast Antje",
+        "Rosenau Thomas",
+        "Hettegger Hubert"
+      ],
+      "abstract": "Chirality is a fundamental feature involved in most biological processes. While it can be rather readily observed on the molecular or microscopic level, enantioselective interactions on the macroscopic level are not as well understood. We chemically synthesized l-cellulose, the enantiomer of native cellulose with chains of different length by polymerizing an l-glucose-based precursor. A sufficiently high degree of polymerization was crucial for the successful application of this material as a chiral selector. After derivatization, coating onto silica, and packing into columns, the functionalized material was tested in a chiral high-performance liquid chromatography setup to investigate the enantioselective interplay between the modified cellulose mirror images and chiral molecules. We report the first-ever application of synthetic l-cellulose instead of the common column materials based on the natural d-polysaccharide counterparts. An inversion of the analyte elution order of (R) and (S) enantiomers due to reversed interaction strength with the stationary phase was observed for all tested analytes.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124038",
+      "pmid": "40817559",
+      "title": "Bioinspired pullulan-tannic acid hydrogels with high toughness, stretchability, adhesion and self-healing properties",
+      "authors": [
+        "Xiao Qian",
+        "Gong Yanqian",
+        "Zhou Hui",
+        "Zhang Yuming",
+        "Shen Qingwu",
+        "Sun Xiaohong"
+      ],
+      "abstract": "Inspired by the high-density hydrogen bonds in spider silk and the mussel adhesive mechanism, pullulan-tannic acid (TA) hydrogels with high stretchability, toughness, adhesiveness, and rapid self-healing capabilities were successfully fabricated via a hydrogen-bond-driven co-assembly strategy combined with controlled evaporation. Infrared spectroscopy confirmed the presence of hydrogen bonds between pullulan and TA, while scanning electron microscopy revealed the porous network structure of the hydrogels. The tensile strength (TS), Young's modulus (YM), and toughness values of PulTA5 hydrogels were 0.48 MPa, 19.17 MPa, and 268.10 MJ/m3, respectively, reflecting increases of 433.3 %, 1538.5 %, and 76.7 % compared to PulTA1 hydrogels. The self-healed PulTA5 hydrogels exhibited the highest TS and toughness, along with the lowest elongation at break (EAB) values among all tested hydrogels. Furthermore, PulTA5 hydrogels demonstrated the highest adhesion strength to glass, paperboard, and metal surfaces. These improvements are attributed to the formation of abundant hydrogen bonds and van der Waals forces in the PulTA5 system, as confirmed by molecular dynamics (MD) simulations, which enhance the cohesion of the hydrogel and contribute to its compact structure. This novel strategy for designing pullulan-based hydrogels that combine high toughness and self-healing properties holds promise for the development of biobased materials for food packaging applications.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123955",
+      "pmid": "40817513",
+      "title": "Chitin whisker liquid crystal hydrogel embedded with polyacrylic acid templating osteoid-like Bouligand structure for guiding internal mineralization",
+      "authors": [
+        "Zhang Ruixi",
+        "Luo Yiting",
+        "Zhou Wei",
+        "Huang Xinxin",
+        "Huang Runshan",
+        "Wen Wei",
+        "Ding Shan",
+        "Li Hong",
+        "Liu Mingxian",
+        "Zhou Changren",
+        "Luo Binghong"
+      ],
+      "abstract": "Sophisticated layered structure and organic/inorganic composition endow lamellar bone with exceptional mechanical properties, which are originated from the mineralization of osteoid with liquid crystal (LC) Bouligand structure under polyanion microenvironment. However, there are few reports focusing on the mechanism of LC phase guided mineralization, and constructing suitable LC models to explore osteoid mineralization remains a challenge. Here, we propose a novel LC hydrogel with Bouligand structure and rich in -COOH groups to simulate osteoid mineralization. Specifically, chitin whiskers (CHWs) co-assemble with polyacrylic acid (PAA) to form osteoid-like LC phase, which is crosslinked to prepare LC hydrogel with Bouligand structure. Using this LC hydrogel as a template to guide the mineralization of PAA-stabilized amorphous calcium phosphate (ACP), a bone ECM-like organic/inorganic composite is achieved. Due to the strengthening/toughening effect of Bouligand structure and formed calcium phosphates, the composite exhibits excellent mechanical properties. Creatively, LC template achieves effective internal mineralization under the synergetic guidance of Bouligand structure and PAA, moreover, there is differential mineralization inside/outside the LC template, which well mimics natural bone. This study first reveals the biomineralization mechanism and synergistic effect guided by Bouligand structure and PAA, providing an innovative idea for exploring the formation of lamellar bone.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123922",
+      "pmid": "40817463",
+      "title": "Deproteinization and controlled starch prehydrolysis in intact pulse cotyledon cells regulates starch retrogradation and digestion",
+      "authors": [
+        "Mao Minghao",
+        "Martinez Mario M",
+        "Tunçil Yunus Emre",
+        "Ding Li",
+        "Chen Chun",
+        "Fu Xiong",
+        "Huang Qiang",
+        "Zhang Bin"
+      ],
+      "abstract": "Intact pulse cotyledon cells are known for their intact cellular structure and dense protein matrix, leading to slower starch digestibility. However, the retrogradation and digestibility of retrograded intracellular starch has rarely been investigated, and our preliminary results indicated the difficulty of intracellular starch retrogradation. To test mechanistic principles of intracellular starch retrogradation, intact pulse cells were extracted and treated with protease followed by pancreatic α-amylase (0-20 min) and pullulanase (24 h) prehydrolysis, and then controlled retrogradation (4 °C, 5 d). Protein hydrolysis had little effect on starch retrogradation and digestibility, showing no change in the crystallinity, retrogradation enthalpy change and extent of digestion, compared to the cooked sample. Meanwhile, additional 5 min of α-amylase hydrolysis maximized the retrogradation of intracellular starch likely by producing perfect chain length for retrogradation, which then exhibited the lowest digestion rate and extent (0.0172 min-1 and 29.8 %). Further increasing α-amylase hydrolysis reduced crystallinity and enthalpy, leading to decreased retrogradation and increased digestibility. These findings shed new light on the mechanism underlying intracellular starch retrogradation and the extending application of retrograded starch with low propensity to negatively affect texture.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123935",
+      "pmid": "40817509",
+      "title": "A novel method to quantify Dendrobium officinale polysaccharides in biological samples via99mTc-labelling and radioHPGPC analysis",
+      "authors": [
+        "Dou Pengfei",
+        "Wang Jinglin",
+        "Shu Yamin",
+        "Cheng Fang",
+        "Nie Gang",
+        "Luo Li",
+        "Wu Zhijing",
+        "Zheng Ziming",
+        "Gai Yongkang",
+        "Liu Junxi",
+        "Liu Yan",
+        "Zhou Yinxing",
+        "Zhang Yu",
+        "Lan Xiaoli",
+        "Ding Kan",
+        "Wang Kaiping"
+      ],
+      "abstract": "Natural polysaccharides are attracting increasing attention due to their excellent pharmacological properties and low toxicity. However, the clinical translation of these biomacromolecules has been hindered by a lack of pharmacokinetic studies. Polysaccharide labelling presents a promising method for performing pharmacokinetic investigations on polysaccharides. The combination of radioisotopic labelling and high-performance gel permeation chromatography (HPGPC) has not yet been applied to the detection of polysaccharides in biological samples. Here, Dendrobium officinale polysaccharides (DOP) were selected as model polysaccharides. DOP and radiolabelling of DOP (99mTC-DTPA-DOP) were prepared and characterized. Then, HPGPC with a radio-HPLC flow detector (radioHPGPC) was used to analyse 99mTC-DTPA-DOP in biological samples for the first time. The detection method was demonstrated to exhibit good linearity (R2 > 0.997), sensitivity (LLOD <100 nCi, and 62.99 ng/mL for the Conc of DOP), specificity, and recovery rate (>90 %). The blood concentration and distribution in major organs after oral and intravenous administration were studied. The results showed that the bioavailability of DOP was 2.68 %. This method is superior to γ counting or liquid scintillation counting because radioHPGPC could not only eliminate the impact of free 99mTc and quantity the DOP tracer but also qualitatively analyse the metabolism during absorption and distribution. This study provides detailed pharmacokinetic profiles of DOP and a practical method for labelling and pharmacokinetic studies of other polysaccharides with high molecular weight.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124003",
+      "pmid": "40817542",
+      "title": "Ultrasonic fabrication of polysaccharide capsules: Unraveling the xanthan gum-chitosan shell formation mechanism",
+      "authors": [
+        "Pallaeva Tatiana N",
+        "Marchenko Irina V",
+        "Krikunova Polina V",
+        "Artemov Vladimir V",
+        "Khmelenin Dmitry N",
+        "Malakhov Sergey N",
+        "Dmitryakov Peter V",
+        "Shramkov Egor A",
+        "Efremov Yuri M",
+        "Timashev Peter S",
+        "Novikov Roman A",
+        "Sindeeva Olga A",
+        "Bukreeva Tatiana V"
+      ],
+      "abstract": "This study establishes the mechanism of stable emulsion capsules formation using sulfhydryl-free polysaccharides (xanthan gum, chitosan, and their mixtures), comparing ultrasonic versus conventional mechanical preparation methods. Capsules were fabricated using both mechanical and ultrasonic processing, followed by comprehensive characterization through DLS, CLSM, CRYO electron microscopies, XPS, FTIR, AFM, XRD, and TGA. Ultrasonically processed xanthan gum/chitosan capsules exhibit a well-defined morphology (1 μm average size), stable surface characteristics (-19 mV zeta potential), and enhanced resistance to aggregation and coalescence. The results demonstrate not only formation of polyelectrolyte complexes in the mixed shells (with xanthan gum/chitosan ratios of 1 and 1.17 for mechanically and ultrasonically prepared capsules, respectively, with an initial 1:1 polymer solution ratio), but also reveals molecular scissoring effects. Structural characterization reveals semi-crystalline shell organization with significantly improved mechanical strength, as evidenced by the 48 kPa Young's modulus. The capsules exhibit excellent hemocompatibility (hemolysis rate < 0.02 μL/mL) for intravenous delivery applications. Our findings reveal fundamental insights into polysaccharide behavior on the phase interface under ultrasonication, demonstrating how acoustic energy drives molecular reorganization to create structurally superior capsules. This work provides a new paradigm for polysaccharide-based drug carrier design to create high-performance delivery systems with enhanced stability.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124033",
+      "pmid": "40817497",
+      "title": "Carboxymethyl chitosan-based form-stable phase change materials with ultra-low leakage and excellent low-temperature buffering performance",
+      "authors": [
+        "Guo Dengshuang",
+        "Zhang Yuwei",
+        "Chen Kuncong",
+        "Wang Shun",
+        "Tang Zhongfeng",
+        "Lin Baofeng"
+      ],
+      "abstract": "In the cold chain transportation field, the commonly used polystyrene foam has drawbacks in degradation and temperature buffering, leading to considerable resource waste and environmental pollution. Here, a novel form-stable phase change material (FSPCM) based on carboxymethyl chitosan/sodium alginate/polyethylene glycol 400 has been prepared by a preforming post-enhancement approach combined with freeze-drying. The preforming post-enhancing strategy resolves the contradiction between mechanical support of natural polymer-based gels and controllable molding, thereby enabling FSPCM to be directly molded into shapes required for practical applications (e.g., packaging boxes). As one of the key performances, the high encapsulation efficiency (50.37 %) of polyethylene glycol 400 endows this FSPCM with robust temperature buffering properties compare to polystyrene foam. Furthermore, the lamellar shell endows the FSPCM with remarkable mechanical properties (Young's modulus of 10.27 MPa), resistance to leakage (no polyethylene glycol 400 leakage was detected after 5 days at 80 °C), and antibacterial properties (showing >99.5 % bactericidal rate against Escherichia coli and Staphylococcus aureus). Additionally, the FSPCM exhibited superior thermal stability and biocompatibility. This study provides new insight into an alternative package design for green and low-temperature buffering to cold chain transportation.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124050",
+      "pmid": "40817502",
+      "title": "Low molecular weight Astragalus membranaceus polysaccharides alleviates dextran sulfate sodium-induced colitis in mice",
+      "authors": [
+        "Ye Meng",
+        "Fan Menghan",
+        "Zhao Yi",
+        "Wang Feng",
+        "Yang Xiaobing",
+        "Yao Wenbing",
+        "Gao Xiangdong",
+        "Yu Juping",
+        "Liu Wei"
+      ],
+      "abstract": "Inflammatory bowel disease (IBD) treatment is challenged by limited efficacy and side effects of current therapies. While Astragalus membranaceus polysaccharides (APS) show anti-inflammatory potential, their structure-activity relationship is unclear. This study compared the therapeutic effects of the linear α-1,4-glucan APS-G2 and the branched-chain APS-A1, enzymatically derived APS oligosaccharides. Structure-function analysis revealed that the homogeneous α-1,4-glucan backbone of APS-G2 is essential for superior bioactivity, contrasting with the diminished efficacy of the heterogeneous, branched APS-A1. APS-G2 significantly suppressed pro-inflammatory cytokines, elevated anti-inflammatory mediators, and improved intestinal barrier integrity by preventing DSS-induced apoptosis of intestinal epithelial cells and promoting the expression of tight junction proteins. The underlying mechanisms involve coordinated regulation of the SIRT1/PGC-1α/NF-κB pathway and FXR-mediated signaling. These findings elucidate the structure-function relationships of APS derivatives and suggest that enzymatic engineering can enhance the therapeutic potential of polysaccharides for IBD management.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124030",
+      "pmid": "40817554",
+      "title": "Production of cellulose nanocrystals using Brønsted Acidic Ionic Liquids (BAILs), based on anionic clusters with changes in the cation and anion's structure",
+      "authors": [
+        "Paredes Maria G",
+        "Pinto Francisco",
+        "Olea Felipe",
+        "Quijada-Maldonado Esteban",
+        "Lavoratti Alessandra",
+        "Diejomaoh Onajite Abafe",
+        "Laverock Jude",
+        "Eichhorn Stephen J",
+        "Pavez Paulina"
+      ],
+      "abstract": "Nine Brønsted Acid Ionic Liquids (BAILs) based on two cationic bases (1-methylimidazolium and pyridinium) and anions derived from sulfuric (SA) and phosphoric (PA) acids, were used as solvents and acid catalysts for the hydrolysis of commercial cellulose to obtain cellulose nanocrystals (CNCs). The BAILs' effect on the reactions was evaluated as a function of the acidity and polarity of the solvents, determined by the Hammett acidity parameter (H0) (determined experimentally) and by the β parameter of the Kamlet-Taft analysis (determined computationally using COSMOS-RS). Under the same experimental conditions, the change of solvent not only affects the reaction yield of the CNCs but also the final characteristics of the nanomaterials obtained. All CNCs derived from PA-BAILs show a high thermal stability compared to those obtained with SA-BAILs, with Tmax values of ~345 °C and 271 °C respectively. Effective surface modification of the CNCs was assessed using X-ray photoelectron spectroscopy (XPS) analysis, Zeta potentials and surface charge density (SCD) determined by conductometric titration. This study provides a solid foundation for the design of ionic liquid-based systems aimed at producing surface-modified CNCs for advanced applications.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123957",
+      "pmid": "40817515",
+      "title": "Enhancement of lysozyme physicochemical stability and biocatalytic activity through direct electrostatic complexation with cellulose nanospheres",
+      "authors": [
+        "Sagee Ahmad Nur Khairun Atiyah",
+        "Norizan Balqis Az-Zahraa",
+        "Quay Doris Huai Xia",
+        "Raih Mohd Firdaus",
+        "Syed Jaafar Sharifah Nabihah"
+      ],
+      "abstract": "Cellulose nanospheres (CNS) were synthesized as carriers for lysozyme (Lys) using a controlled-injection water-in-oil (W/O) emulsion method, employing cellulose nanocrystals (CNC) derived from cotton linter. Acid hydrolysis of cotton linter (CL) produced CNCs with a tenfold reduction in molecular weight (Mη) and degree of polymerization (DP), enhancing solubility and facilitating smaller particle formation. The optimal CNS formulation (3CNS11) exhibited an average particle size of 242 nm, a polydispersity index (PDI) of 0.4, and a zeta potential (ZP) of -35.27 mV. Fourier transform infrared (FTIR) spectroscopy, transmission electron microscopy (TEM), and ZP confirmed successful interaction between CNS and lysozyme, forming stable CNS/Lys complexes. Comparative studies under various temperatures, pH levels and urea concentrations revealed that CNS/Lys retained higher enzymatic activity, with a 35 % increase at 70 °C and a 60 % increase at pH 3. Moreover, CNS/Lys preserved over 80 % of their initial activity across all tested urea concentrations. Antibacterial assays against Bacillus subtilis (B. subtilis) showed a 25 % larger zone of inhibition (ZOI) for CNS/Lys than free lysozyme. These findings highlight the role of CNS in enhancing lysozyme stability and bioactivity, validating its potential as an efficient enzyme carrier.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124046",
+      "pmid": "40817500",
+      "title": "An ethyl cellulose-coated bacterial cellulose based hydrophobic and degradable straw-like materials towards drinking straws",
+      "authors": [
+        "Zhang Ronghui",
+        "Sun Bianjing",
+        "Chen Longyi",
+        "Chen Chuntao",
+        "Sun Dongping"
+      ],
+      "abstract": "Currently, we are facing global challenges like petrochemical resource depletion and plastic products induced environmental issues. Especially, the commonly used disposable straws in daily life represent potential issues like other plastic products. Overuse and inadequate handling of disposable straws could add burden to environmental problems due to their non-recyclability in most areas and incomplete biodegradability. Therefore, it is important to find a high-performance alternative to eliminate plastic straw-related environmental problems. Cellulose based derivative materials are recognized as sustainable substitutes for plastics, yet the hydrophilic nature restricts their application as straws. To solve this problem, this study introduces a microplastic-free straw made from ethyl cellulose (EC) enhanced bacterial cellulose (BC). This fabricated EC enhanced BC based straw exhibits improved mechanical properties with bending strength up to 66.82 MPa, good hydrophobicity with water contact angle up to 110°, and favorable heat resistance compared to raw BC based straws. These enhancements are attributed to its three-dimensional nanofiber network structure and intermolecular hydrogen bonds. Moreover, it can degrade completely decomposition within 20 days compared to the commercially available polylactic acid-based straw in soil. This EC enhanced BC based drinking straw is a health-conscious and environmentally friendly alternative to plastic straws.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123988",
+      "pmid": "40817533",
+      "title": "Effect of silicate materials on the structure, physicochemical properties, and gas-selective permeability of starch/PBAT films prepared by extrusion blowing",
+      "authors": [
+        "Wang Hao",
+        "Wu Yuntong",
+        "Zhao Jiajun",
+        "Gao Shan",
+        "Wang Wentao",
+        "Rashid Arif",
+        "Sun Shenglin",
+        "Hou Hanxue"
+      ],
+      "abstract": "This study investigates the effects of silicate materials, i.e. native diatomite, acid-treated diatomite, 1250-mesh meta-kaolin, 4000-mesh meta-kaolin and zeolite, on the structure, physico-chemical properties and gas-selective permeabilities of 'blown' starch/ poly (butylene adipate-co-terephthalate) (PBAT) films. Results revealed that silicate materials, particularly acid-treated diatomite, substantially enhanced the physico-chemical properties of the films. Films containing 1 % w/w silicate materials exhibited better physico-chemical properties than those containing 5 % w/w corresponding silicate materials. The tensile strength and elongation at break of films containing 1 % w/w acid-treated diatomite increased by 21.7 % and 22.2 %, respectively, relative to the control film. Compared with the control film, films containing these silicate materials exhibited significantly higher hydrophobicity and moisture resistance. Films containing 1 % w/w zeolite exhibited markedly improved gas selectivity, with their oxygen permeability reduced by 55.0 % and carbon dioxide permeability by 14.2 %, resulting in a gas selectivity ratio of 10.2 for carbon dioxide to oxygen. Moreover, packaging strawberries with films containing these silicate materials extended their shelf life, highlighting the efficacy of silicate materials in regulating the gas exchange through and enhancing the functional performance of the films. These findings suggest that starch/PBAT films containing silicate materials possess good application potential in fruit and vegetable preservation.",
+      "coverDate": "2025-11-01",
+      "status": "included"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125331",
+      "pmid": "42067355",
+      "title": "Polysaccharide-derived \"soil\": Constructing multidimensional fluorescent materials to unlock diverse innovative applications",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125273",
+      "pmid": "42067324",
+      "title": "Bletilla striata polysaccharide as a dual-hit biologic: Orchestrating pyroptosis inhibition and trained immunity for chronic wound resolution",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125209",
+      "pmid": "41943316",
+      "title": "Sustainable polysaccharide-based adsorbents for PFAS removal: Mechanisms, functional engineering, and future directions",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125141",
+      "pmid": "41943363",
+      "title": "Gum Arabic-based Pickering emulsions: Design principles and emerging applications",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125164",
+      "pmid": "41943386",
+      "title": "Genetic and bioprocess engineering strategies for microbial alginate production",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125147",
+      "pmid": "41943369",
+      "title": "From nature to clinic: Lessons from successfully marketed polysaccharide drugs",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125182",
+      "pmid": "41943293",
+      "title": "From formulation proxies to control variables: A mechanistic framework for high-methoxyl pectin gelation and matrix organisation",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125044",
+      "pmid": "41831971",
+      "title": "Zooming in on methylation of homogalacturonan pectins: How degree and pattern dictate physicochemical properties, bioactivities, and potential applications",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125019",
+      "pmid": "41831960",
+      "title": "Starch as a designable platform for oral drug delivery: From structural modulation to application in inflammatory bowel disease",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125003",
+      "pmid": "41713993",
+      "title": "Recent progress in cellulose-based flexible thermoelectric devices: Materials, designs, mechanisms, and applications",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.124969",
+      "pmid": "41713980",
+      "title": "Recent advances in redox-responsive polysaccharide-based nanostructures for cancer therapy",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.124900",
+      "pmid": "41679823",
+      "title": "Structure-guided modulatory mechanisms of pectic polysaccharides in inflammatory bowel disease: From structure-activity relationship to precision intervention",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.124891",
+      "pmid": "41617292",
+      "title": "Unraveling the biosynthesis and regulation mechanism of bacterial cellulose: Challenges and strategies toward industrial production",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124707",
+      "pmid": "41475712",
+      "title": "Emerging trends in polysaccharide-based smart PEGylated hydrogels for biomedical applications",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124648",
+      "pmid": "41320408",
+      "title": "Advanced functionalization strategies of chitin and chitosan toward sustainable nanocomposites",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124655",
+      "pmid": "41320414",
+      "title": "Preparation, performance and application - Current status and trends in thermoplastic starch",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124576",
+      "pmid": "41320361",
+      "title": "Lignocellulose pretreatment: A versatile platform for in situ valorisation",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124658",
+      "pmid": "41320416",
+      "title": "Advances in chitosan/gelatin scaffold design: Bridging manufacturing, crosslinking, and structure - Function dynamics",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124621",
+      "pmid": "41320400",
+      "title": "Seaweed polysaccharides and their potential health effects via gut microbiota modulation",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124491",
+      "pmid": "41198307",
+      "title": "Advanced synthesis of polyphenol-polysaccharide copolymers: Molecular design, grafting technologies, and future perspectives",
+      "status": "excluded_review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125823",
+      "pmid": null,
+      "title": "Dextrans produced by Leuconostoc isolates from sugarcane factories: Potential impact on viscosity during sugarcane processing",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125733",
+      "pmid": "42692617",
+      "title": "O-acetyl groups shape the serological specificity and division of phosphodiester-containing Proteus mirabilis O48 O-antigens into subgroups",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125767",
+      "pmid": "42692636",
+      "title": "Lipopolysaccharide of Plesiomonas shigelloides O68:H2 (CNCTC 138/92). Expanding the array of P. shigelloides strains with unusual hydrophobic properties of the O-antigens",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125157",
+      "pmid": "41943379",
+      "title": "Chaotropic ions reshape the cell wall of the obligate halophile aspergillus atacamensis: Insights from solid-state NMR",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125129",
+      "pmid": "41832028",
+      "title": "Elucidating the metabolic network and pH-dependent biosynthesis of bioactive exopolysaccharides XY1-EPS in Bacillus smithii",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125076",
+      "pmid": "41831992",
+      "title": "Mutations in PilZ domains of newly discovered bacterial β-(1,3;1,4)-mixed linkage glucan synthases modulate polysaccharide production",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125009",
+      "pmid": "41831955",
+      "title": "Engineering Escherichia coli to biosynthesize O-polysaccharide-derived recombinant glycoconjugate vaccines against pathogenic serotypes O8 and O9a",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125030",
+      "pmid": "41831966",
+      "title": "Switching cell wall-bound polysaccharides to secreted polysaccharides in lactobacilli",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.124946",
+      "pmid": "41679852",
+      "title": "Engineering compartmentalized utilization of glycerol with glucose for high-level chondroitin production in Corynebacterium glutamicum",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124718",
+      "pmid": "41371857",
+      "title": "Production and functional characterization of an extracellular galactoglucan G2 secreted by the Sinorhizobium sp. ACT002",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124270",
+      "pmid": "40973254",
+      "title": "Unraveling role of the glucan-binding domain in mutansucrase-mediated glucan synthesis and biofilm-related properties",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124088",
+      "pmid": "40912795",
+      "title": "Characterization of a hyaluronic acid utilization locus and identification of hyaluronate lyases in human gut bacterium Enterococcus faecalis F1221",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124170",
+      "pmid": "40947256",
+      "title": "Molecular mechanisms for exopolysaccharides synthesis in Lactobacillus helveticus: Relationship between structural characteristics and genomics",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124058",
+      "pmid": "40912786",
+      "title": "Forms of chitin-polysaccharide cross-linking in the Coprinopsis cinerea stipe cell wall",
+      "status": "excluded_microbe_centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123964",
+      "pmid": "40817519",
+      "title": "Molecular modeling of group B Streptococcus type II and III capsular polysaccharides explains low filter retention of type II and lack of cross-reactivity with type III",
+      "status": "excluded_microbe_centric"
+    }
+  ]
+}
