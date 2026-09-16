@@ -1,0 +1,508 @@
+{
+  "run_timestamp_utc": "2026-09-16T22:00:00Z",
+  "target_count": 20,
+  "collected_count": 22,
+  "final_eligible_count": 22,
+  "collection_method": {
+    "primary": "PubMed E-utilities ESearch/EFetch (db=pubmed, term='Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt]'), datetype=pdat, reldate progressively widened 30 -> 90 -> 365 -> 730 days since narrower windows yielded 0 new (all already in seen_articles.json)",
+    "reldate_730_total_hits": 2454,
+    "new_after_dedupe_vs_seen": 1200,
+    "after_excluding_review_pubtype_and_title": 1,
+    "after_excluding_retraction_corrigendum_erratum_notices": 28,
+    "after_excluding_no_abstract": 3,
+    "final_eligible_pool_before_selection": 1168,
+    "selection_rule": "eligible pool sorted by PubMed pubdate descending; most recent unseen batch (2025-Nov and 2025-Oct issues) selected first",
+    "supplement": "Elsevier Scopus Search API (api.elsevier.com/content/search/scopus, X-ELS-APIKey header) used to cross-check ISSN 0144-8617 metadata reachability and Article/Review doctype classification (subtypeDescription field); Abstract Retrieval API returned AUTHORIZATION_ERROR (401) under current API key entitlement (including view=FULL), so PubMed abstracts were used as the primary source for eligibility screening and Korean-language analysis",
+    "microbe_centric_screen": "keyword heuristic pre-screen (probiotic, fermentation optimization, bacterial/fungal strain, 16S rRNA, genome sequencing, microbial community, etc.) combined with manual title/abstract review; papers whose core subject is polysaccharide/polymer material with only incidental antimicrobial testing were retained",
+    "exclusions": {
+      "already_seen_within_730_days": 1254,
+      "review_title_or_pubtype": 1,
+      "retraction_corrigendum_erratum_notices": 28,
+      "no_abstract_available": 3,
+      "manually_excluded_microbe_mechanism_centric": 1
+    },
+    "manually_excluded_examples": [
+      "PMID 40817467 - Modulation of butyrate-induced stress responses in Bacteroides by lotus seed resistant starch and its sugar degradation products (core topic is bacterial stress-response mechanism)"
+    ]
+  },
+  "focus_keyword_matches": 9,
+  "focus_keyword_breakdown": {
+    "cellulose": 5,
+    "hydrogel": 2,
+    "biomass": 2,
+    "pectin": 0,
+    "paper": 0,
+    "paper_coating": 0,
+    "okara": 0,
+    "soybean_protein_isolate": 0
+  },
+  "articles": [
+    {
+      "pmid": "40817504",
+      "title": "Engineering robust bio-based 3D structures from corn stalk pith through a sustainable route to nano-micro structured extreme environment resistant materials.",
+      "abstract": "Porous three-dimensional (3D) structures with excellent resilience have attracted considerable attention across various fields, including construction and energy storage. However, current fabrication methods often rely on bottom-up approaches, leading to complex production processes and environmental concerns. In this work, we develop the bio-based 3D structures that preserves the intrinsic cellular microstructure of biomass via cell wall engineering under mild conditions. Corn stalk pith (CSP), an agricultural waste, is sequentially treated with dilute acid and an inorganic salt solvent, resulting in the 3D structures with excellent compressive resilience, even at a strain of 70 % in extreme environments. The enhanced compressive resilience is primarily attributed to the reduction of rigid lignin content, the intrinsic cellular microstructure, and the thickened hydrogel cell wall. Metal ions introduced through the salt solvent conferred ionic conductivity to the material, enabling a detection limit as low as 0.1 kPa. These properties allow the bio-based sensor to precisely monitor various human activities by translating compressive deformation into reliable signals. This work presents an innovative strategy for creating naturally porous and elastic materials with exceptional structural stability using agricultural wastes. These materials hold potential applications in oil-water separation, flexible electronics, and thermal insulation.",
+      "doi": "10.1016/j.carbpol.2025.124054",
+      "pii": "S0144-8617(25)00839-2",
+      "authors": [
+        "Zhenpeng Shen",
+        "Yantao Wang",
+        "Huili Wang",
+        "Ruidong Chu",
+        "Dehai Yu",
+        "Zhaoping Song",
+        "Guodong Li",
+        "Xiaona Liu",
+        "Wenxia Liu"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817501",
+      "title": "A natural amylopectin based quaternized polymer as a promising biopolymer for efficient dewatering of Chlorella sorokiniana NKPS02.",
+      "abstract": "Microalgae are green biofactories suitable for the production of valuable bioenergy and bioproducts. Obtaining bioproducts from microalgae requires efficient microalgal biomass harvesting which is a significant bottleneck owing to the culture stability of negatively charged microalgal cells, the process is cost and energy-intensive. To overcome this, we developed a natural polymer-based quaternised amylopectin polymer by incorporating cationic reagent glycidyl trimethyl ammonium chloride (GTMAC) via etherification. Here, quaternised amylopectin appears to be a promising biopolymer for efficient dewatering of Chlorella sorokiniana NKPS02, as it resulted in >95% dewatering efficiency at the optimum dosage of 60 mg/L at ambient temperature (25 °C), physiological culture pH (∼7.8). Interestingly, the quaternised amylopectin was found to be biocompatible due to its non-interference with the lipid extraction from harvested biomass and notaffecting microalgal cell integrity. The study showed that the amylopectin-based biopolymer bridging and charge neutralization mechanism was crucial for efficient microalgal harvesting. Thus, the present endeavor exhibited that the quaternised amylopectin can be a promising biomaterial for the harvesting and sustainable valorization of microalgal biomass.",
+      "doi": "10.1016/j.carbpol.2025.124047",
+      "pii": "S0144-8617(25)00832-X",
+      "authors": [
+        "Niwas Kumar",
+        "Manjulika Vardhan",
+        "Pratyoosh Shukla"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817492",
+      "title": "Design of modified carboxymethyl cellulose adsorbent for effective removal of Pb (II) and cd (II) from aqueous solutions.",
+      "abstract": "In this study, carboxymethyl cellulose (CMC) was grafted with 3-mercaptopropyl trimethoxy silane, crosslinked and then freeze-dried to fabricate the modified CMC-based adsorbent with three-dimensional network structure. The adsorbent showed the advantages of low price, environmental protection and high stability, and could effectively remove lead ion (Pb (II)) and cadmium ion (Cd (II)) from wastewater. The adsorption equilibrium for two metal ions could been achieved within 60 min with the maximum adsorption capacity of 322.96 mg/g and 199.35 mg/g for Pb (II) and Cd (II), indicating fast adsorption rate and high adsorption efficiency. Under the coexistence of multiple ions, the adsorbent still exhibit high Pb (II) and Cd (II) adsorption, demonstrating the good ion selectivity. Furthermore, the adsorption conformed to the pseudo-second-order kinetic model and Langmuir adsorption isotherm, indicating that the adsorption process was mainly chemical adsorption. After five adsorption-desorption cycle tests, the adsorbent still maintain high adsorption efficiency and integrity, proving the good recyclability and reusability. Density functional theory calculations revealed that the HOMO-LUMO gaps decreased after adsorption, implying the enhanced charge transfer via orbital hybridization with functional groups. This work provides a new idea for preparing low-cost, environmentally friendly, efficient, and reusable adsorbents to capture toxic heavy metal ions.",
+      "doi": "10.1016/j.carbpol.2025.124020",
+      "pii": "S0144-8617(25)00804-5",
+      "authors": [
+        "Shiqin Pan",
+        "Yudong Yang",
+        "Shitong Zhang",
+        "Xinyu Wang",
+        "Shuangling Zhong",
+        "Xuejun Cui"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817491",
+      "title": "Structural characterization and osteogenic potential of polysaccharide purified from Sanghuangporus vaninii.",
+      "abstract": "Sanghuangporus vaninii (S. vaninii) is a fungus of considerable medicinal properties. Nevertheless, the specific effects of polysaccharides derived from S. vaninii on bone tissues and their underlying mechanisms remain underexplored. In this research, we purified polysaccharide (SVP-a2) from S. vaninii and systematically explored its structural composition and the anti-osteoporotic characteristics via promoting bone formation. SVP-a2 is a novel neutral polysaccharide exhibiting a molecular weight of 23.593 kDa, predominantly constituted by →6)-α-Galp-(1→. The substitutions are observed at specific C-2 positions, involving the α-Manp-(1 → or α-Manp-(1 → 2)-α-Fucp-(1→. In the dexamethasone-induced osteoporosis (OP) mice model, SVP-a2 significantly restored the bone microstructure, enhanced bone density and trabecular connectivity, and markedly promoted the osteogenic differentiation in the bone tissue. Through the combined analysis of serum metabolomics, bone tissue proteomics and biological assays, SVP-a2 was found to modulate bone metabolism by regulating mineral absorption. SVP-a2 activated the fibroblast growth factor 2/Wnt signaling pathway, inhibited glycogen synthase kinase-3β phosphorylation, promoted osteogenic differentiation, enhanced bone formation, and thereby exerted an anti-OP effect. This research furnishes a therapeutic approach for using SVP-a2 as a functional constituent in the clinical adjunctive therapy of OP, and presents an innovative theoretical foundation for the development of polysaccharide-based bone metabolism regulator.",
+      "doi": "10.1016/j.carbpol.2025.124018",
+      "pii": "S0144-8617(25)00802-1",
+      "authors": [
+        "Jiyu Song",
+        "Qing Xue",
+        "Haoran Wang",
+        "Ruijia Jin",
+        "Xiao Liu",
+        "Lanzhou Li",
+        "Yang Liu",
+        "Di Wang",
+        "Min Hu"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817486",
+      "title": "Biochar-infused cellulose foams with PEG-based phase change materials for enhanced thermal energy storage and photothermal performance.",
+      "abstract": "This study presents cellulose-based foams reinforced with biochar and integrated with polyethylene glycol (PEG)-based phase change materials (PCMs) to enhance thermal energy storage and photothermal performance. The foams were fabricated using an energy-efficient, non-freeze-drying method, leveraging cellulose's inherent porosity and structural integrity to create a sustainable and scalable material platform. The optimized cellulose foams exhibited a well-balanced combination of high porosity (85 %), low density (66 kg·m-3), and minimal shrinkage (5 %), ensuring stability across multiple applications. The hydrophilic-hydrophobic interactions between cellulose, PEG, and biochar played a crucial role in achieving uniform PCM dispersion, enabling effective thermal energy storage (130 J·g-1) and temperature regulation. Durability tests confirmed the stability of phase-change properties over 100 thermal cycles, demonstrating long-term material resilience. The incorporation of biochar significantly improved photothermal efficiency (85 %) by enhancing light absorption and thermal conductivity while also reinforcing the cellulose matrix. A life cycle assessment (LCA) highlighted the environmental trade-offs, where biochar contributed to carbon sequestration, while PEG introduced a higher carbon footprint but offset other environmental burdens. This work underscores the multifunctional role of cellulose in developing sustainable, bio-based thermal management materials, providing an eco-friendly alternative to conventional insulation and energy storage systems.",
+      "doi": "10.1016/j.carbpol.2025.123999",
+      "pii": "S0144-8617(25)00782-9",
+      "authors": [
+        "Hossein Baniasadi",
+        "Ziba Fathi",
+        "Roozbeh Abidnejad",
+        "Pedro E S Silva",
+        "Sanandam Bordoloi",
+        "Jaana Vapaavuori",
+        "Jukka Niskanen",
+        "Erlantz Lizundia",
+        "Eero Kontturi",
+        "Juha Lipponen"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817485",
+      "title": "Protein-in-polysaccharide bioink for 3D bioprinting of muscle mimetic tissue constructs to treat volumetric muscle loss.",
+      "abstract": "Developing engineered skeletal muscle tissues with biomimetic structural and functional properties is required to treat volumetric muscle loss (VML) caused by injuries or surgical procedures. 3D bioprinting has emerged as a promising tool for fabricating muscle tissue constructs to restore or replace lost skeletal muscle tissue functions. Natural polymers are widely used as bioinks due to their ability to promote printability, biocompatibility, and cell functionalities. In the present study, a novel protein-in-polysaccharide bioink combination containing methylcellulose (MC), alginate (Alg), and gelatin (Gel) was used. In order to achieve maximum cell viability, the bioink was crosslinked using ionic or enzymatic crosslinking agents under physiological conditions. The concentration of MC-Gel combination was initially optimized to check the printability and stability. Further, Alg was added to the MC-Gel to improve the printability, and the effect of crosslinking conditions were optimized. The optimized conditions were used to bioprint skeletal muscle mimetic constructs with C2C12 cells, which showed excellent proliferation and differentiation. In vivo efficacy of the MC-Alg-Gel constructs showed better functional regeneration of skeletal muscle in VML injuries in mice model. Thus, the novel protein-in-polysaccharide bioink and crosslinking strategy holds significant potential to fabricate tissue constructs for skeletal muscle engineering.",
+      "doi": "10.1016/j.carbpol.2025.123993",
+      "pii": "S0144-8617(25)00776-3",
+      "authors": [
+        "Harshavardhan Budharaju",
+        "David Raj Chellappan",
+        "Dhakshinamoorthy Sundaramurthi",
+        "Swaminathan Sethuraman"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817484",
+      "title": "Quaternized chitosan/glycyrrhizic acid co-decorated titanium with enhanced antimicrobial, immunomodulatory, and osteogenic properties for dental implant applications.",
+      "abstract": "Sandblasted and acid-etched titanium (SLA-Ti) implants encounter significant challenges in dental implant applications owing to their susceptibility to bacterial infections, inflammatory responses, and insufficient osseointegration. Herein, we developed a novel SLA-Ti co-decorated with phloretic acid-modified quaternized chitosan (PQCS) and oxidized glycyrrhizic acid (OGA), referred to as the SLA/PQCS/OGA. The SLA/PQCS/OGA demonstrated exceptional biocompatibility, with low hemolytic toxicity, negligible cytotoxicity, and systemic biosafety in rat models. In vitro and in vivo assays confirmed its superior antimicrobial efficacy against methicillin-resistant Staphylococcus aureus and Escherichia coli. Furthermore, the SLA/PQCS/OGA polarized macrophages toward the pro-healing M2 phenotype by inhibiting the nuclear factor-kappa B pathway and activating the Janus kinase 2/signal transducer and activator transcription 3 axis. With a high reactive oxygen species scavenging rate, the SLA/PQCS/OGA also significantly enhanced the osteogenic differentiation of MC3T3-E1 cells and promoted mineralization in vitro. Our study developed a highly efficient strategy for engineering functional polysaccharide-decorated SLA-Ti. This approach highlights the potential of chitosan derivatives and glycyrrhizic acid in dental implant applications, thereby advancing research and development in polysaccharide science and technology.",
+      "doi": "10.1016/j.carbpol.2025.123984",
+      "pii": "S0144-8617(25)00767-2",
+      "authors": [
+        "Zhen Chen",
+        "Jinlong Weng",
+        "Xinchen Du",
+        "Ruotong Ji",
+        "Xuechao Yang",
+        "Yiming Yang",
+        "Ming Ma"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817483",
+      "title": "Sandwich structured cellulose-based composite for electromagnetic interference shielding, infrared stealth and Joule heating.",
+      "abstract": "In response to the escalating threat of electromagnetic pollution, there has been a growing focus on the development of electromagnetic interference (EMI) shielding materials. Particularly, renewable components and proper structure are favored to design EMI shielding materials. Herein, polysaccharides (i.e., TEMPO oxidized cellulose nanofiber and cationic starch) and cellulose paper were applied to fabricate a composite with the sandwich structure of \"conductor-magnet-conductor\" by integrating with Ti3C2Tx and Fe3O4. This cellulose-based composite exhibited good flexibility and tensile strength. The sandwich structure enhanced the electromagnetic wave loss, owing to interfacial reflection, dielectric loss, and magnetic loss. The composite achieved an EMI shielding effectiveness (SE) of 62.9 dB. It also possessed a satisfactory infrared stealth performance due to the low infrared emissivity of Ti3C2Tx, which could effectively block infrared radiation from the heated object. Furthermore, the composite exhibited good Joule heating performance (reaching 104.8 °C within 25 s at 5 V). This work might provide a new pathway for the design of multifunctional cellulose-based materials.",
+      "doi": "10.1016/j.carbpol.2025.123979",
+      "pii": "S0144-8617(25)00762-3",
+      "authors": [
+        "Jiasheng Wei",
+        "Peiyu Zhao",
+        "Di Li",
+        "Pan Xie",
+        "Shufan Wang",
+        "Chunxia Tang",
+        "Guiqiang Fei",
+        "Lei Dai"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817482",
+      "title": "Synthesis of unsaturated polysaccharide via selective desulfation of oxidized κ-Carrageenan.",
+      "abstract": "Here, κ-Carrageenan was selectively C6 oxidized to convert β-d-Galp-4-sulfate units into its uronic acid derivative using 2,2,6,6-tetramethylpiperidine-1-oxyl (TEMPO) and trichloroisocyanuric acid (TCCA), giving an oxidized κ-Carrageenan derivative, which was submitted to alkaline β-elimination reaction to produce a 4,5-unsaturated carrageenan derivative via selective C4 desulfation. The Carrageenan derivatives were characterized by 1H and 13C NMR (1D and 2D), UV, HPSEC-MALLS-RI and Thermogravimetric analysis. Investigation of the formation of unsaturated Carrageenan showed that rate of production was pH dependent and increased 6-fold in the presence of Ca2+. Also, deuterium exchange experiment indicated a fast and irreversible H5 abstraction at β-d-GalAp-4-sulfate units during the reaction.",
+      "doi": "10.1016/j.carbpol.2025.123978",
+      "pii": "S0144-8617(25)00761-1",
+      "authors": [
+        "Diogo R B Ducatti",
+        "Bárbara Pontarollo Dal Santos",
+        "Clayton F de Souza",
+        "Lauri Alves Junior",
+        "Maria Eugênia R Duarte",
+        "Miguel D Noseda"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817481",
+      "title": "Soft-tough polyacrylamide and polyacrylamide/polyvinyl alcohol/sodium alginate bilayer hydrogels for adaptive grasping and shape recognition.",
+      "abstract": "Human skin achieves high sensitivity and a wide range of tactile perception through its gradient structure and the synergistic function of various receptors. However, significant challenges remain in achieving multifunctional synergy enhancement for artificial skin. This study develops a soft-tough bilayer gradient hydrogel based on a salting-out and ion coordination toughening strategy, achieving high sensitivity (7.35 kPa-1, 0-3 kPa) and a broad stress sensing range (0-75.44 kPa). The soft layer is designed with a low-density polyacrylamide network, where weak chemical crosslinking improves both elasticity and sensitivity. Meanwhile, the tough layer is formed by a high-density dual crosslinked network of polyacrylamide /polyvinyl alcohol/sodium alginate, followed by post-treatment in ZnSO4 solution. The combined effects of salting-out and ion coordination greatly enhance toughness, extend the stress detection range, and strengthen interlayer adhesion. Furthermore, this study integrates the hydrogel into a robotic arm and develops a gel-controller-computer tactile feedback system that simulates the conditioned reflex mechanism, enabling non-destructive recognition and precise grasping of objects with varying hardness. Moreover, the bilayer gradient hydrogel-based sensor facilitates comprehensive recognition of an object's weight and shape. This research offers a novel approach to advancing artificial skin, bioinspired robotics, and intelligent sensing technologies.",
+      "doi": "10.1016/j.carbpol.2025.123973",
+      "pii": "S0144-8617(25)00756-8",
+      "authors": [
+        "Ziwei Zhang",
+        "Wenjing Zhang",
+        "Lang Ding",
+        "Ming Liu",
+        "Bowen Zheng",
+        "Chenxin Yi",
+        "Jing Chen",
+        "Shuai Zhou"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817480",
+      "title": "A novel CO2 foam stabilizer based on natural polysaccharide psyllium seed gum: Experimental and molecular dynamics analysis.",
+      "abstract": "The development of eco-friendly polymer foam stabilizers represents an emerging frontier in sustainable oil recovery, addressing the performance limitations and environmental persistence of traditional foam stabilizers under high-temperature and high-salinity conditions. This study proposes a novel use of natural psyllium seed gum (PG) as a foam stabilizer for CO2 foam flooding technology. A comparative analysis with polyacrylamide and xanthan gum demonstrates the effectiveness of PG in improving foam performance while elucidating its stabilization mechanism. PG exhibits the highest drainage energy barrier (45.13 kJ/mol) and the lowest ripening rate (8.61 × 103 μm3/min) at high-temperature (110 °C) and high-salinity (1 × 105 mg/L) conditions, significantly improving the CO2 foam stability. The stabilization of foam under high-temperature and high-salinity conditions is attributed to the formation of polymer/surfactant complexes between PG and the surfactant through hydrogen bonding, which enhances the elasticity of the interfacial film. Furthermore, the double helix configuration of PG forms an interwoven network structure that boosts the viscoelasticity of the bulk solution and strengthens the foam lamella. This study offers innovative insights and robust support for the application of polymer-reinforced CO2 foam technology, positioning it as a promising next-generation foam stabilizer.",
+      "doi": "10.1016/j.carbpol.2025.123972",
+      "pii": "S0144-8617(25)00755-6",
+      "authors": [
+        "Jun Zhao",
+        "Yangyang Yu",
+        "Kejing Wu",
+        "Yingying Liu",
+        "Yingming Zhu",
+        "Houfang Lu",
+        "Hairong Yue",
+        "Bin Liang"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817479",
+      "title": "Harnessing HP-β-CD in zein edible coatings for enhanced sensitive fruits preservation.",
+      "abstract": "Zein, a natural biodegradable protein, is a promising candidate for developing edible packaging to replace petrochemical-based materials food storage materials. However, its brittleness limits its standalone application. To overcome this, we incorporated 2-hydroxypropyl-beta-cyclodextrin (HP-β-CD) as a functional additive in zein biocoatings, leveraging its interaction with hydrophobic amino acids. We investigated how HP-β-CD affects zein aggregation at different temperatures, ethanol and zein concentrations. Results indicated that zein aggregation decreases with the introduction of HP-β-CD, leading to higher zein solubility. Optimized zein dispersions were utilized to prepare zein films, adding PEG 400 as a plasticizer. The impact of HP-β-CD on the physicochemical and structural properties of zein films was evaluated through orthogonal techniques. HP-β-CD improved the surface and barrier properties, reducing light transmission and water permeability by creating a denser matrix with improved structural integrity. Additionally, zein/HP-β-CD dispersions were directly applied to strawberries via dipping, forming coatings that extended shelf life, highlighting their potential as sustainable alternative to plastic food packaging. As many edible coatings require complex processing and functionalization with active ingredients, which are unnecessary in this case, this strategy offer exciting opportunities for improved food preservation across a broader range of applications, suggesting the need for further investigation.",
+      "doi": "10.1016/j.carbpol.2025.123969",
+      "pii": "S0144-8617(25)00752-0",
+      "authors": [
+        "Antonella Vitiello",
+        "Ovidio Catanzano",
+        "Michele Guida",
+        "Annarita Scognamiglio",
+        "Alfonso Gallo",
+        "Gabriella Costabile",
+        "Francesca Ungaro",
+        "Agnese Miro",
+        "Fabiana Quaglia"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817478",
+      "title": "Determination of TEMPO-oxidized cellulose nanofibril length distribution by agarose gel electrophoresis.",
+      "abstract": "Electron microscopy is commonly used to determine size distributions of cellulose nanofibrils (CNFs). However, the results are not always clear due to difficulty isolating individual CNFs from highly entangled networks thereof. Herein, the length distributions of TEMPO(2,2,6,6-tetramethylpiperidine-1-oxyl radical)-oxidized CNFs (T-CNFs) were determined via agarose gel electrophoresis, which is widely used for size-based separation of DNA. The high surface charge density of T-CNFs enabled effective visualization within the gel using a cationic dye, while their uniform widths facilitated length-based migration. The migration distance was inversely proportional to the fibril length. This migratory behavior was similar to that of reference DNA markers of known lengths. It was therefore possible to derive the proportions of T-CNFs of various lengths. Mapping of the mean lengths of T-CNFs that moved the same distances as did the DNA markers yielded the length relationship between the DNA markers and T-CNFs. The mass distributions of T-CNFs along the direction of motion were determined by comparing the optical densities at different locations. The new gel electrophoresis-based approach is a cost-effective and scalable alternative means by which T-CNF length can be defined, and will enable rapid quality control during industrial applications.",
+      "doi": "10.1016/j.carbpol.2025.123967",
+      "pii": "S0144-8617(25)00750-7",
+      "authors": [
+        "Jung-Soo Han",
+        "Soojin Kwon",
+        "Kyungbin Nam",
+        "Kyudeok Oh"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817465",
+      "title": "Sodium hyaluronate-modified FeIII-shikonin self-assembly nanoparticle for effective tumor therapy and reduced tumor metastasis.",
+      "abstract": "Tumor metastasis constitutes a major obstacle in cancer treatment and affects patients' quality of life. In this study, we synthesized FeIII-shikonin nanoparticles (SF NPs) through a one-step self-assembly process utilizing shikonin (SK) and FeIII. Following the synthesis of nanoparticles, the challenges associated with the poor water solubility and the low bioavailability of SK, as well as its toxicity and adverse effects on normal tissues, could be addressed, thereby enhancing its applicability. Additionally, the synergistic effect between SK and FeIII could be achieved. These nanoparticles were subsequently modified with sodium hyaluronate (HA) to obtain tumor-targeted HSF NPs, characterized by a particle size of 171.2 nm and a zeta potential of -39.85 mV. SK could reduce LA production to improve the tumor microenvironment by downregulating PKM2 activity. Additionally, SK has been observed to downregulate MMP9 expression, resulting in decreased tumor metastasis. The exposure of tumor cells to SK and FeIII induced ferroptosis by disrupting iron ion balance and redox homeostasis. In vivo antitumor activity assessments in CT26-bearing mice demonstrated that the HSF NPs achieved a tumor growth inhibition rate of 76.94 %. By integrating these therapeutic mechanisms, HSF NPs effectively inhibited the growth of orthotopic tumors and the dissemination of metastatic tumors.",
+      "doi": "10.1016/j.carbpol.2025.123939",
+      "pii": "S0144-8617(25)00722-2",
+      "authors": [
+        "Wenhao Gao",
+        "Shiting Xu",
+        "Bingkun Kang",
+        "Zhihong Liu",
+        "Kaiqin You",
+        "Lingjun Zeng",
+        "Enqin Zheng",
+        "Bin Liu",
+        "Qian Zhang",
+        "Hongtao Song"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817464",
+      "title": "Characterization of the milk oligosaccharide spectrum in water buffaloes during early lactation.",
+      "abstract": "Water buffaloes play an important role in dairy industry. However, in contrast to the distribution of bioactive molecules in milk from dairy cows, there are only a few studies available for bioactive components in water buffalo milk. This also includes the structure and distribution of milk oligosaccharides (MOs) during lactation. Since MOs support numerous beneficial processes in the offspring, we characterized in detail the structure and distribution of MOs in water buffaloes during lactation. To this end, we analyzed the MOs of colostrum, transitional and mature milk by HPLC and LC-MS applications. In colostrum, 55 sialylated MOs were present and 72 % of the total amount of sialic acids in milk was bound to MOs. Most of these sialylated MOs decreased during transition phase. Besides sialylated MOs, 33 neutral MOs were detected including fucosylated structures. As observed for the sialylated MOs also the amount of fucosylated structures decreased during lactation. In sum, we observed a higher structural diversity of bioactive MOs in water buffalo milk in comparison to Holstein-Friesian. Based on the results, the milk of water buffaloes might be an advantageous alternative for bovine milk, when considered for the production of infant formula and nutraceutical food supplements.",
+      "doi": "10.1016/j.carbpol.2025.123930",
+      "pii": "S0144-8617(25)00713-1",
+      "authors": [
+        "Lisa Isernhagen",
+        "Christina E Galuska",
+        "Andreas Hoeflich",
+        "Sebastian P Galuska"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817462",
+      "title": "Large-scale glycoproteome analysis reveals inverted distribution of Neu5Gc and Neu5Ac in mouse liver tissues and cell lines.",
+      "abstract": "Two common forms of sialic acid, Neu5Ac and Neu5Gc, are crucial components of mammalian glycosylation, with distinct roles in various biological processes. Despite their prevalence in mice, differences in their distribution between widely-used model systems, mouse liver tissues and cell lines, are rarely considered. In this study, we demonstrated a long-neglected phenomenon of an inversion of Neu5Gc and Neu5Ac levels between the two sample types by conducting N-glycoproteome analysis at intact glycopeptide level and independent validation assays. Additionally, we show that during the immortalization process of mouse primary liver cells, alterations in the CMAH gene drive a shift in Neu5Gc and Neu5Ac levels. These findings highlight the distinct expression patterns of the two sialic acid forms in both in vivo and in vitro models, cautioning researchers to consider the sample types when studying sialic acid biology.",
+      "doi": "10.1016/j.carbpol.2025.123910",
+      "pii": "S0144-8617(25)00693-9",
+      "authors": [
+        "Siyuan Kong",
+        "Mengxi Wu",
+        "Xinmeng Wang",
+        "Huanhuan Zhao",
+        "Xinwen Zhou",
+        "Guoquan Yan",
+        "Jun Yao",
+        "Weiqian Cao"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40817461",
+      "title": "Ultrasound-triggered injectable piezoelectric nanocomposite hyaluronic acid-based hydrogel for modulating inflammation and chondrogenesis in osteoarthritis treatment.",
+      "abstract": "Osteoarthritis (OA), a common chronic joint disorder, is characterized by cartilage degeneration and inflammation. Electrical stimulation has shown promise as a treatment modality for OA, providing pain relief and fostering cartilage regeneration. However, its clinical application still remains limited. To overcome these issues, our study introduces a novel piezoelectric nanocomposite hyaluronic acid (HA)-based hydrogel (PBT-Gel) tailored for straightforward injection into affected joints. The PBT-Gel is crafted through the coordination of ions (Gallium, Ga3+) with the carboxyl groups of HA, and incorporates piezoelectric barium titanate (BaTiO3) nanoparticles modified with polydopamine (PDA). This unique composition allows the hydrogel to produce localized electrical signals when exposed to ultrasound (US), which helps manage inflammation and promote chondrogenesis to alleviate OA progression. In vitro assessments have confirmed that PBT-Gel offers excellent biocompatibility and antioxidant capabilities. Further experiments demonstrated that, when combined with US, its anti-inflammatory effects through the repolarization of macrophages and its ability to enhance chondrogenesis by activating the TGF-β/Smad signaling pathway in bone marrow mesenchymal stem cells (BMSCs). Subsequent in vivo studies in OA rat models confirmed that PBT-Gel with US effectively reduces cartilage degradation and synovitis. Together, these findings highlight the significant clinical potential of this US-triggered piezoelectric hydrogel as a novel therapeutic approach for managing OA.",
+      "doi": "10.1016/j.carbpol.2025.123909",
+      "pii": "S0144-8617(25)00692-7",
+      "authors": [
+        "Juntao Lin",
+        "Shaobing Li",
+        "Yimeng Peng",
+        "Chongyin Qiu",
+        "Mingzhao Yang",
+        "Jiayi Guo",
+        "Bo Yu",
+        "Yan Chen"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Nov-01",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40733854",
+      "title": "A robust method for quantitative detection of β-1,3-glucan using Limulus polyphemus factor Gα fragment.",
+      "abstract": "β-1,3-glucan is an important glycan in the cell wall of most fungi and plants. Accurate detection of β-1,3-glucans is essential for their use in the food and pharmaceutical industries. Here, we developed a robust method to detect β-1,3-glucan using Limulus polyphemus factor Gα (LFGα) fragments. Five β-1,3-glucans with various degrees of branching were extracted from various edible mushrooms and structurally characterized. Their binding affinities to truncated LFGα variants (Q + D1 + D2, D1 + D2, D1, D2) were evaluated using the ELISA assay. LFGα fragment Q + D1 + D2 exhibited the highest affinity toward all β-1,3-glucans regardless of the degree of branching, whereas fragments D1 + D2, D1, and D2 had reduced affinities as the degree of branching increased. AlphaFold-predicted models and molecular docking supported these findings. The branching-insensitive binding with Q + D1 + D2 enabled us to accurately quantify the amount of β-1,3-glucan using a Q + D1 + D2-based ELISA assay. A standard curve was established using commercial curdlan, and quantitative detection of five mushroom β-1,3-glucans was in agreement with their actual glucan content. Our results demonstrate that the Q + D1 + D2-based ELISA assay can be developed as an efficient method for quantitative detection of β-1,3-glucans.",
+      "doi": "10.1016/j.carbpol.2025.124060",
+      "pii": "S0144-8617(25)00845-8",
+      "authors": [
+        "Andong Zhou",
+        "Yitong Li",
+        "Yuanning Wang",
+        "Yibing Wang",
+        "Zhonghui Qiao",
+        "Kevin H Mayo",
+        "Zihan Zhao",
+        "Lin Sun"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Oct-15",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40733853",
+      "title": "Structural characterization and protective effects of a glucuronogalactomannan from Tetrastigma hemsleyanum against diabetic retinopathy via targeting ferroptosis pathway.",
+      "abstract": "A novel polysaccharide, THPE2-F, with an average molecular weight of 480.75 kDa, was isolated and characterized from the roots of Tetrastigma hemsleyanum Diels et Gilg. Extensive structural analyses revealed that THPE2-F is a GlcA-Gal-Man polymer. Its main chain is composed of →4)-β-D-GlcpA-(1→ and →2)-α-D-Manp-(1→ linkages. THPE2-F mainly consists of galactose, mannose, and glucuronic acid residues. The glycosidic linkages of THPE2-F were elucidated via methylation analysis and further corroborated by nuclear magnetic resonance (NMR) spectroscopy. In vitro, THPE2-F significantly decreased the levels of malondialdehyde (MDA) and reactive oxygen species (ROS), and enhanced cell viability at a concentration of 100 μg/mL. Additionally, treatment with THPE2-F downregulated the expression of NCOA4, thereby uncovering a molecular mechanism responsible for its protective effects. Biochemical analyses indicated that THPE2-F restored glutathione (GSH) levels under hyperglycemic conditions and regulated iron levels, subsequently affecting the expression of ferroptosis-related proteins, including COX2, NOX1, FACL4 and NCOA4. In vivo studies further validated these findings, as THPE2-F provided substantial protection against retinal damage in a diabetic retinopathy (DR) mouse model. Collectively, these results suggest that THPE2-F has potential as a therapeutic agent for diabetic retinopathy by targeting ferroptosis pathways.",
+      "doi": "10.1016/j.carbpol.2025.124059",
+      "pii": "S0144-8617(25)00844-6",
+      "authors": [
+        "Jie Zhou",
+        "Xiyu Mei",
+        "Lianghui Zhan",
+        "Xia Liu",
+        "Bin Wang",
+        "Baisheng Xu",
+        "Xuechun Jiang"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Oct-15",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40733852",
+      "title": "Phosphorylated sodium alginate-filled delignified wood-reinforced transparent wood: Crafting flame-retardant composites.",
+      "abstract": "Transparent wood (TW), an emerging sustainable material with high optical transmittance and mechanical strength, is hindered by the inherent flammability of its cellulose-lignin matrix, posing fire risks. To address this, we developed an eco-friendly flame-retardant TW by integrating phosphorylated sodium alginate (PSA)-filled delignified wood with polyurethane acrylic resin (PUA). Delignified balsa wood was freeze-dried into a porous structure, functionalized with PSA, and reinforced with UV-cured PUA. Structural characterization confirmed uniform PSA coating on delignified wood channels, introducing phosphorus groups that enhanced thermal stability and flame retardancy. Combustion tests revealed self-extinguishing behavior in PSA-modified delignified woods, reducing peak heat release rate (pHRR) by 67 % and total heat release (THR) by 80 % versus delignified wood. The final PUA/wood-PSA3 composite demonstrated a 27 % pHRR reduction and 47 % lower THR compared to pure PUA, alongside 61 % less smoke emission. Optical transmittance of composites decreased moderately due to PSA's light absorption, while tensile strengths of PUA/wood composites surged to 30 MPa owing to the aligned cellulose scaffold. The flame-retardant mechanisms were investigated using characterization of the char residue and molecular dynamics simulations. These methods demonstrated the effectiveness of phosphorus-induced char formation and radical quenching in enhancing fire safety while preserving essential material properties.",
+      "doi": "10.1016/j.carbpol.2025.124021",
+      "pii": "S0144-8617(25)00805-7",
+      "authors": [
+        "Mingjie Guo",
+        "Ying Pan",
+        "Shengjun Xu",
+        "Wei Wang",
+        "Yan Zhang",
+        "Shaodan Xu",
+        "Dihua Wu",
+        "Dong Zhang",
+        "Suling Zhang",
+        "Ting Lü",
+        "Hongting Zhao"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Oct-15",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40733850",
+      "title": "Inhibition of starch on the formation of free and protein-bound heterocyclic aromatic amines in roasted beef patties and the underlying mechanism.",
+      "abstract": "This study examined how starch influences the formation of free and bound heterocyclic aromatic amines (HAAs) in roasted beef patties and chemical model systems. Corn, potato, and cassava starch increased glucose, creatine, creatinine, and total free amino acid levels in the roasted beef patties while reducing serine content (P < 0.05). The corn, potato, and cassava starch increased glucose and creatinine (P < 0.05), but did not affect creatine levels (P > 0.05). The corn starch was the most effective inhibitor of HAAs compared to potato and cassava starch, with the inhibitory rates of total free HAAs and bound HAAs in the roasted beef patties were 23.38 % and 22.42 %, respectively. The corn starch inhibited the formation of total free HAAs and bound HAAs in the chemical model systems by 55.37 % and 14.68 %, respectively. Mechanistic analysis revealed that the starch inhibited the free HAA generation by trapping 1,2,3,4-tetrahydro-β-carboline-3-carboxylic acid and 1-methyl-1,2,3,4-tetrahydro-β-carboline-3-carboxylic acid. Molecular docking revealed that the amylopectin of starch competed for binding sites of myosin with glucose (SER-1751 and GLU-1750) and creatine (SER-1751), thus limiting the protein-bound HAA formation. These findings suggest that starch addition could be a viable strategy to mitigate free and bound HAAs in roasted meat products.",
+      "doi": "10.1016/j.carbpol.2025.123936",
+      "pii": "S0144-8617(25)00719-2",
+      "authors": [
+        "Guanhua Li",
+        "Xiurong Zheng",
+        "Rongxin Wen",
+        "Xinxin Zhao",
+        "Yingying Hu",
+        "Lang Zhang"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Oct-15",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40733849",
+      "title": "Sandwich-structured cellulose acetate dielectric films toward high-temperature energy storage application.",
+      "abstract": "Common sandwich-structured dielectric films are typically confined to comparatively low operating temperatures because of the significant conduction loss of polymer under high thermal stress that originated from the relatively weak interfacial interaction between adjacent layers. Here, all-organic sandwich-structured dielectric films were fabricated based on cellulose acetate (CA) and poly(methyl methacrylate) (PMMA) by solution casting method. Specifically, CA with high dielectric constant was designed as the intermediate polarizing layer, while PMMA with good insulation property was taken for the breakdown-resistant out layers. The good interlayer interaction endows the sandwich-structured films with a dense structure, while the difference in interlayer conductivity effectively suppresses electric field distortion. Consequently, the maximal discharge energy density (Ud) of M-CA4-M composite film reaches 6.64 J/cm3 (i.e., 223 % of pure CA) at 752.66 MV/m, along with an excellent charge-discharge efficiency (η) of 83.45 %. Importantly, the composite film also displays prominent capacitive performance still at 150 °C, with Ud of 4.72 J/cm3 and η of 76.65 % at 644.92 MV/m, which are much better than the commercially available dielectric films. This work illustrates the possible application of CA-based dielectric films in high-temperature energy storage field.",
+      "doi": "10.1016/j.carbpol.2025.123934",
+      "pii": "S0144-8617(25)00717-9",
+      "authors": [
+        "Fan Zhang",
+        "Xin Li",
+        "Zhi-Yuan Lan",
+        "Nan Zhang",
+        "Jing-Hui Yang",
+        "Yong Wang"
+      ],
+      "journal": "Carbohydrate polymers",
+      "pubdate": "2025-Oct-15",
+      "pubtypes": [
+        "Journal Article"
+      ]
+    }
+  ]
+}
