@@ -1,0 +1,227 @@
+{
+  "run_timestamp_utc": "2026-09-18T21:56:00Z",
+  "target_count": 20,
+  "collected_count": 28,
+  "final_eligible_count": 3,
+  "selected_count": 3,
+  "collection_method": {
+    "primary": "Elsevier Scopus Search API (api.elsevier.com/content/search/scopus), query 'ISSN(0144-8617) AND DOCTYPE(ar)', sort=-coverDate, paginated start=0..775 (800 records fetched, spanning coverDate 2026-11-01 down to 2026-02-01, ~9 months) and cross-checked against state/seen_articles.json (3121 entries at run start).",
+    "secondary": "PubMed E-utilities ESearch/EFetch (db=pubmed, term='Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt]'), datetype=pdat, reldate=30 (112 hits) and reldate=90 (351 hits) -- both windows yielded 0 new articles vs seen_articles.json, confirming PubMed indexing lags behind Scopus for this journal's most recent (2026-11-01, Vol 391) issue",
+    "elsevier_scidir_search_api": "api.elsevier.com/content/search/scidir returned HTTP 410 Gone (endpoint deprecated/retired); Scopus Search API used instead and worked (HTTP 200)",
+    "elsevier_abstract_retrieval_api": "ELSEVIER_API_KEY present and authorized for STANDARD view (title/authors/dates/DOI/subtype), but dc:description (abstract text) field is absent from all responses; view=FULL returns HTTP 401 AUTHORIZATION_ERROR (insufficient entitlement for abstract text) -- same limitation as prior runs",
+    "abstract_fallback_attempts": "Crossref API (api.crossref.org/works), OpenAlex API (api.openalex.org, abstract_inverted_index), Semantic Scholar Graph API (api.semanticscholar.org) all queried by DOI -- none returned abstract text for the 3 candidates. ScienceDirect article pages and an SSRN preprint mirror (10.2139/ssrn.7133996, linked as green OA for one candidate) both returned HTTP 403 Forbidden via WebFetch. WebSearch was also used per-title and found no accessible abstract text.",
+    "review_exclusion": "15 candidates excluded as reviews after cross-checking PubMed PublicationType (confirmed 'Review' via EFetch for 13 of 15 that were PubMed-indexed) plus judgment on unmistakable review-style titles ('Recent progress/advances in...', 'Emerging trends in...', 'X: Design principles and emerging applications', 'From X to Y: Lessons from...') for the remainder. This shows Scopus DOCTYPE(ar) alone is NOT a reliable review filter for this journal -- many reviews are tagged 'Article' subtype in Scopus but 'Review' in PubMed -- so PubMed PublicationType was used as the authoritative cross-check wherever the article was PubMed-indexed. Of the 15, 14 were already present in the pre-run seen_articles.json from prior daily runs; only 1 (10.1016/j.carbpol.2025.124969) was a genuine gap that had never been recorded and is backfilled by this run.",
+    "microbe_centric_exclusion": "10 candidates excluded as microbe-centric: bacterial/fungal O-antigen or LPS serotyping (Proteus mirabilis, Plesiomonas shigelloides), bacterial/fungal strain engineering or metabolic-pathway biosynthesis studies for polysaccharide production (microbial alginate, Bacillus smithii exopolysaccharide, E. coli glycoconjugate vaccine, lactobacilli cell-wall polysaccharide secretion, chondroitin bioprocess engineering, Sinorhizobium galactoglucan, bacterial glucan synthase PilZ domain mutations), and fungal cell-wall biophysics (Aspergillus atacamensis). All 10 were already present in the pre-run seen_articles.json, confirming they had been correctly excluded and recorded by prior daily runs.",
+    "date_range_widening": "Scopus pagination was extended in two stages (start 0-475 then 500-775) spanning coverDate 2026-11-01 down to 2026-02-01 (~9 months back), well beyond the 90-day PubMed check. Yield of NEW ELIGIBLE (non-seen, non-review, non-microbe) articles did not improve with the wider window: the first ~4 months (Nov 2026 - May 2026) yielded the only 3 new eligible articles, while the additional ~5 months back (May 2026 - Feb 2026) yielded 13 more raw non-seen candidates but ALL were reviews or microbe-centric (and 12 of 13 were in fact already recorded as seen from prior runs -- they only reappeared because this run's dedup check used a fresh Scopus pull rather than trusting the prior exclusion). Given this clearly diminishing/negative marginal yield, further widening toward the instructed 2-year ceiling was judged unlikely to add eligible items and was not pursued further.",
+    "final_note": "Only 3 new ELIGIBLE articles were found today (target: 20), out of 28 raw non-seen candidates identified via Scopus. The other 25 were excluded (10 microbe-centric, 15 review-style); 24 of those 25 were already correctly recorded as seen from prior daily runs (validating this run's exclusion logic), and 1 genuine gap was backfilled. This is expected for a mature daily-run routine: 3121 articles from this journal were already committed as 'seen' at the start of this run, and today's genuinely new items are limited.",
+    "abstract_data_caveat": "None of the 3 articles' abstract text could be retrieved from any accessible source (Elsevier API entitlement gap, Crossref/OpenAlex/Semantic Scholar all empty, ScienceDirect/SSRN blocked with 403). Per the language rule, English abstracts are never copied verbatim; since no abstract text was available at all, the Korean summaries below are based on the article titles and general domain knowledge only, and this limitation is explicitly disclosed in both the summaries and the PDF report.",
+    "scopus_candidate_yield": "28 DOI-unique, non-seen, DOCTYPE(ar) candidates found across the 800-record window"
+  },
+  "focus_keywords": [
+    "paper",
+    "cellulose",
+    "pectin",
+    "hydrogel",
+    "okara",
+    "paper coating",
+    "biomass",
+    "soybean protein isolate"
+  ],
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125829",
+      "pii": "S014486172600946X",
+      "title": "Janus CMC-based hydrogel with multifunctional synergy for hemostasis and wound healing",
+      "authors": [
+        "Xiao Long",
+        "Cai Long",
+        "Xue Yu",
+        "Yi-Li Dong",
+        "Zi-Qi Liu",
+        "Ke Liu",
+        "Xin-Lei Lu",
+        "Jia-Lin Yang",
+        "Yong-Quan Qing",
+        "Yun-Li Zhao",
+        "Miao Yu"
+      ],
+      "pubdate": "2026-11-01 (Volume 391)",
+      "focus": true,
+      "focus_keywords_matched": [
+        "hydrogel"
+      ],
+      "abstract_available": false,
+      "summary_ko": "카르복시메틸셀룰로오스(CMC) 기반의 야누스(Janus, 비대칭 이중구조) 하이드로겔을 설계하여 지혈과 창상 치유 기능을 하나의 소재에서 동시에 구현하고자 한 연구이다. 하이드로겔의 양면에 서로 다른 기능을 부여해 다기능 시너지를 이끌어내는 전략을 취하고 있으나, 초록 원문을 확보하지 못해 구체적 특성평가 결과(예: 지혈 시간, 기계적 물성 등)는 본 리포트에 포함하지 못했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125830",
+      "pii": "S0144861726009471",
+      "title": "Pore-filling engineering of all-biomass cellulose/thymol films via solvent-induced phase inversion for moisture-barrier and antibacterial fruit preservation",
+      "authors": [
+        "Zhong-Kai Zhou",
+        "Li-Jun Li",
+        "Beisiyu He",
+        "Qian Guo",
+        "Ying Zhu",
+        "Si-Yuan Liu"
+      ],
+      "pubdate": "2026-11-01 (Volume 391)",
+      "focus": true,
+      "focus_keywords_matched": [
+        "cellulose",
+        "biomass"
+      ],
+      "abstract_available": false,
+      "summary_ko": "전량 바이오매스 유래 셀룰로오스와 천연 항균 성분인 티몰(thymol)을 이용해 용매유도 상분리 (solvent-induced phase inversion) 공정으로 필름 내부의 기공 구조를 채우는(pore-filling) 방식으로 제어하여, 수분 차단성과 항균성을 동시에 갖춘 과일 신선도 유지용 포장 필름을 개발한 연구로 판단된다. 다만 초록 원문을 확보하지 못해 구체적 물성 수치는 확인하지 못했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125843",
+      "pii": "S0144861726009604",
+      "title": "Novel pyrimidine nucleoside - chitosan - silybin micelles for improving the oral absorption of doxorubicin via intestinal nucleoside transporter",
+      "authors": [
+        "Yang-Yi Chen",
+        "Yue Wei",
+        "Qiao-Lian Li",
+        "Hua He",
+        "Hui Chen",
+        "Hua-Jing Zhang",
+        "Xiao-Qing Rong",
+        "Xiao Liang",
+        "Shi-Yuan Lin",
+        "Wei Zhang"
+      ],
+      "pubdate": "2026-11-01 (Volume 391)",
+      "focus": false,
+      "focus_keywords_matched": [],
+      "abstract_available": false,
+      "summary_ko": "피리미딘 뉴클레오시드를 키토산에 화학적으로 접합하고 천연물 유래 성분인 실리빈(silybin)을 결합한 새로운 고분자 마이셀 전달체를 설계하여, 장내 뉴클레오시드 수송체를 매개로 하는 경구 흡수 경로를 통해 항암제 독소루비신의 경구 생체이용률을 높이고자 한 약물전달 연구로 판단된다. 초록 원문을 확보하지 못해 구체적 흡수율 등 정량적 결과는 본 리포트에 포함하지 못했다."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125733",
+      "title": "O-acetyl groups shape the serological specificity and division of phosphodiester-containing Proteus mirabilis O48 O-antigens into subgroups",
+      "reason": "microbe-centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125767",
+      "title": "Lipopolysaccharide of Plesiomonas shigelloides O68:H2 (CNCTC 138/92)",
+      "reason": "microbe-centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125331",
+      "title": "Polysaccharide-derived \"soil\": Constructing multidimensional fluorescent materials",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125273",
+      "title": "Bletilla striata polysaccharide as a dual-hit biologic",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125209",
+      "title": "Sustainable polysaccharide-based adsorbents for PFAS removal",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125141",
+      "title": "Gum Arabic-based Pickering emulsions",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125164",
+      "title": "Genetic and bioprocess engineering strategies for microbial alginate production",
+      "reason": "microbe-centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125147",
+      "title": "From nature to clinic: Lessons from successfully marketed polysaccharide drugs",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125182",
+      "title": "From formulation proxies to control variables: HMP gelation framework",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125157",
+      "title": "Chaotropic ions reshape the cell wall of the obligate halophile aspergillus atacamensis",
+      "reason": "microbe-centric (fungal)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125044",
+      "title": "Zooming in on methylation of homogalacturonan pectins",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125129",
+      "title": "Elucidating the metabolic network and pH-dependent biosynthesis of bioactive exopolysaccharides in Bacillus smithii",
+      "reason": "microbe-centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125019",
+      "title": "Starch as a designable platform for oral drug delivery",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125076",
+      "title": "Mutations in PilZ domains of bacterial beta-(1,3;1,4)-mixed linkage glucan synthases",
+      "reason": "microbe-centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125009",
+      "title": "Engineering Escherichia coli to biosynthesize O-polysaccharide-derived recombinant Glycoconjugate vaccine",
+      "reason": "microbe-centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125030",
+      "title": "Switching cell wall-bound polysaccharides to secreted polysaccharides in lactobacilli",
+      "reason": "microbe-centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125003",
+      "title": "Recent progress in cellulose-based flexible thermoelectric devices",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124969",
+      "title": "Recent advances in redox-responsive polysaccharide-based nanostructures for cancer therapy",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.124946",
+      "title": "Engineering compartmentalized utilization of glycerol with glucose for high-level chondroitin production",
+      "reason": "microbe-centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.124900",
+      "title": "Structure-guided modulatory mechanisms of pectic polysaccharides in inflammatory bowel disease",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.124891",
+      "title": "Unraveling the biosynthesis and regulation mechanism of bacterial cellulose",
+      "reason": "microbe-centric + review"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124707",
+      "title": "Emerging trends in polysaccharide-based smart PEGylated hydrogels",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124718",
+      "title": "Production and functional characterization of an extracellular galactoglucan G2 secreted by Sinorhizobium sp.",
+      "reason": "microbe-centric"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124648",
+      "title": "Advanced functionalization strategies of chitin and chitosan toward sustainable nanocomposites",
+      "reason": "review (PubMed-confirmed)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.124655",
+      "title": "Preparation, performance and application - Current status and trends in thermoplastic starch",
+      "reason": "review (PubMed-confirmed)"
+    }
+  ]
+}
