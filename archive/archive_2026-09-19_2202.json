@@ -1,0 +1,559 @@
+{
+  "run_timestamp_utc": "2026-09-19T22:02:00Z",
+  "target_count": 20,
+  "collected_count": 456,
+  "final_eligible_count": 20,
+  "selected_count": 20,
+  "collection_method": {
+    "primary": "Elsevier Scopus Search API (api.elsevier.com/content/search/scopus), query 'ISSN(0144-8617) AND DOCTYPE(ar)', sort=-coverDate, paginated start=0..1725 (1750 records fetched via curl with X-ELS-APIKey header, all HTTP 200), spanning coverDate 2025-04-01 up to 2026-11-01 (~19 months) and cross-checked against state/seen_articles.json (3125 entries at run start).",
+    "elsevier_scidir_search_api": "api.elsevier.com/content/search/scidir was not attempted this run (confirmed deprecated/HTTP 410 in prior runs); Scopus Search API used directly instead and worked (HTTP 200 on all 70 paginated requests).",
+    "elsevier_abstract_retrieval_api": "ELSEVIER_API_KEY present and authorized for STANDARD view (title, first/corresponding author only, dates, DOI, PII, PubMed ID, volume, subtype). dc:description (abstract text) absent from STANDARD view responses; view=FULL returns HTTP 401 AUTHORIZATION_ERROR (insufficient entitlement) -- same limitation as all prior runs. Full-text article API (content/article/pii/...) returns HTTP 403 AUTHENTICATION_ERROR.",
+    "author_and_abstract_supplement": "STANDARD view's abstract-retrieval-response only exposes the first/corresponding author (dc:creator), not the full author list. The PubMed ID returned in coredata was used to batch-fetch full records via PubMed EFetch (db=pubmed, retmode=xml) for all 20 selected articles, which supplied complete author lists, PublicationType (used to reconfirm none are Review), and full English abstracts. Per the language rule, these English abstracts were read for understanding only; the Korean summaries in this report and archive were newly composed in Korean and do not copy or excerpt the English abstract text.",
+    "abstract_fallback_attempts_elsevier": "Crossref API (api.crossref.org/works) and OpenAlex API (api.openalex.org) were also queried by DOI as a cross-check; neither returned usable abstract text (Crossref: no 'abstract' field; OpenAlex: 'abstract_inverted_index' key present but null) for the sampled DOI, consistent with prior runs' finding that Elsevier does not expose abstracts to these downstream aggregators. PubMed EFetch (see above) was the only source that yielded full abstracts.",
+    "review_exclusion": "All 20 selected articles were confirmed as PublicationType=['Journal Article'] (no 'Review') via PubMed EFetch. No review-style titles were found among the top ~60 most-recent raw candidates screened (regex check for 'review', 'systematic review', 'mini-review', 'recent progress/advances', 'emerging trends', etc. matched zero titles in that window).",
+    "microbe_centric_exclusion": "6 candidates were excluded as microbe-centric from the same top-60 window screened for selection, following the rule that a polysaccharide/biopolymer extracted from or delivered alongside a microorganism (e.g. a fungal-source antitumor polysaccharide, a probiotic encapsulated in a polysaccharide carrier) is KEPT if the polysaccharide's structure/bioactivity is the core subject, while a paper centered on the microorganism's own physiology, strain engineering/mutagenesis, culture/fermentation optimization, or genetically-engineered production process is EXCLUDED. Excluded: bacterial stress-response mechanism study (Bacteroides), genetically-modified E. coli vaccine production platform, Lactobacillus proliferation/carbon-catabolite-repression mechanism, Streptococcus pneumoniae fermentation-media optimization, Ganoderma lucidum strain space-mutagenesis, and Klebsiella pneumoniae bioprocess purification method. By contrast, papers on fungal- or bacterial-sourced polysaccharides characterized for structure/antitumor or immunomodulatory activity (e.g. Ganoderma sinense GSP70-2), and polysaccharide-based encapsulation/delivery systems whose cargo happens to be a probiotic or biopesticide organism, were judged polysaccharide-centric and kept eligible (one such case, the Ganoderma sinense antitumor polysaccharide, was ultimately selected into the final 20).",
+    "date_range_widening": "The first 500 records (covering coverDate 2026-11-01 down to 2026-05-15, ~5.5 months) yielded ZERO new (non-seen) candidates -- confirming this journal's most recent issues have already been fully captured by prior daily runs. Pagination was widened in stages (500->1000->1750 records) to cover progressively further back; the window from 1000 to 1750 records (coverDate 2025-12-15 down to 2025-04-01, i.e. roughly 5-11 months before this run) suddenly surfaced 456 new (non-seen) candidates, revealing that this ~7-month historical slice (roughly Apr-Nov 2025) had never been reached by any prior daily run's pagination depth (prior runs' widening logic stopped once marginal yield within their probed window diminished, without exhaustively covering the full 2-year ceiling). Given that 456 candidates vastly exceeded the 20-article target, pagination was not extended further toward the 2-year ceiling this run.",
+    "final_note": "20 new ELIGIBLE articles were selected out of 456 raw non-seen candidates (from the newest end of that pool, coverDate 2025-10-15 to 2025-11-01, plus two supplementary picks from 2025-09-xx/2025-08-xx to ensure pectin/cellulose/biomass focus-keyword coverage). The remaining ~430+ un-triaged candidates further back in the 2025-04-01 to 2025-10-14 range were NOT screened this run (target of 20 was already met from the newest slice); they remain available as a large backlog for future daily runs to continue backfilling gradually, screening for review/microbe-centric exclusions as before.",
+    "focus_keyword_coverage": "Of the 8 focus keywords (paper, cellulose, pectin, hydrogel, okara, paper coating, biomass, soybean protein isolate), this run's 456-candidate pool contained: cellulose (142 title matches), hydrogel (75), pectin (19), paper (4), biomass (3), and zero matches for okara, paper coating, and soybean protein isolate. The final 20 selection includes 8 focus-keyword articles: hydrogel x4, cellulose x4 (2 overlapping with hydrogel), pectin x1, biomass x1 (overlapping with cellulose)."
+  },
+  "focus_keywords": [
+    "paper",
+    "cellulose",
+    "pectin",
+    "hydrogel",
+    "okara",
+    "paper coating",
+    "biomass",
+    "soybean protein isolate"
+  ],
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2025.123805",
+      "pii": "S0144861725005880",
+      "title": "Normal-pressure-prepared chitosan carbonate liquid dressing: Spontaneous transformation into a pure chitosan water-resistant film and enhanced wound repair",
+      "authors": [
+        "Yuanzhu Long",
+        "Xingxing Liu",
+        "Fengxiang Huang",
+        "Lu Peng",
+        "Yingqian Duan",
+        "Guohui Bai",
+        "Zhaoqiong Zhu",
+        "Diansan Su"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733769",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "기존 키토산 액상 드레싱이 아세트산 용해 과정에서 생체적합성과 방수성 사이의 상충 문제를 겪는 점을 해결하기 위해, 탄산암모늄을 이용한 상압 합성법으로 순수 키토산 카보네이트 액상 드레싱을 개발한 연구이다. 건조 시 자발적으로 방수성 필름(물 접촉각 99.4도)으로 전환되며, 전층 창상 동물모델에서 10일 내 모낭 재생까지 유도하는 등 상용 제품(3M Cavilon) 대비 우수한 창상 치유 효과를 보였다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123808",
+      "pii": "S0144861725005910",
+      "title": "Redox-responsive core-cross-linked micelles of miktoarm maltoheptaose-b-poly(furfuryl methacrylate) for enhanced anticancer drug delivery",
+      "authors": [
+        "Byeong Kook Kim",
+        "Parveen Kumar",
+        "Sonyabapu Yadav",
+        "Sung-Han Jo",
+        "Seon-Hwa Kim",
+        "Hongsik Cho",
+        "Sang-Hyug Park",
+        "Kwon Taek Lim"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733771",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "말토헵타오스 올리고당을 기반으로 한 A2B형 미크타암 블록공중합체를 클릭화학으로 합성하고, 이황화 및 디셀레나이드 가교제로 코어를 가교시켜 환원반응성 항암 약물전달 마이셀을 제조한 연구이다. 디셀레나이드 가교 마이셀(Se-Se/CCL)이 종양 부위에 선택적으로 축적되어 기존 유리 독소루비신 및 비가교 마이셀보다 우수한 종양 성장 억제 효과를 나타냈다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123817",
+      "pii": "S0144861725006009",
+      "title": "Development of active double-layer film from sunflower by-products: A pectin-based system for chicken freshness monitoring and preservation",
+      "authors": [
+        "Mahsa Darkak",
+        "Ainaz Alizadeh",
+        "Leila Roufegarinejad",
+        "Hamed Hamishehkar"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733774",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "focus": true,
+      "focus_keywords_matched": [
+        "pectin"
+      ],
+      "summary_ko": "해바라기 부산물을 활용해 해바라기 머리에서 추출한 펙틴과 젤라틴을 외층으로, 제인(zein) 전기방사 나노섬유를 내층으로 하는 이중층 활성필름을 개발한 연구이다. 자color성 해바라기 씨껍질 안토시아닌을 펙틴/젤라틴층에, 해바라기 꽃 에센셜 오일을 제인 나노섬유층에 각각 담지하여 pH 변화(2~12)에 따른 색 반응성과 대장균·황색포도상구균에 대한 항균성을 동시에 구현했으며, SEM·FT-IR·XRD·DSC로 구조를 검증한 뒤 닭가슴살 포장 실험에서 4도 보관 시 신선도를 12일까지 연장하고 부패를 시각적으로 모니터링할 수 있음을 입증했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123825",
+      "pii": "S0144861725006083",
+      "title": "CNT@CNF/MXene hydrogel with complete conductive network for flexible anti-freeze sensor and electromagnetic shielding",
+      "authors": [
+        "Haofei Sima",
+        "Bo Liu",
+        "Xiaolin Shi",
+        "Chunling Zhang"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733779",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "focus": true,
+      "focus_keywords_matched": [
+        "hydrogel",
+        "cellulose"
+      ],
+      "summary_ko": "탄소나노튜브와 셀룰로스나노섬유(CNF)를 자기조립시켜 도전성 섬유를 형성하고, 이를 2차원 MXene 나노시트와 아연이온 배위결합으로 가교하여 완전한 도전 네트워크를 갖춘 아크릴아마이드 기반 복합 하이드로겔을 제작한 연구이다. 이 하이드로겔은 9.64 S/m의 우수한 전기전도성과 약 424%의 신축성, 87.2%의 자가치유 능력, 영하 60도 이하에서도 동결되지 않는 항동결 특성, 51.8 dB의 전자파 차폐효율을 동시에 보여, 유연 변형 센서와 전자파 차폐 소재를 겸한 다기능 웨어러블 전자소재로서의 활용 가능성을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123838",
+      "pii": "S0144861725006216",
+      "title": "Structural feature and antitumor activity of a N-acetylglucosamine containing polysaccharide from Ganoderma sinense",
+      "authors": [
+        "Mingxiao Feng",
+        "Fangcheng Fu",
+        "Minzhen Lei",
+        "Wenyu Luo",
+        "Yifan Su",
+        "Yikun Xie",
+        "Qianyu Wang",
+        "Dawei Zhang",
+        "Qian Yu",
+        "Chunyan Yan"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733790",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "한약재로 쓰이는 자지수령버섯(Ganoderma sinense) 추출 다당류 중 항암 효과가 가장 우수한 분획(GS70)에서 저분자 다당류 GSP70-2(6.4 kDa)를 분리하고, 메틸화 분석과 NMR을 통해 글루코스·만노스·N-아세틸글루코사민으로 구성된 주쇄 구조를 규명한 연구이다. 4T1 유방암 마우스 모델에서 이 다당류가 PI3K/AKT 경로를 통한 미토콘드리아막 전위 저하와 세포자살(apoptosis) 유도를 통해 종양 성장을 억제함을 확인해, 유방암 치료용 천연물 후보로서의 가능성을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123839",
+      "pii": "S0144861725006228",
+      "title": "High-strength cellulose separator with high porosity inhibited irregular Zn dendrite for zinc-ion hybrid supercapacitors",
+      "authors": [
+        "Siyu Du",
+        "Haocun Huang",
+        "Xiaoyu Huang",
+        "Kexin Sun",
+        "Yanglei Xu",
+        "Feng Xu"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733791",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "focus": true,
+      "focus_keywords_matched": [
+        "cellulose"
+      ],
+      "summary_ko": "재생 셀룰로스와 폴리불화비닐리덴(PVDF)을 수소결합으로 블렌딩하여 아연이온 하이브리드 슈퍼커패시터용 고강도·고다공성 분리막(CEL/PVDF)을 개발한 연구이다. 이 분리막은 순수 셀룰로스 분리막 대비 약 3배 높은 73.5MPa의 인장강도와 평균 20.09nm의 계층적 기공구조를 가지며, 표면의 음전하가 아연이온의 불균일한 증착(덴드라이트)을 억제해 7000회 충방전 후에도 99.9% 이상의 쿨롱효율과 89%의 용량유지율을 달성했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123864",
+      "pii": "S0144861725006472",
+      "title": "Complexation-driven 3D printable whey protein-lotus root composite gels for dysphagia foods",
+      "authors": [
+        "Jinfeng Wang",
+        "Xueyu Jiang",
+        "Houze Gan",
+        "Siyu Li",
+        "Kaidi Peng",
+        "Ying Sun",
+        "Ming Ma",
+        "Yang Yi"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733797",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "연하곤란(dysphagia) 환자를 위한 3D 프린팅 식품 개발을 목표로, 연근 전분 분말에 유청단백질(whey protein)을 첨가하여 인쇄 정밀도와 겔 물성을 함께 개선한 연구이다. 유청단백질이 전분의 분자간 가교를 줄이고 미세다공성 네트워크를 형성해 겔의 탄성과 보습력을 높였으며, 단백질의 알파-헬릭스에서 베타-시트로의 구조전환과 이황화결합을 통해 전분-단백질 복합매트릭스를 강화하여 93% 이상의 인쇄 정확도를 달성했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123865",
+      "pii": "S0144861725006484",
+      "title": "Structure-stabilizing effect of glycerol on amylose promotes the formation of V-type starch with controlled digestibility",
+      "authors": [
+        "Zhijie Zhu",
+        "Yiping Yu",
+        "Zijun Yu",
+        "Yang Xu",
+        "Xianfeng Du",
+        "Xu Chen"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733798",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "아밀로스를 물이 아닌 글리세롤 매질에서 호화시켜 V형 전분을 제조하고, DSC와 분자동역학 시뮬레이션을 통해 글리세롤이 수소결합과 반데르발스 상호작용으로 아밀로스의 나선구조를 안정화함을 규명한 연구이다. 글리세롤 매질에서 제조한 V형 전분은 결정성이 약 29% 증가하고 저항전분 함량이 순수 물 대비 약 25% 더 높게 나타나 소화율 제어 소재로서의 가능성을 보였다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123870",
+      "pii": "S0144861725006538",
+      "title": "Sodium alginate/carboxymethyl chitosan/gelatin-naringenin pH-responsive hydrogel beads for oral delivery of traditional Chinese herbal medicines",
+      "authors": [
+        "Zixing Yan",
+        "Qingling Nie",
+        "Jiajia Liu",
+        "Jingxin Chen",
+        "Youmei Liu",
+        "Yudong Lu",
+        "Mengjun Xu",
+        "Zhenwen Lin"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733802",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "focus": true,
+      "focus_keywords_matched": [
+        "hydrogel"
+      ],
+      "summary_ko": "알긴산나트륨·카복시메틸키토산·나린제닌이 결합된 젤라틴으로 구성된 pH 반응성 복합 하이드로겔 비드를 설계하여, 반감기가 짧은 한약재 전탕액을 위장관에서 지속적으로 방출시키는 경구 전달체를 개발한 연구이다. 이 하이드로겔 비드는 98.33%의 높은 점착 유지율과 약물담지력을 보였으며, 인공위액에서는 2시간 내 39%, 인공장액에서는 이후 23시간에 걸쳐 나머지 61%가 방출되는 pH 의존적 서방출 거동과 93.4% 이상의 항균효능, 97.21% 이상의 세포생존율(생체안전성)을 확인해 위장관 질환 치료를 위한 안전한 서방형 전달 플랫폼으로서의 가능성을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123879",
+      "pii": "S0144861725006629",
+      "title": "Gelation of κ-carrageenan in water-in-water emulsions",
+      "authors": [
+        "Navya Mary Jose",
+        "Taco Nicolai",
+        "Frédéric Renou",
+        "Lazhar Benyahia"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733809",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "카파-카라기난과 덱스트란 또는 폴리에틸렌옥사이드(PEO)로 이루어진 물-속-물(water-in-water) 에멀전 시스템에서 카라기난의 젤화 거동을 유변학적으로 분석한 연구이다. 덱스트란 상의 부피비가 약 70%를 넘어서면서 연속상에서 분산상으로 전환될 때 젤 강도가 급격히 변화하는 것을 확인하여, 상분리 구조를 통해 젤 물성을 정밀하게 제어할 수 있는 전략을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123889",
+      "pii": "S0144861725006721",
+      "title": "Rational design of freeze-crosslinked polysaccharide sponges for efficient non-compressible hemostasis and liver repair",
+      "authors": [
+        "Peng Zhou",
+        "Weixiao Ding",
+        "Hongyan Wang",
+        "Xinmeng Li",
+        "Jian Cui",
+        "Guangjiu Liu",
+        "Zhiqi Chen",
+        "Chao Tang",
+        "Yishan Jiang",
+        "Lei Zhang",
+        "Dongping Sun"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733816",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": true,
+      "focus_keywords_matched": [
+        "cellulose"
+      ],
+      "summary_ko": "산화된 세균셀룰로스(bacterial cellulose)와 카복시메틸키토산의 비율을 조절해 동결가교시킴으로써, 압박이 불가능한 출혈 부위에 사용할 수 있는 형태기억 지혈 스펀지를 설계한 연구이다. 세균셀룰로스 비율이 높을수록 압축 회복력과 지혈 성능이 향상됨을 in vitro 응고 실험과 동물 지혈실험으로 확인했으며, 간 손상 동물모델에 이식했을 때 간세포 부착과 미세혈관 형성을 촉진하고 염증반응을 낮춰 간 조직 재생까지 돕는 것을 입증해, 차세대 지혈-재생 겸용 생체소재로서의 잠재력을 보였다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123897",
+      "pii": "S0144861725006800",
+      "title": "Thermoresponsive hydrogelation of N-acetyl chitohexaose: Gelation mechanism and application in controlled protein release",
+      "authors": [
+        "Hiroyuki Kono",
+        "Yuya Nagaoka",
+        "Ayumu Izutsu",
+        "Shunsuke Kita",
+        "Katsumi Maenaka",
+        "Shunsuke Nishio",
+        "Takeshi Hattori",
+        "Yuka Yoshikawa",
+        "Kousuke Michishita",
+        "Taichi Usui",
+        "Takuya Isono",
+        "Makoto Ogata"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733822",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": true,
+      "focus_keywords_matched": [
+        "hydrogel"
+      ],
+      "summary_ko": "키틴 유래 6당체 올리고당인 N-아세틸키토헥사오스(GN6)가 단량체부터 6당체까지의 키틴 올리고당 중 유일하게 가열에 의해 결정성 나노섬유로 자기조립되어 가역적 하이드로겔을 형성함을 발견한 연구이다. 고체상 NMR, 소각/광각 X선산란, 투과전자현미경, 원자력현미경, 미세결정 전자회절 등 다각적 구조분석을 통해 GN6가 β축을 따라 배열되며 알파-키틴형 결정구조로 조립되는 기전을 규명했으며, 이 하이드로겔이 화학적 가교제 없이도 인슐린, 알부민, 면역글로불린G 등의 단백질을 4주 이상 서방출할 수 있음을 확인해 생체적합 약물전달 소재로서의 가능성을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123899",
+      "pii": "S0144861725006824",
+      "title": "Erlotinib-functionalized dextran derivatives enable self-assembly of redox-responsive paclitaxel dimers for lung Cancer treatment after intratracheal delivery",
+      "authors": [
+        "Lan Wu",
+        "Yingchao Han",
+        "Yuzhu Liu",
+        "Yingkai Ning",
+        "Fangyan Zuo",
+        "Xinhe Wang",
+        "Xing Zhao",
+        "Yu Zhang",
+        "Hriday Bera",
+        "Dongmei Cun",
+        "Mingshi Yang"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733824",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "덱스트란-PEG-얼로티닙 공중합체(DPE)를 합성하여 파클리탁셀 다이머의 자기조립을 유도하고, 기관 내 투여(intratracheal delivery) 방식으로 EGFR 과발현 비소세포폐암을 표적치료하는 나노약물전달체를 개발한 연구이다. 동물모델(HCC827 폐암 마우스)에서 기존 정맥투여 파클리탁셀 대비 우수한 항암효과와 낮은 전신독성을 보여, 다당류 기반 나노의약품의 국소 폐암 치료 적용 가능성을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123904",
+      "pii": "S0144861725006873",
+      "title": "V-type starch-galloyl-based polyphenol complex stimulates GLP-1 and PYY secretion and improves satiety in mice",
+      "authors": [
+        "Yimei Zheng",
+        "Tonglin Chen",
+        "Ke Li",
+        "Liang Wang",
+        "Xuwei Liu",
+        "Lei Zhao",
+        "Zhuoyan Hu",
+        "Kai Wang"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733828",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "갈릭산과 탄닌산 등 갈로일계 폴리페놀을 고아밀로스 옥수수전분과 비공유 결합시켜 V형 결정구조의 전분-폴리페놀 복합체를 제조하고, 마우스 실험을 통해 소화율 저해와 포만감 호르몬(GLP-1, PYY) 분비 촉진 효과를 확인한 연구이다. 특히 탄닌산 복합체가 갈릭산 복합체보다 소화 저항성과 혈당 조절 효과가 더 우수하여, 제2형 당뇨와 비만 예방을 위한 기능성 전분 식품 소재로서의 응용 가능성을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123907",
+      "pii": "S0144861725006903",
+      "title": "Kimchi cabbage-derived sustainable composite cellulose films for food packaging: Contributions of components to physical properties and functionalities",
+      "authors": [
+        "Suyeon Jeong",
+        "Hyun-Gyu Lee",
+        "SeungRan Yoo"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733762",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": true,
+      "focus_keywords_matched": [
+        "cellulose",
+        "biomass"
+      ],
+      "summary_ko": "셀룰로스 필름의 물성 한계를 극복하기 위해 헤미셀룰로스·펙틴·리그닌을 다양한 비율로 셀룰로스 매트릭스에 혼합한 12종의 복합필름을 제작하고, 각 성분의 기여도를 체계적으로 규명한 연구이다. 헤미셀룰로스는 열안정성을, 펙틴은 필름형성능과 인장강도(펙틴 함량에 따라 0.82MPa에서 4.86MPa까지 상승)를, 리그닌은 자외선 차단 및 항산화 특성을 각각 담당함을 확인했으며, 나아가 실제 김치배추 부산물에서 추출한 성분으로 제작한 필름이 시약등급 성분 필름과 유사한 자외선차단·항산화 성능을 보여, 농업 부산물을 활용한 지속가능 포장재로서의 실용 가능성을 입증했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123908",
+      "pii": "S0144861725006915",
+      "title": "Polyanionic alginate-regulated hydrogel electrolytes for flexible carbon-based supercapacitors operating in a wide voltage range",
+      "authors": [
+        "Tan Binh Nguyen",
+        "Marcela María Godoy Zúniga",
+        "Trung Tien Tran",
+        "Eunyoung Oh",
+        "Shin Joon Kang",
+        "Hyung Mo Jeong",
+        "Jonghwan Suhr"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733831",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "focus": true,
+      "focus_keywords_matched": [
+        "hydrogel"
+      ],
+      "summary_ko": "폴리아크릴아미드 하이드로겔에 음이온성 알지네이트를 도입하여 유연 슈퍼커패시터용 하이드로겔 전해질을 설계한 연구이다. 알지네이트의 카복실기가 이온 이동을 촉진하면서도 고전압에서의 물 분해를 억제해, 대나무 유래 다공성 탄소 전극과 결합했을 때 기존 하이드로겔 전해질의 저전압 한계를 넘어선 1.6V의 넓은 작동전압 범위를 확보했다. 최종 소자는 21.68 Wh/kg의 높은 에너지밀도와 우수한 기계적 변형 안정성을 보여, 재생가능한 다당류 기반 전해질이 차세대 유연 에너지저장소자에 활용될 수 있음을 입증했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123912",
+      "pii": "S0144861725006952",
+      "title": "Structure-activity relationships study on inhibition of CRISPR-Cas9 by glycosaminoglycans",
+      "authors": [
+        "Yudi Cheng",
+        "Zhe Wang",
+        "Min Cao",
+        "Sirui Liu",
+        "Xinyue Zhang",
+        "Cheng Cheng",
+        "Chao Cai",
+        "Xing Zhang",
+        "Jie Zheng"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733833",
+      "pubtypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "콘드로이틴황산과 헤파린 등 황산화 글리코사미노글리칸(GAG)이 CRISPR-Cas9의 유전자가위 활성을 저해할 수 있음을 규명하고, 분자동역학 시뮬레이션으로 헤파린의 황산화 잔기가 Cas9의 DNA 결합부위에 결합해 기능을 억제하는 기전을 제시한 연구이다. 분자량이 클수록, 그리고 헤파린은 N-황산화, 콘드로이틴황산은 C6-황산화 부위일 때 억제효과가 더 강하게 나타나, 유전자가위 활성 제어를 위한 당類 기반 저해제 개발의 기초자료를 제공했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123923",
+      "pii": "S0144861725007064",
+      "title": "Resistant starch in high-amylose wheat flour partially withstands harsh thermal processing",
+      "authors": [
+        "Xianying Sha",
+        "Zehua Liu",
+        "Feiyang Zhang",
+        "Zhaowan Zhang",
+        "Lingjie Jiang",
+        "Zhonghua Gu",
+        "Bihui Dong",
+        "Jichun Tian",
+        "Hongxin Jiang"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733842",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "고아밀로스 밀가루의 저항전분이 증숙 후 유탕처리와 같은 가혹한 열처리 공정을 얼마나 견디는지 평가한 연구이다. 열처리로 저항전분 함량이 53.7%에서 23.2%로 감소했지만, 아밀로스-지질 복합체 유래의 내열성 결정구조가 전분 알갱이의 붕괴를 억제해 일부 저항전분 특성이 유지됨을 SEM, XRD, 열분석으로 확인했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123924",
+      "pii": "S0144861725007076",
+      "title": "Development of a novel resistant starch via synergistic triple modification strategy that enables lipid complexation under mild conditions",
+      "authors": [
+        "Yuqi Wang",
+        "Liwen Zhang",
+        "Qianqian Zhang",
+        "Bin Li",
+        "Jinlong Li"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733843",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "효소적(분지화효소+아밀라아제 처리)·물리적·화학적(에스터화) 삼중 변형을 결합하여 저항전분 함량 69.7%를 달성하면서도 지질과의 복합체 형성 능력까지 동시에 갖춘 신규 변성전분(E-P-C)을 개발한 연구이다. in vitro 소화 실험에서 지방산의 약 19%를 포집하면서 소화액 내에서도 저항전분 특성의 67% 이상을 유지해, 비만 관리를 위한 전분-지질 동시 조절 소재로서의 잠재력을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123929",
+      "pii": "S014486172500712X",
+      "title": "Direct estimation of amylose and amylopectin in single starch granules by machine learning assisted Raman spectroscopy",
+      "authors": [
+        "Imrul M Hossain",
+        "N Pooja",
+        "Sri Surya Charan Kondeti",
+        "Tatsuyuki Yamamoto",
+        "Nirmal Mazumder",
+        "Hemanth Noothalapati"
+      ],
+      "coverDate": "2025-10-15",
+      "volume": "366",
+      "pmid": "40733765",
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "focus": false,
+      "focus_keywords_matched": [],
+      "summary_ko": "라만 분광법과 머신러닝(주성분분석, 선형판별분석, 로지스틱회귀, 지지벡터머신 등)을 결합하여 단일 전분 알갱이 내 아밀로스와 아밀로펙틴 비율을 비파괴적으로 정량 분석하는 새로운 방법을 제시한 연구이다. 아밀로스(856, 941 cm⁻¹)와 아밀로펙틴(871 cm⁻¹)의 특징적 라만 신호를 이용해 품종별 전분 조성 차이를 공간적으로 매핑하는 데 성공하여, 식품 품질 평가 및 육종 선발에 활용 가능한 분석 플랫폼을 구축했다."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "doi": "10.1016/j.carbpol.2025.123944",
+      "title": "Modulation of butyrate-induced stress responses in Bacteroides by lotus seed resistant starch and its sugar degradation products",
+      "reason": "microbe-centric (bacterial physiological stress-response mechanism is the core subject)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123928",
+      "title": "Mass spectrometric analysis of lipid-linked oligosaccharide heterogeneity in genetically modified E. coli used for glycoconjugate bacterial vaccine production",
+      "reason": "microbe-centric (genetically engineered bacterial vaccine production platform)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123829",
+      "title": "Promoting proliferation of Lactobacillus plantarum FN107 by Dendrobium oligosaccharide-mediated elimination of carbon catabolite repression",
+      "reason": "microbe-centric (bacterial growth/proliferation and carbon catabolite repression mechanism is the core subject)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123606",
+      "title": "Optimization of fermentation media for the production of higher yield capsular polysaccharide by Streptococcus pneumoniae serotype 22F using integrated statistical designs",
+      "reason": "microbe-centric (bacterial culture/fermentation media optimization)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123532",
+      "title": "Structural and functional benefits of Ganoderma lucidum polysaccharides due to space mutagenesis",
+      "reason": "microbe-centric (fungal strain development via mutagenesis is the core subject)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123531",
+      "title": "Evaluating size exclusion chromatography for nucleic acid removal in Klebsiella pneumoniae cell surface polysaccharide purification",
+      "reason": "microbe-centric (bacterial-derived polysaccharide bioprocess purification methodology tied to production)"
+    }
+  ]
+}
