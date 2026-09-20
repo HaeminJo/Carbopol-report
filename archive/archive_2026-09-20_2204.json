@@ -1,0 +1,331 @@
+{
+  "run_timestamp_utc": "2026-09-20T22:04:53Z",
+  "target_count": 20,
+  "collected_count": 287,
+  "final_eligible_count": 20,
+  "selected_count": 20,
+  "collection_method": {
+    "primary": "Elsevier Scopus Search API (api.elsevier.com/content/search/scopus), query 'ISSN(0144-8617) AND DOCTYPE(ar) AND PUBYEAR > 2023', sort=-coverDate, paginated start=0..1575 in pages of 25 (1600 records fetched, all HTTP 200), spanning coverDate back to 2025-06-01, cross-checked against state/seen_articles.json (3145 entries at run start).",
+    "elsevier_scidir_search_api": "api.elsevier.com/content/search/scidir confirmed HTTP 410 Gone (deprecated). Scopus Search API used instead and worked (HTTP 200 on all paginated requests).",
+    "elsevier_abstract_retrieval_api": "Not used this run; PubMed E-utilities used instead for abstracts/authors (see below), consistent with prior runs' finding that Elsevier STANDARD view abstract-retrieval-response lacks dc:description.",
+    "pubmed_supplement": "For all 287 unseen candidates found via Scopus, PubMed ESearch (db=pubmed, term=<DOI>[aid]) was used to resolve DOI->PMID (100% match rate on the 60-item working pool), then PubMed EFetch (retmode=xml) was used in batches of 20 to retrieve full English abstracts, complete author lists, and PublicationType lists.",
+    "web_search_fallback": "Not needed this run; Elsevier Scopus API + PubMed E-utilities together were sufficient to exceed the 20-article target.",
+    "selection_strategy": "Of the 287 unseen candidates, the 60 with the oldest coverDate were pulled (all dated 2025-06-01 or 2025-06-15) to prioritize clearing the oldest backlog first (consistent with prior run's approach of processing oldest-unseen-first). All 60 were screened via title+abstract+PublicationType against the review and microbe-centric exclusion criteria; none were excluded. The 20 with the very oldest coverDate (all 2025-06-01) were selected for this report; the remaining screened-eligible backlog (40+ from this pool, plus ~227 more unscreened) remains for future runs."
+  },
+  "eligibility_criteria_applied": {
+    "review_exclusion": "Checked PubMed PublicationTypeList for 'Review' and title for the word 'review' (case-insensitive). None of the 60 screened were reviews.",
+    "microbe_centric_exclusion": "Checked title+abstract for signals that the CORE topic is microbial strain development/culture optimization/microbial biology itself (e.g. 'strain improvement', 'fermentation optimization', 'novel strain', 'genome sequencing'). Three borderline cases (carrageenan-sulfatase from a marine bacterium; Klebsiella pneumoniae capsular polysaccharide purification; Ganoderma lucidum polysaccharide after space mutagenesis) were manually reviewed via full abstract text and kept, since in each case the polysaccharide/enzyme structure-function is the central subject and the microbial organism is only the source material, not the object of study. None of the final 20 selected are among these three borderline cases (they were later in the candidate pool, not among the 20 oldest)."
+  },
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2025.123410",
+      "title": "Eco-friendly lily bulb-derived polysaccharide aerogel for efficient microplastics and nanoplastics removal",
+      "authors": [
+        "Meiting Liu",
+        "Hongbin Pu",
+        "Da-Wen Sun"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158961",
+      "abstract_en": "Microplastics that eventually convert into nanoplastics are emerging global pollutants and the development of efficient adsorbents for their removal is urgently needed. For sustainability and eco-friendliness, in the current study, a polysaccharide aerogel (LPA) was prepared with lily bulbs as the raw material by following water bath extraction, purification and freeze-drying processes. The prepared porous LPA was then applied as a packing material in a mini adsorption column for removing polystyrene (PS) microplastics and nanoplastics. Results revealed that LPA was over 90 kDa in size and consisted mainly of glucomannan and the removal efficiencies for microplastics and nanoplastics were 93.68 % and 96.98 %, respectively, mainly due to hydrogen bonding interactions and porous structure. The adsorption column was robust and maintained a remarkable removal efficiency (over 90 %) for 3 months. In addition, the effects of other extraction methods and pre-freezing conditions before the freeze-drying process were studied. Compared with water bath extraction, ultrasonic-assisted extraction and microwave-assisted extraction transformed the LPA structure, resulting in reduced adsorption ability, while the pre-freezing temperature could be used to adjust the specific surface area. Meanwhile, the effects of temperature and pH of adsorbates were also investigated. The LPA was heat sensitive and not stable under strongly acidic (pH 4) or strongly alkaline (pH 10) conditions, resulting in a sharp decline in removal efficiency. The adsorption behaviour of LPA was further described via adsorption kinetic models, showing that the microplastics and nanoplastics adsorptions could be fitted by pseudo-second-order and pseudo-first-order models, respectively. Moreover, the adsorption performance of LPA was compared with some other aerogels and had a better result. This research provides a promising, sustainable alternative for microplastic and nanoplastic removal that has potential for pollutant adsorption and sample purification as well as a low preparation cost."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123425",
+      "title": "Human soft tissues-like PVA/cellulose hydrogels with multifunctional properties towards flexible electronics applications",
+      "authors": [
+        "Qi Zhou",
+        "Hatem Abushammala",
+        "Daqian Gao",
+        "Pengwu Xu",
+        "Deyu Niu",
+        "Weijun Yang",
+        "Piming Ma"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158965",
+      "abstract_en": "Conductive hydrogels have attracted significant attention due to their exceptional flexibility, biocompatibility, and promising applications in flexible electronics. Inspired by human soft tissues, robust ionic conductive hydrogels were developed via constructing cellulose-reinforced polyvinyl alcohol networks and precise modulation of zinc ions. The hydrogel exhibits impressive mechanical behaviors (σ = 4.55 MPa, ε = 1293 %) and ionic conductivity as high as 1.17 S/m, ascribed from the multiscale interaction mechanism. These mechanisms include the formation of dense nanofiber networks and nanocrystalline domains, the effects of multiple metal coordination and hydrogen bonds, and the reinforcement of nanocellulose. Moreover, the hydrogel demonstrates a low strain detection limit of 1 % and shows great potential for applications in human health monitoring. Interestingly, based on the principle of Morse code, the hydrogel can be used for information transmission in hazardous environments for emergency signaling. More importantly, when used as an electrolyte in flexible zinc-ion battery, it significantly inhibits zinc dendrite growth and supports stable charge-discharge cycles, making it ideal for small flexible electronic devices. This work presents a biomimetic and sustainable strategy for the rapid fabrication of robust ionic conductive hydrogels, offering advanced applications in flexible electronics."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123426",
+      "title": "Tree transpiration-inspired 3D-printed wastewater processors with hybrid nanocellulose for a broad range of oil-based effluents",
+      "authors": [
+        "Xiaojie Shi",
+        "Chuhang Liu",
+        "Yi Luo",
+        "Guoqiang Zhou",
+        "Chaozheng Liu",
+        "Changtong Mei",
+        "Mei-Chun Li"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158966",
+      "abstract_en": "The rise in industrial and domestic activities has led to increased oily wastewater generation and illicit discharge, posing a serious threat to clean water resources. Traditional water treatment methods, though scalable, consume fossil fuels and cause secondary pollution, necessitating safer, more efficient solutions. Here, we developed hybrid nanocellulose (HNC) inks by combining cellulose nanofibers (CNFs) and cellulose nanocrystals (CNCs) to fabricate advanced oily wastewater processors. These HNC inks enable 3D printing of tailored processor structures with high shape fidelity. By incorporating polydopamine (PDA) and chitin nanofibers (ChNFs), we created 3D-printed HNC scaffolds with exceptional hydrophilic-submerged oleophobicity and photothermal conversion properties. The HNC/PDA/ChNF (HAC) filter sheets achieved a 98.87 % separation efficiency and a high flux of 1646.96 L·m-2·h-1 for immiscible oil-water mixtures. For miscible mixtures, a 3D-printed C-HAC@HNC evaporator with a \"bowl-shaped\" layer achieved a 1.52 kg·m-2·h-1 evaporation rate and 96.61 % photothermal efficiency, excelling in oil-in-water emulsion treatment. It also demonstrated potential for seawater desalination and oily seawater purification, producing water that meets WHO drinking standards. This study offers innovative strategies for addressing critical challenges in water and energy resource management through efficient oily wastewater treatment."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123431",
+      "title": "pH-responsive starch-based bilayer film functionalized with alliin loaded MIL-101 (Fe) for active food packaging",
+      "authors": [
+        "Sa Liu",
+        "Yapeng Chen",
+        "XinKuan Li",
+        "Yijia Yao",
+        "Huashan Wang",
+        "Meiyi Wang"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158969",
+      "abstract_en": "Food packaging films containing antimicrobial reagents play a crucial role in preventing bacterial-induced fruit decay. This study proposes a bilayer film consisting of an internal amino-modified starch hydrophilic layer and an external amino-modified polyvinyl alcohol/polylactic acid hydrophobic layer, embedding alliin@MIL-101(Fe) as an antibacterial agent, utilizing the pH reduction of fruit decay sites to achieve pH-responsive release, enhancing antibacterial performance. Fourier transform infrared (FTIR) and scanning electron microscopy (SEM) analyses confirm successful crosslinking between amino and aldehyde groups, resulting in the formation of imine bonds and a mesh-like structure conducive to adsorption. Under acidic conditions, the cumulative release rate of alliin reached 74 % within 36 h. Compared to a simple mixture, the tensile strength of the alliin@MIL/NST-NPVA/PLA film reached 34.771 MPa, and transmittance in the wavelength range of 200-370 nm decreased to 0. The scavenging rate of DPPH free radicals in the film can reach 83 %. In addition, the water vapor permeability and oxygen permeability of the film are approximately 7.62 × 10-16 [g/ (m2‧24 h‧0.1 mm)] and 6.83 (m2‧24 h‧0.1 MPa), respectively; moisture content and water solubility decreased to 10.99 % and 20.77 %. This composite film extended the shelf life of strawberries from 2 to 7 days, significantly enhancing freshness."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123433",
+      "title": "Rationally designed chemoenzymatic synthesis of heparan sulfate oligosaccharides with neutralizable anticoagulant activity and low severe complications",
+      "authors": [
+        "Guijiao Zhang",
+        "Yaqing Ma",
+        "Yaqi Qiu",
+        "Lin Wang",
+        "Qinyu Liu",
+        "Aohui Liu",
+        "Linhan Cui",
+        "Fengshan Wang",
+        "Chunhui Liu"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158971",
+      "abstract_en": "The identification of enzymes involved in biosynthesis of heparan sulfate (HS) and heparin and their successful application in chemoenzymatic synthesis have provided great impetus to rationally design well-defined oligosaccharides as ideal alternatives to animal-derived heterogeneous heparin anticoagulants clinically to treat clotting disorders. Herein, we revisited the substrate specificity of recombinant 2-O-sulfotransferases produced in different expression systems for the highly efficient chemoenzymatic synthesis of HS oligosaccharides containing the rare 2-O-sulfated GlcA (GlcA2S) residues, followed by further assembly into the highly sulfated HS dodecasaccharide (12-mer) and decasaccharide (10-mer) containing the antithrombin-binding domain and the trisulfated disaccharide (GlcA2S-GlcNS6S) units rarely found in natural heparin. The GlcA2S-containing HS 10-mer demonstrated both the effectively reversible anticoagulant activity similar to that of unfractionated heparin and the lower potential risk for life-threatening heparin-induced thrombocytopenia compared with enoxaparin, indicating its promising prospect as the next-generation HS/heparin-like anticoagulant therapeutics."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123436",
+      "title": "In-situ synthesis of magnetic nanoparticles/wood-structural holocellulose hybrid for metal ions adsorption",
+      "authors": [
+        "Yiyu Long",
+        "Jingxiang Zhang",
+        "Huiyang Bian",
+        "Tingting Xu",
+        "Shumei Wang",
+        "Hongqi Dai",
+        "Ying Gao"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158974",
+      "abstract_en": "Effective removal of metal ions from water is crucial for reducing pollution during manufacturing processes. To address this issue, we have developed a block Fe3O4/wood-structural holocellulose hybrids (MW) for removing heavy metal ions from industrial wastewater. By employing chemical pretreatment, solvent-induced self-impregnation, and in-situ deposition, Fe3O4 nanoparticles were attached into the cell's lumen while also embedded within the cell walls, achieving a loading capacity of 35.89 %. The MW exhibited notable magnetic responsiveness. Adsorption experiments were then conducted to evaluate the performance of MW in adsorbing Pb2+, and the adsorption mechanism was elucidated based on density functional theory (DFT) calculations. The results demonstrated that MW exhibited high adsorption efficiency for Pb2+ (537.63 mg/g), This is primarily attributed to the porous structure of MW and the interactions among -COOH, -OH, and FeO groups within the structure with Pb2+. The adsorption process followed the pseudo-second-order kinetic model and the Langmuir isotherm model. After three consecutive reuse cycles, the adsorption capacity remaining at 77.62 % after three cycles. Furthermore, DFT calculations indicated that the composite of Fe3O4 and cellulose could enhance the adsorption energy between Pb2+ and MW. This indicates that MW offers high adsorption, recyclability, and magnetic control, making it a promising material for wastewater treatment."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123438",
+      "title": "Mimicking natural biomineralization enabling biodegradable and highly lipophobic alginate hydrogels",
+      "authors": [
+        "Xiaowen Huang",
+        "Wenwen Yu",
+        "Weinan Gu",
+        "Shumin Liang",
+        "Limin Zhou",
+        "Lidong Zhang"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158976",
+      "abstract_en": "Microorganisms can induce biomineralization of inorganic ions to form a lipophobic layer on the surface of cave rocks. Mimicking this, we developed and propose a protocol that produces a highly lipophobic hybrid layer of CaCO3 nanoparticles on hydrogel surfaces. This lipophobic layer endows hydrogels with an oil contact angle of 162°, causing oil droplets placed on the surface to bead up and roll off immediately. The lipophobic surface effectively resists staining from lipophilic dyes, and does not adhere to double-sided tapes. A lipophobic layer on hydrogel tubes effectively prevents the adhesion of thrombus and axunge during a three-day implantation period in rabbits. The hydrogel tubes, made of biodegradable sodium alginate, can serve as implantable scaffolds, degrading in the body, and avoiding the need for removal surgery. These properties make hydrogel tubes promising for medical devices like absorbable stents and catheters."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123440",
+      "title": "High water-vapor-barrier cellulose films via ice-induced crystallization and hydroxyl/carboxyl synergistic enhancement effect",
+      "authors": [
+        "Liucheng Meng",
+        "Zifei Yan",
+        "Wen Deng",
+        "YanLing Lou",
+        "Lei Zhang",
+        "Zhaoyang Xu",
+        "Huining Xiao",
+        "Weibing Wu"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158977",
+      "abstract_en": "The potential environmental and health hazards of packaging materials based on petrochemical polymers have prompted a shift in research toward biodegradable polymers. However, most biodegradable films have poor water vapor barrier properties. We proposed an environmentally friendly method based on salting-out and cyclic freezing-thawing effects to improve the water-resistance and water vapor barrier properties of carboxymethyl cellulose (CMC)-based films. The coexistence of hydroxyl (OH) and carboxyl (COOH) was found to be crucial in promoting the ice-induced crystallization of cellulose molecules. The calculations of ice crystal size and freezable water weight content as well as hydrogen bonding theory analysis proved that the COOH can enhance the polymer interactions and crystallization to resist water molecules. The water vapor permeability (WVP) is as low as 3.89 × 10-11 g·m/m2·Pa·s at 37 °C and 65 % RH, a 6-fold reduction compared to the untreated CMC film. Meanwhile, the CMC-based films have high water resistance and mechanical strength, with a maximum wet tensile strength of 14.96 MPa, and remain intact after two months of immersion in water. This strategy is of great significance for the development of sustainable packaging materials with high barrier properties."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123442",
+      "title": "β-Cyclodextrin/resistant dextrin induced disparate gelling behaviors of high-protein liquid systems",
+      "authors": [
+        "Junwei Zhang",
+        "Ruitao Zhu",
+        "Bowen Zou",
+        "Xiaohan Zheng",
+        "Rui Zhang",
+        "Xiaokang Na",
+        "Xianbing Xu",
+        "Ming Du",
+        "Chao Wu"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158979",
+      "abstract_en": "High-protein, high-fiber foods are in the spotlight because of their health properties. Due to aggregation during heat treatment when dietary fiber is added, the amount of soy protein that can be used in the formulation of high-protein, high-fiber foods is limited. The effects of two types of soluble dietary fibers, β-cyclodextrin (β-CD) and resistant dextrin (RD), on the tunable thermal stability of soy proteins (SPs) and preheat-modified soy protein particles (SPPs), as well as the underlying mechanisms, were investigated. Results showed that β-CD (0.5-3.0 %, w/v) weakened the gels and introduced some degree of mobility, while RD (0.5-3.0 %, w/v) increased the gel strength and viscoelastic properties of SP and SPP gels. Dynamic light scattering analysis revealed that β-CD mitigated the increase in particle size of SPs and SPPs during heating, delaying gel formation at high protein concentrations. In contrast, RD promoted protein agglomeration into larger particles, speeding up the gelation process. Structural analysis revealed that β-CD preserved the integrity of protein structure, while RD promoted the unfolding of protein structure, leading to protein cross-links and aggregation formation. In summary, the effect of β-CD and RD on soy protein thermal stability provides valuable insights for developing new health-focused, high-protein, high-fiber products."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123443",
+      "title": "Dissolving limitations: The power of DMSO activation for cellulose SEC analysis",
+      "authors": [
+        "Ivan Melikhov",
+        "Irina Sulaeva",
+        "Mirjana Kostić",
+        "Markus Bacher",
+        "Sonja Schiehser",
+        "Thomas Rosenau",
+        "Antje Potthast"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158980",
+      "abstract_en": "The molar mass distribution is a crucial parameter for cellulose samples used in both research and industry, typically determined by size-exclusion chromatography (SEC) coupled with multi-angle laser light scattering and refractive index detection (MALLS-RI). While DMSO activation has been proven effective for dissolving challenging samples, such as regenerated fibers, in 9 % (w/v) DMAc/LiCl, the structural changes occurring during this activation are not yet fully understood. To address this, we analysed the effects of the DMSO activation on man-made fibers (Lyocell, Viscose, Modal) and microcrystalline cellulose over varying durations (30 min, 1 d, and 7 d), compared to conventional activation with DMAc for 7 d. The DMSO activation did not only influence the crystallinity index and hemicellulose content but also altered the dissolution behavior of regenerated cellulose fibers. Moreover, the DMSO activation step facilitated the dissolution of low-molar-mass fractions in 0.9 % (w/v) DMAc/LiCl. Importantly, the DMSO activation protocol was optimized to prevent the potential loss of low-molar-mass fractions for hemicellulose-rich samples. The altered (dn/dc)μ value was determined and applied to ensure accurate data analysis."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123444",
+      "title": "Cellulose self-erasing material with dual functions in information encryption",
+      "authors": [
+        "Hui Liu",
+        "Yi Lu",
+        "Bitao Peng",
+        "Jingxian Wei",
+        "Hongli Dai",
+        "Lei Wang",
+        "Hongxiang Zhu",
+        "Hui He"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158981",
+      "abstract_en": "Materials capable of multiple encryption, color-changing visualizations, and time-dependent functionalities are ideal for efficient and secure information storage and transmission. In this study, a time-dependent self-erasing material (TDSEM) containing urease developed through the in-situ synthesis of gold nanoclusters on the surface of cellulose nanocrystal (CNC) chemically bonding fluorescein isothiocyanate. CNC not only played an important role as a long-term stabilizer for the material, but also acted as a bridge facilitating the assembly of organic and inorganic interfaces, enabling the integrated system to achieve multi-color regulation and fluorescence resonance energy transfer. The TDSEM demonstrated excellent pH responsiveness, cyclic stability, and durability. The information was encoded by directly introducing HCl/urea into the TDSEM, and automatically erased over time. Additionally, the fluorescence intensity and color (transitioning from red to orange to green) were modulated over a time scale by adjusting the urea concentration, thus precisely controlling the time to retrieve the correct information (22 min). The confidentiality of the encoded information was enhanced by dual \"locking\" of time and color, ensuring that decryption only occurred \"time color key\". This time-dependent and color-varying dual functions provide valuable insights for the development of advanced information encryption and anti-counterfeiting technologies."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123445",
+      "title": "Effect of debranching on the formation and in vitro digestibility of high amylose maize starch-C18 unsaturated fatty acid complexes",
+      "authors": [
+        "Yiming Zhang",
+        "Cuiping Wang",
+        "Chen Chao",
+        "Jinglin Yu",
+        "Yuedong Yang",
+        "Shujun Wang"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158982",
+      "abstract_en": "There is a big challenge in the efficient preparation of starch-unsaturated fatty acid (FA) complexes due to the steric hindrance of unsaturated FAs. This study aimed to understand the effects of debranching of high-amylose maize starch (HAMS) on the formation, structure and in vitro enzymic digestibility of complexes prepared with C18 unsaturated FAs. Debranching treatment of HAMS generated linear glucan chains and enhanced the encapsulation efficiency and loading capacity of FAs, particularly for the treatment of 12 h. Meanwhile, debranching treatment, especially for 12 h, greatly enhanced the long- and short-range ordered structure as well as the thermal stability of complexes, and decreased the in vitro enzymic digestibility. Molecular dynamics simulations showed that the van der Waals forces between amylose (AM) and stearic acid (SA) was stronger than those between AM and three unsaturated FAs, which may account for the higher degree of crystallite perfection of starch-SA complexes. Correlation analyses showed that the degree of crystallite perfection of the complexes was the main determinant for the rate and extent of complex digestion. Our study shows clearly that a certain degree of debranching can significantly promote the formation of starch-unsaturated FA complexes with higher degree of structural order and lower enzymic digestibility, which may be of interest for the efficient preparation of starch-unsaturated FA complexes to deliver health benefits."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123453",
+      "title": "Preparation of amino-functionalized yeast/yam starch composite adsorption gel and its mechanism for the adsorption of Congo red and copper ions",
+      "authors": [
+        "Jiaqi Fang",
+        "Xin Cheng",
+        "Yan Wang",
+        "Tianyang Wu",
+        "Heqin Xing",
+        "Na Guo"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158984",
+      "abstract_en": "Water resource pollution is a major global challenge that poses a serious threat to human health and the environment. In this study, glutaraldehyde was used to cross-link polyethyleneimine (PEI) with yeast and starch. The PEI-modified yeast was attached to the yam starch adsorption gel using the gel properties of starch to prepare a novel starch-based composite adsorbent material (NH2(Gl)-YSA@SZ410). Owing to its porous interconnected structure, the material exhibited optimal adsorption performance, wettability, and mechanical properties. NH2(Gl)-YSA@SZ410 could remove Congo red (CR), Cu2+, and coexisting pollutants (CR and Cu2+ mixture) from solutions. At 308 K, in single CR- or Cu2+-contaminated solutions, the maximum adsorption capacities were 293.52 and 50.34 mg/g, respectively, whereas in the binary-pollutant system, the maximum adsorption capacities were 363.15 and 149.50 mg/g, respectively. Additionally, an in-depth study of single-pollutant and binary-pollutant systems was conducted using adsorption kinetics, isotherms, and adsorption mechanisms. Theoretical calculations indicated that CR and Cu2+ interacted with NH2(Gl)-YSA@SZ410 composite materials through forces such as hydrogen bonding and electrostatic interactions. Furthermore, NH2(Gl)-YSA@SZ410 exhibited excellent stability and practicality. The adsorbent can be effectively applied to wastewater containing both heavy metals and dyes, offering novel ideas for biobased adsorbents."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123456",
+      "title": "Controlled synthesis of β-cyclodextrin-based starlike helical poly(phenyl isocyanide) and its application in chiral resolution",
+      "authors": [
+        "Benfa Chu",
+        "Feiyang Song",
+        "Hui Zou"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158987",
+      "abstract_en": "In an effort to expand the diversity of helical polymers exhibiting intricate structures, a strategy for the precise fabrication of β-cyclodextrin-based star polymers adorned with helical poly(phenyl isocyanide) (PPI) arms has been successfully realized through the integration of isocyanide polymerization and atom transfer radical polymerization (ATRP). An elegant β-cyclodextrin embellished with 7 Pd(II) complexes on one side and 14 bromine groups on the other side, denoted as ((Pd(II))7-CD-(Br)14), was initially synthesized. Subsequently, the (PPI)7-CD-(Br)14 was synthesized through the polymerization of the phenyl isocyanide monomer initiated with (Pd(II))7-CD-(Br)14. Finally, starlike PPI was obtained by ATRP of 1,2-diacrylyl ethane initiated via the macro-initiator of (PPI)7-CD-(Br)14. Circular dichroism measurement analysis indicated that the obtained starlike PPI exhibited a consistent helical conformation with a preferred handedness, and it was revealed that the helical structure of starlike PPI originated from the PPI backbone, rather than intermolecular aggregation in solutions. Furthermore, the starlike PPI demonstrated excellent efficacy in the chiral resolution of racemic compounds, achieving an enantiomeric excess (e.e.) of 92 % for threonine racemates when used as a chiral resolution agent."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123467",
+      "title": "Construction of cellulose nanocrystals based rod-like electrostatic nanocomplexes and the digestion characteristics of its stable high internal phase emulsions in vitro",
+      "authors": [
+        "Hualei Chen",
+        "Fei Pan",
+        "Wenjun Peng",
+        "Xiangxin Li",
+        "Xiaoming Fang",
+        "Wenli Tian"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158991",
+      "abstract_en": "The morphology of nanoparticles significantly impacts their ability to stabilize Pickering emulsions; however, the effect of rod-shaped nanoparticles based on cellulose nanocrystals (CNC) requires further investigation. Aminated sugar beet pectin (SBP-NH2) has unique advantages because of its amino groups, which has positive charge and good emulsifying activity. Herein, SBP-NH2 and CNC were used to fabricate rod-like nanocomplexes (SBP-NH2/CNC NCs), and then conjugated with cinnamaldehyde (CA) to enhance interfacial activity for forming 3D printable high internal phase emulsions (HIPEs), and their in vitro digestion properties were evaluated. The electrostatic interaction between SBP-NH2 and CNC formed the rod-like complexes with a mean diameter of 542.9 nm and the favorable surface wettability (88.1 ± 1.4°) under optimal conditions. SBP-NH2/CNC NCs as a stabilizer exhibited superior performance in terms of emulsification and inhibition of droplet coalescence. Additionally, introducing CA into the oil phase further reinforced interfacial layers through interfacial conjugation regulation. This endowed the CA-mediated HIPEs with higher viscoelasticity and improved 3D printing performance. Interestingly, CA-mediation delayed lipid digestion while improved fucoxanthin bioaccessibility in the HIPEs, which have huge prospects for developing functional food formulations. Overall, this work reveals a strategy for fabricating HIPEs based on rod-like electrostatic complex and interfacial conjugation."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123469",
+      "title": "Impact of loosenins on the enzymatic preparation of cellulose nanocrystals",
+      "authors": [
+        "Ylenia Jabalera",
+        "Deepika Dahiya",
+        "Carlos David Ordóñez Cencerrado",
+        "Antonio Jesus Caballero",
+        "Nerea Zaldua",
+        "Arantxa Eceiza",
+        "Emma R Master",
+        "Raul Perez-Jimenez"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158993",
+      "abstract_en": "Whereas the enzymatic deconstruction of lignocellulosic materials is well established, comparatively few studies investigate the application of enzymes in bio-based material manufacturing. In this study, we demonstrate the potential of an ancestral endoglucanase from Bacillus subtilis (LFCA_EG) together with a loosenin from the white-rot fungus Phanerochaete carnosa (PcaLOOL12) to produce cellulose nanocrystals (CNC) with smaller size and higher yield than CNCs prepared using LFCA_EG alone. Moreover, CNCs prepared using both LFCA_EG and PcaLOOL12 retained the chemical purity, crystallinity, and thermal stability of previously described enzymatically prepared CNCs, and could be used to exfoliate graphite to generate low resistance, graphene-based conductive inks. Accordingly, this study highlights the potential of loosenins such as PcaLOOL12 to not only enhance the enzymatic deconstruction of lignocellulose but also the preparation of value-added cellulosic materials."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123475",
+      "title": "Feruloylation of arabinoxylan enhances the protective effects on probiotic viability and stability in tablet formulations",
+      "authors": [
+        "Huibin Zhang",
+        "Yaqin Hou",
+        "Zebang Hu",
+        "Guowen Zhang",
+        "Shunjing Luo",
+        "Chengmei Liu",
+        "Zhongxia Li",
+        "Tingting Chen"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40158997",
+      "abstract_en": "Maintaining probiotic viability during storage and gastrointestinal transit is crucial for supplement efficacy. This study was to investigate the protective effects of modified arabinoxylan (AX) by feruloylation in tablets. AX was feruloylated with various ferulic acid (FA) contents (0-106 mg/g) into high (H-FAX), medium (M-FAX), and low (L-FAX) FA content matrices. Tube inversion test revealed that increased FA content reduced the critical concentration for gel formation, with H-FAX showing gelation at 25 % w/v compared to 35 % w/v for L-FAX. The FAX matrices demonstrated superior protection of probiotic during tablet compression compared to conventional excipients, maintaining viability above 7.95 × 109 CFU/tablet. Higher FA content improved mechanical properties resulted in better probiotic survival rates in simulated gastric (pH 2.0) and intestinal (pH 7.2) conditions. Storage at 4 °C maintained probiotic viability above 4.67 × 109 CFU/tablet for 12 months. The FAX matrix's protective barrier slowed probiotic release and shielded cells from harsh gastrointestinal conditions, while bound ferulic acid's antioxidant effects enhanced survival, ensuring effective colon delivery. These findings demonstrate that FAX matrices' potential in probiotic tablet formulations, with FA content being critical for optimizing protection. This work provides new insights for developing improved probiotic delivery tablets using naturally derived polymers."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123480",
+      "title": "Mineralized cellulose nanofibers reinforced bioactive hydrogel remodels the osteogenic and angiogenic microenvironment for enhancing bone regeneration",
+      "authors": [
+        "Xiaokang Liu",
+        "Haoran Hu",
+        "Jinghong Ma",
+        "Baoxiu Wang"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40159001",
+      "abstract_en": "Slow osteogenesis and insufficient vascularization remain significant challenges in achieving effective bone repair and functional restoration with tissue-engineered scaffolds. Herein, a novel mineralized nanofibers reinforced bioactive hydrogel was designed to enhance bone regeneration inspired from the structural and functional properties of the bone tissue extracellular matrix (ECM). This bioactive hydrogel integrated enzymatically mineralized TEMPO-oxidized bacterial cellulose (m-TOBC) nanofibers and mesoporous silica nanoparticles (MSNs) loaded with the angiogenic drug dimethyloxalylglycine (DMOG) into gelatin methacryloyl (GelMA). The m-TOBC nanofibers achieved one stone, three birds: improving the printability of GelMA ink, mechanical properties, and osteoconduction of the hydrogel. The incorporation of MSNs loaded with DMOG fostered an angiogenic microenvironment through the release of DMOG. Results indicated that the bioactive hydrogel significantly enhanced in vitro mineralized matrix deposition and osteoblastic alkaline phosphatase expression. Additionally, the bioactive hydrogel had good ability to promote angiogenesis in terms of enhanced endothelial cell migration, tube formation, and upregulated angiogenic genes expression levels. In a critical-sized rat cranial defect model, the bioactive hydrogel significantly enhanced bone regeneration. Overall, this research offered a promising strategy to design nanofibers enhanced hydrogel to remodel osteogenic and angiogenic microenvironment for enhancing bone repair."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123482",
+      "title": "Photodegradation of chitosan decorated by titanium dioxide: The potential to serve as a responded microcapsule shell",
+      "authors": [
+        "Lina Xu",
+        "Xinglian Xu",
+        "Yujuan Xu",
+        "Mingyuan Huang"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40159003",
+      "abstract_en": "In order to develop the UV responded material, chitosan (CS) was decorated by TiO2, and the mechanism of UV-mediated photodegradation of CS-TiO2 was analyzed. In this study, the changes in color, microstructure, degradation rate, thermal stability, and structure under different treatments were explored. The results showed that CS could be degraded by UV light. With the increase of irradiation time, the degradation rate of CS significantly raised, and was up to 18.41 %. L⁎ value markedly decreased, a⁎ value and b⁎ value significantly increased. The photodegradation process fitted with first-order kinetics. The degradation was improved when reducing scale of TiO2 from 10 nm to 102 nm, increasing TiO2 addition, and increasing UV light power. UV irradiation would promote the breakage of β-1,4 glycosidic bonds and deacetylation of CS. After UV irradiation, the crystalline structure of CS was destroyed and thermal stability was reduced. Tea tree essential oil microcapsules were constructed by using CS-TiO2 as a UV-light-sensitive shell material and could achieve a rapid UV-light-triggered release process, with a significant increase in volatile substances after UV irradiation. Thus, CS decorated by TiO2 could function as a controlled-release shell for microcapsules, while UV light could act as a switch to modulate the release process."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123488",
+      "title": "The enhancement of surimi gels by utilizing coconut oil pre-emulsion loaded with pterostilbene and tempo modified cellulose",
+      "authors": [
+        "Fang Tian",
+        "Wenyuchu Chen",
+        "Weiliang Guan",
+        "Yujin Li",
+        "Zan Ni",
+        "Chongsheng Zhang",
+        "Xiaona Wang",
+        "Luyun Cai"
+      ],
+      "coverDate": "2025-06-01",
+      "pmid": "40159007",
+      "abstract_en": "Surimi is widely appreciated for its preferred texture and nutritional profile. However, maintaining its superior gel-forming properties while preventing nutrient loss caused by the washing process remains challenging. In this study, pre-emulsions made from pea protein isolate (PPI), pterostilbene (PTE), TEMPO-oxidized cellulose (TOC), and coconut oil (CO) were used as a fat substitute to improve the gel properties of surimi. These were incorporated into brown croaker (Miichthys miiuy) surimi. The results showed that the PPI-CO-TOC-PTE pre-emulsion (P-C-T-P) had a small d4,3 particle size (283.5 nm). Molecular docking simulations demonstrated that TOC enhanced hydrogen bonding interactions between PPI and PTE. Adding P-C-T-P significantly improved the gel strength (2002.33 ± 48.74 g × mm) and water-holding capacity (91.40 ± 0.37 %) of the surimi gels. Furthermore, the protein network structure was denser in the P-C-T-P group. The surimi with P-C-T-P showed higher storage and loss moduli and the highest levels of hydrogen bonding, hydrophobicity, and β-sheet content. Thus, P-C-T-P addition improved surimi gel properties compared with directly supplying lipids to surimi."
+    }
+  ]
+}
