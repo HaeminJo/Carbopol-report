@@ -1,0 +1,246 @@
+{
+  "generated_at_utc": "2026-09-21 22:08",
+  "target_count": 20,
+  "collected_count": 25,
+  "collection_methods": [
+    "Elsevier Scopus Search API (ISSN 0144-8617)",
+    "PubMed E-utilities (ESearch/ESummary/EFetch)"
+  ],
+  "exclusion_criteria": [
+    "review articles",
+    "retraction/erratum/expression-of-concern notices",
+    "microbe-biology-centric articles"
+  ],
+  "papers": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125847",
+      "title": "Structure–property relationships and hydrated-matrix-mediated aromatic guest inclusion in renatured β-1,3-1,6-glucan nanoparticles",
+      "pubdate": "2026-11-01",
+      "authors": "Kometani Y. et al.",
+      "keywords_matched": [],
+      "ko_desc": "재구성(renatured)된 β-1,3-1,6-글루칸 나노입자를 대상으로 구조와 물성의 관계를 분석하고, 수화된 매트릭스 구조가 방향족(aromatic) 저분자 게스트 화합물을 포집하는 메커니즘을 규명했다. 글루칸 나노입자화 조건에 따른 구조 변화가 게스트 포집·방출 특성에 미치는 영향을 다각도로 평가한 연구로 판단된다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125845",
+      "title": "Low-solid content cellulose nanofiber/mixed-linkage glucan hydrogels for drug delivery and nanoparticle encapsulation",
+      "pubdate": "2026-11-01",
+      "authors": "Cheng Y. et al.",
+      "keywords_matched": [
+        "cellulose",
+        "hydrogel"
+      ],
+      "ko_desc": "저고형분(low-solid content) 조건에서 셀룰로오스 나노섬유와 혼합결합형 글루칸(mixed-linkage glucan)을 복합해 하이드로겔을 제조하고, 약물 전달 및 나노입자 포집용 매트릭스로서의 응용 가능성을 평가했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125782",
+      "title": "Detailed elucidation of a glucuronoxylogalactoglucomannan from Auricularia auricula-judae via liquid chromatography-electrospray mass spectrometry and 1/2D-NMR spectroscopy",
+      "pubdate": "2026-11-01",
+      "authors": "Liang J. et al.",
+      "keywords_matched": [],
+      "ko_desc": "목이버섯(Auricularia auricula-judae)에서 유래한 글루쿠로노자일로갈락토글루코만난(glucuronoxylogalactoglucomannan)의 상세 구조를 액체크로마토그래피-전자분무 질량분석(LC-ESI-MS)과 1차원/2차원 NMR 분광법을 결합해 규명했다. 단당류 조성, 결합 양식, 측쇄 구조 등을 정밀하게 해석한 구조분석 연구로 판단된다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125826",
+      "title": "Liquid-free ion-conductive elastomers with bioinspired oriented structures based on bacterial cellulose for dual-mode humidity sensing and energy harvesting",
+      "pubdate": "2026-11-01",
+      "authors": "Kong L. et al.",
+      "keywords_matched": [
+        "cellulose"
+      ],
+      "ko_desc": "세균 셀룰로오스(bacterial cellulose)를 기반으로 생체모방형 배향 구조를 도입한 액체 없는(liquid-free) 이온전도성 엘라스토머를 개발하고, 이중모드(습도 센싱 및 에너지 하베스팅) 소자로의 응용 가능성을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125849",
+      "title": "Versatile carboxymethyl cellulose-based pH responsive hydrogel with robust mechanical strength, adhesion, and self-healing for motion monitoring and touchscreen interaction",
+      "pubdate": "2026-11-01",
+      "authors": "Sinha D.K. et al.",
+      "keywords_matched": [
+        "cellulose",
+        "hydrogel"
+      ],
+      "ko_desc": "카르복시메틸셀룰로오스(CMC) 기반의 pH 반응성 하이드로겔을 개발하여 강한 기계적 강도, 접착성, 자가치유 특성을 동시에 구현하고, 동작 모니터링 및 터치스크린 인터랙션용 웨어러블 소재로의 적용 가능성을 평가했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125804",
+      "title": "Protonated chitosan/poly(ε-caprolactone) graft copolymer coatings for pH-modulated release of phosphorus fertilizers",
+      "pubdate": "2026-11-01",
+      "authors": "Khouloud M. et al.",
+      "keywords_matched": [],
+      "ko_desc": "프로톤화된 키토산과 폴리(ε-카프로락톤)(PCL)의 그래프트 공중합체를 인(P) 비료 입자의 코팅재로 적용해, pH 변화에 따라 인 성분의 방출 속도를 조절할 수 있는 서방형 비료 코팅 기술을 개발했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125841",
+      "title": "Purified polysaccharides from safflower (Carthamus tinctorius L.) post-extraction residues alleviate immunosuppression in mice by modulating gut microbiome",
+      "pubdate": "2026-11-01",
+      "authors": "Liu W. et al.",
+      "keywords_matched": [],
+      "ko_desc": "잇꽃(Carthamus tinctorius L.) 착유 후 부산물에서 정제한 다당류를 면역억제 마우스 모델에 투여하여 장내미생물군(gut microbiome) 조성 변화를 통한 면역 개선 효과를 평가했다. 부산물 유래 다당류의 생리활성 및 자원화 가능성을 제시한 연구로 판단된다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125835",
+      "title": "Structure-activity comparison of native larch arabinogalactan and its arabinose-depleted derivative in D-galactose-induced aging-like mice",
+      "pubdate": "2026-11-01",
+      "authors": "Yin Q. et al.",
+      "keywords_matched": [],
+      "ko_desc": "낙엽송(larch) 유래 천연 아라비노갈락탄과 아라비노스가 일부 제거된 유도체를 비교하여 D-갈락토스 유발 노화 마우스 모델에서의 구조-활성 관계를 분석했다. 측쇄 구조 변화가 생리활성에 미치는 영향을 규명하는 데 초점을 맞춘 연구로 판단된다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125837",
+      "title": "Cooperative β-cyclodextrin/TBD acylation/deacylation in the ring-opening of ε-caprolactone – a 1H NMR and MALDI MS kinetic study",
+      "pubdate": "2026-11-01",
+      "authors": "Balan-Porcarasu M. et al.",
+      "keywords_matched": [],
+      "ko_desc": "β-사이클로덱스트린(β-CD)과 강염기성 유기촉매 TBD 존재 하에서 진행되는 ε-카프로락톤의 개환 아실화 반응을 1H NMR 및 MALDI-TOF MS를 이용해 반응속도론적으로 추적했다. β-CD의 이차 하이드록실기에서 먼저 신속한 아실화가 일어난 뒤 일차 하이드록실기에서 상대적으로 느린 아실화가 진행되는 2단계 협동적 아실화/탈아실화 메커니즘과, TBD에 의한 위치선택적 치환 특성을 규명했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125856",
+      "title": "Modified rice protein-polysaccharide complexes as stabilizers for high internal phase emulsions in application of 3D printing and β-carotene delivery",
+      "pubdate": "2026-11-01",
+      "authors": "Chen J. et al.",
+      "keywords_matched": [],
+      "ko_desc": "개질된 미(米)단백질-다당류 복합체를 계면 안정화제로 활용해 고내상비 에멀전(HIPE)을 제조하고, 이를 3D 프린팅 잉크 및 베타카로틴 전달체로 응용하는 방안을 평가했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125846",
+      "title": "Amylopectin chain length distribution and starch physicochemical properties in a glutinous rice mutant panel: A PLSR study using different chain length classification methods",
+      "pubdate": "2026-11-01",
+      "authors": "Shi L. et al.",
+      "keywords_matched": [],
+      "ko_desc": "찰벼(glutinous rice) 돌연변이 패널을 대상으로 아밀로펙틴 사슬길이 분포와 전분의 이화학적 특성 간의 관계를 여러 사슬길이 분류법을 적용한 PLSR(부분최소제곱회귀) 분석으로 규명했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125842",
+      "title": "Rheology-guided experimental design of dynamically crosslinked keratin/ι-carrageenan hydrogels as potential drug delivery systems",
+      "pubdate": "2026-11-01",
+      "authors": "Fratini C. et al.",
+      "keywords_matched": [
+        "hydrogel"
+      ],
+      "ko_desc": "케라틴과 ι-카라기난을 동적으로 가교시킨 하이드로겔을 레올로지 특성 분석에 기반해 설계하고, 약물 전달체로서의 잠재적 활용 가능성을 평가했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125831",
+      "title": "Methylene chain length regulates the interfacial behavior of fatty-acylated starches and its role in forming robust superhydrophobic cryogels",
+      "pubdate": "2026-11-01",
+      "authors": "He T. et al.",
+      "keywords_matched": [],
+      "ko_desc": "지방산 아실화 전분의 메틸렌 사슬 길이가 계면 특성에 미치는 영향을 분석하고, 이를 통해 견고한 초발수성(superhydrophobic) 크라이오젤을 제조하는 방법을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123933",
+      "pmid": "40733848",
+      "title": "3D printing combined with pH-induced 4D printed iron(III)-oxidized starch gels for controlled iron delivery and enhanced iron supplementation",
+      "pubdate": "2025-10-15",
+      "authors": "Qiu Z, Guo Q, Lv J et al.",
+      "keywords_matched": [],
+      "ko_desc": "철분결핍성 빈혈 치료를 위해 산화전분(oxidized starch)에 열압출 3D 프린팅과 pH 반응성 4D 변형을 결합한 젤(4D-FeOMS)을 개발했다. Fe3+ 이온 가교를 통해 위(강산 환경)에서는 철 방출을 억제하고 소장 근위부에서는 85% 이상 신속 방출되도록 설계했으며, 레올로지·FTIR·XPS 분석으로 구조 변화를 확인하고 빈혈 유도 마우스 모델에서 철 저장량을 94.6% 이상 회복시켜 기존 철분제보다 우수한 효능을 입증했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123932",
+      "pmid": "40733847",
+      "title": "Facile preparation of flame-retardant phosphorylated chitin nanocrystals with reactive deep eutectic solvent based on urea-phosphate",
+      "pubdate": "2025-10-15",
+      "authors": "Zhao L, Zhang Y, Pan Y et al.",
+      "keywords_matched": [
+        "biomass"
+      ],
+      "ko_desc": "요소-인산 기반 반응형 공융용매(DES)를 이용해 바이오매스 자원인 키틴을 인산화한 뒤 초음파 처리로 나노결정(PChNC, 길이 166~186nm)을 제조했다. 미변형 키틴 대비 최대열방출률(PHRR) 73.2%, 총발열량(THR) 80.3% 감소 등 난연 성능이 크게 향상되었고, 가시광 투과율 80% 이상의 투명 필름으로 자기소화성과 우수한 기계적 물성을 동시에 확보했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123931",
+      "pmid": "40733846",
+      "title": "Preparation, characterization and host-guest interaction of photothermal-responsive modified carboxymethyl chitosan microcapsules",
+      "pubdate": "2025-10-15",
+      "authors": "Wang L, Hu J, Zhou M et al.",
+      "keywords_matched": [],
+      "ko_desc": "포르피린을 그래프트한 카르복시메틸키토산(CMCS)을 벽재로, 헤테로사이클릭 향료화합물을 심재로 하는 광열 반응형 방출 마이크로캡슐을 반응표면법(RSM)으로 최적화 제조했다. SEM·TEM·FTIR로 캡슐 형성을 확인했고 분자동역학(MD) 시뮬레이션으로 반데르발스 힘이 주된 호스트-게스트 상호작용임을 규명하여 안정적인 방출 시스템의 이론적 토대를 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123927",
+      "pmid": "40733844",
+      "title": "Response of texture, rheological characteristics and starch molecular structure of super hybrid indica rice to different nitrogen fertilizer levels",
+      "pubdate": "2025-10-15",
+      "authors": "Yang X, Liu L, Mahmood N et al.",
+      "keywords_matched": [],
+      "ko_desc": "질소 비료 시용량(0~400 kg N/ha)이 4종 초교잡 인디카 벼의 조직감, 레올로지 특성, 전분 분자구조에 미치는 영향을 분석했다. 시용량이 증가하면 겉보기 아밀로스 함량은 10.68~27.38% 감소하고 단백질 함량은 증가했으며, 200 kg N/ha에서는 전분 사슬 구조가 더 정연해져 품질이 개선되었으나 400 kg N/ha에서는 단백질 입자 축적으로 전분 발달이 저해되어 품질이 저하됨을 확인했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123921",
+      "pmid": "40733841",
+      "title": "Conformational evolution of protein fractions in chitosan-whey protein isolate coacervates as influenced by molecular weight of ligands for modulating pickering particle features",
+      "pubdate": "2025-10-15",
+      "authors": "Wang W, Zheng Y, Li X et al.",
+      "keywords_matched": [],
+      "ko_desc": "초음파 처리로 분자량이 다른 키토산(CS)과 유청단백질분리물(WPI)의 자기조립 복합체를 제조하여 피커링 에멀전 안정화 특성을 조사했다. 저분자량 키토산일수록 WPI의 펼침(unfolding)을 더 크게 유도해 정전기적 상호작용·수소결합·소수성 상호작용이 강화된 조밀한 복합체를 형성했으며, 이 구조 변화가 에멀전 안정성과 기포 형성능 향상에 기여함을 확인했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123920",
+      "pmid": "40733840",
+      "title": "Chitosan - hyaluronate based polyplexes for the delivery of oligonucleotides: structural properties and intravitreal mobility",
+      "pubdate": "2025-10-15",
+      "authors": "Raik S, Aseyev V, Vuorimaa-Laukkanen E et al.",
+      "keywords_matched": [],
+      "ko_desc": "망막 유전자 치료를 위한 양이온성 키토산 유도체, DNA 올리고뉴클레오티드, 히알루로네이트로 구성된 폴리플렉스의 구조와 형성 메커니즘을 규명했다. DNA가 키토산 유도체와 별모양 입자를 형성하며 히알루로네이트는 표면층 대신 폴리플렉스 내부로 삽입됨을 확인했고, 돼지 유리체를 이용한 생체외(ex vivo) 이동성 시험에서 리포좀과 유사한 우수한 이동성을 입증했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123918",
+      "pmid": "40733839",
+      "title": "Guanidine grafted chitosan oligosaccharides polymers promoting GLUT-mediated gastrointestinal barrier transport for potentiating Fe(3)O(4) mineralized probiotics in obesity treatment",
+      "pubdate": "2025-10-15",
+      "authors": "Tian Y, Chang B, Zong Z et al.",
+      "keywords_matched": [],
+      "ko_desc": "산화철나노입자(IONP)로 개별 균체를 코팅해 위산으로부터 보호하는 '무장형' 프로바이오틱스(Lactobacillus plantarum)에 구아니딘이 그래프트된 키토산 올리고당(CHG)을 결합한 이중 항비만 전달시스템(LPIC)을 개발했다. IONP 코팅으로 인공위액 내 생존율이 58.02%까지 향상되었고, CHG가 위장관 흡수를 촉진해 고지방식이 마우스에서 지방조직 무게를 대조군의 0.59배로 감소시키는 효과를 확인했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123917",
+      "pmid": "40733838",
+      "title": "Fungal-derived chitosan-based hydrogels with antimicrobial properties for infectious wound healing",
+      "pubdate": "2025-10-15",
+      "authors": "Zhou D, Li X, Zhu Y et al.",
+      "keywords_matched": [
+        "hydrogel"
+      ],
+      "ko_desc": "진균 유래 키토산을 구아니디늄기 및 알데하이드기로 각각 개질한 두 유도체를 시프 염기 반응으로 가교시켜 자가치유형 주사형 하이드로겔(SCgel)을 제조했다. 이중 배럴 주사기로 상처에 간단히 도포 가능하며, 감염된 전층 상처를 가진 쥐 모델에서 14일 내 94.5%의 상처 봉합률을 달성해 상용 은코팅 드레싱(Aquacel Ag)보다 우수한 항균·소염 효과를 보였다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123916",
+      "pmid": "40733837",
+      "title": "Dual dynamic bond crosslinked, on-demand removable antimicrobial chitosan hydrogel with superior photothermal responsiveness and CAT mimetic activity",
+      "pubdate": "2025-10-15",
+      "authors": "Li C, Yang M, Liu J et al.",
+      "keywords_matched": [
+        "hydrogel"
+      ],
+      "ko_desc": "카르복시메틸키토산(CMCS)에 3,4,5-트리하이드록시벤즈알데히드(THBA)를 시프 염기 결합시키고 철 이온으로 금속 배위결합을 형성한 다기능 하이드로겔(CTF)을 개발했다. 동적 시프염기 결합과 금속 배위의 상호작용으로 광열 반응성과 촉매(CAT 모방) 활성을 부여해 세균 감염 상처에서 활성산소(ROS)를 조절하고 염증을 완화하는 효과를 확인했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123915",
+      "pmid": "40733836",
+      "title": "Regulation of retrogradation and textural properties of mung bean starch gels during storage: Role of cooling rate",
+      "pubdate": "2025-10-15",
+      "authors": "Zou Z, Li M, Song Q et al.",
+      "keywords_matched": [],
+      "ko_desc": "냉각 속도(2.98~6.50°C/min)가 녹두전분 젤의 재결정화(retrogradation), 미세구조, 조직감에 미치는 영향을 14일간 저장 실험으로 분석했다. 급속 냉각은 재결정화 엔탈피 손실을 24~36% 줄이고 젤 강도를 30~40% 낮춰 무질서한 다공성 네트워크를 형성시켰으나, 저장 기간이 길어질수록 가교점 수와 밀도가 점진적으로 증가해 경도가 다시 상승함을 규명하여 냉각속도를 통한 전분 젤 조직감 제어 방법을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123913",
+      "pmid": "40733834",
+      "title": "An antioxidative sodium alginate hybrid hydrogel with NIR-controlled NO releasing for diabetic wound healing via reduced inflammation and enhanced angiogenesis",
+      "pubdate": "2025-10-15",
+      "authors": "He C, Bi S, Zhang L et al.",
+      "keywords_matched": [
+        "hydrogel"
+      ],
+      "ko_desc": "광열·항산화 특성을 가진 NO 방출 나노입자(PPY-PDA-BNN6)를 알긴산나트륨(SA) 기반 하이드로겔에 결합한 다기능 소재(Gel-S/PPB)를 개발했다. 근적외선(NIR) 조사로 광열 및 NO 방출을 유도해 세균 감염과 산화스트레스를 동시에 제어하고, 전기전도성을 통한 세포간 신호전달 촉진과 자가치유·전단담화(shear-thinning) 특성으로 당뇨병성 상처의 혈관신생과 치유를 가속화함을 동물실험으로 확인했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123911",
+      "pmid": "40733832",
+      "title": "Mineralized chitin nanocrystals enhance osteoinductive ability of chitosan 3D porous biohybrid scaffolds for bone tissue regeneration",
+      "pubdate": "2025-10-15",
+      "authors": "Olza S, Hadj Bouzidi NM, Rubatat L et al.",
+      "keywords_matched": [],
+      "ko_desc": "알파·베타 두 이형(isoform)의 키틴 나노결정에 하이드록시아파타이트를 광물화(mineralize)시킨 소재(MCHNC)를 제작해 인간 지방유래 중간엽줄기세포(hASC)의 골형성 분화 유도 효과를 평가했다. 키토산 기질·줄기세포 스페로이드와 결합한 3차원 다공성 바이오하이브리드는 비광물화 스캐폴드보다 기계적 강도(191±10 kPa)가 향상되었고, ALP 활성 3.5배·무기질화 26.3배 증가로 치조골 재생 활용 가능성을 제시했다."
+    }
+  ]
+}
