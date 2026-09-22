@@ -1,0 +1,62 @@
+{
+  "run_timestamp_utc": "2026-09-22T21:54Z",
+  "collection_methods": {
+    "elsevier_scopus_search": {
+      "endpoint": "https://api.elsevier.com/content/search/scopus",
+      "query": "ISSN(0144-8617) AND DOCTYPE(ar)",
+      "date_range": "2024-2026",
+      "sort": "-coverDate",
+      "entries_fetched": 300,
+      "status": "SUCCESS"
+    },
+    "pubmed_eutils": {
+      "esearch_term": "Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt]",
+      "reldate_days": 30,
+      "entries_fetched": 100,
+      "new_after_filter": 0,
+      "status": "SUCCESS - cross-check, no additional new articles"
+    },
+    "websearch_supplement": {
+      "status": "USED - confirmed no additional indexed abstracts found for the 2 new articles"
+    }
+  },
+  "eligibility_criteria_applied": [
+    "exclude review/systematic review/mini-review articles",
+    "exclude microbiology-centric articles (strain development/culture optimization as core topic)",
+    "published within last 2 years",
+    "exclude DOIs already present in state/seen_articles.json"
+  ],
+  "target_count": 20,
+  "actual_new_count": 2,
+  "shortfall_reason": "Prior daily runs since 2026-07 already captured nearly the full recent publication stream (3190 DOIs seen); Scopus max article-number (125857) fully covered, PubMed 30-day window showed 0 additional new eligible articles.",
+  "new_articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125840",
+      "title": "Modulation of in vitro digestibility and gut microbiota fermentation profiles of different V-type starch-resveratrol complexes fabricated via heat-moisture treatment",
+      "first_author": "Li J.",
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "18791344 01448617",
+      "volume": "391",
+      "coverDate": "2026-11-01",
+      "article_number": "125840",
+      "pii": "S0144861726009574",
+      "subtypeDescription": "Article",
+      "openaccess": "false",
+      "source": "Elsevier Scopus Search API + Abstract Retrieval API (METADATA view)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125857",
+      "title": "Sustainable synthesis of cellulose malate ester to prepare nanocellulose paired with zwitterionic amino acid counterion",
+      "first_author": "Swensson B.",
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "18791344 01448617",
+      "volume": "391",
+      "coverDate": "2026-11-01",
+      "article_number": "125857",
+      "pii": "S0144861726009744",
+      "subtypeDescription": "Article",
+      "openaccess": "true",
+      "source": "Elsevier Scopus Search API + Abstract Retrieval API (METADATA view)"
+    }
+  ]
+}
