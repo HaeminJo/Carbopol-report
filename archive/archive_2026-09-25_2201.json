@@ -1,0 +1,663 @@
+{
+  "run_timestamp_utc": "2026-09-25T22:01Z",
+  "collection_methods": {
+    "elsevier_scopus_search": {
+      "endpoint": "https://api.elsevier.com/content/search/scopus",
+      "query": "ISSN(0144-8617) AND DOCTYPE(ar)",
+      "sort": "-coverDate",
+      "entries_fetched": 325,
+      "new_after_filter": 0,
+      "status": "SUCCESS - no new entries beyond already-seen recent coverDate window"
+    },
+    "pubmed_eutils": {
+      "esearch_term": "Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt]",
+      "datetype": "pdat",
+      "reldate_days": 730,
+      "entries_fetched": 2505,
+      "new_after_dedup": 1140,
+      "new_after_type_filter": 1097,
+      "status": "SUCCESS - large backlog discovered; selected most recent 30 for this run"
+    },
+    "websearch_supplement": {
+      "status": "NOT NEEDED - PubMed backlog alone exceeded target of 20"
+    }
+  },
+  "eligibility_criteria_applied": [
+    "exclude review/systematic review/mini-review articles (pub_type and title check)",
+    "exclude retraction notices, retracted publications, and expression of concern notices",
+    "exclude microbiology-centric articles (strain development/culture optimization as core topic)",
+    "published within last 2 years",
+    "exclude DOIs already present in state/seen_articles.json"
+  ],
+  "target_count": 20,
+  "actual_new_count": 30,
+  "backlog_note": "Cross-checking full 2-year PubMed history (2505 records) against seen_articles.json revealed 1097 eligible not-yet-processed articles, indicating prior runs' Scopus-only sweeps (same-coverDate tie-break ordering) missed many articles scattered within already-covered date windows. This run selected the most recent 30 eligible articles by publication date (5 from the 2026-11-01 issue + 25 from the 2025-10/11 issues) to both stay current and begin clearing the backlog. Approximately 1067 eligible articles remain in the backlog for future runs.",
+  "new_articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125748",
+      "pmid": "42785891",
+      "title": "Citric acid treatment and bamboo-derived holocellulose nanofibers balance strength, flexibility, and barrier performance in PVA composite films.",
+      "authors": [
+        "Liu Yuan",
+        "Li Chen-Xi",
+        "Long Jia-Xuan",
+        "Li Ming-Fei",
+        "Bian Jing",
+        "Peng Feng"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "391",
+      "pubDate": "2026-Nov-01",
+      "focus_keyword_match": "cellulose/biomass",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125834",
+      "pmid": "42785874",
+      "title": "Cellulose nanocrystal-templated synthesis and distribution of carbon dots to construct covalent networks with enhanced photostability for light management applications.",
+      "authors": [
+        "Wang Ying",
+        "Fan Xinyan",
+        "Liu Jiayu",
+        "Wang Yonggui",
+        "Xiao Zefang",
+        "Xie Yanjun"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "391",
+      "pubDate": "2026-Nov-01",
+      "focus_keyword_match": "cellulose",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125832",
+      "pmid": "42785872",
+      "title": "A Paris polysaccharide adjuvant enhances vaccine immunogenicity via activating antigen-presenting cells in peripheral tissue and lymph nodes.",
+      "authors": [
+        "Wang Zhongjuan",
+        "Pu Debing",
+        "Gu Qinghui",
+        "Luo Lan",
+        "Wu Genrui",
+        "Ma Jiancheng",
+        "Yang Lian",
+        "Li Ya",
+        "Dong Xudong",
+        "Wu Mingyi"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "391",
+      "pubDate": "2026-Nov-01",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125825",
+      "pmid": "42785865",
+      "title": "Polypyrrole nanomorphology-driven sodium alginate based multifunctional hydrogels: Synergistic integration of mechanical robustness, electromagnetic shielding, and strain sensing.",
+      "authors": [
+        "Yu Chengyu",
+        "You Nana",
+        "Pei Chengxu",
+        "Ren Junchao",
+        "Huang Mengde",
+        "Song Shijing",
+        "Xu Yuanyuan",
+        "Zhao Guangbing",
+        "Nie Hao",
+        "Lei Hanwu",
+        "Jiang Xuya",
+        "Wang Fang",
+        "Zhang Qingfa"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "391",
+      "pubDate": "2026-Nov-01",
+      "focus_keyword_match": "hydrogel",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125793",
+      "pmid": "42785844",
+      "title": "pH-responsive colorimetric indicator films based on plasma-modified starch/PVA incorporating ovalbumin-sodium alginate-coated γ-cyclodextrin-MOF nanocomposites for salmon freshness monitoring.",
+      "authors": [
+        "Zou Fanglei",
+        "Yang Miao",
+        "Wang Wei",
+        "Wu Junhua",
+        "Zuo Yongxuan",
+        "Wang Hongying"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "391",
+      "pubDate": "2026-Nov-01",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123928",
+      "pmid": "40733845",
+      "title": "Mass spectrometric analysis of lipid-linked oligosaccharide heterogeneity in genetically modified E. coli used for glycoconjugate bacterial vaccine production.",
+      "authors": [
+        "Palubeckaite Ieva",
+        "Moran Alan B",
+        "Cramer Dario A T",
+        "Torrente-López Anabel",
+        "Smits Wiep Klaas",
+        "Weerdenburg Eveline",
+        "Al Kaabi Ali",
+        "Beurret Michel",
+        "Anish Chakkumkal",
+        "Wuhrer Manfred",
+        "Nicolardi Simone"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123906",
+      "pmid": "40733830",
+      "title": "Fabrication of sodium alginate-hydroxypropyl methylcellulose based bioadhesive eutectogel of Eberconazole for improved anti-fungal activity.",
+      "authors": [
+        "Chachad Jay",
+        "Dey Shidhanto",
+        "Sherje Atul",
+        "Dangre Pankaj",
+        "Borkar Maheshkumar R"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123905",
+      "pmid": "40733829",
+      "title": "Boronate-polyol networks reinforce cellulose-stabilized Pickering emulsions.",
+      "authors": [
+        "Guo Kaidi",
+        "Jiang Jianzhong"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "cellulose",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123903",
+      "pmid": "40733827",
+      "title": "Bioinspired phosphorylated cellulose nanocrystals-based multi-crosslinked binder for enhanced stability and sustainability in silicon anodes.",
+      "authors": [
+        "Zhao Lan",
+        "Lin Fengcai",
+        "Li Haijun",
+        "Qian Lingling",
+        "Shi Yingshan",
+        "Cao Zhiyi",
+        "Yang Xuan",
+        "Huang Biao",
+        "Lu Beili",
+        "Liu Hanyang",
+        "Tang Lirong"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "cellulose",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123900",
+      "pmid": "40733825",
+      "title": "Physical field excitation to modify Cyperus esculentus starch and its complex with EGCG: Multiscale structural changes and digestive behavior.",
+      "authors": [
+        "Li Mengqing",
+        "Wang Guidan",
+        "Sun Lijun",
+        "Liu Xuebo"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123898",
+      "pmid": "40733823",
+      "title": "Guar gum succinate: Dry synthesis, characterization and application as an efficient adsorbent for removal of safranin-O dye.",
+      "authors": [
+        "Tripathi Jyoti",
+        "Gupta Sumit",
+        "Mishra Bibhuti Bhusan"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123894",
+      "pmid": "40733820",
+      "title": "Rhamnogalacturonan-I oligogalacturonide profiling, a tool to elucidate the mode of action of RGI-degrading enzymes and RGI structure.",
+      "authors": [
+        "Lemaire Adrien",
+        "Duran-Garzon Catalina",
+        "Rigaud Sébastien",
+        "Trezel Pauline",
+        "Habrylo Olivier",
+        "Safran Josip",
+        "Voxeur Aline",
+        "Roulard Romain",
+        "Miternique Justine",
+        "Fontaine Jean-Xavier",
+        "Molinié Roland",
+        "Guillaume Anaïs",
+        "Levavasseur Loïc",
+        "Lefebvre Valérie",
+        "Pilard Serge",
+        "Pelloux Jérôme",
+        "Pau-Roblot Corinne"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "pectin",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123893",
+      "pmid": "40733819",
+      "title": "Green and efficient electrospinning of ethyl cellulose-based nanofibrous membrane for high-performance and antibacterial air filtration.",
+      "authors": [
+        "Chen Ruixin",
+        "Wang Qibin",
+        "Shen Ruimin",
+        "Gui Zeqian",
+        "Yan Yuhang",
+        "Tang Min",
+        "Chen Zhiwei",
+        "Shao Zungui",
+        "Zheng Gaofeng"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "cellulose",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123891",
+      "pmid": "40733818",
+      "title": "Chitosan-based Janus dressing with asymmetric wettability for rapid hemostasis, antibacterial protection, and tissue regeneration in hemorrhagic wound management.",
+      "authors": [
+        "Wang Jiyuan",
+        "Ye Haowen",
+        "He Kaitong",
+        "Jiang Weikang",
+        "Lan Wei",
+        "Zeng Zu'an",
+        "Lin Peiran",
+        "Wang Han",
+        "Gao Botao",
+        "Wang Wenlong",
+        "Tang Yadong"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123890",
+      "pmid": "40733817",
+      "title": "Hypolipidemic activity and mechanisms of carboxymethyl pachymaran: Impact of the degree of substitution.",
+      "authors": [
+        "Pei Lina",
+        "Feng Xi",
+        "Zhang Lijia",
+        "Huang Wen",
+        "Mei Zhinan",
+        "Liu Ying"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123885",
+      "pmid": "40733814",
+      "title": "A light-controlled dextran nano-immunomodulator amplifies immunogenic cell death for cancer immunotherapy.",
+      "authors": [
+        "Xu Danni",
+        "Ju Jingxuan",
+        "Chen Wenchao",
+        "Miao Jiaqian",
+        "Chen Sisi",
+        "Wang Junjie",
+        "Xu Li",
+        "Ge Guangbo",
+        "Deng Hongping"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123883",
+      "pmid": "40733813",
+      "title": "On the performance of branching enzymes on chemically modified starches.",
+      "authors": [
+        "Essers Maurice K H",
+        "van den Broek Lambertus A M",
+        "Leemhuis Hans",
+        "Bitter Johannes H"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123882",
+      "pmid": "40733812",
+      "title": "Graft copolymerization of bio-based β-farnesene and n-butyl acrylate onto modified anionic cassava starch via emulsifier-free emulsion polymerization for sustainable adhesives.",
+      "authors": [
+        "Rodrigues Lina D A",
+        "Guerrini Lilia M",
+        "Oliveira Maurício P"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123881",
+      "pmid": "40733811",
+      "title": "Analysis of starch structure, functional properties, and the underlying molecular mechanism in SeaRice86 (SR86).",
+      "authors": [
+        "Huang Yongxiang",
+        "Yang Xiao",
+        "Cui Yilan",
+        "Hu Mangu",
+        "Rong Yunliang",
+        "Ling Yu",
+        "Yang Rongchao",
+        "Zhang Yueqin"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123880",
+      "pmid": "40733810",
+      "title": "Metal-polyphenol network-hardened coconut protein-carboxymethyl cellulose complex coacervates: Fabrication, characterization, environmental stability, and release kinetics.",
+      "authors": [
+        "Li Maye",
+        "Luo Sha",
+        "Cheng Chunmei",
+        "Liang Xun",
+        "Xu Jing",
+        "Guo Zengwang",
+        "Wang Zhongjiang",
+        "Wang Lechuan",
+        "Huang Zhaoxian",
+        "Jiang Lianzhou"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "cellulose",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123878",
+      "pmid": "40733808",
+      "title": "One-pot tailored synthesis of highly monodisperse β-1,3-glucan from sucrose driven by an in vitro self-assembled dual-enzyme system via spy chemistry.",
+      "authors": [
+        "Mao Guotao",
+        "Song Ming",
+        "Yu Jin",
+        "Lin Junhan",
+        "Wang Zhanhe",
+        "Su Zengping",
+        "Xie Hui",
+        "Zhang Hongsen",
+        "Chen Hongge",
+        "Song Andong"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123877",
+      "pmid": "40733807",
+      "title": "Development of derivatization-enhanced EIEIO-driven glycosidic linkage sequencing (DEED-GL-Seq) strategy and its application to glycogen-sourced oligosaccharides profiling.",
+      "authors": [
+        "Zheng Xin",
+        "Ma Yufang",
+        "Cui Xinge",
+        "Wang Yi",
+        "Jiang Jingjing",
+        "Liu Ting",
+        "Zhang Zhijun",
+        "Ma Mingsheng",
+        "Han Xiaohong",
+        "Tie Cai"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123874",
+      "pmid": "40733806",
+      "title": "Distinct morphology and self-assembly behavior of Xylan nanoparticles are correlated with arabinose side-chains in Sorghum.",
+      "authors": [
+        "Wang Youmei",
+        "Zhu Yaoyao",
+        "Li Min",
+        "Ji Bingyi",
+        "Liu Shisheng",
+        "Liu Weiqing",
+        "Hu Zhen",
+        "Zhang Hui",
+        "Zhang Wei",
+        "Peng Liangcai",
+        "Kong Zhaosheng"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "biomass",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123873",
+      "pmid": "40733805",
+      "title": "High-yield nanocellulose from supramolecular chemistry-driven delignified softwood.",
+      "authors": [
+        "Sirviö Juho Antti",
+        "Rekinen Konsta",
+        "Ämmälä Ari"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "cellulose/biomass",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123872",
+      "pmid": "40733804",
+      "title": "Molecular insights into the mechanism between the structural and mechanical properties of glycol chitosan methacrylate hydrogels.",
+      "authors": [
+        "Chang Kai-Hsiang",
+        "Wu Chia-Hung",
+        "Gao Zhen-Jie",
+        "Su Yu-Chia",
+        "Wong Ken-Tsung",
+        "Yeh Yi-Cheun",
+        "Yu Jiashing",
+        "Chou Chia-Ching"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "hydrogel",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123871",
+      "pmid": "40733803",
+      "title": "Enzymatic synthesis and functional characterization of site-specific S/O-linked N-glycopeptides: Elucidating the impact of glycosidic linkage patterns on bioactivity.",
+      "authors": [
+        "Zhai Xiaodan",
+        "Zhang Chengyuan",
+        "Li Jiageng",
+        "Hao Meng",
+        "Lian Jiaqi",
+        "Liu Jia",
+        "Hu Tao",
+        "Guan Wanyi",
+        "Wu Zhigang"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123869",
+      "pmid": "40733801",
+      "title": "Highly stretchable, self-adhesive, and biocompatible cellulose/chitosan based double network hydrogel for wound dressing.",
+      "authors": [
+        "Dai Lili",
+        "Geng Yi",
+        "Ding Xiaofeng",
+        "Zhang Zhikun",
+        "Lai Chenhuan",
+        "Zhang Daihui",
+        "Xia Changlei",
+        "Lai Yongxian"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "cellulose/hydrogel",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123851",
+      "pmid": "40733795",
+      "title": "Lignin-regulated MOF@lignocellulose aerogels for enhanced selective carbon dioxide adsorption.",
+      "authors": [
+        "Zhang Jiaqing",
+        "Wu Bin",
+        "Wang Shaoning",
+        "Zhu Enqing",
+        "Ullah Muhammad Wajid",
+        "Khan Khalid Ali",
+        "Zhang Lili",
+        "Wang Zhiguo"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": "biomass",
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123849",
+      "pmid": "40733793",
+      "title": "Carboxymethyl chitosan and poly-γ-glutamic acid-based gastroretentive sponge with high swelling and mechanical stability for targeted eradication of Helicobacter pylori.",
+      "authors": [
+        "Zhang Xinyuan",
+        "Xie Pei",
+        "Lai Yongkang",
+        "Zhao Jiulong",
+        "Gu Qiuping",
+        "Wei Yingfeng",
+        "Chen Zheng",
+        "Zhang Liang",
+        "Wang Shige",
+        "Sun Hongxin",
+        "Zhu Chunping"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123848",
+      "pmid": "40733792",
+      "title": "Advanced electrochemical sensors for the simultaneous detection of nitrophenol isomers: the synergistic effects in MXene/β-cyclodextrin composites.",
+      "authors": [
+        "Sun Yuyuan",
+        "Liu Chunying",
+        "Chang Shaopeng",
+        "Zhao Jin"
+      ],
+      "publicationName": "Carbohydrate Polymers",
+      "issn": "1879-1344 0144-8617",
+      "volume": "366",
+      "pubDate": "2025-Oct-15",
+      "focus_keyword_match": null,
+      "source": "PubMed E-utilities (ESearch reldate=730 + EFetch full record)"
+    }
+  ]
+}
