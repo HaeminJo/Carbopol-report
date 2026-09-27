@@ -1,0 +1,526 @@
+{
+ "run_timestamp_utc": "2026-09-27_2207",
+ "collection_methods": [
+  "Elsevier Scopus Search API (ISSN 0144-8617, X-ELS-APIKey auth) - candidate discovery via coverDate-desc pagination (scanned ~2000 recent entries)",
+  "PubMed E-utilities (ESearch/EFetch) - abstract & full author list enrichment via DOI match",
+  "Crossref API - author list fallback for 5 very recent Articles-in-Press not yet indexed in PubMed"
+ ],
+ "target_count": 20,
+ "collected_count": 30,
+ "excluded_categories": [
+  "review/systematic review/mini-review (excluded at API query level via subtypeDescription=Article filter)",
+  "microbe-biology-centric studies (2 excluded: Bacteroides butyrate stress-response mechanism; Lactobacillus plantarum proliferation mechanism)"
+ ],
+ "date_range": [
+  "2025-09-01",
+  "2026-11-15"
+ ],
+ "articles": [
+  {
+   "doi": "10.1016/j.carbpol.2026.125839",
+   "title": "Injectable shape-adaptive cellulose hydrogel with antibacterial activity for diabetic wound therapy",
+   "authors": [
+    "Jingming Zhong",
+    "Xin Wang",
+    "Jing Li",
+    "Zijie Wang",
+    "Ze Chen",
+    "Zhengjie Yu",
+    "Yuhe Wu",
+    "Ruizi Wang",
+    "Zheng Wang",
+    "Qingfeng Sun",
+    "Xiaoping Shen",
+    "Hongxia Xie"
+   ],
+   "coverDate": "2026-11-15",
+   "abstract_en": ""
+  },
+  {
+   "doi": "10.1016/j.carbpol.2026.125854",
+   "title": "Equipping chitosan cryogels with a silicon armor for integrated elasticity, hydrophobicity, and flame retardancy",
+   "authors": [
+    "Yang Yu",
+    "Liuchun Zheng",
+    "Bing Wang",
+    "Guangmou Cao",
+    "Xue Ding",
+    "Youzhi Ming",
+    "Jing Wang"
+   ],
+   "coverDate": "2026-11-15",
+   "abstract_en": ""
+  },
+  {
+   "doi": "10.1016/j.carbpol.2026.125874",
+   "title": "Cold gelation of 4-O-methyl-D-glucurono-D-xylan in aqueous media: influence of salts on the rheological behaviour",
+   "authors": [
+    "Raphaël Buret",
+    "Mathieu Madau",
+    "Virginie Dulong",
+    "Didier Le Cerf",
+    "Christophe Rihouey",
+    "Vincent Chaleix",
+    "Luc Picton"
+   ],
+   "coverDate": "2026-11-15",
+   "abstract_en": ""
+  },
+  {
+   "doi": "10.1016/j.carbpol.2026.125868",
+   "title": "Sodium alginate-based environmentally stable tough ionogel sensors integrated with machine learning for high-accuracy static gesture recognition",
+   "authors": [
+    "Yue Xu",
+    "Liwen Kang",
+    "Xin Su",
+    "Qiu Xiang",
+    "Shiyu Wang",
+    "Mengping Zhu",
+    "Zhishuo Chen",
+    "Hanbing Rao",
+    "Tao Zhou",
+    "Gehong Su"
+   ],
+   "coverDate": "2026-11-15",
+   "abstract_en": ""
+  },
+  {
+   "doi": "10.1016/j.carbpol.2026.125855",
+   "title": "Light-responsive liposomes for on-demand degradation of cellulose-based hydrogels",
+   "authors": [
+    "Puja Gangurde",
+    "Yu Cheng",
+    "Suvi Arola",
+    "Kaisa Marjamaa",
+    "Feng-Yueh Chan",
+    "Alexander Efimov",
+    "Patrick Laurén",
+    "Tatu Lajunen",
+    "Takayuki Uchihashi",
+    "Zahra Gounani",
+    "Timo Laaksonen"
+   ],
+   "coverDate": "2026-11-15",
+   "abstract_en": ""
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123710",
+   "title": "Pectin-type polysaccharides from raspberry (Rubus idaeus L.): structure characterization and activity against DSS-induced colitis",
+   "authors": [
+    "Dou Zuman",
+    "Tian Yingpeng",
+    "Zhang Yulong",
+    "Zhang Wenyang",
+    "Duan Qingfei",
+    "Huang Qiang",
+    "Zhang Bin",
+    "Niu Hui",
+    "Wang Lei",
+    "Zeng Shanshui"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "This study explored the structural properties and therapeutic potential of RAP-3 A, a pectin-type polysaccharide extracted from raspberry (Rubus idaeus L.), in DSS (dextran sodium sulfate)-induced colitis. Structural analysis revealed that RAP-3 A, with a molecular weight of 51.03 kDa, is primarily composed of a backbone of 1, 4-galacturonic acid glycan, incorporating a 1, 4-linked α-GalpA and 1, 2-linked α-Rhap disaccharide repeating unit, with branches at C-4 of the Rhap residue comprising 1, 4-linked β-Galp, 1, 6-linked β-Galp, or 1, 5-linked α-Araf. Remarkably, RAP-3 A significantly alleviated colitis symptoms in mice, including weight loss, disease activity index (DAI), and histopathological damage. Mechanistically, RAP-3 A inhibited the TLR4/NF-κB pathway, enhanced intestinal barrier function by upregulating ZO-1 and occludin, and reduced goblet cell depletion. Furthermore, RAP-3 A promoted a favorable shift in gut microbiota composition, increasing the abundance of beneficial SCFA-producing bacteria such as Bacteroidales_S24-7, Rikenellaceae, Clostridiales, Oscillospira, and Lachnospiraceae while suppressing pathogenic bacteria, notably Escherichia. GC-MS analysis further confirmed that RAP-3 A significantly increased fecal SCFAs levels. Collectively, these findings suggest that RAP-3 A holds considerable potential for development as a functional food aimed at the treatment of colitis."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123739",
+   "title": "A low molecular weight fucoidan with high sulfation has anti-obesity activity via gut microbiota regulation",
+   "authors": [
+    "Yu Yanlei",
+    "Zhao Yunjie",
+    "Wang Honggang",
+    "Hua Yi",
+    "Yu Wenchao",
+    "Wang Ningning",
+    "Wei Bin",
+    "Wang Hong"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "Obesity is a chronic disease that can lead to various health complications, including diabetes, hypertension, and cardiovascular disease. Fucoidan has been identified as an effective agent in prevention and mitigation of obesity. However, its absorption and bioavailability are significantly affected by its high molecular weight and poor solubility. In this study, we present a low molecular weight fucoidan, designated as LMWF4, derived from Saccharina japonica, which has a molecular weight of 2.6 kDa and a high sulfation content of 37.7 %. The structural backbone of LMWF4 consists of α-(1 → 3)-L-fucose, with sulfation modifications primarily occurring at the C2 or C4 position. Mouse experiments have demonstrated that LMWF4 exhibits anti-obesity activity by mitigating the reduction of the α-diversity index of intestinal flora induced by a high-fat diet. Furthermore, LMWF4 significantly increased the relative abundance of microbial taxa negatively associated with obesity, including g_Akkermansia;s__uncultured_bacterium and g__Blautia;s__Lachnospiraceae_bacterium. Conversely, LMWF4 was found to decrease the relative abundance of g__Rikenellaceae_RC9_gut_group, which is positively correlated with obesity. Our discovery indicates that modifications characterized by relatively low Mw and a high sulfation degree exhibit a more pronounced anti-obesity effect. Additionally, these modifications demonstrate a greater capacity to regulate intestinal flora disorders, thereby presenting a potential candidate for anti-obesity treatment."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123762",
+   "title": "Cellulose nanocrystals-supported organocatalyst for the synthesis of cyclic carbonates via cycloaddition of carbon dioxide to epoxide",
+   "authors": [
+    "Idrissi Nouaamane El",
+    "Aitbella Hicham",
+    "Merle Nicolas",
+    "Cazaux Frédéric",
+    "Prates Ramalho João P",
+    "Belachemi Larbi",
+    "Kaddami Hamid",
+    "Zinck Philippe"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "The synthesis of cyclic carbonates can be realized via cycloaddition of CO"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123763",
+   "title": "Structural diversity of tea phenolics modulates physicochemical properties and digestibility of wheat starch: Insights into gallic acid group-dependent interactions",
+   "authors": [
+    "Chen Lin",
+    "Chen Yijia",
+    "Tu Linyue",
+    "Xu Anan",
+    "Zhao Yueling",
+    "Ye Qun",
+    "Wang Yuefei",
+    "Xu Ping"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "The structural diversity of tea phenolics constitutes a critical yet underexplored determinant in starch functionality modulation, restricting the precision of current starch modification strategies. This study systematically investigated seven structurally distinct tea phenolics to elucidate their effects on the physicochemical and digestive properties of wheat starch (WS) using an integrated analytical framework encompassing pasting profiling, texture analysis, thermogravimetry, spectroscopic characterization, microstructure observation, and an in vitro digestion model. Results revealed that theaflavin (TF) dose-dependently increased viscosity parameters, while preserving gel hardness and chewiness, whereas gallic acid (GA) reduced both viscosity and textural parameters. Ester-catechins exerted stronger modulatory effects on viscosity and texture than non-ester catechins. Mechanistic analysis identified molecular hydroxyl density and interaction specificity as key structural determinants driving these differential effects. Theaflavin-3,3'-digallate (TFDG) and TF facilitated WS chain crosslinking through bridging interactions, while GA and ester catechins disrupted starch molecular associations and starch-water interaction. Thermal stability of WS-phenolic complexes progressively decreased with increasing concentrations of GA, TF, and TFDG. Phenolics containing galloyl groups markedly reduced starch short-range ordering, whereas TF enhanced structural organization. Digestibility assessments revealed dual action mechanisms where GA and epicatechin gallate (ECG) increased resistant starch content through complexation, while TF and TFDG directly inhibited enzymatic activity."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123773",
+   "title": "Tree thorns-inspired hyaluronic acid-based dissolving microneedles loaded with salvianolic acid B for effective hypertrophic scar treatment with enhanced long-term stability",
+   "authors": [
+    "Mbituyimana Bricard",
+    "Luo Longjun",
+    "Qi Fuyu",
+    "Jiang Yuchi",
+    "Atta Omar Mohammad",
+    "Kishta Mohamed S",
+    "Maboruk Mostafa",
+    "Wu Min",
+    "Ge Wei",
+    "Shi Zhijun",
+    "Yang Guang"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "Hypertrophic scar (HS) represents a natural consequence of abnormal fibroproliferation occurring during wound healing, which not only leads to tissue dysfunction but also causes psychological issues for patients. Up to now, no completely effective therapy for HS has been found. Salvianolic acid B (SalB), one of the natural plant-derived compounds, has the capacity to suppress the fibrosis process in scarring treatment. Nevertheless, due to its poor skin-penetration ability and unsatisfactory stability in existing formulations, its current clinical applicability is restricted. In this study, inspired by the separation behavior of the thorns on the trunks of the silk floss tree, we developed a hyaluronic acid (HA) dissolving microneedle (MN) platform loaded with SalB. This platform can enhance the sustainable delivery of Sal-B directly into scar tissue in a minimally invasive manner, thereby enhancing the efficacy of HS therapy and improving the stability of SalB. To evaluate the therapeutic efficacy of Sal-B MN, we established a rabbit ear HS model. After being administered five times, Sal-B MN significantly reduced the scar elevation index (SEI) and down-regulated the expressions of collagen I, transforming growth factor beta 1 (TGF-β1), Signal Transducer and Activator of Transcription 3 (STAT3), and alpha-smooth muscle actin (α-SMA). Notably, these effects were still evident even after six months of storage at room temperature. This indicates that tree-inspired Sal-B MN holds great potential as a highly effective tool for HS treatment with a long shelf-life. This makes the system suitable for clinical application and storage under various conditions."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123736",
+   "title": "Biguanidylated chitosan nanofiber scaffold: A green approach to promote osteogenesis in calvarial bone regeneration",
+   "authors": [
+    "Saber Mahyar",
+    "Shaabani Alireza",
+    "Sedghi Roya",
+    "Motasadizadeh Hamidreza",
+    "Salimiyan Nahid",
+    "Gholami Marziye",
+    "Nouri Zeinab",
+    "Motedayen Maral",
+    "Dinarvand Rassoul",
+    "Shahmahmoudi Zeinab",
+    "Haramshahi Seyed Mohammad Amin"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "Developing advanced materials for calvarial bone defects is crucial due to the limitations of conventional scaffolds. Chitosan (CS) is biocompatible and promotes bone growth, but its poor water solubility and weak mechanical properties limit its effectiveness. This study introduces a green method to create water-soluble chitosan-based scaffolds to overcome these drawbacks while enhancing antibacterial activity. Biguanidylated chitosan (CSG) was synthesized and combined with polyvinyl alcohol (PVA) to fabricate a novel electrospun nanofiber scaffold (PCSG) using water as the solvent, with heat treatment improving its stability in aqueous environments without additional chemicals. Compared to conventional CS/PVA (PCS) scaffolds, PCSG showed superior properties. Notably, PCSG40 demonstrated a 2.07-fold increase in ultimate tensile strength, a 2.13-fold increase in elongation at break, and a 1.58-fold increase in compressive strength over PCS40. In vitro assays confirmed PCSG40's non-cytotoxicity towards human adipose-derived mesenchymal stem cells (hADSCs) and revealed up to 25 % higher expression of osteogenic differentiation markers compared to PCS40. In vivo implantation in rat calvarial defects demonstrated that the PCSG40 scaffold promoted over 35 % more bone regeneration than PCS40. Additionally, it exhibited significant antibacterial properties against Staphylococcus aureus and Escherichia coli. These findings highlight the promising potential of PCSG40 scaffold for calvarial bone tissue engineering."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123744",
+   "title": "Cellulose-based aerogel material with a three-layer gradient structure for both thermal management and infrared camouflage",
+   "authors": [
+    "Weiguang Song",
+    "Zhen Wang",
+    "Jilei Shi",
+    "Xiaotian Qin",
+    "Chengcheng Wang",
+    "Liping Zhang",
+    "Shaohai Fu"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": ""
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123786",
+   "title": "Dual role of ionic liquid modified β-Cyclodextrin in dynamic conformational regulation and substrate enrichment for improved lipase immobilization",
+   "authors": [
+    "Liran Ji",
+    "Jiaxiang Du",
+    "Wei Zhang",
+    "Zeping Lu",
+    "Binbin Nian",
+    "Yi Hu"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": ""
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123780",
+   "title": "Mussel inspired carboxymethyl cellulose/pectin composite hydrogel with photothermal enhanced antibacterial property for burn wound healing",
+   "authors": [
+    "Yin Liping",
+    "Cui Zhe",
+    "Ma Jintao",
+    "Sun Weichen",
+    "Zhang Yu",
+    "Wang Yong",
+    "Li Wenjuan",
+    "Wang Xianling",
+    "Qin Jianglei"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "The burn wounds are particularly susceptible to bacterial infection, while the hydrogel wound dressings with antibacterial property are expected to promote burn wound repairing progress. In this research, carboxymethyl cellulose bearing hydrazide groups and hemostatic polyphosphate moiety (CHP) was synthesized and cross-linked with dopamine grafted oxidized pectin (OPD) to prepare hemostatic self-healing hydrogel for burn wound repairing. Polydopamine coated graphene oxide (PGO) was loaded into the hydrogel to endow it with photothermal stimulated antibacterial property and enhanced the ROS scavenging ability, which can inhibit bacterial infection and promote tissue regeneration. Moreover, the loaded tannic acid (TA) further enhanced the antioxidant and anti-inflammatory properties of the hydrogel. As a result, the photothermal property of PGO and TA greatly reduced bacterial infection and promoted cell proliferation both in vitro and in vivo. More importantly, the composite PGO/TA/Gel hydrogel exhibited satisfactory therapeutic effect in burn wound healing in mice model through reducing inflammation response, enhance the collagen deposition and promote angiogenesis based on histological analysis. These advantages make this composite hydrogel great potential applications in the field of wound dressings in biomedication."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123759",
+   "title": "A QCM-D-based continuous assay for the study of the enzymatic degradation of insoluble calcium-polygalacturonate",
+   "authors": [
+    "Cannac Nathan",
+    "Fjermedal Sune",
+    "Larsen Jacob Aunstrup",
+    "Buell Alexander K",
+    "Meyer Anne S"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "Pectin is a major component of plant cell walls and constitutes a significant fraction of dicot plant materials. Pectin primarily consists of linear stretches of α-1,4-linked galacturonic acid residues, and is present in plant cell walls as insoluble calcium-crosslinked hydrogels. Most of the enzyme assays developed to date to follow pectin degradation by enzymes are based on using soluble pectic substrates, notably polygalacturonic acid in solution, and therefore lack the specificities of the solid-liquid interface. In this work, we developed a continuous assay to assess the enzymatic degradation of insoluble calcium-polygalacturonate. The substrate was immobilized on the surface of quartz sensors for a Quartz Crystal Microbalance with Dissipation monitoring (QCM-D) and the assay involves using these functionalized sensors for enzymatic rate measurements. We show that the enzymatic rates respond in a dose-dependent manner to the frequency increase during QCM-D measurements and demonstrate that such an assay can detect enzyme attack characteristics that a colorimetric assay using soluble polygalacturonic acid cannot. This QCM-D based assay can be useful for better selection, characterization, and engineering of enzymes for action on insoluble plant matrices."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123790",
+   "title": "Enhanced antifungal activity of chitosan-coated cinnamaldehyde-immobilized thermostable cellulose from spent mushroom substrate against phytopathogenic fungi",
+   "authors": [
+    "Rasheed Usman",
+    "Liu Bin",
+    "Ain Qurat Ul",
+    "Mo Ganhui",
+    "Shan Bin",
+    "Meng Kaikai",
+    "Chen Ganlin"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "Phytopathogenic fungi jeopardize global food security, fueling reliance on synthetic fungicides with severe ecological impacts. Avoiding these chemicals risks a food crisis, highlighting the need for sustainable alternatives. Cinnamaldehyde (CA) is a natural but chemically unstable fungicide, hence requiring stabilization through effective immobilization. This study presents a biodegradable and sustainable alternative to synthetic anchoring materials: spent-mushroom-substrate-derived cellulose. CA immobilized cellulose was coated with chitosan which further enhanced the antifungal potential and contributed to slow release of CA. Cellulose extraction and CA encapsulation were successfully confirmed through analytical characterization. The resulting product (CeCACs) proved a promising fungicide, inhibiting key phytopathogenic fungi Fusarium oxysporum, Aspergillus flavus, and Aspergillus niger at 46. 8 μg/mL and Fusarium solani at 93.7 μg/mL concentration. The obtained minimum inhibitory concentration (MIC) and minimum fungicidal concentration (MFC) values were significantly lower than commercial fungicide, tebuconazole (TB). The fungicidal mechanism involved reactive oxygen species accumulation, plasma membrane damage, and apoptosis-like cell death. Using CeCACs as a peanut seed coating enhanced seedling growth and enriched beneficial endophytic bacteria, while CeCACs fumigation effectively eradicated Fusarium oxysporum from peanut and passion fruit surfaces. This study emphasizes converting agri-waste into a green fungicide, supporting sustainable and regenerative agriculture."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123802",
+   "title": "Development of hydroxyapatite-based Carboxymethylcellulose-Al(III) aerogel beads for efficient and selective defluorination from brick tea infusions",
+   "authors": [
+    "Yu Wenyue",
+    "Guo Huan",
+    "Liu Ya",
+    "Zhou Yangyu",
+    "Xiao Yue",
+    "Bai Jinrong",
+    "Wu Yanping",
+    "Zhong Kai",
+    "Huang Yina",
+    "Gao Hong"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "High fluoride intake from tea consumption poses significant health risks, necessitating the development of defluorination adsorbents in the food industry. Defluorination from tea is particularly challenging due to the requirements for high adsorption efficiency, preservation of sensory quality, and high recovery rates of the adsorbents. In this study, we introduced an innovative aerogel bead, CMC-Al/HAP, which integrates hydroxyapatite (HAP) into a carboxymethylcellulose (CMC) sphere crosslinked with aluminum chloride through a green and straightforward process. Our results demonstrated that CMC-Al/HAP achieved a remarkable fluoride adsorption capacity of 23.51 ± 0.46 mg/g. Subsequently, we investigated the impact of various adsorption parameters, kinetics, isotherms, coexisting anions, and recycling potential on the adsorption behavior of the beads. The adsorption kinetics followed the pseudo-second-order and dubinin-radushkevich models, while the Langmuir isotherm provided a good fit for the adsorption data. Characterization studies conducted before and after adsorption indicated that the adsorption mechanism mainly involved ion exchange and electrostatic interactions. Notably, CMC-Al/HAP effectively reduced fluoride levels in brick tea infusions without affecting quality such as tea color, catechins, and aroma. These findings underscore the potential of CMC-Al/HAP aerogel beads as a practical defluorination solution, providing valuable insights into alternative methods for defluorination in the tea industry."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123789",
+   "title": "Baricitinib-loaded separable microneedle array patch (S-MAP) based on hyaluronic acid for alopecia areata therapy",
+   "authors": [
+    "Jeong Da In",
+    "Lee Song Yi",
+    "Kim Sungyun",
+    "Jo Su-Min",
+    "Yang HeeSeon",
+    "You Jieun",
+    "Hwang ChaeRim",
+    "Huh Ji Won",
+    "Choi Yeoung Eun",
+    "Jo Wonjun",
+    "Choi In-Jeong",
+    "Hu Hae-Jin",
+    "Baek Seung-Ki",
+    "Na Woonsung",
+    "Park Jung-Hwan",
+    "Cho Hyun-Jong"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "Separable and dissolvable microneedle array patch based primarily on hyaluronic acid is designed for the topical delivery of baricitinib in alopecia areata (AA) therapy. Locoregional application of a separable microneedle array patch (S-MAP) may avoid the systemic side effects of oral administration and can be administered without pain compared with typical intradermal injections. Baricitinib (which has poor aqueous solubility) is evenly suspended with sodium carboxymethylcellulose. Subsequently, the mixture is blended with other pharmaceutical excipients, such as hyaluronic acid, sucrose, and Tween 80, to fabricate the S-MAP. Crystalline baricitinib transformed into an amorphous state during the drying process, which may have contributed to complete drug dissolution in the aqueous buffer within 60 min. Proper insertion of a baricitinib-loaded S-MAP into porcine skin tissue and mouse skin is demonstrated using optical coherence tomography and near-infrared fluorescence imaging, respectively. Topical administration of the baricitinib-loaded S-MAP system to the AA lesion of mouse models resulted in significantly higher hair growth compared with the control group (S-MAP: 82 % vs. control: 31 %, p < 0.05). These findings suggest that the baricitinib S-MAP system can be used efficiently and safely, while affording pain-free and self-medication properties, for the AA therapy."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123776",
+   "title": "Comprehensive analysis of salicylic acid-derivatized alginate: Synthesis, characterization, and anti-acne potential",
+   "authors": [
+    "Yuan Mengyao",
+    "Liu Lijia",
+    "Ma Xiaoqing",
+    "Geng Lihua",
+    "Wang Xiuliang",
+    "Wu Ning",
+    "Yue Yang",
+    "Zhang Quanbin",
+    "Wang Jing"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "Salicylic acid (SA) is commonly utilized in the early treatment of acne due to its therapeutic efficacy. However, its clinical performance is hindered by limited aqueous solubility, stability and potential for irritation. This study addresses these challenges through deriving SA with alginate (SA-g-Alg) based on a complementary advantages strategy, designed to retain the bioactivity of SA while mitigating its drawbacks. A comprehensive investigation into the structure, physiochemical properties and anti-acne bioactivities of SA-g-Alg was conducted. The results demonstrate that SA-g-Alg achieved a 30-fold higher aqueous stability compared to free SA, along with enhanced moisturizing capacity and reduced cytotoxicity and skin irritation. These enhancements were attributed to the multi-hydroxy and inherent high biocompatibility of alginate. It is noteworthy that SA-g-Alg, with a grafting degree of 24.9 %, exhibited a synergistic effect, as evidenced by its superior lipid regulating ability, comparable antibacterial efficacy and prolonged anti-inflammatory bioavtivity compared to equivalent salicylic acid group in free SA. Moreover, in vivo studies employing a rabbit ear acne model show that a 2 % SA-g-Alg formulation was as effective as a clinical established 2 % SA ointment in therapeutic management of acne. In conclusion, this study underscores the enhanced physiochemical and anti-acne properties of SA-g-Alg, highlighting its potential as a promising therapeutic agent for the treatment of mild to moderate acne."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123771",
+   "title": "Exploring the masking of berberine bitterness by natural polysaccharides based on a “net-hook” dual-effect mechanism",
+   "authors": [
+    "Qiu Min",
+    "Li Jiaxin",
+    "Xie Huijuan",
+    "Feng Jiamin",
+    "Huang Qi",
+    "Tian Yin",
+    "Huang Haozhou",
+    "Han Li",
+    "Zhang Dingkun"
+   ],
+   "coverDate": "2025-09-15",
+   "abstract_en": "Bitterness masking is a crucial technical hurdle in the development and application of oral liquid medicines. Small-molecule excipients, such as cyclodextrin, often provide insufficient bitterness masking, thus prompting the exploration of large-molecule excipients, especially polysaccharides. In this study, the bitterness-masking effects of 10 polysaccharides were assessed using berberine as a model. Only iota-carrageenan significantly reduced the bitterness of berberine, decreasing it from strong to slight. A comparative study of the bitterness-masking mechanisms of three polysaccharides revealed that carrageenan polymer chains formed an interwoven network, decreasing the release of berberine by 40 %. Moreover, -OSO₃"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123726",
+   "title": "Dual-drug carboxymethyl chitosan hydrogel: Development, characterization, and in vitro evaluation for periodontal therapy",
+   "authors": [
+    "Yılmaz Büşra",
+    "Yıldırım Yeliz",
+    "Yakar Nil",
+    "Özdemir Güven",
+    "Kantarci Alpdogan",
+    "Emingil Gülnur"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "Dual-drug delivery systems offer a novel approach to overcoming the complex challenges of periodontal disease treatment. This study aimed to develop and evaluate a carboxymethyl chitosan-based hydrogel incorporating doxycycline and atorvastatin for local delivery in periodontal therapy. The hydrogel formulations were characterized through Fourier-transform infrared spectroscopy (FTIR), thermogravimetric analysis (TGA), and electron microscopy to assess their structural and physicochemical properties. The hydrogels were evaluated for drug loading efficiency and drug release profiles, antimicrobial activity, and cytotoxicity. The optimized formulation, containing 25 % atorvastatin and 75 % doxycycline, demonstrated a sustained and controlled release profile over 72 h, ensuring prolonged therapeutic effects. It exhibited significant antibacterial efficacy, particularly against Porphyromonas gingivalis, a keystone pathogen in periodontal disease, with inhibition zones reaching 54 ± 1.53 mm. Cytotoxicity assays on human keratinocyte cells (HaCaT) confirmed high biocompatibility, with over 97 % cell viability for the optimized formulation, whereas formulations with higher atorvastatin content exhibited increased cytotoxicity. These findings highlight the potential of this dual-drug hydrogel system as a promising localized treatment strategy for periodontal disease, offering controlled drug release, potent antimicrobial activity, and favorable biocompatibility. Future in vivo and clinical studies are warranted to validate its therapeutic efficacy and translational potential."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123761",
+   "title": "Degradable carboxymethyl cellulose/chitosan sponge swabs for sustainable diagnostics",
+   "authors": [
+    "Liu Boyu",
+    "Cheng Zhangyuan",
+    "Xia Jiujie",
+    "Wang Min",
+    "Zheng Zili",
+    "Yang Shuang",
+    "Shen Yan",
+    "Dai Dandan",
+    "Wang Jiaqi",
+    "Yu Xin",
+    "Guo Chengchen"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "Nucleic acid testing for viral detection typically relies on disposable swabs made from traditional polymers, such as polyethylene (PE), polypropylene (PP), and polyethylene terephthalate (PET). However, the non-degradable nature of these materials leads to the accumulation of solid medical waste, with disposal methods, such as incineration and landfilling, posing significant environmental and economic challenges. To address this issue, we present a sustainable alternative: a degradable sampling swab fabricated from degradable biopolymers, carboxymethyl cellulose (CMC) and chitosan (CS), to mitigate environmental impact. The integration of CS into the CMC matrix enhances the mechanical properties of the swab through the formation of the hierarchically structured coral fiber cluster (CFC). Compared to commercial flock swabs, the developed hierarchically porous sponge swabs demonstrate a 16 % higher viral protein release rate in quantitative detection and a 3 % improvement in sample collection performance. After use, the swab can be fully dissolved or degraded through acid/alkali treatments or natural degradation within a short period. This approach provides a high-performance tool for viral detection and offers a practical and effective solution to reducing medical waste, aligning with sustainable diagnostics."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123732",
+   "title": "Nanocellulose-mediated double-network conductive organohydrogels with self-adhesive, biocompatible and environmentally tolerant properties for wearable biosensors",
+   "authors": [
+    "Zheng Chunxiao",
+    "Ma Jingren",
+    "Lu Ya",
+    "Ye Mingqiang",
+    "Zhou Yihui",
+    "Yang Weisheng",
+    "He Shuijian",
+    "Jiang Shaohua",
+    "Xiao Huining",
+    "Han Jingquan"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "Conductive hydrogels attracted increasing attention due to their excellent stretchability, self-adhesion and biocompatibility. However, conventional conductive hydrogels face the critical problems in extreme environments, such as freezing at low temperatures and evaporating at high temperatures. Introducing traditional cryoprotectant can improve environmental tolerance but reduce the flexibility and conductivity. How to simultaneously achieve high electrical conductivity, mechanical toughness, strong adhesion and extreme environmental-resistance remains a challenge. Herein, a highly stretchable, self-adhesive, biocompatible, extremely temperature-tolerant, double-networked conductive TEMPO-oxidized cellulose nanofibers-graphene/ polyacrylamide-polyacrylic acid-polydopamine-glycerol (TG/P-LP-Gl) organohydrogel is synthesized. The strong hydrogen bonding interactions between glycerol and water inhibit ice formation and prevent water evaporation, providing long-term stability in extreme environments. With 50 % glycerol content, the organohydrogel exhibits promising tensile strength (110.3 kPa), compressive strength (2.64 MPa) and adhesive strength (29.7 kPa), retaining its properties at -20 °C and 70 °C. In addition, the organohydrogel is also used for real-time monitoring of human movements, with the gauge factor (GF) reaching around 15. Therefore, the TG/P-LP-Gl organohydrogel offers a promising solution for sensors in extreme environments with great potential for high performance, low cost and environmentally friendly wearable biosensors."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123707",
+   "title": "A rapid and efficient microenvironment improving hyaluronic acid microneedle dressing for burn wound synergistic treatment",
+   "authors": [
+    "Lei Lin",
+    "Li Wei",
+    "Wang Jiajia",
+    "Liu Qi",
+    "Zeng Feng",
+    "Xiang Yunqiang",
+    "Fu Xinyuan",
+    "Tao Rui",
+    "Yang Zhangyou"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "Burn wounds are often accompanied by severe oxidative stress, sustained high expression of inflammation and solid bacterial biofilms formation. Therefore, it is urgent and important to develop strategies for effectively penetrate biofilms and rapidly regulate the burn pathological microenvironment. Herein, a multi-functional microneedle system was constructed for burn wounds synergistic treatment. Specifically, the nanocomposites HY@IND NCs with anti-inflammatory and antibacterial properties were obtained by co-assembling with solutol HS-15 (HS), ethyl lauroyl arginate hydrochloride (YG) and indomethacin (IND), which could be quickly ingested by bacteria or cells and had the characteristics of regulating the pathological microenvironment indicators for burns. It is then programmed to be loaded into a functional microneedle (MN) system along with the angiogenic drug deferoxamine (DFO) to obtain HY@IND-DFO MN. In vitro and in vivo experiments showed that it could not only effectively penetrate and destroy bacterial biofilms, but also the released HY@IND NCs could timely and effectively modulate the reactive oxygen species (ROS) and inflammatory microenvironment of the burn wounds as well as inhibit bacteria. More importantly, it could cooperate with DFO to promote wound regeneration and repair process. Briefly, this suitable microneedle drug delivery system may provide potential for the regeneration and repair of refractory wounds."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123705",
+   "title": "Poly(acrylic acid)-grafted cellulose nanocrystal reinforced supramolecular adhesives: Ultrahigh strength, humidity resistance, and pH-controlled recyclability",
+   "authors": [
+    "Zhang Liying",
+    "Sun Yihan",
+    "Huang Shasha",
+    "Xu Hongze",
+    "Zhang Zejun",
+    "Jiang Min",
+    "Li Boxiao",
+    "Zong Lu",
+    "Wang Shuxue",
+    "Zhang Jianming"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "Bio-based adhesives have drawn growing attention due to the environmental and ecological issues posed by petroleum-based adhesives. However, their practical applications remain constrained by the limited adhesion strength and insufficient humidity intolerance. Herein, we have developed a bio-based adhesive using poly(acrylic acid)-grafted cellulose nanocrystals (CNC-PAA) and poly(vinyl alcohol) (PVA) through the construction of highly dense non-covalent supramolecular networks. The abundance of active groups and improved cohesion endow the PVA/CNC-PAA adhesive excellent adhesion to diverse substrates, with a strength exceeding 7.52 MPa for ceramics. The rigid network structure and hydrophilicity of CNC-PAA markedly improve the adhesive's stability and humidity resistance, enabling it to retain 75 % of its maximum adhesion strength even at 100 % relative humidity. Furthermore, the high density of hydrogen bonding and structured water allow the adhesive to maintain excellent adhesion at -196 °C. By modulating the hydrogen bonding via pH adjustment, this adhesive also exhibits on-demand adhesion-dispergation and recyclability. In addition, its bio-mass framework renders the adhesive biodegradable character. This work provides a novel approach for developing bio-based adhesives with high adhesion strength, humidity-resistance, and on-demand debonding properties, paving the way for sustainable adhesives in packaging, labeling, cryogenic, and other applications."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123603",
+   "title": "High-barrier bacterial cellulose/polyvinyl alcohol based active packaging material for food preservation",
+   "authors": [
+    "Li You",
+    "Han Wenjia",
+    "Ding Qijun",
+    "Yang Deyuan",
+    "Li Xungan",
+    "Liu Zhuqing",
+    "Wu Qin"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "To attenuate the safety, food spoilage and growing eco-friendly concerns caucused by plastics used in packaging, green degradable materials with antimicrobial and high barrier properties are critical. Herein, a bacterial cellulose/polyvinyl alcohol based packaging film (PBPT) with high-barrier, excellent antimicrobial property and UV resistance was developed for food preservation. Bacterial cellulose (BC) was used to improve the gas barrier performance by hydrogen bonding interactions and in situ induced crystallization of polyvinyl alcohol (PVA) composites. TiO"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123733",
+   "title": "Beyond convention: Construction of β-cyclodextrin-based shape-changing particles capable of light-responsive control and bioactivity application",
+   "authors": [
+    "Qi Pu-Ying",
+    "Shi Li-Hong",
+    "Zheng Zhi-Cheng",
+    "Feng Fu-Mei",
+    "Zhang Tai-Hong",
+    "Luo Rong-Shuang",
+    "Tan Shuai",
+    "Tang A-Ling",
+    "Huang Hou-Yun",
+    "Zhou Xiang",
+    "Xiang Hong-Mei",
+    "Liu Li-Wei",
+    "Yang Song"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "Environmentally triggered major phenomenological switching, including in shape, size, or curvature, is widely found in particles that occur in nature. We demonstrate a generic approach towards dynamically reconfiguring the shape of β-cyclodextrin(β-CD)-based particles to exploit the unique light-responsive behavior that can trigger \"stimuli-responsive\" controlled release of active molecules. In detail, solely enabled by their architecture, flakes and spheres comprising binary complexes formed between β-CD and antibacterial stilbenes molecule and/or azobenzene derivative underwent active reconfiguration, including reversible shape-shifting and bioactivity switching. Interestingly, these two particles (flakes and spheres) exhibited reversible and reproducible changes in their shape over repeated UV-vis irradiation cycles. The \"stimuli-responsive\" shape-shifting of nano-system regulated the switch of bioactivity in vitro and in vivo, inhibited biofilm formation, decreased bacterial motility, and disrupted the flagellar biosynthesis process. Overall, we developed a β-CD-based supramolecular assembly system related to the design and shape-adaptable properties of particles, providing a new paradigm on their prospective applications in nanomedicine/nanopesticide delivery."
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123770",
+   "title": "Exploring the dynamic between yeast mannoproteins structure and wine stability. Part 1: Polysaccharides part characteristics of S. cerevisiae and non-Saccharomyces mannoproteins",
+   "authors": [
+    "Assunção Bicca Saul",
+    "Sieczkowski Nathalie",
+    "Schneider Rémi",
+    "Mekoue Julie",
+    "Poncet-Legrand Céline",
+    "Doco Thierry"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "A thorough characterization of the polysaccharide part of Mannoprotein Pools (MPs) from nine different yeast strains was performed to assess biosynthesis-pathways impact on mannoproteins macromolecular structure and later establish structure-function relationships regarding stabilization properties. The strains comprised one wild-type S. cerevisiae strain, its mutants ΔMnn2 and ΔMnn4 (non-ramified N-glycosylated backbone and lacking mannosyl-phosphorylation, respectively), enological Saccharomyces cerevisiae strains grown in different metabolic conditions (aerobic and anaerobic), and three non-Saccharomyces species: Hanseniaspora vineae, Torulaspora delbrueckii, and Schizosaccharomyces japonicus. Neutral sugars composition for MPs of all strains had mainly mannose but Schizosaccharomyces japonicus strain also presented approximately 33 % of galactose. MPs from non-Saccharomyces strains exhibited significant differences in glycosyl-linkage analysis, especially those from Torulaspora delbrueckii and S. japonicus strains. Global net charge analysis of MP from S. japonicus strain suggests the presence of unknown negatively charged ions. These results dismiss the general N-glycosylated and O-Mannosylated structures obtained from S. cerevisiae. HPSEC-MALLS-QELS-Viscometry analysis revealed higher intrinsic viscosity profiles ([η]xMw) of H. vineae and S. japonicus MPs than S. cerevisiae ones. Metabolic conditions also influenced S. cerevisiae MPs biosynthesis: aerobiosis produced more negatively charged (20C.g"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123723",
+   "title": "Cost-effective sodium alginate-based hydrogel microrobot for multidirectional motion, high-efficiency Cd (II) adsorption and fluorescent detection",
+   "authors": [
+    "Ouyang Jiayu",
+    "Ma Guoxin",
+    "Wang Yuanlan",
+    "Ma Qiang",
+    "Guo Xin",
+    "Wu Yiqiang"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "A sodium alginate-based hydrogel microrobot was developed, incorporating uniformly distributed cellulose nanofibrils, TMU-16, and compartmentalized Fe"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123709",
+   "title": "Chitosan based cryogel loaded with zeolitic imidazolate framework-67 and glucose oxidase enabling hemostasis and diabetic wound healing",
+   "authors": [
+    "Zhang Nannan",
+    "Tian Hongkai",
+    "Zong Wenyi",
+    "Fan Qingao",
+    "Hua Jinlian",
+    "Wang Jinyi",
+    "Tu Qin"
+   ],
+   "coverDate": "2025-09-01",
+   "abstract_en": "The management of diabetic wounds represents a pivotal aspect of clinical care, as the hyperglycemic milieu within these wounds significantly impedes the healing process and predisposes to severe complications. Moreover, uncontrolled hemorrhage post-injury further exacerbates the impediment to wound healing. Cryogels, characterized by their porous architecture, exhibit exceptional capabilities in absorbing blood exudates, facilitating rapid hemostatic and augmenting wound healing. In this study, we utilized a sulfobetaine-modified chitosan and graphene oxide (SCG) composite as the cryogel matrix, which was subsequently impregnated with zeolitic imidazolate framework-67 (ZIF-67) to enhance the cryogel's adsorption capacity and optimizing hemostatic properties. Concurrently, glucose oxidase (GO"
+  }
+ ]
+}
