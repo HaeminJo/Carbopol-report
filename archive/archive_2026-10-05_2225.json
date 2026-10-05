@@ -1,0 +1,75 @@
+{
+  "run_datetime_utc": "2026-10-05_2225",
+  "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, X-ELS-APIKey auth, query=ISSN(0144-8617) AND PUBYEAR>2024 AND DOCTYPE(ar), sort=-coverDate, start/count paging, 725 of 2246 total 'ar'-type entries scanned across the most recent portion of the result set) cross-referenced against state/seen_articles.json (3,605 prior entries) for novelty. Supplementally checked PubMed E-utilities (ESearch: Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt], reldate=60, 274 records) and WebSearch — both returned zero additional unseen non-review candidates, confirming the recent-article backlog for this ISSN is already largely exhausted by prior daily runs. Elsevier Abstract Retrieval API lacked entitlement for abstract text (view=META_ABS/FULL returned AUTHORIZATION_ERROR; default view returned no dc:description). PubMed had no PMID mapping yet for any of the 6 DOIs (too recently published, online 2026-09-17~28, not yet indexed). Crossref and Unpaywall APIs were used instead to confirm author lists and online publication dates; neither source exposed abstract text either (Unpaywall oa_status=closed, no abstract field; Crossref message has no 'abstract' key for these records). Semantic Scholar Graph API was also tried and returned no abstract. As a result, Korean summaries below are based on title + author/affiliation metadata only, not on any English abstract text (none was available from any source), consistent with the rule against copying English abstracts. Reviewed titles to exclude subtype=re (review) articles and microbiology-core topics; none of the 6 candidates were excluded on either ground.",
+  "target_count": 20,
+  "collected_count": 6,
+  "focus_keyword_count": 3,
+  "nonfocus_count": 3,
+  "exclusion_criteria": "Excluded: review/systematic review/mini-review (subtype=re); microbiology-core topics (bacteria/fungi/yeast strain biology or culture optimization as the core focus).",
+  "pending_unresolved_candidates": [],
+  "pending_note": "Scanned 725 of 2246 total Scopus DOCTYPE(ar) entries for PUBYEAR>2024 (most recent first); remaining ~1521 older entries were not individually re-scanned this run since all entries checked so far beyond the newest 6 were already present in seen_articles.json, indicating the active backlog boundary is well above that depth.",
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125850",
+      "title": "Multifunctional nonwovens: assessing the performance of lignin-modified regenerated cellulose fibres",
+      "authors": "Thalita Damaceno, João Medeiros, Marta A. Teixeira, Fábio Bernardo, Daniela C. Ferreira, Lúcia Rodrigues, Pedro Loureiro, Nelson Durães, Carla J. Silva, Dmitry V. Evtuguin",
+      "pubdate": "2026-09-17",
+      "focus_keywords": [
+        "cellulose",
+        "biomass"
+      ],
+      "is_focus": true,
+      "kr_summary": "리그닌으로 화학적으로 개질한 재생 셀룰로오스 섬유를 방사하여 부직포(nonwoven) 소재를 제작하고, 열적·기계적 안정성과 자외선 차단, 항산화 등 복합 기능성을 평가한 연구이다. 목재 바이오매스에서 유래한 리그닌을 셀룰로오스 매트릭스에 도입함으로써 기존 재생섬유 부직포가 가진 한계(기능성 부족)를 보완하려는 접근으로, 텍스타일·위생재 등 산업적 응용을 겨냥한 소재 특성평가 중심의 연구로 판단된다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125893",
+      "title": "Fabrication and characterization of zein/PVA nanofibers containing ferulic acid-loaded cyclodextrin metal-organic framework for enhanced sustained release and bioavailability",
+      "authors": "Yucheng Zou, Manjun Kang, Kaiyuan Cao, Xiaorui Su, Boyu Huaxing, Zeyu Qin, Abdullah, Jiyong Shi, Xiaowei Huang, Xiaobo Zou",
+      "pubdate": "2026-09-23",
+      "focus_keywords": [],
+      "is_focus": false,
+      "kr_summary": "제인(옥수수 단백질)과 PVA를 혼합한 나노섬유에, 페룰산을 사이클로덱스트린 기반 금속-유기 골격체(CD-MOF)에 담지한 복합체를 전기방사로 제작하여 생리활성물질의 서방출과 생체이용률을 동시에 높이려 한 연구이다. 단백질-합성고분자-다공성 금속유기구조체를 결합한 다단계 캡슐화 전략을 통해 기능성 식품 및 경구 전달체 분야로의 적용을 염두에 둔 것으로 보인다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125894",
+      "title": "Low-conjugation amino chromophore-stabilized oxidized cellulose for efficient room-temperature phosphorescence",
+      "authors": "Xi-Peng Zhang, Zheng-Yu Liu, Yi-Kun Zhu, Yuman Qin, Jie Yan, Sheng Yang, Siheng Wang, Jia-Long Wen, Zhijun Chen, Tong-Qi Yuan",
+      "pubdate": "2026-09-23",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "is_focus": true,
+      "kr_summary": "셀룰로오스를 산화시켜 알데히드기를 도입한 뒤, 공액구조(conjugation) 정도가 낮은 아민계 발색단을 결합시켜 상온에서도 비교적 오래 지속되는 인광(room-temperature phosphorescence, RTP) 특성을 구현한 연구이다. 희귀금속이나 중금속 첨가제 없이 천연 고분자인 셀룰로오스 골격만으로 발광 소재를 설계했다는 점에서, 친환경 광학 소재·센서·위변조방지 라벨 등으로의 응용 가능성을 제시한다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125897",
+      "title": "Plant GH9 enzymes and their β-1,4–glycan substrates: From in vitro EGase activity to in vivo functions",
+      "authors": "Katja Karppinen, Kouki Yoshida, Thomas Bawin, Michitaka Notaguchi, Kazutaka Katoh, Kirsten Krause, Toshihisa Kotake",
+      "pubdate": "2026-09-24",
+      "focus_keywords": [],
+      "is_focus": false,
+      "kr_summary": "식물이 자체적으로 생산하는 글리코시드 가수분해효소 9패밀리(GH9, 엔도글루카나아제류)가 셀룰로오스 및 관련 β-1,4-글리칸 기질을 분해하는 시험관 내 활성과, 식물 발달 과정에서 세포벽 재구성에 관여하는 생체 내 기능을 종합적으로 정리·비교한 연구이다. 미생물이 아닌 식물 자체의 효소 체계를 다룬 것으로, 셀룰로오스 분해효소의 작용기작 이해를 통해 식물 유래 바이오매스의 효소적 전처리·분해 전략 수립에 기초자료를 제공한다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125898",
+      "title": "Hydrogel electrolytes regulated by hydroxypropyl methylcellulose and hydroxyethyl cellulose for zinc-ion hybrid supercapacitors",
+      "authors": "Chunling Liu, Huaqing Zhang, Qingqian Pan, Xieraili Maimaitiyiming",
+      "pubdate": "2026-09-25",
+      "focus_keywords": [
+        "hydrogel",
+        "cellulose"
+      ],
+      "is_focus": true,
+      "kr_summary": "히드록시프로필 메틸셀룰로오스(HPMC)와 히드록시에틸셀룰로오스(HEC) 두 가지 셀룰로오스 유도체의 배합비를 조절해 하이드로젤 전해질의 고분자 네트워크 구조를 제어하고, 이를 유연 아연-이온 하이브리드 슈퍼커패시터에 적용한 연구이다. 셀룰로오스 유도체 조성 조절을 통해 하이드로젤의 수분 유지력과 이온 전도 경로를 최적화함으로써 에너지저장 디바이스의 전기화학적 안정성과 내구성을 높이고자 한 것으로 판단된다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125906",
+      "title": "Starch crystal and fine structure govern the digestive behavior of V-type complexes with proteolytic peptide: Dynamic structural evolution and sustained release during digestion",
+      "authors": "Xiang Huang, Rong Feng, Yue Li, Song Zhu, Dejian Huang",
+      "pubdate": "2026-09-28",
+      "focus_keywords": [],
+      "is_focus": false,
+      "kr_summary": "전분이 지질 유사 물질 대신 단백질 분해 펩타이드와 결합하여 형성하는 V형(V-type) 나선 복합체의 결정구조와 미세구조가 소화 과정 동안 어떻게 동적으로 변화하는지를 추적하고, 이 구조 변화가 펩타이드의 서방출 거동 및 전분의 소화저항성에 미치는 영향을 분석한 연구이다. 전분-펩타이드 복합체의 소화 단계별 구조 변화를 규명함으로써 저속 소화성 전분 기반 기능성 식품 설계에 활용 가능한 구조-기능 상관관계를 제시한다."
+    }
+  ]
+}
