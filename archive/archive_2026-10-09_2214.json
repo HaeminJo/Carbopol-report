@@ -1,0 +1,526 @@
+{
+  "run_timestamp_utc": "2026-10-09_2214",
+  "collection_methods": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, X-ELS-APIKey auth) - full paginated scan of PUBYEAR>2024 result set (2738 entries, 25/page x 110 pages)",
+    "PubMed E-utilities ESearch/EFetch (DOI-based [AID] lookup) used to retrieve abstracts/authors for 28 of 32 selected articles",
+    "CrossRef API (DOI lookup) used to retrieve author lists for 4 very recent Articles-in-Press not yet indexed in PubMed (no abstract available)"
+  ],
+  "eligibility_criteria": [
+    "subtypeDescription == Article (Review/Erratum/Retraction/Conference Paper excluded)",
+    "Published within 2 years",
+    "Excluded if core topic is microorganism biology itself (strain development, culture optimization) rather than the polysaccharide/polymer material"
+  ],
+  "target_count": 20,
+  "collected_count": 32,
+  "target_met": true,
+  "total_unseen_candidates_before_selection": 611,
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125901",
+      "title": "Self-powered chitosan-based nanofibrous intelligent packaging for monitoring of strawberry freshness",
+      "coverDate": "2026-11-15",
+      "authors": [
+        "Yueming Hu",
+        "Feijie Wang",
+        "Shiqiang Ouyang",
+        "Yan Ma",
+        "Qianru Meng",
+        "Zhongli Liu",
+        "Jinghan Zhang",
+        "Shufeng Ma",
+        "Liqiang Wang"
+      ],
+      "abstract": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125808",
+      "title": "Dual-functional quaternized chitosan-modified carbon dots within a polymeric fiber-gel scaffold for infected wound healing",
+      "coverDate": "2026-11-15",
+      "authors": [
+        "Yuanyuan Geng",
+        "Fangman Chen",
+        "Yanteng Xu",
+        "Xiaowei Hao",
+        "Chenxi Ye",
+        "Enguo Ju",
+        "Haixia Wang",
+        "Yu Tao",
+        "Mingqiang Li",
+        "Yi Wang",
+        "Qing Yuan"
+      ],
+      "abstract": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125876",
+      "title": "Maltodextrin-shielded pumpkin seed protein nanoparticles formed by Maillard-induced protein modification for oral pterostilbene delivery",
+      "coverDate": "2026-11-15",
+      "authors": [
+        "Linrong Yu",
+        "Ao Li",
+        "Lei Tian",
+        "Ying Jie"
+      ],
+      "abstract": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125902",
+      "title": "Supramolecular α-cyclodextrin-mediated fully bio-based Pickering emulsions as plant-derived biopesticide erucamide delivery systems enabling sustainable crop protection",
+      "coverDate": "2026-11-15",
+      "authors": [
+        "Hanghang Zhang",
+        "Longzhu Bao",
+        "Wei Wang",
+        "Manli Yu",
+        "Chong Cao",
+        "Pengyue Zhao",
+        "Qiliang Huang",
+        "Lidong Cao"
+      ],
+      "abstract": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123610",
+      "title": "Efficient one-step synthesis of cellulose acetate in ionic liquid using sodium acetate as a homogeneous catalyst",
+      "coverDate": "2025-07-15",
+      "authors": [
+        "Yujia Liu",
+        "Lina Zhang",
+        "Qurat Ul Ain",
+        "Zhangfa Tong"
+      ],
+      "abstract": "Cellulose acetate (CA) has traditionally been synthesized through processes that require the activation of cellulose, the use of corrosive acid catalysts, and subsequent hydrolysis. These factors make the process complex, costly, and environmentally harmful. This study proposed a method for preparing cellulose acetate by coupling sodium acetate (a non-toxic metal salt) with 1-butyl-3-methylimidazole chloride (BmimCl) ionic liquid. Single-step synthesis of cellulose acetate with a degree of substitution (DS) ranging from 0.71 to 3.0 was achieved under varying reaction conditions. The experimental results demonstrated that adding sodium acetate significantly enhanced the acetylation efficiency of cellulose in an ionic liquid across a broad temperature range. In addition, the cellulose acetate film prepared by this method has 95 % transparency, a tensile strength of 64.5 ± 1.9 MPa, and a water vapor permeability of 34.48 ± 1.47 g/m"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123622",
+      "title": "Janus structured cellulose-based aerogel with vertical channels and conical roof for efficient solar-driven water evaporation and pollutant degradation",
+      "coverDate": "2025-07-15",
+      "authors": [
+        "Guodong Tian",
+        "Chao Duan",
+        "Baoke Zhao",
+        "Kang Yang",
+        "Jinyu Guo",
+        "Yijian Wen",
+        "Bingxu Zhou",
+        "Jian Wang",
+        "Yonghao Ni"
+      ],
+      "abstract": "Solar-driven water evaporation technology has become a research hotspot due to its effective utilization of solar energy to purify water resources. However, current water evaporation materials still encounter challenges such as limited evaporation rates, insufficient water/heat management capabilities, and inadequate removal of complex pollutants. This study demonstrates a novel Janus solar evaporator (HZC-CNF) based on the TEMPO-oxidized cellulose nanofibril (TOCNF) aerogel for a synergy of photothermal water evaporation and pollutant degradation. The unique structures of vertically aligned channels and conical roof not only enable the light adsorption and multiple scattering, but also enhance the evaporation area and water transport paths. Meanwhile, the silanization modification of the photothermal layer effectively reduces its heat loss to further enhance the thermal management capability. Moreover, the cellulose-based aerogel with abundant hydrogen-bonding network can lower the water evaporation enthalpy, and the well-dispersed ZIF-67 catalysts among the evaporator matrix deliver the efficient degradation towards various organic pollutants. Results show that HZC-CNF exhibits an excellent photothermal conversion capability (surface temperature 90 °C), a good water evaporation rate of 1.97 kg m"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123593",
+      "title": "Proliferation and differentiation of human dental pulp stem cells on phosphorylated cellulose nanofiber scaffolds",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Akihiro Iwasaki",
+        "Mayumi Hatakeyama",
+        "Qimei Liu",
+        "Ai Orimoto",
+        "Tomokazu Fukuda",
+        "Takuya Kitaoka"
+      ],
+      "abstract": "Human dental pulp stem cells (hDPSCs) are a promising cell source for tooth regeneration therapies. However, conventional culture scaffold materials are often animal-derived, leading to immunogenicity concerns and limited availability. In this study, we explored phosphorylated cellulose nanofibers (P-CNFs), which have a fine fiber morphology and phosphate groups, as a novel scaffold material for cell culture. Immortalized hDPSCs were cultured on P-CNF scaffolds with different phosphate contents (0-1.42 mmol g"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123570",
+      "title": "Hawthorn pectin mitigates high-fat diet induced hyperlipidemia in mice through promoting Dubosiella newyorkensis",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Qianyun Zhao",
+        "Yubin Liu",
+        "Mingxing Li",
+        "Long Zhao",
+        "Tiangang Wang",
+        "Yaqin Xiao",
+        "Shulin Wei",
+        "Ke Wu",
+        "Jiayue Yang",
+        "Yaqiu Wang",
+        "Yueshui Zhao",
+        "Fukuan Du",
+        "Yu Chen",
+        "Shuai Deng",
+        "Jing Shen",
+        "Zhangang Xiao",
+        "Zhi Li",
+        "Shengpeng Wang",
+        "Xu Wu"
+      ],
+      "abstract": "Hawthorn fruit is rich in pectins; however, the gut microbiota-modulating effects of hawthorn pectin remain unclear. In this study, enzyme-extracted hawthorn pectin (M"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123584",
+      "title": "Adsorbent semi-transparent cellulose-based self-standing thin films",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Andrea Brattelli",
+        "Luigi Gentile"
+      ],
+      "abstract": "Cellulose-based materials are emerging as versatile candidates for sustainable functional materials. This study presents a straightforward process to fabricate cellulose-based, self-standing films using 12 wt% microcrystalline cellulose (MCC) in an aqueous solution of 40 wt% tetrabutylammonium hydroxide (TBAH). TBAH, as an out-of-equilibrium solvent capable of dissolving MCC, is utilized to fabricate self-standing cellulose films through gelation induced by cellulose I-cellulose II precipitation. The films exhibit moderate mechanical properties, with a Young's modulus approximately 460 MPa, tensile strength ranging from 1 to 4 MPa, and an elongation at break of about 2 %. The incorporation of zinc salts (0.2 M) does not significantly affect the overall mechanical properties. Their long-term stability is ensured by TBAH and zinc salts, both of which are known to prevent microbial growth. These films demonstrate a strong adsorption capacity for water-soluble contaminants like methylene blue, making them valuable for wastewater treatment and dye detection. Their multifunctional attributes position them as sustainable materials for advanced applications, including antimicrobial packaging, water purification systems, and potentially biomedical technologies. Overall, these cellulose-based films offer promising solutions for critical global challenges."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123561",
+      "title": "Covalently linked phosphate monoesters on alpha-polyglucans reduce substrate affinity of branching enzymes",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Victoria Butler",
+        "Hanan Shaaban",
+        "Lilya Nasanovsky",
+        "Jessica K V White",
+        "Owen Hebb",
+        "Lynne Jones",
+        "Megan Whiting",
+        "Neije Mukherjee-Roy",
+        "Alina P Montalbano",
+        "Carmen Elena Machado Vides",
+        "Felix Nitschke",
+        "Ian J Tetlow"
+      ],
+      "abstract": "Starch and glycogen are α-polyglucans which represent important sources of long- and short-term cellular carbohydrate storage synthesized in living cells. Both polyglucans contain variable, but significant, levels of covalently bound phosphate monoesters whose biological role is likely connected to the regulation of turnover of these storage polymers by promoting water solubility. The amount of α-glucan-bound phosphate found in plant starch appears to be closely related to the average chain length of α-1,4-glucans, and inversely related to the frequency of α-1,6-branch linkages. The enzymes responsible for adding branches to linear α-1,4-glucan chains in starch and glycogen are 1,4-α-glucan: 1,4-α-glucan 6-glucosyl transferases (branching enzymes). In this study, glucan bound phosphate was shown to reduce the affinity of branching enzymes for α-glucan substrates. Plant starch branching enzymes and glycogen branching enzymes from various prokaryotic and eukaryotic sources showed reduced substrate affinities in native gels as the α-glucan phosphate content was increased. The substrate affinities of all branching enzymes tested showed an inverse linear relationship with α-glucan phosphate content. The possible biological significance of this phenomenon is discussed in relation to known models of starch structure in plants and specific glycogen storage diseases in mammals."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123573",
+      "title": "Lignin's effect on cellulose fiber bonding and inter-fiber interface design for enhancing densified wood",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Kunpeng Li",
+        "Lihong Zhao",
+        "Junli Ren",
+        "Beihai He"
+      ],
+      "abstract": "We hypothesize that the existence of an \"optimal bonding layer\" at the cellulose fiber interface, where the bonding force between cellulose fibers is maximized at a critical lignin content, resulting in the highest tensile strength of densified wood. Specifically, the tensile strength of densified wood reached a peak value of 347.5 MPa at a lignin content of 1.99 %, suggesting an optimal bonding force between cellulose fibers at this concentration. To validate this inference, atomic force microscopy (AFM) force spectroscopy was employed to simulate the bonding force between cellulose fibers by measuring the adhesion forces between cellulose nanofibrils (CNF)-modified microspheres and lignin-containing CNF films. The results showed that the adhesion force was maximized when the lignosulfonate content was 2 %. These results support the concept of an \"optimal bonding layer\". Based on these findings, polyvinyl alcohol (PVA) was incorporated into the bonding interface between cellulose fibers, resulting in a substantial enhancement in tensile strength, reaching 770.6 MPa at the optimal PVA content. This study provides insights into the mechanism of cellulose fiber bonding enhancement in densified wood, offering a theoretical foundation for the development of high-performance cellulose fiber materials."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123537",
+      "title": "Bioactive chitosan-BSA Maillard-derived chrysin-loaded nanoparticles: A gastroprotective, biomucoadhesive approach for enhanced oral therapy in ulcerative colitis",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Chandrashekhar Jori",
+        "Anas Ahmad",
+        "Ajay Kumar",
+        "Bhuvnesh Kumar",
+        "Aneesh Ali",
+        "Nemat Ali",
+        "Heena Tabassum",
+        "Rehan Khan"
+      ],
+      "abstract": "The current limitations of oral nanomedicines such as aminosalicylates, immunosuppressants, corticosteroids, and antibiotics include the toxic byproducts from nanocarrier synthesis, poor targeting and retention within the inflamed colon, delayed release at inflammation sites, susceptibility to gastric degradation, reduced efficacy under hypoxic conditions, MUC2 homeostasis disruption, and insufficiently addressing the disease's root causes. This research presents an innovative approach of using non-toxic, biodegradable, and biocompatible Maillard reaction-based nanoparticles (MPs) for targeted oral drug delivery in IBD therapy. Through the development of mucoadhevise chitosan-bovine serum albumin Maillard nanoparticles shielded with biocompatible, non-toxic, non-immunogenic, gastroprotective pectin (P@CMPs) encapsulating with chrysin, a flavonoid with anti-inflammatory and hyperoxia properties whose bioavailability is negatively affected by gastric degradation. P@CMPs had a spherical, uniform 300 nm hydrodynamic diameter, confirmed by TEM and FESEM. Chrysin encapsulation efficiency and loading capacity were ∼96 % and 16 %, respectively, demonstrating effective nanoparticle formulation The P@CMPs is designed to withstand the gastrointestinal environment, ensuring targeted delivery and prolonged retention in inflamed colonic regions. In a dextran sodium sulfate-induced colitis mouse model, P@CMPs markedly mitigated inflammation, suppressed proinflammatory cytokine levels, and augmented the expression of MUC2, a crucial factor for maintaining the integrity of the gut barrier. By employing non-toxic, biocompatible and biodegradable materials, our P@CMPs approach offers a promising avenue for advancing IBD treatment, addressing various challenges and precise oral delivery within the gastrointestinal system."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123590",
+      "title": "Chiral stationary phase based on chitosan Schiff base derivatives for enantioseparation",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Jing He",
+        "Jiangbo Xi",
+        "Bowen Han",
+        "Qi Xiao",
+        "Dandan Guo",
+        "Shaohua Huang"
+      ],
+      "abstract": "Chitosan derivatives play an important role in the field of enantioseparation due to their favorable chiral recognition properties. However, the preparation of chitosan derivatives with good chiral separation properties and organic solvent tolerance still needs further exploration. Herein, we report the synthesis of two types of chitosan Schiff bases via condensation reactions between chitosan and halogenated benzaldehydes, and subsequently modified with methyl-substituted phenylcarbamates, resulting in four chitosan-3,6-bis(phenylcarbamate)-2-Schiff base derivatives with high substitution degree. Thereafter, four chiral stationary phases were prepared by coating the chitosan derivatives onto aminopropyl silica gel and assessed for their enantioseparation performance using 20 chiral compounds via high-performance liquid chromatography. Findings show that the best chiral stationary phase recognizes 19 chiral compounds and provides a baseline separation of 10 chiral compounds, including a pharmaceutical intermediate ethyl mandelate (maximum resolution: 4.18) and aromatic amide-type chiral drugs. Based on the strong interaction of molecular forces in the structure of chitosan-3,6-bis(phenylcarbamate)-2-Schiff base derivatives, the chiral stationary phases based on chitosan Schiff base derivatives are tolerant to ethyl acetate and acetone. Furthermore, electronic circular dichroism analysis revealed that substituents at the C2, C3, and C6 positions significantly influenced the secondary structure of chitosan derivatives, and thus correlating with their enantioselectivity."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123569",
+      "title": "Scalable, robust, omnidirectional antireflective, superhydrophobic coatings based on chitin nanofibers for efficient solar energy collection",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Li Zhang",
+        "Lili Ren",
+        "Wei Song",
+        "Nan Wu",
+        "Shuai Wang",
+        "Qiancheng He",
+        "Qingzhu Zhang"
+      ],
+      "abstract": "The growing demand for renewable energy has driven the development of antireflective coatings with excellent environmental durability and mechanical robustness, aimed at improving the efficiency of solar energy collection on solar panels. A robust and omnidirectional antireflective superhydrophobic coating with gradient refractive index (1.49 to 1.30 from bottom to top) was fabricated by using chitin nanofibers (ChNFs) and methylsilanized silica (Mesil) through lay-by-layer (LbL) self-assembly. The transmittance gains of a glass substrate with the ChNF/Mesil multilayered coating yielded 8.3 % at 550 nm and 7.6 % at 650 nm, respectively. The antireflective coating possessed superhydrophobicity with a water contact angle of 168° and a near-zero sliding angle of 0.3°. Even after 100 days of outdoor exposure in real environments, the coating maintained its antireflective superhydrophobic properties and self-cleaning performance. Compared with the solar panel (21.7 mV/cm"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123591",
+      "title": "Recyclable methylcellulose-based reversibly cross-linked hydroplastics with excellent environmental stability for use in flexible printed circuit boards capable of safe disposal",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Zhiqi Wang",
+        "Qing Bai",
+        "Wenjie Wang",
+        "Yunan Qing",
+        "Yixuan Li",
+        "Junqi Sun"
+      ],
+      "abstract": "Recyclable and degradable flexible bio-based plastics integrating high stability and efficient disintegration on demand are suitable for the fabrication of flexible printed circuit boards (FPCBs) capable of safe disposal. However, it is challenging to develop a facile and environmentally friendly method to fabricate such bio-based plastic substrates. Herein, recyclable and degradable reversibly cross-linked hydroplastics with high thermal stability and water stability used as the substrates of FPCBs are fabricated through the complexation of methylcellulose (MC) and tannic acid (TA) in pure water, followed by hot-pressing. Because of dynamic nanoconfinement phases, the bio-based hydroplastic (denoted as TA-MC) with a breaking strength of 109.6 MPa possesses a high storage modulus of 2.85 GPa at 180 °C. Even being immersed in water for 15 days, the hydroplastic still retains a high breaking strength of 40.4 MPa. Owing to the reversibility of hydrogen bonds, the hydroplastic can be recycled for several times. Moreover, FPCBs composed of flexible TA-MC substrates and 3D printed sensing components can be employed for reliable underwater detection. Electronic components can be easily separated from the FPCBs by dissolving TA-MC substrates in medical alcohol and residue polymer matrices, which degrade into non-toxic substances in soil, can be safely discarded without polluting the environment."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123577",
+      "title": "Hesperidin-loaded self-assembled supramolecular hydrogel based on quaternized chitosan as efficient photothermal antibacterial dressing for MRSA-infected wound healing",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Yamin Xiong",
+        "Yi Hao",
+        "Linlin Ding",
+        "Jinjin Li",
+        "Yuan Cao",
+        "Shuhui Fan",
+        "Fangxia Guan",
+        "Leiliang He"
+      ],
+      "abstract": "The management of infected chronic wounds is one of the urgent challenges. Herein, a hesperidin (Hes)-loaded self-assembled supramolecular hydrogel based on quaternized chitosan (CQHP) has been developed as an efficient photothermal antibacterial dressing for MRSA-infected wound healing. Specifically, CQHP hydrogels fabricated through the dynamic noncovalent interactions among CM-β-CD grafted QCS, Hes, proline and Fe"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123586",
+      "title": "Flexible and weavable secondary Zn-MnO2 batteries derived from cellulose of Juncus effusus",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Yuefei Zou",
+        "Wanlin Wu",
+        "Tian Xia",
+        "Jiangqi Zhao",
+        "Qunhao Wang",
+        "Wei Zhang",
+        "Canhui Lu"
+      ],
+      "abstract": "To keep pace with the fast development of portable and wearable electronics, considerable public and scientific attentions have been paid to the flexible energy storage devices with characteristics of light weight, low cost and high electrochemical performance. In this work, we demonstrate a feasible strategy to fabricate novel strand-shaped electrodes from the biomass of Juncus effusus (JE), which can be easily integrated into flexible and rechargeable Zn-MnO"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123571",
+      "title": "Dopamine-alginate-zinc ion dressings employing synergistic active and passive antimicrobial strategies for enhanced burn wound infection management and accelerated healing",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Sha Zhou",
+        "Miao Zhang",
+        "Linyuan Xue",
+        "Jiyixuan Li",
+        "Xinyue Ma",
+        "Zihan Zheng",
+        "Tianrui Wang",
+        "Xiaobo Wen",
+        "Ying Yang",
+        "Saisai Yan",
+        "Qihui Zhou",
+        "Bing Liang",
+        "Dongming Xing"
+      ],
+      "abstract": "Burn wounds are particularly challenging to manage due to high infection rates, excessive exudate, and impaired healing. We developed an innovative burn Polydopamine-Alginate-Zinc ion (Zn"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123574",
+      "title": "Facile fabrication of electrospun hybrid nanofibers integrated cellulose, chitosan with ZIF-8 for efficient remediation of copper ions",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Kaixing Zhang",
+        "Chaojie Zhu",
+        "Linkun Xie",
+        "Lianpeng Zhang",
+        "Xijuan Chai",
+        "Chunhua Wu",
+        "Siqun Wang",
+        "Wanxi Peng",
+        "Guanben Du",
+        "Kaimeng Xu"
+      ],
+      "abstract": "To removal copper ions (Cu"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123567",
+      "title": "Constructing anisotropic and strong polysaccharide-based hydrogels with stretching-dehydration strategy: Effect of sodium alginate, pectin, gellan gum, and curdlan",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Jun He",
+        "Jingwen Zhao",
+        "Wenzhe Jia",
+        "Yi Cui",
+        "Siyu Wei",
+        "Yiguo Zhao",
+        "Yapeng Fang"
+      ],
+      "abstract": "Polysaccharide-based hydrogels are widely utilized in the food industry and materials science due to their safety and abundance from natural sources. However, their functionality is often limited by poor mechanical properties, primarily due to their simple and isotropic structures. In this study, the stretching-dehydration (SD) processing was applied to create anisotropic structure and enhance the mechanical properties in polysaccharide-based hydrogels, specifically sodium alginate (SA), pectin (PE), gellan gum (GG), and curdlan (CU). Among these, low molecular weight sodium alginate (SA-L) hydrogel exhibited notable stretching-induced anisotropy and structural stability during dehydration. Furthermore, increasing the controlled strains (CSN) could improve anisotropy, stretching strength, and Young's modulus which reached up to 100 MPa in anisotropic SA-L hydrogel. The anisotropic hydrogels closely mimicked the microstructure of whole-muscle foods. Sensory evaluations highlighted the enhanced chewiness and hardness, suggesting the anisotropic hydrogels are promising candidates for emulating whole-muscle textures. This work highlights the potential of anisotropic hydrogels produced through simple SD treatment as advanced materials for both food and biomimetic applications."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123580",
+      "title": "Innovative properties of sustainable galactomannans from seeds of Adenanthera pavonina, Caesalpinia pulcherrima and Delonix regia",
+      "coverDate": "2025-07-01",
+      "authors": [
+        "Marcilia P Costa",
+        "Maurycyo S Geronço",
+        "Igor F da S Ramos",
+        "Monalisa de A Lucena",
+        "Ricardo Araújo",
+        "Iluska M Pinheiro",
+        "Rayran Walter R de Sousa",
+        "Paulo Michel P Ferreira",
+        "Josy A Osajima",
+        "Manuela Amorin",
+        "Óscar Ramos",
+        "Edson C Silva-Filho",
+        "Alessandra B Ribeiro",
+        "Marcia Dos S Rizzo"
+      ],
+      "abstract": "Given the importance of new renewable resources for the industrial sector, this study aimed to assess the innovative technological and biological properties of galactomannans derived from the seeds of Adenanthera pavonina (BioAp), Caesalpinia pulcherrima (BioCp), and Delonix regia (BioDr). The biopolymers were evaluated using various parameters, including texture, spreadability, cytocompatibility, hemocompatibility, antimicrobial assays, mucoadhesiveness, and irritation potential by HET-CAM test. The absence of cytotoxicity, hemolysis, and irritation showed the potential of the three biopolymers for applications in biomedical fields. BioAp and BioDr samples exhibited the most effective antimicrobial activity, with MICs of 512 μg mL"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123523",
+      "title": "A dual-dynamic crosslinking network enabled strong, flexible, self-healing, and biodegradable chitosan fiber paper/vitrimer composites for plastic substitution",
+      "coverDate": "2025-06-15",
+      "authors": [
+        "Xiaoqian Zhang",
+        "Leyi Lin",
+        "Haonan Zhou",
+        "Jie Zou",
+        "Wang Zhao",
+        "Guowen Zhou",
+        "Zepeng Lei",
+        "Xiaohui Wang"
+      ],
+      "abstract": "The development of high-performance biomass-based vitrimers has emerged as a crucial research topic to reduce reliance on petroleum-based plastics. Achieving both high strength and toughness is essential for most biomass-based vitrimers, yet these properties typically tend to be mutually exclusive. Here we show a multifunctional composite, CFP/TAV-PI, prepared by integrating an all-natural polyimine vitrimer (TAV-PI) into chitosan fiber paper (CFP) through in-situ polymerization and heat-pressing treatments. The CFP/TAV-PI films, featuring a dual-dynamic crosslinking network of hydrogen bonds and dynamic imine bonds, achieve a tensile strength of 57.93 MPa, elongation at break of 44.66 %, and toughness of 18.00 MJ m"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123439",
+      "title": "Engineering cellulosic paper into a bending strain sensor using chemical additives: Metal salt-based treatment and ethanol-assisted processing",
+      "coverDate": "2025-06-15",
+      "authors": [
+        "Jianmin Peng",
+        "Xin Fu",
+        "Xiaoyan Yu",
+        "Zhongfei Yuan",
+        "Xueren Qian",
+        "Yonghao Ni",
+        "Zhibin He",
+        "Jing Shen"
+      ],
+      "abstract": "The pulp and paper industry, traditionally focused on basic material production, is now expanding into innovative areas, such as advanced functional materials. Papermaking wet-end chemistry & chemical additives is a specialized field that integrates process control in wet-end paper production with the versatile use of chemical additives, which can be tailored for both wet-end and non-wet-end applications. By combining the optimization of wet-end processes with the adaptability of chemical additives-designed specifically for papermaking or adapted from other industries-this field offers immense potential for bridging traditional papermaking with emerging technologies. This study introduces a cellulosic paper-based bending strain sensor enabled by two simple chemical additives: metal salt and ethanol. The sensor is fabricated through a treatment process that engineers the fiber network, enhancing its conductive properties. By transforming the paper's porous structure into a denser network, efficient conductive pathways are established. The resulting material demonstrates features like bending strain detection, isotropic sensitivity, low hysteresis, and high-frequency responsiveness. Additionally, it can sense temperature changes between 20-60 °C and remains functional at subzero temperatures. Encapsulation with polyimide further improves its waterproof and environmental stability. The metal salt-ethanol approach offers a scalable, sustainable, and cost-effective method for producing cellulosic sensors and wearable devices, providing a robust foundation for the practical adoption of innovative sensing technologies."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123515",
+      "title": "The role of galactose and chitosan in novel targeted nanoemulsion delivery carriers: Synthesis, in vitro stability, and anti-Hepa 1–6 cell activity",
+      "coverDate": "2025-06-15",
+      "authors": [
+        "Yaqing Fan",
+        "Huasong Bai",
+        "Tong Liu",
+        "Ruixue Wang",
+        "Zhanzhong Wang"
+      ],
+      "abstract": "This study developed water-in-oil-in-water (W/O/W) nanoemulsions (NEs) modified with galactose (GAL) and chitosan (CTS) to encapsulate α-linolenic acid (ALA) for targeted delivery. The evaluation of physicochemical properties, stability, release characteristics, and in vitro targeting explored the effect of adding GAL to the external aqueous phase, as well as the interaction between GAL and CTS, on the targeted delivery performance of the NEs. The CTS and GAL maintained NE structural stability and thermal resistance through electrostatic interactions, preserving a stable encapsulation rate. The CTS in the external aqueous phase facilitated a three-dimensional network, maintaining flow stability. The in vitro digestion showed <22 % ALA release in gastric fluid and <45 % in intestinal fluid within 2 h. Additionally, in vitro cell experiments showed that NEs increased lipid oxidation, decreased superoxide dismutase activity, and increased lactate dehydrogenase release. The NEs with GAL added to the external aqueous phase demonstrated high uptake in Hepa 1-6 cells, indicating effective liver targeting. Thus, NEs with GAL and CTS could serve as carriers for active compounds, offering a novel strategy for targeted nutrient delivery in the food and pharmaceutical industries."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123524",
+      "title": "Formation of dimers delayed alginate degradation in fecal microbiota fermentation",
+      "coverDate": "2025-06-15",
+      "authors": [
+        "Dan Yuan",
+        "Wenqian Xiao",
+        "Xingyu Tao",
+        "Zhiming Gao",
+        "Yuehan Wu",
+        "Wenxin Jiang",
+        "Yanlei Li",
+        "Xuewen Ni",
+        "Mengzhou Zhou"
+      ],
+      "abstract": "The present study was to examine the dimer formation of two alginate chains and its degradation in gut microbiota using an in vitro colon fermentation model. The most rapid degradation stage of guluronate in alginate was from 6 h to 24 h (1.68 μg/mL/h), while guluronate in dimers was from 24 h to 36 h (1.69 μg/mL/h). The degradation extent of alginate (97.40 %) was remarkably higher than that of dimers (84.20 %) in 48 h fermentation. Fecal microbiota randomly cleaved alginate into discrete mannuronate blocks (M-blocks), guluronate blocks (G-blocks), or M/G G-blocks. In contrast, dimers were sequentially cleaved into M-blocks before the crosslinked G-blocks. Approximately 25 % of crosslinked G-blocks survived the 48-h fermentation. Furthermore, three Bacteroides spp. strains could collaboratively degrade M-blocks and then crosslinked G-blocks in dimers sequentially. Collectively, the crosslinked G-blocks impeded the dimer degradation by fecal microbiota, presenting a slower degradation rate and a lesser degradation extent."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123509",
+      "title": "First evidence of cryo-milling enhancing enzymatic production of chitooligosaccharides from chitin biomass",
+      "coverDate": "2025-06-15",
+      "authors": [
+        "Saumashish Mukherjee",
+        "Stefan Cord-Landwehr",
+        "T Swaroopa Rani",
+        "Lal Duhsaki",
+        "Sreedhara Sudhakara Sarma",
+        "Tata Narsinga Rao",
+        "Bruno M Moerschbacher",
+        "Jogi Madhuprakash"
+      ],
+      "abstract": "Cryo-milling offers an energy-efficient approach to process α-chitin, the most prevalent and structurally robust chitin form. Unlike ball-milling, cryo-milling operates at low temperatures (<123 K), preventing heat-induced charring and loss of chitooligosaccharide. This study investigated the effects of various cryo-milling conditions on α-chitin, resulting in reduced crystalline plane intensity, increased surface area, and smaller particle size without causing substrate breakdown or functional group loss. Additionally, the study investigated cryo-milled α-chitin's enzymatic hydrolysis for the first time. Using Paenibacillus sp. LS1's chitin-active-secretome, cryo-milled α-chitin yielded twice as much GlcNAc compared to unmilled α-chitin. Hydrolysis with recombinant Chi5 from Paenibacillus sp. LS1 increased (GlcNAc)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123506",
+      "title": "Papers with high filler contents enabled by nanocelluloses as retention and strengthening agents",
+      "coverDate": "2025-06-15",
+      "authors": [
+        "Jiahe Li",
+        "Roufen Wu",
+        "Wen-Jun Wang",
+        "Khak Ho Lim",
+        "Xuan Yang"
+      ],
+      "abstract": "The development of economic and functional papers relies on the introduction of functional filler particles but faces several challenges, especially the low filler retention and inferior mechanical properties. This study introduces plant-based cellulose nanofibrils (CNFs) as dual-function retention and strengthening agents, offering a sustainable alternative to petroleum-based polymer additives. Precipitated calcium carbonate (PCC), a widely used filler, is selected as the model system. The effects of CNF dosage, aspect ratio, and surface carboxyl content on the filler flocculation process were systematically investigated, with additional enhancement achieved through cationic ion crosslinking to improve filler bridging. Remarkably, a superior filler retention rate (>90 %) and filler-tensile factor (2.0) were achieved for the final papers at very low CNF dosage (1 %), surpassing most literature data. Detailed analyses of filler morphology and distribution elucidated the structure-property relationships underlying this performance. Furthermore, the versatility of the approach was demonstrated with other functional fillers, imparting properties such as flame retardancy, oil/water separation, high brightness, and soluble organic pollutant absorption. Overall, this study reveals the critical feature of CNFs in simultaneously improving filler retention and mechanical properties, demonstrating their high potential for their applications in the papermaking industry."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123481",
+      "title": "Enhancing quartz fiber dispersibility and wettability with bacterial cellulose for high-performance quartz paper",
+      "coverDate": "2025-06-01",
+      "authors": [
+        "Mengle Huang",
+        "Chunhui Zhang",
+        "Fuqing Hou",
+        "Yifan Zhan",
+        "Yadong Sun"
+      ],
+      "abstract": "Quartz fibers are distinguished by their exceptional thermal resistance and mechanical strength, making them ideal for advanced quartz papers and composite materials. However, their intrinsic tendency to aggregate and limited wettability with silica sols restricts their mechanical properties and broader applications. This study proposed a bacterial cellulose (BC)-mediated strategy to overcome these challenges by enhancing quartz fiber dispersibility, hydrophilicity, and interfacial compatibility. BC's abundant hydroxyl (OH) groups formed hydrogen bonds with silanol (SiOH) groups on quartz fiber surfaces, significantly improving hydrophilicity and silica sol interactions. Additionally, BC facilitated electrostatic adsorption of dodecyl dimethylamine oxide (OB-2), enhancing foam stability and preventing fiber aggregation during preparation. The quartz paper was prepared by foam forming technology. At an optimal BC addition of 0.03 %, the quartz paper achieved front and reverse evenness values of 49.1 and 48.1, tensile strength of 121.04 N, and tensile stress of 10.9 MPa-72.7-fold higher than unmodified paper. Silica sol adsorption capacity and rate increased by 35.6 % and 53.3 %, respectively. This scalable modification method enhances quartz paper's performance and unlocks broader applications of quartz fibers in next-generation composite materials."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123341",
+      "title": "Investigation of the use of fruit pomace and glycerol in the encapsulation of Lactobacillus acidophilus (THT 030101) in pullulan-based electrospun nanofibers",
+      "coverDate": "2025-05-15",
+      "authors": [
+        "Ersin Celem",
+        "Zekai Tarakci"
+      ],
+      "abstract": "Pomace, which contains valuable components such as dietary fiber, is the most important by-product of the fruit juice industry. Since orange and kiwi are the most widely cultivated fruits globally and in our region, respectively, this study aimed to utilise soluble dietary fiber-rich aqueous extracts of the pomace of these fruits (OWE and KWE, respectively) for nano-encapsulation of Lactobacillus acidophilus cells in electrospun pullulan nanofibers. Additionally, the objective was to encapsulate glycerol, a cryoprotectant, in conjunction with the cells. It was found that the viscosity of the pullulan polymer solution decreased significantly and the conductivity increased significantly with the addition of KWE/OWE, and therefore the diameters of the nanofibers formed were significantly smaller (81-170 nm, P < 0.05). The study found that the survival rates of L. acidophilus cells were significantly higher (97 % and 93.78 %, respectively; P < 0.05) in the encapsulation using KWE/OWE in combination with pullulan. However, the addition of glycerol had no significant effect on cell viability. In conclusion, it has been determined that OWE and KWE have positive effects on the production of pullulan-based nanofibers and the encapsulation of L. acidophilus cells by electrospinning technique; that the L. acidophilus and glycerol can be encapsulated together in electrospun nanofibers."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123357",
+      "title": "Bacterial cellulose-based Pickering emulsions reinforced with silver and silica nanoparticles for advanced antibacterial and hydrophobic food packaging solutions",
+      "coverDate": "2025-05-01",
+      "authors": [
+        "Qimin Chen",
+        "Fan Yang",
+        "Yalong Hou",
+        "Zhiyang Li",
+        "Di Yuan",
+        "Chao Liu",
+        "Feihong Hu",
+        "Rui Zhao",
+        "Huili Wang",
+        "Wenxia Liu",
+        "Fengshan Zhang",
+        "Qiang Wang",
+        "Dehai Yu"
+      ],
+      "abstract": "Conventional packaging materials typically exhibit insufficient barrier performance and limited antimicrobial efficacy, constraining their utility in food preservation. Enhancing attributes such as moisture resistance, antimicrobial potency, and stability in biodegradable matrices has presented a longstanding challenge. Herein, we report the design of an ODSA-based Pickering emulsion coating of bacterial cellulose, further modified with AgNPs and SiO"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123352",
+      "title": "Fermentation characteristics of pectin-derived oligosaccharides from enzyme treated side streams of citrus processing",
+      "coverDate": "2025-05-01",
+      "authors": [
+        "J W Zwolschen",
+        "A P Vos",
+        "R M C Ariëns",
+        "H A Schols"
+      ],
+      "abstract": "This study explored the conversion of citrus juice side streams into fermentable oligosaccharides for potential gut health benefits. Alcohol washed, insoluble lemon peel waste was enzymatically treated using technical pectinolytic enzyme preparations, yielding mixtures of galactose- arabinose- and either methyl-esterified or non-methyl-esterified galacturonic acid oligosaccharides (OS) with a Δ4,5-unsaturated non-reducing end resulting in mixtures of pectin-derived OS: POS and POSNME. Both mixtures were completely fermented during in vitro batch fermentation by proximal and distal microbiota of three healthy adult donors. Fermentation by distal and proximal microbiota resulted in similar methyl-ester-dependent mechanisms of POS utilization, yielding health beneficial acetate, propionate and butyrate in significant amounts. Arabinose-, galactose- and non-methyl-esterified Δ4,5-unsaturated galacturonic acid OS were utilized significantly faster by the distal and proximal microbiota of donors 1 and 2 compared to methyl-esterified Δ4,5-unsaturated galacturonic acid OS, suggesting methyl-esterification of Δ4,5-unsaturated galacturonic acid oligosaccharides as a substantial regulator of POS fermentability. The findings presented in this manuscript suggest that carbohydrate molecular structure and availability, rather than microbiota composition, determine carbohydrate fermentation patterns along the colon, emphasizing that the consumption of differently fermentable fiber is essential to promote gut health along the colon."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123367",
+      "title": "Impact of pectin structural diversity on gut microbiota: A mechanistic exploration through in vitro fermentation",
+      "coverDate": "2025-05-01",
+      "authors": [
+        "Weihao Zhang",
+        "Hanyan Luo",
+        "Wingshan Keung",
+        "Yuiman Chan",
+        "Kamchun Chan",
+        "Xiang Xiao",
+        "Fangfei Li",
+        "Aiping Lyu",
+        "Caixia Dong",
+        "Jun Xu"
+      ],
+      "abstract": "Pectins have demonstrated significant prebiotic potential in modulating gut microbiota and enhancing microbial metabolic functions. Nevertheless, the exact relationship between pectin structure and related properties on gut microbiota regulation is yet to be fully elucidated. To explore this, the interactions between four purified pectins with specific structural characteristics and gut microbiota were examined and compared through in vitro fecal fermentation, followed by full-length 16S rRNA gene sequencing, metabolomics, and bioinformatic analysis. The result shows that the pectins selectively modulated the composition of gut microbiota while being degraded into different levels of SCFAs. Moreover, the metabolite profiles in the pectin groups were also qualitatively and quantitatively different, suggesting that the structural variations in pectins further impacted the metabolic functionality of gut microbiota. The bioinformatic analysis revealed that various structural parameters of pectins, including the α-(1 → 4)-linked galacturonic acid composed linear chain in smooth region, arabinose residue determined hair region contribution, conjugated protein content, and molecular weight, are crucial factors in controlling their interaction with gut microbiota, the bacterial cross-feeding, and finally the microbial metabolic outcomes. This research advances our current understanding of the connection between pectin structure and its regulatory properties on gut microbiota at the level of purified pectin molecules."
+    }
+  ]
+}
