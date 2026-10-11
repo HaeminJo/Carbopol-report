@@ -1,0 +1,457 @@
+{
+  "run_timestamp_utc": "2026-10-11_2159",
+  "collection_methods": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, X-ELS-APIKey auth, query: ISSN(0144-8617) AND PUBYEAR > 2024 AND DOCTYPE(ar)) - full paginated scan of 2260-entry result set (25/page), sorted by -coverDate",
+    "PubMed E-utilities ESearch/EFetch (DOI-based [AID] lookup) used to retrieve abstracts/authors for 145 of 150 scanned candidates (newest-first)",
+    "CrossRef API (DOI lookup) used to retrieve author lists for 5 very recent Articles-in-Press (coverDate 2026-11-15) not yet indexed in PubMed (no abstract available)"
+  ],
+  "eligibility_criteria": [
+    "DOCTYPE(ar) in Scopus query excludes Review/Erratum/Retraction/Conference Paper/Note at the source",
+    "Published within 2 years (PUBYEAR > 2024)",
+    "Excluded if core topic is microorganism biology itself (strain fermentation/culture optimization, bacterial enzyme secretome/mechanism) rather than the polysaccharide/polymer material -- 4 candidates excluded on this basis (S. pneumoniae capsular polysaccharide fermentation optimization; carrageenan-sulfatase mechanism in marine bacterium; microalga starch-production cultivation optimization; Chitiniphilus secretome analysis)"
+  ],
+  "target_count": 20,
+  "collected_count": 28,
+  "target_met": true,
+  "total_unseen_candidates_before_selection": 584,
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125878",
+      "title": "Cellulose-based dual-network hydrogels combining reversible Schiff base interactions and photopolymerized covalent networks",
+      "authors": [
+        "Gabriela Biliuta",
+        "Raluca Ioana Baron",
+        "Maria Bercea",
+        "Madalina Elena Bistriceanu",
+        "Ioana Alexandra Duceac",
+        "Sergiu Coseri"
+      ],
+      "coverDate": "2026-11-15",
+      "abstract": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125907",
+      "title": "Improving the processability and digestion resistance of rice starch gel through linear chain-ferulic acid V-type complexation and branch-mediated crosslinking",
+      "authors": [
+        "Dong-Hui Geng",
+        "Yuwei Li",
+        "Yiming Wang",
+        "Ebenezer Asiamah",
+        "Junjuan Wang",
+        "Ning Tang",
+        "Ye Liu",
+        "Yongqiang Cheng",
+        "Xiaoyan Zhao"
+      ],
+      "coverDate": "2026-11-15",
+      "abstract": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125913",
+      "title": "Octenyl succinic anhydride starch-lemon essential oil coatings with superior preservative effects on fresh foods",
+      "authors": [
+        "Xueping Sun",
+        "Fei Ren",
+        "Siyu Wu",
+        "Les Copeland",
+        "Shujun Wang"
+      ],
+      "coverDate": "2026-11-15",
+      "abstract": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125904",
+      "title": "Self-healing and reprocessable cellulose-based bioplastics based on side-group engineering approach",
+      "authors": [
+        "Zhaofeng Wang",
+        "Qun Ding",
+        "Wenquan Yu",
+        "Xiuyu Shen",
+        "Haofeng Yu",
+        "Pan Liu",
+        "Siqi Huan",
+        "Zhiguo Li",
+        "Yang Liu"
+      ],
+      "coverDate": "2026-11-15",
+      "abstract": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125922",
+      "title": "Maltooligosaccharide-forming amylases improve steamed bread quality and anti-staling effects via coordinated fermentation enhancement and starch structural remodeling",
+      "authors": [
+        "Fuqiang Gao",
+        "Ying Gan",
+        "Haocun Kong",
+        "Yixiong Tian",
+        "Danyang Li",
+        "Caiming Li",
+        "Xiaofeng Ban",
+        "Zhengbiao Gu",
+        "Zhaofeng Li"
+      ],
+      "coverDate": "2026-11-15",
+      "abstract": null
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123578",
+      "title": "Cyclodextrin-based self-assembling hydrogel for Photothermal-controlled nitric oxide release in stage-specific treatment of MRSA-induced arthritis",
+      "authors": [
+        "Guowei Li",
+        "Xiaohua Wei",
+        "Kai Lv",
+        "Dongna Xie",
+        "Mei Liu",
+        "Yi Xu",
+        "Dong Ma",
+        "Genlong Jiao"
+      ],
+      "coverDate": "2025-07-01",
+      "abstract": "MRSA-induced arthritis is a prevalent and highly debilitating orthopedic condition. The inflammatory response induced by bacterial infection hinders tissue repair and exacerbates bone loss. Traditional antibiotic therapies are limited by low bioavailability, substantial side effects, and narrow efficacy, rendering them inadequate for comprehensive treatment of arthritis. Nitric oxide (NO) has demonstrated considerable potential in overcoming bacterial resistance, modulating immune responses, and facilitating tissue repair. Therefore, a stage-specific NO release strategy, tailored to the distinct phases of bacterial arthritis, is essential for effective treatment. In this study, mesoporous polydopamine nanoparticles were utilized as NO donors (mPDA/NONOate) and encapsulated within a supramolecular hydrogel formed via the host-guest interaction between α-cyclodextrin (α-CD) and Pluronic F127. The injectable nature of the resulting NO/PDA-Gel hydrogel ensured uniform distribution within irregular bone joint infection sites, minimizing NO donor loss and enhancing local bioavailability. Notably, upon near-infrared (NIR) irradiation, the hydrogel induces a rapid increase in local temperature, facilitating rapid NO release. At the same time, the synergistic photothermal effect effectively kills bacteria and rapidly controls the infection. Without light irradiation, NO is sustainably and stably released from the NO/PDA-Gel, modulating the bone immune microenvironment, alleviating inflammation, promoting chondrocyte proliferation and differentiation, and accelerating bone tissue repair, thus significantly shortening the healing time of MRSA-induced arthritis. In conclusion, the injectable self-assembled NO/PDA-Gel offers a precise, stage-matched therapeutic approach for MRSA-induced arthritis and holds promise for the treatment of deep-seated infections caused by other multidrug-resistant pathogens."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123576",
+      "title": "Nanocellulose composites with enhanced mechanical and flame-retardant properties based on grafting of inorganic organic/multilayer core-shell matter — MSNs-TMSB/DA/TOCNF",
+      "authors": [
+        "Qingshuo Wang",
+        "Lanfeng Hui",
+        "Yiyi Zhang",
+        "Wenwen Guo",
+        "Chengfeng Zhu",
+        "Mingyue Zhao",
+        "Qian Yang",
+        "Yu Qu",
+        "Zitong Zhang"
+      ],
+      "coverDate": "2025-07-01",
+      "abstract": "Flame retardant materials are essential for safety, yet their development is often hindered by trade-offs between efficiency, aging resistance, and mechanical properties. Traditional organic flame retardants are inefficient and degrade over time, while inorganic alternatives, despite their effectiveness, are difficult to integrate into composites. Here we showed the synthesis of a novel inorganic silica-based flame retardant, PDA@MSNs-TMSB, which chemically modified nanocellulose fibrils, enhancing flame retardancy, aging resistance, and toughness without compromising integrity. The results showed that, compared to pure TOCNF, the modified nanocellulose materials (TOCNF-PDA@MSNs-TMSB) exhibited a higher limiting oxygen index (46.5 %), reaching the UL-94 V-0 level (GB) rating with self-extinguishing behavior and no flame propagation. In contrast, pure TOCNF had a limiting oxygen index of only 22 % and burned rapidly upon ignition which did not achieve the UL-94 V-0 level rating. The toughness of the modified TOCNF-PDA@MSNs-TMSB was superior to that of pure TOCNF, representing a 37.5 % increase. Combining powerful tenacity, high flame retardancy, and better aging resistance, the flame retardant nanocellulose material from renewable resource shows great potential for flame retardant applications and emits no toxic byproducts post-combustion."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123587",
+      "title": "Cyclodextrin-based liquid crystals: A novel approach to promote the formation of thermotropic cubic mesophases and their potential applications as electrolytes",
+      "authors": [
+        "Austin Che",
+        "Carson O Zellmann-Parrotta",
+        "Diganta Sarkar",
+        "Jayar Espejo",
+        "Vladimir K Michaelis",
+        "Todd C Sutherland",
+        "Vance E Williams",
+        "Chang-Chun Ling"
+      ],
+      "coverDate": "2025-07-01",
+      "abstract": "We report the synthesis and mesomorphic studies of a family of amphiphilic β-cyclodextrin derivatives that are polyesterified at the secondary face with either 14 lauroyl or 14 stearoyl chains (apolar), and 7 tri- or tetra-ethylene glycols (polar) at the primary face. The end of each tri- and tetra-ethylene glycol chain is further modified with different terminal functionalities in term of their dipole moment (O-methyl vs O-acetyl vs O-2-cyanoethyl). This has generated several subgroups of amphiphilic β-cyclodextrin derivatives with a systematic change of their relative volumes of the hydrophobic and hydrophilic regions. Our studies showed that all these derivatives self-assemble into thermotropic liquid crystals, with the majority forming hexagonal column mesophases while three compounds form a bicontinuous cubic phase. We rationalized the mesomorphic behaviour of these compounds in term of the relative total van der Waals fractional volumes occupied by the hydrophilic and hydrophobic chains. Upon added with LiTFSI, the formed bicontinuous cubic phase (as a pure compound) was found to transition to form the more stable smectic A mesophase (composite), and both solid NMR studies and impedance spectroscopy revealed that these novel amphiphilic β-cyclodextrin-based liquid crystalline materials have the potential to be used as efficient electrolytes for lithium conduction."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123589",
+      "title": "Preparation, characterization, and application of chitosan preservation film doped with polyphenol–nanohydroxyapatite",
+      "authors": [
+        "Jingxuan Zhou",
+        "Jieru Xie",
+        "Dan Qiu",
+        "Longteng Zhang",
+        "Chuan Li",
+        "Yanfu He",
+        "Yueqi Wang",
+        "Thi Tuyet Nga Mai"
+      ],
+      "coverDate": "2025-07-01",
+      "abstract": "Effective packaging is crucial for maintaining food quality, safety, and nutritional value. Chitosan (CS) films retard food oxidation by blocking oxygen and water vapor but lack sufficient antioxidant properties for long-term storage. To address this issue, this study investigated the properties of composite films prepared using CS and nanohydroxyapatite (nHAP) loaded with polyphenolic compounds (curcumin, epigallocatechin gallate [EGCG], and quercetin), and their impact on semi-dried golden pomfret (Trachinotus ovatus) freshness. The incorporation of nHAP substantially enhanced the mechanical strength, thermal stability, barrier properties, and oil adsorption capacity of the films. Fourier Transform Infrared Spectroscopy (FTIR) revealed that the incorporation of nHAP or polyphenol-nHAP carriers did not form a substantial number of new chemical bonds or intermolecular crosslinks. Instead, the carriers were continuously dispersed within the CS matrix. Electron microscopy further confirmed the good compatibility between the polyphenol-nHAP carrier and CS matrix. Furthermore, the in vitro drug release profile demonstrated that nHAP effectively controlled polyphenol release, minimizing loss. The composite film significantly reduced the total volatile base nitrogen (TVB-N) of semi-dried golden pomfret fish flesh, delayed protein and lipid oxidation, inhibited microbes, and maintained muscle water-holding capacity. In summary, CS-polyphenol-nHAP films offer a novel method for preserving aquatic products."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123582",
+      "title": "Fabrication of synbiotic carbohydrate polymer-based microcapsules: Effect of prebiotics on probiotic viability during freeze-drying, gastrointestinal transit and storage",
+      "authors": [
+        "Korlid Thinkohkaew",
+        "Veasarach Jonjaroen",
+        "Nuttawee Niamsiri",
+        "David Julian McClements",
+        "Atikorn Panya",
+        "Inthawoot Suppavorasatit",
+        "Pranut Potiyaraj"
+      ],
+      "coverDate": "2025-07-01",
+      "abstract": "The stability and efficacy of probiotics can be significantly enhanced through advanced encapsulation technologies. This study aimed to investigate the impact of co-encapsulating probiotic with prebiotics in chitosan coated-alginate/gellan gum microcapsules on their viability during freeze-drying, gastrointestinal transit, and storage. Five prebiotics were added to microcapsules to assess their impact on probiotic viability during freeze-drying, including inulin, fructo-oligosaccharide (FOS), galacto-oligosaccharide (GOS), xylo-oligosaccharide (XOS), and resistant dextrin (RD). Notably, FOS-integrated microcapsules at concentration of 4 wt% exhibited the highest stability, achieving 83.36 % probiotic survival rate post-freeze-drying, a 28 % increase over those without FOS. Physicochemical analysis revealed that 4 % FOS-integrated microcapsules exhibited a particle size of 523.53 μm, a pore size of 17.2 μm, a moisture content of 3.57 %, and aw of 0.246, contributing to enhanced probiotic retention. The addition of FOS maintained probiotic viability at ∼6.4 log CFU/g after gastrointestinal digestion, following Korsmeyer-Peppas release kinetics (R2 = 0.9035). Additionally, these microcapsules sustained probiotic levels (> 6 log CFU/g) for 90 days at 4 °C and 7 days at 25 °C, highlighting their long-term storage potential. These findings provide valuable insights into designing resilient synbiotic-microcapsules for functional foods, supplements, and therapeutic applications, ensuring enhanced probiotic stability and efficacy under real-world conditions."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123583",
+      "title": "Hierarchically amorphous cellulose acetate porous membranes with spectral selectivity for all-weather radiative cooling",
+      "authors": [
+        "Heyi Li",
+        "Chang Liu",
+        "Xinxin Yuan",
+        "Yue Ma",
+        "Chenbo Zhi",
+        "Hao Li",
+        "Yinghe Hu",
+        "Luyun Xue",
+        "Guang Yang",
+        "Xupin Zhuang",
+        "Bowen Cheng"
+      ],
+      "coverDate": "2025-07-01",
+      "abstract": "Passive radiative cooling has emerged as a promising approach for cooling without energy consumption. However, developing all-weather passive radiative cooling materials in response to diverse weather conditions remains a significant challenge, since such materials must simultaneously exhibit semi-emissive and transparent properties in the mid-infrared spectrum and high reflectivity to sunlight. Herein, we present a hierarchically amorphous cellulose acetate porous membranes (HAPM), fabricated using a solvent-template-assisted evaporation-induced phase separation (ST-EIPS) strategy, for all-weather passive radiative cooling. The HAPM exhibits exceptional spectral selectivity that satisfies the stringent spectral requirements for such applications, i.e., 64.1 % emissivity within the atmospheric window (ATW) and 74.5 % transmissivity in the non-ATW range due to its specific molecular backbone, while having 97.5 % solar reflectivity (especially 99.8 % reflectivity in the visible spectrum) enabled by the hierarchical porous structure with multistage scattering. These unique optical properties allow the HAPM to achieve sub-ambient maximal cooling of 15.8 °C under intense solar irradiance and 6.5 °C under cloudy conditions. Furthermore, a radiative cooling house model incorporating the HAPM is demonstrated and exhibits cooling temperatures of 25.0 °C on sunny days and 4.4 °C on cloudy days. This work underscores the potential of cross-scale structurally engineered porous membranes for all-weather radiative cooling applications."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123575",
+      "title": "Eco-friendly chitosan-based composite microspheres for efficient recovery of gold from electronic waste via adsorption-reduction cascade",
+      "authors": [
+        "Huan Xie",
+        "Jiace Li",
+        "Yongmin Zhang"
+      ],
+      "coverDate": "2025-07-01",
+      "abstract": "With the growing demand for gold, recovering it from gold-containing solutions and electronic waste has emerged as a sustainable approach to mitigate environmental pollution and resource depletion. In this context, eco-friendly materials receive increasing attention due to their sustainability, non-toxicity, biodegradability. Here, a novel environmentally friendly porous bead material, CS-Fc@CD-TU, was developed using ferrocene-modified chitosan, oxidized cyclodextrin and thiourea, combining adsorption and reduction capabilities. Despite its moderate specific surface area (44.94 m2·g-1), CS-Fc@CD-TU exhibited exceptional Au(III) adsorption, with a maximum adsorption capacity of 722.18 mg·g-1, following pseudo-second-order kinetic and Langmuir isotherm models. The material maintained high removal efficiency (> 94 %) across temperatures (20-50 °C), Au(III) concentrations (50-200 mg·L-1), and pH levels (3-6), with excellent selectivity (distribution coefficient: 5.41 × 104) and interferences resistance. Notably, the adsorbed gold ions were rapidly reduced in situ to Au(0) due to the presence of ferrocene groups and CN bonds, thereby releasing the occupied adsorption sites for further gold ion capture. The reduced Au(0) further grow into Au nanoparticle (6-100 nm) with 99.8 % purity after calcination. When applied to electronic waste, CS-Fc@CD-TU effectively recovered gold ions at extremely low concentrations (1.23 ppm) and demonstrated high stability and reusability, retaining >97 % removal efficiency after five cycles. These results highlight CS-Fc@CD-TU as a promising, eco-friendly adsorbent for sustainable gold recovery."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123588",
+      "title": "Enhancing salt resistance and all-day efficient solar interfacial evaporation of antibacterial sodium alginate-based porous hydrogels via surface patterning",
+      "authors": [
+        "Yanzi Li",
+        "Baoshu Chen",
+        "Dahu Yao",
+        "Xiping Gao",
+        "Jing Chen",
+        "Chang Lu",
+        "Xinchang Pang"
+      ],
+      "coverDate": "2025-07-01",
+      "abstract": "The fully bio-based solar-driven interfacial evaporator offers the advantage of being environmentally friendly, but achieving efficient evaporation throughout the day, good salt resistance, and excellent antibacterial properties remains a significant challenge. In this study, a fully bio-based porous hydrogel with a core-shell structure was prepared using sodium alginate (SA) as the matrix and pulp fiber (PF) as the reinforcing material. Crosslinking SA with Cu2+ ions imparts excellent antibacterial properties to the evaporator. In the hydrogel core, SA forms vertically aligned lamellar pore structures, with PF providing support between the layers, which gives the evaporator good mechanical properties, water transport capacity, and thermal insulation performance. The dense surface layer formed by SA contains CuS nanoparticles, resulting in high photothermal conversion efficiency. A trapezoidal pattern constructed on the surface enhances the evaporation rate by 14 % and improves salt resistance through the Marangoni effect, enabling the evaporator to maintain an evaporation rate of 2.42 kg m-2 h-1 in a 15 wt% saline solution. Additionally, the trapezoidal pattern increases the evaporation rate by 37.5 % at low incident angles, achieving efficient all-day evaporation. The prepared hydrogel shows great potential for seawater desalination applications."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123513",
+      "title": "β-Cyclodextrin synergistically enhanced solid encapsulation of p-anisaldehyde into V-type starch for sweet cherry preservation",
+      "authors": [
+        "Qing Gao",
+        "Zerui Ou",
+        "Xiangze Jia",
+        "Shahid Ahmed Junejo",
+        "Bin Zhang",
+        "Qiang Huang"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "Despite the good biological and antibacterial activities, the p-anisaldehyde is easy to evaporate or degrade during processing and storage. Herein, a new V-type starch-cyclodextrin composite carrier was constructed to efficiently encapsulate p-anisaldehyde in addressing the inherent disadvantages. The introduction of β-cyclodextrin (β-CD) enhanced the short- and long-range ordered structures of the composite carrier. The V-type starch-cyclodextrin composite (VC30) exhibited the highest loading capacity of 142.01 mg/g for p-anisaldehyde, which was significantly higher than that of V-type starch (VS, 97.83 mg/g) and commercial β-CD (128.48 mg/g). The loading capacity of the V-type starch-cyclodextrin composite was positively correlated with its crystallinity and short-range order. The release rate of p-anisaldehyde was in the order of VC30 < β-CD < VS. Under non-cold chain daily storage (25 °C and 57 % relative humidity) for 2 weeks, the p-anisaldehyde of thymol released from complexes was 36 % (VC30), 49 % (β-CD), and 65 % (VS), respectively. Due to the high loading capacity and good sustained release properties, the noncontact preservation of high-value fruit by VC30 controlling p-anisaldehyde release successfully extended the shelf life of cherries from six to twelve days."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123510",
+      "title": "The comparison of anticrystallization effects of cellulose derivatives with polyvinylpyrrolidone and poloxamer on andrographolide: In vitro and in vivo characterization",
+      "authors": [
+        "Xiaoyi Zhang",
+        "Peixia Luo",
+        "Jiaming Wang",
+        "Lei Yang",
+        "Zipei Pang",
+        "Shufeng Chen",
+        "Yi Zhou",
+        "Linghao Qin"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "Cellulose derivatives play important roles in the development of pharmaceutical oral solid formulations. Owing to their high molecular weight and functional groups, these polymers can interact with water-insoluble drug crystals, influencing not only the drug's physicochemical properties but also its absorption efficiency. In this study, an anticrystallization experiment was designed to compare the inhibitory effects of cellulose derivatives (methylcellulose (MC), hydroxypropyl cellulose (HPC) and hydroxypropyl methyl cellulose (HPMC)) with those of polyvinylpyrrolidone (PVP) and poloxamer (F68) on the crystallization of model drugs (andrographolide, AG). Both in vitro characterization experiments and in vivo pharmacokinetic studies were conducted to evaluate the interaction patterns between andrographolide crystals and polymers. The results indicated that cellulose derivatives exhibited stronger anticrystallization effects, with HPMC showing the most pronounced interaction with drug crystals among all the tested polymers. HPMC significantly prolonged the crystallization time and increased the degree of supersaturation. By adsorbing onto specific crystal surfaces, HPMC was able to modulate the crystal growth orientation, reduce the contact angle, and improve the wettability of drug crystals. Furthermore, andrographolide crystals adsorbed by HPMC exhibited rapid in vitro drug release behavior and upgraded in vivo absorption efficiency, demonstrating its potential to improve the utilization of water-insoluble drugs."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123565",
+      "title": "Multi-active-site antibacterial modification of dopamine-hyaluronic acid hydrogel with N-halamine for skin tissue engineering",
+      "authors": [
+        "Chenghao Li",
+        "Saren Gerile",
+        "Nan Du",
+        "Liang Zou",
+        "Zhiqiang Wang",
+        "Yanfang Liu",
+        "Jili Hou",
+        "Kuntong Song",
+        "Yuanhao Xiao",
+        "Hui Ren",
+        "Jing Kang",
+        "Alideertu Dong",
+        "Run Xu"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "Antibacterial hydrogels have attracted much attention in skin tissue engineering due to their superior ability to prevent infection. In this study, we developed an antibacterial hydrogel using a multi-active site N-halamine-modified dopamine-hyaluronic acid hydrogel. The in vitro antibacterial efficacy of the hydrogel exhibited 99.99 % against both Gram-negative Escherichia coli and Gram-positive Staphylococcus aureus, while also demonstrating excellent biocompatibility. Furthermore, in Escherichia coli-infected skin wounds, the hydrogels effectively suppressed infection and significantly accelerated wound healing. These findings suggest that N-halamine-modified dopamine-hyaluronic acid antibacterial hydrogels have great potential as wound dressings for preventing infection and promoting the healing of infected wounds."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123540",
+      "title": "Double-layer biodegradable hydrogel based on tragacanth gum as an electrically conductive nanoplatform for TENS device application",
+      "authors": [
+        "Zohre Jafari Vafa",
+        "Ehsan Nazarzadeh Zare",
+        "Mohammad Reza Fadavi Eslam"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "This research focuses on designing and creating a double-layer bio-hydrogel made from tragacanth gum (TG) and carboxylated graphene (GrF), coated with polyaniline (PANI) for transcutaneous electrical nerve stimulation (TENS) devices. X-ray diffraction (XRD) analysis showed that the PANI coating removed peaks associated with crystalline regions (13.99° and 16.87°) in the tragacanth gum/polyvinyl alcohol/carboxylated graphene (TPG) bio-hydrogel. This indicates strong interactions between the PANI layer and the TPG bio-hydrogel matrix, with reduced crystallinity due to structural changes. Conductivity tests revealed significant improvements from both GrF and the PANI coating. At low frequencies (80 Hz), the PANI coating increased the alternating current conductivity of the tragacanth gum/polyvinyl alcohol (TP) bio-hydrogel by 20,481 times and that of the TPG bio-hydrogel by 1804 times. Contact angle measurements indicated a low hydrophilic surface (61.4°), thanks to the GrF and PANI coating. FESEM analysis confirmed the uniform distribution of GrF within the bio-hydrogel and revealed two distinct shapes in the PANI coating, indicating improved structural integrity and functionality. Mechanical tests showed a 4.59-fold increase in tensile strength, improving durability. MTT assays confirmed biocompatibility (>90.37 % cell viability), and the bio-hydrogel biodegraded completely within two months."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123507",
+      "title": "Wide-detection-range, highly-sensitive, environmental-friendly and flexible cellulose-based capacitive humidity sensor",
+      "authors": [
+        "Cheng Huang",
+        "Junhao Chen",
+        "Yingao Zhang",
+        "Chuanyu Jiang",
+        "Yongjing Wang",
+        "Jiaxiao Qi",
+        "Haodong Yang",
+        "Kaizheng Gao",
+        "Ming Jiang",
+        "Feihua Liu"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "Humidity sensors are widely used in industries, agriculture, climate control, and health monitoring, especially in flexible, environmentally friendly wearable electronics. However, existing sensors often suffer from limited detection ranges and low sensitivity. This work reports a flexible, environmentally friendly, highly sensitive humidity sensor with a wide detection range, which is made of cellulose, MXene, and sodium polyacrylate via vacuum filtration and impregnation method. The abundant polar functional groups of the materials enable humidity sensing across a broad range. This study reveals the significant enhancement in sensitivity of capacitive humidity sensors through the construction of multiple water layers that create proton and ion transport channels. The sensor shows a wide detection range (10 % RH to 90 % RH), low hysteresis (1.42 %), sensitivity of 2.11 pF/%RH (10 % RH to 41 % RH), and high sensitivity of 60.97 pF/%RH (41 % RH to 84 % RH). Additionally, it can distinguish breathing patterns and rates, enabling both non-contact and contact sensing, with potential applications in health monitoring. This work offers new insights into the development of flexible, environmentally friendly capacitive humidity sensors with high sensitivity and wide detection ranges."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123564",
+      "title": "Construction and mechanism of konjac glucomannan-based laminated flexible sensor hydrogel",
+      "authors": [
+        "Junying Wu",
+        "Di Zhang",
+        "Xianrui Chen",
+        "Xiangyun Sun",
+        "Jun Liao",
+        "Jie Pang",
+        "Shuyi Wu"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "Flexible hydrogel-based sensors show great potential but face challenges in dehydration for long-term storage and customization for various deformation measurements. This work reports a strategy for preparing hydrogel sensors by creating dry sensor films with different properties, which are rehydrated and laminated for specific applications. A polyhydroxyalkanoate (PHA) nanofiber membrane, produced via microfluidic blow spinning and combined with conductive Ti3C2Tx (MXene), achieved a Young's modulus of 46.59 MPa. A biomass polysaccharide hydrogel made from konjac glucomannan, xanthan gum, and sodium alginate (SA) encapsulated the PHA/MXene membrane. The Young's modulus and load testing of the hydrogel sensors can be adjusted by varying SA concentration. The gel-encapsulated films can be dried for long-term preservation. For applications, the dried layers with different SA concentrations were rehydrated and assembled according to load requirements. Crosslinking between Ca2+ ions and SA's carboxyl groups ensures stable interlayer bonding. Numerical simulations showed that the laminated sensor, combining soft and hard layers, responds well to various external forces. The laminated sensor captured multiple electrical signals to differentiate shear and compressive loads, which is a challenge for traditional flexible devices. This study presents a customizable laminated sensor that can be tailored to specific measurement ranges, enhancing hydrogel-based sensing technologies."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123525",
+      "title": "Structure–function relationship of the brown seaweed Undaria pinnatifida laminaran: Protein kinase C-mediated mucus secretion and gut barrier restoration",
+      "authors": [
+        "Kit-Leong Cheong",
+        "Lin Chen",
+        "Si-Yuan Lu",
+        "Amanullah Sabir",
+        "Jianping Chen",
+        "Zhuo Wang",
+        "Suresh Veeraperumal",
+        "Jude Juventus Aweya",
+        "Xian-Qiang Chen",
+        "Saiyi Zhong",
+        "Karsoon Tan",
+        "A M Abd El-Aty"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "Ulcerative colitis is a chronic inflammatory condition of the intestine characterized by mucosal damage and a compromised epithelial barrier. This study explored the protective and therapeutic potential of laminaran derived from the brown seaweed Undaria pinnatifida in promoting mucin secretion and restoring mucosal barrier integrity. Physicochemical analysis revealed laminaran as having a β-(1 → 3)-linked glucose backbone with β-(1 → 6)-linked branches and a molecular weight of 14.41 kDa. In vitro experiments revealed that laminaran enhanced the expression of mucin-related proteins in a lipopolysaccharide-induced LS174T model. Laminaran also upregulated the expression of sulfotransferases, which are essential for mucin sulfation, and promoted vesicular transport by increasing the expression of vesicle-associated membrane protein 8 and synaptosome-associated protein-23, facilitating mucin secretion. These effects are mediated through the protein kinase C (PKC) pathway, which involves PKCα and PKCβII. In an in vivo model, laminaran alleviated dextran sulfate sodium-induced colitis, increasing mucus thickness and overall intestinal barrier function. These results suggest that laminaran is a promising therapeutic agent for treating ulcerative colitis, suggesting a novel approach to restoring the mucosal barrier and reducing intestinal inflammation. This study lays the groundwork for developing laminaran-based treatments for ulcerative colitis and other intestinal diseases associated with epithelial barrier dysfunction."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123530",
+      "title": "Amylose content controls the structures and digestibility of starch-lipid complexes during microwave postprocessing",
+      "authors": [
+        "Xiaoyan Tan",
+        "Fubin Wu",
+        "Zebin Guo",
+        "Fengwei Xie",
+        "Chao Song",
+        "Xueshan Xia",
+        "Ling Guo",
+        "Yue Feng",
+        "Zhendan He"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "Food postprocessing modifies the structures and properties of starch-lipid complexes, but the impact of amylose content on these changes remains unclear. In this work, starch-lipid complexes with different amylose contents (waxy corn starch: WC; normal corn starch: NC; Gelose 50: G50; and Gelose 80: G80) were prepared and the changes in structures and digestibility following microwave heat-moisture treatment (M-HMT) were investigated. Results indicated that M-HMT induced some destruction of helical structures of WC-lipid complexes, accompanied by reduced complexed lipid content, complex index, short-range molecular order, and relative crystallinity. However, for NC-lipid, G50-lipid, and G80-lipid complexes, these characteristic parameters were increased after treatment. Additionally, for the four types of treated complexes, higher amylose content led to higher values of these parameters. Notably, M-HMT endowed complexes with lower digestibility, and complexes with higher amylose content showed stronger enzyme digestion resistance. The treated G80-lipid complexes achieved the highest resistant starch content of 55.41 %. This work is expected to offer theoretical foundation and practical guidance for industrial or household production of starchy foods with a better health effect."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123563",
+      "title": "A sustainable alginate-based multifunctional porous material with integrated thermal barrier and reversible fire warning for enhanced building protection",
+      "authors": [
+        "Md Hasib Mia",
+        "Yuhang Wan",
+        "Qing Jiang",
+        "Lele Huang",
+        "Mi Zhou",
+        "Jie Xu",
+        "Xiaoli Gong",
+        "Xiaodong Hu",
+        "Zhicai Yu",
+        "Hualing He"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "The need for innovative bio-based building material development that solves excessive energy consumption and environmental sustainability and enables thermal barrier with sensitive early fire warnings is urgent. This study focuses on developing a sustainable multifunctional SNAP (sodium alginate/nickel oxide/ammonium polyphosphate/polypyrrole) porous material, fabricated by incorporating sodium alginate (NaAlg) as the primary structural matrix, ammonium polyphosphate (APP) as a flame retardant, nickel oxide (NiO) for temperature sensing and enhanced flame retardancy, and polypyrrole (PPy) to improve electrical conductivity for fire warning functionality. The inclusion of APP, NiO, and PPy significantly improved the limiting oxygen index to 48.7 %, and a robust char layer during flame exposure provided effective thermal barrier and self-extinguishing properties. The porous material exhibited thermal conductivity of 0.076 W·m-1·K-1. The synergistic integration of NiO and PPy enhanced temperature sensing and electrical conductivity, enabling ultrafast (0.9 s) flame detection and a stable fire warning period of 227 s (under continuous exposure) with reversible warning characteristics. Post-crosslinking with Ca2+ ion improved mechanical strength (0.32 MPa) and maintained stability up to 48 h of immersion in deionized water. This innovative, environmentally friendly composite material holds significant promise in advanced building materials where high fire safety and early warning systems are critical."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123538",
+      "title": "Constructing ZIF-8@cellulose/graphene hybrids derived 3D-porous cross-linked network based binary hydrated salts thermochemical composite for solar–thermal energy storage",
+      "authors": [
+        "Xiangyu Yang",
+        "Shijie Li",
+        "Jin Zhang",
+        "Jianguo Zhao",
+        "Yisong Yu",
+        "Weidong Li"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "Benefiting from the advantages of outstanding storage capacity and retention period, hygroscopic salt thermochemical heat storage (TCHS) materials have evolved into a prospective resolution for channeling the instantaneous accessibility of solar energy into an enduring energy output. Herein, an innovative zeolitic imidazolate framework@graphene oxide-bacterial cellulose (ZIF-8@GO-BC) nanofibrous composite was constructed and its interconnected porous carbonaceous framework (ZGBAC) derivative served as the matrix for TCHS material for the first time. The LiOC3/ZGBAC2 composites are furnished with a remarkable hydratability and storage density up to 1446.8 kJ kg-1 entitled by the collaborative effort between ZGBAC2 features hierarchical 3D cross-linked network scaffold, well-defined porosity, highly exposed surface area, and hygroscopic salt hybrids. Meanwhile, the LiOC3/ZGBAC2-60 could retain 95.7 % of the original heat after 20 repeated reactions while showing great solar-thermal conversion competence owing to the desirable thermal conductivity of ZGBAC2, revealing its promising cycle endurance. And the numerical simulation lends credibility to its excellent heat transfer capability. This study is expected to expand the construction strategy of functionalization-oriented multicomponent carbonaceous frameworks via molecular-level architecture adjustment and may also shed light on novel inspirations for high-increment utilization of nanocellulose in solar energy conversion and storage."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123526",
+      "title": "A multifunctional metformin loaded carboxymethyl chitosan/tannic acid/manganese composite hydrogel with promising capabilities for age-related bone defect repair",
+      "authors": [
+        "Jingle Chen",
+        "Chao Xie",
+        "Yucong Li",
+        "Qili Sun",
+        "Fengnian Yu",
+        "Kai Li",
+        "Haotian Gao",
+        "Zhaoquan Liang",
+        "Bin Tang",
+        "Lijun Lin"
+      ],
+      "coverDate": "2025-06-15",
+      "abstract": "As the global population ages, age-related bone defects have become a major public health challenge. The decline in bone tissue repair capacity among the elderly is primarily attributed to the senescence of bone marrow mesenchymal stem cells (BMSCs), which leads to reduced proliferation and differentiation capabilities, thereby impeding the bone healing process. Additionally, the deterioration of the bone microenvironment, characterized by chronic inflammation and oxidative stress, further complicates bone repair. To address these issues, a multifunctional hydrogel drug delivery system, the metformin-loaded carboxymethyl chitosan/tannic acid/manganese (MCTM) hydrogel was developed. This system integrates the synergistic effects of CMCS, TA, Mn2+, and metformin to effectively alleviate BMSCs senescence, optimize the local chronic inflammatory microenvironment, eliminate oxidative stress, and reduce post-implantation infection risks. Detailed material characterization revealed that the introduction of Mn2+ significantly enhances the mechanical properties and optimizes the degradation characteristics of the CMCS/TA hydrogel, ensuring continuous and stable drug release at tissue repair sites. In vitro and in vivo experiments demonstrated MCTM's excellent biocompatibility and its ability to combine stem cell senescence alleviation with bone repair microenvironment improvement, thereby effectively overcoming various adverse factors affecting bone defect repair in the elderly. This study presents a promising strategy for enhancing bone regeneration under senescent conditions."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123484",
+      "title": "Structure and nanotoxicity of fungal chitin-glucan nanofibrils with gradient acid and alkaline treatments",
+      "authors": [
+        "Juan Cadavid",
+        "Aitor Larrañaga",
+        "Erlantz Lizundia"
+      ],
+      "coverDate": "2025-06-01",
+      "abstract": "Among nanoscale biopolymers, fungal chitin nanofibrils (ChNFs) stand out for their low carbon footprint and functional properties. However, the nanotoxicity properties of ChNFs have not been fully elucidated. To fill this knowledge gap, here we investigate the cytotoxicity and inflammatory effects of chemically modified ChNFs having gradient acid and alkaline treatments. ChNFs isolated from white mushroom exhibit a long fibrous morphology with diameters of 3-8 nm and lengths of 150-600 nm, and are composed of α-chitin in coexistence with amorphous covalently bounded β-glucans. Both alkaline (2 m NaOH) and acidic (2 m HCl) treatments impact the crystallinity, N-acetylation, zeta potential, and nitrogen content values to provide ranges of 23-to-51 %, 45-to-99 %, -5 to +26 mV, and 2.6-to-5.2 %, respectively. Nanotoxicity studies with colloidal dispersions demonstrate differences in the inflammatory response by cells after chemical post-treatments. The NaOH-treated ChNFs elicited a much lower inflammatory response, attenuating the release of nitrites and the pro-inflammatory cytokine tumor necrosis factor-α (TNF-α). Alginate hydrogels with ChNFs were further fabricated and demonstrated potential to host cells in three-dimensional microenvironments, preserving a good metabolic activity, viability, and cell proliferation. These results may guide new applications of fungal nanochitin in pharmaceutical or tissue engineering."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123434",
+      "title": "Enhancing the performance of injectable self-activating PVA-alginate hydrogel by Ag@MXene nanozyme as NIR responsive and photoenhanced antibacterial platform for wound healing",
+      "authors": [
+        "Zepeng Liang",
+        "Zelin Sang",
+        "Yumei Li",
+        "Zhenhua Chen",
+        "Xifan Mei",
+        "Xiuli Ren"
+      ],
+      "coverDate": "2025-06-01",
+      "abstract": "Design of tough and functional hydrogel based on carbohydrate polymers is always attracting. Injectable hydrogel based on polyvinyl alcohol (PVA) and sodium alginate (Alg) have great potential for wound repair. However, simple hydrogel lacks functionality, such as antibacterial, which limits its application. Herein, we proposed a strategy of using Ag@MXene nanozyme to functionalize hydrogel and construct a near-infrared laser (NIR) responsive, reactive oxygen species (ROS) generating, and antibacterial platform for wound repair. Epigallocatechin gallate (EGCG) and Ag cluster modified Ti3C2 (E-Ag@Ti3C2) was prepared to enhance the performance of injectable PVA-alginate hydrogel (E-Ag@Ti3C2@H). The functionalized hydrogel presents porous structures (67 % porosity percentage) and excellent compressive and tensile properties (elongation up to 157 %). Under NIR laser irradiation, E-Ag@Ti3C2@H showed photothermal conversion efficiency and ROS generation ability. The inhibition rate for Methicillin-resistant Staphylococcus aureus (MRSA) and Escherichia coli (E. coli) can reach to 91.2 % and 90.3 %, respectively. Molecular biology experiments showed that the composite hydrogel could promote angiogenesis and wound healing by upregulating the expression of anti-inflammatory factors. The obtained injectable E-Ag@Ti3C2@H hydrogel is potential in accelerating diabetic wound healing."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123505",
+      "title": "Innovative ag-AgCl@TiO2@cellulose nanofiber porous composites with Z-scheme heterojunction for enhanced adsorption and photocatalytic degradation of formaldehyde",
+      "authors": [
+        "Wenfan Yu",
+        "Jianchun Li",
+        "Chang Li",
+        "Wentao Liu",
+        "Shifeng Zhang"
+      ],
+      "coverDate": "2025-06-01",
+      "abstract": "Photocatalysis has emerged as one of the most promising technologies for formaldehyde purification owing to its green, safe, and cost-effective properties. However, most photocatalysts exhibit poor light absorption properties and exist as powders, limiting their large-scale application. To address this challenge, Ag-AgCl@TiO2@cellulose nanofiber porous composites were prepared by integrating the photocatalysts into a cellulose matrix through physical/chemical dual crosslinking, photoreduction, and freeze-drying. The materials exhibited excellent mechanical properties due to the hydrogen bonding and electrostatic adsorption interactions between the components. Moreover, the porous composites exhibited excellent synergistic adsorption-photocatalytic degradation performance for formaldehyde. This is attributed to the abundant polar functional groups in the cellulose nanofibers and the heterostructure formed by TiO2, Ag, and AgCl. The composites achieved a maximum photocatalytic degradation rate of 99.54 %. After five cycles of reuse, they still maintained a high degradation efficiency of 99.07 %, demonstrating excellent recyclability. Compared with similar materials, the synthesized porous composites performed well in terms of degradation rate, maximum degradation efficiency, and cyclic reutilization performance. In summary, this study provides an innovative approach to air purification."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123421",
+      "title": "Multiscale mechanical properties and enhancement mechanism of cellulose-composited hydrogels",
+      "authors": [
+        "Na Li",
+        "Shaojun Qi",
+        "Laura Buccoli",
+        "Pablo Del Pozo Lorenzale",
+        "Roxana Guillen De La Cruz",
+        "Adrian Harris",
+        "Zhenyu J Zhang"
+      ],
+      "coverDate": "2025-06-01",
+      "abstract": "We prepared cellulose-composited ionic-covalent entanglement (ICE) network gelatin methacrylate/alginate (G/A) hydrogels using microfibrillated cellulose (MFC) and nanofibrillated cellulose (NFC), of which the mechanical properties were evaluated at two different length scales. Macro-compression shows that cellulose improves the toughness, compression resistance, and Young's moduli of ICE hydrogels, attributed to the synergistic interaction between the cellulose fiber network and ICE due to hydrogen bonding. Pure MFC (363.43 kPa) or NFC (325.75 kPa) alone, compared to a blend of the two with varied contents (261.5-288.5 kPa), displays a more pronounced improvement in the Young's moduli of ICE hydrogels, because homogeneous fiber networks enhance the structural integrity of the system. Micro-indentation reveals that hydrogen bonds between cellulose and ICE weaken the time-dependent deformation of cellulose-composited ICE hydrogel. Mapping of Young's modulus and hardness distribution of the hydrogel suggests that there are three forms of enhancement within cellulose-composited ICE hydrogel: cellulose fiber networks, ICE synergistic network, and synergies between cellulose fiber network and ICE. Creep results highlight that the excellent confinement effect of MFC contributes to creep resistance of cellulose-composited ICE hydrogels. In conclusion, the multiscale characterization unravels the mechanical reinforcing mechanisms of cellulose fibres in ICE hydrogels, which demonstrates the possible strategies for improving the mechanical properties of hydrogels."
+    }
+  ]
+}
