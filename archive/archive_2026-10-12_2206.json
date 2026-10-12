@@ -1,0 +1,258 @@
+{
+  "run_datetime_utc": "2026-10-12 22:06 UTC",
+  "source": "Elsevier Scopus Search API + PubMed E-utilities (abstract cross-reference)",
+  "target_count": 20,
+  "collected_count": 25,
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2025.123471",
+      "title": "Surfactant-modified microfibrillated cellulose reinforcement of high-barrier sustainable packaging films",
+      "creator": "Arafat K.M.Y.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-86000303221",
+      "pii": "S0144861725002528",
+      "abstract": "Surfactant-modified microfibrillated cellulose (S-MFC) enhanced the barrier properties of biobased packaging films for food applications. MFC of varying dimensions was mechanically produced from hardwood cellulosic fibers by applying different cumulative energy levels. The MFC was then modified employing a cationic surfactant, viz., cetyltrimethylammonium bromide (CTAB), and a non-ionic surfactant (NS), alcohol ethoxylate, followed by solution casting to develop packaging films. The MFC and S-MFC were characterized by using scanning electron microscopy (SEM), X-ray photoelectron spectroscopy (XPS), and time-of-flight secondary ion mass spectrometry (ToF-SIMS). The packaging films were evaluated for barrier and mechanical properties, including air permeability, water vapor transmission rate (WVTR), oil and grease resistance, hot oil resistance, water contact angle and surface energy, tensile, and stretch properties. The incorporation of hydrophobic long alkyl chains from the surfactant onto the surface of the MFC through electrostatic and hydrophobic interactions contributed to improved barrier properties of the films. The S-MFC-based films demonstrated a 38 % reduction in WVTR, zero air permeability, the highest oil and grease resistance (kit level 12), and passed the hot oil absorption (<4 %), with increasing fibrillation levels and surfactant modifications. S-MFC films showed the highest contact angle of ~81° and the lowest surface energy (37.2 mN/m).",
+      "pmid": "40158995"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123371",
+      "title": "Manipulating gelatinization, retrogradation, and hydrogel properties of potato starch through calcium chloride-controlled crosslinking and crystallization behavior",
+      "creator": "Xu K.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-85218410856",
+      "pii": "S0144861725001523",
+      "abstract": "Due to the inherent susceptibility of single-polymer starch molecules to retrogradation, the practical application of green starch hydrogels is remarkably limited. Here, we propose a simple strategy to achieve the multifunctionality of starch hydrogels by employing polymer amorphization. Calcium chloride was used to promote the gelatinization of starch granules, disrupting their crystalline structure without the need for heating. Additionally, during the initial stage of hydrogel formation, the effects induced by calcium chloride effectively suppressed starch retrogradation. This suppression induced the formation of uniform aggregates of polymer chains, enabling tunable polymer amorphization and the coexistence of free hydroxyl and hydrogen-bonding hydroxyl groups. The multiscale microstructure yielded starch-based hydrogels with favorable water-retention capabilities, high transparency (86.39 %), improved self-adhesive and self-healing properties, excellent stretchability (146 %), tissue-like ultra-softness (Young's modulus <10 kPa), and anti-freezing properties (<-50 °C). Overall, this study systematically elucidates the underlying mechanisms of CaCl2 impacts on starch gelatinization, retrogradation, and hydrogel properties, paving the way for the on-demand functionality of starch hydrogels through regulated crystallization.",
+      "pmid": "40158958"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123437",
+      "title": "Preparation of TEMPO-partially oxidized sodium alginate/SF scaffolds with degradation compatibility for skin defect repair",
+      "creator": "Zhao X.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-86000739587",
+      "pii": "S0144861725002188",
+      "abstract": "This study aimed to curtail the secondary damage caused by traditional dressings by cross-linking TEMPO-mediated oxidized sodium alginate (TOSA) with silk fibroin (SF) through the EDC system and preparing the scaffolds through freeze-drying and anhydrous ethanol immersion. The good adsorption, mechanical properties, high porosity, and good in vitro and in vivo biocompatibility of the scaffold can improve the healing efficiency of the wound. Additionally, sodium alginate was oxidized by the TEMPO system to lower its molecular weight and hence increase the degradation rate of the scaffold. Consequently, the scaffold demonstrated a rapid degradation rate (42.26 % degradation in 7 days) in the in vitro enzyme solution. The scaffold will not induce secondary damage to the wound and does not require removal. Furthermore, the oxidation degree of sodium alginate was regulated by the TEMPO system, supporting the preparation of degradation-adapted skin tissue engineering scaffolds.",
+      "pmid": "40158975"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123435",
+      "title": "Tailoring pore structure in nanocellulose cryogels: Enhancing thermal and electromagnetic interference shielding properties",
+      "creator": "Amini M.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-85219029008",
+      "pii": "S0144861725002164",
+      "abstract": "Engineering porosity levels in hierarchical cryogels presents an exciting opportunity for advancing electromagnetic interference (EMI) shielding materials. This study introduces a feasible approach to tailoring micro-scale morphology in cellulose nanofiber (CNF)-based cryogels by simply adjusting the freeze-templating temperature, resulting in tunable porosity and enhanced performance characteristics. By varying the freeze-templating temperature, we successfully controlled pore size (ranging from 31 to 178 μm), which influenced the mechanical strength (decreasing from 59 to 14 kPa). To explore the effect of micro-scale porosity on the EMI shielding performance, we rendered the CNF cryogels conductivity upon integrating poly(3,4-ethylenedioxythiophene) (PEDOT) with the cryogels framework via chemical vapor polymerization. Our results demonstrate that the larger pore sizes promoted an absorption-dominant EMI shielding mechanism, with an average absorbance (A) of 0.59 across the X-band frequency range. A specific EMI shielding effectiveness (SSE/t) of 4801.25 dB cm2 g-1 was achieved for samples with larger porosities, highlighting the decent performance of these engineered cryogels. Our findings reveal a straightforward yet effective strategy for optimizing porosity to achieve appreciable shielding effectiveness, contributing to the advancement of sustainable, high-performance EMI shielding solutions.",
+      "pmid": "40158973"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123477",
+      "title": "Synthesis and biological evaluation of mirror isomers of β-(1 → 3)-glucans as immune modulators",
+      "creator": "Sun A.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-86000551617",
+      "pii": "S0144861725002589",
+      "abstract": "β-(1 → 3)-glucan is widely distributed in the cell walls of bacteria, fungi, yeasts and algae. A variety of pharmacological effects of β-(1 → 3)-glucan have been demonstrated, including immune modulation. The enzyme recognition pocket can recognize the chirality of the ligand and often give rise to disparate biological activities. The bioactivity of the mirror-image isomers of natural oligosaccharides is scarcely studied due to the difficulty of acquiring them. In this study, we have successfully completed the total synthesis of the naturally occurring β-ᴅ-(1 → 3)-glucans and their mirror image β-ʟ-(1 → 3)-glucans containing three, four, eight, and twelve monosaccharides for the first time. Subsequently, the immunomodulatory activities of ᴅ- and ʟ-type β-glucans were evaluated to explore their bioactivity and preliminary mechanism of action. The results indicated that mirror-image β-(1 → 3)-glucans exerted bidirectional regulatory effects on M0/M1-type macrophages. The ᴅ-type β-(1 → 3)-glucans have the potential to regulate macrophage polarization through the GPCR and CR3 signalling pathways. In contrast, the ʟ-type β-(1 → 3)-glucans achieved bidirectional regulation of macrophage polarization by influencing cellular metabolism. The findings presented herein provide new evidence for the further investigation of the biological activities of oligosaccharides and their mirror image isomers.",
+      "pmid": "40158999"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123378",
+      "title": "Multifunctional hydrogel dressing composed of trichosanthes polysaccharide and carboxymethyl chitosan accelerates cachectic wound healing and reduces scar hyperplasia",
+      "creator": "Chen G.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-85218422563",
+      "pii": "S0144861725001596",
+      "abstract": "Cancer cachexia affects up to 80 % of advanced cancer patients and contributes to significant mortality. Impaired wound healing in cachectic patients limits physical activity, leads to nutrient loss, and increases infection risk. This study develops multifunctional hydrogels composed of oxidized polysaccharides (TPS) from Radix Trichosanthis and carboxymethyl chitosan (termed CMOT) to enhance wound healing and mitigate scar hyperplasia. TPS, characterized by its immunomodulatory properties, was oxidized to create aldehyde derivatives (oTPS1 and oTPS2) with varying oxidation levels and crosslinked with carboxymethyl chitosan through Schiff base reactions to form hydrogels (CMOT1 and CMOT2). It indicates the ability to tailor the rheological and mechanical properties of CMOT hydrogels through controlled oxidation and cross-linking. These hydrogels exhibited excellent self-healing properties, biocompatibility, and immunoregulatory effects on macrophages and T lymphocytes. Notably, CMOT2 hydrogel, with higher aldehyde content, exhibited superior mechanical properties, enhanced water retention, and slower degradation than CMOT1, consequently, accelerating wound healing in cancer cachexia conditions and reducing scar hyperplasia. The therapeutic mechanisms were associated with promoting angiogenesis, collagen synthesis, and epithelial repair, while down-regulating En-1. It not only addresses the challenges of wound healing in cancer cachexia but also offers a potential therapeutic strategy for scar hyperplasia inhibition.",
+      "pmid": "40159017"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123457",
+      "title": "Urea-crosslinked 3D graphene oxide/MXene-SO3/cyclodextrin films for efficient and sustainable biodiesel production",
+      "creator": "Ao Q.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-105000689210",
+      "pii": "S0144861725002383",
+      "abstract": "Biodiesel, a renewable bio-based transport fuel consisting of alkyl esters of long-chain fatty acids, is gaining attention as an alternative to non-renewable petroleum diesel. We prepared adjustable interlayer spacing urea-crosslinked 3D graphene oxide/MXene-SO3/cyclodextrin (MGUC) film to achieve efficient and sustainable biodiesel production. Ti3C2TX (MXene) grafted sulfonic acid groups as acid-catalytic sites of the film with graphene oxide (GO) via urea cross-linking and doping cyclodextrin (CD) to construct multistage pore structures (internal pore structures generated by urea cross-linking as well as CD host-guest structures) synergistically catalyzed biodiesel production. Meanwhile, the heterogeneous carbon-based materials based on GO and MXene-S have excellent photothermal efficiency, which can achieve 95.6 % biodiesel conversion at 4 h and maintain 75.32 % activity after 8 cycles. We verified the reason for the high catalytic activity of the MGUC films, which rationalized the fast mass transfer mechanism of CD by Density functional theory (DFT)and verified the transport mechanism of the heterojunction for efficient photothermal. Therefore, this CD carbon-based solid acid film catalytic platform provides a new direction for the green and efficient preparation of bioenergy.",
+      "pmid": "40158988"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123485",
+      "title": "Multimodal structural humidity-response of cellulose nanofibril foams derived from wood and upcycled cotton textiles",
+      "creator": "Åhl A.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-105000072302",
+      "pii": "S0144861725002668",
+      "abstract": "We have produced foams from cellulose nanofibrils from upcycled cotton (upCNF) and wood (wCNF) through unidirectional (UIT) and multidirectional ice-templating (MIT) and investigated the structural humidity response through in-situ WAXS, SAXS, and micro tomography (μCT) between 10 and 95 % relative humidity (RH). The upCNF and wCNF WAXS patterns displayed a shape- and position shift as the RH was increased, with a compression in the (200) direction and an elongation in the (004) direction. The average separation distance extracted from the 1D SAXS patterns revealed no significant change for the upCNF foams regardless of RH and processing route, while a significant increase was observed for the wCNF foams. The μCT measurements of the upCNF foams showed a slight shift in macropore distribution towards larger pores between 50 and 80 % RH which can be attributed to the weakening and partial disintegration of the pore wall as more moisture is introduced. The humidity-induced structural alterations of the upCNF foam were significantly lower compared to the wCNF foams, confirming our claim of upCNF being more moisture resistant than wCNF foams.",
+      "pmid": "40159006"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123479",
+      "title": "UV-induced plasma welding and interface customization strategy of cellulose nanofiber/silver nanowire composite electrode for advanced flexible photoelectric applications",
+      "creator": "Liu B.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-86000619971",
+      "pii": "S0144861725002607",
+      "abstract": "Significant advancements in flexible photoelectric devices have been achieved through extensive research on flexible transparent conductive electrodes (FTCEs) based on silver nanowires (AgNWs). However, two key challenges that need to be addressed are the high contact resistance of AgNWs and poor interface adhesion between AgNWs and the flexible substrate. In this study, we present a composite electrode comprising polydopamine-grafted cellulose nanofibers (PDA-TCNF) and AgNWs, fabricated through an interface customization strategy combined with UV-induced plasma welding. To enhance interfacial crosslinking, N, N-bis(acryloyl)cysteamine (BACA) was introduced as a surface adsorbate for AgNWs. The composite electrode exhibited rapid plasma welding of AgNWs under low-intensity UV irradiation. The optimized PDA-TCNF/AgNW-S/3 electrode demonstrated a sheet resistance of 7.26 Ω sq.-1 with a remarkable light transmittance of 85.7 %. The interface customization strategy facilitated enhanced diffusion of silver atoms at AgNW junctions during UV-induced heating, thereby strengthening their welding capability. These electrodes serve as high-performance FTCEs for electroluminescent devices and transparent electric heaters. Our work proposes a simple method to fabricate superior FTCEs by integrating nanocellulose with AgNWs, offering a promising environmentally friendly material for flexible optoelectronic applications.",
+      "pmid": "40159000"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123428",
+      "title": "Effect of exogenous protein crosslinking on the physicochemical properties and in vitro digestibility of corn starch",
+      "creator": "Wang K.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-85218347286",
+      "pii": "S0144861725002097",
+      "abstract": "Starch is a primary energy source of human diet. Its physicochemical properties and digestibility can be improved by incorporating exogenous protein. In this study, mung bean protein isolate was covalently crosslinked using transglutaminase and proanthocyanidin to create crosslinked mung bean protein isolate. This modified protein was combined with corn starch to form crosslinked mung bean protein isolate-corn starch composite samples. Results demonstrated that these composite samples exhibited superior physicochemical properties, including reduced swelling capacity, enhanced freeze-thaw stability, improved thermostability, and enhanced antioxidant properties. During in vitro digestion, the improved corn starch digestibility was attributed to two factors: first, hydrogen bonding and electrostatic interactions between crosslinked mung bean protein isolate and corn starch; and second, the synergistic crosslinking of transglutaminase and proanthocyanidin promoting the formation of a stable protein network of mung bean protein isolate, serving as a physical barrier to protect corn starch. After co-treatment with transglutaminase and proanthocyanidin, significant changes of mung bean protein isolate occurred in their secondary and tertiary structures, enhancing its protein network strength, thereby improving the physicochemical properties of corn starch. These findings propose a new strategy for reducing rapidly digestible starch and provide a theoretical foundation for developing low glycemic index starch foods.",
+      "pmid": "40158968"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123415",
+      "title": "Structure identification and biological activity of a novel sulfated glycosaminoglycan-like polysaccharide from Sepia recurvirostra ink",
+      "creator": "Cheng N.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-85218335333",
+      "pii": "S0144861725001961",
+      "abstract": "A novel sulfated glycosaminoglycan-like polysaccharide (SIP), with a molecular weight of 13.78 kDa, was isolated from Sepia recurvirostra ink. SIP displayed a sulfate content of 6.82 % and consisted of GlcNAc, GalNAc, GlcA and Fuc. The distinct structural sequence of SIP was identified by 1D/2D NMR assignments of the backbone released by deaminative treatment and the oligosaccharides generated by mild acid hydrolysis. The backbone was built up of disaccharide repeating blocks structured as [-D-GlcA-β1,4-L-Fuc-α1,3-]. Notably, the non-sulfated GalNAc was attached to C-3 of Fuc, while the 4, 6-O-disulfated GlcNAc was pendant at C-4 in 20 % of GlcA residues, as revealed by the well-defined structures of trisaccharide, tetrasaccharides, heptasaccharides and decasaccharides. Except for the trisaccharide, the non-reducing ends of the other oligosaccharides were GlcNAc6S or GlcNAc4S6S, suggesting selectivity of glycosidic bond cleavage and desulfation during mild acid hydrolysis. SIP showed negligible anticoagulant and heparanase inhibitory activity. Moreover, the effects of SIP on the generation of short-chain fatty acids (SCFAs) by colonic microbiota were evaluated. The addition of SIP resulted in a significant increase in levels of acetate, propionate, isobutyric acid, and isovaleric acid, offering insights into the contribution of the colonic microbiota to the health benefits of dietary squid ink.",
+      "pmid": "40158962"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123483",
+      "title": "P/N/S synergistic lignin nanoparticles enhance the excellent flame retardancy, flexibility, UV resistance, and full biodegradability holocellulose nanocomposite films",
+      "creator": "Ye J.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-86000644026",
+      "pii": "S0144861725002644",
+      "abstract": "Bamboo holocellulose emerges as a significant candidate in the field of bio-based functional materials, owing to its rapid growth cycle, high strength, and antioxidant properties. However, its flammability poses a significant critical challenge, thereby hindering the widespread application of this carbonized polymer. In this study, we present a straightforward and efficient ternary deep eutectic solvent (TDES) pretreatment strategy. Specifically, the TDES treatment was employed to chemically introduce P/N/S groups into holocellulose and lignin, resulting in the production of flame-retardant holocellulose (HC-SP) and lignin (Lignin-SP), respectively. By adjusting the ratio of these two components, nanosuspensions and nanocomposite films were fabricated through a co-grinding process. The incorporation of Lignin-SP imparted the P/N/S-containing holocellulose nanofibril composite films with exceptional flame retardancy (with a limiting oxygen index exceeding 52.5 %), substantial tensile strength (reaching 152.3 MPa), robust UV-blocking capability (blocking over 98.9 % of UV radiation), and biodegradability (degrading within 70 days). This straightforward preparation strategy for all-biobased green flame-retardant packaging materials holds promising application potential in the fields of flame-retardant food packaging.",
+      "pmid": "40159004"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123446",
+      "title": "Double-layer skin equivalents as diffusion models for topical and transdermal drug delivery studies",
+      "creator": "Zhou R.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-85219702785",
+      "pii": "S0144861725002279",
+      "abstract": "In vitro permeation test (IVPT) is a critical part of the prescription screening and evaluation of topical/transdermal drug delivery systems, in which ex vivo human skin or animal skin are generally used as skin membranes. The development of skin equivalents to replace animal/ human skins has high scientific and industrial value owing to the issues such as ethical issues and large variability of real skin. Here, a double-layer skin equivalent (DSE) containing both dermal-simulating structure and epidermal barrier function was developed. The dermal structure was composed of photo-crosslinked glycosaminoglycan, calcium alginate and gelatin; while the epidermal barrier-simulating structure was an electrospun nano-polyurethane-membrane. Mainly contributed to the synergistic effect of polysaccharide and protein composites, the formed DSE had similar compression modulus to that of real full-layer skin. Most of all it exhibited high correlation and similar transdermal drug release behavior with mini-porcine skin for three model drugs with different Log P. The DSE also showed comparable kinetic model fitting results to mini-porcine skin and exhibited a closer resemblance to porcine skin than other skin equivalents reported. Moreover, the penetration resisting ability of the DSE can be adjusted by adjusting the formulation to simulate different types of skin.",
+      "pmid": "40158983"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123470",
+      "title": "Straightforward association of phosphate with giant reed fibers for rapid and efficient water decontamination",
+      "creator": "Mutuyimana A.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-86000589216",
+      "pii": "S0144861725002516",
+      "abstract": "Lignocellulosics present attractive properties for sustainable water decontamination. Yet, they lack strong interactive functional groups, making their performance low compared to established adsorbents. Previous works generally focused on exhaustive chemical routes aiming at cellulose isolation from lignocellulosics and its functionalization to enhance its adsorption characteristics. Here, we show that the direct functionalization of Giant Reed (Arundo donax L) in benign Diammonium phosphate/urea system affords highly phosphorylated fibers at a high yield. The samples were characterized using SEM, XRD, FTIR, 13C and 31P NMR spectroscopies, conductometric titration, and Zeta-potential measurements to comprehend their morphology, chemistry, and surface properties. The chemical functionalization of Giant Reed (GR) leads to a significant amount of phosphates attached to the fibers, resulting in a charge content of 4.45 mmol·g-1 and a negative surface charge in a wide pH range. Consequently, the adsorption performance of GR increased more than sixtyfold after phosphorylation, reaching adsorption capacities of 365 mg·g-1 for copper ions and 606-1145 mg·g-1 for dyes. Isotherm and kinetic adsorption models identified the mechanisms governing the adsorption process. This study reveals the prospects of a single-step benign chemical functionalization of a fast growing lignocellulosic resource (GR) that yields highly phosphorylated fibers for the removal of wastewater impurities.",
+      "pmid": "40158994"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123490",
+      "title": "Preparation of temperature-dependent flux controllable cellulose nanofiber-based films and their application in oil-water separation",
+      "creator": "Li F.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-86000565940",
+      "pii": "S0144861725002711",
+      "abstract": "The discharge of industrial oily wastewater causes a significant waste of resources and serious environmental pollution problems. Oil- water separation and recycling waste oil are effective ways for human society to achieve sustainable development. In this work, a series of temperature dependent flux adjustable \"dehydration type\" cellulose nanofiber-based (CNFS) films was constructed for achieving efficient oil-water separation, which were obtained by using physical blending of polyvinyl alcohol (PVA) and cellulose nanofibers (CNF) modified by sulfobetaine fragment (SB). CNFS-based films with high SB content had high water flux. At room temperature, after 20 cycles, the water flux of CNFS-5/15%PVA film was 881 L m-2 h-1 for separating petroleum ether/water lotion, and the oil-water separation efficiency was 93.4 %. CNFS-based films exhibited higher water fluxes at high temperatures. For example, at 35 °C, the water flux of CNFS-5/15%PVA film was 1.5 times that at room temperature. The higher water flux of CNFS-based films at high temperatures was attributed to their higher hydrophilicity. In this work, SB was used to endow CNF with temperature response. And the CNFS-based films can effectively separate oil lotion by regulating the water fluxes through temperature, which provides a new idea for oil-water separation and recycling waste oil.",
+      "pmid": "40159009"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123489",
+      "title": "Fabrication of poly(vinyl alcohol)/sulfonated itaconic starch blend film with enhanced antibacterial performance and soil absorption capacity for environment-friendly packaging",
+      "creator": "Zhu L.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-86000642399",
+      "pii": "S014486172500270X",
+      "abstract": "Plastic packaging is widely used due to its light weight, ease of processing, and cost-effectiveness, but improper disposal causes environmental pollution and resource waste. Developing environment-friendly packaging materials is urgent. Herein, a water-soluble poly(vinyl alcohol) (PVA)/starch blend film was proposed by combining modification and thermal processing, and its performance was evaluated. Starch was modified via a three-step process-acid hydrolysis, itaconic anhydride esterification, and sodium bisulfite sulfonation-to produce sulfonated itaconic starch. The introduction of carboxyl and sulfonic groups improved the hydrophilicity of PVA/starch blends. The water contact angle of the modified blend film was notably decreased in comparison to that unmodified one. The blend films also demonstrated an enhancement in UV shielding properties, effectively reducing rhodamine B photodegradation under extended UV exposure. Besides, the incorporated groups improved the antibacterial performance of the blend film, exhibiting the efficient enhancement on the antibacterial effects on both E. coli and S. aureus. Moreover, the film exhibited the good soil absorption capacity, dissolving completely in soil within 12 h, highlighting its potential for environment-friendly food packaging applications.",
+      "pmid": "40159008"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123397",
+      "title": "Bespoke hydroxypropyl methylcellulose-based solid foams loaded with poorly soluble drugs by tunable modular design",
+      "creator": "He W.",
+      "coverDate": "2025-06-01",
+      "eid": "2-s2.0-85218441560",
+      "pii": "S014486172500178X",
+      "abstract": "A tunable modular design (TMD) as a new approach was proposed to tailor the dose and drug release profile of poorly water-soluble drugs from hydroxypropyl methylcellulose (HPMC)-based solid foams by combining two manufacturing principles: (1) freeze-drying aqueous HPMC-based gels to yield porous sturdy modules with specific doses of an active pharmaceutical ingredient (API) with the step size of 3 mg, and (2) fine-tuning the desired dose of the API with the step size of 0.1 mg by inkjet printing of the API-loaded ink onto the modules. Carvedilol (CAR) was used as a model poorly water-soluble API that requires frequent dose adjustment. The limitation of poor CAR solubility was overcome by designing pharmaceutically approved co-solvent systems. This approach ensured printable inks of a high drug content, and sturdy and flexible modules with uniform distribution of CAR to achieve effective and accurate doses of CAR. The tailored release rate of CAR from TMD products was succeeded by varying the composition, particularly, the content and grade of HPMC, and physical dimensions of modules. The TMD approach holds potential for designing bespoke high-quality products, containing hydrophilic cellulose ethers such as HPMC and poorly water-soluble APIs.",
+      "pmid": "40158960"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123386",
+      "title": "Ionic liquids modified starch-based porous material for efficient formaldehyde capture",
+      "creator": "He Q.",
+      "coverDate": "2025-05-15",
+      "eid": "2-s2.0-85217899451",
+      "pii": "S0144861725001675",
+      "abstract": "Formaldehyde (HCHO) is a major pollutant among indoor volatile organic compounds (VOCs) and has been categorized as a Group 1 carcinogen by the World Health Organization. Designing and preparing green and environmentally friendly porous bio-adsorbents for efficient adsorption of HCHO is essential. This study developed a novel porous starch-graft-styrene hypercrosslinked polymer (IL@H-St-g-PS) for efficient HCHO adsorption through post-modification strategy using ionic liquids (ILs). Firstly, [EMIm][OAc] was selected in four ILs by theoretical calculation due to the strongest binding energy with HCHO. Then, H-St-g-PS was modified with [EMIm][OAc] and thus the product IL@H-St-g-PS possessed abundant adsorption sites such as starch hydroxyl groups, acetate ions and imidazole groups in ILs. The prepared IL@H-St-g-PS had a high BET surface area (645 m2/g) with a micropore volume and reached an HCHO adsorption capacity at 15.0 mg/g at 350 ppm, which was approximately 2.0 times greater than that of the original H-St-g-PS. The adsorption of HCHO on glucose units of starch and ionic liquid units within IL@H-St-g-PS could be enhanced through hydrogen bonding and electrostatic interactions. These results suggested that the ILs modified starch-based polymer could provide an environmentally friendly and attractive candidate adsorbent for the adsorption of aldehyde VOCs in practical applications.",
+      "pmid": "40049965"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123372",
+      "title": "A new strategy for accelerating redox kinetics in lithium-ion batteries: Highly porous poly(ethylene glycol)/nanocellulose separators",
+      "creator": "Ko Y.",
+      "coverDate": "2025-05-15",
+      "eid": "2-s2.0-85217732556",
+      "pii": "S0144861725001535",
+      "abstract": "Nanocellulose has garnered attention in energy storage as an environmentally friendly and stable separator for lithium-ion batteries (LIBs). However, cellulose nanofibers (CNF) form a dense network that impedes Li-ion migration and limits electrolyte uptake. To develop an efficient LIB separator, polyethylene glycol (PEG) was incorporated with CNF to promote hydrogen bonding, leading to a stable PEG/CNF composite that enhances ionic conductivity. Additionally, polystyrene (PS) was used as a porogen to create a highly porous structure with uniform pore distribution. The PEG/CNF-based separators exhibited superior electrolyte compatibility, uptake capacity, and thermal stability compared to polypropylene (PP)-based commercial separators. The porous PEG/CNF separator demonstrated significantly higher ionic conductivity than the PP separator, with values of 2.0672 and 1.3272 mS cm-1, respectively. The cell paired with the PEG/CNF separator, LiFePO4, and Li metal (PEG/CNF cell) exhibited improved mass transfer kinetics under high current density. At a current density of 10C, the PEG/CNF cell achieved a specific capacity of 108 mAh g-1. After 300 cycles at a current density of 5C, the capacity retention of cells with the PEG/CNF separator was 80 %, compared to only 25 % with the PP separator. These findings highlight the superior Li-ion transport capacity of the porous PEG/CNF separator.",
+      "pmid": "40049954"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123423",
+      "title": "A new method for the quantification of polysaccharide structural domain: Rapid quantification of Rhamnogalacturonan-II by colorimetry",
+      "creator": "Liu Y.",
+      "coverDate": "2025-05-15",
+      "eid": "2-s2.0-85218257357",
+      "pii": "S0144861725002048",
+      "abstract": "Polysaccharides are important pharmacodynamically active components in traditional Chinese medicines and based on the type of monosaccharides and glycosidic linkages, they can be divided into different structural domains. Rhamnogalacturonan II (RG-II) is among the most complex and conserved structural domain within polysaccharides and possesses significant pharmacological effects. Nevertheless, there is no suitable method for quantifying homogeneous polysaccharides that contain the RG-II structural domain. In this study, a colorimetric method was developed to rapidly quantify this particular polysaccharide, utilizing the principle that the unique monosaccharides (Kdo and Dha) in RG-II were derivatized and reacted with thiobarbituric acid (TBA) to produce a pink substance with a maximum absorption wavelength at 548 nm. The method demonstrates excellent specificity, linearity, stability, reproducibility, accuracy, and sensitivity. It also features the advantages of simple operation, low instrument requirements, low cost, and time efficiency. The critical application of this method in polysaccharide quality control lies in comparing the contents of RG-II in polysaccharide samples from different sources. This method also serves as a potential tool for screening RG-II-rich traditional Chinese medicines and foods, simplifying the structural characterization of RG-II-type polysaccharides and study the quantity-effect relationship of these polysaccharides.",
+      "pmid": "40049985"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123400",
+      "title": "Carboxylated lamellar wood sponge enables high loading and uniform dispersion of MIL-53(Al) for efficient organic dye adsorption",
+      "creator": "Wang X.",
+      "coverDate": "2025-05-15",
+      "eid": "2-s2.0-85217936295",
+      "pii": "S014486172500181X",
+      "abstract": "Developing high-performance metal-organic framework (MOF)-based composites with high loading and uniform distribution of MOF nanoparticles is crucial for their adsorption-associated applications but remains challenging due to the lack of ideal carriers. Herein, a novel MOF-based composite was developed by in situ growth of MIL-53(Al) crystals within the carboxylated wood sponge (CWS) derived from natural balsa wood. The conversion of the cellular structure of natural wood into a lamellar structure greatly enhances the accessibility of the wood scaffold, while the introduction of carboxyl groups onto the cellulose skeleton of the wood sponge encourages the selective growth of MIL-53(Al) crystals on the lamellae of CWS. The structural features of the obtained MIL-53(Al)@CWS were investigated with FT-IR, XRD, SEM, and N2 adsorption/desorption isotherms. The MIL-53(Al) loading can be finely tuned by adjusting the concentration of the MOF precursor solutions, and an appropriate MIL-53(Al) loading of 23 wt% results in the uniform dispersion of MIL-53(Al) crystals within the wood sponge without agglomeration. Benefiting from the high loading of MIL-53(Al) and the unique lamellar channels of CWS, the developed MIL-53(Al)@CWS can effectively adsorb various organic dyes such as rhodamine B (RhB), methylene blue, Congo red, and methyl orange in water, with a high adsorption capacity of 135.82 mg g-1 for RhB. Density functional theory (DFT) calculations reveal the detailed dynamic diffusion pathways and the molecular interactions between RhB and MIL-53(Al). This work demonstrates the advantages and potentials of lamellar wood sponges as a promising host matrix in supporting MOF powders for adsorption-associated applications.",
+      "pmid": "40049971"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123401",
+      "title": "Green synthesis of polysaccharide-based Ag@AgCl photoactive porous hydrogel spheres for enhanced visible light photocatalytic degradation of organic pollutants",
+      "creator": "Wen Y.",
+      "coverDate": "2025-05-15",
+      "eid": "2-s2.0-85217818461",
+      "pii": "S0144861725001821",
+      "abstract": "Improving the visible light activity and recyclability of photocatalysts remains a key challenge for organic pollutant degradation in wastewater. In this study, enteromorpha polysaccharide (EP) and xanthan gum (XG) were combined to preload Ag+ ions, with CO2 bubbles introduced via a pressure-decompression method. After cross-linking with ZrOCl2 via drip infusion, porous hydrogel spheres embedded with photoactive Ag@AgCl nanoparticles (NPs) were obtained. The porous spheres were characterized using SEM, TEM, FT-IR, XRD, XPS, and EIS. The results revealed that the formation of hierarchical pore structure by CO2 bubbles and variations in EP content affected the distribution of Ag@AgCl NPs, leading to differences in photoelectric efficiency. Under optimal conditions, Ag@AgCl NPs with an average size of 100 nm were uniformly distributed throughout the interior and exterior of the porous sphere, exhibiting excellent photocatalytic efficiencies and the degradation rate constants for rhodamine B (RhB), methyl orange (MO), tetracycline (TC), and norfloxacin (NOF) were 0.22, 0.28, 0.013, and 0.025 min-1, respectively. Photocatalytic cycle tests showed the good recyclability of the hydrogel spheres, and the photocatalytic mechanisms were also revealed. Moreover, good biocompatibility of the hydrogel was confirmed by cytotoxicity tests. This research provides valuable references for developing green and efficient polysaccharide-based photocatalytic materials.",
+      "pmid": "40049972"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123396",
+      "title": "An injectable cyclodextrin extended polyurethane/carboxymethyl cellulose hydrogel for controlled release of insulin: In-vitro and in-vivo diabetic animal model study",
+      "creator": "Mandal S.S.",
+      "coverDate": "2025-05-15",
+      "eid": "2-s2.0-85218084233",
+      "pii": "S0144861725001778",
+      "abstract": "Diabetes is a persistent medical condition causing significant anguish for individuals and imposing substantial financial burdens on healthcare systems globally. The inability of human body to produce adequate insulin as a result of insulin resistance or β-cell loss upsets the glucose homeostasis, causing the blood glucose level to rise suddenly. Diabetic patients must get therapy to maintain their blood glucose levels within normal range, preferably through emulating normal insulin secretion, to reduce consequences such as organ deterioration. In order to preserve natural glucose balance, frequent subcutaneous insulin injections are the standard and the last line of treatment. Nevertheless, frequent and continuous subcutaneous injections are associated with low patient compliance and localized insulin amyloidosis. These issues can be resolved with steady and sustained insulin delivery. In this context, to provide sustained insulin delivery over an extended period of time for regulating blood glucose, an injectable cyclodextrin extended polyurethane (PU-co-CD)/CMC hydrogel has been designed. Due to unique composition of insulin-loaded PU-co-CD copolymer, the carboxy methyl cellulose (CMC) forms an injectable hydrogel. The synthesis and processing of this chain extended copolymer have been validated through spectroscopic, chromatographic, and rheological investigations. In diabetic Swiss albino mice, subcutaneous injection of PU-co-CD encapsulated insulin in a gel medium regulates insulin release for up to 3 days, compared to <12 h with conventional insulin injection. PU-co-CD-gel is a promising drug delivery vehicle due to its biocompatible and biodegradable nature and the formulation demonstrates sustained insulin delivery in diabetic condition without affecting any body organ, as observed through histopathology.",
+      "pmid": "40049968"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123399",
+      "title": "Kinetics and selectivity insights into carbon dioxide capture utilizing carboxymethyl cellulose-polypyrrole nanocomposites: Screening of silane functionalization",
+      "creator": "Kotp M.G.",
+      "coverDate": "2025-05-15",
+      "eid": "2-s2.0-85218245643",
+      "pii": "S0144861725001808",
+      "abstract": "Cellulose is a highly versatile and abundant biopolymer that holds significant promise for enhancing capture technologies due to its inherent properties. However, to maximize its effectiveness in carbon dioxide (CO2) adsorption, it is essential to enhance its properties through chemical or physical modifications. By developing cellulose-based materials with tailored functionalities, we can create sustainable sorbents that not only contribute to reducing greenhouse gas emissions but also leverage low-cost and environmentally friendly resources, making them suitable for large-scale applications in carbon capture technologies. This study demonstrates the synthesis of carboxymethyl cellulose-polypyrrole (CMC-PP) nanocomposite and its coating with (3-aminopropyl)triethoxysilane (APTS) or (3-mercaptopropyl)trimethoxysilane (MPTS) to derive CMC-PP-NH2 and CMC-PP-SH nanocomposites, respectively. The designed composites' physicochemical properties were studied using various analytical techniques. The CO2 and N2 capture capabilities of CMC-PP, CMC-PP-NH2, and CMC-PP-SH nanocomposites were investigated. Among them, the CMC-PP-SH nanocomposite has exhibited the highest CO2 adsorption capacity of 49.6 cm3g-1. Adsorption isotherms fitting using the dual-site Langmuir model and calculation of standard enthalpy changes (Qst) reveal that the thiol groups in CMC-PP-SH provide the most favourable interactions for CO2 capture. These findings demonstrate the potential utilization of silane coatings to develop advanced materials for effective gas adsorption and separation technologies.",
+      "pmid": "40049970"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2025.123370",
+      "title": "Cellulose nanofiber-reinforced supramolecular polymer gels for temporary plugging of fractured oil and gas reservoirs",
+      "creator": "Dai L.",
+      "coverDate": "2025-05-15",
+      "eid": "2-s2.0-85217761843",
+      "pii": "S0144861725001511",
+      "abstract": "The development of oil and gas from fractured reservoirs is hindered by reservoir complexity, wellbore instability, lost circulation, and formation fluid intrusion during drilling. Various plugging materials and strategies have been employed; however, physical plugging materials often suffer from mismatched particle and fracture sizes, while chemical plugging materials face challenge with low plugging strength as well as tedious operation conditions. In addition, achieving both high plugging effectiveness during use and superior degradability after service remains a challenge. Supramolecular polymer gels, with their high strength and dynamic tunability, present a promising solution. This study reports the synthesis of a supramolecular polymer gel using acrylamide, 2-acrylamide-2-methylpropanesulfonic acid, divinylbenzene, polyvinyl alcohol, and TEMPO-oxidized cellulose nanofibers (CNFs) through in situ radical polymerization. Due to the formation of covalent bonding and multiple hydrogen bonding, as well as the strong reinforcement and acid degradation capacity of CNFs, the supramolecular polymer gel demonstrates high compressive strength (0.69 MPa at a strain of 75 %), good thermal resistance (120 °C for 30 day), excellent plugging effect (> 11 MPa), and high degradation capacity (~ 94 wt%). This work provides new insights for developing high-strength, high-degradation supramolecular polymer gel as temporary plugging materials, promoting the development of oil and gas from fracturing reservoirs more efficiently and safely.",
+      "pmid": "40049945"
+    }
+  ]
+}
