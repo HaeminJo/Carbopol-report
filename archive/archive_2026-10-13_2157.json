@@ -1,0 +1,85 @@
+{
+  "run_datetime_utc": "2026-10-13 21:57 UTC",
+  "source": "Elsevier Scopus Search API (primary) + PubMed E-utilities / Crossref Works API / Unpaywall API (supplementary, cross-reference) + WebSearch (supplementary, no additional yield)",
+  "target_count": 20,
+  "collected_count": 5,
+  "eligibility_filters": [
+    "exclude review/systematic review/mini-review articles",
+    "exclude microbe-biology-centric articles (strain development, fermentation condition optimization as core topic)",
+    "published within last 2 years",
+    "exclude articles already in state/seen_articles.json"
+  ],
+  "notes": "Only 5 new qualifying articles found; the Nov 15, 2026 issue (Vol. 392, 39 non-review articles) was found to be 34/39 already processed in prior daily runs. PubMed had 0 new candidates (not yet indexed for these very recent Articles-in-Press). Abstract text was not accessible via available API entitlements for these 5 very new articles.",
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125916",
+      "title": "Heat moisture treatment modifies amaranth, quinoa, and taro starches via reorganizing granular architecture and driving aggregation",
+      "creator": "Chen C.",
+      "coverDate": "2026-11-15",
+      "eid": "2-s2.0-105052591595",
+      "pii": "S0144861726010337",
+      "volume": "392",
+      "article_number": "125916",
+      "openaccess": "true",
+      "subtype": "Article",
+      "description_ko": "아마란스, 퀴노아, 타로 전분에 열수분처리(HMT)를 적용하여 과립 내부 구조의 재배열과 입자 간 응집 거동을 유도하고, 처리 전후 세 전분 종의 물리적 특성 변화를 비교한 연구.",
+      "abstract_note": "원문 초록은 게재 직후 상태로 Elsevier API(META_ABS/FULL view 401), PubMed, Crossref, Unpaywall 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125909",
+      "title": "Biofermentation-induced cellulose integration for sustainable basalt-based organic-inorganic smart protective textiles",
+      "creator": "Lei M.",
+      "coverDate": "2026-11-15",
+      "eid": "2-s2.0-105052609691",
+      "pii": "S014486172601026X",
+      "volume": "392",
+      "article_number": "125909",
+      "openaccess": "false",
+      "subtype": "Article",
+      "description_ko": "미생물 발효(biofermentation) 공정을 이용해 셀룰로오스를 현무암(basalt) 기반 무기 섬유와 결합시켜 유무기 복합 구조의 지속가능한 스마트 보호 섬유를 제조한 연구.",
+      "abstract_note": "원문 초록은 게재 직후 상태로 Elsevier API(META_ABS/FULL view 401), PubMed, Crossref, Unpaywall 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125905",
+      "title": "A V-type starch-lycopene complex with enhanced cis-lycopene content alleviates hyperglycemia and glycogen fragility in type 2 diabetic db/db mice via gut microbiota",
+      "creator": "Zhou Z.",
+      "coverDate": "2026-11-15",
+      "eid": "2-s2.0-105052456148",
+      "pii": "S0144861726010222",
+      "volume": "392",
+      "article_number": "125905",
+      "openaccess": "false",
+      "subtype": "Article",
+      "description_ko": "V자형 결정구조를 갖는 전분-라이코펜 포접복합체를 제조하여 시스(cis)-라이코펜 함량을 높이고, 2형 당뇨 db/db 마우스 모델에서 고혈당 및 글리코겐 취약성 개선 효과와 장내 미생물총 변화를 평가한 연구.",
+      "abstract_note": "원문 초록은 게재 직후 상태로 Elsevier API(META_ABS/FULL view 401), PubMed, Crossref, Unpaywall 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125892",
+      "title": "Deep eutectic solvent–derived microfibrillated cellulose from wood and agro-residues: Functionalization, energy-efficient production, and properties",
+      "creator": "Upadhyay A.",
+      "coverDate": "2026-11-15",
+      "eid": "2-s2.0-105052490830",
+      "pii": "S014486172601009X",
+      "volume": "392",
+      "article_number": "125892",
+      "openaccess": "true",
+      "subtype": "Article",
+      "description_ko": "목재 및 농업부산물(biomass) 유래 원료를 심공융해용매(DES)로 처리하여 미세섬유화 셀룰로오스를 제조하고, 작용기 도입과 에너지 효율적 생산 공정, 물성을 규명한 연구.",
+      "abstract_note": "원문 초록은 게재 직후 상태로 Elsevier API(META_ABS/FULL view 401), PubMed, Crossref, Unpaywall 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125870",
+      "title": "Solubilization of quercetin by a modified citrus pectin fraction: Structural characterization, molecular interactions, and enhanced antioxidant activity",
+      "creator": "Ma W.",
+      "coverDate": "2026-11-15",
+      "eid": "2-s2.0-105052665815",
+      "pii": "S0144861726009872",
+      "volume": "392",
+      "article_number": "125870",
+      "openaccess": "false",
+      "subtype": "Article",
+      "description_ko": "변형된 감귤 펙틴 분획을 담체로 활용해 난용성 폴리페놀인 퀘르세틴의 가용화를 시도하고, 구조적 특성과 분자 상호작용 규명을 통해 항산화 활성 향상을 확인한 연구.",
+      "abstract_note": "원문 초록은 게재 직후 상태로 Elsevier API(META_ABS/FULL view 401), PubMed, Crossref, Unpaywall 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    }
+  ]
+}
