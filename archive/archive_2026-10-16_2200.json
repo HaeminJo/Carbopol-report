@@ -1,0 +1,236 @@
+{
+  "run_datetime_utc": "2026-10-16 22:00 UTC",
+  "source": "Crossref Works API (journals/0144-8617, from-created-date filter, primary discovery for very recent Articles-in-Press not yet indexed in Scopus) + Elsevier Scopus Search/Abstract Retrieval API (subtype/review confirmation where indexed) + PubMed E-utilities (supplementary cross-check, no additional yield beyond Crossref for this window)",
+  "target_count": 20,
+  "collected_count": 20,
+  "eligibility_filters": [
+    "exclude review/systematic review/mini-review articles",
+    "exclude microbe-biology-centric articles (strain/chassis development, fermentation condition optimization as core topic)",
+    "exclude corrigenda/editorials/non-article items",
+    "published within last 2 years",
+    "exclude articles already in state/seen_articles.json"
+  ],
+  "notes": "Recent Scopus Search API results (top ~275 entries sorted by -coverDate) were almost entirely already processed in prior daily runs or were review articles; Crossref's from-created-date filter on the journal (windows 2026-10-01~2026-10-16 and 2026-08-01~2026-10-01) surfaced 20 qualifying new research articles not yet seen. Abstract text was not accessible via Elsevier API entitlements (META_ABS/FULL views return 401) nor via Crossref/PubMed (not yet indexed for these very recent items), so Korean descriptions were composed from title and bibliographic metadata.",
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125762",
+      "title": "Structural characterization and comparative prebiotic potential of Anacardium occidentale gums polysaccharides extracted via diverse media",
+      "creator": "Paraiso H.",
+      "authors_full": "Paraiso H., Zhu K., Wang W., Mei X., Bai B., Zeng F., Chen J., Karim I., Chen S.",
+      "coverDate": "2026-8",
+      "volume": null,
+      "is_focus_keyword_match": false,
+      "description_ko": "캐슈나무(Anacardium occidentale)에서 얻은 검(gum) 다당류를 다양한 추출 용매 조건으로 분리하여 구조적 특성을 규명하고, 추출 조건별 프리바이오틱 효능을 비교 분석한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125851",
+      "title": "Ultrasensitive probes for magnetic resonance angiography by renal-clearable macrocyclic gadolinium complex-grafted cross-linked dextran nanospheres",
+      "creator": "Cao Y.",
+      "authors_full": "Cao Y., Cai Z., Quan X., Jiang L., Fu S., Fu X., Gu H., Bi M., Tang S., Li N., Jiang Y., Zhao P., Zhang R., Xia C., Lui S., Song B., Luo K., Gong Q., Ai H.",
+      "coverDate": "2026-9",
+      "volume": null,
+      "is_focus_keyword_match": false,
+      "description_ko": "가교된 덱스트란 나노구체 표면에 대환형(macrocyclic) 가돌리늄 착물을 접합시켜 신장을 통해 체외로 배출 가능한 초고감도 혈관조영 조영제(MRA probe)를 개발한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125859",
+      "title": "Scalable green synthesis of high-aspect-ratio cellulose nanofibers via integrated acid hydrolysis and mechanical fibrillation",
+      "creator": "Kang S.",
+      "authors_full": "Kang S., Lu Q., Wu K., Gong Y., Liu X., Chang Y., Xia R., He X., Yang Y., Li W., Zhang Q.",
+      "coverDate": "2026-9",
+      "volume": null,
+      "is_focus_keyword_match": true,
+      "description_ko": "산 가수분해와 기계적 해섬(fibrillation) 공정을 통합한 친환경 공정을 통해 높은 종횡비(aspect ratio)를 가지는 셀룰로오스 나노섬유를 대량 생산 가능하도록 합성한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125891",
+      "title": "3D-printed recyclable porous scaffolds from biomass-derived cellulose nanofibrils/carbon hybrids for tunable electromagnetic shielding",
+      "creator": "Li X.",
+      "authors_full": "Li X., Yang Y., Ren H., Ma Y., Yang Y., Li X., Zeng S., Shi S.",
+      "coverDate": "2026-9",
+      "volume": null,
+      "is_focus_keyword_match": true,
+      "description_ko": "바이오매스에서 유래한 셀룰로오스 나노피브릴과 탄소 소재를 결합하여 3D 프린팅으로 재활용 가능한 다공성 스캐폴드를 제작하고, 구조 조절을 통해 전자파 차폐 성능을 조율할 수 있음을 보인 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125910",
+      "title": "Swelling-programmed hemicellulose/chitosan cryogels with tunable porous transport for rapid selective adsorption",
+      "creator": "Chen P.",
+      "authors_full": "Chen P., Liu H., Li H., Meng Y., Chen J., Zhao Y., Zeng X., Wen J., Kang C., Hu Q.",
+      "coverDate": "2026-11",
+      "volume": "392",
+      "is_focus_keyword_match": true,
+      "description_ko": "헤미셀룰로오스와 키토산을 결합하여 팽윤 거동이 미리 설계된 극저온 젤(cryogel)을 제조하고, 기공 구조를 조절함으로써 특정 물질을 빠르고 선택적으로 흡착할 수 있도록 한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125911",
+      "title": "Isolation of elementary nanofibrils of cellulose from non-structural plant cells via hydrothermal processing",
+      "creator": "AbuZaid M.",
+      "authors_full": "AbuZaid M., Dali M., Salim M., Rangaraj V., Yliperttula M., Banat F., Tardy B.",
+      "coverDate": "2026-12",
+      "volume": "393",
+      "is_focus_keyword_match": true,
+      "description_ko": "수열처리(hydrothermal processing) 공정을 이용해 식물의 비구조(non-structural) 세포로부터 셀룰로오스의 최소 단위인 기본 나노피브릴을 분리하는 새로운 방법을 제시한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125918",
+      "title": "Structural characteristics and α-amylase and α-glucosidase inhibition of arabinoxylans released from fresh corn bran",
+      "creator": "Fu H.",
+      "authors_full": "Fu H., Jiang S., Xie Y., Yu X., Xie F., Xu N.",
+      "coverDate": "2026-10",
+      "volume": null,
+      "is_focus_keyword_match": false,
+      "description_ko": "생옥수수 속겨(corn bran)에서 추출한 아라비노자일란(arabinoxylan)의 구조적 특성을 분석하고, 이 다당류가 α-아밀라아제 및 α-글루코시다아제 효소 활성을 저해하여 혈당 조절에 기여할 수 있음을 제시한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125919",
+      "title": "Structural characterization of an Alhagi honey polysaccharide and its activity against alcoholic fatty liver disease through the AMPK/PI3K–Akt/NF-κB signaling pathway",
+      "creator": "Wang Y.",
+      "authors_full": "Wang Y., Zheng D., Li Z., Chen S., Zhao C., Gan Z., Li J., Shen J., Chang J.",
+      "coverDate": "2026-10",
+      "volume": null,
+      "is_focus_keyword_match": false,
+      "description_ko": "알하지(Alhagi) 벌꿀에서 유래한 다당류를 분리하여 화학 구조를 규명하고, 동물모델에서 AMPK/PI3K-Akt/NF-κB 신호경로 조절을 통해 알코올성 지방간 질환을 개선하는 효능을 확인한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125924",
+      "title": "Ferric ion-mediated sodium carboxymethyl cellulose/metal-phenolic dual-network nanogels for probiotic encapsulation and delivery",
+      "creator": "Jing H.",
+      "authors_full": "Jing H., Zhu Y., Qiu B., Zhang S., Li X., Dong X., Zhang X., Song Z., Huang W., Yao M.",
+      "coverDate": "2026-12",
+      "volume": "393",
+      "is_focus_keyword_match": true,
+      "description_ko": "철(Fe3+) 이온을 매개로 소듐 카르복시메틸셀룰로오스와 금속-페놀 네트워크를 이중으로 가교시킨 나노젤을 제조하여 프로바이오틱스 균주를 캡슐화하고 안정적으로 전달하는 데 활용한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125927",
+      "title": "Bio-inspired co-deposition of polydopamine and carboxylated cellulose nanofibers for robust, ultra-high-flux, and underwater superoleophobic oil-water separation",
+      "creator": "Jia M.",
+      "authors_full": "Jia M., Shi X., Liu S., Wang Y., Shi B., Wang Y., Song H.",
+      "coverDate": "2026-12",
+      "volume": "393",
+      "is_focus_keyword_match": true,
+      "description_ko": "홍합 접착 단백질에서 착안한 폴리도파민과 카르복실화 셀룰로오스 나노섬유를 함께 코팅(co-deposition)하여 기계적으로 견고하면서도 초고유량과 수중 초친유기피성(underwater superoleophobic)을 동시에 갖춘 유수 분리막을 개발한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125929",
+      "title": "Sequential electrospun trilayer fibrous pullulan membranes for a combined anti-virulence and microbiota-supportive therapy of bacterial vaginosis",
+      "creator": "Wang H.",
+      "authors_full": "Wang H., Wang X., Wu J., Xia Y., Li C., Cheng S., Liu Y.",
+      "coverDate": "2026-12",
+      "volume": "393",
+      "is_focus_keyword_match": false,
+      "description_ko": "풀루란(pullulan)을 전기방사하여 3층 구조의 섬유형 멤브레인을 순차적으로 제작하고, 세균성 질염 치료를 위해 병원성 억제(anti-virulence)와 정상 질 미생물군 보호 기능을 동시에 구현한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125931",
+      "title": "From bacteria to photopolymer: Maleimide-functionalized dextrans for initiator-free and donor-acceptor photopolymerization",
+      "creator": "Genc T.",
+      "authors_full": "Genc T., Selliez J., Schlögl S., Griesser T., Robitzer M., Joly-Duhamel C.",
+      "coverDate": "2026-12",
+      "volume": "393",
+      "is_focus_keyword_match": false,
+      "description_ko": "미생물 유래 다당류인 덱스트란에 말레이미드 작용기를 도입하여 별도의 개시제 없이 공여체-수용체(donor-acceptor) 방식의 광중합이 가능한 덱스트란 기반 광중합체를 합성한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125932",
+      "title": "Cellulose nanocrystal-infiltrated and surface-carbonized delignified wood for enhanced hydrovoltaic energy generation and interfacial solar evaporation",
+      "creator": "Chen Y.",
+      "authors_full": "Chen Y., Cai X., Dong L., Hou Y., Peng H., Chu L., Li Y., Zhang Z.",
+      "coverDate": "2026-12",
+      "volume": "393",
+      "is_focus_keyword_match": true,
+      "description_ko": "리그닌을 제거한 목재에 셀룰로오스 나노결정을 침윤시키고 표면을 탄화 처리하여, 수분 증발에 따른 수력전기(hydrovoltaic) 발전 효율과 계면 태양열 증발 성능을 동시에 향상시킨 바이오매스 기반 복합소재를 제시한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125933",
+      "title": "In vitro fermentation of yeast cell wall polysaccharide-rich preparations differing in β-glucan solubility and β-glucan-to-mannan ratio by broiler caecal microbiota",
+      "creator": "Gu Y.",
+      "authors_full": "Gu Y., Bautil A., Simmonds S., Croonen D., De Schepper C., Zhao H., Everaert N., Brijs K., Courtin C.",
+      "coverDate": "2026-12",
+      "volume": "393",
+      "is_focus_keyword_match": false,
+      "description_ko": "β-글루칸 용해도와 β-글루칸/만난 비율이 서로 다른 효모 세포벽 다당류 제제들을 가금(broiler) 맹장 미생물군으로 시험관 내 발효시켜, 다당류의 구조적 특성이 발효 산물(단쇄지방산 등) 생성 양상에 어떻게 영향을 미치는지 비교한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125934",
+      "title": "A pectin-type acidic polysaccharides from Coix lachryma-jobi L. seeds alleviated depression-like behavior by modulating microbiota-gut-brain axis in CRS-induced rats",
+      "creator": "Yang Q.",
+      "authors_full": "Yang Q., Xu L., Ye H., Liu X., Zhang Q., Huang Z., Pang J., Sun D.",
+      "coverDate": "2026-12",
+      "volume": "393",
+      "is_focus_keyword_match": true,
+      "description_ko": "율무(Coix lachryma-jobi) 씨에서 펙틴형 산성 다당류를 분리·정제하고, 만성 스트레스(CRS) 유도 우울 모델 쥐에 투여하여 장-뇌 축(gut-brain axis)의 미생물 조절을 통해 우울 유사 행동이 완화됨을 입증한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125935",
+      "title": "Tween 80 reorganizes the chitosan precursor microenvironment to enhance genipin crosslinking and hydrogel performance",
+      "creator": "Pan M.",
+      "authors_full": "Pan M., Bretcanu O., Xie F., Deehan D., Novakovic K.",
+      "coverDate": "2026-10",
+      "volume": null,
+      "is_focus_keyword_match": true,
+      "description_ko": "비이온성 계면활성제 Tween 80을 첨가해 키토산 전구체 용액의 미세환경을 재구성함으로써 지페닌(genipin) 가교 반응 효율을 높이고 결과적으로 하이드로겔의 기계적·구조적 성능을 개선한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125936",
+      "title": "Starch-gated gradient-polarity ammonia pool platform enables durable and sensitive colorimetric films for protein-rich food freshness monitoring",
+      "creator": "Gao S.",
+      "authors_full": "Gao S., Lim L., Li H., Zhang S., Hou H.",
+      "coverDate": "2026-10",
+      "volume": null,
+      "is_focus_keyword_match": false,
+      "description_ko": "전분을 게이트 소재로 활용해 극성 구배를 가진 암모니아 감응 플랫폼을 구성하고, 단백질이 풍부한 식품의 신선도를 실시간으로 비색 검출할 수 있는 내구성 있는 필름형 센서를 개발한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125938",
+      "title": "Boron-complexed oxidized dextran/carboxymethyl chitosan hydrogel loaded with paeoniflorin alleviates UC via TLR4-NF-κB pathway regulation and intestinal mucosal barrier restoration",
+      "creator": "Li S.",
+      "authors_full": "Li S., Pan Y., Wang G., Fang J., Wang J., Ji Y., Dong Z., Ling P., Zheng X., Gao Y., Xia Q., Liu X., Zhang W.",
+      "coverDate": "2026-10",
+      "volume": null,
+      "is_focus_keyword_match": true,
+      "description_ko": "붕소를 복합화한 산화덱스트란과 카르복시메틸키토산을 가교하여 파에오니플로린(paeoniflorin)을 담지한 하이드로겔을 제조하고, TLR4-NF-κB 신호경로 조절 및 장 점막 장벽 회복을 매개로 궤양성 대장염(UC)을 완화시킴을 동물모델에서 확인한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125942",
+      "title": "A multifunctional carbon dot-loaded carboxymethyl cellulose/cellulose nanofiber/poly(vinyl alcohol) hydrogel for selective fluorescence detection and adsorptive removal of Hg2+",
+      "creator": "Yuan B.",
+      "authors_full": "Yuan B., Chen P., Miao Y., Su X., Hu Y., Zou C., Yu M., Gao Y., Chen Y., Yang H.",
+      "coverDate": "2026-10",
+      "volume": null,
+      "is_focus_keyword_match": true,
+      "description_ko": "카르복시메틸셀룰로오스, 셀룰로오스 나노섬유, 폴리비닐알코올을 기반으로 탄소점(carbon dot)을 담지한 다기능 하이드로겔을 제조하여, 수은(Hg2+) 이온을 형광으로 선택적으로 검출하고 동시에 흡착 제거할 수 있음을 보인 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125953",
+      "title": "Influence of the helical cavity diameter on the loading capacity and sustained release potential of V-amylose–α-linolenic acid complexes",
+      "creator": "Hu J.",
+      "authors_full": "Hu J., Lu K., Giuntoli A., Morandi P., Lasorsa A., Voet V., Folkersma R., van der Wel P., Loos K., Maniar D.",
+      "coverDate": "2026-10",
+      "volume": null,
+      "is_focus_keyword_match": false,
+      "description_ko": "V형 아밀로스의 나선형 공동(helical cavity) 직경을 조절하여 α-리놀렌산과의 포접 복합체를 형성시키고, 공동 크기가 지방산 로딩량 및 서방출 특성에 미치는 영향을 분석한 연구.",
+      "abstract_note": "원문 초록은 Elsevier API(META_ABS/FULL view 401), Crossref, PubMed 어디에서도 아직 공개되지 않아 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    }
+  ]
+}
