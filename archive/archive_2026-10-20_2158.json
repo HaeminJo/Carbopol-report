@@ -1,0 +1,226 @@
+{
+  "run_datetime_utc": "2026-10-20 21:58 UTC",
+  "source": "Elsevier Scopus Search/Abstract Retrieval API (ISSN 0144-8617, -coverDate sort, 500-entry scan; all 8 unseen hits were Review/Editorial) + Crossref Works API (journals/0144-8617, from-created-date windows 2026-09-01~2026-10-20, primary discovery for very recent Articles-in-Press not yet indexed in Scopus) + PubMed E-utilities (supplementary cross-check over last 90 days, no additional new articles found beyond Crossref)",
+  "target_count": 20,
+  "collected_count": 15,
+  "eligibility_filters": [
+    "exclude review/systematic review/mini-review articles",
+    "exclude microbe-biology-centric articles (strain/chassis development, fermentation condition optimization as core topic)",
+    "exclude corrigenda/editorials/non-article items",
+    "published within last 2 years",
+    "exclude articles already in state/seen_articles.json"
+  ],
+  "notes": "Scopus Search API top ~500 entries sorted by -coverDate yielded only 8 entries not already in state/seen_articles.json, and all 8 were Review or Editorial subtype (confirmed via subtypeDescription), reflecting that daily runs keep the journal backlog nearly fully processed. Crossref from-created-date window scans (2026-10-13~2026-10-20, 2026-09-25~2026-10-13, 2026-09-01~2026-09-25) surfaced 20 candidate DOIs not yet in seen_articles.json; of these, 5 were judged to be review-pattern titles (broad multi-aspect subtitles such as \"Sources, extraction, purification, and development\" or \"From X to Y\"), matching the house style of titles independently confirmed as Review via Scopus subtypeDescription in the same window, and were excluded. One additional candidate (Bacillus thuringiensis exopolysaccharide gene-cluster/biofilm study) was excluded as microbe-biology-centric. This leaves 15 qualifying new research articles against the 20-article target; WebSearch supplementation for focus keywords (okara, soybean protein isolate, paper coating, biomass) found no additional qualifying articles in this window. Full abstract text was not accessible via Elsevier API, Crossref, or PubMed for any of the 15 articles (all are very recent Articles-in-Press, created in Crossref within the last 7 days); Korean descriptions were composed from title and bibliographic metadata only, per the no-abstract-available precedent of prior runs.",
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125943",
+      "title": "Fine structure of dietary polysaccharides in microbial substrate utilization: Implications for mucin O-glycan turnover and mucus barrier homeostasis",
+      "authors_full": "Yu Fu, Jianmin Zhou, Haijun Zhang, Guanghai Qi, Jing Wang, Shugeng Wu",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": false,
+      "description_ko": "식이 다당류의 미세구조가 장내 미생물의 기질 이용 양상에 어떤 영향을 미치는지 분석하고, 이것이 점막층 뮤신의 O-글리칸 대사 회전 및 점막 장벽 항상성 유지와 어떻게 연관되는지를 규명한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125937",
+      "title": "Interaction and inhibition mechanism of molecular weight-regulated feruloylated oligosaccharides from rice bran with α-amylase",
+      "authors_full": "Mengwei Chang, Guangsu Zhu, Qingyun Li, Katalin Badak-Kerti, Kunlun Liu",
+      "published": [
+        [
+          2026,
+          12
+        ]
+      ],
+      "is_focus_keyword_match": false,
+      "description_ko": "쌀겨(미강) 유래 페룰로일화 올리고당의 분자량을 조절한 시료들을 비교하여 α-아밀라아제와의 상호작용 및 효소 활성 억제 기전을 규명하고, 분자량 차이에 따른 억제 효능 차이를 분석한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125963",
+      "title": "Structural characterization and immunostimulatory activity comparison of two galactofucans from Undaria pinnatifida Sporophyll",
+      "authors_full": "Lin Bai, Jingyan Gao, Jiachen Zheng, Tong Wu, Xiaomeng Ren, Chunqing Ai, Shuang Song",
+      "published": [
+        [
+          2026,
+          12
+        ]
+      ],
+      "is_focus_keyword_match": false,
+      "description_ko": "미역(Undaria pinnatifida) 포자엽에서 추출한 두 종류의 갈락토푸칸 다당류의 구조적 특성을 비교 규명하고, 이들의 면역 자극 활성 차이를 분석한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125973",
+      "title": "Oligosaccharide mapping comparative analysis for revealing structural diversity of fucoidan in different sea cucumbers",
+      "authors_full": "Zizhe An, Xue Song, Huanhuan Xiao, Qingqing Chen, Xiaomei Zhang, Hongwei Zhang, Hu Hou, Jinlai Miao, Changhu Xue, Xue Zhao",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": false,
+      "description_ko": "여러 해삼 종으로부터 얻은 푸코이단에 올리고당 매핑 기법을 적용하여 종 간 구조적 다양성을 비교 분석한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125951",
+      "title": "A dual-carrier cellulose nanofibril hydrogel with spatially decoupled α-FeOOH and chitosan-derived carbon dot domains for synergistic Cr(VI) adsorption and photocatalytic reduction",
+      "authors_full": "Yiping Chen, Keqian Xu, Xin Guo, Wen Xu, Qian Cao, Dong Xu, Aiqing Yu, Zhenbo Cheng, Jiawei Liang, Feiyang Jiang",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": true,
+      "description_ko": "셀룰로오스 나노피브릴을 기반으로 α-FeOOH와 키토산 유래 탄소점(carbon dot) 영역을 공간적으로 분리하여 담지한 이중 담체형 하이드로겔을 설계하고, 6가 크롬(Cr(VI))을 흡착과 광촉매 환원 반응으로 동시에 제거하는 상승 효과를 확인한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125974",
+      "title": "Investigation of structural differences in sulfated fucan among Apostichopus japonicus varieties",
+      "authors_full": "Yuqianqian Xie, Qing Guan, Guangning Chen, Kefeng Xu, Ziyue Yan, Pan Xu, Yaoguang Chang, Changhu Xue",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": false,
+      "description_ko": "해삼(Apostichopus japonicus) 여러 변이종 간 황산화 푸칸의 구조적 차이를 비교 분석한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125960",
+      "title": "Access to low-molar-mass celluloses from cotton linters through combined electron-beam irradiation / β-elimination treatments",
+      "authors_full": "Stefanie Gross Belduma, Thomas Eichinger, Martin Siller, Irina Sulaeva, Harri Kosonen, Thomas Rosenau, Antje Potthast",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": true,
+      "description_ko": "면 린터(cotton linters)에 전자빔 조사와 β-제거 반응을 결합 적용하여 저분자량 셀룰로오스를 제조하는 공정을 개발하고, 처리 조건에 따른 분자량 분포 변화를 분석한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125972",
+      "title": "Cellulose-based fluorescent hydrogel: A multifunctional material integrating Fe3+ selective detection and adsorption, information encryption and flexible sensing",
+      "authors_full": "Zhe Zhang, Yu Qiu, Yapeng Bai, Ming Zhang",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": true,
+      "description_ko": "셀룰로오스 기반 형광 하이드로겔을 제작하여 Fe3+ 이온의 선택적 검출 및 흡착, 정보 암호화, 유연 센싱 기능을 하나의 소재에 통합적으로 구현한 다기능성 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125970",
+      "title": "A biodegradable and recyclable magnetoelectric sensor based on bacterial cellulose/NdFeB magnetic composite for motion monitoring",
+      "authors_full": "Sanming Hu, Quan Liu, Jin Qi, Wei Li, Zaixian Yuan, Zhe Song, Yurong Liu, Xiaoying Nie, Xi Ai, Zhijun Shi",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": true,
+      "description_ko": "박테리아 셀룰로오스와 NdFeB 자성 입자를 복합화하여 생분해성 및 재활용이 가능한 자기전기(magnetoelectric) 센서를 제작하고, 이를 동작(모션) 모니터링에 적용한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125940",
+      "title": "Smart chitosan–polyurea microcapsules: An integrated seed-coating and foliar-spray platform enabling full-cycle crop protection against seed-borne fungal pathogens",
+      "authors_full": "Jianglong Wang, Shuang Chen, Wei Wang, Chenglou Yang, Xinxin Tuo, Yunqi Li, Zhenhua Li, Xiang Zhou, Song Yang",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": false,
+      "description_ko": "키토산-폴리우레아 마이크로캡슐을 제조하여 종자 코팅과 엽면 살포에 모두 적용 가능한 통합형 플랫폼을 개발하고, 종자 매개 진균 병원균에 대한 전주기적 작물 보호 효과를 검증한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125967",
+      "title": "Scalable production of tailored cellulose esters via continuous reactive extrusion: Tuning degree of substitution and performance via reagent sequence",
+      "authors_full": "Romain Milotskyi, Gyanendra Sharma, Abdul Hafeez, Hao Wang, Shiori Tsuchida, Hiroyuki Kono, Tetsuo Fujie, Naoki Wada, Kenji Takahashi",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": true,
+      "description_ko": "연속식 반응압출(reactive extrusion) 공정을 이용해 셀룰로오스 에스터를 대량 생산하는 기술을 개발하고, 반응물 투입 순서를 조절하여 치환도와 소재 물성을 제어할 수 있음을 보인 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125968",
+      "title": "Toward improved recycling of textiles: A study into selective de-crosslinking of cellulosic materials",
+      "authors_full": "Johanna Zieher, Barbora Benetková, Lukas Fliri, Anna F. Lehrhofer, Antje Potthast, Thomas Rosenau, Hubert Hettegger",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": true,
+      "description_ko": "섬유 재활용 효율을 높이기 위해 셀룰로오스계 섬유 소재의 가교 결합을 선택적으로 해리시키는 탈가교(de-crosslinking) 공정을 연구한 것이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125964",
+      "title": "Stevia rebaudiana arabinogalactan alleviates dextran sulfate sodium-induced colitis: associations with gut microbiota and PI3K-Akt/NF-κB signaling",
+      "authors_full": "Fanyu Wang, Weiming Kong, Juntian Gan, Sen Yang, Xiaojuan Feng, Caixuan Zhang, Mingzhu Guo",
+      "published": [
+        [
+          2026,
+          12
+        ]
+      ],
+      "is_focus_keyword_match": false,
+      "description_ko": "스테비아(Stevia rebaudiana) 유래 아라비노갈락탄 다당류가 덱스트란황산나트륨(DSS)으로 유도된 대장염을 완화하는 효과를 확인하고, 이 효과가 장내 미생물총 변화 및 PI3K-Akt/NF-κB 신호전달 경로 조절과 관련 있음을 규명한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125969",
+      "title": "A quaternized chitosan-based wound-fluid-triggered self-gelling powder for rapid hemostasis and atraumatic microenvironment-modulating diabetic wound repair",
+      "authors_full": "Ziyi Xu, Shuyu Liang, Zhaopeng Wang, Daicao Wan, Min Li, Qingxian Ji, Muhammad Subaan Fareed, Xin Chen, Da Lei, Kairong Wang",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": false,
+      "description_ko": "4급화(quaternized) 키토산을 기반으로 상처 삼출액에 반응해 스스로 겔화되는 분말형 지혈 소재를 개발하여, 신속한 지혈과 무자극적인 미세환경 조절을 통한 당뇨병성 창상 치유 효과를 확인한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125959",
+      "title": "Structure-dependent periodate oxidation of schizophyllan templates the growth of “head-and-tail” gold and palladium nanoparticles",
+      "authors_full": "Vítek Hrbáček, Barbora Hanulíková, Filip Latečka, Michal Urbánek, Tereza Čapková, Milan Masař, Lukáš Münster, Jan Vícha",
+      "published": [
+        [
+          2026,
+          10
+        ]
+      ],
+      "is_focus_keyword_match": false,
+      "description_ko": "시조필란(schizophyllan) 다당류의 과요오드산염 산화 정도에 따라 그 구조가 금 및 팔라듐 나노입자의 '머리-꼬리(head-and-tail)' 형태 성장을 템플릿처럼 유도함을 규명한 연구이다.",
+      "abstract_note": "원문 초록은 Elsevier API, Crossref, PubMed 어디에서도 아직 공개되지 않아(매우 최근 Articles-in-Press) 조회 불가. 위 설명은 제목 및 서지정보 기반으로 작성됨."
+    }
+  ]
+}
