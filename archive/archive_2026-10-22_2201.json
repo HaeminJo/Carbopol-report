@@ -1,0 +1,765 @@
+{
+ "run_timestamp_utc": "2026-10-22T22:01:00Z",
+ "journal": "Carbohydrate Polymers",
+ "issn": "0144-8617",
+ "collection_method": "Elsevier Scopus Search API (primary) + PubMed E-utilities EFetch (abstract supplement)",
+ "target_count": 20,
+ "collected_count": 38,
+ "exclusion_criteria": [
+  "review articles excluded (title keyword + PubMed PublicationType check)",
+  "microbe-centric articles excluded (core-topic judgement from abstract)"
+ ],
+ "scopus_entries_scanned": 2500,
+ "unseen_candidates_found_before_filtering": 250,
+ "articles": [
+  {
+   "doi": "10.1016/j.carbpol.2024.122936",
+   "title": "A flexible, antifreezing, and long-term stable cellulose ionic conductive hydrogel via one-step preparation for flexible electronic sensors",
+   "authors": [
+    "Miao H."
+   ],
+   "coverDate": "2025-03-01",
+   "pubmed_id": "39778980",
+   "pii": "S0144861724011627",
+   "volume": "351",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Ionic conductive hydrogels have attracted great attention due to their good flexibility and conductivity in flexible electronic devices. However, because of the icing and water loss problems, the compatibility issue between the mechanical properties and conductivity of hydrogel electrolytes over a wide temperature range remains extremely challenging to achieve. Although, antifreezing/water-retaining additives could alleviate these problems, the reduced performance and complex preparation methods seriously limit their development. In this work, a simple strategy without additives was provided to prepare an ionic conductive cellulose hydrogel (ICH) in one step through molten salt hydrate. The hydrogel featured controllable mechanical properties (0.19 MPa - 0.67 MPa), high ionic conductivity (78.96 mS/cm), excellent freezing resistance (-80 °C). More importantly, due to the existing metal salts component, the ICH exhibited long-term stability in water-retention ability (75.6 %, after 90 days) and ionic conductivity (85 %, after 90 days) over a wide working temperature range (-80 °C to 40 °C). Benefiting from these advantages, the ICH exhibited excellent electromechanical performance in human movement detection and movement direction identification, indicating a promising apply for flexible electronic device.",
+   "korean_summary": "셀룰로오스 기반 이온 전도성 하이드로겔을 1단계 공정으로 제조하여 저온에서도 얼지 않고 장기간 안정적인 전기 전도성을 유지하도록 설계했으며, 유연 전자 센서로의 적용 가능성을 보였다.",
+   "deep_dive_tags": [
+    "cellulose",
+    "hydrogel"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122940",
+   "title": "Characterization of hemicellulose in sacred lotus (Nelumbo nucifera Gaetn.) petiole during xylogenesis",
+   "authors": [
+    "Feng A."
+   ],
+   "coverDate": "2025-02-01",
+   "pubmed_id": "39638498",
+   "pii": "S0144861724011664",
+   "volume": "349",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Hemicelluloses play a crucial role in connecting cellulose and lignin within the plant cell wall and find extensive biotechnological applications. There is a notable gap in research concerning the hemicellulose from Nelumbo nucifera, the basal eudicot adapted to aquatic environments. To fill this gap, hemicellulose characteristics from the apical to the basal segments of petioles from 4-month-old N. nucifera plants were examined. Results showed that during the initial phase of xylogenesis, xyloglucan predominated in the hemicellulose fraction, while later stages were gradually dominated by 4-O-methyl-D-glucurono-D-xylan (MGX). Having a typical tetrasaccharide reducing end, the glucuronoxylan in N. nucifera was also shown with a typical the MeGlcA on the C2 Xyl carbon sidechain. The total degree of acetylation increased from apex (0.45) to base (0.55) of petiole. Notably, no arabinosyl side-chains were detected in the N. nucifera xylan, suggesting that N. nucifera hemicellulose aligns most closely with dicot wood rather than the non-commelinid monocot (grass). Transcriptomic analysis also indicated that the middle and basal region exhibited higher xylan synthesis activity. This study contributes new evidence supporting the conservation of dicotyledonous hemicellulose during evolution.",
+   "korean_summary": "연꽃(Nelumbo nucifera) 잎자루의 목질화(xylogenesis) 과정에서 헤미셀룰로오스의 구조 변화를 부위별(선단부~기저부)로 분석하여, 수생식물의 2차 세포벽 형성 메커니즘에 대한 기초 자료를 제공했다.",
+   "deep_dive_tags": [
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122959",
+   "title": "Synthesis and characterization of interpenetrating network hydrogels based on sugar beet pectin and heteroprotein complex: Structural characteristics and physicochemical properties",
+   "authors": [
+    "Li L."
+   ],
+   "coverDate": "2025-02-01",
+   "pubmed_id": "39638502",
+   "pii": "S0144861724011858",
+   "volume": "349",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Hydrogels made from natural polymers have excellent application potential due to their good biocompatibility. However, it is difficult to maximise the benefits of hydrogels when the gel network is formed by a single substance. The purpose of this study was to investigate the relationship between the interaction of modified soybean lipophilic proteins (SLP) and lysozyme (LY) and the formation of heteroprotein complexes. Subsequently, interpenetrating network (IPN) hydrogels were further synthesized on the basis of heteroprotein (HP) complexes and sugar beet pectin (SBP) as the backbone. The strong interaction between SLP and LY drove them to spontaneously form heteroprotein complexes. The HP-SBP IPN imparted good mechanical properties to the hydrogel, which could withstand a maximum pressure of 7500 pa at 88 % strain. Meanwhile, there was still 93.52 % of water being trapped in IPN after freeze-thawing. The HP-SBP IPN hydrogels could effectively protect the encapsulated substance during UV irradiation and maintain its morphology after undergoing dynamic pH changes. Furthermore, the HP-SBP IPN hydrogels could regulate their release ability through their own swelling and achieved more than 88 % release rate in simulated intestinal fluid. Therefore, this study was expected to provide a potential strategy for the synthesis of IPN hydrogels.",
+   "korean_summary": "변성 대두 지용성 단백질(SLP)과 라이소자임의 복합체 형성 조건을 규명하고, 이를 사탕무 펙틴과 결합한 상호침투고분자망(IPN) 하이드로겔을 합성하여 구조적·물리화학적 특성을 평가했다.",
+   "deep_dive_tags": [
+    "pectin",
+    "hydrogel",
+    "soybean"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122974",
+   "title": "Manufacturing sulfated cellulose nanofibers using a unique combined DES-based pretreatment-functionalization protocol for metal ion decontamination through porous adsorbents",
+   "authors": [
+    "Montenegro R."
+   ],
+   "coverDate": "2025-02-01",
+   "pubmed_id": "39638518",
+   "pii": "S0144861724012001",
+   "volume": "349",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "This study confirms the efficacy of a unique combined pretreatment-functionalization protocol based on the use of deep eutectic solvent (DES) to obtain sulfated lignocellulose and cellulose nanofibers (SLNF or SNF) hydrogels, which have been successfully shaped as sponge-based adsorbents and fruitfully assessed for the removal of heavy metals from water. A comprehensive characterization study was conducted, demonstrating an excellent degree of sulfation (0.62) in DES-treated wheat straw-derived nanofibers. The direct use of SLNF or SNF hydrogels and their application as porous sponges exhibited highly favorable characteristics for successful ion decontamination. Cu2+ removal was up to 70 % higher using DES-sulfated nanocellulose hydrogels compared to conventional treated-nanocellulose. Various isotherm models were studied, and the analysis of the kinetic and diffusion studies confirmed the influence of the sample format in the removal behavior. SLNF and SNF-sponges proved to be the most effective in adsorption, achieving Cu2+ removal rates of up to 60 %. More profitable decontamination processes with lower run times could be guessed when the application of nanocellulose is led through the processing of advanced formats. The easy handling of sponges would avoid the extra costs of the downstream unit operations which are sometimes needed to separate the hydrogel of the decontaminated media.",
+   "korean_summary": "심층 공융 용매(DES) 기반 전처리-관능화 공정을 이용해 밀짚 유래 셀룰로오스나노섬유를 황산화 처리하고(황산화도 0.62), 이를 다공성 스펀지형 흡착제로 성형하여 수중 중금속 제거 성능을 입증했다.",
+   "deep_dive_tags": [
+    "cellulose",
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123014",
+   "title": "State-of-the-art phosphorylation of water-soluble allyl cellulose via a green radical-mediated “click” reaction pathway with enhanced antifungal activity",
+   "authors": [
+    "Abarkan A."
+   ],
+   "coverDate": "2025-02-01",
+   "pubmed_id": "39638506",
+   "pii": "S0144861724012402",
+   "volume": "349",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Allyl Cellulose (AC) was synthesized using allyl bromide in sodium hydroxide (NaOH)/urea aqueous solution. By employing a molar ratio of 6:1 of allyl bromide/cellulose, low-degree of substitution (DS) water-soluble AC (AC1) was obtained (DS = 0.67). Then, radical-mediated \"click\" reactions of AC1 with diethyl phosphite (DEP) and dibutyl phosphite (DBP) were carried out in deionized water as green reaction medium, using 4,4'-azobis(4-cyanovaleric acid) (ACVA) as a radical initiator. The synthesized AC1-DEP and AC1-DBP showed high conversion percentages of 84 % and 87 %, respectively. Fourier-transform infrared spectroscopy (FTIR) and nuclear magnetic resonance (NMR) techniques were used to validate the structure of the products and confirm the successful radical-mediated \"click\" reactions of AC1 with dialkyl phosphite (DAP) in water. X-ray diffraction (XRD), thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), static contact angle, and scanning electron microscopy with energy dispersive X-ray spectroscopy (SEM/EDX) analyses were used to investigate structural, thermal, and surface properties, revealing an increase in flexibility and hydrophobicity upon phosphorylation. AC1-diethyl phosphite (AC1-DEP) and AC1-dibutyl phosphite (AC1-DBP) exhibited efficient antifungal activities with inhibition zone ranges from 14 to 27 mm.",
+   "korean_summary": "알릴브로마이드로 합성한 수용성 알릴셀룰로오스에 라디칼 매개 '클릭' 반응으로 인산기를 도입하여 치환도를 제어했고, 이 인산화 유도체가 향상된 항진균 활성을 나타냄을 확인했다.",
+   "deep_dive_tags": [
+    "cellulose"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123033",
+   "title": "Antibacterial betaine modified chitosan-based hydrogel with angiogenic property for photothermal enhanced diabetic wound repairing",
+   "authors": [
+    "Zhang K."
+   ],
+   "coverDate": "2025-02-01",
+   "pubmed_id": "39638511",
+   "pii": "S0144861724012591",
+   "volume": "349",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Chronic diabetes wound repairing is still a huge challenge in clinical practice. High concentration of reactive oxygen species and vascular disfunction are the main factors hindering the recovery of diabetes wounds. This research grafted betaine onto chitosan (CSBT) to enhance the antibacterial property and the CSBT was cross-linked with PEO90 dialdehyde (PEO DA) to prepare hydrogel with Ca2+ loading to promote the coagulation. The polydopamine nanoparticles (PDA NPs) with photothermal property and antioxidant property was composited to the hydrogel and deferoxamine (DFO) was loaded to fabricate the multifunctional CBPCa/PDA/DFO hydrogel to promote vascular regeneration in combination with photothermal antibacterial performance for the diabetes wounds treatment. The CBPCa/PDA/DFO hydrogel showed good mechanical strength, injectability, anti-inflammatory property and coagulation performance. Furthermore, the antibacterial effect of chitosan based hydrogel was enhanced with near infrared (NIR) stimulated photothermal treatment. Combined with the photothermal effect and the angiogenic drug DFO release, the CBPCa/PDA/DFO hydrogel significantly enhanced vascular regeneration and reduced the inflammation in the in vivo wound repairing experiment. As a result, the CBPCa/PDA/DFO hydrogel may provide a promising therapeutic platform for diabetic trauma repairing.",
+   "korean_summary": "베타인을 그래프트한 키토산(CSBT)을 PEO 디알데히드로 가교하고 Ca2+ 및 광열 특성을 지닌 폴리도파민 나노입자를 담지한 하이드로겔을 제작하여, 당뇨병성 창상에서 항균·혈액응고·혈관신생 촉진 효과를 광열 조사와 함께 평가했다.",
+   "deep_dive_tags": [
+    "hydrogel"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123037",
+   "title": "Comparing enzymatic post-treatments by endoglucanase (EG) and lytic polysaccharide monooxygenase (LPMO) on microfibrillated cellulose (MFC) to enhance cellulose film fabrication",
+   "authors": [
+    "Wu J."
+   ],
+   "coverDate": "2025-02-01",
+   "pubmed_id": "39638530",
+   "pii": "S0144861724012633",
+   "volume": "349",
+   "pubtypes": [
+    "Journal Article",
+    "Comparative Study",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Cellulose is the world's most abundant natural polymer and it can be used as a substitute for fossil derived products. The work described here evaluated the use of mono-component enzyme treatment, using endoglucanase (EG) and lytic polysaccharide monooxygenase (LPMO), to improve the properties of micro-fibrillated cellulose (MFC) produced from mechanically refined kraft pulp. Endoglucanase treatment of the pulp significantly reduced the degree of polymerization (DP) of the cellulose by promoting fiber cutting. In contrast, LPMO treatment only slightly reduced the fiber length and pulp viscosity. However, the introduction of carboxylic acid groups by the action of LPMO appeared to enhance the accessible surface area of cellulose. Enzyme-treated MFC showed improved nano-fibrillation with transmittance and water retention values increased after both enzyme treatments. The cellulose films derived from enzyme-treated MFC showed enhanced mechanical properties with the LPMO-treated films showing superior tensile strength (77 MPa) and Young's modulus (3600 MPa). Thermogravimetric analysis (TGA) also indicated improved thermal stability for both enzyme-treated films. LPMO treatments proved more effective, promoting nano-fibrillation while maintaining fiber integrity and enhanced intermolecular interactions.",
+   "korean_summary": "크라프트 펄프에서 제조한 미세섬유화 셀룰로오스(MFC)를 엔도글루카네이스(EG)와 리틱 다당류 모노옥시게네이스(LPMO) 단일효소로 각각 처리·비교하여, 효소 처리가 셀룰로오스의 중합도와 필름 제조 성능에 미치는 영향을 규명했다.",
+   "deep_dive_tags": [
+    "cellulose"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123044",
+   "title": "Crosslinked lignin starch copolymer as a sustainable and thermally stable drilling fluid controller",
+   "authors": [
+    "Rashedi Z."
+   ],
+   "coverDate": "2025-02-15",
+   "pubmed_id": "39647947",
+   "pii": "S0144861724012700",
+   "volume": "350",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Fluid loss is a well-known challenge of drilling operations. In this work, a novel sustainable starch-lignin-based polymer was synthesized for possible use in drilling fluid applications. The X-ray photoelectron spectroscopy (XPS) analysis confirmed that kraft lignin was crosslinked with starch via ether covalent bonds. The X-ray diffraction (XRD) analysis confirmed the loss of crystallinity in starch and emerging of new amorphous structures in crosslinked starch-lignin (CSL) polymers after crosslinking with lignin. The incorporation of lignin and new covalent ether bonds improved the thermal stability of starch. The CSL had a rougher surface morphology, higher hydrophilicity, and significantly higher water absorption than starch. CSL-2, with its higher lignin content, demonstrated higher hydrophilicity, better water absorption capacity, and thermal stability than CSL-1. The rheology analysis of the CSL-2 polymer suggested that crosslinking starch with lignin would increase G' more than G\" and reduce tan δ of the polymer solution, resulting in more elastic properties and more stability against the angular frequency. Due to its improved swelling, thermal, and rheological properties as compared to native starch, the produced sustainable lignin-starch copolymer could be used as a new viscosity and rheology modifier, such as a fluid loss controller for oil extraction from wells.",
+   "korean_summary": "크라프트 리그닌과 전분을 에테르 공유결합으로 가교한 리그닌-전분 공중합체를 합성하고 XPS·XRD 분석으로 결정성 손실과 비정질 구조 형성을 확인하여, 열적으로 안정적인 시추 유체 첨가제로서의 가능성을 제시했다.",
+   "deep_dive_tags": [
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123045",
+   "title": "A carboxymethyl chitosan and dextran hydrogel with slow and rapid photothermal conversion for sequential promoting burn wound healing and inhibiting scar proliferation",
+   "authors": [
+    "Chen Z."
+   ],
+   "coverDate": "2025-02-15",
+   "pubmed_id": "39647948",
+   "pii": "S0144861724012712",
+   "volume": "350",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Facilitating swift burn wound healing while effectively preventing scar formation continues to be a considerable challenge in medical practice. In this study, an injectable carboxymethyl chitosan/oxidized dextran/polyvinylpyrrolidone/dopamine (COPD) hydrogel was designed for the effective sequentially promotion of burn wound healing and inhibition of scar formation. The COPD hydrogel precursor solution was injected into the burn wound via a double-barreled syringe and transformed into an adherent hydrogel within 25 s. The inclusion of dopamine imparted good free radical scavenging properties to the hydrogel. In particular, the gradual oxidation of dopamine to polydopamine enabled a unique heat production pattern-initially slow (photothermal conversion efficiency: 30.3 %) and then rapidly temperature increasing (photothermal conversion efficiency: 42.8 %) -under single laser irradiation. The effect of promoting healing at the initial stage of the wound was evaluated by constructing a male C57BL/6 mice model with deep second-degree burns, observation of the wound area, PCR analysis, and immunohistochemical staining. Furthermore, the scar inhibition was confirmed by observing reduced expression levels of α-SMA and COLI, along with a decreased collagen I/III ratio. With tunable mechanical properties (maximum compressive strength of 966.4 ± 51.7 kPa), the COPD hydrogel holds significant promise as an adjunctive photothermal platform for intelligent burn wound management.",
+   "korean_summary": "카르복시메틸 키토산/산화 덱스트란/PVP/도파민으로 구성된 주입형 하이드로겔(COPD)을 이중 배럴 주사기로 투여해 화상 상처에서 신속한 치유와 흉터 형성 억제를 동시에 달성하는 순차적 광열 전환 메커니즘을 제시했다.",
+   "deep_dive_tags": [
+    "hydrogel"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123052",
+   "title": "Methyl-esterification, degree of polymerization and ∆4,5-unsaturation of galacturonic acid oligosaccharides as determinants of immunomodulation",
+   "authors": [
+    "Zwolschen J.W."
+   ],
+   "coverDate": "2025-02-15",
+   "pubmed_id": "39647953",
+   "pii": "S0144861724012785",
+   "volume": "350",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "In recent years, immunomodulation by pectin and pectin-derived galacturonic acid oligosaccharides has been the subject of wide-spread scientific research due to the potential of different pectin structures as bioactive biomolecules. Yet, gaps remain in understanding the structure-dependent immunomodulation of galacturonic acid. This study describes in vitro immunomodulatory effects of well-characterized galacturonic acid oligosaccharides. Both methyl-esterified and non-methyl-esterified galacturonic acid oligosaccharides with a saturated non-reducing end (degree of polymerization 1-10) significantly induced cytokine production by THP-1 macrophages and directly activated TLR2 and TLR4 in transfected HEK-293 cells, even when accounting for minor endotoxin contamination. In contrast, both methyl-esterified and non-methyl-esterified galacturonic acid oligosaccharides with a Δ4,5-unsaturated non-reducing end (degree of polymerization 1-7) did not activate TLR2 and TLR4 and led to significantly reduced cytokine production (p < 0.05), suggesting Δ4,5-(un)saturation as a pivotal factor for immunomodulation by galacturonic acid oligosaccharides. Exposure to non-methyl-esterified saturated galacturonic acid oligosaccharides resulted in significantly lower TNF-α production, IL-1β production and TLR4 activation (p < 0.05) compared to methyl-esterified saturated galacturonic acid oligosaccharides, while IL-10 production and TLR2 activation remained unchanged. These findings establish galacturonic acid oligosaccharides as versatile immunomodulators with TLR2 and TLR4 binding capacity, fit for different immunomodulatory applications depending on their structural characteristics.",
+   "korean_summary": "메틸에스터화 정도와 중합도, Δ4,5-불포화도가 서로 다른 갈락투론산 올리고당 시료를 체계적으로 합성·특성화하여, 펙틴 유래 올리고당의 구조적 특징이 면역조절 활성에 미치는 영향을 시험관 내에서 규명했다.",
+   "deep_dive_tags": [
+    "pectin"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123054",
+   "title": "Insight into the structural, interfacial and functional properties of soybean 11S globulin-debranched starch conjugates through alkaline Maillard reaction",
+   "authors": [
+    "Yang Z."
+   ],
+   "coverDate": "2025-02-15",
+   "pubmed_id": "39647955",
+   "pii": "S0144861724012803",
+   "volume": "350",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "This study examined the effects of the alkaline Maillard reaction on the structural, interfacial, and functional properties of soybean 11S globulin-debranched starch (DBS) conjugates. The results showed that the degree of DBS binding to 11S globulin was influenced by the polymer ratios, which in turn affected the structural, interfacial, and functional characteristics. The 11S-DBS conjugates with a 2:1 biopolymer ratio exhibited the highest grafting degree, largest zeta potential absolute value, smallest particle size, and greatest thermal stability. Conjugates with higher globulin content demonstrated superior interfacial and functional properties, including improved solubility, increased surface hydrophobicity, and reduced interfacial tension. 3D fluorescence scanning revealed a decrease in the signal of aromatic amino acid residues, while microstructural observation provided insights into the binding behavior of different 11S-DBS conjugates. Molecular docking simulations highlighted the key role of hydrogen bonding in the formation of these conjugates. This study enhances understanding of soybean globulin-polysaccharide interaction mechanisms, expanding their potential applications in the food, medical, and bioengineering industries.",
+   "korean_summary": "알칼리성 마이야르 반응을 이용해 대두 11S 글로불린과 가지제거 전분(DBS)의 결합 비율을 조절하며 접합체를 합성하고, 2:1 비율에서 그래프트화도와 제타 전위 절대값이 최대가 되는 등 구조-계면-기능적 특성 변화를 규명했다.",
+   "deep_dive_tags": [
+    "soybean"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123068",
+   "title": "A β-cyclodextrin-based supramolecular photonic crystal hydrogel biosensor with macroporous structures for naked-eye visual detection of cholesterol",
+   "authors": [
+    "Wang X."
+   ],
+   "coverDate": "2025-03-01",
+   "pubmed_id": "39778998",
+   "pii": "S0144861724012943",
+   "volume": "351",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Cholesterol (CHO) is an essential lipid in cell membranes and a precursor for vital living substances. Abnormal CHO levels can cause cardiovascular diseases. Therefore, simple and accurate monitoring of CHO levels is crucial for early diagnosis and effective management of cardiovascular diseases. Herein, we report a β-cyclodextrin-based supramolecular photonic crystal hydrogel (PCH) biosensor for naked-eye visual CHO detection. This sensor is composed of a poly(acrylamide-co-N-isopropylacrylamide-co-maleic anhydride-β-cyclodextrin) smart hydrogel with embedding Fe3O4 colloidal chains, which can translate CHO concentration signals into visually detectable color changes of the hydrogel. By carefully selecting a macromolecular crosslinker, a macroporous structure of the hydrogel was achieved, significantly enhancing CHO responsiveness. Molecular docking provides detailed information about the binding mode between MAH-β-CD and CHO. The cyclohexanol portion and alkyl chain of CHO molecule are inserted into MAH-β-CD cavity, driven primarily by hydrophobic interactions. Moreover, this sensor demonstrates excellent regenerability and could be facilely regenerated by washing using hot/cold water or acid solution. Furthermore, it is highly selective for CHO and is suitable for detecting actual human serums. Such a β-CD-based supramolecular PCH biosensor with visualization, excellent regenerability, and high sensitivity and selectivity toward CHO, provides a basis for clinical diagnosis of diseases relative to CHO abnormalities.",
+   "korean_summary": "β-시클로덱스트린 기반 초분자 광결정 하이드로겔을 다공성 구조로 설계하여, 콜레스테롤을 맨눈으로 시각적으로 검출할 수 있는 바이오센서를 구현했다.",
+   "deep_dive_tags": [
+    "hydrogel"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123115",
+   "title": "Holocellulose nanofibrils biomimetic entrapment of liquid metal enable ultrastrong, tough, and lower-voltage-driven paper device",
+   "authors": [
+    "Wang H."
+   ],
+   "coverDate": "2025-03-01",
+   "pubmed_id": "39779023",
+   "pii": "S0144861724013419",
+   "volume": "351",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Integrating liquid metal (LM) with wood fibers for flexible paper electronics is intriguing yet extremely challenging due to poor mechanical performance. Here, we disclose a hemicellulose trapping strategy to achieve exceptional ultrastrong and tough LM-based paper electronics. Holocellulose nanofibrils (HCNFs) with hemicellulose retention of approximately 20 % are found to effectively entrap nanoscale LM within the fibril network, analogous to spider silk capturing small water droplets. Phase separation of LM and coalescence of nanofibrils can be avoided during the fabrication process of sheet-like paper. The homogeneous distribution of nanoscale LM eliminates impairment and contributes to the dramatic enhancement of mechanical performance (tensile strength: 240 MPa; toughness: 16.5 MJ m-3). Further incorporating a small number of carbon nanotubes generates low-voltage-driven Joule heating performance with excellent heat generation capacity (200 °C at 4.0 V), surpassing LM-based elastomers, films, and textiles. Our study illuminates the remarkable potential of LM-based paper electronics and enables advanced flexible device applications.",
+   "korean_summary": "헤미셀룰로오스를 약 20% 보존한 전셀룰로오스 나노섬유(HCNF)가 거미줄처럼 액체금속 입자를 나노 수준에서 포집하는 전략을 적용하여, 기계적 강도와 내구성이 뛰어나고 낮은 작동 전압으로 구동되는 종이 기반 전자 소자를 구현했다.",
+   "deep_dive_tags": [
+    "paper",
+    "cellulose"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123133",
+   "title": "β-CD-MOF-based edible antimicrobial packaging film with humidity-controlled carvacrol release for preserving fresh strawberry",
+   "authors": [
+    "Nong W."
+   ],
+   "coverDate": "2025-03-01",
+   "pubmed_id": "39779036",
+   "pii": "S0144861724013596",
+   "volume": "351",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "The development of safe, environmentally friendly, edible antimicrobial packaging films represents a promising alternative to conventional plastic packaging for reducing spoilage and extending the shelf life of fresh food. Here, we propose a novel strategy to construct edible β-CD-MOF/carvacrol@zein (BCCZ) composite films by intertwining β-CD-MOF loaded with the antimicrobial essential oil carvacrol, and zein. The resulting BCCZ films exhibit high humidity-triggered, long-lasting bactericidal efficacy, effective fruit preservation, and excellent biosafety. Characterization revealed that BCCZ films possess a compact texture, hydrophilic surface, low water vapor permeability, and high humidity sensitivity. Additionally, this film act as a \"storehouse\" for carvacrol, enabling humidity-controlled release (96.3% release at 100% RH and only 12.0% at 43% RH on day 7). BCCZ film effectively inhibited Gram-positive Staphylococcus aureus, Gram-negative Escherichia coli, and fungi (Botrytis cinerea) through the release of liquid-phase and vapor-phase carvacrols under both direct contact and indirect contact conditions in high humidity. Owing to the film's humidity-triggered, long-term release of carvacrol, strawberries packed in BCCZ films maintained their freshness and appearance significantly better after seven days of storage at 21 °C. This work provides valuable insights and holds promise for the design and commercial application of safe, environmentally friendly freshness-preserving packaging films.",
+   "korean_summary": "카바크롤을 담지한 β-시클로덱스트린 금속-유기 골격체(β-CD-MOF)와 제인(zein)을 결합한 식용 복합 필름을 제조하여, 습도에 반응해 항균 물질을 장시간 방출함으로써 신선 딸기의 저장성을 연장하는 효과를 확인했다.",
+   "deep_dive_tags": []
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123134",
+   "title": "Cellulose nanofibers/polyacrylic acid hydrogels integrated with a 3D printed strip: A platform for screening prostate cancer via sarcosine detection",
+   "authors": [
+    "Passornraprasit N."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843047",
+   "pii": "S0144861724013602",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Cellulose nanofiber/polyacrylic acid (CNF/PAA) hydrogel-based colorimetric sensor was fabricated for non-invasive screening of prostate cancer (PCa) via selective detection of sarcosine. The hydrogel was synthesized by photo-crosslinking of acrylic acid in the presence of CNF which acted as mechanical reinforcement and as color enhancer. The hydrogel exhibited a high aqueous absorption and high mechanical strength. A homogeneous distribution of CNF in the hydrogel was confirmed by TEM. A significant improvement in the compressive modulus and stress in the hydrogel were obtained after the incorporation of 0.25%wt CNF. The hydrogel sensor was integrated within a 3D printing strip on a diaper, and it offered a vivid color change from light yellow to blue for detecting sarcosine for PCa indication with a detection limit starting from 10 μM. The colorimetric results were semi-quantitatively evaluated by a spectrophotometer offering a linear range of 0-100 μM with R2 of 0.9901. Furthermore, the increase in CNF content significantly enhanced the sensor's sensitivity toward sarcosine. This sensor could open new avenues for non-invasive screening of prostate cancer in the future.",
+   "korean_summary": "셀룰로오스 나노섬유(CNF)로 기계적 강도를 보강한 폴리아크릴산 하이드로겔을 3D 프린팅 스트립과 결합해, 전립선암 표지물질인 사르코신을 비침습적으로 검출하는 비색 센서 플랫폼을 개발했다.",
+   "deep_dive_tags": [
+    "cellulose",
+    "hydrogel"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123161",
+   "title": "Xylan thermoplastics with closed-loop recyclability",
+   "authors": [
+    "Jia S."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843066",
+   "pii": "S0144861724013870",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Xylan-derived packaging materials have gained considerable popularity owing to their renewability, non-toxicity, and biodegradability. However, thermoforming is challenging owing to its rigid structure and hydrogen-bonding network of the xylan molecular chain, which limits its large-scale production. Herein, a heat-processable xylan derivative, xylan cinnamate (XC), was synthesized via an esterification reaction in ionic liquids. The glass transition temperature of XC can be adjusted by the degree of substitution, ranging from 65 to 150 °C. XC plastics can be obtained by hot pressing and exhibit competitive mechanical properties, excellent water resistance, high transparency, and re-processability. Furthermore, the tensile strength of the XC plastics increased from 25 to 50 MPa after 365 nm ultraviolet (UV) irradiation because the double bonds of the cinnamon substituents were photodimerized under UV irradiation. Compared with commercial polyethylene packaging materials, XC plastics have suitable water vapour and oxygen transmittance, effectively protecting seeds under storage conditions. This study developed a novel strategy for preparing recycled xylan thermoplastics.",
+   "korean_summary": "자일란을 계피산으로 에스터화한 자일란 신나메이트(XC) 유도체를 이온성 액체에서 합성하여 열가공이 가능한 자일란 열가소성 소재를 구현하고, 유리전이온도를 치환도로 조절하며 폐쇄형 재활용이 가능함을 입증했다.",
+   "deep_dive_tags": [
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123163",
+   "title": "Impact of accumulation of organic acids on the degradation of cellulose in historic paper",
+   "authors": [
+    "Krasevec I."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843068",
+   "pii": "S0144861724013894",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "The acidity of historic paper, a property crucial for its preservation, is thought to mainly depend on the type of sizing. However, this research shows that during its degradation, paper acidity increases mainly due to the formation of non-volatile carboxylic acids, which accelerate acid-catalysed hydrolysis. Whether and how this accumulation depends on paper composition has not been studied systematically so far. A collection of 89 European paper samples, dated between 1844 and 1990 was analysed for organic acids content and other conservation-relevant properties. Oxalic acid was the acid determined in the highest concentrations and with the strongest influence on paper pH. Multivariate data analysis revealed correlations between lignin content and oxalic and formic acid contents, highlighting the dominant influence of lignin on acid production. The results also indicate that the content of oxalic acid in paper increases by approximately 0.01 mmol/g per year, resulting in a decrease of pH at 0.008 per year (assuming other variables remain constant). To assist in paper conservation, a portable, non-invasive Raman spectroscopic method was developed to determine the lignin content of historic paper, using partial least squares regression. The research results are significant as they demonstrate the dominant impact of oxalic acid on acidic paper conservation.",
+   "korean_summary": "1844~1990년 사이에 제작된 유럽산 고문서 종이 89건을 분석하여, 종이의 산성화가 주로 비휘발성 카르복실산의 축적으로 인한 산 촉매 가수분해에서 비롯됨을 밝히고 종이 구성에 따른 축적 양상의 체계적 차이를 규명했다.",
+   "deep_dive_tags": [
+    "paper"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123181",
+   "title": "Fully biosourced amphiphilic block copolymer from tamarind seed xyloglucan and solanesol: synthesis, aqueous self-assembly, and drug encapsulation",
+   "authors": [
+    "Lang W."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843085",
+   "pii": "S0144861724014073",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "This study aims to explore the development of natural bio-based amphiphilic block copolymers for drug delivery applications. We investigated block copolymers derived from tamarind seed xyloglucan and solanesol, focusing on their synthesis, structural analysis, aqueous self-assembly, and drug encapsulation. Specifically, xyloglucan hydrolysate segments with number-average degrees of polymerization (DPs) of between 8 and 44 (XOS8, XMS10, XMS16, XMS28, and XMS44) were used as the hydrophilic blocks, whereas plant-sourced solanesol was selected as the hydrophobic segment. These two segments were linked via click chemistry to create novel XOS-b-Sol and XMS-b-Sol copolymers, where XOS refers to a xyloglucan oligosaccharide (DP < 10), and XMS denotes a megalosaccharide, defined as a larger xyloglucan polymer with a DP >10. XMS10- and XMS16-b-Sol self-assembled in aqueous media to form predominantly narrowly dispersed spherical micelles, while XOS8-b-Sol exhibited a combination of short wormlike structures and spherical micelles. Small-angle X-ray scattering, multi-angle dynamic light scattering, and transmission electron microscopy revealed the XMS28- and XMS44-b-Sol micelles are morphologically diverse. XMS10-b-Sol solubilized quercetin, a water-insoluble flavonoid, highly effectively, highlighting its potential as an environmentally benign drug carrier.",
+   "korean_summary": "타마린드씨 유래 자일로글루칸 가수분해물(중합도 8~44)을 친수성 블록으로, 솔라네솔을 소수성 블록으로 하는 완전 생물유래 양친성 블록공중합체를 합성하여 수중 자가조립 거동과 약물 캡슐화 성능을 평가했다.",
+   "deep_dive_tags": [
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123198",
+   "title": "Non-destructive prediction and pixel-level visualization of polysaccharide-based properties in ancient paper using SWNIR hyperspectral imaging and machine learning",
+   "authors": [
+    "Wu Y."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843100",
+   "pii": "S0144861724014243",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Ancient documents and artworks are invaluable cultural heritage artworks that require careful preservation. Traditional methods for assessing their physical and chemical properties-such as tearing index, tensile index, water absorption, and pH-are often destructive, risking irreversible damage. This study introduces a novel, non-destructive approach using Short-Wave Near-Infrared (SWNIR) hyperspectral imaging (HSI) combined with advanced machine learning models. By integrating spectral preprocessing, feature selection, and machine learning techniques-including Back Propagation Neural Networks (BPNN), Long Short-Term Memory Networks (LSTM), and Convolutional Neural Networks (CNN)-with Sparrow Search Algorithm (SSA) optimization and Gray Level Co-occurrence Matrix (GLCM) texture feature extraction, the resulting SSA-BP-UVE-GLCM model achieved high predictive accuracy (R2 ≥ 0.98). This framework enables precise, pixel-level predictions of paper properties, influenced by polysaccharides like cellulose, offering a non-invasive analysis that supports targeted restoration strategies and advances the conservation of cultural heritage. The findings enhance non-invasive testing and classification methods for polysaccharide-based materials, providing a foundation for further exploration of environmental impacts on artwork integrity using sophisticated machine learning algorithms.",
+   "korean_summary": "파괴적 분석 없이 단파 근적외선(SWNIR) 초분광 영상과 머신러닝을 결합하여, 고문서 종이의 인장지수·흡수성·pH 등 다당류 기반 물성을 화소 단위로 예측·시각화하는 비파괴 평가 기법을 제시했다.",
+   "deep_dive_tags": [
+    "paper"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123220",
+   "title": "Highly stretchable, conductive, and self-adhesive starch-based hydrogel for high-performance flexible electronic devices",
+   "authors": [
+    "Chen R."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843111",
+   "pii": "S0144861725000013",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "To achieve the green and sustainable development of environment, biocompatible hydrogels with exceptional ionic conductivity and flexibility are highly desired for intelligent and wearable sensors. However, it remains a great challenge to obtain biopolymer hydrogel-based sensors with high transparency, excellent mechanical properties, and good adhesion ability simultaneously. Herein, starch/polyacrylamide double-network hydrogel is achieved to endow the multifunctionality of traditional hydrogel sensor. Specifically, the resultant hydrogel sensor exhibits wide strain detection range of 2580 %, fast response time of 120 ms, high conductivity of 31.9 mS·m-1, superior sensitivity, remarkable fatigue resistance of 1350 cycles. In addition, multiple hydrogen bonding endows starch/polyacrylamide hydrogel with high mechanical properties and high transparency. Owing to these merits, the hydrogel sensor is capable of discriminating different human motions. Notably, the ionic conducting hydrogels could be employed as single-electrode TENGs for energy harvesting. The multifunctionality and biocompatibility of starch-based hydrogel sensor may offer an inspiration for the future development of next-generation sustainable and wearable electronics.",
+   "korean_summary": "전분과 폴리아크릴아마이드를 결합한 이중망 하이드로겔을 설계하여 높은 신축성과 자가점착성, 이온 전도성을 동시에 확보함으로써 웨어러블 유연 전자소자용 센서 소재로의 활용 가능성을 제시했다.",
+   "deep_dive_tags": [
+    "hydrogel"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123221",
+   "title": "Rational design of a starch/whey protein isolate/caffeic acid ternary system to alleviate gel deterioration during freeze-thaw cycles",
+   "authors": [
+    "Lin Q."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843116",
+   "pii": "S0144861725000025",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "To strengthen starch gel quality and improve the deterioration from freeze-thaw cycles, corn starch/whey protein isolate (WPI)/caffeic acid (CA) composite gels were rationally constructed in this study. The results showed that the introduction of WPI and CA significantly optimized the microstructure of the gels, an observation verified by SEM and CLSM. In addition, FT-IR and XRD analyses further revealed that the interaction mechanism within the composite gel was mainly due to the reinforcement of hydrogen bonds. Notably, the introduction of WPI and CA resulted in a decreasing trend in the viscosity of the system. Meanwhile, the test results of rheological properties, stress-strain response, and textural properties indicated that the simultaneous introduction of WPI and CA led to the softening of the gel texture. After undergoing freeze-thaw cycles, the composite gels showed a positive water distribution pattern, water holding capacity, and color improvements. These findings are important references for guiding the development of starch-based gel-based foods and optimizing their freeze-thaw stability and texture regulation strategies.",
+   "korean_summary": "옥수수전분/유청단백질분리물(WPI)/카페산으로 구성된 3원 복합겔을 설계하여 SEM·CLSM·FT-IR·XRD 분석을 통해 동결-해동 반복에 따른 겔 열화를 억제하는 상호작용 메커니즘을 규명했다.",
+   "deep_dive_tags": []
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123224",
+   "title": "Synthesis and characterization of thermoplastic resin from sugar beet polysaccharides via one-step transesterification",
+   "authors": [
+    "Serizawa R."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843119",
+   "pii": "S0144861725000050",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Lignocellulosic biomass-based plastics provide a sustainable alternative to petroleum-based plastics by converting agricultural by-products into value-added materials, promoting a circular economy. This study investigates the development of thermoplastics from sugar beet pulp (SBP), a by-product rich in cellulose and pectin. A one-pot direct transesterification process was used to fully substitute hydroxy groups in SBP with acyl chains of varying lengths (C2-C10), achieving up to 96 % substitution. The thermal and mechanical properties of SBP esters were analyzed without fractionating polysaccharides. SBP esters exhibited excellent melt flow properties, making them suitable for injection molding applications. The presence of pectin influenced the thermal behavior of the materials; the removal of pectin increased the flow temperature from 155.7 to 204.6 °C. These findings highlight the potential of SBP esters as sustainable plastics, offering a pathway to convert agricultural by-products into high-value materials, thus contributing to a circular economy.",
+   "korean_summary": "셀룰로오스와 펙틴이 풍부한 사탕무박(부산물)의 수산기를 탄소수 2~10의 아실기로 치환하는 원포트 직접 전이에스터화 공정을 개발하여 치환율 최대 96%의 생분해성 열가소성 수지를 합성했다.",
+   "deep_dive_tags": [
+    "pectin",
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123229",
+   "title": "PDMS-in-water emulsions stabilized by cellulose/chitin/starch nanoparticles for fabrication of oil adsorbents: A comparison study",
+   "authors": [
+    "Ma H."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843121",
+   "pii": "S0144861725000104",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Pickering emulsion template has aroused attention in the fabrication of porous composite materials. In this work, six nanoparticles including cellulose nanofiber/nanocrystal (CNF/CNC), chitin nanofiber/nanocrystals (ChNF/ChNC) and waxy/normal corn nanocrystal (WSNC/CSNC) were comparatively studied for their performance in fabricating porous composites with PDMS via Pickering emulsion templates. Among all, CNF and ChNF exhibited best emulsion stabilizing ability, while ChNF and ChNC at optimized concentrations enabled the formation of high internal phase emulsions with long-term stability of over 300 days. WSNC and CSNC with poorest emulsion stabilizing ability failed to obtain porous composites while the other four particles all formed porous composites with PDMS. The ChNF and ChNC composites displayed highest hydrophobicity, followed by the CNC composite. As adsorbents for diesel oil, the ChNF composite showed the highest adsorption capacity and adsorption selectivity, which could be easily recycled by simple mechanical squeezing. At optimized PDMS fractions, the ChNF composite could achieve continuous oil-water separation under vacuum with a highest separation efficiency of 98.9 % at high flux of 8862 L/h·m2. This study revealed the association between nanoparticles and their composite materials fabricated from Pickering emulsion template, hopefully broadening the application of natural polymers in water treatment and related fields.",
+   "korean_summary": "셀룰로오스·키틴·전분 유래 6종의 나노입자를 피커링 에멀전 안정화제로 비교 평가하여, 셀룰로오스 및 키틴 나노섬유가 가장 우수한 에멀전 안정화 성능을 보임을 확인하고 이를 활용한 다공성 오일 흡착 소재를 제조했다.",
+   "deep_dive_tags": [
+    "cellulose",
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123237",
+   "title": "Preparation of silane-free porous structure hyperelastic phosphorylated chitosan sponge reinforced with bamboo activated carbon and its efficient PM2.5 removal",
+   "authors": [
+    "Liang Y."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843125",
+   "pii": "S0144861725000189",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Chitosan (CS) based sponge shows important potential applications in adsorption, filtration, sensing, etc., which often requires good deformation-recovery ability that is usually achieved under the help of silane elastomers. Herein, a simple but innovative strategy was proposed that only bamboo activated carbon (BAC) was employed as the reinforcer to construct highly elastic phosphorylated chitosan (P-CS) sponge with through-hole structure like layer-support by freeze drying. In the system, the through-hole structure like layer-support was formed by directional freezing, where BAC as the \"support\" was fixed onto the P-CS \"layer\". When the through h-hole structure like layer-support is squeezed, the \"support\" could limit the bending of the \"layer\" and protect it to some extent. Therefore, the resulting P-CS/BAC composite sponge displays excellent elastic properties. Based on the through-hole structure, the P-CS/BAC composite sponge is well suited for PM2.5 filtration, achieving a filtration efficiency of 99.61 % and a low pressure drop of only 60 Pa. Besides, it has excellent flame retardance (LOI of 50.4 %) due to the synergistic effect of N and P of P-CS. The system could achieve highly elastic without any silane, meanwhile, its simple preparation and excellent performance endow it a great development prospect in air purification.",
+   "korean_summary": "실란 가교제 없이 대나무 활성탄만을 보강재로 사용해 동결건조로 제조한 인산화 키토산 스펀지를 통기성 층상 구조로 설계하여, 실란 없이도 우수한 변형-회복 탄성과 미세먼지(PM2.5) 제거 효율을 달성했다.",
+   "deep_dive_tags": [
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123245",
+   "title": "The preparation and characterization of pineapple peel cellulose nanofibers and its application in oil-water emulsions",
+   "authors": [
+    "Tian Y."
+   ],
+   "coverDate": "2025-04-01",
+   "pubmed_id": "39914949",
+   "pii": "S0144861725000268",
+   "volume": "353",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "This study explored the potential of pineapple peel waste as a sustainable source of cellulose nanofibers (CNF) for Pickering emulsion stabilization. Pineapple peel cellulose, enzymatically extracted and subsequently TEMPO-oxidized and sonicated to produce TEMPO-oxidized cellulose nanofibers (TC), was investigated as an emulsifier. The effects of TC concentrations (0.2, 0.4, 0.6, 0.8, and 1.0 % wt%) and oil phase volumes (20 %, 30 %, 40 %, and 50 %) on rheological properties, and emulsion stability were determined. Results demonstrated that increasing TC concentration significantly enhanced emulsion stability through the formation of a cohesive three-dimensional network structure. This stability was maintained across a broad range of pH, ionic strength, and temperature. Molecular dynamics simulations supported these findings, revealing that TC enhances emulsion stability through favorable intermolecular interactions. This work highlights the potential of pineapple peel-derived CNF as a sustainable and high-performing alternative for emulsion stabilization applications.",
+   "korean_summary": "폐기되는 파인애플 껍질을 효소적으로 분해하고 TEMPO 산화 및 초음파 처리하여 셀룰로오스 나노섬유를 추출하고, 이를 피커링 에멀전 안정화제로 활용해 농도와 오일상 비율에 따른 유화 안정성과 유변학적 특성을 규명했다.",
+   "deep_dive_tags": [
+    "cellulose",
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123246",
+   "title": "Pattern of substitution affects the extractability and enzymatic deconstruction of xylan from Eucalyptus wood",
+   "authors": [
+    "Heinonen E."
+   ],
+   "coverDate": "2025-04-01",
+   "pubmed_id": "39914950",
+   "pii": "S014486172500027X",
+   "volume": "353",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Glucuronoxylan is the main hemicellulose in the secondary cell wall of angiosperms. Elucidating its molecular structure provides a basis for more accurate plant cell wall models and the utilization of xylan in biorefinery processes. Here, we investigated the spacing of acetyl, glucuronopyranosyl and galactopyranosyl substitutions on Eucalyptus glucuronoxylan using sequential extraction combined with enzymatic hydrolysis and mass spectrometry. We found that the acetyl groups are preferentially spaced with an even pattern and that consecutive acetylation is present as a minor motif. Distinct odd and even patterns of glucuronidation with tight and sparse spacing were observed. Furthermore, the occurrence of consecutive glucuronidation is reported, which adds to the growing body of evidence that this motif is not only present in gymnosperms but also in angiosperms. In addition, the presence of terminal galactopyranosyl units, which can be released by β-galactosidase, altered the digestibility of the glucuronoxylan by GH30 and GH10 xylanase and appeared to be clustered within the polymeric backbone. These findings increase our understanding of the complex structure of glucuronoxylans and its effect on the extractability and biological degradation of Eucalyptus wood.",
+   "korean_summary": "순차 추출과 효소 가수분해, 질량분석법을 결합하여 유칼립투스 목재의 글루쿠론자일란에서 아세틸·글루쿠론산·갈락토오스 치환기의 분포 패턴을 규명하고, 이것이 자일란의 추출성과 효소 분해성에 미치는 영향을 밝혔다.",
+   "deep_dive_tags": [
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123247",
+   "title": "Mildew resistant modified starch adhesive by soybean meal flour crosslinking with excellent bonding properties",
+   "authors": [
+    "Hou M."
+   ],
+   "coverDate": "2025-04-15",
+   "pubmed_id": "39978887",
+   "pii": "S0144861725000281",
+   "volume": "354",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Starch adhesives have gained popularity due to their unique properties, which include a range of raw materials, simplicity of separation and purification, high yield, non-toxicity, and biodegradability. However, starch-based adhesives have weaknesses such as poor bonding effectiveness, poor water resistance, and poor mildew resistance. This study aims to solve these shortcomings and make such adhesives useful in the wood processing industry. Sodium periodate was used on corn starch (US) to yield oxidized starch (OS) containing aldehyde groups, and afterwards mixing it with soybean meal flour (SF). Through a Schiff base reaction, addition reaction, and hydrogen bonding, a cross-linked network was formed, yielding a starch-based wood adhesive (OSSF). The dry shear strength, 24-h cold water (20 °C), 3-h hot water (63 °C) and 3-h boiling (93 °C) water soaking strength of the plywood bonded with this resin were respectively 2.0, 1.27, 1.15, and 0.92 MPa, which is better than the strength requirements of the GB/T 9846-2015 standard (≥0.7 MPa). Additionally, the OSSF adhesive showed good storage stability for 50 days without mildewing, with the hot water strength still satisfying the requirements of the standard. This offers a practical approach to creating starch-based wood adhesives that have low cost, high performance, and are environmentally friendly.",
+   "korean_summary": "옥수수전분을 과요오드산나트륨으로 산화시킨 후 대두박 분말과 가교하는 개질 전분 접착제를 개발하여, 기존 전분 접착제의 약점인 방수성과 방부성(내곰팡이성)을 동시에 개선하고 목재 가공용 접착 성능을 입증했다.",
+   "deep_dive_tags": [
+    "soybean"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123250",
+   "title": "Eco-friendly one-pot hydrothermal synthesis of cyclodextrin metal-organic frameworks for enhanced CO2 capture",
+   "authors": [
+    "Chen X."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843130",
+   "pii": "S0144861725000311",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Polysaccharide-based metal-organic frameworks have attracted widespread attention due to their combination of the biocompatibility and flexibility of polysaccharides. Cyclodextrin are interesting bio-ligands in the construction of polysaccharide-based MOFs. Conventional methods for preparing cyclodextrin metal-organic frameworks (CD-MOFs) are often time-consuming and inefficient. In this study, cost-effective and environmentally friendly α- and β-CD-MOFs were successfully synthesized using a hydrothermal method, with optimized incubation time and solvent ratios. The materials were characterized by powder X-ray diffraction (XRD), scanning electron microscopy (SEM), thermogravimetric analysis (TGA), and N₂ adsorption/desorption measurements. The CO₂ adsorption mechanism was also examined using Fourier transform infrared spectroscopy (FTIR). The results demonstrated excellent thermal and cycling stability of the materials. The CO₂ uptake capacities of α- and β-CD MOF-K were 10.8 and 11.2 cm3/g, respectively. Additionally, the CD-MOFs showed strong selectivity for CO₂ over N₂. Given the straightforward operational procedures, safety characteristics, and mild reaction conditions of CD-MOFs, it is reasonable to conclude that they are promising candidates for use as CO₂ adsorption materials.",
+   "korean_summary": "수열 합성법을 이용해 α-/β-시클로덱스트린 금속-유기 골격체(CD-MOF)를 경제적이고 친환경적으로 신속 제조하는 공정을 개발하여, 기존 제조법보다 효율적인 CO2 포집 성능을 달성했다.",
+   "deep_dive_tags": []
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123254",
+   "title": "High-consistency modification of cellulose fibers: Resource-efficient introduction of cationic charges, and their effect on fiber and nanofibril properties",
+   "authors": [
+    "Sjolund J."
+   ],
+   "coverDate": "2025-03-15",
+   "pubmed_id": "39843114",
+   "pii": "S0144861725000359",
+   "volume": "352",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Quaternized cellulose fibers and cellulose nanofibrils (CNFs) are attractive candidates for the development of new renewable and biodegradable materials. However, the etherification reaction, through which functionalization is commonly achieved, provides low efficiencies, limiting industrial interest in the modification. This work primarily aims to increase the efficiency for the quaternization of cellulosic fibers while keeping the fiber-structure intact. This was achieved using high-consistency kneading to mix and modify the fibers at far higher solids contents than previously reported, efficiently limiting the alkaline hydrolysis of the reagent. Increasing the solids content from 5 to 45 wt% improved the reaction efficiency from 2 % to unprecedented 38 %. Characterization of the fibers showed that high-consistency quaternization affected the wet dimensions of the fibers, with enhanced swelling and fibrillation being obtained. Based on the tensile testing of handsheets made, it was concluded that quaternizing the fibers enhanced the strainability of the material, from 1.8 to 6.7 %, and that kneading achieved a concomitant increase in stress-at-break, from 15 to 103 MPa. CNFs produced from fluidized high-consistency-quaternized fibers had dimensions comparable to those produced from hand-mixed fibers, having aspect ratios above 200, the CNF films produced were transparent, tough, and with a high propensity to sorb water.",
+   "korean_summary": "고농도(high-consistency) 조건에서 셀룰로오스 섬유를 양이온화하는 자원 효율적 개질 공정을 개발하여, 기존 에테르화 반응의 낮은 효율 문제를 해결하면서 섬유와 나노섬유의 구조적 특성을 유지함을 보였다.",
+   "deep_dive_tags": [
+    "cellulose"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123261",
+   "title": "Unraveling the effects of cellulose nanoparticle types on dispersion, rheological behavior, and shear strength in adhesive formulations",
+   "authors": [
+    "Sarioglu E."
+   ],
+   "coverDate": "2025-04-01",
+   "pubmed_id": "39914954",
+   "pii": "S0144861725000426",
+   "volume": "353",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Cellulose chains self-assemble at the nanoscale, forming cellulose nanocrystals (CNCs), cellulose nanofibrils (CNFs), and cellulose microfibrils (MFCs), which have been widely incorporated into petroleum-derived adhesive formulations to mitigate environmental and health impacts. However, the microstructure-rheology-performance relations of different morphologies need to be elucidated. This study investigated the dispersion, stability, phase behavior, rheology, and curing behavior of urea-formaldehyde (UF) adhesives modified with wood-derived cellulose nanoparticles, including CNCs, CNFs, and MFCs. Our results show that CNC and CNF were homogeneously distributed in the UF solution, whereas MFCs agglomerated due to a higher degree of entanglement. The addition of CNCs to UF resin allowed precise tuning of the flow properties of the composites with filler content, affecting the properties over several orders of magnitude at concentrations as low as a few percent. Composites with low CNC concentrations (1-3 wt%) were homogeneously dispersed in the UF solution, forming a network between negatively charged CNCs and the UF matrix. However, adhesives with higher CNC concentrations (4 and 5 wt%) disrupted the long-range particle network, causing clustering in the UF-CNC mixture and promoting gel formation- an undesirable form for practical applications. These physicochemical characteristics are well reflected in the adhesion behavior characterized by lap-shear tests.",
+   "korean_summary": "셀룰로오스 나노결정(CNC), 나노섬유(CNF), 마이크로섬유(MFC) 등 형태가 다른 셀룰로오스 나노입자를 요소-포름알데히드 접착제에 적용해 분산성·레올로지·전단강도에 미치는 영향을 비교 분석함으로써 입자 형태와 접착 성능 간의 구조-물성 관계를 규명했다.",
+   "deep_dive_tags": [
+    "cellulose"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123273",
+   "title": "Advanced targeted curcumin delivery using biodegradable hierarchical microspheres with calcium pectinate matrix and hyaluronic acid moieties for enhancing colitis amelioration",
+   "authors": [
+    "Feng J."
+   ],
+   "coverDate": "2025-04-01",
+   "pubmed_id": "39914962",
+   "pii": "S0144861725000542",
+   "volume": "353",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Oral targeted delivery systems for food bioactive compounds have attracted considerable attention for improving the efficiency of nutritional interventions. In this study, a hierarchical curcumin carrier with sequence-targeting capability was fabricated to mitigate colitis through a convenient and environmentally friendly approach. Initially, curcumin-loaded nanostructured lipid carriers (NLC) with hyaluronic acid (HA) moieties (HA-NLC) were prepared using ovalbumin-HA conjugates as emulsifiers. Subsequently, HA-NLC was immobilized within a calcium pectinate matrix using electrospray, leading to the formation of supramolecular microspheres (HA-NLC@MPs) approximately 140 μm in size. Results suggested that the pectin matrix preserved the integrity of the carrier and prevented curcumin leakage during transit through the upper gastrointestinal tract, while selectively degrading in response to colon bacteria. Moreover, the exposed HA moieties on the released HA-NLC facilitated the transcellular absorption of curcumin by inflamed colonic enterocytes through cluster of differentiation-44 receptor-mediated endocytosis. In vitro and in vivo studies demonstrated predominant curcumin accumulation in the colorectal tissues of colitis mice using HA-NLC@MPs as carrier. Curcumin delivered via HA-NLC@MPs demonstrated superior effects in alleviating colitis compared with that in the nanocarriers, through the modulation of macrophage polarization, TLR4/MyD88/NF-κB signaling cascade, and gut microbiota homeostasis.",
+   "korean_summary": "오발부민-히알루론산 접합체로 안정화한 커큐민 담지 나노구조 지질 담체(HA-NLC)를 칼슘 펙티네이트 매트릭스로 코팅한 계층적 미세구를 제작하여, 대장 표적 방출을 통한 대장염 개선 효능을 입증했다.",
+   "deep_dive_tags": [
+    "pectin"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123274",
+   "title": "Development of interpenetrating network gels based on co-gelation of heteroprotein aggregates and sugar beet pectin for physicochemical functional enhancement of W-O-W systems",
+   "authors": [
+    "Li L."
+   ],
+   "coverDate": "2025-04-01",
+   "pubmed_id": "39914963",
+   "pii": "S0144861725000554",
+   "volume": "353",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "The advancement and utilization of functional foods hold the capacity to efficaciously enhance human nutrition and well-being. However, within the present epoch characterized by recurrent food safety and quality concerns, there exists a paucity of suitable food systems that are capable of concurrently amalgamating the merits of nutritional enrichment and high stability. Therefore, in this study, heteroprotein aggregates were synthesized with modified-soy lipophilic protein (SLP) and lysozyme (LY) as the main components. Subsequently, an interpenetrating network (IPN) was constructed using sugar beet pectin (SBP) and heteroprotein aggregates to form W-O-W emulsion gels. The heteroprotein aggregates formed by SLP and LY provided a stable oil-water interface, allowing the IPN to maximally confine the internal oil droplets and improve the mechanical properties and water retention capacity of the W-O-W emulsion gels. Meanwhile, the W-O-W emulsion gels also possessed pH-responsiveness, endowing them with the ability to modulate their self-morphology and network structure in accordance with pH fluctuations. Moreover, they possessed outstanding protective and slow-release efficacies, which were conducive to the targeted release of the delivered substances. Thus, W-O-W emulsion gels based on heteroprotein aggregation and SBP show great potential as an option for functional food applications.",
+   "korean_summary": "변성 대두 지용성 단백질과 라이소자임으로 이형단백질 응집체를 형성하고 이를 사탕무 펙틴과 공젤화시켜, 물-오일-물(W-O-W) 다중 에멀전 시스템의 물리화학적 기능성을 향상시키는 상호침투망 젤을 개발했다.",
+   "deep_dive_tags": [
+    "pectin",
+    "soybean"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123288",
+   "title": "Antimicrobial chitosan-based hydrogels: A novel approach to obtain sanitizers",
+   "authors": [
+    "Ailincai D."
+   ],
+   "coverDate": "2025-04-15",
+   "pubmed_id": "39978889",
+   "pii": "S0144861725000694",
+   "volume": "354",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "The study presents novel hydrogels obtained by crosslinking chitosan with both furfural and glutaraldehyde via dynamic imine bonds. Scanning electron microscopy confirmed the formation of porous networks with a mean diameter of the pores between 15 and 35 μm, while the supramolecular characterization by polarized optical microscopy and wide-angle X-ray diffraction proved the gelation mechanism. The hydrogels presented great rheological properties, along with an anti-creep behavior. The resulting materials were highly adhesive and had great antioxidant activity, leading to an inhibition of 78 % of DPPH free radicals, and exhibiting antimicrobial activity against Gram-positive and Gram-negative bacteria and fungi, reaching a maximum of the diameter of the inhibition zone of 31 mm against Candida albicans. The MTS assay, performed on NHDF cells confirmed the non-toxicity of the hydrogels, the viability of the cells remaining at values higher than 90 % for all samples, revealing their potential for bioapplications. In vitro release studies of the furfural monoaldehyde showed distinct release kinetics for each hydrogel, emphasizing their versatility. Fitting the data on different mathematical models indicated a diffusion-controlled release mechanism during the entire release process. All these findings highlighted the potential of these hydrogels to be used as biocidal agents for topical applications.",
+   "korean_summary": "키토산을 퍼퍼랄과 글루타르알데히드로 동적 이민결합을 이용해 가교한 하이드로겔을 제조하여 15~35㎎ 크기의 다공성 망상구조와 우수한 레올로지 특성, 항크리프 거동을 확인하고 손 세정제(sanitizer) 응용 가능성을 제시했다.",
+   "deep_dive_tags": [
+    "hydrogel"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123292",
+   "title": "Dispersion of bacterial cellulose bundles in organic solvents and their assembly as ultra-low grammage coating on woven fabric",
+   "authors": [
+    "Li J."
+   ],
+   "coverDate": "2025-04-15",
+   "pubmed_id": "39978915",
+   "pii": "S0144861725000736",
+   "volume": "354",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Water is commonly considered as the optimal dispersing medium for nanocellulose given its hydrophilic nature. However, studies have also proven otherwise that alternative organic solvents may give better dispersion quality. Herein, a thermodynamic approach is used to estimate the Hansen solubility parameters of bacterial cellulose (BC) and understand the dispersion of BC bundles in selected organic solvents (i.e. ethyl acetate, acetone and ethanol-water mixtures). The correlation between the BC dispersion in different solvents and the aerosol particulate filtration performance of the resultant BC coated woven fabric is also presented. It is discovered that the best dispersion was achieved in a 60 % ethanol-water mixture, resulting in enhanced aerosol particulate filtration performance. At a BC coating grammage of 0.5 g m-2, the filtration efficiency exceeded 80 %, outperforming the BC coating produced from a water dispersion. These findings highlight the potential of understanding nanocellulose dispersion from a solubility parameter approach.",
+   "korean_summary": "한센 용해도 파라미터를 이용해 박테리아 셀룰로오스(BC) 묶음의 유기용매(에틸아세테이트, 아세톤, 에탄올-물 혼합물) 내 분산 거동을 열역학적으로 예측하고, 이를 직물 표면에 극저평량 코팅으로 조립하는 공정을 구현했다.",
+   "deep_dive_tags": [
+    "cellulose",
+    "paper_coating"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123306",
+   "title": "Tunable-color chiral liquid crystal film of cellulose nanocrystal with outstanding antibacterial and UV shielding capabilities for multifunction coating applications",
+   "authors": [
+    "Jin H."
+   ],
+   "coverDate": "2025-04-15",
+   "pubmed_id": "39978916",
+   "pii": "S0144861725000876",
+   "volume": "354",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Chiral nematic cellulose crystals (CNCs) have presented broad application prospects in information encryption, sensing and coating field due to their properties of tunable structural color, birefringence and sustainability and renewability. However, the controllable regulation of structural colors and the incorporation of functionalities still pose challenges for practical applications. Herein, we propose a facile method utilizing plant polyphenols to regulate the pitch of chiral nematic liquid crystal films, thereby enabling precise control over the structural color. The influence of varying amounts of tannic acid (TA) incorporation on the structure and optical properties of CNC iridescent films was investigated, and the underlying mechanisms were elucidated. Notably, TA enhances the UV absorption of the composite film, demonstrating nearly complete UVB absorption and partial UVA absorption. Furthermore, the films exhibit potent antibacterial activity against both Gram-positive and Gram-negative bacteria. The incorporation of polyphenol TA not only endows the composite film with outstanding antibacterial and UV-resistant properties but also allows for tuning the structural color of CNC films. The tunable structural color, along with the antibacterial and ultraviolet resistance properties exhibited by CNC-TA chiral cholesteric films, provides new prospects for anti-counterfeiting labels and multifunctional coating applications.",
+   "korean_summary": "식물성 폴리페놀을 이용해 키랄 네마틱 셀룰로오스 나노결정(CNC)의 나선 피치를 조절함으로써 색상이 조절 가능한 필름을 제작하고, 우수한 항균성과 자외선 차단 기능을 겸비한 다기능 코팅 소재로서의 응용성을 확인했다.",
+   "deep_dive_tags": [
+    "cellulose",
+    "paper_coating"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123309",
+   "title": "Multilayer composite films with enhanced electromagnetic interference shielding and thermal management properties based on bamboo cellulose nanofibers",
+   "authors": [
+    "Wang L."
+   ],
+   "coverDate": "2025-04-15",
+   "pubmed_id": "39978917",
+   "pii": "S0144861725000906",
+   "volume": "354",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "Flexible, lightweight, and versatile materials are key trends for the next generation of electromagnetic interference (EMI) shielding solutions. Conductive polymer composites have garnered significant attention in the field of EMI shielding. In this study, multilayer films consisting of bamboo cellulose nanofibers (BCNF)/silver nanoparticles (AgNPs) and conductive reduced graphene oxide (rGO)/multi-walled carbon nanotubes (MWCNTs) were prepared using a vacuum alternate filtration. Leveraging the inherent reducibility of BCNF, AgNPs were incorporated into the composite films to impart antibacterial properties. Stacking and concentrating rGO/MWCNTs into conductive layer resulted in multilayer films that exhibit excellent EMI shielding and thermal management properties. The composite films exhibited an EMI shielding effectiveness (EMI SE) of 37.59 dB in the X-band, achieving an SE/d (the ratio of SE to thickness) of 729 dB mm-1, effectively attenuating 99.98 % of electromagnetic waves. Thanks to the outstanding electrical conductivity, the composite films exhibited excellent Joule heating performance, reaching a saturation temperature within 10 s. Furthermore, the composite films possess dual heating capabilities and can also be heated through photothermal conversion. This work presents a straightforward and environmentally friendly approach for fabricating multifunctional composite films that integrate both EMI shielding and thermal management, addressing the needs of environmental protection and sustainable development.",
+   "korean_summary": "대나무 유래 셀룰로오스 나노섬유(BCNF)/은나노입자 층과 환원 그래핀옥사이드/다중벽 탄소나노튜브 층을 진공 교대 여과로 적층한 다층 복합 필름을 제작하여, 우수한 전자파 차폐 성능과 열관리 특성을 동시에 구현했다.",
+   "deep_dive_tags": [
+    "cellulose",
+    "biomass"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123311",
+   "title": "Kidney function-related protection of polysaccharides from red kidney bean and small black soybean via urine metabolomics in type 2 diabetic rats",
+   "authors": [
+    "Bai Z."
+   ],
+   "coverDate": "2025-05-01",
+   "pubmed_id": "40037720",
+   "pii": "S014486172500092X",
+   "volume": "355",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "abstract_en": "Diabetic nephropathy is a significant microvascular complication of diabetes mellitus. Crude polysaccharides extracted from red kidney beans and small black soybeans (RK, SB) have demonstrated promising antidiabetic effects in type 2 diabetic rats. This study evaluated the protective effects of RK and SB on kidney function in diabetic rats by examining kidney markers and urine metabolism. It also investigated the impact of pure polysaccharides (RKP, SBP) to pinpoint the active component of RK and SB. Findings indicated that RK and SB influenced kidney function by affecting the kidney index and key urine metabolites, like citric acid and cis-aconitic acid, linked to the TCA cycle and phenylalanine metabolism. Furthermore, a higher dose (400 mg/kg) of RKP and SBP was more effective in treating kidney damage in diabetic models than the optimal 200 mg/kg dose of RK and SB. This was shown by better regulation of urea nitrogen and uric acid levels, improved kidney tissue health seen in HE staining, and fewer red-stained lipid droplets in the kidney, as indicated by Oil Red O staining. Overall, this study provided additional evidence to support RKP and SBP as a functional ingredients production in the food industry.",
+   "korean_summary": "강낭콩과 검은콩(서목태)에서 추출한 조다당류와 정제 다당류를 당뇨 쥐 모델에 투여하여 신장 기능 지표와 요 대사체 분석을 통해, 정제된 다당류 성분이 당뇨병성 신증에 대한 보호 효과의 핵심 활성 물질임을 규명했다.",
+   "deep_dive_tags": [
+    "soybean"
+   ]
+  },
+  {
+   "doi": "10.1016/j.carbpol.2025.123320",
+   "title": "Eco-friendly polylactic acid/modified thermoplastic starch films enhanced with clove essential oil and cochineal for dual-functional active and intelligent food packaging",
+   "authors": [
+    "Mohammadi M."
+   ],
+   "coverDate": "2025-04-15",
+   "pubmed_id": "39978903",
+   "pii": "S0144861725001018",
+   "volume": "354",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "abstract_en": "This study introduces a novel, industrially viable, eco-friendly packaging film based on polylactic acid (PLA) and thermoplastic starch (TPS), incorporated with cochineal dye and clove essential oil (CEO), to simultaneously monitor spoilage and preserve high-protein foods, such as shrimp. Citric acid-modified TPS showed significant improvements in particle dispersion, interphase adhesion, and size reduction when blended with PLA. Incorporating 20 % modified TPS into PLA significantly enhanced ammonia sensitivity, achieving faster and more uniform color changes, while improving tensile strength by 32.6 % to 28.48 ± 1.25 MPa and increasing water vapor resistance by 11 % compared to standard PLA/TPS film. The engineered composite films effectively indicated shrimp freshness by transitioning from orange to purple, exhibiting a 117 % higher total color change (ΔE) compared to the unmodified film, reaching 69.54 ± 2.36. This color change demonstrated a strong correlation with shrimp spoilage indices within 24 h of storage at 28 °C.The films demonstrated antibacterial efficacy, with inhibition zones of 16.1 mm and 12.3 mm against L. monocytogenes and E. coli, respectively. CEO's moisture-sensitive release mechanism maintained total viable count (TVC) levels below the 7 log CFU/mL threshold for 15 days under 4 °C storage, extending shrimp shelf life by 10 days compared to control samples.",
+   "korean_summary": "구연산으로 개질한 열가소성 전분(TPS)과 폴리락트산(PLA)을 블렌딩하고 코치닐 색소와 정향 에센셜 오일을 첨가하여, 새우 등 고단백 식품의 부패를 실시간으로 모니터링하면서 보존 기능까지 겸비한 이중기능 활성·지능형 포장 필름을 개발했다.",
+   "deep_dive_tags": [
+    "biomass"
+   ]
+  }
+ ]
+}
