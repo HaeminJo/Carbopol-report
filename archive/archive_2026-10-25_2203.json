@@ -1,0 +1,366 @@
+{
+ "run_timestamp_utc": "2026-10-25_2203",
+ "journal": "Carbohydrate Polymers",
+ "issn": "0144-8617",
+ "collection_method": "Elsevier Scopus Search API (primary) + PubMed E-utilities (abstract/pubtype supplement)",
+ "target_count": 20,
+ "collected_count": 25,
+ "focus_keyword_indices_0based": [
+  0,
+  4,
+  5,
+  7,
+  8,
+  9,
+  10,
+  12,
+  18,
+  19,
+  20,
+  22,
+  23
+ ],
+ "articles": [
+  {
+   "title": "Enhanced analysis of cellulose nanofibril film structure",
+   "doi": "10.1016/j.carbpol.2024.123190",
+   "pii": "S0144861724014164",
+   "coverDate": "2025-03-15",
+   "creator": "Cainglet H.E.",
+   "eid": "2-s2.0-85214307203",
+   "pmid": "39843093",
+   "abstract": "Structural analysis of cellulose nanofibril (CNF) films remains challenging due to the stochastic assembly of fibres and presence of nanopores. This limits our ability to link the film structures to their properties, restricting their commercial use. While X-ray micro-computed tomography (&#x3bc;CT) is a powerful technique to map the structure of traditional and commercial paper, there has been limited success in its application for CNF films due to the poor contrast between pores and material, making the reconstructed images difficult to segment and analyse. Mercury intrusion porosimetry (MIP) can be used to measure film pore size distributions down to the nanoscale, but provides limited information on the pore morphology. Here, we demonstrate the power of combining both methods. Samples are first subjected to MIP. Then, &#x3bc;CT measurements at 0.7&#xa0;&#x3bc;m voxel size are performed on the mercury intruded samples. The contrast between mercury-filled pores and fibres is drastically enhanced, allowing for direct binarisation of the 3D volume with conventional segmentation, which is not possible without mercury. Detailed information on the pore morphology and connectivity could be determined with &#x3bc;CT, while MIP provided complementary information about the nanoscale pores.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article"
+   ]
+  },
+  {
+   "title": "Branching and molecular weight in levan: A detailed analysis of structural variability and enzymatic hydrolysis susceptibility",
+   "doi": "10.1016/j.carbpol.2025.123236",
+   "pii": "S0144861725000177",
+   "coverDate": "2025-03-15",
+   "creator": "Miranda-Molina A.",
+   "eid": "2-s2.0-85214939749",
+   "pmid": "39843124",
+   "abstract": "Levan, a &#x3b2;(2&#xa0;&#x2192;&#xa0;6) linked D-fructofuranosyl polymer, is gaining significant attention in basic and applied research. It has been demonstrated that most properties are related to levan molecular weight but also its &#x3b2;(2&#xa0;&#x2192;&#xa0;1) branching degree. In this paper the relationship between levan branching degree, particle size, and molecular weight is reviewed, exploring also how these structural parameters influence levan susceptibility to exo- and endolevanase hydrolysis for levans produced by three recombinants bacterial levansucrases. We found almost no association between molecular weight and neither particle size nor branching degree in levans described in the literature including those evaluated in this work. We also found that all evaluated levans form spherical nanoparticles. Interestingly, in enzyme assays with the synthesized levans, increasing branching and decreasing particle size are inversely associated with lower exolevanase (Bs-SacB) and endolevanase (Bl-LevB) hydrolysis rates. After a limited but exclusive &#x3b2;(2&#xa0;&#x2192;&#xa0;6) exolevanase hydrolysis a limit-levan structure may be obtained. In the case of endolevanase hydrolysis, branching not only decreases endolevanase activity but also affects the type of oligosaccharides obtained, probably due to limited access to the enzyme to linear regions of the polymer.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Engineered extracellular vesicles loaded in boronated cyclodextrin framework for pulmonary delivery",
+   "doi": "10.1016/j.carbpol.2024.123160",
+   "pii": "S0144861724013869",
+   "coverDate": "2025-03-15",
+   "creator": "Ren X.",
+   "eid": "2-s2.0-85212593327",
+   "pmid": "39843065",
+   "abstract": "Extracellular vesicles (EVs) are promising therapeutic carriers for their ideal nano-size and intrinsic biocompatibility, while rapid clearance and limited targeting ability are the major setbacks of EVs. With minimal absorption into the systemic circulation, inhalation for pulmonary disease therapy minimizes off-target toxicity to other organs and offers a safe and effective treatment for respiratory disorders. Herein, a nano-grid carrier made of boronated cyclodextrin framework (BCF) was prepared for pH/H2O2 responsive release of EVs. A novel design of cyclo (Arg-Gly-Asp-D-Tyr-Lys) peptide (RGD)-modified milk-derived EVs (mEVs) loaded in the BCF particles (RGD-mEVs@BCF) was developed for pulmonary delivery. The results indicated that RGD-mEVs showed superior anti-inflammatory activity in contrast with mEVs in vitro. BCF was able to capture and protect RGD-mEVs, which showed extended-release profiles and responsiveness. Pulmonary administration of RGD-mEVs@BCF showed favorable biocompatibility in rats. Taken together, RGD-mEVs@BCF features biocompatibility and pH-responsive mEVs release as a therapeutic platform for pulmonary delivery of drugs to treat lung diseases, especially for inflammatory diseases.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Quaternary ammonium chitosan-functionalized mesoporous silica nanoparticles: A promising targeted drug delivery system for the treatment of intracellular MRSA infection",
+   "doi": "10.1016/j.carbpol.2024.123184",
+   "pii": "S0144861724014103",
+   "coverDate": "2025-03-15",
+   "creator": "Liu J.",
+   "eid": "2-s2.0-85213545679",
+   "pmid": "39843087",
+   "abstract": "The limited membrane permeability and bacterial resistance pose significant challenges in the management of intracellular drug-resistant bacterial infections. To overcome this issue, we developed a bacterial-targeted drug delivery system based on quaternary ammonium chitosan-modified mesoporous silica nanoparticles (MSN-NH2-CFP@HACC) for the treatment of intracellular Methicillin-resistant Staphylococcus aureus (MRSA) infections. This system utilizes amino-functionalized mesoporous silica nanoparticles to efficiently load cefoperazone (CFP), and the nanoparticles' surface is coated with 2-hydroxypropyltrimethyl ammonium chloride chitosan (HACC) to target bacteria and enhance macrophage uptake. The findings indicate that MSN-NH2-CFP@HACC nanoparticles are efficiently internalized by macrophages, demonstrate accelerated drug release in acidic environments, and exhibit enhanced antibacterial properties, effectively suppressing the proliferation and intracellular escape of MRSA. Moreover, HACC enhances the bacterial capture ability of the nanoparticles and reduces resistance by disrupting bacterial membrane structures and inhibiting bacterial &#x3b2;-lactamase activity. In a murine model of MRSA bacteremia, MSN-NH2-CFP@HACC exhibited remarkable antibacterial efficacy and significantly attenuated severe inflammatory responses. In conclusion, MSN-NH2-CFP@HACC represent a promising antibiotic delivery system with exceptional antibacterial efficacy and favorable biocompatibility, thus presenting a novel strategy for addressing intracellular drug-resistant bacterial infections and demonstrating significant potential for clinical application.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Effect of crosslinker length in CNF foams for oil recovery and sustainable agriculture",
+   "doi": "10.1016/j.carbpol.2024.123178",
+   "pii": "S0144861724014048",
+   "coverDate": "2025-03-15",
+   "creator": "Tang C.",
+   "eid": "2-s2.0-85213220059",
+   "pmid": "39843082",
+   "abstract": "Chemically crosslinked foams possess good wet mechanical stability, and they are promising systems for applications in oil recovery, water treatment, energy storage, etc. However, reports on the effect of crosslinker length on the physical properties of the foam are scarce. Various cellulose nanofiber (CNF) foams (denoted as CPM) were prepared using different molecular weights dicarboxylated-PEG crosslinkers via the esterification reaction. The effect of PEG chain length on the crosslinking efficiency, mechanical strength, porosity, wettability, and oil recovery performance of the produced foams was elucidated. Additionally, the application potential of CPM 600 foam was explored as a nutrient promoter and water retention platform in the field of sustainable agriculture. This fundamental research could provide guidance for the preparation of high-performance porous materials.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article"
+   ]
+  },
+  {
+   "title": "Efficient and green extraction of chitin from Hermetia illucens using deep eutectic solvents and its application for rapid hemostasis",
+   "doi": "10.1016/j.carbpol.2024.123152",
+   "pii": "S014486172401378X",
+   "coverDate": "2025-03-15",
+   "creator": "Wang Y.",
+   "eid": "2-s2.0-85212591033",
+   "pmid": "39843057",
+   "abstract": "Hermetia illucens, with a short growth cycle, is promising as a valuable source of chitin. However, the optimal method for extracting chitin from this insect and its application for hemostasis has not been addressed. This work employed an environmentally friendly choline chloride-lactic acid deep eutectic solvent technology to extract chitin effectively from the Hermetia illucens pupae shells, realizing one-step removal of inorganic salts and proteins. The extraction process was optimized through the response surface methodology, which identified the optimal temperature (92&#xa0;&#xb0;C), time (5.6&#xa0;h), and liquid-solid ratio (20&#xa0;mL/g) as the conditions that yielded the highest chitin yield (28.40&#xa0;%) and the highest purity (96.93&#xa0;%). The structural characterization of the extracted chitin revealed an &#x3b1;-type structure with favorable thermal stability. Furthermore, by regulating the degree of deacetylation, we optimized the degree of protonation of chitin for producing a series of chitosan (Cts), thereby enabling the production of Cts2 with excellent in vitro hemostatic properties. The superior hemostatic performance of Cts2 can be attributed to significantly superior platelet adhesion, achieved preferred adsorption of fibrinogen, and improved blood coagulation. This work provides a theoretical basis for the efficient extraction and high-value application of chitin from Hermetia illucens.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "High-speed atomic force microscopy reveals opposite traffic of processive chitinases impairs α-chitin biodegradation",
+   "doi": "10.1016/j.carbpol.2024.123176",
+   "pii": "S0144861724014024",
+   "coverDate": "2025-03-15",
+   "creator": "Qu M.",
+   "eid": "2-s2.0-85213212018",
+   "pmid": "39843079",
+   "abstract": "The antiparallelly organized &#x3b1;-chitin exhibits greater thermodynamic stability and is more recalcitrant to degradation than its parallel allomorph, &#x3b2;-chitin, thereby impeding the efficient utilization of this natural resource. The processive chitinases usually provide the majority of catalytic potential for chitin biodegradation. Using high-speed atomic force microscopy (HS-AFM), we revealed that the opposite traffic of OfChi-h, the only processive chitinase involved in chitin biodegradation in the insect Ostrinia furnacalis, is a key factor that significantly affects &#x3b1;-chitin degradation. Compared to &#x3b2;-chitin as a substrate, OfChi-h exhibited a much lower catalytic turnover and significantly reduced binding affinity to &#x3b1;-chitin. Our HS-AFM data suggested that, at the single-molecule level, OfChi-h molecules move in opposite directions along &#x3b1;-chitin fibers. Some OfChi-h molecules encounter others in a head-to-head manner, leading to their detachment from the substrate, which in turn impairs catalytic activity and processivity. Our further investigations demonstrated that the insect's strategy to avoid opposite traffic is through a synergistic interaction between OfChi-h and two non-processive endo-acting chitinases. This work reveals the mechanism by which a processive chitinase is impaired by the antiparallel organization of chitin fibers and highlights the synergism between processive and non-processive endo-acting chitinases in the degradation of recalcitrant &#x3b1;-chitin.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "3D-printed ultra-sensitive strain sensors using biogels prepared from fish gelatin and gellan gum",
+   "doi": "10.1016/j.carbpol.2024.123200",
+   "pii": "S0144861724014267",
+   "coverDate": "2025-03-15",
+   "creator": "Bian M.",
+   "eid": "2-s2.0-85213844165",
+   "pmid": "39843102",
+   "abstract": "The long-term sustainable development of flexible electronic devices is limited by a reliance on synthetic polymers that pose dangers for humans and potentially severe ecological problems, as well as a reliance on conventional processing methods. This work aims to exploit 3D printing to develop natural biogels composed of fish gelatin and high acyl gellan gum for use as flexible sensors. The electrical conductivity and mechanical strength were remarkably enhanced through the environmentally friendly enzyme (transglutaminase) cross-linking and non-toxic ethanol modification treatment, which allows the development of 3D printed sensors for temperature, strain, and stress sensors. The hydrogel exhibits excellent mechanical and electrical properties as strain sensors, with Young's modulus and tensile strength of 20.7&#xa0;&#xb1;&#xa0;1.38&#xa0;kPa and 0.14&#xa0;&#xb1;&#xa0;0.01&#xa0;MPa, respectively, and an ultimate strain of 270.54&#xa0;&#xb1;&#xa0;16.23&#xa0;%, which is conducive to a comfortable wearing experience. Moreover, the obtained sensors exhibited ultra-low latency (6.1&#xa0;&#xb1;&#xa0;1.47&#xa0;ms), good durability (withstanding 1000 cyclic stretching) and high monitor sensitivity (GF&#xa0;=&#xa0;2.37&#xa0;&#xb1;&#xa0;0.14) to human body movements; furthermore, the biogel fabricated using this method exhibits complete biodegradation within approximately 20&#xa0;days, offering innovative prospects for the advancement of eco-friendly materials.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Compatibility of cellulose–PEDOT:PSS composites and anions in solid-state organic electrochemical transistors",
+   "doi": "10.1016/j.carbpol.2024.123146",
+   "pii": "S0144861724013729",
+   "coverDate": "2025-03-15",
+   "creator": "Lee S.",
+   "eid": "2-s2.0-85212310567",
+   "pmid": "39843043",
+   "abstract": "We investigate the effects of water-processable celluloses on the charge-transport properties in the conducting polymer composites and their solid-state organic electrochemical transistors (OECTs). Water-soluble methyl cellulose (MC) and water-dispersible cellulose nanofiber (CNF) are blended with poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) (PEDOT:PSS) in solution and used as a conductive channel. Both cellulose-PEDOT:PSS composites show fibrillar structures in thin films with respective dimensions of cellulose. The electrical conductivity was increased with 5-10&#xa0;wt% of cellulose in the composite. The solid-state OECTs show better performance when the ionogel contains 1-ethyl-3-methylimidazolium triflate (EMIM:OTf) compared to the system with the commonly used EMIM bis(trifluoromethyl sulfonyl)imide (EMIM:TFSI). The MC-PEDOT:PSS composite paired with an EMIM:OTf-based ionogel exhibits a high figure-of-merit (&#x3bc;C&#x204e;) of OECTs of >50&#xa0;F&#xa0;cm-1&#xa0;V-1&#xa0;s-1 and an on-to-off current ratio of >103. Our results show that cellulose and EMIM:OTf are compatible with PEDOT:PSS and that appropriate materials pairing can improve the properties of PEDOT:PSS-based composites and the performance of their electrochemical devices.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article"
+   ]
+  },
+  {
+   "title": "Mechanism of photoluminescence properties of lyocell fibers changing with crystallinity",
+   "doi": "10.1016/j.carbpol.2024.123185",
+   "pii": "S0144861724014115",
+   "coverDate": "2025-03-15",
+   "creator": "Lei X.",
+   "eid": "2-s2.0-85213264592",
+   "pmid": "39843088",
+   "abstract": "Although there have been sporadic reports that the crystallinity of cellulose has a significant impact on photoluminescence (PL) properties, the degree and pattern of this effect have not been thoroughly explored and elucidated. Here, we assume that crystallinity is positively correlated with PL emission. Then, lyocell fiber (CLY), a common man-made cellulose fiber, is selected to solve the above problems by exploring the PL emission properties of different crystallinity systems. Through the comparison of PL and persistent room temperature phosphorescence (p-RTP) emission properties under different crystallinity of CLYs, it is found that crystallinity is the key factor determining the above emission properties. The change trend of quantum yields is determined by the crystallinity. Through molecular interaction analysis and theoretical calculation, it is found that hexamers have more red shifted emission than tetramers, and to be more advantageous for phosphorescence emission. These interesting phenomena can be reasonably explained by clustering-triggered emission (CTE) and crystallization-Induced Phosphorescence (CIP) mechanism. Furthermore, these findings, in turn, offer more fundamental implications to the underlying mechanism of nonconventional chromophores. More meaningful is that these results can be used as a theoretical reference for real-time monitoring of CLY or other natural fiber in the actual mercerizing process.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article"
+   ]
+  },
+  {
+   "title": "Cellulose-based photo-curable chiral nematic ink for direct-ink-writing 3D printing",
+   "doi": "10.1016/j.carbpol.2024.123159",
+   "pii": "S0144861724013857",
+   "coverDate": "2025-03-15",
+   "creator": "Wu M.",
+   "eid": "2-s2.0-85212592327",
+   "pmid": "39843064",
+   "abstract": "3D printing technology is one of the most promising strategies for constructing topological functional materials. The development of functional inks is a core issue in the technical development of 3D printing technology. In this study, we engineered photonic crystal inks based on chiral nematic liquid crystals of cellulose derivative, i.e. hydroxypropyl cellulose (HPC), and applied it to direct-ink-writing (DIW) 3D printing technology. We modified hydroxypropyl cellulose by etherification reaction to obtain photo-cross-linkable water-soluble hydroxypropyl cellulose acrylate (HPCA) with different degrees of substitution (DS). We comprehensively explored the effect of the DS on the initial concentration of formed chiral nematic liquid crystal and quantitatively, analyzed the relationship between the DS and the helical structure of the chiral nematic structure. We used photo cross-linkable chiral nematic HPCA as photonic crystal ink to construct structure-color 3D objects of diverse shapes. The constructed structure-color objects showcase robust tolerance against temperature and acidic conditions (pH&#xa0;=&#xa0;1). Moreover, the color of the constructed objects is independent of the observation angle. The photonic crystal ink based on chiral nematic liquid crystals of biodegradable polysaccharide materials is expected to have excellent market prospects in the fields of such as smart packaging and optical devices.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article"
+   ]
+  },
+  {
+   "title": "A β-cyclodextrin-based supramolecular modular system creating micellar carriers for codelivery of doxorubicin and siRNA for potential combined chemotherapy and immunotherapy",
+   "doi": "10.1016/j.carbpol.2024.123202",
+   "pii": "S0144861724014280",
+   "coverDate": "2025-03-15",
+   "creator": "Tang X.",
+   "eid": "2-s2.0-85213880032",
+   "pmid": "39843103",
+   "abstract": "The combination of chemotherapy and gene therapy holds promise in treating cancer. A key strategy is to use small interfering RNAs (siRNAs) to silence programmed death-ligand 1 (PD-L1) expression in cancer cells, disrupting tumor immune evasion and enhancing anticancer treatments, particularly when used in conjunction with chemotherapy drugs such as doxorubicin (Dox). However, effective codelivery of drugs and genes requires carefully designed carriers and complex synthesis procedures. To address this challenge, we propose a convenient modular self-assembly system for creating multifunctional micellar carriers that can efficiently codeliver both Dox and siRNA, where micelles are formed by cationic amphiphilic supramolecular architectures that are constructed through host-guest interactions between &#x3b2;-cyclodextrin (&#x3b2;-CD) and adamantane (Ad) to incorporate various functional polymer segments, such as low-molecular-weight polyethylenimine (oligoethylenimine, OEI), poly(ethylene glycol) (PEG), and polycaprolactone (PCL), at adjustable ratios. The supramolecular micellar carrier systems can be easily optimized to achieve excellent structural stability, drug and gene loading, and delivery efficiency, resulting in significant anticancer effects from Dox delivery and simultaneous inhibition of PD-L1 due to the siRNA delivery. Therefore, this modular supramolecular strategy offers a sophisticated, adaptable, and straightforward approach to creating multifunctional micellar carriers, with potential for drug- and gene-based immune-assisted cancer therapy.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Thermoresponsive dual-network chitosan-based hydrogels with demineralized bone matrix for controlled release of rhBMP9 in the treatment of femoral head osteonecrosis",
+   "doi": "10.1016/j.carbpol.2024.123197",
+   "pii": "S0144861724014231",
+   "coverDate": "2025-03-15",
+   "creator": "Lv Y.",
+   "eid": "2-s2.0-85213836438",
+   "pmid": "39843099",
+   "abstract": "In an effort to mitigate or reverse the pathological progression of early-stage osteonecrosis of the femoral head (ONFH), this study employed a promising strategy that involves the sustained delivery of osteogenic factors to augment core decompression, facilitated by the use of composite hydrogels. Specifically, a hydrogel was synthesized by blending chitosan, Pluronic F-127, and tripolyphosphate, utilizing both ionic bonding and copolymer micelle cross-linking techniques. This hydrogel demonstrated exceptional biocompatibility, temperature responsiveness, pH-dependent biodegradation, and controlled release properties. The average pore diameter of the optimal hydrogel expanded to 45&#xa0;&#x3bc;m, accompanied by zeta potentials of +34.72&#xa0;&#xb1;&#xa0;4.13&#xa0;mV. The loading efficiency notably surpassed 90&#xa0;%, while the sustained release of recombinant human bone morphogenetic proteins 9 (rhBMP9) was observed to last over 25&#xa0;days at pH&#xa0;=&#xa0;6.0 and over 36&#xa0;days at pH&#xa0;=&#xa0;7.4. This chitosan-based hydrogel, which sustained rhBMP9 release, significantly enhanced the proliferation and migration of bone marrow mesenchymal stem cells and human umbilical vein endothelial cells and promoted osteogenesis and angiogenesis both in vitro and in vivo. Collectively, our study presents an rhBMP9-loaded chitosan-based composite hydrogel system that offers innovative avenues for the research and clinical application of advanced biomaterials in the treatment of early ONFH.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Alginate-functionalized nanoceria as ion-responsive eye drop formulation to treat corneal abrasion",
+   "doi": "10.1016/j.carbpol.2024.123164",
+   "pii": "S0144861724013900",
+   "coverDate": "2025-03-15",
+   "creator": "Ger T.Y.",
+   "eid": "2-s2.0-85212338444",
+   "pmid": "39843069",
+   "abstract": "In this study, we aimed to develop ion-responsive and biocompatible alginate-capped nanoceria (Ce-ALG) for &#x3b2;-1,3-glucan (i.e., wound healing agent) delivery and corneal abrasion (CA) treatment. Specifically, alginate coatings confer the metallic nanocarriers with enhanced mucoadhesion, prolonged precorneal retention via hydrogen bonding, and improved viscosity. Additionally, increasing alginate grafting amount increased the surface stiffness and facilitated cellular uptake, thereby increasing bioactive potential of the nanocarriers. On the other hand, a stable egg-box structure formed by alginate complexation with Ca2+ not only heightened the encapsulation efficiency of &#x3b2;-1,3-glucan, but also provided sustained drug release during ion exchange with Na+ in tears. In vitro studies demonstrated an improvement in pharmacological wound closure, as evidenced by the accelerated migration and proliferation of corneal epithelial cells exposed to &#x3b2;-1,3-glucan-loaded Ce-ALG. In a rabbit model of CA, a single dose of the eye drop formulation with the maximum grafting amount of alginate remarkably reduced epithelial injury area by ~99&#xa0;% at 5&#xa0;days post-instillation, which was 45- and 53-fold more effective in wound area reduction than that of Ce and ketorolac (an analgesic commonly used for managing CA) groups, respectively. Overall, surface functionalization with alginate greatly enhanced the ocular bioavailability of nanotherapeutics for corneal epithelial injury recovery.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "A novel chitosan-Schiff bases bearing a new quinoxaline moiety as an approach for potent antimicrobial agent: Synthesis, characterization and in vitro assessments",
+   "doi": "10.1016/j.carbpol.2024.123205",
+   "pii": "S0144861724014310",
+   "coverDate": "2025-03-15",
+   "creator": "Barakat A.",
+   "eid": "2-s2.0-85213838023",
+   "pmid": "39843106",
+   "abstract": "This study aims to enhance the antimicrobial properties of chitosan through preparing novel chitosan Schiff bases via coupling with 4-formylphenyl 2,3-dioxo-1,2,3,4-tetrahydroquinoxaline-6-sulfonate (B5) where, different molar ratios of B5 were used to prepare various Schiff bases with chitosan, resulting in Schiff bases coded as d5, d6, d7, and d8, respectively. The modified chitosan samples (d5, d6, d7, and d8) showed reduced crystallinity and improved thermal stability. The crystallinity index of unmodified chitosan was 64&#xa0;%, which decreased to 59, 55.7, 52 and 48&#xa0;% for d8, d7, d6 and d5 samples, respectively. TGA analysis demonstrated improved thermal stability in Schiff base derivatives, with T50 values at 311&#xa0;&#xb0;C for chitosan, increasing to 520&#xa0;&#xb0;C for d5 sample, while d6, d7 and d8 samples were detected at 430, 425 and 419&#xa0;&#xb0;C, respectively. Degrees of substitution were determined from nitrogen content (N%) and were found to correlate with the B5-to-chitosan ratio. The d5 sample, having the highest B5 content, exhibited the maximum degree of substitution at 0.52. The d7 formulation demonstrating significant growth inhibition: 98.16&#xa0;% for Staphylococcus aureus, 93.91&#xa0;% for Candida parapsilosis, and 87.35&#xa0;% for Klebsiella pneumoniae. These high inhibition rates indicate d7 strong potential as a robust antimicrobial agent, particularly suitable for applications targeting multidrug-resistant infections.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article"
+   ]
+  },
+  {
+   "title": "Enhanced wound healing with a bilayered multifunctional quaternized chitosan-dextran-curcumin construct",
+   "doi": "10.1016/j.carbpol.2024.123195",
+   "pii": "S0144861724014218",
+   "coverDate": "2025-03-15",
+   "creator": "Firuzeh M.",
+   "eid": "2-s2.0-85213260599",
+   "pmid": "39843097",
+   "abstract": "This study introduces a novel bilayer wound dressing that integrates a quaternized chitosan-polyacrylic acid (QCs-PAA) sponge as the top layer with electrospun nanofibers containing curcumin as the bottom layer. For the first time, QCs and PAA were combined in an 80:20 ratio through freeze-drying to form a porous sponge layer with ideal structural properties, including 83&#xa0;&#xb1;&#xa0;6&#xa0;% porosity and pore diameters of 290&#xa0;&#xb1;&#xa0;12.5&#xa0;&#x3bc;m. For the bottom layer, five groups of nanofibers containing PAA, dextran, and curcumin were electrospun onto the porous sponge. All wound dressings were non-toxic and exhibited exceptional antibacterial activity against S. aureus and E. coli. All groups, particularly the QP/PD0.25Cur bilayer dressing, showed significant HaCaT cell adhesion. Angiogenesis assays confirmed a remarkable increase in blood vessel number and thickness in samples containing 0.25 w/w% curcumin, with vascular density increasing from 0.32 in the single-layer sponge to 0.54 in the QP/PD0.25Cur sample, representing a 68&#xa0;% enhancement. In vivo studies demonstrated that within 14&#xa0;days, wound healing was accelerated with the QP/PD0.25Cur bilayer dressing, achieving 96&#xa0;% closure compared to other groups. The findings revealed that all fabricated bilayer sponge-nanofiber wound dressings, particularly the 0.25 w/w% curcumin sample, can be a suitable candidate for wound management.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article"
+   ]
+  },
+  {
+   "title": "Lightweight 3D-printed chitosan/MXene aerogels for advanced electromagnetic shielding, energy harvesting, and thermal management",
+   "doi": "10.1016/j.carbpol.2025.123252",
+   "pii": "S0144861725000335",
+   "coverDate": "2025-03-15",
+   "creator": "Jalali A.",
+   "eid": "2-s2.0-85214532087",
+   "pmid": "39843132",
+   "abstract": "This study focuses on the fabrication of 3D-printed chitosan/Ti3C2Tx-MXene aerogels with varying MXene concentrations (1, 2, 5, and 10&#xa0;wt%) using the direct ink writing (DIW) method. The inks were freeze-dried to form aerogels, and FTIR and XRD analyses confirmed interactions between chitosan and MXene molecules, leading to increased spacing between MXene nanosheets. Rheological testing showed improved shear-thinning behavior, enhancing printability. A higher MXene content boosted the electrical conductivity, dielectric properties, and electromagnetic interference (EMI) shielding effectiveness, with the 10&#xa0;wt% MXene aerogel achieving an EMI shielding effectiveness of 27&#xa0;dB. The thermal conductivity initially decreased but later increased with higher MXene concentrations. Mechanical tests indicated enhanced Young's modulus and tensile strength with more MXene, but the elongation at break decreased. The printed aerogels were used in a Triboelectric Nanogenerator (TENG), showing an increase in output voltage from 22&#xa0;V for pure chitosan aerogels to 110&#xa0;V for 2&#xa0;wt% MXene, with a slightly lower increase in current. However, exceeding 2&#xa0;wt% MXene led to reduced performance. This study highlights the potential of printed aerogels for energy harvesting, EMI shielding, and thermal insulation applications.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article"
+   ]
+  },
+  {
+   "title": "Hyaluronan-decorated CuO2-doxorubicin nanodot clusters for targetedly sensitizing cuproptosis in breast cancer via a three-pronged strategy",
+   "doi": "10.1016/j.carbpol.2024.123201",
+   "pii": "S0144861724014279",
+   "coverDate": "2025-03-15",
+   "creator": "Qian J.",
+   "eid": "2-s2.0-85213879143",
+   "pmid": "39843046",
+   "abstract": "Cuproptosis shows great prospects in cancer treatments. However, insufficient intracellular copper amount, low-level redox homeostasis, and hypoxic tumor microenvironment severely restrict cuproptosis efficacy. Herein, hydrazided hyaluronan-templated decorated CuO2-doxorubicin (CuDT) nanodot clusters (NCs) are developed for efficient doxorubicin (DOX)-sensitized cuproptosis therapy in breast cancer via a three-pronged strategy. The CuDT NCs with an average size of 56.2&#xa0;nm are fabricated from 3,3'-dithiobis(propionohydrazide)-conjugated hyaluronan, Cu2+, and DOX through a one-pot mineralization process. The CuDT nanoparticles exhibit pH-responsive H2O2, Cu2+, and DOX release profiles and catalytic activity. Upon entrance into tumor cells, CuO2-based exogenous H2O2 supply and DOX-augmented endogenous H2O2 generation jointly elevate intracellular H2O2 level, which can further be transformed into hydroxyl radicals and O2 through Fenton-like reaction to achieve oxidative stress amplification and hypoxia relief, respectively. Moreover, the CuDT NCs can efficiently deplete intracellular overexpressed glutathione via Cu2+/Cu+ cycle and abundant disulfide bonds, further enhancing cellular oxidative stress. These results demonstrate that the novel CuDT NCs achieve DOX-sensitized cuproptosis in breast cancer cells through elevating copper level, amplifying oxidative stress and alleviating hypoxia, thus displaying prominent in vivo antitumor efficacy. Such a three-pronged strategy of targetedly boosting cuproptosis in cancer cells represents a novel approach for antitumor treatments.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Bioinspired complex cellulose nanorod-architectures: A model for dual-responsive smart carriers",
+   "doi": "10.1016/j.carbpol.2024.123162",
+   "pii": "S0144861724013882",
+   "coverDate": "2025-03-15",
+   "creator": "Nia M.H.",
+   "eid": "2-s2.0-85213080962",
+   "pmid": "39843067",
+   "abstract": "The synergy between nanomaterials as solid supports and supramolecular concepts has resulted in nanomaterials with hierarchical structure and enhanced functionality. Herein, we developed and investigated innovative supramolecular functionalities arising from the synergy between organic moieties and the preexisting nanoscale soft material backbones. Based on these complex molecular nano-architectures, a new nanorod carbohydrate polymer carrier was designed with bifunctional hairy nanocellulose (BHNC) to reveal dual-responsive advanced drug delivery (ADD). This carrier scavenges K+-ions within cancer cells, while simultaneously releasing doxorubicin, combining ion homeostasis disruption with targeted drug delivery. The BC ADD system resulted from cross-linking dibenzo-18-crown-6-ether (DB18C6) with BHNC particles. To enhance cellular internalization and facilitate tracking of uptake, the cellulose nanorod carrier was labeled with biotin and fluorescein isothiocyanate, referred to as BCFB. The BHNC serves as the backbone, while the immobilized DB18C6 moieties can capture doxorubicin via complex formation. The BCFB complex molecular nanorod carriers exhibit distinct ADD profiles with pH and K+-responsiveness. They were evaluated as biocompatible carriers for ADD in MDA-MB-231 breast cancer cells, including quantification of nanoparticle uptake and flow cytometry with KHOS cells. These cellulose-based carriers possess unique structure and properties with potential utility as phase transfer catalysts and as adsorbents for diverse waterborne contaminants.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "A shear-responsive and lubricating hyaluronic acid-chondroitin sulfate-decellularized matrix hydrogel for articular cartilage regeneration",
+   "doi": "10.1016/j.carbpol.2024.123171",
+   "pii": "S0144861724013973",
+   "coverDate": "2025-03-15",
+   "creator": "Qiu H.",
+   "eid": "2-s2.0-85212576775",
+   "pmid": "39843076",
+   "abstract": "The high-dynamic, high-loading environment in the joint cavity puts urgent demands on the cartilage regenerative materials with shear responsiveness and lubrication. Here, a new type of injectable hydrogel composed of oxidized hyaluronic acid (OHA), adipic dihydrazide-grafted hyaluronic acid (HA-ADH), oxidized chondroitin sulfate (OChs), and decellularized extracellular matrix methacrylate (dECMMA) was fabricated. The aldehyde groups in OHA and OChs reacted with the amino groups in HA-ADH to form a dynamic hydrogel, which was then covalently crosslinked with dECMMA to create a dual-crosslinked hydrogel with sufficient mechanical strength. This hydrogel possesses injectability and self-healing capabilities, making it suitable for use in the dynamic and high-frequency loading environment of joint cartilage. dECMMA fibers in this hydrogel could be oriented and aligned under certain shear forces, together with the biopolymers, giving the hydrogel lubricity and low strain-liquid transition properties that do not interfere with the daily mobility of the joint. In vitro and in vivo experiments showed that the hydrogel has sufficient tissue adhesion and excellent biocompatibility, promotes chondrocyte migration, and induces stem cell differentiation. The animal experiments demonstrated that the hydrogel promoted cartilage repair, and the lubricating effect of the newborn cartilage was close to that of normal cartilage.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Structure characteristics of a novel pectic polysaccharide from Fructus Corni and its protective effect on alcoholic fatty liver",
+   "doi": "10.1016/j.carbpol.2024.123153",
+   "pii": "S0144861724013791",
+   "coverDate": "2025-03-15",
+   "creator": "Bai H.X.",
+   "eid": "2-s2.0-85212333314",
+   "pmid": "39843058",
+   "abstract": "Alcoholic fatty liver disease (AFLD) is characterized by the accumulation of hepatic lipid and has no effective treatment yet. Fructus Corni is a traditional Chinese medicinal herb, and its extractions have demonstrated hepatoprotective properties. We hypothesize that the polysaccharides in Fructus Corni might have therapeutic effects on AFLD. In this study, we isolated a novel homogeneous polysaccharide, APFC-2 (Mw=&#xa0;63.0&#xa0;kDa), from the Fructus Corni, and its structure was elucidated by monosaccharide composition, methylation analysis, partial acid hydrolysis, and NMR spectra. APFC-2 is a pectic polysaccharide characterized by a backbone of T-&#x3b2;-Galp-(1&#xa0;&#x2192;&#xa0;6)-&#x3b2;-Galp-(1&#xa0;&#x2192;&#xa0;3,6)-&#x3b2;-Galp-(1&#xa0;&#x2192;&#xa0;[4)-&#x3b1;-GalpA-OMe-(1 &#x2192;&#xa0;4)-&#x3b1;-GalpA-(1&#x2192;]m&#xa0;&#x2192;&#xa0;[2,4)-&#x3b1;-Rhap-(1&#xa0;&#x2192;&#xa0;4)-&#x3b1;-GalpA-(1&#x2192;]n, with branches comprising T-Araf-(1&#x2192;, &#x2192;3)-&#x3b1;-Araf-(1&#x2192;, &#x2192;3,5)-&#x3b1;-Araf-(1&#x2192;, and &#x2192;5)-&#x3b1;-Araf-(1&#x2192;. In vivo experiments indicated that APFC-2 could significantly reduce hepatic steatosis, fasting triglyceride, and cholesterol levels in AFLD mice. Cell proliferation and Oil Red O staining results showed that APFC-2 concentration-dependently increased cell viability and significantly improved lipid metabolism in vitro. Mechanistically, APFC-2 markedly inhibited the formation of lipid both in vitro and in vivo through activating liver kinase B1 (LKB1) and then regulating adenosine 5'-monophosphate-activated protein kinase (AMPK)-SREBP-1 and AMPK-PPAR-&#x3b1; pathways. This research provides a theoretical basis for the potential application of Fructus Corni pectic polysaccharide as a specific activator of LKB1 for treating AFLD.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Integrating the modified amphiphilic Eleocharis tuberosa starch to stabilize curcuminoid-enriched Pickering emulsions for enhanced bioavailability, thermal stability, and retention of the hydrophobic bioactive compound",
+   "doi": "10.1016/j.carbpol.2024.123199",
+   "pii": "S0144861724014255",
+   "coverDate": "2025-03-15",
+   "creator": "Muhammad Z.",
+   "eid": "2-s2.0-85213835580",
+   "pmid": "39843101",
+   "abstract": "The study involves the modification of a non-conventional starch isolated from the under-utilized variety of Chinese water chestnut (CWC (Eleocharis tuberosa) and integrating it to fabricate stabilized and curcumin-enriched Pickering emulsions with enhanced bioavailability, thermal stability, and retention of encapsulated curcumin. A time-efficient, semi-dried esterification method was used to prepare modified amphiphilic starches using 3, 6, or 9&#xa0;% (w/v) octenyl succinic anhydride (OSA) and characterized through degree of substitution (DS), contact angle, particle size, scanning electron microscopy (SEM), X-ray diffraction (XRD), Fourier-transform infrared spectroscopy (FTIR), and in-vitro digestibility. Moreover, Pickering emulsions were formulated using CWCS-OSA at 3&#xa0;%, 6&#xa0;%, or 9&#xa0;% concentrations to serve as a carrier for curcumin to improve its water solubility and storage stability. The research investigated Pickering emulsions' encapsulation efficiency, curcumin retention, emulsifying properties, micromorphology, temperature stability, and bioaccessibility. Results showed that CWCS-OSA, with an OSA concentration between 3&#xa0;% and 9&#xa0;%, exhibited a degree of substitution (DS) ranging from 0.017 to 0.031 and an expansion in contact angle from 68.36o to 85.45o. CWCS-9%OSA showed the highest encapsulation efficiency at 89.4&#xa0;% and maintained an emulsification index above 80&#xa0;% during a 10-day storage period. A significantly higher bio-accessibility (41.26&#xa0;&#xb1;&#xa0;1.34&#xa0;%) of curcumin in Pickering emulsions stabilized with CWCS-9%OSA than in the bulk oil system (19.53&#xa0;&#xb1;&#xa0;1.62&#xa0;%). This study highlights the potential of chemically modified amphiphilic starch from an underutilized variety of CWCS (Eleocharis tuberosa) to produce the stabilized Pickering emulsion gels as a stable and effective carrier for unstable hydrophobic polyphenolic compounds by enhancing their bioavailability in the foods and pharmaceutics.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Influence of alginate extraction conditions from the brown seaweed Dictyota mertensii on the functional properties of a novel glycerol plasticized alginate film",
+   "doi": "10.1016/j.carbpol.2025.123225",
+   "pii": "S0144861725000062",
+   "coverDate": "2025-03-15",
+   "creator": "Queiroz L.P.d.O.",
+   "eid": "2-s2.0-85213950169",
+   "pmid": "39843120",
+   "abstract": "Alginate films were prepared from the brown seaweed Dictyota mertensii using glycerol as a plasticizer. The effects of extraction conditions-time, temperature, and Na2CO3 concentration-on the optical, barrier, and mechanical properties of the films were investigated using a central composite design (CCD). ANOVA and F tests confirmed the models' statistical significance at p&#xa0;&#x2264;&#xa0;0.05, 95&#xa0;% CI. Na2CO3 concentration significantly influenced moisture absorption, water vapor permeability, solubility, opacity, L*, b*, and elongation at break. Temperature mainly affected the color parameter a* and tensile strength, while time was more relevant for the modulus of elasticity. The properties of alginate from Dictyota mertensii were correlated to the film properties. Optimization through numerical desirability function yielded a global desirability index of 0.767, with optimal conditions at 1.390&#xa0;h, 54.927&#xa0;&#xb0;C, and 0.361&#xa0;mol.L-1 Na2CO3. Under these conditions, the films showed low moisture content (0.277&#xa0;%), moderate WVP (31.278&#xa0;g.mm/kPa.m2.h), low solubility (18.825&#xa0;%), appropriate color parameters (Opacity: 12.411&#xa0;AU.nm/mm, L*: 49.655, a*: 17.680, b*: 44.657), and balanced mechanical properties (TS: 13.270&#xa0;MPa, EB: 20.638&#xa0;%, and E: 64.592&#xa0;MPa). These findings emphasize the potential of alginate films from Dictyota mertensii and promote sustainable use of marine resources.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "title": "Characterization of the polysaccharide schizophyllan and schizophyllan–chitosan hydrogel formation by diffusing-wave spectroscopy",
+   "doi": "10.1016/j.carbpol.2024.123168",
+   "pii": "S0144861724013948",
+   "coverDate": "2025-03-15",
+   "creator": "Vanin A.P.",
+   "eid": "2-s2.0-85212570746",
+   "pmid": "39843073",
+   "abstract": "Schizophyllan (SPG) is a semi-flexible, triple-helical polysaccharide with attractive properties as an efficient viscosifying compound and biological response modifier. We report microrheological characterization of schizophyllan as dispersed in solution and the changes associated when crosslinked with chitosan over an extended frequency range using diffusing wave spectroscopy (DWS). A SPG with high molecular weight (Mw&#xa0;=&#xa0;1.1&#xa0;&#xd7;&#xa0;106&#xa0;Da) was selectively oxidized in the side chains (20&#xa0;% or 40&#xa0;%) to promote Schiff base formation with chitosan (CHI) amine groups, thus inducing crosslinking. The microrheological characterization of the dispersed SPG revealed characteristic features of the semiflexible structure, where also coupling between flexure and longitudinal modes was indicated based on scaling coefficient close to 7/8 of the loss modulus G\"(&#x3c9;) vs &#x3c9; for &#x3c9; in the range 3&#xa0;&#xd7;&#xa0;103-105&#xa0;rad/s. The in-situ characterization of the gelation process by DWS revealed changes in the scattered intensity-correlation function caused by the embedded colloidal probe-particles, from which the mean-square displacement of the probes and the shear moduli of the SPG-chitosan hydrogel samples were determined for various SPG concentrations and degrees of oxidation. It is found that SPG - chitosan hydrogels can be prepared with a polymer content in the range of 0.5-2.0&#xa0;mg/mL and that tuning the molecular parameters allowed control of mechanical moduli in soft hydrogels in the range of 0.3&#xa0;Pa up to 1000&#xa0;Pa.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article"
+   ]
+  },
+  {
+   "title": "Immobilization of Saccharomyces cerevisiae on polyhydroxyalkanoate/konjac glucan nanofiber membranes: Characterization, immobilization efficiency and cellular activity",
+   "doi": "10.1016/j.carbpol.2024.122606",
+   "pii": "S0144861724008324",
+   "coverDate": "2025-03-15",
+   "creator": "Guo Z.",
+   "eid": "2-s2.0-85214286471",
+   "pmid": "39843040",
+   "abstract": "Yeast immobilization systems can recoup yeast losses in continuous batch fermentation and relieve substrate or product inhibition. We report the use of solution blow spinning process to efficiently prepare polyhydroxyalkanoate (PHB) /konjac glucomannan (KGM) nanofiber membranes as immobilization carriers for Saccharomyces cerevisiae. The prepared PHB/KGM nanofiber membranes had fiber diameters similar to the scale of yeast cells. Incorporating KGM significantly enhanced the porosity (from 87.21&#xa0;% to 91.74&#xa0;%), crystallinity, and hydrophilicity (reducing water contact angle from 135.8&#xb0; to 110.1&#xb0;), while increasing the specific surface area (from 10.24 to 17.79&#xa0;m2/g) of pure PHB nanofiber membranes. Thermal stability was maintained (degradation temperatures above 250&#xa0;&#xb0;C). These changes enhanced the force between the nanofiber membranes and the cells and facilitated their autoimmobilization on the nanofiber membranes. The highest yeast immobilization efficiency of 87.93&#xa0;% could be achieved at a KGM addition ratio of 400:2. Yeast showed no loss of cellular activity on the immobilized carriers of natural materials and maintained or even improved fermentation kinetics during at least three consecutive alcoholic fermentations These findings indicate that PHB/KGM nanofiber membranes can serve as effective carriers for yeast immobilization, promoting the sustainable production of fermented foods.",
+   "pubtypes": [
+    "<PublicationType UI=\"D016428\">Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  }
+ ]
+}
