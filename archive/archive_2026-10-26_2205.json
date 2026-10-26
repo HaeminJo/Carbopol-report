@@ -1,0 +1,700 @@
+{
+ "run_timestamp_utc": "2026-10-26T22:05Z",
+ "report_file": "reports/carbpoly_report_2026-10-26_2205.pdf",
+ "collection_method": {
+  "elsevier_scopus_search": "600 entries fetched via api.elsevier.com/content/search/scopus (ISSN 0144-8617, sort=-coverDate); scidir/sciencedirect full-text search returned 401 AUTHORIZATION_ERROR so was not usable; scopus search yielded only 4 new (unseen) entries out of 600 due to near-saturation of recent coverDate window from prior daily runs",
+  "pubmed_eutils": "ESearch (db=pubmed, term='Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt]', datetype=edat, reldate=730, sort=most+recent) returned 2282 PMIDs; cross-checked against state/seen_articles.json by both pmid: and doi: keys; EFetch (batched POST, 150 ids/batch) retrieved full records for 1103 unseen-by-pmid candidates; after review-type and microbe-centric-topic exclusion, 426 eligible 2025-dated research articles remained, from which 32 were curated for this report"
+ },
+ "target_count": 20,
+ "collected_count": 32,
+ "eligibility_criteria": [
+  "research articles only (reviews excluded via PublicationType and title keyword check)",
+  "published within last 2 years",
+  "microbe-biology/strain-development/fermentation-optimization-centric papers excluded; polysaccharide/polymer-centric papers with secondary antimicrobial testing retained"
+ ],
+ "articles": [
+  {
+   "pmid": "39486964",
+   "title": "On the determination of charge and nitrogen content in cellulose fibres modified to contain quaternary amine functionality.",
+   "abstract": "Research interest in quaternization of cellulose fibres has increased considerably over the past decades. However, there is little or no consensus regarding how to characterize the material in terms of degree of substitution (DS), and the literature suggests a range of different methods focusing on charge determination as well as nitrogen content quantification. This work aims to fill the knowledge gap regarding how the different methods perform in relation to each other, and for what cellulosic systems each method has advantages, disadvantages and even potential pitfalls. FT-IR and NMR measurements are used to establish successful modification and determine the relative number of substituent groups. Another six methods are compared for the determination of the DS of cellulosic fibres and nanofibrils. The methods include Kjeldahl measurements, nitrogen determination by chemiluminescence, determination of molecular nitrogen by the Dumas method, colloidal titration, conductometric titration and polyelectrolyte adsorption. It can be concluded that most techniques investigated are reliable within certain ranges of DS and/or when using appropriate post-treatment of the quaternized material and suitable sample preparation techniques. The results from the present work hence provide recommendations to make an educated choice of method, and experimental protocol, based on the technique at hand.",
+   "doi": "10.1016/j.carbpol.2024.122734",
+   "authors": [
+    "Sjölund Johanna",
+    "Westman Gunnar",
+    "Wågberg Lars",
+    "Larsson Per A"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39486962",
+   "title": "Fostering rehydration and facilitating bioactive release through cellulose-assisted leaf surface treatment.",
+   "abstract": "Glyphosate is a widely used herbicide in weed control and crop protection. However, its low bioavailability on leaf surfaces of weeds led to excessive use of glyphosate, inducing herbicide-resistant development and major sustainable agricultural and environmental concerns. This study addresses these challenges by developing cellulose-assisted glyphosate formulations using superior rehydration and sustainable release capability of nanocelluloses. We prepared glyphosate-loaded nanocellulose particles (CNP) and cellulose nanofibers (CNF) to enhance the rehydration and sustained release of glyphosate on leaf surfaces. Our results have demonstrated that nanocelluloses significantly improved water capture on the leaf surface and gradual release of glyphosate, with CNP and CNF formulations showing an 8.75-fold increase in water adsorption on cotton leaves compared to the control group over 12 h. Furthermore, incorporating an inorganic salt improved moisture adsorption efficiency. The formulations exhibited high compatibility with existing spray technologies, offering substantial economic and environmental benefits for agriculture practices. This approach highlights the potential application of polysaccharides in revolutionizing agrochemical applications and environmental sustainability, providing great potential in agricultural spraying practices.",
+   "doi": "10.1016/j.carbpol.2024.122732",
+   "authors": [
+    "Jiang Shangxu",
+    "Li Peng",
+    "Li Li",
+    "Amiralian Nasim",
+    "Rajah Divya",
+    "Xu Zhi Ping"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486960",
+   "title": "Associating structural characteristics to immunomodulating properties of carrot rhamnogalacturonan-I fractions.",
+   "abstract": "Carrot rhamnogalacturonan-I (cRG-I) is a polydisperse polysaccharide with molecular weights of 7-250 kDa. Using size exclusion chromatography cRG-I was fractionated and pooled in fractions (PF1-6). All fractions contained the same RG-I monosaccharides and similar glycosidic linkages although in varying relative amounts. The main differences were in rhamnose substitution, arabinan- and galactan side chain length and in levels of acetylation and methyl esterification. Atomic force microscopy showed either spheric or elongated structures for cRG-I and its derived fractions. To gain insight in the structure-function relationship of cRG-I, the immunomodulatory effect of the six fractions and their saponified derivatives was assessed in vitro. All fractions, except PF2, dose-dependently stimulated TNFα, IL-6, IL-1β, IL-8 and IL-10 production in peripheral blood mononuclear cells (PBMCs) of three healthy donors. Cytokine levels were largely influenced by the Mw and degree of esterification of the individual fractions. Notably, the highest Mw fraction (100 kDa) displayed the most potent activity, which was strongly reduced after the removal of ester residues by saponification. In contrast, the 75 kDa Mw population (PF2) proved inactive while its saponified counterpart exhibited substantial immunomodulatory activity. This confirmed the role of ester residues on the immune profile of RG-I subpopulations.",
+   "doi": "10.1016/j.carbpol.2024.122730",
+   "authors": [
+    "Desai Krishna",
+    "Dobruchowska Justyna M",
+    "Elbers Kari",
+    "Cybulska Justyna",
+    "Zdunek Artur",
+    "Porbahaie Mojtaba",
+    "Jansen Erik",
+    "Van Neerven Joost",
+    "Albers Ruud",
+    "Wennekes Tom",
+    "Mercenier Annick",
+    "Schols Henk A"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486959",
+   "title": "Construction of foam-templated Antarctic krill oil oleogel based on pea protein fibril and ι-carrageenan.",
+   "abstract": "Edible plant-based oleogels with zero trans-fat are promising solid fat substitutes. In this study, Antarctic krill oil (AKO) oleogels prepared from pea protein fibril (PPF) and ι-carrageenan (CG) by foam-templated method were developed for the first time. The modulation of the ratio of PPF and CG concentration on the structure and properties of foam, cryogel and oleogel was investigated and the potential formation mechanism of the foam-templated oleogel was explained. The results demonstrated that the addition of CG significantly decreased the foam size and enhanced the foam stability. The oil absorption and oil holding ability of the dense and reticular porous structure of the cryogel was demonstrated. Fourier infrared spectroscopy confirmed the interaction between PPF and CG involved in the formation of cryogels. With the addition of CG, the network structure and mechanical strength of the cryogel were reinforced, leading to more compact pores and higher capillary suction, which was appropriate for the establishment of good viscoelastic semi-solid oleogels. In addition, the oleogel was effective in masking the fishy odor of AKO. The significance of this study lies in its provision of a novel approach to the preparation of the foam-templated oleogel with PPF and CG as the oleogelators.",
+   "doi": "10.1016/j.carbpol.2024.122729",
+   "authors": [
+    "Sun Chang",
+    "Wei Zihao",
+    "Xue Changhu"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486958",
+   "title": "An arabinan from Citrus grandis fruits alleviates ischemia/reperfusion-induced myocardial cell apoptosis via the Nrf2/Keap1 and IRE1/GRP78 signaling pathways.",
+   "abstract": "Citrus grandis fruit is a famous traditional Chinese medicine with various bioactivities, including cardioprotective effects. Polysaccharides are one of the key active ingredients responsible for its cardioprotective effects. This study aimed to investigate the structure and cardioprotective effect of a homogeneous polysaccharide from C. grandis fruit (CGP80-1) and explore its mechanism against myocardial ischemia-reperfusion (MI/R) injury. Structure analysis showed that CGP80-1 (11,917 Da) is an arabinan with compact coil chain conformation, containing →5)-α-L-Araf-(1→, →3,5)-α-L-Araf-(1→, and →2,3,5)-α-L-Araf-(1→ as the backbone, as well as →5)-α-L-Araf-(1→ and t-α-L-Araf as side-chains substituted at the C2 and C3 positions. Pharmacological experiments showed that pre-treatment with CGP80-1 could effectively alleviate MI/R injury by improving endogenous antioxidant enzymes and cardiac enzymes, reducing reactive oxygen species levels, and regulating apoptosis-related proteins such as caspase-3, Bax, and Bcl-2. The protective effects were correlated with the Nrf2/Keap1 and IRE1/GRP78 signaling pathways. Further analysis of structure-activity relationships revealed that the myocardial protection effects of CGP80-1 might be attributed to its appropriate molecular weight, high arabinose content, and unique compact coil chain conformation. Overall, our results provide insight into the chemical structure of CGP80-1 and its mechanism of action, suggesting that CGP80-1 could be a candidate drug for myocardial protection.",
+   "doi": "10.1016/j.carbpol.2024.122728",
+   "authors": [
+    "Zhang Shaojie",
+    "Xing Na",
+    "Jiao Yukun",
+    "Li Junhao",
+    "Wang Tanggan",
+    "Zhang Qian",
+    "Hu Xianjing",
+    "Li Chong",
+    "Kuang Weihong"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486952",
+   "title": "Strong and transparent film of naturally aligned softwood holocellulose fibers.",
+   "abstract": "Mildly delignified softwood holocellulose fibers featuring native tracheid fiber cell wall structure and high hemicellulose content are prominent building blocks for wood derived fiber-based materials. However, preserving the natural alignment of long softwood fiber is challenging since top-down structure-retaining delignified softwood is unstable as extensive removal of lignin from intercellular space induces cracking and disintegration of wood structure. Here we report the use of chemical crosslinking pretreatment to improve the intercellular bonding between softwood fibers, therefore preserving the integrity of the naturally aligned softwood fibers after delignification. The crosslinked softwood veneer was delignified with peracetic acid and further densified into transparent and high-density film by thermal compression. The obtained transparent film of naturally aligned softwood holocellulose fibers showed high optical transmittance of 71 %, high haze of 85 %, strong optical anisotropy, as well as high tensile strength of 449 ± 58 MPa and high Young's modulus of 49.9 ± 5.6 GPa. This study provides a facile approach to preserve the natural alignment of softwood fibers for the fabrication of high performance holocellulose fibers-based materials.",
+   "doi": "10.1016/j.carbpol.2024.122722",
+   "authors": [
+    "Wang Shennan",
+    "Mastantuoni Gabriella G",
+    "Dong Yuyi",
+    "Zhou Qi"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39486950",
+   "title": "Fabrication of stereocomplex-type poly(lactic acid) nanocomposites based on the selective nucleation of poly(vinyl acetate) modified cellulose nanocrystals.",
+   "abstract": "The incorporation of biomass fillers into poly(lactic acid) (PLA) enantiomeric blends offers a novel strategy to promote stereocomplex (SC) crystallization while preserving the biodegradability of PLA. In this study, poly(vinyl acetate)-modified cellulose nanocrystals (CNC-PVAc) were prepared through a one-pot reaction and employed as nanofillers for PLA. The results indicate that CNC-PVAc enhances the crystallization of stereocomplex crystallites (SCs) while inhibiting the formation of homocrystallites (HCs). The selective nucleation induced by CNC-PVAc is closely associated with the enrichment of PVAc chains at the interface between CNCs and the PLA matrix. Due to the good miscibility between PVAc and PLA, PVAc enhances chain segment motility and suppresses the homocrystallization of poly(L-lactic acid) (PLLA) and poly(D-lactic acid) (PDLA), thereby facilitating the pairing and crystallization of PLA enantiomers into SCs. Furthermore, the nucleation and reinforcing effects of CNC-PVAc play a synergistic role in determining the properties of PLA based nanocomposites. The fabricated nanocomposites exhibit significant improvements in yield strength, Young's modulus, and heat distortion resistance, while maintaining the original biocompatibility and degradability of PLA. Overall, this study elucidates the nucleation mechanism of polymer-grafted CNCs on PLA SCs, and expanding the application potential of biobased fillers in biodegradable polymers.",
+   "doi": "10.1016/j.carbpol.2024.122716",
+   "authors": [
+    "Wu Hao",
+    "Hua Xiangdong",
+    "Hu Jian",
+    "Liu Xueping",
+    "Zhang Jianming"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39486947",
+   "title": "One-pot preparation of V-type porous starch by thermal-stable amylase hydrolysis of normal maize starch in hot aqueous ethanol solution.",
+   "abstract": "The V-type porous starch (VPS) displays remarkable adsorption capability, and has potential for encapsulating guest compounds within its unique single helical cavity. In this investigation, VPS was produced via a \"one-pot method\" utilizing thermostable α-amylase in a hot ethanol solution. The study demonstrates that the activity of thermostable α-amylase remains high, reaching up to 86 % when employing a 40-50 % ethanol concentration, and up to 74 % with ≤70 % ethanol concentration. Furthermore, the enzyme exhibits robust stability at 90 °C for up to 10 h of reaction time. The resultant VPS exhibits enhanced V-type crystallinity and superior adsorption capacity compared to conventional A-type porous starch (APS). Notably, the hydrolysis of normal maize starch (NMS) by thermostable α-amylase in a 50 % ethanol solution at 90 °C yields 49.36 % VPS, which manifests a densely porous distributed structure. Additionally, the VPS is characterized by superior oil adsorption capacity (253.11 %), specific surface area (38.89 m",
+   "doi": "10.1016/j.carbpol.2024.122706",
+   "authors": [
+    "Sun Zhenye",
+    "Yan Haocong",
+    "Bereka Tizazu Yirga",
+    "Chen Yanxin",
+    "Wang Ren",
+    "Jin Zhengyu",
+    "Zhou Xing"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486946",
+   "title": "Preparation and characterization of polymeric cellulose wood adhesive with excellent bonding properties and water resistance.",
+   "abstract": "Developing the most abundant cellulose resources in nature as wood adhesives is a challenging but significant work. In this study, an oxidized cellulose-hexamethylene diamine-urea (OCHU) resin adhesive, of high bonding performance, and excellent water resistance has been prepared. The cellulose was firstly enzymatically hydrolyzed to increase its solubility and expose more hydroxyl groups, then oxidized by sodium periodate (NaIO",
+   "doi": "10.1016/j.carbpol.2024.122705",
+   "authors": [
+    "Zhang Qianyu",
+    "Yan Ranjun",
+    "Xiong Yangyang",
+    "Lei Hong",
+    "Du Guanben",
+    "Pizzi Antonio",
+    "Puangsin Buapan",
+    "Xi Xuedong"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39486943",
+   "title": "Structural characterization and hypolipidemic activity of a hetero-galactan purified from Sanghuangporus vaninii based on modulation of TLR4/NF-κB pathway.",
+   "abstract": "Sanghuangporus vaninii showed great activities of anti-inflammation and anti-tumor, due to its bioactive macromolecules. However, the hypolipidemic properties of polysaccharides isolated from S. vaninii have not been systematically reported. In this research, a polysaccharide of S. vaninii was obtained and its hypolipidemic activity was investigated. SVP3, a neutral hetero-galactan from S. vaninii, has a →6)-α-Galp-(1→ backbone with partial H-2 branches of α-Manp-(1→ or α-Manp-(1→2)-α-Fucp-(1→. In a hyperlipidemia mouse model, SVP3 significantly inhibited body weight gain and suppressed serum levels of total cholesterol, triglycerides, and low-density lipoprotein cholesterol. SVP3 inhibited the expansion of adipocytes in three types of white adipose tissues and attenuated hepatic injury and hepatic lipid deposition in the mice. The combined analysis of gut microbiota, serum metabolomics, and liver proteomics revealed that SVP3 effectively regulated the abundance of specific gut microbiota and serum metabolites and mediated the inhibitory effect on inflammation-associated toll-like receptor 4/nuclear factor kappa-B pathway by regulating the expression levels of glutathione S-transferase P1, stromal cell derived factor 2-like 1, ribosomal protein L10, thiosulfate sulfurtransferase, and biliverdin reductase A in liver, ultimately realizing the hypolipidemic activity. The results of the present study provide experimental evidence for the development of clinical adjuvant therapeutic drugs to treat hyperlipidemia.",
+   "doi": "10.1016/j.carbpol.2024.122702",
+   "authors": [
+    "Hao Jie",
+    "Zhu Yanfeng",
+    "Zhang Yongfeng",
+    "Li Lanzhou",
+    "Li Zhige",
+    "Wang Lu",
+    "Qu Yidi",
+    "Qi Liangliang",
+    "Yu Hailong",
+    "Wang Di"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486942",
+   "title": "Development of multifunctional chitosan packaging film by plasticizing novel essential oil-based hydrophobic deep eutectic solvent: Structure, properties, and application.",
+   "abstract": "To improve the limited mechanical and water barrier properties of chitosan film while granting extra functionalities simultaneously, present study pioneered the incorporation of chitosan film with newly developed essential oil (EO)-based hydrophobic deep eutectic solvents (HDES, EO:octanoic acid (OA), EO:menthol (ME) and OA:ME:EO). The highest tensile strength (66.22 MPa) and elongation at break (45.99 %) were obtained in OA:ME:EO-40 and OA:ME:EO-80 films, respectively. The OA:EO-based films showed excellent and stable hydrophobicity. HDESs also endowed film with additional functionalities including thermal stability, bio-compatibility, controlled release, antioxidant, and antibacterial capacity. The extension of the storage period of strawberry treated with OA:EO-containing films confirmed their preservation ability. Compared with ME:EO and OA:ME:EO, OA:EO had better compatibility with chitosan matrix and could serve as a promising plasticizer for strengthening functionalities of chitosan film. These results also promote application of HDESs as emerging plasticizers in manufacture of other polymer-based packaging film.",
+   "doi": "10.1016/j.carbpol.2024.122701",
+   "authors": [
+    "Jiang Guangyang",
+    "He Kaiwen",
+    "Chen Mingrui",
+    "Yang Yichen",
+    "Tang Tingting",
+    "Tian Yongqiang"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39486939",
+   "title": "Bifunctional Nanocellulose@MOF composite aerogel for selective fluorescent detection and efficient removal of tetracycline.",
+   "abstract": "The antibiotic tetracycline (TC) significantly pollutes water bodies, adversely impacting ecosystems and human health. In this work, a bifunctional platform for simultaneous detection and removal of TC was successfully constructed by in-situ growth of Zr-MOF in BC microspheres. The in-situ growth ensured the stability, while the design of the aerogel microspheres improved the processability, convenience, and recyclability. The macropores and mesopores in the aerogel microspheres significantly improved the molecular mass transfer efficiency, and the sensitivity and selectivity of TC detection and adsorption were improved due to the size-sieving effect of the abundant micropores of Zr-MOF and the supramolecular interaction of the ligand. Owing to the hierarchical pore structure, the adsorption capacity reaches as high as 317.6 mg/g. The enrichment during the adsorption process enhances the interaction between TC and Zr-MOF, thereby significantly improving the detection sensitivity of TC. As expected, BMAT",
+   "doi": "10.1016/j.carbpol.2024.122697",
+   "authors": [
+    "Yan Zifei",
+    "Meng Liucheng",
+    "Jiang Shan",
+    "Deng Yuqing",
+    "Xi Jianfeng",
+    "Zhang Lei",
+    "Li Peng",
+    "Xiao Huining",
+    "Wu Weibing"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486937",
+   "title": "Sustainable active packaging developed using starch-based foam incorporating 1-Methylcyclopropene@α-Cyclodextrin.",
+   "abstract": "The preservation of fruit freshness during long-distance transportation frequently faces significant challenges, especially a high risk of spoilage. 1-Methylcyclopropene (1-MCP), an effective ethylene inhibitor, is widely used to slow down fruit ripening and maintain freshness. However, achieving a controllable release of 1-MCP is challenging, and traditional carrier materials such as paper, chitosan films, and microcapsules have proven unsatisfactory. Here, we introduced an innovative sustainable packaging featuring a \"sandwich\" structure based on starch-based foam sheets. The hydrophilic properties and porous structure of the foam ensure the controllable and slow release of 1-MCP. Additionally, its mechanical durability provides a cushioning role to minimize physical damage to fruits during transport process. This method achieves a significant reduction in ethylene production and respiration rates by up to 60.49 % and 57.50 % respectively, leading to an extension of the shelf life of climacteric fruits by 5-10 days. The novel active packaging not only effectively prolongs the shelf life and improves the quality of fruit but is also economical and environmentally friendly due to its biodegradable starch-based composition.",
+   "doi": "10.1016/j.carbpol.2024.122696",
+   "authors": [
+    "Jiang Tianyu",
+    "Song Yuqing",
+    "Chang Limeng",
+    "Huang Qiang",
+    "He Wanlin",
+    "Liu Hongsheng"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486935",
+   "title": "A green and fast semi-liquefaction strategy: One-step preparation of high-yield nanocellulose particles.",
+   "abstract": "The complexity and cost of the biorefinery industry hinder the high-value utilization of lignocellulose. Herein, we propose a green, fast, and economical oxygen-alkali-ethanol (OAE) semi-liquefaction strategy for achieving one-step preparation of hemp stalk material (HSM) biomass into nanocellulose particles (NCPs). Oxygen, alkali, and ethanol have obvious synergistic effects during the semi-liquefaction process, which jointly promote the opening and depolymerization of the crystalline regions of cellulose. The presence of hemicellulose in HSM affects the preparation of NCPs, and the removal of hemicellulose in advance can significantly increase the yield of NCPs. The results showed that the yield of NCPs was as high as 90.14 % with 92.30 % purity after treatment at 120 °C for 2 h. The conversion of rod-shaped nanocellulose to NCPs was successfully captured, and Van der Waals forces were hypothesized to play a dominant role in the formation of NCPs by molecular dynamics simulations. Moreover, the semi-liquefaction can simultaneously fractionate uncondensed lignin with a yield of 46.52 %. With ethanol as a hydrogen donor, the residual lignin was effectively converted to aromatic monomers, predominantly vanillin and syringaldehyde.",
+   "doi": "10.1016/j.carbpol.2024.122694",
+   "authors": [
+    "Miao Guohua",
+    "Zhou Yan",
+    "Yang Shibo",
+    "He Liang",
+    "Xu Feng"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39486933",
+   "title": "Construction of an alginate-based aminated lignin composite foam with ultra-high service performance.",
+   "abstract": "Lignin, a complex natural 3D aromatic polymer compound known for its high thermal stability, stiffness, and ability to effectively withstand chemical and biological attacks. When combined with various other natural biomass components, lignin can offer the promise of fortifying the physical, chemical, and biological stability of matrix materials, which has garnered significant interest. Herein, through the incorporation of alginate with aminated lignin using chemical and ionic double cross-linking and freeze-drying techniques, alginate-lignin composite functional foams (SA-NAL) with improved water affinity, mechanical strength, and overall service performance have been successfully developed. Without further chemical modification, the as-fabricated SA-NAL composite foam demonstrates: i) outstanding mechanical robustness, enduring 2000 times its weight without significant deformation in dry condition, and withstanding tensile stress up to 0.67 MPa in wet condition, ii) superior water affinity and underwater superoleophobicity (θ",
+   "doi": "10.1016/j.carbpol.2024.122692",
+   "authors": [
+    "Han Chunhui",
+    "Tian Qinfen",
+    "Ma Ziqiang",
+    "Lu Juan",
+    "Peng Defa",
+    "Lin Shukai",
+    "Zhuang Jiandong"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39486932",
+   "title": "Structural characterization and antioxidant activity mechanism of the ferulic acid-rich subfraction from sugar beet pectin.",
+   "abstract": "The feruloylated sugar chain in sugar beet pectin (SBP) is a natural polyphenol-polysaccharide complex. Its low abundance often leads to be neglected, thereby hindering its bioactivity and mechnism research. In this study, SBP-3 A, a novel feruloylated polysaccharide fragment, was isolated from sugar beet pectin utilizing enzymatic digestion. The presence of ferulic acid on SBP-3 A was confirmed through high-performance liquid chromatography (HPLC), with a mass fraction of 22.5 μg/mg. The average molecular weight was determined to be 33.31 kDa. Methylation analysis, and nuclear magnetic resonance (NMR) spectra revealed that SBP-3 A is a heteroglycan with the main chain structure of →2)-α-Rhap-(1 → 4)-α-GalpA-(1 → 2)-α-Rhap-(1→, and the branched chain structure of ferulic acid (FA) → 3,4)-β-Galp-(1 → 2,4)-α-Rhap-(1→. Subsequently, the antioxidant activity of SBP-3 A was evaluated using the Caenorhabditis elegans (C. elegans). SBP-3 A improved antioxidant enzymes and non-enzymatic defense system, decreased reactive oxygen species levels, and up-regulated the mRNA expression of sod-3, skn-1, and daf-16, while down-regulated the expression of age-1 in C. elegans. Moreover, SBP-3 A modulated the gut flora by favorably affecting the abundances of Lactobacillus, Ligilactobacillus, and Akkermansia, thereby enhancing antioxidant capacity in C. elegans. Consequently, the aforementioned findings support the potential application of SBP-3 A as a functional food for treating oxidative stress-related illnesses.",
+   "doi": "10.1016/j.carbpol.2024.122691",
+   "authors": [
+    "Xiang Chunhong",
+    "Teng Hui",
+    "Sheng Zhili",
+    "Zhao Chao",
+    "Deng Jingteng",
+    "Zhao Chengang",
+    "He Bo",
+    "Chen Lei",
+    "Ai Chao"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486930",
+   "title": "Stimuli-responsive, methyl cellulose-based, interpenetrating network hydrogels: Non-covalent design, injectability, and controlled release.",
+   "abstract": "This paper demonstrates the molecular design of stimuli-responsive, methyl cellulose-based, injectable hydrogels consisting of two orthogonal supramolecular networks. Rapidly injectable hydrogels that undergo autonomous gelation without permanent cross-links are crucial for biomedical applications due to minimal invasiveness, adaptability to irregular target sites, and precise spatiotemporal control. However, they often lack sufficient mechanical strength, physicochemical stability, and high biocompatibility. Herein, we develop a molecular design of a non-covalent double-network system by strategically incorporating specific host-guest cross-linking sites into a thermo-responsive network, which is reinforced by interpenetration with a cellulose-based network via their sequential formation. The resulting hydrogel, composed of non-cytotoxic materials, demonstrates high cell viability (>90 %) until its concentration of 25 mg mL",
+   "doi": "10.1016/j.carbpol.2024.122689",
+   "authors": [
+    "Choi Seoyeon",
+    "Jo Juyeong",
+    "Park Jieun",
+    "Kim Seokjae",
+    "Jeong Songah",
+    "Jeong Seo Yoon",
+    "Jung Se Hoon",
+    "Choi Eunpyo",
+    "Kim Hyungwoo"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486923",
+   "title": "Passion fruit peel-derived low-methoxyl pectin: De-esterification methods and application as a fat substitute in set yogurt.",
+   "abstract": "Passion fruit pectin, originally high methoxyl pectin, undergoes substantial conversion into low methoxyl pectin (LMP) through de-esterification. This de-esterification is significance for reducing the application of sugar in food, as calcium ions can replace excessive sugar during gel formation. In this study, LMPs derived from passion fruit pectin were prepared using four methods: low-temperature alkali, room temperature alkali, enzymatic, and dielectric barrier discharge plasma (DBD)-assisted enzyme (DBDE). The de-esterification conditions were optimized, leading to the selection of LMPs with a degree of esterification for the analysis of molecular weight, monosaccharide composition, and gel properties. The results revealed significant differences in the structure and properties of LMPs depending on the de-esterification method applied. The galacturonic acid content of LMPs significantly increased, with LMP from DBDE (LMP-DBDE) exhibiting the highest increase at 47.81 %. Additionally, the molecular weights of LMPs significantly decreased, with LMP-DBDE showing the smallest decrease. LMP-DBDE demonstrated higher apparent viscosity, thermal stability, and gel properties, facilitating the formation of gels. After 21 days of storage, 0.40 % LMP-DBDE yogurt showed no whey separation, significantly extending its shelf life. Therefore, LMP-DBDE exhibits potential as a fat substitute, combining the advantages of LMP with enhanced water-holding capacity, and presenting promising applications in low-fat dairy products.",
+   "doi": "10.1016/j.carbpol.2024.122664",
+   "authors": [
+    "Yang Yang",
+    "Zhang Wenxing",
+    "Ai Binling",
+    "Zheng Lili",
+    "Zheng Xiaoyan",
+    "Xiao Dao",
+    "Sheng Zhanwu",
+    "Yang Jinsong",
+    "Wang Shenwan"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486916",
+   "title": "Foaming and cross-linking of cellulose fibers using phytic acid.",
+   "abstract": "Bio-based compounds have become the focus in the development of next-generation materials. The polyphosphated structure and availability of phytic acid has sparked an interest to understand its properties and apply it to making fire-retardant fabrics. However, its degradative effect on natural fibers sets limitations to its potential uses. In this study, we unveiled a new dimension to explore with phytic acid: cellulose fiber foams. Phytic acid enabled synergistic foaming with carboxymethyl cellulose albeit causing issues in long-term wet foam stability. Adding cellulose fibers to this mixture and drying at 160 °C produced solid foams with increased compressive strength and stiffness; comparable to foams cross-linked with the commonly used citric acid. The reduced contact area in low-density fiber networks allowed the cross-linking between phytic acid and the fiber network to mitigate structural weakening due to fiber degradation. Imaging also revealed the formation of a film encompassing fiber bonds; attributed to the strong interaction between phytic acid and carboxymethyl cellulose. Furthermore, phytic acid imparted self-extinguishing fire-retardant properties to the cellulose fiber foams measured using thermogravimetric analysis and cone calorimetry. This work showcases a simple new application for phytic acid without the use of catalysts or solvents. It serves to encourage further development of green practices to continuously challenge the industrial landscape.",
+   "doi": "10.1016/j.carbpol.2024.122617",
+   "authors": [
+    "Orzan E",
+    "Barrio A",
+    "Biegler V",
+    "Schaubeder J B",
+    "Bismarck A",
+    "Spirk S",
+    "Nypelö T"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39486912",
+   "title": "β-Glucan content increase in Waxy-mutated barley is closely associated with positive stress responses and is regulated by ASR1.",
+   "abstract": "Mixed-linkage (1,3; 1,4)-β-D-glucan (MLG) impacts the food and industrial end-uses of barley, but the molecular mechanism of variations in MLG content remains unclear. MLG content usually increases in Waxy-mutated barley. This study applied transcriptomic, proteomic, and metabolomic analyses to Waxy-mutated recombinant inbred lines with higher MLG content and wild-type lines with lower MLG content, and identified candidate genes and pathways regulating MLG content through combining preliminary gene function analysis. MLG biosynthesis differed significantly during late grain development in the Waxy-mutated and wild-type barley lines. The MLG increase was closely associated with strongly active sugar and starch metabolism and stress-responsive plant hormones, particularly abscisic acid (ABA) signaling process. Stress-responsive transcript factors ILR3, BTF3, RGGA, and PR13 protein bind to CslF6, which is critical for barley MLG biosynthesis, and the stress-responsive gene ASR1 also had a positive effect on MLG increase. Waxy mutation enhances barley stress responses by activating ABA- or other stress-responsive plant hormones signaling processes, which facilitates MLG biosynthesis. This study provides a new approach for elucidating the variations in MLG content of barley grains.",
+   "doi": "10.1016/j.carbpol.2024.122536",
+   "authors": [
+    "Li Qiao",
+    "Pan Zhifen",
+    "Zhang Zhihui",
+    "Tang Hongmei",
+    "Cai Jingchi",
+    "Zeng Xingquan",
+    "Li Zhongyi"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39486910",
+   "title": "Structure and rheology of carboxymethylcellulose in polar solvent mixtures.",
+   "abstract": "We study the conformational, conductometric and rheological properties of semiflexible polyelectrolyte carboxymethyl cellulose in mixtures of water and three non-solvents (ethanol, isopropanol and acetone). Small angle x-ray scattering measurements of the correlation length reveal that the local conformation of the carboxymethyl chain is unchanged by the presence of a non-solvent, even for solutions not far from the solubility boundary. Rheological measurements confirm the invariance of the correlation length upon non-solvent addition. Conductivity measurements show that as the non-solvent content is increased, the fraction of condensed counterions increases, presumably due to the lowering of the dielectric constant of the solvent media. These results therefore show that under room temperature and pressure, the conformation of polyelectrolyte chains is independent of the effective charge fraction of the backbone. We suggest this occurs because the bare Kuhn length (≃10nm) is much larger than electrostatic blob size (≃1-2nm).",
+   "doi": "10.1016/j.carbpol.2024.122287",
+   "authors": [
+    "Hou Can",
+    "Watanabe Takaichi",
+    "Lopez Carlos G",
+    "Richtering Walter"
+   ],
+   "year": "2025",
+   "month": "Jan",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39978899",
+   "title": "Controlled green heterogenous functionalization of cellulose via strategic reaction system design.",
+   "abstract": "Green chemical modification of cellulose presents a unique chemical challenge, especially from the vantage point of sustainable development that is favored by the use of wood fibers, heterogeneous conditions, and reactants and solvents of biobased relevance. However, heterogeneous conditions imply that cellulose is a supramolecular assembly whose composition and build-up depend on the initial source and pretreatments. Also, understanding reaction outcomes is accompanied by inherently challenging characterization. The key question is how we should design our reaction systems to achieve customizable and green functionalization of cellulose under heterogeneous conditions. To explore this, we selected never-dried high-content cellulose fibers (>96 % cellulose) as the substrate for the modification with three relevant biobased reactants (succinic, maleic, and crotonic anhydride), with BBIL-AcO as a biobased reactivity promoter. The reactions were performed under either high fiber swelling (basic) or low fiber swelling (acidic) heterogeneous conditions, and the outcome was analyzed in detail. The results unravel clear design strategies for controlling the reaction outcome during the green heterogeneous functionalization of cellulose and present clear synthetic strategies for using cellulose as the key substrate in the next generation of fully biobased and green materials.",
+   "doi": "10.1016/j.carbpol.2025.123310",
+   "authors": [
+    "Marcos Celada Lukas",
+    "Dvinskikh Sergey V",
+    "Olsén Peter"
+   ],
+   "year": "2025",
+   "month": "Apr",
+   "day": "15",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39978895",
+   "title": "Development of κ-carrageenan/tourmaline composite for active food packaging applications: Improved mechanical, gas barrier, and antimicrobial.",
+   "abstract": "In order to solve the environmental pollution problems of traditional food packaging films, a kind of antibacterial packaging film based on κ-carrageenan and tourmaline powder was prepared. The addition of tourmaline powder as an inorganic filler improved the mechanical properties and gas barrier properties of κ-carrageenan films, and tourmaline had the function of spontaneously generating negative ions (NAIs) to give the film the antibacterial effect. With the increase in the amount of tourmaline powder, the water vapor permeability and oxygen permeability decrease, the water contact angle becomes larger, and the thermal degradation temperature increases. When the additional amount of tourmaline powder is 0.75 (%, w/v), the elongation at break and tensile strength can reach 39.356 % and 8.952 MPa. The κ-carrageenan/tourmaline composite film has an inhibitory effect on foodborne S. aureus, the best inhibition rate was obtained at 39.80 %. The weight loss of the figs packaged with this film is reduced, and the decay rate is slower. These results indicated that the κ-carrageenan/tourmaline composite film is promising in the food industry.",
+   "doi": "10.1016/j.carbpol.2025.123304",
+   "authors": [
+    "Gao Yujie",
+    "Li Ruili",
+    "Wang Jinke",
+    "Xu Haoxuan",
+    "Wang Meiyi",
+    "Wang Huashan"
+   ],
+   "year": "2025",
+   "month": "Apr",
+   "day": "15",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39978892",
+   "title": "Peptide-conjugated alginate fiber: A skeletal muscle regenerative scaffold.",
+   "abstract": "Biopolymeric fibers have garnered significant attention in biomedical applications due to their ability to promote tissue regeneration through aligned microstructures. Alginate (Alg) is commonly used to prepare wet-spun fibers through ionic interactions. However, ion-crosslinked Alg fibers present limitations in tissue regeneration due to their rapid degradation under physiological conditions and the absence of binding sites for bioactive molecules. In this study, oxidized methacrylated alginate (OMA) derivatives were synthesized to create Alg fibers crosslinked by both Ca",
+   "doi": "10.1016/j.carbpol.2025.123299",
+   "authors": [
+    "Li Yajun",
+    "Wu Yueren",
+    "Wu Tong",
+    "Zhang Can",
+    "Dai Jianwu",
+    "Tang Jianping",
+    "Li Lin",
+    "Shi Liyang"
+   ],
+   "year": "2025",
+   "month": "Apr",
+   "day": "15",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39914985",
+   "title": "New understanding on iota-carrageenan oxidation by hydrogen peroxide with or without copper sulphate and the properties of oxidized iota-carrageenan.",
+   "abstract": "To explore the oxidation mechanism of iota-carrageenan (IC) and the potential applications of oxidized IC (OIC), a series of OIC samples were firstly synthesized under hydrogen peroxide or hydrogen peroxide/copper sulphate, their purification process, chemical composition, chemical structure, molecular weight, physical property, biosafety and antibacterial activity were systematically evaluated. Our results firstly found that only the combination of ethylenediaminetetraacetic acid disodium salt (EDTA-2Na) pre-treatment and dialysis could realize successful purification of OIC due to the strong electrostatic attractions between positive copper ions and negative sulphate ions. The introduction of copper ions could effectively speed up the oxidation of OIC, enhancing the content of aldehyde and carboxyl groups, resulting in the hydrolysis of the ether bonds in IC, inhibiting the detachment of sulphate, decreasing the molecular weight, thermal stability, characteristic temperature (i.e. gelling and melting temperature). It was worth mentioning that K",
+   "doi": "10.1016/j.carbpol.2025.123287",
+   "authors": [
+    "Gu Qixiang",
+    "Li Yongzhen",
+    "Zhang Peng",
+    "Li Lihua",
+    "Zhang Tong",
+    "Deng Chunmei",
+    "Kang Xinhuang",
+    "Li Puwang",
+    "Li Chengpeng"
+   ],
+   "year": "2025",
+   "month": "Apr",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Retracted Publication"
+   ]
+  },
+  {
+   "pmid": "39914979",
+   "title": "Influence and mechanism of NaOH concentration on the dissolution of cellulose and extraction of CNF in alkaline solvents at 15 °C.",
+   "abstract": "Alkaline aqueous solutions facilitate the rapid extraction of high-performance cellulose nanofiber (CNF) at 15 °C. However, the role and mechanism of NaOH in this process remain unclear. This study investigated the dissolution process of cellulose by controlling the NaOH concentration (1-7 wt%) at 15 °C and explored the effect and underlying mechanism of the NaOH concentration on cellulose dissolution in alkaline solvents. The results showed that the addition of NaOH strengthened the hydrogen bonding network of the solvent, whereas the addition of urea and thiourea promoted the dissolution of cellulose. The higher the concentration of NaOH is, the smaller the volume of hydrate molecules formed; smaller molecules more readily enter the cellulose molecules and form new hydrogen bonds with cellulose molecular chains, thereby destroying the original hydrogen bonds between cellulose molecules and their crystal structure. During dissolution, cellulose decomposes into microfibrils, and nanosized cellulose separates; moreover, the diameter and length of the CNF decrease with increasing NaOH concentration. When the concentration of NaOH reaches 7 %, the cellulose is completely broken down into CNF, and the yield is >60 %. As dissolution progresses, the crystallinity of cellulose first increases and then decreases (75.95 %-81.00 %-77.02 %), but its crystal size remains unchanged.",
+   "doi": "10.1016/j.carbpol.2025.123265",
+   "authors": [
+    "Peng Jinping",
+    "Fu Rongwei",
+    "Huang Yihui",
+    "Lu Jinqing",
+    "Xie Xiaofeng",
+    "Xue Zhenkun",
+    "Chen Mingjie",
+    "Wu Xingrou",
+    "Yue Hangbo",
+    "Mai Haiyan"
+   ],
+   "year": "2025",
+   "month": "Apr",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39914968",
+   "title": "Achieving ultra-low latent heat of water evaporation in capillary water by regulating hydrophilic groups and pore structure of cellulose/chitosan gel.",
+   "abstract": "Given the abundant solar energy resources and remarkable heat utilization efficiency, solar interfacial evaporation is a promising approach in addressing the global freshwater crisis. The primary bottleneck impeding the industrial implementation of solar interfacial evaporation lies in its relatively low production rate because of the high latent heat of water evaporation. Here, we effectively reduce the latent heat by synergistically optimizing hydrophilic groups, regulating pore network structure, and adjusting interfacial water state of the cellulose/chitosan gel. The latent heat of water evaporation in this evaporator can be reduced from 2444 kJ kg",
+   "doi": "10.1016/j.carbpol.2025.123302",
+   "authors": [
+    "Liang Dengchao",
+    "Tang Jiebin",
+    "Sun Qi",
+    "Zhao Wenwen",
+    "Li Junhui",
+    "Liu Yongxu",
+    "Liu Zixuan",
+    "Yang Xuan",
+    "Liu Hong",
+    "Xue Guobin"
+   ],
+   "year": "2025",
+   "month": "Apr",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39843126",
+   "title": "Bacterial cellulose nanofibers-assisted construction of core-shell structured polyaniline aerogel for superior electromagnetic wave absorption.",
+   "abstract": "Due to the increasing pollution of electromagnetic waves and the vigorous development of intelligent electronic devices, there is great interest in finding high-quality electromagnetic wave absorbing materials for integrated control boxes (ICBs) that integrate various electronic components. Polyaniline (PANI) is a new type of absorbing material with great potential due to its designable structure, simple preparation process, low density and adjustable conductivity. Herein, we prepared BCNF/PANI nanoscale conductive fibers with core-shell structure by in-situ growth of PANI on the surface of bacterial cellulose nanofibers (BCNF) by oxidative polymerization and further prepared cellulose/polyaniline/polyvinyl alcohol (BCNF/PANI/PVA) composite aerogel absorbing material by a freeze-drying process. The results show that the prepared BCNF/PANI/PVA aerogel has excellent absorption performance: the minimum reflection loss is -53.19 dB at 4.16 GHz with 6.11 mm thickness, and the effective absorption bandwidth is 2.20 GHz. The influence of the macrostructure of the BCNF/PANI/PVA absorbing unit on the absorption performance was further explored through numerical simulation, and the efficient electromagnetic protection of the small ICB was finally realized with the help of the macro-optimization strategy. This achievement provides an important reference and guidance for further developing and applying high-performance electromagnetic wave absorbing materials.",
+   "doi": "10.1016/j.carbpol.2025.123239",
+   "authors": [
+    "Chen Long",
+    "Chen Hongbin",
+    "Ji Chenhao",
+    "Wang Yan",
+    "Yang Luyu"
+   ],
+   "year": "2025",
+   "month": "Mar",
+   "day": "15",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39914970",
+   "title": "The impact of starch composition and gluten content on noodle texture and starch digestibility.",
+   "abstract": "The role of starch in noodle structure is often underestimated, particularly regarding amylose content, which constitutes over 70 % of the dry mass in fresh noodles. This study investigates the roles of starch amylose and gluten content on the texture and digestibility of noodles using a reconstitution model. Noodle texture and digestibility were examined under six distinct ratios of waxy wheat starch (WWS) and high-amylose wheat starch (HAWS) and two gluten content levels (12 % and 16 %). Noodle hardness initially decreased with increasing HAWS content but subsequently increased at 40 % HAWS level, and the starch digestibility continuously declined with the increasing HAWS content. Gluten content had a minor impact on the noodle texture compared to amylose, and the digestion rate was significantly slowed down in WWS-rich noodle samples. Variations in starch composition, particularly the amylose/amylopectin ratio, affects noodle swelling and granule rigidity, resulting in differences in gluten network formation; The looser structure observed at higher HAWS levels led to reduced hardness and higher digestion rates. This research offers a practical approach to optimizing noodle texture and starch digestibility, which is beneficial for developing of noodles with desired organoleptic and digestion properties.",
+   "doi": "10.1016/j.carbpol.2025.123294",
+   "authors": [
+    "Zhao Cong",
+    "Li Ming",
+    "Jiang Jikai",
+    "Li Wenduan",
+    "Tian Wenfei",
+    "He Zhonghu",
+    "Guo Boli"
+   ],
+   "year": "2025",
+   "month": "Apr",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "39843128",
+   "title": "Hazy transparent cellulose nanocrystal-based films with tunable structural colors.",
+   "abstract": "Cellulose nanocrystals (CNCs) are powerful biosourced nanomaterials for the construction of chiral photonic films. While various techniques have been used to enrich the optical properties of such systems, surface roughness engineering has yet to be exploited to significantly modify their optical properties. In this work, by using vacuum filtration-assisted self-assembly, CNCs are densely packed into films with high optical transparency. Filtration membrane texture-imprinted chiral photonic CNC-based films with engineered surface roughness are demonstrated. Simultaneously optimized optical haze of 99 % and transmittance of 62 % are achieved in the chiral photonic CNC-based films with broadband transmission and tunable structural colors across the visible spectrum. We show experimentally a control over their haze values and the potential of these films to be used as optical diffusers with added advantages in tuning the correlated color temperature in lighting. This simple and yet powerful technique presents possibilities in constructing hazy transparent CNC-based films, paving the way for the development of chiral photonic films from biosourced nanomaterials for optical diffusion applications.",
+   "doi": "10.1016/j.carbpol.2025.123240",
+   "authors": [
+    "Wang Zhaolu",
+    "Xu Yan"
+   ],
+   "year": "2025",
+   "month": "Mar",
+   "day": "15",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39843094",
+   "title": "Konjac glucomannan-based foams incorporating cellulose phase change microcapsules for efficient thermal energy regulation.",
+   "abstract": "Biomass foam with porous structure has broad application prospects in thermal energy management. However, traditional foams can only passively insulate heat, unable to effectively store thermal energy and prolong the insulation time. In this work, microcapsules rich in paraffin were prepared using the Pickering emulsion template method with phosphorylated cellulose nanocrystals (CNC) as an emulsifier. Phase change microcapsules were combined with konjac glucomannan (KGM) foam to prepare thermal energy management materials with excellent thermal insulation and storage properties. The synergistic interaction between CNC and KGM molecules could form the hydrogen bond cross-linking network to further improve the water resistance and mechanical properties of foams. The encapsulation of CNC microcapsules and the capillary action of KGM foam could effectively inhibit paraffin leakage in the KGM/CNC/paraffin (KCP) foams. Moreover, the enthalpy of melting and crystallization of KCP-8 foam was 144.9 J/g and 141.3 J/g, respectively. The thermal conductivity and infrared thermal imaging results showed that KCP-8 foams exhibited excellent thermal insulation and heat storage properties. This study provides ideas for the design and preparation of porous foams with thermal regulation properties, which has great potential in the field of intelligent textile and building energy conservation.",
+   "doi": "10.1016/j.carbpol.2024.123191",
+   "authors": [
+    "Deng Pengpeng",
+    "Liu Xinping",
+    "Zhang Ting",
+    "Li Yuewen",
+    "Wu Kao",
+    "Chen Kai",
+    "Kuang Ying",
+    "Chen Juanjuan",
+    "Jiang Fatang"
+   ],
+   "year": "2025",
+   "month": "Mar",
+   "day": "15",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39779024",
+   "title": "Synergistic enhancement of high-barrier polylactic acid packaging materials by various morphological carbonized cellulose nanocrystals.",
+   "abstract": "The environmental challenges linked to petroleum-based polymers have accelerated the search for alternative materials like polylactic acid (PLA). Diverse nanofillers, ranging from inorganic to organic and hybrid inorganic/organic varieties, are employed to bolster PLA performance. Yet, non-synergistic nanofillers often underperform due to inadequate dispersion and singular functionality within the PLA matrix. This work introduces carbonized cellulose nanocrystals (GCNC) with rod-like (R-GCNC) and spherical structures (S-GCNC), as synergistic reinforcements for PLA matrix. Unlike traditional nanofillers, the highly graphitized carbon layer on GCNC effectively mitigates CNC agglomeration while preserving cellulose morphology, fostering improved interfacial interactions and hydrogen bonding within PLA matrix. Moreover, GCNC acts as a nucleating agent, boosting the crystallization rate of PLA and enhancing its mechanical properties. Remarkable synergistic reinforcing effects of GCNC on PLA performances were observed. Particularly, the tensile strength of R-GCNC 5 % and S-GCNC 5 % composites surged by 93 % and 76 %, elongation at break increased by 29.4 % and 33.3 %, Young's modulus rose by 37 % and 18 %, and cold crystallization temperature decreased by 11.5 °C and 12.9 °C. Additionally, the GCNC/PLA composites exhibited exceptional thermal stability, UV resistance, and water vapor permeability reduced by 46 % for R-GCNC, and 35 % for S-GCNC, making them promising for industrial and sustainable packaging.",
+   "doi": "10.1016/j.carbpol.2024.123118",
+   "authors": [
+    "Wu Bunan",
+    "Abdalkarim Somia Yassin Hussain",
+    "Li Zhijiang",
+    "Lu Weidong",
+    "Yu Hou-Yong"
+   ],
+   "year": "2025",
+   "month": "Mar",
+   "day": "01",
+   "pubtypes": [
+    "Journal Article"
+   ]
+  }
+ ]
+}
