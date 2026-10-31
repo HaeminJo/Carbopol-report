@@ -1,0 +1,466 @@
+{
+ "generated_at_utc": "2026-10-31T22:07:00Z",
+ "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE(ar)) for metadata listing + PubMed E-utilities for abstracts",
+ "target_count": 20,
+ "collected_count": 28,
+ "articles": [
+  {
+   "doi": "10.1016/j.carbpol.2024.122540",
+   "pmid": "39486913",
+   "title": "Fabrication of superior flame-retardant phosphorylated chitosan biobased porous composites reinforced by superhydrophobic silicone interpenetrating crosslinking networks.",
+   "authors": [
+    "Haoyi Jia",
+    "Hongli Cui",
+    "Ningjing Wu",
+    "Shanshan Deng",
+    "Fei Wang",
+    "Mohan Wang",
+    "Zhe Wang"
+   ],
+   "abstract": "Chitosan-based porous materials have potential to develop into a new generation of high performance sustainable thermal insulation materials. In this study, hydrophobic and enhanced phosphorylated porous materials (PCSM) were constructed by the in-situ crosslinking of methytrimethoxylsilane (MTMS), and modified SiO2 nanoparticles (H-SiO2) were further incorporated into the crosslinking networks to fabricate superhydrophobic and reinforced PCSM-H-SiO2 porous composites. The morphology of PCSM-H-SiO2 porous materials exhibited special micro-nanoscale \"pearl string-like\" rough and interpenetrating pore wall structure, which endowed them superhydrophobicity and self-cleaning ability. The water contact angles (WCAs) of PCSM-H-SiO2 porous composites achieved up to 150o, and the compressive and specific moduli of PCSM2-H-SiO2-2 porous composite significantly increased to 11.0 MPa and 89.6 m2·s-2, 5.39 and 1.74 times higher than those of PCS porous material, respectively. The limited oxygen index (LOI) values of PCSM2-H-SiO2-2 porous composite were above 80 %. The cone calorimeter test result demonstrated the peak heat release rate and total heat release rate values of PCSM-H-SiO2-2 porous composite were lower than those of PCS porous material. The ultra-high flame-retardant PCSM-H-SiO2-2 porous composite with superhydrophobicity and excellent compressive property is a promising biodegradable thermal-insulation material as replacement of petroleum-based material.",
+   "coverDate": "2025-01-01",
+   "coverDisplayDate": "1 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122641",
+   "pmid": "39486917",
+   "title": "Synchronized ultrasonography and electromyography signals detection enabled by nanocellulose based ultrasound transparent electrodes.",
+   "authors": [
+    "Lengwan Li",
+    "Yingchun Su",
+    "Frederico Klein",
+    "Jonas Garemark",
+    "Zheng Li",
+    "Zhongzheng Wang",
+    "Jiantong Li",
+    "Ruoli Wang",
+    "Yuanyuan Li"
+   ],
+   "abstract": "Accurate evaluation of electrophysiological and morphological characteristics of the skeletal muscles is critical to establish a comprehensive assessment of the human neuromusculoskeletal function in vivo. However, current technological challenges lie in unsynchronized and unparallel operation of separate acquisition systems such as surface electromyography (sEMG) and ultrasonography. Key problem is the lack of ultrasound transparency of current electrophysiological electrodes. In this work, ultrasound (US) transparent electrode based on cellulose nanofibrils (CNF) substrate are proposed to solve the issue. US transparency of the electrodes are evaluated using a standard US phantom. The effects of nanocellulose type and ion-bond introduction on electrode performance is investigated. Simultaneous US image and sEMG signal acquisition of biceps brachii during isometric muscle contraction are studied. Reliable correlation analysis of the US and sEMG signals is realized which is rarely reported in the previous literatures. Recyclability and biodegradability of the current electrode are evaluated. The reported technology opens up new pathways to provide coupled anatomical and electrical information of the skeletal muscles, enables reliable anatomical and electrical information correlation analysis and largely simplify the sensor integration for assessment of the human neuromusculoskeletal function.",
+   "coverDate": "2025-01-01",
+   "coverDisplayDate": "1 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122698",
+   "pmid": "39486938",
+   "title": "Electrospinning of cellulose nanocrystals; procedure and optimization.",
+   "authors": [
+    "Ali Khodayari",
+    "Shameek Vats",
+    "Grégory Mertz",
+    "Carla N Schnell",
+    "Carlos Fuentes Rojas",
+    "David Seveno"
+   ],
+   "abstract": "Cellulose nanocrystals (CNCs) and cellulose microfibrils (CMFs) are promising materials with the potential to significantly enhance the mechanical properties of electrospun nanofibers. However, the crucial aspect of optimizing their integration into these nanofibers remains a challenge. In this work, we present a method to prepare and electrospin a cellulosic solution, aiming to overcome the existing challenges and realize the optimized incorporation of CNCs into nanofibers. The solution parameters of electrospinning were explored using a combined experimental and simulation (molecular dynamics) approach. Experimental results emphasize the impact of polymer solution concentration on fiber morphology, reinforcing the need for further optimization. Simulations highlight the intricate factors, including the molecular weight of cellulose acetate (CA) polymer chains, electrostatic fields, and humidity, that impact the alignment of CNCs and CMFs. Furthermore, efforts were made to study CNCs/CMFs alignment rate and quality optimization. It is predicted that pure CNCs benefit more from electrostatic alignment, while lower molecular weight CA enables better CNC/CMF alignment.",
+   "coverDate": "2025-01-01",
+   "coverDisplayDate": "1 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122700",
+   "pmid": "39486941",
+   "title": "Micellar structure of decenyl succinic anhydride modified pullulan with degree of substitution dependence in aqueous solution.",
+   "authors": [
+    "Wenze Li",
+    "Yutong Liu",
+    "Yonggang Sheng",
+    "Jia Yang"
+   ],
+   "abstract": "A broad distribution pullulan (PUL) sample was hydrophobically modified by a relative longer decenyl succinic anhydride (DCSA) side chains with seven different degree of substitution (DS) to obtain the PUL-DCSA. The micellar structure of PUL-DCSA with DS dependence was investigated by pyrene-probe fluorescence and small-angle X-ray scattering (SAXS) in 0.05 M aqueous NaCl. While PUL-DCSA with DS > 0.26, both the SAXS and fluorescence results can be explained by the flower necklace model, when DS < 0.26, PUL-DCSA forms the loose flower necklace model. Moreover, the micellar structure of PUL-DCSA characterized by SAXS and fluorescence was different from that of the PUL-bearing shorter alkyl (octenyl or nonenyl) chains. The smaller chain stiffness qFN and larger number of monomer (glucose residues) per unit flower micelle N0u of PUL-DCSA, mainly due to the difference in the different hydrophobic alkyl side chains. This research will provide a theoretical guidance for designing biomedical materials with appropriate scale and characteristic functions in drug delivery system.",
+   "coverDate": "2025-01-01",
+   "coverDisplayDate": "1 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122727",
+   "pmid": "39486957",
+   "title": "Double-layer carboxymethyl chitosan/sulfoethylated cellulose/cellulose nanofiber foams with a photothermally enhanced ionic concentration gradient for hydrovoltaic energy harvesting.",
+   "authors": [
+    "Lingyu Kong",
+    "Zhe Qiu",
+    "Yonggui Wang",
+    "Yanjun Xie",
+    "Zefang Xiao"
+   ],
+   "abstract": "The generation of electricity from water, which contains enormous amounts of energy, has attracted significant attention in recent years. However, the development of devices consisting of materials with the required mechanical stability, suitable structures, and wide ion concentration gradients for operation in direct contact with water remains challenging. Herein, we report the preparation of three-dimensional foam structures based on covalent cross-linking and freeze-drying using cellulose and chitosan derivatives as raw materials. Carbon nanotubes (CNTs), which served as the photothermal component, were uniformly dispersed among the cellulose nanofiber (CNF) to realize photothermally enhanced heterogeneous water-enabled electricity generation (HWEG). The output performance of the assembled HWEG was improved by tailoring the ion concentration gradient and widening the moisture gradient induced by photothermal conversion. Under solar irradiation of 1 sun, the HWEG delivered an open-circuit voltage and short-circuit current of 186 mV and 0.5 μA, respectively. Owing to the scalability and practicality of the device, the class of three-dimensional structural materials based on sustainable biomass developed in this study is suitable for use in hydrovoltaic energy harvesters.",
+   "coverDate": "2025-01-01",
+   "coverDisplayDate": "1 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122748",
+   "pmid": "39486977",
+   "title": "Fluorescent cellulose nanofibrils hydrogels for sensitive detection and efficient adsorption of Cu2+ and Cr6.",
+   "authors": [
+    "Xinran Wang",
+    "Shipeng Luo",
+    "Jing Luo",
+    "Liyang Liu",
+    "Yaxin Hu",
+    "Ze Li",
+    "Li Jiang",
+    "Hengfei Qin"
+   ],
+   "abstract": "Increasing chromium and copper pollution poses a significant threat to the global environment and human health. It is crucial to detect and remove Cu (II) and Cr (VI) from water. Cellulose nanofibrils (CNF)-based hydrogels were a natural, abundant, and biocompatible material that has attracted great attention for bio adsorption applications. In this work, a new fluorescent CNF-based hydrogel (PAA-CNF-W) was prepared for the high-efficiency adsorption and sensitive detection of Cu (II) and Cr (VI). CNF was introduced as a natural backbone to construct a three-dimensional porous structure, which increased the specific surface area and provided additional active sites, exhibiting excellent adsorption properties for Cu (II) (159.24 mg/g) and Cr (VI) (173.87 mg/g). Moreover, the synthesized dansyl chloride derivatives with fluorescent properties were introduced to the hydrogel and formed chelates with the metals leading to fluorescence quenching. PAA-CNF-W hydrogels showed high sensitivity to the detection limit (LOD) of Cu (II) (28.70 mg/L) and Cr (VI) (1.45 mg/L). The kinetic study revealed that pseudo-second order kinetics was the best-fitting model. The Langmuir isotherm was the best adjustment model. The study provides a new idea for efficient detection and removal of Cu (II) and Cr (VI) from wastewater by cellulose materials.",
+   "coverDate": "2025-01-01",
+   "coverDisplayDate": "1 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122761",
+   "pmid": "39486988",
+   "title": "\"Bamboo-like\" strong and tough sodium alginate/polyacrylate hydrogel fiber with directional controlled release for wound healing promotion.",
+   "authors": [
+    "Qianyu Zhang",
+    "Zhiyu Huang",
+    "Hong Jiang",
+    "Mengru Wu",
+    "Zhijia Dong",
+    "Chaoyu Chen",
+    "Fengxiang Chen",
+    "Gang Zhao",
+    "Pibo Ma"
+   ],
+   "abstract": "Skin, as the biggest organ and outermost surface of the human body, is prone to injury due to various challenges, especially the expanding potential of accidents, which bring a huge social and economic burden. Hydrogels are emerging as the most promising candidate for wound dressings, which not only fulfill the varied requirements of dressings but also serve as drug carriers. But limited breathability, rapid drug release, and inadequate mechanical properties remains a significant challenge. Herein, we report a strong and tough sodium alginate/polyacrylate hydrogel fibers-based dressing with directional controlled drug release for wound healing promotion. Mimicking the bamboo structure, the drug solution is encapsulated within the fiber, and the rate of drug release can be modulated by controlling the wall thickness of the fiber. A cross-network structure in the hydrogel fiber through hydrogen bond and calcium ion crosslinking resulted in a 38 % increase in tensile strength. By precisely controlling the feeding process during weaving, drug-loaded fibers can be prepared at specific locations to facilitate targeted delivery to skin wound sites. Drug-loaded fabric has the breathability and biocompatibility required for dressings to promote wound healing. The findings highlight the potential of alginate/polyacrylate hydrogel fabrics for effective wound treatment.",
+   "coverDate": "2025-01-01",
+   "coverDisplayDate": "1 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122765",
+   "pmid": "39486992",
+   "title": "Antiviral effect of oversulfated kappa-carrageenan derivatives against COVID-19 for spray coating application on facemasks.",
+   "authors": [
+    "Caroline Santinon",
+    "Marisa Masumi Beppu",
+    "Melissa Gurgel Adeodato Vieira"
+   ],
+   "abstract": "The COVID-19 pandemic caused by SARS-CoV-2 has spurred the urgent need for effective antiviral strategies. In this work, we explored the potential of oversulfated kappa-carrageenan (OSKC) in spray-coated facemasks for SARS-CoV-2 inhibition pathway. The sulfated derivative was synthesized with sulfur trioxide pyridine complex in dimethylformamide solution. The antiviral efficacy of OSKC at different concentrations and spray-coated facemasks was evaluated using betacoronavirus Murine Hepatitis Virus strain 3, revealing a significant reduction in viral load compared to commercial kappa-carrageenan. Furthermore, the characterization techniques assessed the effect of the position of the introduced sulfate groups on the antiviral activity and on the physicochemical characteristics. OSKC is able to bind specific proteins of enveloped viruses, preventing viral attachment into target cells. Overall, this study demonstrates the feasibility and effectiveness of OSKC spray coating for breathable facemasks with antimicrobial properties, offering a promising approach to enhancing personal protective equipment against viral transmission in healthcare and community settings.",
+   "coverDate": "2025-01-01",
+   "coverDisplayDate": "1 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122767",
+   "pmid": "39486994",
+   "title": "Porous cellulose photonic film via controlled unidirectional interlayer freezing for rapid visual sensing.",
+   "authors": [
+    "Mengmeng Liu",
+    "Xiaojuan Wang",
+    "Xiaosen Pan",
+    "Mengchen Geng",
+    "Yang Liu",
+    "Zhengjian Zhang",
+    "Hongbin Liu",
+    "Meng Gao"
+   ],
+   "abstract": "Structure color, arising from the interaction of light with regularly arranged sub-micrometer-sized structures, has spurred interest in sensor design. However, typical cellulose nanocrystal (CNC) photonic films derived from biomass, known for their sustainability and cost-effectiveness, often suffer from limited sensitivity and slow response times due to their dense structure. To address this challenge, we have utilized a unidirectional interlayer freezing-photopolymerization strategy to introduce porous structures into CNC photonic films without compromising their vibrant structural color. This method harnesses ice crystal-induced lamellar pores while preserving the periodic arrangement of CNCs. The underlying mechanism of ice kinetics and CNC assembly is established, highlighting the transition from non-iridescent aerogels to iridescent, porous photonic films. The resulting porous CNC photonic film exhibits apparent color response and rapid sensing capabilities in response to various solvent stimuli, outperforming its non-porous counterparts. We have validated the film as a portable vapor detector for rapid visualized alcohol detection. This approach provides promising developments in sustainable, highly responsive sensor technologies.",
+   "coverDate": "2025-01-01",
+   "coverDisplayDate": "1 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122777",
+   "pmid": "39562058",
+   "title": "Grafting of nonpolar polyisoprene as midblock and polar polylactide as outer block onto cellulose to produce bio-based thermoplastic elastomers.",
+   "authors": [
+    "Huanjuan Sun",
+    "Xuehui Wang",
+    "Zhigang Wang"
+   ],
+   "abstract": "Sustainable cellulose-graft-diblock copolymers (cellulose-graft-polyisoprene-block-polylactide, MCC-g-PI-b-PLLA, MCC was chemically-modified microcrystalline cellulose) were designed and delicately synthesized for the first time by a mild and facile procedure via combining ring-opening polymerization and reversible addition-fragmentation chain transfer polymerization techniques, which conquered the difficulties in synthesis due to the distinct chemical properties among the MCC backbone, PI and PLLA blocks. Two separate glass transition temperatures were detected for MCC-g-PI-b-PLLA copolymers by differential scanning calorimetry, indicative of microphase separation, consistent with small-angle X-ray scattering and atomic force microscopy measurements. The α-form crystals of PLLA outer blocks were revealed by wide-angle X-ray diffraction measurement. The monotonic and step-cyclic tensile tests revealed that the mechanical property could be tuned by changing the molecular mass of PI midblock. The two ends of the soft PI midblock were anchored by rigid cellulose backbone and hard PLLA outer block, respectively, which served as physical crosslinking points. The rigid cellulose backbones brought the PI rubbery domains and PLLA hard domains together to form a whole hierarchical microstructure, endowing the copolymers with distinguished mechanical property. This work provided a feasible approach to producing environmental-friendly cellulose-based copolymers with fully biomass-derived feedstocks, having a profound impact on the development of sustainable polymer-based materials.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122789",
+   "pmid": "39562067",
+   "title": "Composite biopolymer foams fabricated from natural aldehyde functionalized chitosan-whey protein amyloid fibrils: Application for removal of phthalate esters from water.",
+   "authors": [
+    "Jilong Wang",
+    "Qianzhu Lin",
+    "Chao Qiu",
+    "David Julian McClements",
+    "Hangyan Ji",
+    "Zhengyu Jin"
+   ],
+   "abstract": "In this work, composite biopolymer foams from chitosan and whey isolate protein amyloid fibrils were prepared for the removal of phthalate esters from water. Natural aldehyde functionalization enhanced the affinity for dibutyl phthalate (DBP), with citral being the most effective. The citral-grafted foams (WCGC) had tunable hydrophobicity, strong mechanical properties, and good water stability. WCGC1.5 foam exhibited a high removal efficiency (96.06 %) of DBP. The adsorption process reached adsorption equilibrium rapidly within 8 h and could be described by pseudo-second-order kinetic and Freundlich isotherm models, indicating a non-homogeneous and chemisorptive sorption process. The maximum adsorption capacity for DBP reached 332.42 mg/g. Moreover, DBP adsorption could be enhanced in alkaline environment and the removal efficiency increased to 98.27 % at pH 10. The removal efficiency of DBP by WCGC1.5 remained above 85 % after the five adsorption-desorption cycles. WCGC1.5 also showed broad-spectrum adsorption behavior, with strong affinity and removal efficiency for six common plasticizers, including DIBP (85.97 %), DPP (91.7 %), DHXP (99.1 %), DEHP (99.09 %), DNOP (91.6 %) and BBP (89.88 %).",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122800",
+   "pmid": "39562075",
+   "title": "Sustainable leather alternatives: High-performance and dyeable bio-based materials from fungal chitin and tannic acid.",
+   "authors": [
+    "Fengteng Zhang",
+    "Gentao Fu",
+    "Hai Liu",
+    "Chunhua Wang",
+    "Jiajing Zhou",
+    "To Ngai",
+    "Wei Lin"
+   ],
+   "abstract": "Leather alternatives (LAs) offer a promising solution to address the environmental and ethical concerns associated with traditional leather production relying animal hides and chemical tanning agents. However, synthetic polymer-based LAs, such as polyurethane and polyvinyl chloride, have limited broader applications due to their complex manufacture process, high emission of volatile organic compounds, and poor biodegradability. Herein, we present the development of biomass-based LAs fabricated by combining two low-cost natural components - fungal chitin and plant polyphenols (i.e., tannic acid, TA), through non-covalent interactions. Specifically, chitin was extracted from common mushrooms (e.g., Pleurotus ostreatus and Agaricus bisporus) through alkali treatment, and the biodegradable LAs were subsequently prepared by filtration, TA crosslinking, hot pressing, and dyeing. The incorporation of TA significantly enhanced the mechanical and antibacterial properties of LAs, achieving a tensile strength of 156 MPa. Additionally, the chitin-based LAs exhibited good water vapor permeability and were dyed in various colors with excellent levelness and fastness. Importantly, this synthetic strategy avoided the use of organic solvents and hazardous chemicals, showing potential for large-scale production. This work provides a simple and effective strategy to prepare biodegradable LAs from low-cost non-animal resources, aligning with social ethical standards and environmental requirements for sustainable development.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122805",
+   "pmid": "39562080",
+   "title": "High mechanical performance and multifunctional degraded fucoidan-derived bioink for 3D bioprinting.",
+   "authors": [
+    "Shuai Zhu",
+    "Zheng Zhou",
+    "Xin Chen",
+    "Wenxiang Zhu",
+    "Mengni Yang",
+    "Mengyi Yu",
+    "Jingjing Sun",
+    "You Zuo",
+    "Jiaqian He",
+    "Haobo Pan",
+    "Hairong Liu"
+   ],
+   "abstract": "While 3D bioprinting serves as a powerful tool in the field of tissue engineering, there is still a lack of natural biomaterial inks that simultaneously combine high mechanical performance with multiple biofunctionalities. Here, a single-component natural bioink with high strength and multi-biofunctionality was developed through the simple degradation and methacrylation of natural fucoidan. Hydrothermal degradation significantly decreased the natural fucoidan solution's viscosity by 99.9 %, meeting the necessary viscosity for Digital Light Processing (DLP) 3D printing. Meanwhile, various biofunctionalities of low molecular weight fucoidan obtained through degradation, such as antimicrobial and antioxidant properties, were developed. The resulting bioink exhibited good mechanical performance (compression modulus of 311 kPa), antimicrobial properties (antibacterial rates of 95.5 % and 97.9 % against E. coli and S. aureus, respectively), and antioxidant properties (intracellular ROS inhibition rates of 94.7 %). Using DLP 3D bioprinting, all printed products showed high shape fidelity with exceptional viability and activity of the encapsulated cells. Due to the unique sulfate structure resembling the natural components of chondroitin sulfate, the in vivo tests revealed its efficacy in promoting cartilage defect repair. In conclusion, the novel bioink blending high mechanical performance with multiple biofunctionalities, shows great potential in the 3D printing of tissue and organ regeneration.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122807",
+   "pmid": "39562082",
+   "title": "High-permeance nanocellulose/ZnO hybrid membranes with photo-induced anti-fouling performance for wastewater purification.",
+   "authors": [
+    "Yanling Lou",
+    "Jianfeng Xi",
+    "Liucheng Meng",
+    "Zifei Yan",
+    "Wen Deng",
+    "Huiyang Bian",
+    "Huining Xiao",
+    "Weibing Wu"
+   ],
+   "abstract": "A hybrid ultrafiltration membrane based on nanocellulose and zinc oxide nanoparticles (ZnO NPs) was prepared by simple layered filtration without any chemical modification. Microscopic morphology analysis showed that the loading ZnO NPs significantly increased the membrane roughness, and wettability test demonstrated that the membrane surface possessed underwater superoleophobicity. Due to the \"puncture effect\" of the embedded ZnO NPs, abundant nanochannels were formed in the nanocellulose membrane and the highest water permeance of 5439.7 L·m-2·h-1·bar-1 was achieved. The hybrid membranes exhibited high rejection of nanoparticles larger than 20 nm and macromolecules with molecular weights higher than 100 kDa. Furthermore, ZnO NPs significantly improved the wet tensile strength of membrane. The hybrid membranes achieved high separation efficiency of nano-sized emulsions via size exclusion and demulsification effect, as well as the efficient removal of organic dyes and antibiotics via filtration-adsorption. The combination of underwater superoleophobicity and photocatalytic self-cleaning performance effectively solved the problem of a sharp decrease in permeance caused by oil contamination. This type of nanocellulose/ZnO hybrid membrane, which integrates high permeance, high filtration accuracy, and photocatalytic anti-fouling performance in one design, offers an innovative approach to the preparation of nanocellulose membranes for the treatment of organic wastewater.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122811",
+   "pmid": "39562086",
+   "title": "Multiscale cellulose-based optical management films with tunable transparency and haze fabricated by different bamboo components and mechanical defibrillation approaches.",
+   "authors": [
+    "Yu Chen",
+    "Yuting Zhang",
+    "Juan Long",
+    "Kaimeng Xu",
+    "Tuhua Zhong"
+   ],
+   "abstract": "Renewable cellulose is an outstanding candidate to prepare biomass-based optical management films with tunable transparency and haze. Micro-scale and nano-scale cellulose derived from the parenchyma cells (PC) and bamboo fibers (BF) of Dendrocalamus sinicus was first separated and then subjected to succinic esterification and mechanical defibrillation using three different methods: ultrasonication, high-speed blending, and microfluidization. Sustainable multiscale optical management films with tunable haze were obtained by changing the weight ratios of micro/nanoscale cellulose. The PC-based micro/nano cellulose (MNC) films obtained by microfluidization with the highest content of nanoscale cellulose (96.5 %) displayed the highest light transmittance (89.4 %) and tensile strength (164.3 MPa) but the lowest haze (32.0 %) and anti-glare ability. The BF-based MNC films obtained by ultrasonication with the lowest content of nanoscale cellulose (20.4 %) but the highest content of microscale cellulose (79.6 %) showed the highest haze (96.7 %), a medium light transmittance (81.3 %), and the outstanding anti-glare effects. The MNC films with both high in transparency (84.8-87.5 %) and haze (81.5-88.4 %) along with good strength and flexibility can be obtained by tuning the bamboo components and mechanical defibrillation methods. This study provides a green and facile way to fabricate sustainable optical management films.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122814",
+   "pmid": "39562089",
+   "title": "Preparation of hydrophobic and lipophilic carboxymethyl cellulose composite aerogel using ferrous ion/ persulfate and its directed oxidation for oil-water emulsion separation.",
+   "authors": [
+    "Huali Zeng",
+    "Shaoyan Wang",
+    "Xiao Zhao",
+    "Baojie Liu",
+    "Zhiwei Zhang",
+    "Chengrong Qin",
+    "Chen Liang",
+    "Caoxing Huang",
+    "Shuangquan Yao"
+   ],
+   "abstract": "In particular, efficient oxidative demulsification is an effective method for oil-water separation. However, the inactivation of free radicals owing to the rapid release of transition metals is the main factor that reduces the effectiveness. In this study, a hydrophobic and lipophilic CP/SiO2@Fe2+ composite aerogel was prepared using carboxymethyl cellulose as substrate, polyvinyl alcohol as reinforcement, and SiO2 nanoparticles as hydrophobic modifier. The resulting aerogel had a water contact angle of 139°, oil absorption yield of 99.9 %, higher specific surface area 132.13 m2·g-1, low density of 0.021 g·cm-3, and high porosity of 98.60 %. Fe2+ was slowly released from the composite aerogel after efficient Fe2+ loading of 65.77 mg·g-1. The drug exhibited a low release rate of 87.72 % after 9 h, which was higher than that of the composite aerogel. This promoted the efficient presence of SO4-· activated from persulfate oxidation in the catalytic oxidative demulsification system over a long period. The green and efficient separation of oily-water was achieved by the synergistic effect of the adsorption of the hydrophobic and lipophilic composite aerogel and targeted and efficient oxidative demulsification. These results demonstrate the advantages of high separation efficiency, durability, stability of the CP/SiO2@Fe2+ composite aerogel for oil-water separation.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122820",
+   "pmid": "39562095",
+   "title": "Influence of incorporating beta-cyclodextrin/essential oil-based wood preservative on the bonding strength of wood composite products.",
+   "authors": [
+    "Hamed Olayiwola",
+    "Edward D Entsminger",
+    "Carson Bedics",
+    "Jason T Street",
+    "Santanu Kundu",
+    "Yunsang Kim"
+   ],
+   "abstract": "The introduction of additives during the production of wood composites may disrupt the development of bonding strength between wood and adhesive, potentially compromising the structural performance of wood composites. This study investigates the impact of incorporating a natural wood preservative into 3-ply southern yellow pine (SYP) plywood on its bonding strength. The formation of β-cyclodextrin and trans-cinnamaldehyde (βCD-tCN) inclusion complex as a natural wood preservative was confirmed by Fourier transform infrared and X-ray diffraction analyses, with an inclusion yield ranging 78 % to 120 %. The differential scanning calorimetry analysis found the curing of pMDI with wood was not significantly affected by the βCD-based additives. The influence of βCD-tCN addition on the bonding strength of a wood composite was assessed by a shear strength test of the 3-ply plywood, following ASTM D906-20. The average shear strength of all panels ranged 1.53 N/mm2 to 2.07 N/mm2, exceeding the minimum requirement of 1.00 N/mm2 for cross-layer bond lines according to EN 16351-2015. Statistical analysis indicated no significant differences between the bonding strength of pristine pMDI and pMDI containing βCD-tCN complex. The combined results suggest that βCD-tCN could be effectively implemented in the manufacturing of wood composite products.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122840",
+   "pmid": "39562113",
+   "title": "Mussel-inspired highly adhesive carrageenan-based coatings with self-activating enhanced activity for meat preservation.",
+   "authors": [
+    "Yumeng Li",
+    "Yongsheng Ni",
+    "Wei He",
+    "Haoran Li",
+    "Wendi Zhang",
+    "Lijun Tan",
+    "Jinsong Zhao",
+    "Baocai Xu"
+   ],
+   "abstract": "In order to solve the problem of poor adhesion of polysaccharide coatings in meat storage and inconvenient secondary spraying, which leads to poor preservation effect, this study was inspired by the property of mussels to adhere firmly to surfaces and design a bioactive composite coating. Here, curcumin-loaded zein nanoparticles (CZ NPs) were successfully prepared and incorporated into carrageenan-based biocomposite coatings for chilled meat preservation. The prepared curcumin-zein-riboflavin-carrageenan (CZRC) coating featured smooth spherical morphology and the solubility of hydrophobic substances, the adhesion and stability of the composite coating were respectively improved to 3.8 and 6 times compared to CZ NPs. The CZRC coating also shows desirable antioxidant activity (89.78 ± 4.8 % on DPPH and 91.40 ± 2.1 % on ABTS+) and the treatment based on CZRC coating under light irradiation reduced Pseudomonas fragi (by 2.02 log CFU/mL) and Brochothrix thermosphacta (by 4.35 log CFU/mL), which prolonged the shelf life of lamb and pork to 1.8 and 2.3 times at 4 °C storage condition. This work provides a viable strategy for the development of highly adhesive coatings with self-activation enhanced activity to achieve long-lasting preservation.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122852",
+   "pmid": "39562121",
+   "title": "The instability of pectin-based emulsions in the upper digestive tract investigated based on the molecular structure and interfacial properties of pectin.",
+   "authors": [
+    "Yizheng Du",
+    "Yuying Chen",
+    "Ting Liu",
+    "Mengyu Ma",
+    "Liping Feng",
+    "Jinkai Zheng"
+   ],
+   "abstract": "Pectin is a widely used natural emulsifier that is thought to stabilize emulsions in the upper gastrointestinal tract (GIT). However, changes in the structural characteristics and interfacial properties of pectin during its digestive treatment in the upper GIT and the effects on the stability of pectin-based emulsions are still unclear. This study showed that the stability of pectin-based emulsions steadily decreased in the upper GIT. Reductions in the molecular weight of pectin (from 2.74× 105 to 1.61× 105 g/mol) occurred mainly in the stomach, whereas the degree of esterification (from 61.2 % to 42.1 %) decreased throughout the digestive treatment. The change in the structure of pectin reduced its hydrophobicity in the upper GIT, and led to form a cross-linked network with Ca2+ in small intestine rather than adsorbing to the oil-water interface. The behavior was reflected in the increased interfacial tension and the decreases in the interfacial modulus and thickness of pectin. Our insights into the structural characteristics and interfacial properties of pectin and thus into the mechanism of pectin instability in the upper GIT will contribute to the development of more efficient encapsulation methods and improved targeted delivery for active substances or probiotics using pectin-based emulsions.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122887",
+   "pmid": "39567125",
+   "title": "Hemp cellulose-based aerogels and cryogels: From waste biomass to sustainable absorbent pads for food preservation.",
+   "authors": [
+    "Laura Cabrera-Villamizar",
+    "Jéssica Fernanda Pereira",
+    "María Castanedo",
+    "Amparo López-Rubio",
+    "María José Fabra"
+   ],
+   "abstract": "This study presents a circular economy approach utilizing hemp stems and rice straw, typically perceived as low-value agricultural waste, to develop a sustainable alternative to traditional plastic absorbent pads for food packaging. The development of an active material was achieved through the utilization of hemp cellulose and a bioactive extract isolated from rice straw. In addition to reducing plastic pollution, this material demonstrates the potential to enhance food preservation. This research provides evidence of the benefits of repurposing agricultural by-products to create valuable and environmentally-friendly products. Hemp cellulose was extracted, characterized, and processed to develop stable aerogels and cryogels through supercritical CO2 drying and freeze-drying. The water stability and internal structure of the materials were guided via TEMPO-mediated oxidation and high-pressure homogenization. Both materials showed versatile physicochemical and mechanical properties. Nevertheless, with higher water sorption (2.20 mL/g), minimal dimensional changes, and lower shrinkage, cryogels were suitable for meat absorbent pad application. To enhance the cryogels functionality, they were impregnated with a rice straw bioactive extract in two different concentrations. The incorporation of the extract did not affect the structure of the cryogels, improved their mechanical properties and the antioxidant activity remained stable after drying (63.89-78.96 %). Finally, the performance of the developed materials was compared to commercial plastic pads and pristine meat preservation challenge test during 9 days at refrigeration conditions. The incorporation of rice straw extract improved meat color preservation. While moderate extract concentrations (75 mg/g) showed a protective effect against lipid oxidation, higher levels (187.5 mg/g) induced pro-oxidant reactions. This research highlights the potential of hemp cellulose-based cryogels as sustainable and functional packaging materials for meat products.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122888",
+   "pmid": "39567126",
+   "title": "A facile sunflower pectin gel foam for liquid fuel fire suppression with ReaxFF characterisation on its char-enhancing ability.",
+   "authors": [
+    "Chang Tian",
+    "Anthony Chun Yin Yuen",
+    "Jinlong Zhao",
+    "Timothy Bo Yuan Chen",
+    "Qian Chen",
+    "Ivan Miguel De Cachinho Cordeiro"
+   ],
+   "abstract": "A biomass fire suppression gel foam (FSGF) with outstanding thermal stability and fire resistance performance was synthesised to improve the flame retardancy of foam agents on liquid fuel fires. The foam comprehensive index, microstructure, thermal stability, fire resistance and extinguishing properties of the FSGF were benchmarked against aqueous film-forming foam (AFFF). Subsequently, reactive forcefield (ReaxFF) molecular dynamics (MD) simulations were performed on the FSGF to study the thermokinetic properties. Based on the experimental results, a porosity layer was found on the external film of FSGF, which enhanced the thermal stability of the foam. The gelling mechanism of the foam is the formation of an O-Ca-O bond. Through MD simulations it was discovered that the remained calcium oxide/hydroxide species when deposited on fuel surfaces would promote char formation as they capture H/O atoms via dehydration. Alternatively, the foam showed better thermal stability than that of AFFF due to a lower weight loss rate and longer collapse time. The extinguishing performance tests demonstrated that the fire extinguishing time and resistance time of FSGF respectively are 72 s and 801 s, showing a significant potential to suppress the re-ignition of tank fires.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122890",
+   "pmid": "39567127",
+   "title": "Multifunctional lignin-reinforced cellulose foam for the simultaneous removal of oils, dyes, and metal ions from water.",
+   "authors": [
+    "Zhenrong Tan",
+    "Beibei Yang",
+    "Weifeng Liu",
+    "Dongjie Yang",
+    "Xueqing Qiu",
+    "Dafeng Zheng"
+   ],
+   "abstract": "Pollutants emitted by industry pose an emerging threat to ecosystems, human health and native species, which has attracted global attention. At present, most of the biomass-based water remediation materials suffer from the poor mechanical properties, complexity of the modification process, single function and low adsorption capacity. Therefore, a high-strength lignin/cellulose foam absorbent (LCMA) with super-hydrophilic surface was developed for wastewater treatment by using lignin as the skeleton to crosslink cellulose through sol-gel method. Combined with an abundance of reactive functional groups and a highly porous structure, LCMA demonstrated a superior absorption and removal performance for cationic dyes and heavy metal ions, with separation efficiencies exceeding 99.76 % for cationic dyes and 99.85 % for heavy metal ions. Further modification of LCMA by a facile method using polydopamine (PDA) and polyethyleneimine (PEI) imparted superhydrophilicity to the foams. The developed LCMA@PDA@PEI exhibited an impressive immiscible oil-water separation performance and emulsion separation performance (Separation efficiency >99.95 % for immiscible oil-water mixtures and >99.05 % for oil-in-water emulsions). With the capabilities of simultaneous removal for dyes, heavy metal ions and oil pollutants from water, LCMA holds a broad application prospect in the water remediation, especially in the treatment of polluted water with complex components.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122910",
+   "pmid": "39567142",
+   "title": "Two-directions mechanical strength and high-barrier mechanisms of cellulose nanocrystal- based hybrids reinforced packaging with nacre-mimetic structure.",
+   "authors": [
+    "Amare Worku Alebachew",
+    "Somia Yassin Hussain Abdalkarim",
+    "Jingli Zhu",
+    "Shuping Wu",
+    "Yuanhua Zhang",
+    "Hou-Yong Yu",
+    "Khaydar E Yunusov"
+   ],
+   "abstract": "This work represents a new composite film with a nacre-mimetic structure through the alignment of hybrids comprising cellulose nanocrystals and ball-milled boron nitride (CNC-BNNS), within polypropylene carbonate (PPC) endowed with various properties. The impact of CNC-BNNS hybrids on mechanical strength mechanisms was evaluated under two-directional forces, marking the first such assessment. Using a solution casting approach, incorporating 5 % CNC-BNNS improved tensile strength by 67.6 % longitudinally and 4 % in the cross-sectional direction of the prepared PPC composite. Adding 5 %, CNC-BNNS increased the maximum degradation temperature by 12.1 °C and the glass transition temperature by 6.8 °C, as anticipated. Through synergies between CNC-BNNS and PPC, composite film with 15 % CNC-BNNS displayed enhanced barrier properties, notably reducing oxygen permeability (OP) and water vapor permeability (WVP) by 26.1 % and 90.9 %. Consequently, strawberries and blueberries packaged with these films saw extended shelf lives of up to 6 days. Furthermore, the degradation mechanisms of the composite in natural soil were investigated to assure the environmental issue, revealing a fast degradation rate of 44.5 % over 90 days. This study proposes a sustainable method for producing high-performance composite materials with antioxidant, liquid leakage resistance, and UV resistance, making them ideal for food packaging.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122921",
+   "pmid": "39567143",
+   "title": "How to select agroforestry waste biomass for electrospinning and its potential application in bone tissue engineering.",
+   "authors": [
+    "Longjie Yuan",
+    "Shouxian Zhong",
+    "Shakeel Ahmad",
+    "Dong Tian",
+    "Chenghong Ao"
+   ],
+   "abstract": "The high value-added utilization of agroforestry waste biomass is an urgent requirment. Herein, a feasible approach was provided to obtain biodegradable cellulose fibrous films from agroforestry waste biomass. The cellulose used was extracted from agroforestry waste biomass and then the cellulose fibrous film was obtained by direct electrospinning. Lignin-carbohydrate complex (LCC) structure was considered as the key factor for the dissolution of lignocellulose, while cellulose molecular weight > 335,664 was suitable for electrospinning. Bamboo cellulose was chosen as an example to verify the potential application of the electrospun cellulose films from agroforestry waste biomass. The as-prepared electrospun bamboo cellulose fibrous film exhibited a tensile strength of 24.12 MPa, which outperformed most of the reported electrospun nanofibrous films. Moreover, the film possessed a super-wetting surface and outstanding cytocompatibility. These excellent properties offer the film with immense potential for application in bone tissue engineering. In addition, this work provides a new route for transforming agroforestry waste into high value-added products.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122927",
+   "pmid": "39567145",
+   "title": "Life cycle assessment (LCA) of chitin nanocrystal reinforced polylactic acid (ChNC/PLA) and polyethylene terephthalate (PET) packaging material.",
+   "authors": [
+    "Murat Yanat",
+    "Esther Voortman",
+    "Carla Buijsse",
+    "Karin Schroën"
+   ],
+   "abstract": "Bio-nanocomposites hold the promise to reduce environmental impact of plastic materials and lessen reliance on non-renewable resources as is the case for fossil-based plastics. In this study, we present chitin nanocrystal (ChNC) reinforced polylactic acid (PLA) as biodegradable polymer with natural-origin nanoparticles, enhancing the base polymer's strength. Until now, these bio-nanocomposites have been evaluated from fundamental and practical perspectives, yet, in-depth research on their environmental impact remains limited. We conducted a life cycle assessment (LCA) for upscaled ChNC production including its incorporation into PLA. We compare with the benchmark polyethylene terephthalate (PET) using ten impact indicators, primarily focusing on climate change. For PLA, PET, and ChNC/PLA (5 % particles), the production processes resulted in 3.04, 3.21, and 4.26 kg CO2 equivalent, respectively. Recycling processes greatly enhance plastics sustainability, though practical implementation remains challenging. On that aspect, compostable PLA and ChNC/PLA materials outperform conventional plastics that end up in landfill. The climate change impact of ChNC production can be reduced by 30 to 40 % by decreasing HCl and water use during acid hydrolysis and energy used during drying compared to current laboratory conditions. These insights incorporated into ChNC/PLA production and post-use strategies can guide bio-nanocomposite production toward more sustainable practices.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.122942",
+   "pmid": "39567157",
+   "title": "A deep eutectic solvent with bifunctional acid sites treatment to upgrade a bamboo kraft pulp into a cellulose-acetate grade dissolving pulp.",
+   "authors": [
+    "Chaochao Tian",
+    "Chao Duan",
+    "Yuchen Bie",
+    "Xiaoshuang Liu",
+    "Bingxu Zhou",
+    "Ruoteng Ma",
+    "Qi Fan",
+    "Zengyin Xie",
+    "Yonghao Ni"
+   ],
+   "abstract": "Valorization of non-wood pulp, such as bamboo bleached kraft pulp into high-purity cellulose acetate (CA)-grade dissolving pulp is crucial but challenging in China. Herein, a series of metal salt-based deep eutectic solvents (MSDESs) involving various ZnCl2-urea (U), ZnCl2-glycerol (G), and ZnCl2-lactic acid (LA) are comparatively investigated for this purpose. Thanks to the bifunctional acid sites of Lewis acid ZnCl2 and Brønsted acid LA, the ZnCl2-LA MSDES has the highest acidity (2.62) and interaction affinity to bamboo fibers, leading to the highest efficiency in simultaneous pulp purification and activation. As a result, the resultant upgraded pulp from ZnCl2-LA (DES3-F) features remarkable improvements in purity (from 80.8 % to 93.1 %), intrinsic viscosity (from 897 to 419 mg/L), and reactivity (from 18.1 % to 80.8 %). Moreover, the modified acetate product has a high degree of substitution of 2.84 and a yield of 75.5 %. In short, such a proposed MSDES treatment can offer a promising and alternative approach for the manufacture of high-quality dissolving pulp and its derivatives.",
+   "coverDate": "2025-01-15",
+   "coverDisplayDate": "15 January 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123031",
+   "pmid": "39638510",
+   "title": "Valorizing brewery industry waste in nanocellulose cryogel-PEG composites for cold chain packaging.",
+   "authors": [
+    "Nadia Ahmadi Heidari",
+    "Nasser Hamdami",
+    "Gilberto Siqueira",
+    "Gustav Nyström"
+   ],
+   "abstract": "Global concerns about food and energy waste call for new sustainable solutions. Phase changing materials (PCM) are promising thermal storage and management materials which have potential to mitigate food waste, yet they often suffer from leakage and non-shape stability. Here, a green shape-stabilized polyethylene glycol 300 (PEG) nanocellulose-based composite was developed using readily available and cost-effective side streams from the brewery industry. Two different routes were examined for the incorporation of PEG into the cellulose nanofiber (CNF) cryogel including adding different dry mass ratios of PEG in the sol stage, with or without physical crosslinking, or adding the PEG after CNF gelation. FTIR and TGA analysis revealed the improved thermal stability of PEG after incorporation into the CNF cryogel. The PEG/CNF composite produced by adding PEG in the gel stage outperformed the other material formulations by demonstrating the highest enthalpy value (93.2 J/g) and the best mechanical properties (Young's modulus of 140 kPa). The package containing the PEG/CNF composite could maintain the meat temperature below 0 °C around 4 times longer than the control package when the cold system was interrupted. Furthermore, the PEG/CNF composite showed a positive effect on the color and drip loss values of frozen meat.",
+   "coverDate": "2025-02-01",
+   "coverDisplayDate": "1 February 2025"
+  },
+  {
+   "doi": "10.1016/j.carbpol.2024.123011",
+   "pmid": "39638522",
+   "title": "Unveiling the structural properties of three pectin fractions variation affecting pulp browning during peach processing.",
+   "authors": [
+    "Weining Chen",
+    "Jinfeng Bi",
+    "Wenyue Wang",
+    "Xuan Li"
+   ],
+   "abstract": "Peach ripening accompanying by processing browning exacerbated has not been clarified in perspective of pectin fractions structural variation. This study investigated pectin fractions of water-soluble (WSP), trans-cyclohexane-1,2-diaminetetraacetic acid-soluble (CSP) and sodium carbonate-soluble (NSP) pectin in peach with different ripening times (24, 48, 72 h) and pretreatments (cold shock, CaCl2, the combination) effect on pulp browning in processing. Results showed that extended ripening time increases browning index and rate, along with increased reactive oxygen species levels, polyphenol oxidase and pectinase activities, and the structural of the pectin fractions. Thereinto, weight-average (Mw) and number-average (Mn) molecular weight of WSP increased, its linearity and branching degree decreased, while CSP and NSP showed decreases in Mw, Mn, and branching degree, but increases in linearity, rhamnogalacturonan structure proportion, and bending degree. Browning was correlated positively with Mn, Mw, rhamnogalacturonan proportion of WSP and CSP, linearity and bending degree of NSP, while negatively correlated with Mw of CSP and NSP and esterification degree and branching of all fractions. Thus, maintaining pectin polydispersity and rhamnogalacturonan branching helps protect the system from being quickly browning by compartmentalization effect of hindering the polyphenol substrates and enzymes possibly effective. This study offers insights into controlling browning through pectin fractions modulation.",
+   "coverDate": "2025-02-01",
+   "coverDisplayDate": "1 February 2025"
+  }
+ ]
+}
