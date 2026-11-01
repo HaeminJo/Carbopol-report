@@ -1,0 +1,484 @@
+{
+  "generated_at_utc": "2026-11-01T22:01:00Z",
+  "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE(ar)) coverDate desc paging (~1500 entries scanned) + PubMed E-utilities (ESearch/ESummary, 2yr and 14-day supplemental) + WebSearch supplemental checks",
+  "target_count": 20,
+  "raw_new_candidates_from_scopus": [
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054023414"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054023414?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105054023414&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105054023414&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0144861726010386"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105054023414",
+      "dc:identifier": "SCOPUS_ID:105054023414",
+      "eid": "2-s2.0-105054023414",
+      "dc:title": "Heterologous production of structurally distinct levans in an optimized Paenibacillus polymyxa chassis",
+      "dc:creator": "Lanvers P.",
+      "prism:publicationName": "Carbohydrate Polymers",
+      "prism:issn": "01448617",
+      "prism:eIssn": "18791344",
+      "prism:volume": "393",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-12-01",
+      "prism:coverDisplayDate": "1 December 2026",
+      "prism:doi": "10.1016/j.carbpol.2026.125921",
+      "pii": "S0144861726010386",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affilname": "University of Münster",
+          "affiliation-city": "Munster",
+          "affiliation-country": "Germany"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "article-number": "125921",
+      "source-id": "25801",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          },
+          {
+            "$": "repository"
+          },
+          {
+            "$": "repositoryam"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          },
+          {
+            "$": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054370471"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054370471?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105054370471&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105054370471&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0144861726010799"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105054370471",
+      "dc:identifier": "SCOPUS_ID:105054370471",
+      "eid": "2-s2.0-105054370471",
+      "dc:title": "Adhesive hydrogels reinforced with cellulose nanocrystal–amyloid-like protein composites",
+      "dc:creator": "Huang X.",
+      "prism:publicationName": "Carbohydrate Polymers",
+      "prism:issn": "01448617",
+      "prism:eIssn": "18791344",
+      "prism:volume": "393",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-12-01",
+      "prism:coverDisplayDate": "1 December 2026",
+      "prism:doi": "10.1016/j.carbpol.2026.125962",
+      "pii": "S0144861726010799",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affilname": "Aalto University",
+          "affiliation-city": "Espoo",
+          "affiliation-country": "Finland"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "article-number": "125962",
+      "source-id": "25801",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054385020"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054385020?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105054385020&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105054385020&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0144861726010696"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105054385020",
+      "dc:identifier": "SCOPUS_ID:105054385020",
+      "eid": "2-s2.0-105054385020",
+      "dc:title": "Low-moisture ethanol–aqueous heat-moisture treatment drives V-type crystalline inclusion assembly of wheat starch–stilbene complexes to modulate digestibility and gut microbiota",
+      "dc:creator": "Zhang Z.",
+      "prism:publicationName": "Carbohydrate Polymers",
+      "prism:issn": "01448617",
+      "prism:eIssn": "18791344",
+      "prism:volume": "393",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-12-01",
+      "prism:coverDisplayDate": "1 December 2026",
+      "prism:doi": "10.1016/j.carbpol.2026.125952",
+      "pii": "S0144861726010696",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affilname": "South China University of Technology",
+          "affiliation-city": "Guangzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "article-number": "125952",
+      "source-id": "25801",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054304431"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054304431?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105054304431&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105054304431&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0144861726010945"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105054304431",
+      "dc:identifier": "SCOPUS_ID:105054304431",
+      "eid": "2-s2.0-105054304431",
+      "dc:title": "One-step oxidative assembly of carboxylated cellulose/δ-MnO2 composite adsorbents with dual active sites for efficient Pb(II) removal",
+      "dc:creator": "Jin G.",
+      "prism:publicationName": "Carbohydrate Polymers",
+      "prism:issn": "01448617",
+      "prism:eIssn": "18791344",
+      "prism:volume": "393",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-12-01",
+      "prism:coverDisplayDate": "1 December 2026",
+      "prism:doi": "10.1016/j.carbpol.2026.125977",
+      "pii": "S0144861726010945",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affilname": "China University of Mining and Technology",
+          "affiliation-city": "Xuzhou",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "article-number": "125977",
+      "source-id": "25801",
+      "openaccess": "0",
+      "openaccessFlag": false
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054203070"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054203070?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105054203070&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105054203070&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0144861726010957"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105054203070",
+      "dc:identifier": "SCOPUS_ID:105054203070",
+      "eid": "2-s2.0-105054203070",
+      "dc:title": "Cyclodextrin polymers efficiently incorporate linezolid through multiple binding modes: insights from experiments and molecular simulations",
+      "dc:creator": "Godinez-Leon J.A.",
+      "prism:publicationName": "Carbohydrate Polymers",
+      "prism:issn": "01448617",
+      "prism:eIssn": "18791344",
+      "prism:volume": "393",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-12-01",
+      "prism:coverDisplayDate": "1 December 2026",
+      "prism:doi": "10.1016/j.carbpol.2026.125978",
+      "pii": "S0144861726010957",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affilname": "Institut des Sciences Moléculaires d'Orsay",
+          "affiliation-city": "Orsay",
+          "affiliation-country": "France"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "article-number": "125978",
+      "source-id": "25801",
+      "openaccess": "1",
+      "openaccessFlag": true,
+      "freetoread": {
+        "value": [
+          {
+            "$": "all"
+          },
+          {
+            "$": "publisherhybridgold"
+          }
+        ]
+      },
+      "freetoreadLabel": {
+        "value": [
+          {
+            "$": "All Open Access"
+          },
+          {
+            "$": "Hybrid Gold"
+          }
+        ]
+      }
+    },
+    {
+      "@_fa": "true",
+      "link": [
+        {
+          "@_fa": "true",
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054317170"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "author-affiliation",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105054317170?field=author,affiliation"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105054317170&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105054317170&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@ref": "full-text",
+          "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0144861726010994"
+        }
+      ],
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105054317170",
+      "dc:identifier": "SCOPUS_ID:105054317170",
+      "eid": "2-s2.0-105054317170",
+      "dc:title": "Tailoring birefringence and stabilizing its wavelength dispersion in cellulose triacetate optical films via polystyrene side-chain grafting",
+      "dc:creator": "Min X.",
+      "prism:publicationName": "Carbohydrate Polymers",
+      "prism:issn": "01448617",
+      "prism:eIssn": "18791344",
+      "prism:volume": "393",
+      "prism:pageRange": null,
+      "prism:coverDate": "2026-12-01",
+      "prism:coverDisplayDate": "1 December 2026",
+      "prism:doi": "10.1016/j.carbpol.2026.125982",
+      "pii": "S0144861726010994",
+      "citedby-count": "0",
+      "affiliation": [
+        {
+          "@_fa": "true",
+          "affilname": "Harbin Institute of Technology",
+          "affiliation-city": "Harbin",
+          "affiliation-country": "China"
+        },
+        {
+          "@_fa": "true",
+          "affilname": "School of Physics, Harbin Institute of Technology",
+          "affiliation-city": "Harbin",
+          "affiliation-country": "China"
+        }
+      ],
+      "prism:aggregationType": "Journal",
+      "subtype": "ar",
+      "subtypeDescription": "Article",
+      "article-number": "125982",
+      "source-id": "25801",
+      "openaccess": "0",
+      "openaccessFlag": false
+    }
+  ],
+  "excluded_microbial_focus": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125921",
+      "title": "Heterologous production of structurally distinct levans in an optimized Paenibacillus polymyxa chassis",
+      "reason": "제목상 핵심 주제가 Paenibacillus polymyxa 균주의 '최적화된 섀시(chassis)'를 이용한 이종발현(heterologous production) 균주 개발/생산 최적화로 판단되어 미생물 중심 논문 배제 기준에 해당"
+    }
+  ],
+  "collected_count": 5,
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125962",
+      "pii": "S0144861726010799",
+      "title": "Adhesive hydrogels reinforced with cellulose nanocrystal–amyloid-like protein composites",
+      "first_author": "Huang X.",
+      "volume": "393",
+      "cover_date": "2026-12-01",
+      "focus_keyword_match": [
+        "cellulose",
+        "hydrogel"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125952",
+      "pii": "S0144861726010696",
+      "title": "Low-moisture ethanol–aqueous heat-moisture treatment drives V-type crystalline inclusion assembly of wheat starch–stilbene complexes to modulate digestibility and gut microbiota",
+      "first_author": "Zhang Z.",
+      "volume": "393",
+      "cover_date": "2026-12-01",
+      "focus_keyword_match": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125977",
+      "pii": "S0144861726010945",
+      "title": "One-step oxidative assembly of carboxylated cellulose/δ-MnO2 composite adsorbents with dual active sites for efficient Pb(II) removal",
+      "first_author": "Jin G.",
+      "volume": "393",
+      "cover_date": "2026-12-01",
+      "focus_keyword_match": [
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125978",
+      "pii": "S0144861726010957",
+      "title": "Cyclodextrin polymers efficiently incorporate linezolid through multiple binding modes: insights from experiments and molecular simulations",
+      "first_author": "Godinez-Leon J.A.",
+      "volume": "393",
+      "cover_date": "2026-12-01",
+      "focus_keyword_match": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125982",
+      "pii": "S0144861726010994",
+      "title": "Tailoring birefringence and stabilizing its wavelength dispersion in cellulose triacetate optical films via polystyrene side-chain grafting",
+      "first_author": "Min X.",
+      "volume": "393",
+      "cover_date": "2026-12-01",
+      "focus_keyword_match": [
+        "cellulose"
+      ]
+    }
+  ]
+}
