@@ -1,0 +1,477 @@
+{
+  "generated_at_utc": "2026-11-03T22:02:00Z",
+  "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE(ar)) coverDate desc paging, FULL scan of 3,256 entries across 2024-2026 (131 pages) + PubMed E-utilities (ESearch date-range 2024/11/01-2024/12/31 + EFetch for abstracts/authors via DOI cross-reference). Found 1,104 unprocessed candidates total (not in seen_articles.json); 302 of those fall within the 2-year eligibility window (>=2024-11-03). Continued prior run's FIFO backlog clearing starting at 2024-11-15 (12 unprocessed from that issue) through 2024-12-01 issue.",
+  "target_count": 20,
+  "raw_new_candidates_scopus_full_scan": 1104,
+  "raw_new_candidates_within_2yr_window": 302,
+  "candidates_evaluated_this_run": 29,
+  "excluded_review": [],
+  "excluded_microbial_focus": [
+    {
+      "doi": "10.1016/j.carbpol.2024.122577",
+      "title": "Anti-bacterial effects, and metabolites derived from bifidobacterial fermentation of an exopolysaccharide of Cs-HK1 medicinal fungus",
+      "reason": "핵심 주제가 비피더스균(Bifidobacterium breve, B. longum) 발효를 통한 대사산물 생성 및 그 항균효과 규명으로, 미생물 발효 공정과 생물학적 특성이 논문의 중심이라고 판단하여 제외"
+    }
+  ],
+  "collected_count": 28,
+  "focus_keyword_count": 18,
+  "remaining_backlog_note": "2024-12-15~2026-11 발행분 중 처리하지 못한 약 274편(302-28)이 state/seen_articles.json에 기록되지 않은 채 남아 있어 다음 회차 이후 FIFO로 순차 처리 예정. 2026-12-01(최신호) 인근 500편 중 신규 미처리 논문은 1편(10.1016/j.carbpol.2026.125980)만 확인됨.",
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2024.122472",
+      "title": "Strong, tough, and freeze-tolerant all-natural cellulose-based ionic conductor enabled by multiscale cellulose networks",
+      "authors": [
+        "Dong Wu",
+        "Mi Wang",
+        "Wen Yu",
+        "Gui-Gen Wang",
+        "Jiaheng Zhang"
+      ],
+      "date": "2024-11-15",
+      "desc": "여과지(filter paper)를 현장 용해·재조립하여 멀티스케일 셀룰로오스 네트워크를 형성함으로써 인장강도 14.13 MPa, 이온전도도 76.3 mS/cm의 이온 전도체를 구현했으며, 영하 60도에서도 작동하는 유연 변형 센서 및 슈퍼커패시터로의 응용 가능성을 제시했다.",
+      "focus": true,
+      "tags": [
+        "cellulose",
+        "paper"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122521",
+      "title": "Harnessing the CD44-targeted delivery of self-assembled hyaluronan nanogel to reverse the antagonism between Cisplatin and Gefitinib in NSCLC cancer therapy",
+      "authors": [
+        "Hua Guo",
+        "Huimin Wang",
+        "Menghan Gao",
+        "Hong Deng",
+        "Yiyi Zhang"
+      ],
+      "date": "2024-11-15",
+      "desc": "시스플라틴과 게피티닙 병용 시 발생하는 약물 간 상호 억제 문제를 해결하기 위해 두 약물을 자가조립 히알루론산 나노젤(177.8 nm)에 공동 담지하고, CD44 수용체 표적 전달을 통해 비소세포폐암 모델에서 항암 효능을 개선했다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122491",
+      "title": "Tough polyacrylic acid hydrogels with stable swelling and active functionalities enabled by quaternized cellulose nanofibrils and iron ions for absorbent pad interlayers",
+      "authors": [
+        "Wenjiao Ge",
+        "Shan Cao",
+        "Han Yu",
+        "Xiaohui Wang"
+      ],
+      "date": "2024-12-01",
+      "desc": "4차화 셀룰로오스 나노피브릴과 Fe3+ 이온을 이용해 화학·물리 이중 가교망을 형성한 폴리아크릴산 하이드로겔을 제작해 인장강도 1.98 MPa, 신율 838.8%의 기계적 물성과 항산화·항균 활성을 동시에 확보했으며, 흡수성 패드 내부층 소재로서의 가능성을 제시했다.",
+      "focus": true,
+      "tags": [
+        "hydrogel",
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122597",
+      "title": "Oxidized paramylon self-assembled nanoparticles loaded with fucoxanthin attenuate insulin resistance in HpeG2 cells",
+      "authors": [
+        "Hongliang Li",
+        "Yingmeng Hou",
+        "Shiyu Jia",
+        "Mingqian Tan",
+        "Haitao Wang"
+      ],
+      "date": "2024-12-01",
+      "desc": "산화 파라밀론 기반 자가조립 나노입자에 푸코잔틴을 82.47%의 담지율로 캡슐화하여 위에서는 보호하고 장에서 72.17% 방출되도록 설계했으며, Nrf2/HO-1 경로 활성화를 통해 HepG2 세포의 인슐린 저항성을 개선함을 확인했다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122591",
+      "title": "Modulating the isotopic hydrogen-deuterium exchange in functionalized nanocellulose to optimize SANS contrast",
+      "authors": [
+        "Vikram Singh Raghuwanshi",
+        "David Joram Mendoza",
+        "Jitendra Mata",
+        "Gil Garnier"
+      ],
+      "date": "2024-12-01",
+      "desc": "작은각 중성자 산란(SANS) 분석을 위해 작용기화된 나노셀룰로오스의 수소-중수소 동위원소 치환 양상을 규명했고, 황산기 함량이 높은 CNC는 교환이 거의 일어나지 않는 반면 미세결정셀룰로오스와 저황산 CNC는 치환이 활발함을 밝혀, 이를 활용해 PNIPAM 그라프트 셀룰로오스나노섬유의 온도 응답성 코일-글로불 전이 구조를 중성자 산란으로 가시화했다.",
+      "focus": true,
+      "tags": [
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122590",
+      "title": "Hierarchical electrodes with superior cycling performance using porous material based on cellulose nanofiber as flexible substrate",
+      "authors": [
+        "Keke Du",
+        "Dongyan Zhang",
+        "Xiaofeng Wu",
+        "Pengcheng Shi",
+        "Shuangbao Zhang"
+      ],
+      "date": "2024-12-01",
+      "desc": "셀룰로오스나노섬유(CNF) 다공성 기판 위에 양전하 고분자(PEI)와 전도성 고분자(PEDOT:PSS)를 층별자기조립 방식으로 교대 적층해 5 mV/s에서 63.71 F/g의 정전용량과 3000회 충방전 후 128%의 용량 유지율을 갖는 유연 전극을 구현했다.",
+      "focus": true,
+      "tags": [
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122580",
+      "title": "All-aqueous synthesis of alginate complexed with fibrillated protein microcapsules for membrane-bounded culture of tumor spheroids",
+      "authors": [
+        "Yue Wei",
+        "Zhixiang Cai",
+        "Zhou Liu",
+        "Changkun Liu",
+        "Tiantian Kong"
+      ],
+      "date": "2024-12-01",
+      "desc": "다중 암(multi-arm) 구조로 가교한 라이소자임 피브릴 클러스터를 알긴산과 복합화하여 수중 수적(W/W) 에멀전 계면 안정성을 크게 높였으며, 이를 통해 종양 스페로이드를 장기간 배양할 수 있는 반투과성 마이크로캡슐을 제작했다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122576",
+      "title": "Synthesis of linear chitosan-block-dextran copolysaccharides with dihydrazide and dioxyamine linkers",
+      "authors": [
+        "Elise Courtecuisse",
+        "Sylvain Bourasseau",
+        "Bjørn E Christensen",
+        "Christophe Schatz"
+      ],
+      "date": "2024-12-01",
+      "desc": "디히드라지드(ADH)와 디옥시아민(PDHA) 두 링커를 이용해 키토산과 덱스트란의 환원 말단을 연결하는 블록 공중합 전략을 비교한 결과, PDHA 옥심 결합이 가수분해에 더 안정적임을 확인하고 분자량 최대 1.4만(키토산)~4만(덱스트란) g/mol 수준의 선형 공중합다당을 고수율로 합성했다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122568",
+      "title": "Photothermal enhanced antibacterial chitosan-based polydopamine composite hydrogel for hemostasis and burn wound repairing",
+      "authors": [
+        "Liming Chang",
+        "Yanai Chen",
+        "Min Zhou",
+        "Yuanwei Gao",
+        "Yong Wang"
+      ],
+      "date": "2024-12-01",
+      "desc": "4차 암모늄과 폴리인산을 그라프트한 키토산 하이드로겔에 광열제인 폴리도파민을 복합화하여, 폴리인산에 의한 혈액응고인자 V 활성화로 지혈을 촉진하고 근적외선 조사와 결합해 화상 상처 치유를 가속하는 복합 소재를 개발했다.",
+      "focus": true,
+      "tags": [
+        "hydrogel"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122566",
+      "title": "Tough and highly conductive deep eutectic solvent-based gel electrolyte strengthened by high aspect ratio of hemp lignocellulosic nanofiber",
+      "authors": [
+        "Tianqi Li",
+        "Xinyu Cheng",
+        "Yifan Feng",
+        "Enqing Zhu",
+        "Qing Zhang"
+      ],
+      "date": "2024-12-01",
+      "desc": "대마 섬유를 젖산/염화콜린 공융용매(DES)와 콜로이드밀 기계처리로 가공해 폭 20 nm 이하의 리그노셀룰로오스 나노섬유를 얻고, 이를 보강재로 사용한 겔 전해질이 10 mS/cm 이상의 전도도와 1000% 이상의 신율, 3000회 순환 후에도 유지되는 용량 특성을 보임을 확인했다.",
+      "focus": true,
+      "tags": [
+        "biomass",
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122565",
+      "title": "Green extraction of chitin from hard spider crab shells",
+      "authors": [
+        "Carlotta Campalani",
+        "Ilaria Bertuol",
+        "Chiara Bersani",
+        "Roberto Calmanti",
+        "Svitlana Filonenko"
+      ],
+      "date": "2024-12-01",
+      "desc": "암모늄 포르메이트 등 수용성 이온성 액체를 활용한 원스텝 공정으로 왕게 껍질 바이오매스 폐기물에서 키틴을 추출했으며, 섭씨 150도 조건에서 아세틸화도 94% 이상, 수율 17 wt%의 상용 키틴에 준하는 고품질 키틴을 얻었다.",
+      "focus": true,
+      "tags": [
+        "biomass"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122556",
+      "title": "Effect of pectin modification on the properties of cellulose nanofibrils prepared from citrus peel",
+      "authors": [
+        "Akio Kumagai",
+        "Keita Sakakibara"
+      ],
+      "date": "2024-12-01",
+      "desc": "감귤 과피라는 비목질계 바이오매스에서 얻은 셀룰로오스 나노피브릴(CNF)을 알칼리 탈메틸에스터화 또는 펙티나아제 처리로 펙틴 함량을 조절한 결과, 재분산성과 점도가 개선되었으며 수정 방식에 따라 CNF 간 상호작용 양상이 달라짐을 수정 크리스탈 마이크로밸런스(QCM) 분석으로 규명했다.",
+      "focus": true,
+      "tags": [
+        "pectin",
+        "cellulose",
+        "biomass"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122555",
+      "title": "Leaf starch degradation by β-amylase ZmBAM8 influences drought tolerance in maize",
+      "authors": [
+        "Liangjie Niu",
+        "Xiaolin Wu",
+        "Hui Liu",
+        "Xiuli Hu",
+        "Wei Wang"
+      ],
+      "date": "2024-12-01",
+      "desc": "옥수수 잎의 일시 저장 전분(TS) 분해에 관여하는 β-아밀라아제 유전자 ZmBAM8의 과발현·결손 라인을 비교해, 가뭄·삼투압 스트레스 시 해당 유전자가 전분 분해를 촉진함으로써 가뭄 내성을 높인다는 것을 입증했다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122550",
+      "title": "Heterojunction functionalized sodium alginate/carboxylated cellulose nanocrystals film enhancing sterilization performance for wound healing",
+      "authors": [
+        "Baijie Cheng",
+        "Ruolin Wang",
+        "Xinhao Wang",
+        "Nan Wang",
+        "Xiao-Kun Ouyang"
+      ],
+      "date": "2024-12-01",
+      "desc": "그래핀옥사이드(GO)와 ZIF-8의 이종접합을 수소결합 네트워크를 통해 알긴산/카르복시화 셀룰로오스 나노결정 필름에 고정시켜 광촉매 항균 성능을 높였으며, 대장균·황색포도상구균에 대해 99% 이상의 억제율과 90.5%의 상처 치유 효율을 달성했다.",
+      "focus": true,
+      "tags": [
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122599",
+      "title": "A thermal cross-linking approach to developing a reinforced elastic chitosan cryogel for hemostatic management of heavy bleeding",
+      "authors": [
+        "Chengkun Liu",
+        "Zi Li",
+        "Lili Liu",
+        "Xianfeng Qu",
+        "Zhuang Shi"
+      ],
+      "date": "2024-12-01",
+      "desc": "동결건조 후 α-케토글루타르산을 이용한 열보조 가교로 대공극 구조의 탄성 키토산 크라이오젤을 제작했으며, 분자량 150 kDa 조건에서 간 손상 및 대퇴동맥 손상 출혈 모델 모두에서 출혈량과 지혈 시간을 60% 이상 감소시켰다.",
+      "focus": true,
+      "tags": [
+        "hydrogel"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122603",
+      "title": "Crocin-1 laden thermosensitive chitosan-based hydrogel with smart anti-inflammatory performance for severe full-thickness burn wound therapeutics",
+      "authors": [
+        "Xiansen Lv",
+        "Hui Li",
+        "Ya Chen",
+        "Yanting Wang",
+        "Jinhua Chi"
+      ],
+      "date": "2024-12-01",
+      "desc": "수산화부틸키토산 기반 온도감응성 하이드로겔에 크로신-1을 담지하여 초기 돌출 방출 후 서서히 지속 방출되도록 설계했으며, 활성산소와 염증성 사이토카인을 조절해 전층 화상 상처의 혈관신생과 조직재생을 촉진함을 확인했다.",
+      "focus": true,
+      "tags": [
+        "hydrogel"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122595",
+      "title": "Butterfly wing-inspired superhydrophobic photonic cellulose nanocrystal films for vapor sensors and asymmetric actuators",
+      "authors": [
+        "Bang An",
+        "Mingcong Xu",
+        "Wenye Sun",
+        "Chunhui Ma",
+        "Sha Luo"
+      ],
+      "date": "2024-12-01",
+      "desc": "나비 날개의 구조를 모사해 키랄 네마틱 배열의 셀룰로오스 나노결정이 만드는 구조색 층과 마이크로-나노 구조의 초발수성 층을 결합한 필름을 설계했으며, 비색 습도 센서와 비대칭 구동 액추에이터로서의 활용 가능성을 제시했다.",
+      "focus": true,
+      "tags": [
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122589",
+      "title": "Effect of maturity on the drying characteristics of lotus seed and molecular structure, gelation and digestive properties of its starch",
+      "authors": [
+        "Zhixia Sun",
+        "Jun Chen",
+        "Taotao Dai",
+        "Chengliang Lv",
+        "Ruihong Liang"
+      ],
+      "date": "2024-12-01",
+      "desc": "연 종자의 숙성도가 높아질수록 건조시간이 5.8시간에서 1.0시간으로 단축되고, 아밀로스 함량 증가·결정성 저하와 함께 전분의 소화율이 높아짐을 규명하여 가공에 적합한 숙성 단계를 제시했다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122584",
+      "title": "A cascaded process to upgrade bleached bamboo pulp into dissolving pulp and arabinoxylan",
+      "authors": [
+        "Qiongyao Su",
+        "Daizunyan He",
+        "Jianping Luo",
+        "Xiaowen Zhou",
+        "Shiyu Wu"
+      ],
+      "date": "2024-12-01",
+      "desc": "공융용매(DES) 전처리와 기계적 리파이닝을 결합한 2단계 캐스케이드 공정으로 표백 대나무 펄프에서 고품질 용해펄프(α-셀룰로오스 97.7%)와 아라비노자일란을 동시에 생산했으며, 투입 100 g당 용해펄프 63.8 g과 아라비노자일란 13.0 g을 회수했다.",
+      "focus": true,
+      "tags": [
+        "biomass",
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122583",
+      "title": "Preparation of debranched starch with high thermal stability and crystallinity using a novel thermal cycling treatment",
+      "authors": [
+        "Liyang Zhou",
+        "Xiyin Zheng",
+        "Jiahui Yan",
+        "Xiaoyang He",
+        "David Julian McClements"
+      ],
+      "date": "2024-12-01",
+      "desc": "4°C-50°C-100°C 구간의 반복 열순환 처리를 통해 탈분지 전분의 결정구조를 불안정한 B형에서 더 조밀한 A형으로 전환시켰으며, 7회 순환 후 결정화도 약 81.9%, 8회 순환 후 저항전분 함량 약 61.9%까지 끌어올렸다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122581",
+      "title": "Influence of pH on the emulsifying property of high methyl-esterified citrus pectin in the presence of calcium cations",
+      "authors": [
+        "Chuanhui Fan",
+        "Yu Guo",
+        "Fang Cai",
+        "Lan Wang",
+        "Wei Yu"
+      ],
+      "date": "2024-12-01",
+      "desc": "고메톡시 감귤 펙틴 용액의 pH를 3~8 범위로 조절한 뒤 칼슘 이온을 첨가해 유화 특성을 비교한 결과, 용액이 중성 pH 부근일 때 칼슘에 의한 유화력 향상 효과가 가장 크게 나타남을 입자 크기·레올로지 분석으로 확인했다.",
+      "focus": true,
+      "tags": [
+        "pectin"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122574",
+      "title": "Composite microneedles loaded with Astragalus membranaceus polysaccharide nanoparticles promote wound healing by curbing the ROS/NF-κB pathway to regulate macrophage polarization",
+      "authors": [
+        "Xiaowei Liu",
+        "Chunjing Guo",
+        "Weili Yang",
+        "Wenxin Wang",
+        "Ningning Diao"
+      ],
+      "date": "2024-12-01",
+      "desc": "백합 다당과 카르복시메틸키토산을 기본 골격으로 하고 바이칼린·베르베린을 담지한 ROS 반응성 황기 다당 나노입자를 결합한 한약재 복합 마이크로니들 패치를 개발하여, ROS/NF-κB 경로 조절을 통한 대식세포 분극화 유도로 당뇨 상처 치유를 촉진했다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122572",
+      "title": "Different polysaccharide-enhanced probiotic and polyphenol dual-functional factor co-encapsulated microcapsules demonstrate acute colitis alleviation efficacy and food fortification",
+      "authors": [
+        "Rui Sun",
+        "Zhongyi Lv",
+        "Ying Wang",
+        "Menghui Li",
+        "Jianrui Qi"
+      ],
+      "date": "2024-12-01",
+      "desc": "펙틴/알긴산 기반 캡슐과 푸전차 다당 기반 캡슐을 각각 카제인·유청단백질과 층별 코아세르베이션으로 제조해 프로바이오틱스-폴리페놀을 공동 캡슐화한 결과, 전자는 위산 내 생존율과 대장 부착력이 우수했고 후자는 항산화 활성과 급성 대장염 완화 효과가 뛰어났다.",
+      "focus": true,
+      "tags": [
+        "pectin"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122569",
+      "title": "Self-enhanced PTX@HSA-HA loaded functionalized injectable hydrogel for effective local chemo-photothermal therapy in breast cancer",
+      "authors": [
+        "Hang Gao",
+        "Hang Li",
+        "Shuaiqiang Shao",
+        "Lintongqing Tan",
+        "Yudie Wang"
+      ],
+      "date": "2024-12-01",
+      "desc": "티올화 히알루론산을 폴리도파민과 가교해 광열제이자 매트릭스 역할을 겸하는 주사형 하이드로겔을 제작하고, 파클리탁셀과 혈청알부민으로 이루어진 나노입자를 탑재해 유방암 마우스 모델에서 광열-화학 병용요법으로 종양 성장을 억제하고 면역반응을 유도했다.",
+      "focus": true,
+      "tags": [
+        "hydrogel"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122567",
+      "title": "Antibacterial cellulose solution-blown nonwovens modified with salicylic acid microcapsules using NMMO as solvent",
+      "authors": [
+        "Huihui Zhang",
+        "Zhaobin Chen",
+        "Gesheng Yang",
+        "Xiang Yao",
+        "Yaopeng Zhang"
+      ],
+      "date": "2024-12-01",
+      "desc": "NMMO를 용매로 사용한 용액 방사 공정으로 셀룰로오스 부직포를 제조하고 살리실산 마이크로캡슐을 첨가한 결과, 함량이 늘수록 항균 방출 효과는 커졌으나 역학적 물성과 투습성은 소폭 감소하는 트레이드오프를 확인했다.",
+      "focus": true,
+      "tags": [
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122564",
+      "title": "Highly precise strategy of polygalacturonic acid microcarriers functionalized with zwitterions and specific peptides for MSC screening",
+      "authors": [
+        "Jianchao Li",
+        "Ziyuan Guo",
+        "Zhenxv Wu",
+        "Yu Wang",
+        "Zongliang Wang"
+      ],
+      "date": "2024-12-01",
+      "desc": "폴리갈락투론산 마이크로캐리어 표면에 쯔비터이온을 그라프트해 비표적 세포 오염을 막는 수화층을 만들고, 특이 펩타이드를 클릭 반응으로 고정해 혼합 세포 환경에서 중간엽줄기세포를 95% 이상의 정확도로 선별·포획하는 기술을 구현했다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122563",
+      "title": "Tetraphenylborate enhanced enzymatic production of γ-cyclodextrin: System construction and its mechanism",
+      "authors": [
+        "Zihang Jiang",
+        "Yu Xiao",
+        "Zhengyao Xu",
+        "Zhengbiao Gu",
+        "Zhaofeng Li"
+      ],
+      "date": "2024-12-01",
+      "desc": "바실루스 유래 효소(γ-CGTase)를 이용한 카사바 전분의 γ-사이클로덱스트린 생산 공정에 테트라페닐보레이트를 도입해 전환율을 18.07%에서 50.49%로, γ-CD 비율을 78.81%까지 높였으며 NMR과 분자도킹으로 결합 메커니즘을 규명했다.",
+      "focus": false,
+      "tags": []
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122562",
+      "title": "High-capacity adsorption of organic dyes using separable pullulan gel encapsulated with PDA-modified ZIF-8",
+      "authors": [
+        "Ting Su",
+        "Hongxia Shang",
+        "Xinru Su",
+        "Zhixian Sun",
+        "Yuehan Li"
+      ],
+      "date": "2024-12-01",
+      "desc": "풀루란과 폴리도파민 개질 ZIF-8 나노입자를 결합한 하이드로겔 흡착제를 제작하여 말라카이트그린 615.4 mg/g, 콩고레드 525.8 mg/g의 높은 염료 흡착 용량을 보였으며, pH 응답성 재생 특성으로 5회 재사용 후에도 88% 이상의 흡착 성능을 유지했다.",
+      "focus": true,
+      "tags": [
+        "hydrogel"
+      ]
+    }
+  ]
+}
