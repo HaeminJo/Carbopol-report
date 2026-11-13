@@ -1,0 +1,87 @@
+{
+  "generated_at_utc": "2026-11-13T21:58:00+00:00",
+  "collection_method": "Elsevier Scopus Search API (ISSN 0144-8617, sorted by -coverDate, paginated 524 records via start/count=25, PUBYEAR > 2024) covering coverDate range ~2026-08 through 2026-12 (Articles in Press). Cross-checked against PubMed E-utilities (ESearch NOT Review[pt], reldate=60, 294 total records, all retrieved via ESearch+EFetch) -- all 294 PubMed records were already present in state/seen_articles.json, confirming no new PubMed-indexed articles existed beyond what prior runs already captured. The only genuinely new records were 6 very recent Scopus-only Articles-in-Press (DOI prefix 10.1016/j.carbpol.2026.1259xx/1260xx, formal issue date 2026-12-01/12-15) not yet indexed in PubMed. Elsevier Abstract Retrieval API (default view) returned HTTP 200 but no abstract text; FULL view returned 401 Unauthorized (API key lacks entitlement), so abstract text could not be retrieved for these 5 articles via any available method (WebSearch also found no matching abstracts for these titles). ScienceDirect direct article pages returned HTTP 403.",
+  "target_count": 20,
+  "collected_count": 5,
+  "excluded_count": 1,
+  "exclusion_criteria": [
+    "review articles (subtype 're' in Scopus, or 'Review' publication type / title keyword in PubMed)",
+    "microbe-centric articles (core topic is microbial biology/strain development/fermentation rather than the polysaccharide/polymer material)"
+  ],
+  "focus_keyword_count": 3,
+  "articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125993",
+      "title": "Chiral cellulose nanocrystal - MXene nanocomposite architectures for resource-efficient energy storage",
+      "authors_first": "Allu S.G.",
+      "coverDate": "2026-12-15",
+      "volume": "394",
+      "article_number": "125993",
+      "eid": "2-s2.0-105055732203",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "abstract_available": false
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.126003",
+      "title": "Structural topology of multi-component poly(tertiary amine)/carboxymethyl cellulose cationic hybrids: A comparative study on cryotropic vs. conventional gelation strategies",
+      "authors_first": "Ulker Z.",
+      "coverDate": "2026-12-15",
+      "volume": "394",
+      "article_number": "126003",
+      "eid": "2-s2.0-105055668662",
+      "focus_keywords": [
+        "cellulose"
+      ],
+      "abstract_available": false
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.126004",
+      "title": "Starch-based dual-network hydrogel with low swelling, ultra-stretchability and high resilience",
+      "authors_first": "Li X.",
+      "coverDate": "2026-12-15",
+      "volume": "394",
+      "article_number": "126004",
+      "eid": "2-s2.0-105055613095",
+      "focus_keywords": [
+        "hydrogel"
+      ],
+      "abstract_available": false
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.126005",
+      "title": "Enhancement of sizing properties of quaternized-butyrylated corn starch by nano-SiO2-g-poly(acrylic acid): Roles of amount and grafting ratio",
+      "authors_first": "Li W.",
+      "coverDate": "2026-12-15",
+      "volume": "394",
+      "article_number": "126005",
+      "eid": "2-s2.0-105055690443",
+      "focus_keywords": [
+        "paper"
+      ],
+      "abstract_available": false
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.126017",
+      "title": "Catechol-functionalized chitosan nanofiber-coated ZIF-8 composite gauze for rapid hemostasis and antibacterial activity",
+      "authors_first": "Shi Y.",
+      "coverDate": "2026-12-15",
+      "volume": "394",
+      "article_number": "126017",
+      "eid": "2-s2.0-105055744136",
+      "focus_keywords": [],
+      "abstract_available": false
+    }
+  ],
+  "excluded_articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125984",
+      "title": "Decoding the glycan architecture of Fusobacterium gonidiaformans rough-type lipopolysaccharide: implications for lectin recognition and immune response",
+      "authors_first": "Olmeo F.",
+      "coverDate": "2026-12-01",
+      "eid": "2-s2.0-105054925137",
+      "exclusion_reason": "microbe-centric (bacterial LPS structure/immunology, core topic is the organism itself, not a polysaccharide/polymer material science focus)"
+    }
+  ]
+}
