@@ -1,0 +1,44 @@
+{
+ "run_timestamp_utc": "2026-11-14_2159",
+ "collection_methods": [
+   "Elsevier Scopus Search API (ISSN 0144-8617), sorted by -coverDate, paged start=0..2200+, ~600 entries sampled covering 2025-07-15 to 2026-12-15",
+   "PubMed E-utilities ESearch/EFetch (Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt], reldate=60), 293 records",
+   "WebSearch supplementary check (no new articles identified)"
+ ],
+ "elsevier_scidir_api_status": "HTTP 410 (endpoint unavailable); substituted with Scopus Search API (api.elsevier.com/content/search/scopus), which succeeded (HTTP 200)",
+ "target_new_articles": 20,
+ "actual_new_articles_found": 2,
+ "eligibility_filters_applied": [
+   "exclude review/systematic review/mini-review",
+   "exclude microbe-centric (bacteria/fungi/yeast strain biology) articles",
+   "published within last 2 years",
+   "not already in state/seen_articles.json"
+ ],
+ "new_articles": [
+   {
+     "doi": "10.1016/j.carbpol.2026.125995",
+     "title": "Spherical cellulose II nanocrystal-enabled active films inspired by fruit peel via Pickering emulsions: Structural reinforcement, food preservation, and volatile profile regulation",
+     "first_author": "Yan X.",
+     "affiliation": "Nanjing Forestry University, China",
+     "cover_date": "2026-12-15",
+     "volume": "394",
+     "subtype": "Article",
+     "source": "Scopus Search API",
+     "abstract_available": false,
+     "focus_keyword_match": "cellulose"
+   },
+   {
+     "doi": "10.1016/j.carbpol.2026.126016",
+     "title": "Structure–property evolution in corn starch-integrated cationic poly(alkyl methacrylate)-based hybrids: Composition- and cryoprocessing-controlled stimuli-responsive behavior",
+     "first_author": "Bozbay R.",
+     "affiliation": "İstanbul Teknik Üniversitesi, Turkey",
+     "cover_date": "2026-12-15",
+     "volume": "394",
+     "subtype": "Article",
+     "source": "Scopus Search API",
+     "abstract_available": false,
+     "focus_keyword_match": null
+   }
+ ],
+ "notes": "Repository's seen_articles.json already covers 5,352 DOIs spanning roughly 2025-07 through 2026-12 with no gaps detected during this run's full re-scan; essentially all previously indexed Carbohydrate Polymers research articles in that window have already been processed in prior runs. Only 2 genuinely new, eligible research articles were identified since the previous run. Elsevier Abstract Retrieval API returned coredata/affiliation only (no abstract text, no full author list) for this API key tier; descriptions in the report were inferred from titles only, not copied from any abstract."
+}
