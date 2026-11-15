@@ -1,0 +1,540 @@
+{
+  "run_timestamp_utc": "2026-11-15_2200",
+  "collection_methods": [
+    "Elsevier Scopus Search API (ISSN 0144-8617), sorted by -coverDate, paged start=0..~3023 of 3926 total (date=2024-2026 filter), subtype metadata used to auto-exclude reviews",
+    "PubMed E-utilities ESearch/EFetch (Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt]) used to enrich abstracts via DOI lookup; top-300 most-recent PubMed records (reldate=730) yielded 0 new candidates not already in Elsevier results / seen_articles.json",
+    "WebSearch supplementary search: not needed, target of 20 already exceeded (23 found) via Elsevier+PubMed"
+  ],
+  "elsevier_scidir_api_status": "HTTP 410 (endpoint discontinued); substituted with Scopus Search API (api.elsevier.com/content/search/scopus), which succeeded (HTTP 200)",
+  "target_new_articles": 20,
+  "actual_new_articles_found": 23,
+  "eligibility_filters_applied": [
+    "exclude review/systematic review/mini-review (Scopus subtypeDescription != Article)",
+    "exclude microbe-centric articles (strain development/culture optimization/transcriptome-secretome of the organism itself) — 4 candidates excluded: Chitiniphilus secretome (10.1016/j.carbpol.2025.123272), Aureobasidium pullulans YQ65 pullulan production (10.1016/j.carbpol.2024.123196), Aureobasidium pullulans BL06 transcriptome (10.1016/j.carbpol.2024.122984), GOS/2-FL effect on bacterial EPS production (10.1016/j.carbpol.2024.122660)",
+    "published within last 2 years (cover_date >= 2024-11-15)",
+    "not already in state/seen_articles.json (5354 entries prior to this run)"
+  ],
+  "new_articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125992",
+      "title": "Injectable, self-healing, pH-responsive, all-polysaccharide macro-, micro-, and nanogels based on oxidized hydroxypropyl pullulan and carboxymethyl chitosan",
+      "first_author": "Friday C.",
+      "authors_full": null,
+      "cover_date": "2026-12-15",
+      "volume": "394",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": false,
+      "pmid": null,
+      "focus_keywords": [],
+      "korean_summary": "산화된 하이드록시프로필 풀루란과 카르복시메틸 키토산을 동적 화학결합으로 가교하여, 주사 가능하고 pH 변화에 반응하며 손상 후 스스로 치유되는 매크로겔·마이크로겔·나노겔 플랫폼을 설계한 연구로 보인다. (초록이 아직 색인되지 않은 Articles in Press로, 제목 정보를 바탕으로 요약함)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.126008",
+      "title": "Alginate oligosaccharides promote maize seedling growth and nitrogen accumulation by orchestrating O-glycosylation of ZmDWARF8",
+      "first_author": "Ma W.",
+      "authors_full": null,
+      "cover_date": "2026-12-15",
+      "volume": "394",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": false,
+      "pmid": null,
+      "focus_keywords": [],
+      "korean_summary": "알지네이트 올리고당이 옥수수 ZmDWARF8 유전자의 O-글리코실화를 조절하여 유식물의 생장과 질소 축적을 촉진한다는 내용으로, 다당류 유래 농업용 바이오자극제로서의 활용 가능성을 제시한 연구로 보인다. (초록이 아직 색인되지 않은 Articles in Press로, 제목 정보를 바탕으로 요약함)"
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122891",
+      "title": "Melt processing of chemically modified cellulosic fibres with only water as plasticiser: Effects of moisture content and processing temperature",
+      "first_author": "Engel E.R.",
+      "authors_full": [
+        "Emile R Engel",
+        "Giada Lo Re",
+        "Per A Larsson"
+      ],
+      "cover_date": "2025-01-15",
+      "volume": "348",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39567128",
+      "focus_keywords": [
+        "cellulose",
+        "paper"
+      ],
+      "korean_summary": "천연 셀룰로스 섬유를 다이알코올 셀룰로스로 부분 개질해 열가소성을 부여하고, 물만을 가소제로 사용해 용융 압출 가공을 성공적으로 구현했다. NMR, 현미경, 인장시험, X선 회절 분석 결과 결정성 저하와 섬유 단축으로 인장강도는 다소 감소했지만 연성이 크게 향상되었으며, 생성된 압출물이 기존 제지 재활용 공정과 호환됨을 실증했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122833",
+      "title": "The human gut Bacteroides eggerthii expresses a new galactofuranose-containing lipooligosaccharide with weak immunostimulatory properties",
+      "first_author": "Tiemblo Martín M.",
+      "authors_full": [
+        "Marta Tiemblo Martín",
+        "Magali Coccimiglio",
+        "Emanuela Andretta",
+        "Luca De Simone Carone",
+        "Andrew Bell",
+        "Tania Gerpe-Amor",
+        "Cristina Di Carluccio",
+        "Antonio Molinaro",
+        "Yvette van Kooyk",
+        "Nathalie Juge",
+        "Fabrizio Chiodo",
+        "Flaviana Di Lorenzo",
+        "Alba Silipo"
+      ],
+      "cover_date": "2025-01-15",
+      "volume": "348",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39562107",
+      "focus_keywords": [],
+      "korean_summary": "인체 장내 박테리아 Bacteroides eggerthii가 생산하는 갈락토푸라노스 함유 리포올리고당(LOS)의 전체 구조를 규명하고, 이 LOS가 인체 세포주에서 TLR4 신호전달을 약하게만 활성화하며 대장균 LPS 대비 수지상세포 성숙 유도 효과가 훨씬 약함을 보였다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122753",
+      "title": "Synergistic action of novel maltohexaose-forming amylase and branching enzyme improves the enzymatic conversion of starch to specific maltooligosaccharide",
+      "first_author": "Zhong L.",
+      "authors_full": [
+        "Lingli Zhong",
+        "Peiwen Wang",
+        "Min Jiang",
+        "Yitong Zheng",
+        "Xiaofan Xu",
+        "Xianfeng Ye",
+        "Yan Huang",
+        "Yanling Ji",
+        "Zhongli Cui",
+        "Zhoukun Li"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486982",
+      "focus_keywords": [],
+      "korean_summary": "해양 믹소박테리아 유래 신규 말토헥사오스 형성 아밀레이스(AmyEs)와 분지화 효소를 비동시적으로 적용하는 전환 전략을 설계하여, 옥수수 전분으로부터 특정 말토올리고당의 순도와 수율을 단일 효소 처리 대비 각각 최대 9.5%p, 5%p 높였다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122757",
+      "title": "Improvement of lactose digestion by highland barley (Hordeum vulgare var. coeleste L.) β-glucan: Activation of lactase under simulated gastric/small intestinal digestive conditions",
+      "first_author": "Yang J.",
+      "authors_full": [
+        "Jun Yang",
+        "Shuzhen Ma",
+        "Sihong Tao",
+        "Muci Wu",
+        "Qian Wu",
+        "Jingyi Wang"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486985",
+      "focus_keywords": [],
+      "korean_summary": "하이랜드 보리에서 추출한 수용성 β-글루칸이 모의 위장관 소화 조건에서 락테이스와 자발적으로 복합체를 형성해 효소의 활성부위를 노출시킴으로써 촉매 활성을 최대 172.6%까지 끌어올렸으며, 다당류가 단순한 효소 저해제가 아니라 활성 증진제로도 기능할 수 있음을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122768",
+      "title": "Reactive oxygen species-sensitive fenofibrate-loaded dextran nanoparticles in alleviation of osteoarthritis",
+      "first_author": "Sheng W.",
+      "authors_full": [
+        "Weibei Sheng",
+        "Shuai Liao",
+        "Siyang Cao",
+        "Yihao Wei",
+        "Jin Zhao",
+        "Yaohang Yue",
+        "Haotian Qin",
+        "Tiantian Qi",
+        "Junyu Qian",
+        "Jianjing Lin",
+        "Jian Weng",
+        "Yingqi Chen",
+        "Deli Wang",
+        "Fei Yu",
+        "Peng Liu",
+        "Hui Zeng"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486995",
+      "focus_keywords": [],
+      "korean_summary": "활성산소(ROS)에 반응해 분해되는 덱스트란 나노입자에 페노피브레이트를 담지하여 연골세포의 철 의존성 세포사(ferroptosis)를 억제하는 전략을 제시했으며, 체외·체내 실험에서 지질과산화와 염증 매개물질 발현을 낮춰 골관절염 진행을 완화함을 확인했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122764",
+      "title": "Fluorescent alginate fiber with super-strong and super-tough mechanical performances for biomedical applications",
+      "first_author": "Guo N.",
+      "authors_full": [
+        "Ning Guo",
+        "Kang Wang",
+        "Jia Chen",
+        "Jiahao Chang",
+        "Huixuan Gan",
+        "Guolie Xie",
+        "Lei Zhang",
+        "Zhongtao Wu",
+        "Yun Liu"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486991",
+      "focus_keywords": [],
+      "korean_summary": "테트라페닐에틸렌 기반 계면활성제를 알지네이트 고분자 사슬 간 교차결합점으로 도입해 형광성과 기계적 강도를 동시에 갖춘 바이오파이버를 제작했으며, 파단강도 1.10 GPa, 인성 137.26 MJ/m³로 거미줄 단백질 섬유를 능가하는 성능과 함께 창상 치유를 촉진하는 형광 봉합사로서의 가능성을 입증했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122736",
+      "title": "Influence of fractions with different molecular weight distributions from high-amylose starches on their digestibility after recrystallization",
+      "first_author": "Shi J.",
+      "authors_full": [
+        "Jiali Shi",
+        "Kaixiao Zeng",
+        "Jiayue Guo",
+        "Pengjie Wang",
+        "Fazheng Ren",
+        "Shucheng Zhang",
+        "Siyuan Liu"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486966",
+      "focus_keywords": [],
+      "korean_summary": "고아밀로스 완두·옥수수 전분을 분자량별로 분획한 뒤 재결정화시켜 저항전분(RS3) 함량을 분석한 결과, 중합도 35~39 구간의 탈분지 전분 분획이 가장 높은 저항전분 함량(약 74~75%)을 보였고, 이는 나노~마이크로 스케일의 규칙적 응집 구조 형성과 관련됨을 다중 스케일 구조분석으로 규명했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122792",
+      "title": "Preparation of carrageenan fibers promoted by hydrogen bonding in a NaCl coagulation bath",
+      "first_author": "Zhang J.",
+      "authors_full": [
+        "Jie Zhang",
+        "Cuixia Qiao",
+        "Cunzhen Geng",
+        "Xuexia Liu",
+        "Yue Zeng",
+        "Qiaoli Chang",
+        "Gang Zhao",
+        "Zhixin Xue"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39487005",
+      "focus_keywords": [],
+      "korean_summary": "전통적인 KCl 대신 NaCl을 1차 응고욕으로, AlCl3를 2차 응고욕으로 사용하는 새로운 카라기난 섬유 습식 방사 공정을 개발하여, NaCl 응고욕이 카라기난 분자쇄 간 수소결합 형성을 촉진함으로써 기존 KCl 공정보다 우수한 기계적 물성의 섬유를 얻었다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122708",
+      "title": "Multi-omics analyses reveal mechanism for high resistant starch formation in an indica rice SSIIIa mutant",
+      "first_author": "Ying Y.",
+      "authors_full": [
+        "Yining Ying",
+        "Bowen Deng",
+        "Lin Zhang",
+        "Yaqi Hu",
+        "Lei Liu",
+        "Jinsong Bao",
+        "Feifei Xu"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486949",
+      "focus_keywords": [],
+      "korean_summary": "벼의 아밀로펙틴 합성 핵심 효소 SSIIIa 결손 돌연변이체(ss3a)를 멀티오믹스 분석으로 조사하여, 전분 축적 저하 대신 가용성 당·아미노산·지질이 증가하고 탄소가 당분해·당생성 경로로 재분배되는 기전을 규명했으며, 증가한 아밀로스-지질 복합체 형성이 저항전분 함량 상승의 원인임을 밝혔다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122783",
+      "title": "Starch/polyacrylamide hydrogels with flexibility, conductivity and sensitivity enhanced by two imidazolium-based ionic liquids for wearable electronics: Effect of anion structure",
+      "first_author": "Zhang Z.",
+      "authors_full": [
+        "Ziling Zhang",
+        "Lu Lu",
+        "Bingbing Hong",
+        "Qichao Ye",
+        "Li Guo",
+        "Chao Yuan",
+        "Bo Liu",
+        "Bo Cui"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39487002",
+      "focus_keywords": [
+        "hydrogel"
+      ],
+      "korean_summary": "옥수수 전분/폴리아크릴아미드 하이드로겔에 음이온 구조가 다른 두 종의 이미다졸륨계 이온성 액체를 도입하여 신축성(최대 신율 515.4%), 전기전도성(3.1 S/m), 압력 감응성(게이지 팩터 9.3)을 동시에 향상시켰으며, DFT 시뮬레이션으로 음이온 구조에 따라 기계적 물성과 전도성에 상반된 영향을 미침을 규명하고 이를 관절 동작·표정·온도 감지가 가능한 웨어러블 센서로 구현했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122690",
+      "title": "Nanozyme-chitosan-aerogel immobilized enzyme-driven biocatalytic cascade for therapeutic engineering of diabetic wounds",
+      "first_author": "Shen B.",
+      "authors_full": [
+        "Bowen Shen",
+        "Zhaoxu Yan",
+        "Yuxian Wang",
+        "Liying Zhu",
+        "Qianru Zhao",
+        "Ling Jiang"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486931",
+      "focus_keywords": [],
+      "korean_summary": "나노자임을 포함한 키토산 에어로젤에 글루코스 옥시데이스를 고정화한 생체촉매 캐스케이드 시스템을 설계하여, 메티실린 내성 황색포도상구균(MRSA) 바이오필름 부위의 포도당을 국소적으로 소모시켜 바이오필름을 효과적으로 제거하고 당뇨병성 창상 치유를 촉진함을 동물실험으로 확인했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122799",
+      "title": "The protective effect of two highly branched polysaccharides from corn silk fermented by Lactobacillus plantarum against acute liver injury",
+      "first_author": "Wu Y.",
+      "authors_full": [
+        "Yuxiang Wu",
+        "Ying Song",
+        "Ruiting Li",
+        "Ziyan Han",
+        "Liyin Li",
+        "Yishu Yan"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39487006",
+      "focus_keywords": [
+        "pectin"
+      ],
+      "korean_summary": "Lactobacillus plantarum으로 발효시킨 옥수수수염에서 고분지 다당류 두 분획(F-CSP-W, F-CSP-S)을 분리·정제하여 단당류 조성과 분지 구조를 상세히 규명하고, 펙틴 유사 측쇄를 가진 F-CSP-S가 우수한 항산화 활성을 나타내며 두 분획 모두 사염화탄소로 유도한 급성 간손상 마우스 모델에서 간 보호 효과를 보였다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122723",
+      "title": "A chitosan/gelatin/aldehyde hyaluronic acid hydrogel coating releasing calcium ions and vancomycin in pH response to prevent the formation of bacterial biofilm",
+      "first_author": "Li Y.",
+      "authors_full": [
+        "Yuange Li",
+        "Hong Sung Min",
+        "Chen Chen",
+        "Haojie Shan",
+        "Yiwei Lin",
+        "Fuli Yin",
+        "Yixian Chen",
+        "Liheng Lu",
+        "Xiaowei Yu"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486953",
+      "focus_keywords": [
+        "hydrogel"
+      ],
+      "korean_summary": "키토산/젤라틴/알데하이드 히알루론산 하이드로겔에 나노-TiO2를 적용해 기계적 강도를 보강하고 딥코팅으로 제조한 코팅층에 제올라이트 이미다졸레이트 골격체(ZIF)를 탑재하여, 산성 환경에서 분해되며 칼슘이온과 반코마이신을 순차적으로 방출함으로써 세균 바이오필름 형성을 억제하고 유리 세균을 살균하는 임플란트용 항균 코팅을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122782",
+      "title": "Preparation and structural characterization of a sulfated octasaccharide with heparin-like anticoagulant activity",
+      "first_author": "Yu N.",
+      "authors_full": [
+        "Ning Yu",
+        "Rui Fang",
+        "Zhao Ding",
+        "Xi Xu",
+        "Jianfa Zhang"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39487001",
+      "focus_keywords": [],
+      "korean_summary": "리클리노옥타오스를 출발물질로 한 원팟 화학합성으로 치환도가 정밀하게 제어된 헤파린 유사 활성의 설페이트화 옥타당(명칭: 옥타파린)을 제조하여, FT-IR·NMR로 황산화 위치를 규명하고 마우스·인체 혈액에서 헤파린에 준하는 Xa인자 억제 항응고 활성을 가지면서 출혈 위험이 낮음을 입증함으로써 동물 유래 헤파린의 대체 가능성을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122726",
+      "title": "Exploring the antibiofilm potential of chitosan nanoparticles by functional modification with chloroquine and deoxyribonuclease",
+      "first_author": "Xia W.",
+      "authors_full": [
+        "Wenyang Xia",
+        "Jun Li",
+        "Qiuchen Cai",
+        "Changxu Deng",
+        "Zubin Zhou",
+        "Xiaowei Yu",
+        "Chenglong Huang",
+        "Biao Cheng"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486956",
+      "focus_keywords": [],
+      "korean_summary": "양이온성 키토산 나노입자를 클로로퀸(DNA 인터칼레이팅제)과 데옥시리보뉴클레이스로 기능화하여 바이오필름 내 세포외 DNA(eDNA)를 표적 분해·교란시킴으로써, 표준 및 임상분리 황색포도상구균 바이오필름의 잔존 생물량을 최대 90%대에서 20%대로 낮추고 생체 내 감염모델에서도 균 수를 유의하게 감소시켰다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122760",
+      "title": "Supramolecular assembly strategy of modified starch chains for achieving recyclable emulsion biocatalysis within a narrow pH range",
+      "first_author": "Li Y.",
+      "authors_full": [
+        "Yang Li",
+        "Qunyu Gao",
+        "Liang Qi",
+        "BinBin Nian"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486986",
+      "focus_keywords": [],
+      "korean_summary": "옥테닐숙신산무수물로 개질한 비결정성 탈분지 전분 사슬(Am-OSA-St)을 이용해 pH 7.3~5.5의 좁은 범위에서 가역적으로 전환되고 스스로 회수되는 피커링 에멀젼 기반 생체촉매 시스템을 구축했으며, 분자동역학 시뮬레이션으로 카르복실기 양성자화에 따른 전분 사슬의 자기조립·미셀 형성 기전을 규명하고 리파아제·당분해효소 반응에서 우수한 재사용 안정성을 입증했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122735",
+      "title": "One-pot synthesis of γ-cyclodextrin of high purity from non-food cellulose via an in vitro ATP-free synthetic enzymatic biosystem",
+      "first_author": "Niu K.",
+      "authors_full": [
+        "Kangle Niu",
+        "Ziyuan Ni",
+        "Shiyu Yuan",
+        "Zixian Wang",
+        "Xu Fang"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486965",
+      "focus_keywords": [
+        "cellulose",
+        "biomass"
+      ],
+      "korean_summary": "비식용 셀룰로스를 기질로 ATP를 사용하지 않는 5종 효소 무세포 생물전환 시스템을 구축해 셀로비오스를 경유하여 고순도(90% 이상) γ-사이클로덱스트린을 합성했으며, 반응 경로와 조건을 최적화해 생산성을 기존 대비 16배 향상시켜 차세대 바이오매스 정제(biorefinery) 공정의 가능성을 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122763",
+      "title": "Optimization of starch foam extrusion through PVA polymerization, moisture content control, and CMCS incorporation for enhanced antibacterial cushioning packaging",
+      "first_author": "Liu F.",
+      "authors_full": [
+        "Fengsong Liu",
+        "Yifang Cao",
+        "Jiahao Ren",
+        "Yijia Xie",
+        "Xinglong Xiao",
+        "Yucong Zou",
+        "Hong Bai",
+        "Xiaowei Zhang",
+        "Ying Chen"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486990",
+      "focus_keywords": [],
+      "korean_summary": "전분 발포체 압출 공정에서 폴리비닐알코올(PVA)의 중합도와 수분 함량을 조절하고 카르복시메틸 키토산(CMCS)을 첨가하여, 수분 함량 12%·PVA 중합도 1700 조건에서 발포율 45.62, 흡수율 6.31%, 회복률 88.95%의 물성을 구현하고 CMCS 농도 증가에 따라 항균성이 향상되는 완충 포장재를 개발했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122704",
+      "title": "Polyhexamethylene biguanidine coated silver nanoparticles embedded into chitosan thiourea/PVA nanofibers as wound healing mats: In vitro and in vivo studies",
+      "first_author": "Nematollahi S.",
+      "authors_full": [
+        "Saeed Nematollahi",
+        "Samane Maghsoudian",
+        "Hamidreza Motasadizadeh",
+        "Zeinab Nouri",
+        "Kimia Azad",
+        "Yousef Fatahi",
+        "Nasrin Samadi",
+        "Mahsa Mahmoudieh",
+        "Alireza Shaabani",
+        "Rassoul Dinarvand"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486945",
+      "focus_keywords": [],
+      "korean_summary": "폴리헥사메틸렌비구아니드(PHMBG)로 코팅한 은나노입자를 키토산 티오요소/PVA 나노섬유에 담지하여 2도 화상 창상용 다기능 드레싱을 제조했으며, FE-SEM·XRD·ATR-FTIR 분석과 동물실험을 통해 평균 직경 약 75 nm의 균일한 나노섬유가 황색포도상구균·녹농균에 대해 3일 내 95%의 항균 효과와 빠른 창상 치유·조직 재생 효과를 보임을 확인했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122746",
+      "title": "High-abundance serum glycoproteins as valuable resources for glycopeptide standards",
+      "first_author": "Li J.",
+      "authors_full": [
+        "Jun Li",
+        "Didi Liu",
+        "Yingjie Zhang",
+        "Zhehui Jin",
+        "Yue Xue",
+        "Shisheng Sun"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486975",
+      "focus_keywords": [],
+      "korean_summary": "혈청에서 통상 제거 대상이 되는 고농도 당단백질(면역글로불린, 알파-1-산성 당단백질, 합토글로빈, 보체 C3/C4 등)을 오히려 표준 당펩타이드 자원으로 활용하여, 당부위-특이적 분석으로 1322개의 고유 당펩타이드와 48개 N-글리코실화 부위를 동정하고 당쇄 구조에 따라 네 그룹으로 분류함으로써 당단백질체학 연구용 표준물질로서의 가치를 제시했다."
+    },
+    {
+      "doi": "10.1016/j.carbpol.2024.122754",
+      "title": "The human gut symbiont Ruminococcus gnavus displays strain-specific exopolysaccharides modulating the host immune response",
+      "first_author": "Laplanche V.",
+      "authors_full": [
+        "Victor Laplanche",
+        "Samantha Armiento",
+        "Immacolata Speciale",
+        "Tanja Šuligoj",
+        "Emmanuelle H Crost",
+        "Dimitra Lamprinaki",
+        "Laura Vaux",
+        "Kathryn Gotts",
+        "Cristina De Castro",
+        "Nathalie Juge"
+      ],
+      "cover_date": "2025-01-01",
+      "volume": "347",
+      "subtype": "Article",
+      "source": "Scopus Search API",
+      "abstract_available": true,
+      "pmid": "39486983",
+      "focus_keywords": [],
+      "korean_summary": "장내 공생균 Ruminococcus gnavus의 두 균주(ATCC 35913, E1)가 생산하는 외막 다당류(EPS) 구조를 규명하여, 기존에 알려진 글루코람난-I과 구별되는 글루코람난-II 구조(람노스 4단위 골격에 글루코스 측쇄)를 확인했으며, 균주별 당쇄 구조 차이가 수지상세포의 사이토카인 생성과 TLR4/NF-κB 활성화 양상에 균주 특이적으로 영향을 미침을 보였다."
+    }
+  ],
+  "notes": "Also found 43 unseen Article-subtype entries with cover_date 2024-11-01 to 2024-11-14, excluded as slightly outside the strict 2-year window (cutoff 2024-11-15)."
+}
