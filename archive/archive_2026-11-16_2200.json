@@ -1,0 +1,54 @@
+{
+  "run_timestamp_utc": "2026-11-16T22:00:00Z",
+  "collection_methods": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, PUBYEAR>2024, paginated start=0..475)",
+    "Elsevier Abstract Retrieval API (metadata only; abstract text not authorized - AUTHORIZATION_ERROR)",
+    "PubMed E-utilities ESearch (reldate=730 days, retmax=2000) + ESummary (batch metadata)",
+    "Semantic Scholar Graph API (DOI lookup, abstract fields returned null for all 3)",
+    "CrossRef API (DOI lookup, abstract field null)",
+    "WebSearch (title-based queries; one partial result found via ResearchGate snippet for paper 1)"
+  ],
+  "target_count": 20,
+  "secured_count": 3,
+  "eligibility_filters_applied": [
+    "exclude review/systematic review/mini-review articles",
+    "exclude microbe-centric articles (strain biology/development/culture optimization as core topic)",
+    "published within last 2 years"
+  ],
+  "new_articles": [
+    {
+      "title": "Wheatinan – The exopolysaccharide from the non-phytopathogenic Erwinia sp. STN24",
+      "authors": "Sellami E., Ferreira S.S., Coelho E., Coimbra M.A., Bougatef A., Haddar A.",
+      "doi": "10.1016/j.carbpol.2026.125975",
+      "coverDate": "2026-12-15",
+      "volume": "394",
+      "source": "Elsevier Scopus Search API",
+      "abstract_accessible": "partial (ResearchGate snippet only)",
+      "key_snippet": "The polysaccharide (250 µg/mL) attenuated the cell death process by directly scavenging intracellular ROS rather than activating endogenous antioxidant enzymes."
+    },
+    {
+      "title": "Gastrodin-assisted Monascus fermentation remodels highland barley starch: Multiscale structure, weak-gel formation and reduced in vitro digestibility",
+      "authors": "Pan W.-T., Cao Z., Huang Z.-Q., Xie J.-H., Huang Z.-B.",
+      "doi": "10.1016/j.carbpol.2026.126018",
+      "coverDate": "2026-12-01",
+      "volume": "394",
+      "source": "Elsevier Scopus Search API",
+      "abstract_accessible": "no"
+    },
+    {
+      "title": "Mechanism of enhanced ordered assembly of debranched high-amylose maize starch under molecular crowding",
+      "authors": "Xu C., Zhu Z.-J., Yu Z.-J., Li W.-J., Du X.-F., Chen X.",
+      "doi": "10.1016/j.carbpol.2026.126026",
+      "coverDate": "2026-12-01",
+      "volume": "394",
+      "source": "Elsevier Scopus Search API",
+      "abstract_accessible": "no"
+    }
+  ],
+  "notes": [
+    "Recovered a prior day's (2026-11-15) commit that existed only on a detached HEAD and had not reached origin/master; fast-forwarded master to include it before this run.",
+    "Scopus volume 394 (coverDate 2026-12-15) contains 16 total entries; 13 were already captured in prior runs as Articles-in-Press, leaving only 3 genuinely new entries today.",
+    "PubMed ESearch (reldate=730d) returned 677 pmids not yet in seen_articles.json by pmid key, but cross-referencing by DOI against existing doi: keys in seen_articles.json showed nearly all were duplicates of already-processed papers (same paper, different identifier). Only 3 PubMed-sourced candidates passed DOI dedup, and all 3 were excluded under the microbe-centric or non-research-article (expression of concern) rules.",
+    "Elsevier API key used here only has metadata search access, not abstract full-text access (AUTHORIZATION_ERROR on abstract view=FULL). Combined with the 3 new papers being extremely recently published (ahead of their Dec 2026 formal issue date), no abstract text could be retrieved via PubMed, Semantic Scholar, CrossRef, or WebSearch for 2 of 3 papers."
+  ]
+}
