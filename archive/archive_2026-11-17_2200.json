@@ -1,0 +1,61 @@
+{
+  "run_timestamp_utc": "2026-11-17_2200",
+  "collection_methods": [
+    "Elsevier Scopus Search API (ISSN 0144-8617, DOCTYPE(ar), sort=-coverDate, PUBYEAR>2024, LOAD-DATE AFT filters)",
+    "Elsevier Abstract Retrieval API (scopus_id) - metadata only, abstract not entitled (403 on COMPLETE view / article full-text)",
+    "PubMed E-utilities ESearch+EFetch (Carbohydr Polym[ta] AND Journal Article[pt] NOT Review[pt], reldate=60, retmax=200) - all 200 already in seen list",
+    "Keyword-focused Scopus TITLE-ABS-KEY searches: paper, cellulose, pectin, hydrogel, okara, paper coating, biomass, soybean protein isolate",
+    "WebSearch supplement for abstract lookup (unsuccessful - articles too new, not yet indexed elsewhere)"
+  ],
+  "target_count": 20,
+  "collected_count": 3,
+  "seen_articles_before_run": 5380,
+  "seen_articles_after_run": 5384,
+  "included_articles": [
+    {
+      "doi": "10.1016/j.carbpol.2026.125998",
+      "title": "Dual-crosslinked lanthanum-modified attapulgite chitosan and polyvinyl alcohol hydrogel beads with high compressive strength for phosphate removal from water",
+      "first_author": "Wang J.",
+      "affiliation": "Ministry of Agriculture of the People's Republic of China, Beijing, China",
+      "volume": "394",
+      "article_number": "125998",
+      "cover_date": "2026-12-15",
+      "focus_keywords": [
+        "hydrogel"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.126024",
+      "title": "Zn2+-coordinated cellulose acetate composite films with enhanced mechanical robustness and multifunctional performance",
+      "first_author": "Zhuang S.",
+      "affiliation": "Jiangnan University, Wuxi, China",
+      "volume": "394",
+      "article_number": "126024",
+      "cover_date": "2026-12-15",
+      "focus_keywords": [
+        "cellulose"
+      ]
+    },
+    {
+      "doi": "10.1016/j.carbpol.2026.125990",
+      "title": "Tailoring the spatial conformation of soy protein isolate fibrils via non-covalent carboxymethyl cellulose complexation: From structural evolution to enhanced thermal stability",
+      "first_author": "Tan X.",
+      "affiliation": "Northeast Agricultural University, Harbin, China",
+      "volume": "394",
+      "article_number": "125990",
+      "cover_date": "2026-12-15",
+      "focus_keywords": [
+        "soybean protein isolate",
+        "cellulose"
+      ]
+    }
+  ],
+  "excluded_articles": [
+    {
+      "doi": "10.1016/j.carbpol.2024.122660",
+      "title": "Impact of GOS and 2’-FL on the production and structural composition of membrane-associated exopolysaccharides by B. adolescentis and B. infantis",
+      "reason": "microbe-centric: Bifidobacterium adolescentis/infantis 균주의 성장 조건에 따른 균체 유래 세포막 결합 다당류(EPS) 생산/구조 변화를 다루는 미생물 생리학 중심 연구로 배제"
+    }
+  ],
+  "notes": "Backlog essentially exhausted after months of daily runs; only 4 genuinely new DOIs found across all search strategies, of which 1 excluded as microbe-centric (Bifidobacterium EPS study)."
+}
